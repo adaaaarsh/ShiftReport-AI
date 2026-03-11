@@ -355,28 +355,51 @@ def generate_report(user_input: str, api_key: str, model: str) -> str:
 
 
 # ──────────────────────────────────────────────
-# SIDEBAR — Configuration
+# MAIN HEADER
+# ──────────────────────────────────────────────
+st.markdown("""
+<div class="main-header">
+    <h1>🏭 ShiftReport AI</h1>
+    <p>Intelligent Shift-Handover Report Generator for Manufacturing Plants</p>
+</div>
+""", unsafe_allow_html=True)
+
+
+# ──────────────────────────────────────────────
+# CONFIGURATION — Always visible at top
+# ──────────────────────────────────────────────
+with st.expander("⚙️ Configuration — API Key & Model", expanded="api_key" not in st.session_state or not st.session_state.get("api_key")):
+    config_col1, config_col2 = st.columns([3, 1])
+    with config_col1:
+        api_key_input = st.text_input(
+            "🔑 OpenAI API Key",
+            type="password",
+            value=st.session_state.get("api_key", ""),
+            placeholder="sk-...",
+            help="Your OpenAI API key. Never shared or stored beyond this session.",
+        )
+        if api_key_input:
+            st.session_state["api_key"] = api_key_input
+    with config_col2:
+        model = st.selectbox(
+            "🤖 Model",
+            ["gpt-4o-mini", "gpt-4o", "gpt-4.1-nano", "gpt-4.1-mini", "gpt-4.1"],
+            index=0,
+            help="gpt-4o-mini is fast and cheap (recommended). gpt-4o and gpt-4.1 give the best results but cost more.",
+        )
+    if api_key_input:
+        st.success("✅ API key set. You can collapse this section.")
+    else:
+        st.warning("⚠️ Enter your OpenAI API key above to get started.")
+
+api_key = st.session_state.get("api_key", "")
+
+
+# ──────────────────────────────────────────────
+# SIDEBAR — Info only (optional)
 # ──────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## ⚙️ Configuration")
-    st.markdown("---")
-
-    # API Key input
-    api_key = st.text_input(
-        "🔑 OpenAI API Key",
-        type="password",
-        placeholder="sk-...",
-        help="Your OpenAI API key. Never shared or stored beyond this session.",
-    )
-
-    # Model selection
-    model = st.selectbox(
-        "🤖 Model",
-        ["gpt-4", "gpt-4-turbo", "gpt-3.5-turbo"],
-        index=0,
-        help="GPT-4 gives the best results. GPT-3.5-turbo is faster and cheaper.",
-    )
-
+    st.markdown("## 🏭 ShiftReport AI")
     st.markdown("---")
     st.markdown("## 📋 About")
     st.markdown(
@@ -412,17 +435,6 @@ with st.sidebar:
 
 
 # ──────────────────────────────────────────────
-# MAIN HEADER
-# ──────────────────────────────────────────────
-st.markdown("""
-<div class="main-header">
-    <h1>🏭 ShiftReport AI</h1>
-    <p>Intelligent Shift-Handover Report Generator for Manufacturing Plants</p>
-</div>
-""", unsafe_allow_html=True)
-
-
-# ──────────────────────────────────────────────
 # TABS
 # ──────────────────────────────────────────────
 tab_input, tab_report, tab_equipment, tab_prompt = st.tabs([
@@ -443,12 +455,14 @@ with tab_input:
         unsafe_allow_html=True,
     )
 
-    # Sample scenario buttons
+    # Sample scenario buttons — use callback to set text_area widget key directly
+    def load_sample(text):
+        st.session_state["shift_text_area"] = text
+
     cols = st.columns(2)
     for i, (label, text) in enumerate(SAMPLE_INPUTS.items()):
         with cols[i % 2]:
-            if st.button(label, key=f"sample_{i}", use_container_width=True):
-                st.session_state["shift_input"] = text
+            st.button(label, key=f"sample_{i}", use_container_width=True, on_click=load_sample, args=(text,))
 
     st.markdown("---")
 
@@ -461,7 +475,6 @@ with tab_input:
     # Text area for shift input
     shift_input = st.text_area(
         "Shift Description",
-        value=st.session_state.get("shift_input", ""),
         height=200,
         placeholder=(
             "e.g. Machine 7 on line B started making weird noises around 2pm, "
@@ -471,10 +484,6 @@ with tab_input:
         label_visibility="collapsed",
         key="shift_text_area",
     )
-
-    # Update session state
-    if shift_input:
-        st.session_state["shift_input"] = shift_input
 
     col_info, col_btn = st.columns([3, 1])
     with col_info:
