@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time of Onset: 03:00 (3:00 AM/PM)",
+  "Status: FAULTY / UNDER REPAIR",
+  "Current State: Line A is likely offline or operating with caution pending repair",
+  "Safety protocols followed regarding the oil leak (e.g., spill containment, if applicable)",
+  "No other significant incidents reported during this shift",
+  "Monitor the arrival and progress of the maintenance team for the Hydraulic Press (Line A)",
+  "Verify that the oil leak has been contained and that the area is safe before resuming operations on Line A",
+  "Continue standard monitoring of the adjacent lathe"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the oil leak and the lathe status, but adds many details not present in the supervisor notes, such as specific timestamps, status labels, safety actions, and monitoring steps. These fabrications lower accuracy and introduce unwarranted certainty, while the missing severity rating further harms the severity assessment. The structure is clear, giving high readability, and all input items are included, giving high completeness. However, the report fails to flag unknowns and treats assumptions as facts, resulting in low uncertainty handling."
+}

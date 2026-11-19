@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction, significant production impact",
+  "for maintenance",
+  "Status: Pending",
+  "Repair or replace Forklift #1 (M-15)",
+  "Verify availability of Forklift #2 (M-16) for future material handling",
+  "No additional issues reported during this shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the forklift M-15 and includes the reported facts, but it adds several details not present in the supervisor input, such as a severity description, maintenance action, pending tasks, and a general note, reducing accuracy. All input items are present, so completeness is high. The severity of HIGH aligns with the answer-key’s acceptable range, and the layout is clear, giving good readability. However, the report does not flag the missing reasons for the tag-out or the contradiction between usage and out-of-service status, resulting in low uncertainty handling."
+}

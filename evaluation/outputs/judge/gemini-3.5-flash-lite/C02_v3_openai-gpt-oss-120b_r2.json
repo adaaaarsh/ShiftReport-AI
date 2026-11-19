@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Parts request submitted",
+  "Acquire and install the replacement parts for M-03",
+  "Verify that the leak is fully resolved and perform a test run before returning to normal production",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly matches the machine ID, but it invents several actions, details, and the 'no safety incidents' statement. It assigns a CRITICAL severity without clear justification from the minimal input and completely fails to surface the chronological contradiction between running 400 pieces and being shut down due to a leak."
+}

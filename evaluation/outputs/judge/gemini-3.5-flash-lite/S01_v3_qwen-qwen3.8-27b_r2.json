@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production loss",
+  "Mechanical jam occurred during operation",
+  "To verify functionality",
+  "No other issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the packaging unit and captures all facts from the input, but includes several invented explanatory details and phrases not present in the notes. Severities are completely defensible and readability is high. Uncertainty handling is solid as no critical information was missing."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "12:00 PM time approximation",
+  "generator automatically engaged",
+  "Generator remains active; no further action taken during shift",
+  "Verify that the backup generator has cycled back to standby after the power fluctuation",
+  "Inspect the power distribution panel for any underlying issues that caused the lights to flicker",
+  "Confirm that all utility equipment (M-12, M-13, M-14) is operating normally and no further power interruptions are expected",
+  "No safety incidents or staffing changes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely guesses a specific machine ID (M-13) for an ambiguous input and invents an extensive amount of operational details, actions, and status updates not present in the supervisor notes. While it captures the core facts of flickering lights and production continuing, it fails to handle uncertainty by presenting a specific guess as fact. Readability is strong, but accuracy and uncertainty handling are severely impacted by the fabrications."
+}

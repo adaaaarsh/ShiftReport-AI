@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "impacting production flow",
+  "Monitored temperature",
+  "no immediate corrective action taken beyond observation",
+  "Temperature control needs verification for next shift",
+  "Verify the oven’s temperature control system and confirm it remains within spec",
+  "Monitor the CNC Milling Machine (M-07) for any recurrence of error codes"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates several actions and pending items not found in the input. It completely ignores the contradictions in the supervisor's notes (e.g., 'running fine' vs 'restarted twice'). Severities are reasonable, and the layout is very clear."
+}

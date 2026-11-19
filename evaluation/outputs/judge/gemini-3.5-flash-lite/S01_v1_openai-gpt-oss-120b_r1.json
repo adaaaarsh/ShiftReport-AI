@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Downtime: Approximately 10–12 minutes",
+  "Output: No loss of production volume; all scheduled units were completed on time",
+  "Continue visual inspections of Line B every 30 minutes",
+  "Schedule a preventive maintenance check on the packaging unit's feed rollers and sensors",
+  "Review jam incident logs to identify any pattern or root cause",
+  "No safety incidents were reported",
+  "quality checks post-jam confirmed compliance with specifications",
+  "No other equipment issues were observed during this shift",
+  "Staffing levels were adequate; all operators were briefed on the jam clearance procedure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "While the report captures all facts from the very brief input and correctly identifies the packaging unit (M-08), it massively hallucinates a large volume of operational details, downtime estimates, maintenance plans, and safety claims that were not in the supervisor's notes. This severely impacts accuracy and uncertainty handling by presenting completely fabricated procedures and impacts as fact. The structure is neat and captures the single issue fully, but the sheer level of invention tanks the accuracy score to 1."
+}

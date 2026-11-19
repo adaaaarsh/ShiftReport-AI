@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Approximately 12:00 PM",
+  "Action Taken: Monitored the situation, confirmed no impact on production, and continued operations",
+  "Status: Resolved",
+  "Pending Items: Keep an eye on the utility power supply and lighting circuits for any recurrence",
+  "Pending Items: Verify that the unexpected device that powered on is identified and secured",
+  "General Notes: Overall production remained stable despite the brief lighting issue",
+  "General Notes: No staffing changes or additional observations reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of detail regarding actions taken, status, and pending items. It correctly identifies the ambiguity of the utility issue without guessing a specific machine ID. The severity is reasonable given the input."
+}

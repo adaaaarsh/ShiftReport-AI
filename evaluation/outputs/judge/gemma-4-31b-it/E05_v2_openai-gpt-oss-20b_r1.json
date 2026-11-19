@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard, machine fully down, production stopped",
+  "Supervisor noted the leak; no repair performed during shift",
+  "Ongoing – requires immediate maintenance",
+  "Minor observation, no production impact",
+  "Supervisor logged the need for reteach; no action taken during shift",
+  "Pending – to be addressed by next shift",
+  "No other issues reported",
+  "Ensure safety protocols are followed when handling hydraulic leaks"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly maps 'Machine 17' to M-07 and 'Robot 2' to M-06 without flagging the ambiguity or lack of registry match. It fabricates extensive details regarding the impact, status, and actions taken for both issues. Severity for the leak is aggressively guessed as CRITICAL without evidence in the input."
+}

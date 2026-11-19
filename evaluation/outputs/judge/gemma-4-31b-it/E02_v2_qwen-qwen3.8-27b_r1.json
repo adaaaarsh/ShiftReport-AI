@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing (for M-03)",
+  "Status: Ongoing (for Paint Booth)",
+  "Investigate and resolve the recurring issue",
+  "Immediate troubleshooting required",
+  "Maintenance and Engineering should be notified to update the asset registry"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and correctly flags the unrecognized equipment. However, it fabricates several operational details (status 'Ongoing', specific instructions to investigate/troubleshoot, and notifications to Maintenance/Engineering) not found in the input. Severities were assigned confidently (HIGH/CRITICAL) despite no evidence in the input to justify those specific levels over UNKNOWN."
+}

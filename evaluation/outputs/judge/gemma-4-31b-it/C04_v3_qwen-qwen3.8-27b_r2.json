@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "risk of total coolant loss on Line C",
+  "If bearings are indeed failed, the pump may need to be shut down to prevent catastrophic failure or coolant spillage",
+  "Incorrect part number installed",
+  "Misalignment during installation",
+  "Contamination in the coolant system causing rapid wear",
+  "Defective batch of replacement parts",
+  "Monitor coolant pressure and temperature on Line C machines (M-09, M-10) for any signs of cooling loss",
+  "Engineering/Maintenance should review historical maintenance logs for M-11 to identify if a design change, different part specification, or process adjustment is required to stop the cycle of failures",
+  "Ensure spare bearings or a backup pump are available in the warehouse"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates a significant amount of technical analysis, root cause hypotheses, and monitoring steps not present in the input. It also fails to flag the contradiction between the pump being 'brand new' and having 'original bearings' that are 'shot again'."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "alternative equipment was used to move finished pallets to shipping at 06:00",
+  "Arrange repair or replacement for Forklift #1 (M-15) and remove tag once serviceable",
+  "Verify that backup logistics equipment is ready for continued pallet movement",
+  "No other equipment issues reported during this shift",
+  "All finished pallets were successfully moved to shipping using the available forklift at 06:00"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely misses the core contradiction in the input where a tagged-out forklift was reportedly used anyway. It adds significant fabricated details including action items, repair arrangements, and statements about alternative equipment. While completeness regarding the raw facts is decent and readability is clear, the accuracy and uncertainty handling fail badly by normalizing a safety violation."
+}

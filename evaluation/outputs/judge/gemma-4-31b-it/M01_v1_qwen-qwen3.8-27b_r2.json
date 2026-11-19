@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production cannot resume full quality output until replaced",
+  "Procurement/Inventory to source the specific insert immediately",
+  "Reduced throughput/output rate",
+  "Monitor for further degradation",
+  "Consider scheduling maintenance check if cycle time continues to drift or if output targets are at risk",
+  "Facilities/Maintenance to inspect and repair HVAC unit",
+  "Confirm ETA for the missing lathe insert",
+  "assess if alternative tooling or manual inspection can mitigate risk",
+  "if Line A Lathe must remain down",
+  "Follow up with Facilities on the East Bay HVAC repair",
+  "If it exceeds 40 seconds or shows signs of mechanical failure, escalate to maintenance",
+  "Ensure all 20 reworked parts are inspected and cleared before returning to inventory",
+  "this is the biggest bottleneck right now",
+  "The heat in the East Bay may affect worker productivity and morale",
+  "Calculate potential output loss if needed for planning"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs (M-02, M-04, M-14), which is a machine match error. It fabricates numerous 'Action Required' and 'Next Shift' steps not found in the input. Severities are not explicitly assigned, and it presents the status of the lathe as 'Halted/Impacted' without evidence from the input."
+}

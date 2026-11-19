@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Likely a minor emission",
+  "No immediate safety concern or production impact",
+  "None performed during this shift",
+  "Ongoing to be investigated by the next shift",
+  "Minor production interruption, no safety hazard",
+  "Ongoing to be checked and resolved by the next shift",
+  "Verify ventilation and filter status",
+  "Inspect M-06 for mechanical or software glitches causing intermittent pauses; run diagnostic and restart if necessary",
+  "No critical incidents or safety hazards reported",
+  "Production continued without major disruptions"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures the two items from the input, but heavily fabricates actions, statuses, impact assessments, and recommendations that were never mentioned by the supervisor. Readability is strong due to clear formatting, but the accuracy score suffers significantly due to the massive volume of invented details."
+}

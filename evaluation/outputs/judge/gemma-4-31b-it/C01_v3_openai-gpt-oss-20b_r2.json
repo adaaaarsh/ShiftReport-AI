@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine experienced a fault that temporarily halted production",
+  "error cleared after second restart",
+  "Over-temperature could risk product quality and safety",
+  "Monitored and verified that temperatures have returned to normal operating range",
+  "no additional incidents or staffing concerns reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machine IDs correctly. However, it fabricates several details regarding the cause and outcome of the events (e.g., 'halted production', 'monitored and verified'). It completely ignores the contradictions in the supervisor's input and fails to flag any missing information."
+}

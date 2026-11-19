@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Perform a vibration analysis and check spindle bearings.",
+  "Log any abnormal wear and schedule corrective maintenance if needed.",
+  "Report to Facilities/Building Services immediately.",
+  "Arrange for temporary lighting or signage for safety until repairs are completed.",
+  "Verify that the issue is resolved before the next shift.",
+  "No safety incidents were reported during this shift.",
+  "All production targets for the period were met despite the spindle noise on Mill A.",
+  "Encourage staff to observe any further abnormal sounds or vibrations on Mill A and report promptly."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all relevant points from the input but heavily fabricates actions, outcomes, and safety statements that were never provided. Parking lot lights are incorrectly framed as an equipment issue item requiring extensive action, and multiple maintenance steps are completely invented."
+}

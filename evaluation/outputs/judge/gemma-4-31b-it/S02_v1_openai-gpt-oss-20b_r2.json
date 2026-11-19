@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "10:35 AM - Initial Diagnosis",
+  "jammed wire spool as the root cause",
+  "10:40 AM - Corrective Action",
+  "ensure proper feed tension and alignment",
+  "No further issues reported during the remainder of the shift",
+  "Downtime: 35 minutes",
+  "Production Loss: Estimated 5 units (based on 10 min per unit)",
+  "Safety: No incidents or safety concerns reported",
+  "Verify production logs for exact units lost",
+  "Inspect new wire spool for quality compliance",
+  "Update maintenance schedule for robot",
+  "Review operator training on wire feed troubleshooting",
+  "Preventive Maintenance: Schedule a routine inspection of the wire feed system every 5,000 cycles",
+  "Spool Inventory: Maintain an on-hand spare spool",
+  "Operator Briefing: Conduct a brief refresher"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific timestamps, root causes, production loss estimates, safety claims, and an entire set of follow-up actions and recommendations not present in the input. While it captures all the original facts, it presents these inventions as certainties without flagging any uncertainty. The structure is highly readable, but the content is largely hallucinated."
+}

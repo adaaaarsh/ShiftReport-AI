@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Supervisor noted issues were 'mostly sorted,' implying initial troubleshooting or isolation of the faulty unit occurred",
+  "Diagnose and repair: Investigate the specific 'weird' behavior (e.g., hydraulic leak, steering issue, battery fault, sensor error)",
+  "Lack of specific details regarding the forklift issue requires immediate clarification from the next shift to prevent logistics bottlenecks",
+  "Recommend next shift supervisor verify the operational status of all other equipment to ensure the 'mostly sorted' status is accurate"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the forklift and flags missing information. However, it fabricates specific potential faults (hydraulic leak, etc.) and implies specific actions taken (troubleshooting/isolation) that were not in the input. Severity was assigned as Medium without evidence, which is a minor error."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Forklift 1 listed as a separate issue with severity LOW",
+  "Time Noticed 1:40 PM assigned to Forklift 1",
+  "Consider spare forklift if usage exceeds normal limits",
+  "No other incidents or safety concerns reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the details for Forklift #2, but completely misinterprets Forklift #1 by turning it into a separate equipment issue (distractor reported as issue) and invents several details and recommendations not in the input. While completeness and readability are decent, accuracy and uncertainty handling suffer due to the fabricated issue and inflated severity for M-16."
+}

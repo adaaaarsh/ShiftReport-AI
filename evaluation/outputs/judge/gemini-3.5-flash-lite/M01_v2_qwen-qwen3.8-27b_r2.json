@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Day Shift (Inferred from 1 PM timestamp)",
+  "Procure or locate the missing tool insert. Once available, replace tooling and verify finish tolerance before resuming full production.",
+  "Check for hydraulic pressure, mold temperature, or mechanical wear.",
+  "Report East Bay heating issue to Facilities/Maintenance for inspection of airflow or thermostat settings.",
+  "Ensure these are tracked and not mixed with good stock.",
+  "may impact productivity or safety if heat stress becomes a concern."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues and maps the correct equipment IDs, but invents a shift letter and numerous recommended actions and next-step details not present in the input. Severities are reasonable, and readability is exceptionally structured. However, it fails to surface all unknown gaps by hallucinating pending troubleshooting suggestions."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential scrap/rework required",
+  "Machine adjusted/fixed by supervisor",
+  "Re-calibrate or call maintenance for formal sign-off",
+  "Validate machine parameters before resuming full production speed",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and brilliantly flags the ambiguity of the CNC machine reference, but it severely overstates the severity to HIGH and hallucinates numerous operational recommendations, actions, and the claim that no safety incidents occurred. It receives a 2 in accuracy due to multiple fabricated details and a 3 in severity because HIGH is an overestimation with no supporting evidence."
+}

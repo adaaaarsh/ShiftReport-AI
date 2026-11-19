@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operating normally after adjustment",
+  "Monitor belt tension during next shift; schedule a preventive inspection if slipping recurs",
+  "Operating within normal parameters",
+  "Verify temperature sensor calibration during routine maintenance",
+  "Offline until fully charged",
+  "Check battery health and charging cycle; consider battery replacement if charge time exceeds normal range",
+  "No safety incidents were reported during the shift.",
+  "All equipment, after corrective actions, returned to normal operation",
+  "Recommend a brief visual inspection of Conveyor B’s belt tension at the start of the next shift",
+  "Mid‑shift (approx. 13:00)",
+  "Temperature alarm (high)",
+  "Battery failure (dead)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains many details not present in the supervisor input, resulting in a very low accuracy score. All input items are represented, so completeness is high. No severity levels are provided, leading to a poor severity classification score. The structured table makes the report highly readable, but it fails to flag unknown or missing information, yielding a low uncertainty handling score."
+}

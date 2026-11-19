@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-10 — Industrial Oven",
+  "intermittent overheating and cycle failures",
+  "Major malfunction causing production delays on Line C",
+  "supervisor noted the recurrence and requested maintenance review",
+  "Schedule a maintenance inspection of M-10 (Industrial Oven) to diagnose and resolve the overheating issue",
+  "Verify that all safety interlocks and temperature sensors are functioning correctly",
+  "Update the maintenance log with the recurrence details and any corrective actions taken",
+  "No other equipment issues were reported during this shift",
+  "Staffing levels were adequate; no overtime or shift changes were noted"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely fabricates the specific machine (M-10), the nature of the problem (overheating), and the impact (production delays), while failing to flag the ambiguity of 'the thing on line C'. Severity is guessed without evidence, and numerous administrative details are invented."
+}

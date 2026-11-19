@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential product quality risk due to temperature excursion",
+  "Time Noticed: Before 22:15 (exact start time not specified)",
+  "Status: Ongoing — Batch in progress; interlock remains bypassed",
+  "What is the root cause of the initial temperature spike to 380°F?",
+  "IMMEDIATE: If still bypassed, assess safety and production status immediately",
+  "Documentation: Ensure the temporary bypass of the safety interlock is documented in the maintenance/safety log with proper authorization details",
+  "Safety interlock bypass requires strict adherence to safety protocols. Ensure all relevant personnel are aware of the bypass status before resuming normal operations.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies M-10 with a critical severity. However, it includes several invented details, assumptions, and recommendations not present in the brief input, impacting its accuracy score. It handles uncertainty and missing items very well by explicitly listing necessary clarifications."
+}

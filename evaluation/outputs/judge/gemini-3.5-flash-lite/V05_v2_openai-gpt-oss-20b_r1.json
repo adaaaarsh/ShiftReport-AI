@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Resolved status",
+  "Verify and inspect the replacement parts used during the repair",
+  "No other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily selects M-01 out of three possible CNC machines without flagging the ambiguity, and invents resolution status as well as the specific instruction to inspect replacement parts rather than parts run. It fails to handle uncertainty by guessing specific machine IDs and claiming no other issues. However, it captures the core facts and presents them in a clean, highly readable format."
+}

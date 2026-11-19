@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "To prevent overshoot and maintain product quality",
+  "The oven was operating above its normal setpoint",
+  "The interlock bypass was performed under supervision",
+  "no immediate safety hazards were identified",
+  "Maintaining the oven at 355 °F mitigates risk of over‑cooking while allowing the batch to finish on schedule",
+  "Review the interlock bypass procedure to ensure it is only used when absolutely necessary and that a post‑operation audit is completed",
+  "Consider scheduling a preventive maintenance check on Oven C’s temperature control loop to prevent future setpoint deviations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input but includes significant fabrications regarding the reasoning (overshoot, product quality, safety hazards) and recommendations. It fails to assign a severity level and does not explicitly flag the missing information as unknown, instead turning them into 'Actions Required'. The machine ID M-10 is not explicitly used, though 'Oven C' is correctly identified."
+}

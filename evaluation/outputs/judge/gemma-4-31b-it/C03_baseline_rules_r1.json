@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures all facts from the input and correctly maps the machine ID. However, it completely fails to flag the blatant contradiction between the forklift being 'tagged out' and being 'used at 6', presenting them as two separate issues instead of a conflict."
+}

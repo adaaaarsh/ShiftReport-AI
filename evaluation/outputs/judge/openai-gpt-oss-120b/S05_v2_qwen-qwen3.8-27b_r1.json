@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (Inferred from 9:12 PM timestamp)",
+  "Status: Ongoing (Pending maintenance inspection)",
+  "Monitoring: Monitor air pressure stability on Line A during the next shift to ensure the issue does not recur before the maintenance inspection.",
+  "Production on Line A was temporarily impacted due to the loss of air tools but resumed after the breaker reset.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly includes all facts from the supervisor input, so completeness is high. However, it adds several invented details such as the shift label, status, monitoring steps, and production impact, resulting in poor accuracy and inadequate handling of unknown information, leading to low uncertainty handling. The severity assigned (HIGH) aligns with the acceptable range, and the layout is clear and well‑structured, giving high readability."
+}

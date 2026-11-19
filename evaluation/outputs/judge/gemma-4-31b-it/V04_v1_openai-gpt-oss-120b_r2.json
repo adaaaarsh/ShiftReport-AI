@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time 12:00 – 13:00",
+  "Affected Area: Main floor, Assembly Line 2",
+  "Action: Notified Facilities Maintenance (Ticket #2026-11-05-U01)",
+  "Action: Monitored equipment for abnormal behavior",
+  "Status: Resolved – lights stabilized; equipment returned to normal operation",
+  "Time 12:30 – 13:00",
+  "Affected Area: Adjacent storage area",
+  "Action: Ensured all personnel were aware of the situation",
+  "Action: Verified that emergency lighting was functional",
+  "Status: No impact on safety or production",
+  "Action: maintenance inspected power distribution panels and confirmed no critical faults",
+  "Action: Conducted quick walk-throughs to confirm emergency lighting and fire safety systems were operational",
+  "Action: Supervisors kept a close eye on line performance",
+  "Follow-up: Await final report from Maintenance on root-cause analysis",
+  "Follow-up date: 2026-11-07",
+  "Recommendation: Consider scheduling a brief power quality audit",
+  "Recommendation: Review ticket #2026-11-05-U01"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report is heavily fabricated, inventing specific times, ticket numbers, maintenance actions, and follow-up dates not present in the input. While it captures the basic facts and is highly readable, it presents a fictional narrative of resolution and process. It fails to flag the ambiguity of the equipment that 'kicked on' as an unknown, instead treating it as a managed event."
+}

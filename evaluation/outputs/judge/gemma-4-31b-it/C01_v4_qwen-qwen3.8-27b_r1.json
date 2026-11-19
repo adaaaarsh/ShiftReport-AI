@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Was maintenance notified of the intermittent fault?",
+  "posing potential risk to product quality or equipment integrity",
+  "Was maintenance or process engineering notified?",
+  "Monitor M-07 (Line B) for recurrence of the error code observed at 3:00 PM",
+  "Review production logs for M-10 (Line C) to determine if any batches were processed during the 450-degree spike and verify quality compliance",
+  "No safety incidents or staffing issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and facts accurately and assigns reasonable severities. However, it fabricates several monitoring steps, notifications, and a safety claim not present in the input. It also fails to flag the contradictions between the supervisor's 'everything's good' claims and the actual events."
+}

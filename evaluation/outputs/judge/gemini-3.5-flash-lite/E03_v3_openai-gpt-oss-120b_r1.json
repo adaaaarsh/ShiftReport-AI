@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "1:30 PM",
+  "Inspect and diagnose the spindle noise on M-01; arrange maintenance if required",
+  "Verify that the parking lot lighting issue is addressed by facilities"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the main issue with M-01 and handles the secondary notes well, but incorrectly turns a distractor (Mill on B) into an issue and adds some fabricated action items and a specific PM time that were not in the input. Severities and completeness are strong, while uncertainty handling is moderate as it assumes PM for 1:30 without noting ambiguity."
+}

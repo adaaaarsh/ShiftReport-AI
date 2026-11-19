@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "robot was taken offline pending reteach",
+  "Reteach to be completed by the next shift",
+  "No safety hazards reported during this shift",
+  "All other equipment operated normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies both issues and flags the unrecognized Machine 17. However, it guesses that 'robot 2' is M-06 without flagging the ambiguity and fabricates several operational details (robot taken offline, safety status, and general equipment status)."
+}

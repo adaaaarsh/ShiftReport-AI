@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time of Occurrence: Approximately 12:15 PM (lunch hour)",
+  "Symptoms: A sudden surge (or “kick”) was detected on the electrical supply, causing a brief drop in voltage.",
+  "Immediate Response: The electrical panel was checked; no breakers tripped.",
+  "Immediate Response: The lighting system was reset and returned to normal operation within 5 minutes.",
+  "Root Cause (Preliminary): Likely a transient voltage spike from the main supply or a momentary fault in the lighting circuit.",
+  "Follow-up Actions: Electrical maintenance team to inspect the affected circuit and verify no underlying fault.",
+  "Follow-up Actions: Consider installing a surge protector or upgrading the lighting system if recurrent spikes are observed.",
+  "Production Status: Output: 100% of scheduled units produced.",
+  "Production Status: Quality: No defects reported; all QC checks passed.",
+  "Production Status: Downtime: None attributable to the utilities incident.",
+  "Safety & Compliance: No safety incidents or near-misses.",
+  "Safety & Compliance: All safety protocols were followed; operators remained in their designated zones.",
+  "Recommendations for Next Shift: Monitor the lighting and electrical panel for any further irregularities.",
+  "Recommendations for Next Shift: Verify that the surge protection measures are functioning correctly.",
+  "Recommendations for Next Shift: Report any similar incidents immediately to the maintenance team."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an extensive amount of detail—such as specific times, root causes, responses, and safety records—that is entirely absent from the sparse supervisor input. It captures the main facts regarding the utilities flicker and production continuation, but fails to handle uncertainties appropriately by inventing specific explanations and actions."
+}

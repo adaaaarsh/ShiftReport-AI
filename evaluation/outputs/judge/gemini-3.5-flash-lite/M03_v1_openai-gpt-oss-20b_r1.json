@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM timestamp added to the 3:20 time",
+  "Operator monitored the coolant pump",
+  "No quality issues reported for the packaging unit",
+  "Recommendations for maintenance to inspect and replace pump bearings",
+  "Recommendations for quality control to verify CNC spindle vibration levels",
+  "Recommendations for human resources to arrange a temporary operator"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues and presents them clearly in a structured table and summary. However, it invents several follow-up actions, monitoring steps, and recommendations that were not in the input. Severities are implicitly handled or left unstated, which is appropriate given the vague input."
+}

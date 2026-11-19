@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production stoppage",
+  "Monitor the operator’s wrist condition to ensure the burn does not worsen or affect their ability to operate safely",
+  "Review the specific task being performed at 8:00 PM to identify if any PPE (Personal Protective Equipment) or safety guard adjustments are needed to prevent recurrence",
+  "All other equipment and production lines reported as normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several monitoring and review actions not present in the input. It fails to flag the contradiction between 'No safety incidents' and the reported burn. Severity is assigned as LOW without explicit evidence of production impact, though it is a reasonable guess."
+}

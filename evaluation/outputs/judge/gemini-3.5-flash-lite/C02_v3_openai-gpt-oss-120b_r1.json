@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted on the press",
+  "parts request submitted and waiting for delivery",
+  "Follow up on parts order and install them on M-03 to bring the hydraulic press back online",
+  "Verify that the leak has been fully repaired before restarting production",
+  "indicating no quality issues with the output prior to the leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the core issue and maps M-03 accurately, but invents several specific actions and follow-up steps not present in the brief input. It completely misses the contradiction between the shutdown and the 400 pieces run, framing them smoothly rather than questioning the timeline. Severities and facts are otherwise handled well, with high readability."
+}

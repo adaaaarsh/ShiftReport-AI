@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Noise only, no impact on coolant flow or production",
+  "Monitored; no corrective action taken yet",
+  "PM time designation on 3:20",
+  "Adjusted operation to half speed to maintain output with reduced labor",
+  "Will return to full speed when staffing is restored",
+  "Expected return of a full-time operator and any plan for temporary coverage",
+  "No safety incidents reported",
+  "Overall production continued despite minor equipment noises and staffing shortage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items completely and formats them clearly, achieving high marks for readability and uncertainty handling. However, it invents several details such as assigning a 'PM' time marker to 3:20, explaining the motivation behind half-speed operation, and adding general notes like 'No safety incidents reported' that were not stated by the supervisor, resulting in a moderate accuracy score."
+}

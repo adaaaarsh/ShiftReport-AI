@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine is idle pending replacement",
+  "Potential scrap and re-work cost; risk of further downtime if not resolved",
+  "Reduced throughput (~18% loss) and possible delay in meeting output targets",
+  "No immediate corrective action taken; monitoring ongoing",
+  "Issue reported to facilities",
+  "Decreased comfort, potential impact on product quality in temperature-sensitive areas",
+  "HVAC continues to blow warm air"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts but fabricates several details regarding machine status (idle), actions taken (reported to facilities), and impacts (18% loss). It fails to flag any missing information or ambiguity, presenting the situation as fully understood. Readability is excellent."
+}

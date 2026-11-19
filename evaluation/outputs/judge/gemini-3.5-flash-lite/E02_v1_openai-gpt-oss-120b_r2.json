@@ -1,0 +1,62 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fault persists – same symptoms as yesterday (e.g., [describe symptom: uneven feed, stoppage, error code, etc.])",
+  "Reduced output on Line [X]; minor backlog of orders",
+  "Performed routine reset and inspected for obvious wear",
+  "Logged error code in maintenance system (Ticket # [####])",
+  "Notified Maintenance lead at 08:45",
+  "Maintenance to complete detailed diagnosis and repair today",
+  "If parts are required, expedite ordering",
+  "Update production schedule to re-allocate work to alternate press if possible",
+  "Completely non-operational (no airflow/heat, error code PB-D-03)",
+  "All units on Line D cannot receive final coating; line halted",
+  "Shut down booth safely and isolated power",
+  "Completed initial safety check – no visible damage to fans or heaters",
+  "Opened a maintenance ticket (Ticket # [####]) and informed the Paint-Shop Supervisor at 09:10",
+  "Maintenance to inspect blower motor and temperature controller",
+  "If a part replacement is needed, arrange for spare or order ASAP",
+  "Consider temporary rerouting of paint jobs to Line C (capacity permitting)",
+  "Overall Output: Approx. -12 % vs. planned target for the shift due to the press issue and Line D paint booth outage",
+  "Backlog: ~[quantity] units awaiting paint on Line D; ~[quantity] units delayed on the press line",
+  "Mitigation: Shifted 20 % of Line D workload to Line C where possible; re-sequenced orders to prioritize high-priority jobs",
+  "Verify completion of diagnostic work",
+  "Confirm availability of any required spare parts",
+  "Perform a test run before resuming full production",
+  "Complete inspection of blower motor, temperature sensor, and control board",
+  "Replace faulty components or authorize external service if needed",
+  "Conduct a functional test and document results",
+  "Update the production schedule in the ERP system to reflect current capacity",
+  "Communicate any order delays to the Planning & Logistics team",
+  "Ensure all lock-out/tag-out (LOTO) procedures remain in place until repairs are verified",
+  "Perform a brief safety walk-through of the affected areas before restarting equipment",
+  "Verify inventory for press-specific components and paint-booth motor; place urgent requisition if stock is insufficient",
+  "All error codes and maintenance tickets have been entered into the CMMS; ensure they are closed only after successful verification",
+  "Keep the floor crew informed of repair status to avoid confusion and maintain morale"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 3,
+ "uncertainty": 5,
+ "rationale": "The report captures both items from the input and correctly handles severities and uncertainties, but it massively hallucinates extensive details, actions, error codes, and metrics that were not provided in the supervisor's brief notes. It heavily pads the template with placeholders and fabricated procedures, dragging down accuracy to a 1."
+}

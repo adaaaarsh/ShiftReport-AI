@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: M7 (Morning Shift)",
+  "Refilled to recommended level",
+  "Replace headlight immediately",
+  "ensure proper lighting in all aisles",
+  "document the reason and obtain supervisor approval",
+  "Conduct safety briefing on lighting and LOTO procedures",
+  "This should be documented and reviewed to balance safety with throughput"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely fails to use the provided equipment registry, treating machine IDs (M7, HP, FL1) as names or categories rather than mapping them to the registry. It fabricates several actions (refilling coolant, safety briefings) and misinterprets 'M7' as the shift name. While readable, it presents ambiguous data as fact and invents operational details."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All safety protocols were reviewed and documented",
+  "Oven C is operating within acceptable temperature range for the current batch",
+  "No abnormal readings or alarms were recorded during the manual override period",
+  "Interlock bypass was monitored continuously",
+  "no safety incidents occurred",
+  "Consider scheduling a brief training refresher on interlock procedures for all operators to reinforce safety protocols",
+  "Review the need for manual overrides in future batches to minimize potential safety risks"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and flags all missing items, but it is heavily laden with fabrications regarding safety protocols, monitoring, and recommendations not found in the input. Because it invents multiple safety-related outcomes and actions, the accuracy is low. Severity was not explicitly assigned, though the structure is clear."
+}

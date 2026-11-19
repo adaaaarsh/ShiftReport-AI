@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The description for M-06 incorrectly includes the text about the compressor short-cycling",
+  "The description for M-12 incorrectly includes the text about the welding robot needing a tip change"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 2,
+ "rationale": "The report captures all issues and maps the correct machine IDs, but copies mixed-up text descriptions into both M-06 and M-12. Severities are mostly reasonable, though the compressor's severity is classified as low without clear justification. It fails to flag missing details or uncertainties effectively."
+}

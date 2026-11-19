@@ -1,0 +1,60 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil dripping/leaking (specified as oil)",
+  "leak poses safety and environmental risk",
+  "Immediate safety intervention required",
+  "Vehicle should be taken out of service until repaired",
+  "Risk of overheating or process failure if not replenished",
+  "Perform LOTO on M-03 immediately",
+  "Do not operate until secured",
+  "Take M-15 out of service",
+  "Investigate near-miss in Aisle 3",
+  "Escalate M-07 issue to Maintenance Supervisor",
+  "Replenish coolant for Line C",
+  "critical safety violation that must be addressed in the next shift's safety briefing",
+  "verify if a ticket was created or if a direct escalation is needed",
+  "Line A has a safety hold risk"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it contains extensive fabrications by inventing specific actions, risks, and instructions (e.g., 'environmental risk', 'safety briefing', 'ticket creation') not present in the input. It also fails to flag any missing information or ambiguities, presenting the inferred data as fact."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operates intermittently / “weird” behavior observed during material handling",
+  "Supervisor performed a visual inspection; no obvious faults found",
+  "forklift was run through a short test cycle",
+  "Status: Ongoing – requires further diagnostics",
+  "Perform a detailed mechanical and electrical inspection of Forklift #1 (M-15) to identify the cause of the intermittent behavior",
+  "Log any error codes or abnormal sounds during operation and report to maintenance",
+  "Overall shift ran smoothly with no major production interruptions",
+  "Staffing levels were adequate; no additional remarks"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely invents actions, causes, and statuses, guessing M-15 for the ambiguous forklift reference and assigning a medium severity without evidence. It captures the general notion of a forklift issue, but fails to handle uncertainty by picking a specific machine ID and fabricating numerous details."
+}

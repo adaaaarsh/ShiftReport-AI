@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine secured and isolated",
+  "No defects or issues reported during the operational period",
+  "Monitor for any further leaks or fluid loss while the machine is offline",
+  "Plan production schedule adjustments due to the downtime of Press A",
+  "Ensure area around Hydraulic Press A is clear of any spilled hydraulic fluid to prevent slip hazards",
+  "Verify machine is properly locked out/tagged out (LOTO) if required by protocol while awaiting repair"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all details from the input but heavily fabricates actions, safety instructions, and operational statuses not present in the notes. It fails to flag the contradiction regarding the shutdown versus running 400 pieces. However, the readability is high and the formatting is clear."
+}

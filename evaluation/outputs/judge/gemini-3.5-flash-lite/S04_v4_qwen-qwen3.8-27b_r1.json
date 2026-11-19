@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics capacity is currently reduced to 50% (1 of 2 forklifts operational)",
+  "No other equipment issues or safety incidents reported",
+  "Verify if any additional forklift support is required if M-15 also experiences issues",
+  "Is a spare tire available on-site?"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the machine, but assigns a HIGH severity which is exaggerated given the input, and adds several fabricated details about logistics capacity reduction and safety incidents. Uncertainty handling and completeness are strong, but the extra invented context hurts accuracy and severity defensibility."
+}

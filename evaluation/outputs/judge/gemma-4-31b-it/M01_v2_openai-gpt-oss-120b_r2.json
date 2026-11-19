@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine still operable",
+  "tooling wear",
+  "Issue logged; monitoring continues",
+  "Reported to facilities; awaiting investigation/repair",
+  "No safety incidents reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts but includes several fabrications regarding actions taken (e.g., 'reported to facilities', 'issue logged') and a claim about safety incidents. It fails to flag any missing information or ambiguities, presenting the status as 'Ongoing' without noting the unknown status of the lathe's operation or the insert order."
+}

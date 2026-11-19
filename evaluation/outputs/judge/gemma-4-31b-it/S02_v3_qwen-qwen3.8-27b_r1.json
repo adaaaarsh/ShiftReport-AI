@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production stopped on Line B for approximately 35 minutes",
+  "No other incidents or staffing issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is complete and highly readable. However, it fabricates a specific outcome (production stopped on Line B) and a general claim about other incidents. The severity 'HIGH' is slightly aggressive given the short downtime and successful resolution, though defensible."
+}

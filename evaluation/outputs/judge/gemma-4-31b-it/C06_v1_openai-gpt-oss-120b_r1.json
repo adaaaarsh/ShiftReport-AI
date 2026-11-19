@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pressure stable at 110 psi (± 2 psi)",
+  "No alarms or abnormal noises observed",
+  "Pressure dropped from 2 psi to 4 psi repeatedly",
+  "Issue persists; may affect tool performance",
+  "Routine monitoring; no adjustments required",
+  "System stable",
+  "Verified regulator settings",
+  "Checked for obvious leaks in hoses and connections",
+  "Reset the line pressure valve",
+  "Pressure drop continued; root cause not resolved",
+  "Clogged filter or moisture separator",
+  "Leaking fittings or cracked hose",
+  "Faulty pressure regulator or valve on Line A",
+  "Perform a detailed leak test on Line A (use soapy water or ultrasonic detector)",
+  "Inspect and, if necessary, replace the filter/micro-separator",
+  "Verify regulator operation; replace if out of spec",
+  "Document any parts replaced and retest pressure stability before the next shift",
+  "Continue to watch pressure and temperature",
+  "log any deviation from the 110 psi set point",
+  "Allocate time early in the next shift to isolate and rectify the pressure loss issue",
+  "Ensure all safety relief valves are functional",
+  "area around the compressor remains clear of obstructions",
+  "No other equipment reported abnormal behavior during this shift",
+  "All safety protocols were followed; no incidents or near-misses recorded"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing numerous actions taken, potential causes, and recommended follow-ups not present in the input. It also fails to map the compressor to its registry ID (M-12) and ignores the contradiction between the compressor's steady pressure and the tools' pressure loss. While readable and complete in terms of capturing the basic facts, the level of invention is extreme."
+}

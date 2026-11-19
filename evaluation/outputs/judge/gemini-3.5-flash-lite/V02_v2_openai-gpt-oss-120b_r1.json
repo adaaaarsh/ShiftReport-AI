@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No corrective action taken during this shift",
+  "Ongoing / Pending status",
+  "Perform a detailed inspection and root-cause analysis",
+  "Implement corrective maintenance or schedule a service call as needed",
+  "The recurring nature of the problem on Line C suggests a deeper underlying fault"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the ambiguous Line C reference and captures all available facts, but it hallucinates several actions, statuses, and causes that were not present in the brief input. Severity is moderately defensible though slightly high for an unspecified issue, and readability and uncertainty handling are both excellent due to the clear layout and proper flagging of ambiguity."
+}

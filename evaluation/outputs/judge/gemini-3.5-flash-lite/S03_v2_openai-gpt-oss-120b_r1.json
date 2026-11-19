@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine maintenance, no impact on production",
+  "Status: Resolved",
+  "Monitor fuel level; refill if it drops below 50%",
+  "Ensure next weekly test is scheduled for the following week",
+  "All systems operating normally. No production interruptions reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the single item from the input and assigns a reasonable low severity, while maintaining high readability and structure. However, it introduces several fabricated details and recommended actions not stated in the input (such as refilling below 50% and scheduling future tests). Uncertainty handling is moderate because it presents routine operational checks and general statements not explicitly provided by the supervisor."
+}

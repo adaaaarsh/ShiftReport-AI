@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard and full production halt on Line A",
+  "No other equipment issues reported",
+  "No staffing or safety incidents noted",
+  "Verify that Line A air tools are functioning correctly after pressure restoration",
+  "Monitor air pressure levels to ensure stability"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but fabricates several details, including the 'Safety hazard' claim and general notes about safety/staffing. Severity is marked as CRITICAL without evidence of a safety hazard in the input. It flags some clarifications but fails to flag the specific missing item regarding scrapped parts."
+}

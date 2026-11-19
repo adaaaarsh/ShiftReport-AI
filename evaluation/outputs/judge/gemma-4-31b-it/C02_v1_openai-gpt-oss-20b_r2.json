@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "press shut down for safety and to prevent further damage",
+  "no defects reported",
+  "Follow up with procurement for the required parts",
+  "Schedule maintenance inspection once parts arrive",
+  "Verify leak source and implement preventive measures",
+  "All safety protocols were followed during shutdown"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains numerous fabrications regarding the reason for shutdown, the lack of defects, and specific action items not mentioned in the input. It fails to flag the contradiction between the machine being shut down and the production of 400 pieces. No severity was assigned to the issue."
+}

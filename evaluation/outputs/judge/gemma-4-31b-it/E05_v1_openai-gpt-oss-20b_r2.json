@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Isolated hydraulic supply",
+  "Secured area to prevent spillage",
+  "Notified maintenance team",
+  "Replace hydraulic seal/line",
+  "Inspect for secondary leaks",
+  "Verify pressure after repair",
+  "Paused operation",
+  "Logged error code",
+  "Notified robotics team",
+  "Conduct full reteach session",
+  "Validate programming accuracy",
+  "Update SOP if needed",
+  "Clean-up kit deployed",
+  "no environmental release observed",
+  "All personnel wore appropriate PPE during isolation",
+  "Followed company protocol for hydraulic fluid disposal",
+  "Downtime of approximately 30 minutes",
+  "expected to resume within 1 hour",
+  "Schedule hydraulic seal replacement",
+  "Verify that the reteach aligns with the latest process parameters",
+  "Update the equipment log",
+  "Conduct a brief safety walk-through"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, outcomes, and production impacts not present in the input. It fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as known entities. No severities were assigned, and uncertainty was completely ignored."
+}

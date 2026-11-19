@@ -1,0 +1,60 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool was swapped with a spare unit.",
+  "Verify tool wear schedule during next maintenance cycle.",
+  "Leak identified; line isolated and temporary containment applied.",
+  "Schedule repair/replacement of the coolant line and perform a pressure test.",
+  "No inspection performed during shift due to time constraints.",
+  "Unit continues to run; noise persists.",
+  "Conduct a detailed inspection (tighten mounts, check fan blades, inspect bearings) during the next maintenance window.",
+  "Operators have been instructed to monitor and work around the sensor.",
+  "Conveyor remains operational; occasional speed fluctuations noted.",
+  "Replace or recalibrate the speed sensor; verify wiring integrity.",
+  "Confirm that the spare tool on M-07 is logged and inventory updated.",
+  "Arrange maintenance order for the Lathe coolant line repair.",
+  "Dispatch HVAC service personnel to inspect and resolve the roof unit noise.",
+  "Order a replacement speed sensor for the B conveyor and schedule downtime for installation."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all four issues from the input, but invents an overwhelming amount of specific actions, causes, and maintenance follow-ups that were never stated. It also assigns specific registry IDs to items that were only vaguely described without noting the uncertainty. Readability and formatting are high, but accuracy and uncertainty handling are severely impacted by fabrication."
+}

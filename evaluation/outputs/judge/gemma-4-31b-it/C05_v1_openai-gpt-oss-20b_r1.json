@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift Time: 6pm - 2am",
+  "Location: Production Line 3",
+  "Operator ID: WRC-07",
+  "Cause: handling a hot workpiece",
+  "Action: cooling, dressing",
+  "Action: brief rest period",
+  "Action: No further medical treatment required",
+  "Equipment status: Operated normally; no malfunctions or downtime",
+  "Safety Equipment: All PPE (gloves, eye protection) in place and functional",
+  "Units Produced: 1,240",
+  "Downtime: 0 minutes",
+  "Quality: 99.8% defect-free rate",
+  "Observation: potential heat exposure during material handling",
+  "Recommendation: Re-review heat-safety procedures",
+  "Recommendation: Consider additional heat-resistant gloves or protective sleeves",
+  "Recommendation: Schedule a brief refresher training session",
+  "Follow-Up: Operator's condition monitored",
+  "Follow-Up: Incident logged in the Safety Incident Register (ID: SI-2026-045)",
+  "Follow-Up: Arrange a 15-minute safety refresher tomorrow",
+  "Date & Time: 2:05am"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing production metrics, specific operator IDs, causes of the injury, and detailed follow-up actions not present in the input. It also fails to flag the contradiction between 'No safety incidents' and the reported burn. While it captures the basic facts of the incident, the sheer volume of invented data makes it highly inaccurate."
+}

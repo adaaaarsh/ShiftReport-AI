@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "No impact on production",
+  "assessment",
+  "No safety incidents affecting production were recorded this shift aside from the minor burn described above"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the details of the burn accurately and formats them cleanly, but it hallucinates extra context like 'no impact on production' and a 'Resolved' status. It completely fails to surface the contradiction between the supervisor stating 'No safety incidents' and then immediately detailing a burn injury. Severity is rated LOW, which undercuts the burn injury described."
+}

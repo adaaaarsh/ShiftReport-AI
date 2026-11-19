@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "potential for escalation",
+  "Ongoing (status)",
+  "Resolved (no action required) (status for M-07)",
+  "Pending (status for lights)",
+  "Needs clarification on responsible maintenance team and urgency",
+  "Verify that all machines are operating within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the equipment and captures all facts. It correctly flags missing information and handles the distractors well, though it turns the 'Mill on B' distractor into a formal issue entry. Some minor fabrications occur in the form of status labels and inferred needs for clarification."
+}

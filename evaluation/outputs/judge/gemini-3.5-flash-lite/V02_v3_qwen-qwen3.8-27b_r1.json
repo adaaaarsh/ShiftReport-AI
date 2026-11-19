@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recurring failure suggests underlying mechanical or software fault; potential impact on quality control throughput",
+  "Awaiting investigation",
+  "sensor/software glitches common in inspection systems",
+  "Retrieve maintenance logs from last week regarding the same Line C machine to identify root cause",
+  "Perform a full diagnostic on the identified machine to prevent recurrence",
+  "Clarification is required before maintenance dispatch to avoid downtime"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the extremely sparse input and does an excellent job highlighting the ambiguity of Line C and flagging the missing details. However, it assigns a confident HIGH severity with no justification from the input and invents multiple potential root causes, impacts, and recommended maintenance actions."
+}

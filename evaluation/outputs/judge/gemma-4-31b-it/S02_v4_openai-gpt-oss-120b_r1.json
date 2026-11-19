@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "robot stopped production",
+  "Brief interruption, quickly resolved, minimal production impact",
+  "No pending items reported",
+  "No additional observations or staffing notes"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maps the machine ID correctly. However, it includes several fabricated details such as the specific impact on production and the explicit statements about pending items and general notes. These are not in the input, though they don't mislead the user."
+}

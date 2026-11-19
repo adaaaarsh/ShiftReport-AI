@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "First restart performed – machine returned to normal operation",
+  "Second restart required – machine stabilized after the second reboot",
+  "all parameters within specification",
+  "Review error logs to identify root cause",
+  "Schedule preventive maintenance check for next shift",
+  "Notify maintenance team if error recurs",
+  "Immediate shutdown and recalibration",
+  "Inspect temperature sensor and control panel",
+  "Verify calibration logs",
+  "Consider adding a temperature alarm threshold",
+  "Production Impact: Minimal; both incidents were resolved without affecting output",
+  "No safety incidents reported",
+  "Conduct a brief review meeting with the maintenance team",
+  "Update the SOP for handling similar incidents",
+  "Monitor both equipment closely for the remainder of the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, follow-up steps, and outcomes not present in the input. It fails to assign severities or flag the contradictions in the supervisor's notes. While the structure is clear, the content is largely hallucinated."
+}

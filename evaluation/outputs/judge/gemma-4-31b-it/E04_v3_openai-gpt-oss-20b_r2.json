@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Interlock remains bypassed",
+  "temperature must be monitored until normal operation resumes",
+  "Re-engage the safety interlock on M-10",
+  "verify that the oven returns to automatic mode",
+  "Confirm that the oven temperature stabilizes at the setpoint of 350F",
+  "Review the cause of the temperature spike",
+  "document any corrective actions",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates numerous pending items and a general note about safety incidents not mentioned in the input. It also fails to flag any of the missing critical information (like whether the bypass was documented) as unknown, presenting the situation as fully managed."
+}

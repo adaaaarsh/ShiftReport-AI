@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "No impact on production or safety",
+  "2:00 PM – 4:00 PM (AM/PM specification added)",
+  "Monitor and document air tool pressure levels on Line A; investigate root cause",
+  "Verify that compressor pressure remains steady at 110 psi",
+  "No maintenance required",
+  "No safety incidents reported during the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but splits the single compressor/line A issue into two separate issues, inventing multiple details, actions, and impacts that were not stated. It fails to flag the contradiction between the normal compressor and the line A pressure loss. Readability is high due to a clean structure, but accuracy and uncertainty handling suffer heavily from fabrications."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional incidents or staffing issues reported",
+  "Status: Ongoing — Maintenance will inspect the overload relay tomorrow morning (supervisor stated maintenance will inspect it tomorrow morning without stating status as ongoing)",
+  "Verify air pressure stability and ensure line A air tools resume normal operation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the compressor unit and captures all factual details from the supervisor input. However, it invents general notes regarding staffing issues and pending verification steps not present in the notes. Severities and readability are strong, but the uncertainty handling is moderate since it does not flag the missing information about scrapped parts."
+}

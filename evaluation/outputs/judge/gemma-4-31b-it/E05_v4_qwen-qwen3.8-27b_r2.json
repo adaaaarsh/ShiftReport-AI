@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Hydraulic leaks pose safety risks and can lead to total machine failure",
+  "Impacts production efficiency/quality; not an immediate safety stop unless active error",
+  "Has the area been cordoned off? Is the machine shut down or still running?",
+  "Has maintenance been notified?",
+  "What specific task or program needs re-teaching? Is this a scheduled maintenance task or an error recovery?",
+  "Is the robot currently paused, running, or idle?"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all issues and correctly flags the unrecognized equipment IDs. However, it fabricates several justifications for severity and specific clarification questions not implied by the input. Readability and uncertainty handling are excellent."
+}

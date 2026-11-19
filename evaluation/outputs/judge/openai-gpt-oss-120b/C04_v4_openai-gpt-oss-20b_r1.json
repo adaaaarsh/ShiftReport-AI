@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Repeated bearing failure could halt cooling and affect downstream equipment.",
+  "Inspect related cooling system components for potential damage due to bearing failure.",
+  "No other issues or staffing notes reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-11 and captures two of the three factual points, but it adds several invented details not present in the supervisor input, lowering accuracy to 1. All reported items and missing flags are included, giving completeness a perfect score. The chosen severity (HIGH) aligns with the allowed options, so severity classification is fully justified. The document is well‑structured and easy to scan, earning top readability, and it explicitly flags unknown operational status and pending clarifications, satisfying uncertainty handling."
+}

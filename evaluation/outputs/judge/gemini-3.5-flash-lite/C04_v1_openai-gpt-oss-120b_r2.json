@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Replaced the pump unit with a brand-new assembly",
+  "Visual and tactile inspection confirmed bearing wear; no external damage to housing or impeller observed",
+  "Maintenance log #XYZ123",
+  "Assigned to Maintenance Engineer (e.g., John Doe)",
+  "No immediate downtime reported; however, repeated bearing failures could lead to unplanned shutdowns if not addressed",
+  "No safety incidents associated with the pump failure",
+  "Monitor pump C temperature and vibration levels every 2 hours",
+  "Asset ID: CP-C",
+  "Meeting with the maintenance team scheduled for 2026-11-06, 09:00"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the pump on Line C (M-11) and captures all the facts from the input, but it massively hallucinates actions, root-cause analyses, inspections, logs, and procedures that were never mentioned by the supervisor. It fails to flag the core contradiction provided in the prompt and instead invents a completely fictional narrative around maintenance logs and engineering tasks."
+}

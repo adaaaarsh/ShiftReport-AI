@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Leak could affect machine operation if not addressed",
+  "Cosmetic/operational adjustment, no immediate production halt",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the issues but fails to flag the ambiguity of the machine IDs (M-17 is not in the registry and 'robot 2' is mapped to M-06 without flagging the discrepancy). It also fabricates justifications for the severity levels and a safety incident claim. Readability is high, but uncertainty handling is poor."
+}

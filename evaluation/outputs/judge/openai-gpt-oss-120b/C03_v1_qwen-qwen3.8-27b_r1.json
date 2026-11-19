@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure this unit is not scheduled for the next shift until maintenance has cleared it.",
+  "Contact maintenance regarding the status of Forklift 1 if repair timelines are needed.",
+  "Verify availability of alternative forklifts for any remaining material handling needs."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the forklift’s out‑of‑service status and its use at 06:00, so completeness and readability are high. It introduces invented action items and recommendations not in the supervisor input, lowering accuracy and failing to flag missing information, which harms uncertainty handling. No severity label is provided, resulting in a low severity score. Overall the report is clear but contains fabrications and omits uncertainty flags."
+}

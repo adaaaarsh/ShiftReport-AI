@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved (Test Complete)",
+  "Monitor fuel levels on M-13 (currently at 80%) to ensure sufficient reserve for next scheduled test or emergency use",
+  "No active equipment failures or safety incidents reported during this update.",
+  "Backup power system is operational and ready for use."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID for the backup generator. However, it invents several details, actions, statuses, and general notes that were not mentioned in the supervisor input. Severities are well-defended, readability is excellent, and uncertainty handling is solid."
+}

@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "2:10 PM (AM/PM specified when input just said 2:10)",
+  "Status and awaiting repair details for M-03",
+  "Monitoring continues / None yet for M-12",
+  "Scheduled for tip replacement / None yet for M-06",
+  "Pending items list details",
+  "Production on Line A was temporarily halted during the lockout",
+  "Safety and Maintenance teams are on standby"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues accurately with correct machine IDs and reasonable severities. However, it invents several operational details and actions not present in the input, such as production being temporarily halted and maintenance teams being on standby. It fails to flag missing information about the compressor or the hydraulic press incident report."
+}

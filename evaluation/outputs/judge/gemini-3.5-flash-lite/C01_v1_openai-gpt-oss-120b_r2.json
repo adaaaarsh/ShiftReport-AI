@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed two manual restarts; machine stabilized and is operating without further alarms",
+  "Shut down oven, allowed it to cool, and verified temperature sensors; temperatures returned to normal operating range",
+  "Verify temperature sensor calibration and review oven set-points to prevent future overshoot",
+  "No safety incidents reported",
+  "Perform a quick calibration check on the oven's temperature sensor",
+  "Review the oven's control parameters to ensure set-points are correctly configured",
+  "Add a short-interval temperature log for the oven during the next shift to detect any early drift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 2,
+ "rationale": "The report invents extensive actions, causes, and recommendations not present in the brief supervisor input, heavily impacting accuracy. It captures both main equipment incidents (completeness is decent) but completely misses the contradiction handling and manufactures several operational details."
+}

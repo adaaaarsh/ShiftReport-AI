@@ -1,0 +1,63 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "Operational status for M7",
+  "Monitor output closely; verify if feed rate needs adjustment",
+  "Critical Maintenance Required status for Machine A",
+  "Night Shift must prioritize securing this machine for repair immediately",
+  "Do not operate until leak is addressed",
+  "Inspect and replace FL1 headlights before end of night shift",
+  "Ensure forklift is not used in low-light conditions until repaired",
+  "Please follow up with maintenance team regarding their availability for the HP leak on Machine A",
+  "Check and top off coolant levels at start of shift",
+  "Monitor for leaks or overheating",
+  "Immediate: Address HP drip on Machine A. Perform LOTO and repair",
+  "High: Replace FL1 headlight",
+  "Medium: Check and refill coolant on Machine C",
+  "Monitor: M7 grinding performance at 60% feed rate",
+  "If no technician is available, escalate to management",
+  "Ensure all forklifts are inspected for lighting and safety features before use"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures most core items from the input and is organized clearly, but invents an overwhelming amount of action items, operating statuses, instructions, and escalation paths that were not stated in the supervisor notes. It assigns a shift explicitly despite the input stating it was not specified, and fails to surface uncertainties or ambiguous machine naming adequately."
+}

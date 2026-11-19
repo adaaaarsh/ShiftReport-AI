@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Hydraulic leaks pose a safety hazard and potential for significant production downtime",
+  "Status: Ongoing",
+  "Impacts production efficiency/quality; not an immediate safety stop unless active error",
+  "Status: Pending",
+  "No other issues reported.",
+  "Staffing levels not specified."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input items and correctly handles uncertainty for the nonexistent Machine 17, though it assigns M-06 as a specific ID for 'robot 2' where ambiguity existed. It includes several fabricated commentary details about impacts and statuses not present in the brief input. Structure and readability are excellent."
+}

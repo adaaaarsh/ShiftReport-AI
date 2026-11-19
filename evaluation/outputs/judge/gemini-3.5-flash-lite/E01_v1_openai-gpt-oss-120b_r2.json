@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Invented MX (Mixer/Extruder) no-show issue from misinterpreting 'mx pinged no show'",
+  "Invented specific maintenance actions and follow-ups such as 'Restore feed to normal rate (≈100%) and verify output quality'",
+  "Invented action to issue a corrective action (CAPA) and schedule a refresher LOTO training",
+  "Invented incident reference number NM-2025-011",
+  "Invented preventive maintenance reviews and root-cause analysis recommendations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all real issues from the input, but severely hallucinates by turning a distractor fragment ('mx pinged no show') into a phantom machine failure and invents extensive follow-up actions, CAPAs, and reference numbers not present in the notes. It fails to handle uncertainties by blindly inventing details for ambiguous shorthand and treats the input as fully complete."
+}

@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recurring mechanical failure causing production downtime",
+  "indicates potential sensor or control instability",
+  "halting logistics operations for this unit",
+  "no safety hazard, minor operational delay",
+  "escalate to maintenance for deeper inspection",
+  "Check M-10 (Line C) temperature logs to ensure the alarm was a one-time glitch",
+  "No safety incidents reported",
+  "Logistics may be slightly constrained if Forklift #1 is not fully charged by shift start"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but includes numerous fabrications in the form of inferred causes, justifications for severity, and suggested next steps not found in the input. It fails to flag any missing information or uncertainty, presenting the situation as fully understood. Readability is excellent."
+}

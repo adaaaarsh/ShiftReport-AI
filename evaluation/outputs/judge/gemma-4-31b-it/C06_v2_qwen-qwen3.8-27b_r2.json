@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine monitoring",
+  "Resolved",
+  "14:00 – 16:00 (2:00 PM – 4:00 PM)",
+  "Ongoing / Pending Investigation",
+  "Check for air leaks in the Line A pneumatic distribution system or specific tool connections",
+  "Verify if the issue has recurred since 16:00",
+  "potential leak or regulator issue downstream of the main compressor"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the contradiction between the compressor status and the tool pressure loss. However, it fabricates several details including specific times (14:00-16:00), actions taken (Routine monitoring), and specific pending investigation steps not mentioned in the input."
+}

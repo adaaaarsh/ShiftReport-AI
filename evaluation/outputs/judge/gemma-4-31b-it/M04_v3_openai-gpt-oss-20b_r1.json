@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Awaiting maintenance response",
+  "Potential impact on compressed air supply and downstream processes",
+  "Routine maintenance, no immediate production impact",
+  "Verify that all safety interlocks are functioning on Line A equipment",
+  "Production on Line A was temporarily halted during lockout",
+  "no further impact noted after 2:10 PM",
+  "All other machines operated normally during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts but includes numerous fabrications regarding status, impacts, and general shift notes. Severity for the compressor is assigned as HIGH without evidence in the input. It fails to flag any missing information or ambiguities, presenting the report as complete."
+}

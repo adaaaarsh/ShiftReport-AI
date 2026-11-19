@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Awaiting maintenance/safety inspection",
+  "Potential impact on air supply stability for production lines",
+  "Preventive maintenance required before next shift to ensure quality",
+  "scheduled for pre-shift",
+  "Verify status of guard interlock repair",
+  "Do not restart machine until Safety and Maintenance sign-off is received",
+  "Monitor compressor cycle times and air pressure",
+  "Contact maintenance if short-cycling continues or pressure drops",
+  "No other staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is complete and highly readable, with excellent uncertainty handling. However, it contains numerous fabrications regarding status, impacts, and specific pending actions not found in the input. Severities for M-12 and M-06 are slightly inflated compared to the input's lack of urgency."
+}

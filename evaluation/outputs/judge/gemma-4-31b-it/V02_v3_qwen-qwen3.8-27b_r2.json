@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential quality control risk",
+  "Awaiting investigation",
+  "Inspect M-09 (Quality Inspection Scanner) on Line C to diagnose the recurring fault",
+  "Compare current symptoms with last week’s incident report to determine if the previous fix failed or if a new issue has emerged",
+  "escalate to maintenance for a permanent repair rather than a temporary fix"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the machine on Line C and flags the missing information, but it guesses a specific ID (M-09) and fabricates several detailed actions and risks not present in the input. Severity is assigned as HIGH without evidence from the input. Readability and uncertainty handling are strong."
+}

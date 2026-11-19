@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Afternoon (Inferred from 4:15 PM timestamp)",
+  "halting packaging operations",
+  "verify functionality"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately regarding M-08 and is very readable, but it invades the shift field by inferring Afternoon and exaggerates the severity to HIGH despite the minor nature of the resolved jam. It completely captures the facts and marks no missing items, maintaining good uncertainty handling."
+}

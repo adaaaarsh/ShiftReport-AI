@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inspected belt tension",
+  "Conveyor operating normally after tension adjustment",
+  "Monitor belt tension during next shift",
+  "Schedule a preventive maintenance check within the next week to verify belt wear",
+  "Review alarm logs to confirm no underlying sensor fault",
+  "Include oven in routine calibration check during next maintenance cycle",
+  "Oven functioning within normal temperature range",
+  "Removed forklift from service",
+  "Battery charging; forklift unavailable until fully charged",
+  "Verify battery health after charge cycle",
+  "Consider battery capacity test during next equipment inspection",
+  "Ensure backup forklift is available if needed",
+  "approx. 13:00 for forklift battery",
+  "No safety incidents were reported during the shift",
+  "All other equipment operated within normal parameters",
+  "All incidents have been logged in the maintenance tracking system",
+  "Ticket IDs: CNV-B-2026-011, OVN-C-2026-012, FL-1-2026-013",
+  "Perform a quick visual inspection of Conveyor B belt tension",
+  "Verify Oven C temperature stability during the first hour of operation",
+  "Check the charge status of Forklift 1 battery; confirm it is ready for use before peak activity periods"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous actions, follow-up steps, ticket IDs, and a specific time for the forklift failure. It fails to use the registry IDs (M-05, M-10, M-15) and provides no severity classifications. While it captures all basic facts, it presents them amidst a large amount of hallucinated detail."
+}

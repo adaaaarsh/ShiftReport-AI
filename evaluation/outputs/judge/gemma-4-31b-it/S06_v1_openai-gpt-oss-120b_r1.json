@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "15:10",
+  "15:20",
+  "15:30 – 15:45",
+  "Production flow resumed without further interruption",
+  "Monitor the scanner for the next 2-3 hours to confirm stability",
+  "Log the recalibration event in the equipment maintenance record",
+  "Review the master part calibration schedule",
+  "consider a brief refresher for operators on recalibration procedures",
+  "Report any recurrence immediately to maintenance and quality control",
+  "No safety incidents were associated with this event"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of detail, including a specific timeline of events and several follow-up recommendations not mentioned by the supervisor. It also claims no safety incidents occurred, which was not stated. It fails to flag the missing cause of the calibration drift."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 2,
+ "fabricated_details": [
+  "no immediate shutdown or maintenance intervention recorded",
+  "Inspect spindle immediately",
+  "Assess for potential bearing or alignment failure to prevent catastrophic breakdown",
+  "Report parking lot lighting outage to maintenance/electrician for repair",
+  "prioritize safety inspection before resuming heavy production loads"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the equipment and captures all facts, but it fabricates several 'actions' and 'pending items' (e.g., bearing failure assessment) not found in the input. It treats distractors (M-07 and parking lights) as equipment issues. It fails to flag any uncertainty regarding the missing maintenance status of M-01."
+}

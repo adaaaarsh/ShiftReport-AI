@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved — Unit operating normally after reset",
+  "No safety incidents reported",
+  "Air pressure returned to normal quickly, minimizing production impact"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and uses the correct machine ID. However, it invents status updates and general notes that were not provided by the supervisor, resulting in an accuracy score of 3. Severities and readability are strong, but the report introduces assumptions rather than fully highlighting all missing aspects."
+}

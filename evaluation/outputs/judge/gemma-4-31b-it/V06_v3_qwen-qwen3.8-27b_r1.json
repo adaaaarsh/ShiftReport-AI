@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety or quality risk; requires verification to rule out electrical or material issues",
+  "Needs investigation to confirm source",
+  "Intermittent stops may indicate sensor faults, software glitches, or mechanical issues; potential production impact",
+  "Cause of pauses unidentified",
+  "Investigate source of odor near M-10 (Industrial Oven) to ensure no safety hazard or equipment failure",
+  "Check M-06 (Welding Robot Arm) logs and sensors to identify cause of intermittent pauses",
+  "Monitor M-06 for further unexpected stops during the next shift",
+  "No critical safety incidents or full production stoppages reported",
+  "Both issues appear minor but require verification to prevent escalation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and correctly maps them to registry IDs. However, it fabricates numerous justifications for severities, status updates, and pending actions not found in the input. It presents the situation as a structured plan without flagging the ambiguity or lack of detail in the supervisor's notes."
+}

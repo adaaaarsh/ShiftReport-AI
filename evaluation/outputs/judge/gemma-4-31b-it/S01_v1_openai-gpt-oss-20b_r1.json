@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Jam cleared manually",
+  "Ran a full test cycle",
+  "Unit operating normally; no further issues observed",
+  "Monitor Line B for any recurrence of jamming",
+  "Log the incident in the maintenance database with details of the jam cause (if identified)",
+  "Schedule a preventive check on the packaging unit for the next maintenance window",
+  "No downtime beyond the jam clearance time",
+  "production was not impacted"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of additional detail, including specific actions (manually), follow-up steps, and production impact claims not present in the supervisor's notes. Because of the high volume of invented details, accuracy is rated 1."
+}

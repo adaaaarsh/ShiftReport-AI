@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon",
+  "Monitor arrival of replacement parts for M-03 (Line A)",
+  "Coordinate with maintenance to repair and restart M-03 once parts are received",
+  "Verify hydraulic system integrity before resuming production on M-03",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts but fabricates several pending actions and a general note about other equipment. The severity 'CRITICAL' is a reasonable inference for a shut-down machine, but the report fails to flag the contradiction between the machine being shut down and having run 400 pieces. It also infers the shift letter."
+}

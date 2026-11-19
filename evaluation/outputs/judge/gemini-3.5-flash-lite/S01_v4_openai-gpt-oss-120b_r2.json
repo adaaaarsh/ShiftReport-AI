@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved quickly, no production impact after clearance",
+  "No pending items reported.",
+  "No staffing, safety, or additional equipment issues noted."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details from the input and correctly identifies M-08. However, it includes invented commentary regarding production impact and general notes about staffing and safety that were not in the supervisor's input. The structure and readability are excellent, and severity is appropriately set."
+}

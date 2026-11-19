@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine adjusted/fixed by supervisor",
+  "Inspect all parts produced during the period when the CNC was out of spec to identify and quarantine any defective units",
+  "Confirm that the CNC machine is now within tolerance and stable",
+  "If the fix was tentative, re-calibrate or call maintenance for formal sign-off",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the CNC machine and captures all facts. However, it fabricates several specific actions and recommendations (quarantining, calling maintenance) not found in the input. Severity is assigned as HIGH without explicit evidence, though it is a reasonable inference."
+}

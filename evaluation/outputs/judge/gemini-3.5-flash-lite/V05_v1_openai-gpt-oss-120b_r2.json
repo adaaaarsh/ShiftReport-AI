@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed a full diagnostic check: inspected spindle runout, verified tool offsets, and recalibrated the axis encoders",
+  "Ran a 5-piece test batch and recorded measurements",
+  "All safety interlocks were functional throughout",
+  "No abnormal noises or vibrations were detected after the reset",
+  "Tool wear was inspected; no immediate replacement required",
+  "Suggested method for parts inspection using CMM or go/no-go gauges",
+  "Schedule a preventive maintenance check for the CNC within the next 48 hours",
+  "Review the machine's alarm history",
+  "No other equipment reported issues during this shift",
+  "Production output met the target for the day"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report invents a massive amount of specific technical actions, diagnostics, and test procedures that are completely absent from the sparse supervisor input, resulting in an accuracy score of 1 due to pervasive fabrication. Completeness and uncertainty are moderately handled because it does capture the core issues and parts check, but fills in unknown details. Readability is decent due to professional formatting, though heavily padded with hallucinated text."
+}

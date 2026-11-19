@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production was impacted until the issue was resolved",
+  "no safety hazards reported",
+  "Time Noticed: Not specified",
+  "specific corrective actions performed (details not provided)",
+  "pending verification of parts used",
+  "Verify the parts that were replaced or adjusted on M-01",
+  "Confirm that the CNC is operating within tolerance limits and log the final calibration data",
+  "No other machine issues or safety incidents were reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily selects M-01 for an ambiguous CNC reference, entirely failing to handle uncertainty. It invents numerous details, assumptions, and actions that were never in the supervisor's input. While it captures the general intent and reads reasonably well, the lack of uncertainty handling and high volume of fabrications heavily penalizes its accuracy."
+}

@@ -1,0 +1,4 @@
+judge,n,items_when_human_flagged,items_when_human_not_flagged,mannwhitney_p
+gemini-3.5-flash-lite,120,11.47,5.4,7.1e-07
+gemma-4-31b-it,120,14.8,5.26,3.8e-08
+openai-gpt-oss-120b,120,12.8,6.56,2.7e-06

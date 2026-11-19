@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM suffix added to times",
+  "conveyor resumed operation",
+  "monitor for recurrence",
+  "No manual intervention required",
+  "no impact on production",
+  "affects material handling",
+  "will be ready for next shift",
+  "Verify that the conveyor belt on M-05 remains secure",
+  "Confirm that the forklift (M-15) is fully charged and operational before peak material-handling periods",
+  "Review oven (M-10) logs to ensure no underlying temperature sensor issues caused the brief alarm",
+  "No safety incidents reported",
+  "All issues were addressed promptly; production impact was minimal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three input issues accurately using correct registry IDs and includes all reported facts. However, it significantly invents actions, statuses, impact claims, and pending monitoring steps not in the input. Severities are defensible though slightly opinionated, and uncertainty is handled poorly by framing everything as resolved with no acknowledgement of missing information."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production on this lathe is effectively halted for quality-critical parts until resolved",
+  "Procurement/Inventory team must locate or expedite the specific insert",
+  "Recommend maintenance check for potential hydraulic, heating, or mechanical issues",
+  "Ensure rework of the 20 pulled parts is scheduled and tracked",
+  "if cycle time continues to increase, consider reducing output or calling maintenance for a deeper inspection"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues from the supervisor notes and is very readable with clean formatting. However, it invents multiple action steps and operational statuses (such as assuming production is halted, assigning tasks to procurement, and recommending specific maintenance checks) not mentioned in the input. Severities are generally reasonable except for upgrading the lathe to Critical while assuming it is halted."
+}

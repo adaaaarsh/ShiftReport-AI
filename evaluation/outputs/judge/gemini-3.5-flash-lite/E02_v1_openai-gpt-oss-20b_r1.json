@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Intermittent failures impacting line throughput for the press",
+  "Mechanical team to conduct detailed diagnostic",
+  "Possible electrical fault in the control panel for the paint booth",
+  "Logged issue in maintenance system",
+  "Production on affected line slowed",
+  "Power to booth isolated for safety",
+  "Burnt fuse in control panel",
+  "Safety sign placed",
+  "Estimated downtime 2-4 hours for press",
+  "Potential backlog of 1200 units",
+  "Estimated downtime 3-5 hours for paint booth",
+  "All recommendations for next shift",
+  "All attachments listed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues from the minimal supervisor input but completely hallucinates numerous extensive operational details, causes, actions, estimates, and recommendations that were never mentioned. It assigns a correct ID to the press and handles the unlisted paint booth by fabricating specifics. Due to the massive amount of fabricated information, accuracy and uncertainty handling scores are at the lowest level."
+}

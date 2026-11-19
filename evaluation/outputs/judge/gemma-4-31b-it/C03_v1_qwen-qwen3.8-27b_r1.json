@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure this unit is not scheduled for the next shift until maintenance has cleared it",
+  "Verify availability of alternative forklifts for any remaining material handling needs",
+  "Contact maintenance regarding the status of Forklift 1 if repair timelines are needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It also fabricates several action items and instructions not present in the input. No severity was assigned to the issue."
+}

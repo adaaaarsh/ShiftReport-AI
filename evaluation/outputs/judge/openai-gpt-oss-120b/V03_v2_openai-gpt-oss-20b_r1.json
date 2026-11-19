@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Specific symptom description 'operational irregularities' not in input",
+  "Severity assigned as MEDIUM with justification not provided",
+  "Action taken 'None reported; issue noted for follow‑up' not mentioned",
+  "Status 'Ongoing' not stated",
+  "Note about Forklift #2 applicability adds speculative detail",
+  "Statement 'No other machine issues reported during this shift' not in input",
+  "Pending item to monitor forklift(s) and document changes not in input",
+  "Pending item to verify forklifts before shift start not in input"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents several details not present in the supervisor input, such as a specific symptom description, a MEDIUM severity rating, action and status fields, and pending tasks, resulting in a low accuracy score of 1. All items from the input are represented, so completeness receives a 5. Because the input gives no basis for severity, assigning MEDIUM is indefensible, yielding a severity score of 1. The document is well‑structured and easy to scan, earning a readability score of 5. Although the report mentions a possible ambiguity between two forklifts, it fails to flag other missing information, giving an uncertainty score of 1."
+}

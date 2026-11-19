@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "isolated power",
+  "Safety team to inspect interlock mechanism",
+  "Maintenance to verify integrity and schedule repair",
+  "intermittent pressure drop",
+  "Diagnose pressure regulator & check for leaks",
+  "replace faulty component if needed",
+  "End of day deadline for compressor",
+  "Operations responsible for robot tip",
+  "5 PM deadline for robot tip",
+  "Incident Report: Completed and filed with Safety Department",
+  "Risk Assessment: Updated for hydraulic press guard interlock failure",
+  "Training: Reminder to all operators to verify guard status before cycling equipment",
+  "run a test weld",
+  "document results",
+  "Pre-Shift Checklist: Include guard interlock verification for all presses",
+  "Install a temporary pressure log for the compressor",
+  "Ensure all maintenance actions are logged in the daily maintenance log"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific technical causes, deadlines, and administrative actions (like filing reports and updating risk assessments) not found in the input. It fails to use the provided registry IDs, referring to machines only by name. While it captures all the basic issues, it presents them with a high degree of false certainty and invented detail."
+}

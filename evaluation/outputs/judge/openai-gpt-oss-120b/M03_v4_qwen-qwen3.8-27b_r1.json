@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (inferred from \"all night\")",
+  "Reduced operational speed (50%)",
+  "Potential mechanical wear or bearing issue, though no immediate production impact",
+  "Significant production impact due to running at half capacity",
+  "No safety incidents or critical machine failures reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 2,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies all three equipment issues and uses the proper registry IDs, but it adds several invented details such as a Night Shift label, a specific 50 % speed value, speculative severity explanations and a claim of no safety incidents. These fabrications lower the accuracy to 2. All reported facts are present, so completeness is 5. Two severity assignments (LOW for M-01 and HIGH for M-08) are not among the allowed options, reducing the severity score to 2. The layout is clear and easy to scan, giving readability 5. The report flags the maintenance question for M-11 but ignores other missing items, resulting in an uncertainty handling score of 3."
+}

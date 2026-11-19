@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Repeated problem may affect production if not resolved, but no safety hazard reported",
+  "issue reported to supervisory staff",
+  "Status: Ongoing — Awaiting inspection and corrective action",
+  "Perform a detailed inspection and corrective maintenance on the identified machine",
+  "Document the root cause to prevent recurrence",
+  "No additional staffing, safety, or production incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures the single ambiguous Line C issue correctly and flags the uncertainty appropriately. However, it assigns a specific severity level (MEDIUM) despite lack of evidence and fabricates several details regarding statuses, maintenance actions, and the absence of safety incidents. The structure is clean and readable, but the inclusion of invented operational claims brings accuracy and severity down."
+}

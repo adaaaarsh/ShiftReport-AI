@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "possible minor leak or residue buildup",
+  "No immediate safety hazard, production not affected",
+  "no further investigation performed during the shift",
+  "Should be inspected by the next shift",
+  "Causes brief production interruptions but not a full shutdown",
+  "Monitored the pauses; no reset or manual intervention performed",
+  "Needs diagnostic check to determine cause",
+  "Inspect the Industrial Oven (M-10) for any source of the odor (e.g., vent blockage, coolant leak, residue) and clear if necessary",
+  "Perform a diagnostic run on the Welding Robot Arm (M-06) to identify why it is pausing and apply corrective action",
+  "Document any findings and update maintenance logs",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; all operators reported normal workload",
+  "Keep an eye on both the oven area and robot performance throughout the next shift to ensure issues do not escalate"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete in terms of identifying the issues, but it is riddled with fabrications. It invents causes, actions taken, and general shift notes (safety, staffing) not present in the input. It also fails to flag any of the missing information as unknown, presenting invented details as facts."
+}

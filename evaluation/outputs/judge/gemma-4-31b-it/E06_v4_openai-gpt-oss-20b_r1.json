@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil leak detected near the base of the unit",
+  "potential for escalation if not addressed",
+  "Maintenance scheduled to arrive",
+  "Status: Ongoing — Maintenance pending",
+  "Confirm arrival of maintenance for M-03 and assess leak condition",
+  "Monitor the hydraulic press for any changes in leak severity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several specific details regarding the location of the leak ('near the base'), the status ('Ongoing'), and specific monitoring steps not mentioned in the input. Severity is reasonable and uncertainty is handled well by asking for clarification."
+}

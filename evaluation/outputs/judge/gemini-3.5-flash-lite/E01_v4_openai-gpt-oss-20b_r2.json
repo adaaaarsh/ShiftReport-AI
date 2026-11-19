@@ -1,0 +1,57 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Grinding operation ongoing; feed rate reduced to 60% after noticing abnormal behavior",
+  "Production impacted",
+  "Dripping oil observed near the base of the unit",
+  "Leak present but machine still running; potential for escalation",
+  "Leak remains",
+  "Headlight out, causing a near‑miss incident in aisle 3",
+  "Safety hazard; forklift operation compromised",
+  "Headlight still out",
+  "Coolant levels low for Line C machines",
+  "Could affect cooling if not addressed",
+  "No additional staffing or safety incidents reported beyond the near‑miss involving the forklift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and accurately references the correct machine registry IDs. However, it invents significant descriptive details and interpretations for the issues not present in the brief input notes. The severity rating for the hydraulic press leak is assigned as medium despite skipping LOTO, and numerous fabricated narrative elaborations are included throughout."
+}

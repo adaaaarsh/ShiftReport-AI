@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential scrap and re-work cost; risk of further downtime if not resolved",
+  "Machine is idle pending replacement",
+  "Locate or order the correct insert (part # ____)",
+  "Update inventory to prevent future stock-out",
+  "Schedule a tool change as soon as the insert arrives",
+  "Reduced throughput (~18% loss) and possible delay in meeting output targets",
+  "No immediate corrective action taken; monitoring ongoing",
+  "Investigate root cause (e.g., cooling time, mold wear, hydraulic pressure)",
+  "Perform a quick check of mold temperature and hydraulic settings",
+  "Adjust parameters or schedule preventive maintenance if needed",
+  "Decreased comfort, potential impact on product quality in temperature-sensitive areas",
+  "Issue reported to facilities; no repair yet",
+  "Facilities to verify thermostat set-points and check for blocked filters or refrigerant loss",
+  "Temporary portable fans or spot coolers may be deployed until permanent fix",
+  "Summary & Priorities section contents",
+  "Recommendations for Incoming Shift section contents"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and maintains perfect machine references with reasonable severity levels, but it heavily fabricates numerous action items, causes, impacts, and recommendations that were never stated by the supervisor. It also fails to capture the unknown operational status of the lathe, presenting an invented status instead."
+}

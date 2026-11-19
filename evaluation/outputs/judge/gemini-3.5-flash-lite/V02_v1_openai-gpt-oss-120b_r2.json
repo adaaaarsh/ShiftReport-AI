@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production on Line C is intermittent/unstable, potentially affecting output targets and downstream processes",
+  "Operator performed a manual reset and continued monitoring; production continued at reduced efficiency",
+  "No safety hazards have been identified",
+  "Assign a maintenance technician/electrical engineer to perform a detailed diagnostic on Line C first thing on the next shift",
+  "Check the specific component that failed last week (e.g., PLC I/O module, encoder, drive motor) and verify firmware/parameter settings",
+  "Review the maintenance log from the previous incident",
+  "Compare sensor readings, error codes, and any recent changes to the line's configuration",
+  "If a component is found to be defective, replace it and update the preventive-maintenance schedule",
+  "Document the failure mode and corrective steps in the equipment history for future reference",
+  "Notify the Production Planning team of the potential for reduced throughput on Line C until the issue is resolved",
+  "Keep the shift crew informed of any temporary work-arounds or safety precautions",
+  "Diagnostic and corrective action to be completed by the end of the next shift",
+  "Maintenance Lead, Production Supervisor names placeholders",
+  "After repair, run a 30-minute trial to confirm stable operation before returning Line C to full load"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 3,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures that a recurring issue occurred on Line C and leaves the specific machine and action taken as unknown or placeholder-based, matching the high uncertainty requirement. However, it severely over-elaborates and hallucinates extensive details, actions, root-cause examples, impacts, and recommendations that were entirely absent from the sparse input. Consequently, accuracy is rated at 1 due to the massive volume of fabricated operational details."
+}

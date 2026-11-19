@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Status: Ongoing — pressure loss continues",
+  "Confirm whether maintenance has been called and schedule a follow-up if necessary"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the equipment. However, it fabricates the time of day (PM) and the status of the issue as 'Ongoing'. It fails to explicitly flag the contradiction between the compressor running normally and the tools losing pressure."
+}

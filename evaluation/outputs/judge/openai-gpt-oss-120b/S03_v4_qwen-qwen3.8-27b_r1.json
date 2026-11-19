@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Claim that no safety incidents were reported during this update",
+  "Statement that the backup power system is operational and ready for use"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M‑13 and includes all factual elements from the supervisor input, giving it full marks for completeness, severity, readability and uncertainty. However it adds claims not present in the input, such as stating there were no safety incidents and that the backup power system is operational, which constitute fabricated details and lower the accuracy to a moderate level. Therefore accuracy receives a score of 3 while the other dimensions receive 5."
+}

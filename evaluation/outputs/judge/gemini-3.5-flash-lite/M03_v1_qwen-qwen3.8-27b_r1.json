@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend maintenance inspection to diagnose potential bearing or impeller wear before it becomes a critical failure",
+  "Monitor for recurrence. If the alarm triggers again, stop the machine and call maintenance immediately",
+  "No other major incidents reported",
+  "All other lines operating within normal parameters",
+  "Maria [Last Name]",
+  "Incoming supervisor to confirm if a float operator is available or if production schedule needs to be adjusted for the next shift"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported issues and machine IDs accurately, but invents several recommended actions, monitoring steps, and generalized statements about other lines. Readability and structure are excellent, making it clear despite the added fabrications. Severities are reasonable based on the available text."
+}

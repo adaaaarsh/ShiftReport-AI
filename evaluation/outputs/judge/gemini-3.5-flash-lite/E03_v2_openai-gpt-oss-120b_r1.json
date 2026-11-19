@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designation",
+  "Supervisor allowed the machine to continue operating while monitoring the condition",
+  "Status: Ongoing - needs further inspection",
+  "SAFETY concern for personnel after hours but does not affect production",
+  "Report noted for facilities team",
+  "Inspect spindle of M-01 CNC Milling Machine (Line A) for wear or damage and determine if maintenance is required",
+  "Arrange repair or replacement of the parking lot lighting system",
+  "Verify that all lighting is functional before the end of the shift",
+  "Operating normally; no issues reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all points from the supervisor input, but invents several action items, statuses, and specific justifications that were not present in the input. Severity is reasonable, and readability is high with clean formatting. Uncertainty handling is average as it accepts the notes without noting gaps."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity label HIGH with claim of significant production impact not in input",
+  "Exact time 3:00 pm not specified in input",
+  "Status marked as Resolved not mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report matches the machine ID and all factual events, so completeness is perfect. However it invents an exact time, a resolved status, and a HIGH severity claim, lowering accuracy. The severity rating is too high compared to the allowed LOW/MEDIUM range, giving a moderate severity score. Readability is high due to clear structure, but the report fails to flag the missing cause of drift, resulting in low uncertainty handling."
+}

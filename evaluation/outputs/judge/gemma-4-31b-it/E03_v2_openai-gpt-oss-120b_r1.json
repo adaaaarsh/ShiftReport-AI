@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Supervisor allowed the machine to continue operating while monitoring the condition",
+  "Status: Ongoing – needs further inspection",
+  "Report noted for facilities team",
+  "Status: Pending",
+  "Inspect spindle of M-01 CNC Milling Machine (Line A) for wear or damage and determine if maintenance is required",
+  "Arrange repair or replacement of the parking lot lighting system",
+  "Verify that all lighting is functional before the end of the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the equipment and captures the core facts, but it fabricates several actions and pending items (monitoring, reporting to facilities, specific inspection steps) not found in the input. It treats the parking lot lights as a formal issue rather than a general note. It fails to flag any uncertainty or missing information regarding the spindle noise."
+}

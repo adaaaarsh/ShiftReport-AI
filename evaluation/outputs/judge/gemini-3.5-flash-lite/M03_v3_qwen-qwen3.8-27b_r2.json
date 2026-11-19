@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential mechanical wear or bearing issue",
+  "monitoring only",
+  "PM",
+  "Inspect M-11 for source of whining noise; check bearings and lubrication",
+  "Confirm M-01 spindle stability; monitor for recurrence of overload alarms",
+  "Restore M-08 to full speed once additional staffing is available",
+  "No safety incidents or critical machine failures reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items well but invents multiple maintenance steps, causes, and recommendations not present in the input. Severity choices are generally defensible although M-08 is marked high, and readability is very high with clean formatting. It poorly handles uncertainty by inventing monitoring and inspection tasks."
+}

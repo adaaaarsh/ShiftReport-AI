@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-07 — CNC Milling Machine (Line B)",
+  "Potential mechanical issue; specific nature of noise and impact on production not detailed",
+  "Ongoing — Requires inspection",
+  "Fluid leak detected near the unit",
+  "Leak location and source unconfirmed; risk of escalation or safety hazard if fluid is hot/pressurized",
+  "Pending — Supervisor unsure of specific machine ID",
+  "Investigate source of unusual noises to determine if maintenance is required",
+  "Visually inspect all Line A equipment (M-01, M-02, M-03, M-04) to locate the leak reported by the previous shift",
+  "Assess the fluid type and volume to determine if immediate repair is needed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guesses a specific machine (M-07) for the 'big machine on B' without any evidence in the input, which is a significant accuracy error. It also fabricates detailed justifications for the 'MEDIUM' severity and specific pending actions not mentioned by the supervisor. While it correctly flags the ambiguity of the Line A leak, the overall tendency to invent details lowers the score."
+}

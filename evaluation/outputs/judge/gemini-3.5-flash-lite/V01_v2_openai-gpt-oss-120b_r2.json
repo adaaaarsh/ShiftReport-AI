@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine appeared to be off and not performing normally",
+  "Supervisor stopped the machine, performed a visual inspection, and logged the observation",
+  "Potential for equipment damage and safety concern if not addressed",
+  "Area was isolated to prevent slip hazards",
+  "Verify that the leak area is fully cleaned and that there are no slip hazards before production resumes",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; however, additional technical support may be required for the CNC Milling Machine inspection"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input, but completely guesses a specific machine ID for the line B noise instead of treating it as ambiguous, and fabricates numerous actions, outcomes, and general notes not present in the input. Severities are assigned as medium without sufficient evidence, leading to poor accuracy and moderate uncertainty handling."
+}

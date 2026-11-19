@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "approximately 12:00 PM",
+  "Monitored",
+  "Resolved — No further flickering reported after the brief episode",
+  "Verify that the HVAC electrical circuit is stable; check for any recurring flicker or stray activation",
+  "No safety incidents or staffing issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily selects M-14 (HVAC System) out of three possible utilities machines and fabricates numerous details, actions, and statuses not present in the input. It presents an ambiguous situation as fully understood and resolved, leading to poor accuracy and uncertainty handling."
+}

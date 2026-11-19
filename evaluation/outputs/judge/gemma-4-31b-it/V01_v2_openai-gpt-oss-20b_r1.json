@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "partial issue, reduced performance but machine still operational",
+  "potential safety hazard and possible production impact if not addressed",
+  "Verify that all safety protocols are in place for any identified leaks or machine issues",
+  "No other issues or events were reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guessed a specific machine (M-07) for the 'big machine on B' without flagging ambiguity. It also fabricated several justifications for the severity levels and a general safety check. However, it captured all reported issues and is very readable."
+}

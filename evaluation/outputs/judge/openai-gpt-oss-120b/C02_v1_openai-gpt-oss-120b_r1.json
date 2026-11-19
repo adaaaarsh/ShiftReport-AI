@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted; press taken offline for safety.",
+  "Awaiting delivery of replacement parts.",
+  "Schedule repair and re‑commissioning.",
+  "No defects reported during the run.",
+  "estimated downtime pending parts arrival.",
+  "Confirm expected delivery date with supplier.",
+  "Follow up daily until parts are received.",
+  "Assign maintenance team to perform leak repair.",
+  "Perform pressure test and functional verification before returning to production.",
+  "Log leak incident in the equipment maintenance system.",
+  "Update the preventive‑maintenance schedule to include additional checks on hydraulic seals.",
+  "Monitor any other presses for similar hydraulic issues.",
+  "Keep the production schedule flexible to accommodate the downtime of Press A.",
+  "If the parts delivery is delayed, consider reallocating the pending workload to Press B (if capacity permits)."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures all facts from the supervisor input, so completeness is high, but it adds many details not present in the input, lowering accuracy to the minimum. No severity level is provided, resulting in a severe penalty for severity classification. While the layout is clear and readable, the report fails to flag the missing timing information, giving it the lowest score for uncertainty handling."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential mechanical issue",
+  "specific nature of noise and impact on production not detailed",
+  "Fluid leak",
+  "potential safety or environmental hazard if fluid is hazardous or leak is significant",
+  "Ensure the area around the unidentified leak on Line A is safe and contained",
+  "No staffing or other safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 2,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guesses a specific machine (M-07) for the Line B issue without flagging it as ambiguous. It fabricates several details regarding the nature of the leak and safety hazards. Severities are confidently assigned (Medium/High) despite the input providing no evidence to support those levels."
+}

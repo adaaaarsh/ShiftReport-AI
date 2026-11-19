@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate containment of spill to prevent slip hazards",
+  "Machine should be taken offline or operated with extreme caution until maintenance assesses the leak source",
+  "Awaiting Maintenance Team",
+  "Coordinate with Robotics/Engineering team to schedule re-teaching session",
+  "Verify if this is due to a program error, sensor misalignment, or mechanical drift",
+  "Pending scheduling",
+  "No other major incidents reported during this shift",
+  "Production flow on Line B may be impacted due to Machine 17 issue",
+  "Prioritize contacting Maintenance regarding the hydraulic leak on Machine 17",
+  "Confirm timeline for Robot 2 re-teaching with the engineering team",
+  "Monitor Line B output closely due to potential downtime"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input, but heavily hallucinates numerous actions, statuses, and operational impacts that were not stated. It correctly identifies the equipment references as problematic since they do not exist cleanly in the registry, but invents a large amount of ungrounded detail, making it misleading for an incoming shift."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Brief interruption during recalibration",
+  "Monitor Line C scanner performance for the first hour of the shift to ensure calibration stability",
+  "No other abnormalities reported on other lines"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts accurately but fabricates several details (monitoring steps, production impact, and a general status claim). It fails to assign a severity or flag the missing cause of the drift, and it presents the situation as fully resolved without surfacing any uncertainty."
+}

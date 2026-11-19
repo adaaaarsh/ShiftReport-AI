@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor feed usage and replenish before next shift to avoid production slowdown",
+  "Ensure feed level is back to 80-90% before production resumes",
+  "Schedule maintenance if issue persists",
+  "Schedule a proper shutdown and leak repair",
+  "Perform LOTO, fix leak, and test for leaks",
+  "Replace headlight before next shift; check for other electrical issues",
+  "Install new headlight on FL1 and test illumination",
+  "Investigate cause, reinforce safety signage, and conduct refresher training",
+  "Conduct a quick walk-through of aisle 3, update signage, and remind staff of proper procedures",
+  "Top up coolant; check for leaks or excessive consumption",
+  "Refill coolant to recommended level and inspect for any abnormal drain",
+  "Night team to verify all items above, especially coolant and HP leak"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input, but heavily fabricates dozens of specific action steps, monitoring instructions, and recommendations not mentioned by the supervisor. Severities are assigned reasonably well across the items, though structured as a detailed checklist with multiple fabricated directives. Uncertainty is poorly handled as it turns ambiguous or missing items into prescriptive maintenance workflows."
+}

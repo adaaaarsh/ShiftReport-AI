@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "Monitored; no intervention required",
+  "Resolved / No action needed",
+  "Reduced tool performance may affect production quality or speed",
+  "Investigate the cause of pressure loss in the air tools on Line A and restore full functionality",
+  "Confirm whether any maintenance or adjustments were made to the air-tool system during this shift",
+  "requires follow-up to prevent potential production delays"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but splits the compressor and air tools into two separate issues, failing to flag the contradiction between the compressor's steady pressure and the tools' pressure loss. It fabricates several operational details (psi, monitoring actions, and specific pending items) not found in the input. Uncertainty is handled moderately by flagging the air tools as unrecognized equipment."
+}

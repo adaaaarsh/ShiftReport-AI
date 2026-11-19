@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM",
+  "base of the press",
+  "Leak could worsen if not addressed; production impact currently low",
+  "Ongoing — Awaiting maintenance completion",
+  "Verify that maintenance has repaired the oil leak on M-03 (Line A) and confirm no further leakage."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and captures all essential facts and severities appropriately, but introduces several fabricated details such as specific AM/PM times, exact physical locations of the leak, and invented action statuses. It correctly treats the adjacent lathe as a non-issue note rather than a failure. Uncertainty regarding whether the press is still running is not explicitly flagged."
+}

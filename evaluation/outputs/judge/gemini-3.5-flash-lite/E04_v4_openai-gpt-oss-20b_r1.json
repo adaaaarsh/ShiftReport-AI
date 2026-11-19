@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other equipment issues reported",
+  "Needs clarification on whether maintenance has been notified",
+  "Restore the interlock on M-10 and verify temperature returns to setpoint",
+  "Confirm that maintenance has been notified and schedule a check of the oven's temperature control system",
+  "Ensure the oven is shut down safely after batch completion and document the final temperature"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the industrial oven and captures all factual details while assigning a defensible critical severity. However, it invents several actions and pending items such as notifying maintenance and shutting down the oven that were never mentioned in the supervisor input. Readability and uncertainty handling are strong, but the extra fabricated directives lower the accuracy score."
+}

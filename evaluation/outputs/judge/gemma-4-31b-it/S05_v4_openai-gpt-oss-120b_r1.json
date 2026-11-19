@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify that air pressure remains stable after maintenance work",
+  "No safety incidents reported",
+  "Production resumed promptly after the compressor reset"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details in the Pending Items and General Notes sections. It also fails to flag the missing information regarding scrapped parts, claiming no clarifications are needed."
+}

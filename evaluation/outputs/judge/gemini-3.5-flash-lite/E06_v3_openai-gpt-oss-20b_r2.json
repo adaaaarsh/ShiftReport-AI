@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "near the base of the unit",
+  "3 PM",
+  "3:00 PM",
+  "scheduled to arrive",
+  "potential for escalation",
+  "Ongoing — Maintenance pending",
+  "Verify that the lathe (M-02) remains operational and no related issues arise",
+  "No other machine issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the core issue for M-03 and maps it correctly, but it fabricates a significant number of details (such as PM times, exact locations, escalation potential, and extra pending actions/general notes not present in the input). Completeness, severity, and readability are high, but accuracy and uncertainty handling suffer due to the extensive hallucinations and failure to flag missing critical information like whether the press is still running."
+}

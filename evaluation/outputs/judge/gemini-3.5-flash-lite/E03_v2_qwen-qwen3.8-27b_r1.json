@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 2,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Status: Resolved",
+  "Action Taken: Routine operation confirmed",
+  "Status: Pending",
+  "Inspect spindle for wear or damage due to reported noise. Monitor closely for further degradation or safety hazards.",
+  "Report parking lot lighting outage to maintenance/facilities team for repair.",
+  "Line A and Line B milling operations are currently active."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all real and distractor items from the input, correctly mapping M-01. However, it treats distractors (M-07 and parking lot lights) as formal issues and fabricates several follow-up actions and statuses not stated by the supervisor. It is well-structured and scannable but invents details to flesh out the non-issue items."
+}

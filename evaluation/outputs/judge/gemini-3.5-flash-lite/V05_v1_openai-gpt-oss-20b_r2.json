@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Exact parameter like spindle speed, axis alignment, feed rate",
+  "Root cause like misaligned spindle, sensor fault, software glitch",
+  "Re-calibrated the machine according to SOP",
+  "Updated firmware to vX.Y",
+  "Performed full run-through test cycle",
+  "Continuous monitoring for next 2 hours",
+  "Part #12345 – 5 mm deviation in diameter",
+  "Part #67890 – 0.2 mm misalignment in X-axis",
+  "Re-machined affected sections",
+  "Re-checked dimensions with a CMM",
+  "Updated parts log and attached inspection reports",
+  "Added daily quick-check checklist",
+  "Scheduled maintenance visit for next shift",
+  "Review CNC calibration schedule to bi-weekly",
+  "Propose training refresher",
+  "Follow-up on firmware update",
+  "Ensure calibration logs filed",
+  "Brief the next shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a massive amount of specific details, causes, parts, and actions that were never mentioned in the extremely brief supervisor input. It fails to flag the ambiguous machine reference properly, instead hallucinating a generic CNC machine and treating speculative items as hard facts. While it captures the general idea of checking parts and fixing the CNC, the sheer volume of invention drops accuracy and uncertainty handling to the lowest score."
+}

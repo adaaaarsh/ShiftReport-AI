@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Conduct an immediate safety inspection to identify the source of the odor",
+  "Check for overheating components, electrical faults, or material residue",
+  "Do not resume full production until the source is identified and cleared",
+  "Investigate the cause of the intermittent pauses",
+  "Check for sensor errors, material jamming, or software faults",
+  "Review error logs to determine if the pauses are recurring",
+  "The next shift supervisor should prioritize verifying the safety of the oven area (M-10) and the operational stability of the welding robot (M-06) before starting production"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates extensive 'Pending Items' and 'General Notes' that were not in the input. Severity for the robot is likely too high (HIGH) given it just 'paused a few times'. It fails to flag missing information as unknown, instead inventing specific inspection steps."
+}

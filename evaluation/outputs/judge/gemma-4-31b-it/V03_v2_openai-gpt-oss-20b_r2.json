@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operational irregularities noted",
+  "Minor observation, no immediate production impact",
+  "issue remains unresolved",
+  "Inspect and diagnose the malfunctioning forklift (M-15)",
+  "Verify that forklift #2 (M-16) is operating normally",
+  "No other significant issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guesses a specific forklift (M-15) instead of flagging the ambiguity. It fabricates numerous details regarding the nature of the issue, the impact, and the required actions. It also fails to surface the uncertainty regarding which forklift is affected."
+}

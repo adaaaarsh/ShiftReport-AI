@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "all parameters within normal limits",
+  "Sufficient for continued operation; schedule next fuel top‑up per routine maintenance plan",
+  "Ensure the test results are entered into the maintenance management system (CMMS) with the appropriate reference number",
+  "Set a reminder to re‑check fuel level in 30 days or after the next scheduled load test",
+  "No immediate maintenance required; continue with the standard monthly inspection schedule",
+  "Continue to observe generator performance during peak load periods and report any deviations promptly",
+  "Shift Supervisor – Facilities Operations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details from the input and assigns the correct ID and severity to the backup generator. However, it invents a large number of follow-up actions, recommendations, and administrative tasks that were not stated in or implied by the supervisor input, resulting in an accuracy score of 3."
+}

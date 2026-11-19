@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temporary production impact due to false rejects",
+  "Status: Resolved",
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the single equipment issue and all its facts while maintaining a very readable format. However, it invents details such as the impact description, status, and general notes that were not in the input. Severity is reasonably assigned, though uncertainty is slightly glossed over by marking it resolved and assuming no other incidents."
+}

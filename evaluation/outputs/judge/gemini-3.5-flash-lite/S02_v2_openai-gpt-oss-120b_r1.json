@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production returned to normal after the robot repair. No safety concerns were observed."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details and machine IDs from the supervisor input, earning top marks for completeness, severity, readability, and uncertainty. However, it includes an invented general note about no safety concerns being observed, which counts as an invented detail and reduces the accuracy score to 3."
+}

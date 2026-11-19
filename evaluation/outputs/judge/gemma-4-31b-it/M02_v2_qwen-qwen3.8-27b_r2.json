@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "Status: Ongoing (Monitor for recurrence; initial stop at 07:00 may not have been fully addressed if only the second instance was tightened)",
+  "Status: Resolved (Monitor for recurrence)",
+  "Status: Ongoing (Charging; verify full charge before next use)",
+  "Inspect belt tension and alignment",
+  "Verify if the 07:00 stop required maintenance beyond the 09:40 tightening",
+  "Monitor for further slipping",
+  "Monitor temperature stability",
+  "Check if the 11:00 alarm indicates a sensor drift or actual heating element issue",
+  "Confirm battery is fully charged and operational before use",
+  "Line B experienced repeated downtime due to conveyor issues, which may have impacted throughput",
+  "No safety incidents reported",
+  "All other equipment appears to be operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and facts accurately but contains numerous fabrications in the form of inferred statuses, pending items, and general notes (e.g., 'no safety incidents'). It correctly identifies the machines and assigns reasonable severities. Uncertainty handling is moderate as it flags the missing info for the first conveyor stop but invents potential causes for the oven alarm."
+}

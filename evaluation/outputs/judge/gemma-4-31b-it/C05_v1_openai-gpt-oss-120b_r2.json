@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 20:00 – 04:00 (Night Shift)",
+  "Injury: first-degree",
+  "Action Taken: cool water rinse, sterile dressing applied",
+  "Outcome: cleared by on-site first-aid responder and returned to work after a brief observation period",
+  "Follow-up: Incident logged in the safety register; operator advised to monitor the area for any signs of irritation. No lost time.",
+  "Production continued at normal rate; welding robot cell operated without downtime",
+  "All equipment checks completed per routine schedule; no deviations noted",
+  "Preventive Action: Review the wrist protection policy... Consider reinforcing the use of heat-resistant gloves or additional shielding",
+  "Training Reminder: Re-issue a short refresher on burn prevention and first-aid response",
+  "Documentation: Ensure the incident is entered into the electronic incident management system and that the operator’s medical record reflects the treatment provided",
+  "No pending safety concerns",
+  "All machines are in a ready state; no maintenance actions required at this time",
+  "Continue to monitor the welding robot cell for any abnormal temperature spikes or equipment alarms"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing specific medical treatments, follow-up actions, production statuses, and preventive measures not found in the input. It completely ignores the contradiction between 'no safety incidents' and the reported burn. While it captures the basic facts of the incident, the volume of hallucinated detail is extreme."
+}

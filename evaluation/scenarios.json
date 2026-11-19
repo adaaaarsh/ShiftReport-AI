@@ -1,0 +1,1132 @@
+{
+  "_about": "Synthetic supervisor inputs with answer keys. Drafted with LLM assistance (Claude) on 2026-11-05; Reviewed and edited by the first author on 2026-11-05 before generation (see review_log.md). 'ref' is an equipment ID, 'AMBIGUOUS:<candidates>' when the input cannot identify one machine, or 'UNRECOGNIZED' when it names equipment not in the registry. 'severity_ok' lists every severity a reasonable reviewer would accept. 'missing' lists information an incoming shift would need that the input does not give. 'contradictions' lists conflicts the report should surface. 'distractors' are input items that must NOT become equipment issues.",
+  "scenarios": [
+    {
+      "id": "S01",
+      "category": "Simple/Clean",
+      "input": "Packaging unit on line B jammed at 4:15pm. Cleared the jam, ran a test cycle, it's back to normal. No parts damaged.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-08",
+            "severity_ok": [
+              "LOW"
+            ],
+            "facts": [
+              "jam at 4:15pm",
+              "jam cleared",
+              "test cycle run",
+              "back to normal",
+              "no parts damaged"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "S02",
+      "category": "Simple/Clean",
+      "input": "Around 10:30 the welding robot on line B faulted on a wire feed error. Tech replaced the wire spool and recalibrated, robot was back in production by 11:05.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-06",
+            "severity_ok": [
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "fault ~10:30",
+              "wire feed error",
+              "spool replaced",
+              "recalibrated",
+              "back in production 11:05"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "S03",
+      "category": "Simple/Clean",
+      "input": "Backup generator weekly test done at 6am, ran 20 minutes under load, no issues. Fuel at 80%.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-13",
+            "severity_ok": [
+              "LOW"
+            ],
+            "facts": [
+              "weekly test 6am",
+              "20 min under load",
+              "no issues",
+              "fuel 80%"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "S04",
+      "category": "Simple/Clean",
+      "input": "Forklift 2 has a flat front tire. Parked it in the charging bay and tagged it out. Work order 4471 submitted at 1:40pm. We're using forklift 1 for everything until it's fixed.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-16",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "flat front tire",
+              "tagged out",
+              "work order 4471",
+              "submitted 1:40pm",
+              "forklift 1 covering"
+            ],
+            "missing": [
+              "repair ETA from vendor/mechanic (how long forklift 1 covers alone)"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "S05",
+      "category": "Simple/Clean",
+      "input": "Compressor unit tripped at 9:12pm, air pressure dropped and the line A air tools stopped. Reset the breaker, pressure back to 110 psi by 9:20. Maintenance says it was the overload relay, they'll inspect it tomorrow morning.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-12",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM"
+            ],
+            "facts": [
+              "tripped 9:12pm",
+              "line A air tools stopped",
+              "breaker reset",
+              "110 psi by 9:20",
+              "overload relay",
+              "inspection tomorrow morning"
+            ],
+            "missing": [
+              "were parts in cycle scrapped or damaged when air was lost"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "S06",
+      "category": "Simple/Clean",
+      "input": "Quality inspection scanner on line C rejected 14 good parts in a row around 3pm. Recalibrated it with the master part and rejects went back to normal. Re-ran the 14 parts and all passed.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-09",
+            "severity_ok": [
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "14 false rejects ~3pm",
+              "recalibrated with master part",
+              "rejects normal",
+              "14 parts re-run and passed"
+            ],
+            "missing": [
+              "cause of calibration drift (fixture bumped or dirty?)"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "M01",
+      "category": "Multi-Issue",
+      "input": "Lathe on line A started chattering around 1pm, finish on the shafts is out of tolerance so we pulled 20 parts for rework. Maintenance looked at it and said it's the tooling but we don't have the insert in stock. Injection molder on A is running but cycle time crept up from 32 to 38 seconds. Also the HVAC is blowing warm air in the east bay, guys are complaining about the heat.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-02",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM"
+            ],
+            "facts": [
+              "chatter ~1pm",
+              "out of tolerance",
+              "20 parts pulled for rework",
+              "tooling cause",
+              "insert not in stock"
+            ],
+            "missing": [
+              "is the lathe still running or stopped",
+              "has the insert been ordered / ETA"
+            ]
+          },
+          {
+            "ref": "M-04",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "cycle time 32 to 38 s",
+              "still running"
+            ],
+            "missing": [
+              "cause investigated / maintenance notified",
+              "is the slower cycle time backing up the line"
+            ]
+          },
+          {
+            "ref": "M-14",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "warm air east bay",
+              "worker complaints"
+            ],
+            "missing": [
+              "maintenance ticket raised"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "M02",
+      "category": "Multi-Issue",
+      "input": "Conveyor on B stopped twice this shift, around 7 and again at 9:40, belt was slipping. Tightened it the second time. The oven on C had a temperature alarm at 11 but it cleared on its own. Forklift 1 battery died mid-shift, it's on the charger now.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-05",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM"
+            ],
+            "facts": [
+              "stopped ~7",
+              "stopped 9:40",
+              "belt slipping",
+              "tightened second time"
+            ],
+            "missing": [
+              "belt condition / root cause",
+              "what was done after the first stop"
+            ]
+          },
+          {
+            "ref": "M-10",
+            "severity_ok": [
+              "UNKNOWN",
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "temperature alarm at 11",
+              "cleared on its own"
+            ],
+            "missing": [
+              "temperature reached / alarm type",
+              "whether product was affected"
+            ]
+          },
+          {
+            "ref": "M-15",
+            "severity_ok": [
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "battery died mid-shift",
+              "on charger"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "M03",
+      "category": "Multi-Issue",
+      "input": "Coolant pump on C has been whining since start of shift, flow seems fine. CNC mill on line A threw a spindle overload alarm at 3:20, operator cleared it and restarted, it's run ok since. Packaging on B was short an operator because Maria called in sick, so we ran it at half speed all night.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-11",
+            "severity_ok": [
+              "LOW",
+              "MEDIUM",
+              "UNKNOWN"
+            ],
+            "facts": [
+              "whining since start of shift",
+              "flow fine"
+            ],
+            "missing": [
+              "maintenance notified"
+            ]
+          },
+          {
+            "ref": "M-01",
+            "severity_ok": [
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "spindle overload alarm 3:20",
+              "cleared and restarted",
+              "running ok since"
+            ],
+            "missing": [
+              "cause of overload investigated",
+              "spindle damage / tool wear check"
+            ]
+          },
+          {
+            "ref": "M-08",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "short one operator",
+              "operator sick",
+              "half speed all night"
+            ],
+            "missing": [
+              "output lost running at half speed"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "M04",
+      "category": "Multi-Issue",
+      "input": "Big one: the hydraulic press on A had a guard interlock failure, press cycled with the guard open. Nobody was hurt. We locked it out at 2:10 and called safety and maintenance. Separately, the compressor has been short-cycling, and the welding robot needs a tip change before next shift.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-03",
+            "severity_ok": [
+              "CRITICAL"
+            ],
+            "facts": [
+              "guard interlock failure",
+              "cycled with guard open",
+              "no injury",
+              "locked out 2:10",
+              "safety and maintenance called"
+            ],
+            "missing": [
+              "incident report filed",
+              "who must approve return to service"
+            ]
+          },
+          {
+            "ref": "M-12",
+            "severity_ok": [
+              "MEDIUM",
+              "UNKNOWN",
+              "LOW"
+            ],
+            "facts": [
+              "short-cycling"
+            ],
+            "missing": [
+              "since when",
+              "maintenance notified"
+            ]
+          },
+          {
+            "ref": "M-06",
+            "severity_ok": [
+              "LOW"
+            ],
+            "facts": [
+              "tip change needed before next shift"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "M05",
+      "category": "Multi-Issue",
+      "input": "Line C oven door seal is torn and it's losing heat, parts are coming out under-cured. QC caught 3 bad batches. The scanner on C is fine. Generator fuel delivery didn't show up today. Forklift 2 is back in service after the tire fix.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-10",
+            "severity_ok": [
+              "HIGH",
+              "CRITICAL"
+            ],
+            "facts": [
+              "door seal torn",
+              "losing heat",
+              "under-cured parts",
+              "3 bad batches caught by QC"
+            ],
+            "missing": [
+              "is the oven still running",
+              "disposition of the 3 batches",
+              "repair requested"
+            ]
+          },
+          {
+            "ref": "M-13",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW",
+              "UNKNOWN"
+            ],
+            "facts": [
+              "fuel delivery missed"
+            ],
+            "missing": [
+              "current fuel level",
+              "delivery rescheduled"
+            ]
+          },
+          {
+            "ref": "M-16",
+            "severity_ok": [
+              "LOW"
+            ],
+            "facts": [
+              "back in service",
+              "tire fixed"
+            ],
+            "missing": []
+          }
+        ],
+        "contradictions": [],
+        "distractors": [
+          "scanner on C is fine (M-09 has no issue)"
+        ]
+      }
+    },
+    {
+      "id": "M06",
+      "category": "Multi-Issue",
+      "input": "M-07 broke a tool around 5, swapped it and it's fine now. Lathe on line A has a small coolant line leak. HVAC unit on the roof is making a rattling noise, haven't checked it. Speed sensor on the B conveyor keeps flickering, operators are working around it.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-07",
+            "severity_ok": [
+              "LOW"
+            ],
+            "facts": [
+              "tool broke ~5",
+              "tool swapped",
+              "fine now"
+            ],
+            "missing": []
+          },
+          {
+            "ref": "M-02",
+            "severity_ok": [
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "small coolant line leak"
+            ],
+            "missing": [
+              "maintenance notified",
+              "slip hazard managed"
+            ]
+          },
+          {
+            "ref": "M-14",
+            "severity_ok": [
+              "UNKNOWN",
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "rattling on roof",
+              "not checked"
+            ],
+            "missing": [
+              "inspection needed"
+            ]
+          },
+          {
+            "ref": "M-05",
+            "severity_ok": [
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "speed sensor flickering",
+              "operators working around it"
+            ],
+            "missing": [
+              "what the workaround is / whether safe",
+              "maintenance notified"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "V01",
+      "category": "Vague/Ambiguous",
+      "input": "Something was off with the big machine on B today. It was making sounds. Also there was a leak somewhere near A but I'm not sure which one. We might need to look at it tomorrow.",
+      "key": {
+        "issues": [
+          {
+            "ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+            "severity_ok": [
+              "UNKNOWN"
+            ],
+            "facts": [
+              "making sounds"
+            ],
+            "missing": [
+              "which machine",
+              "what kind of sound / since when",
+              "action taken"
+            ]
+          },
+          {
+            "ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+            "severity_ok": [
+              "UNKNOWN"
+            ],
+            "facts": [
+              "leak near line A"
+            ],
+            "missing": [
+              "which machine",
+              "what fluid / how much",
+              "action taken"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "V02",
+      "category": "Vague/Ambiguous",
+      "input": "The thing on line C acted up again. Same as last week. Somebody should look at it.",
+      "key": {
+        "issues": [
+          {
+            "ref": "AMBIGUOUS:M-09,M-10,M-11",
+            "severity_ok": [
+              "UNKNOWN"
+            ],
+            "facts": [
+              "recurring problem",
+              "same as last week"
+            ],
+            "missing": [
+              "which machine",
+              "what the problem is",
+              "action taken"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "V03",
+      "category": "Vague/Ambiguous",
+      "input": "Had some issues earlier but mostly sorted. One of the forklifts is still being weird.",
+      "key": {
+        "issues": [
+          {
+            "ref": "AMBIGUOUS:M-15,M-16",
+            "severity_ok": [
+              "UNKNOWN"
+            ],
+            "facts": [
+              "forklift behaving oddly"
+            ],
+            "missing": [
+              "which forklift",
+              "what the symptom is",
+              "is it still in use"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": [],
+        "unspecified": [
+          "'issues earlier' are not described and must not be invented"
+        ]
+      }
+    },
+    {
+      "id": "V04",
+      "category": "Vague/Ambiguous",
+      "input": "Utilities were a bit off around lunch, lights flickered and something kicked on. Production kept going.",
+      "key": {
+        "issues": [
+          {
+            "ref": "AMBIGUOUS:M-12,M-13,M-14",
+            "severity_ok": [
+              "UNKNOWN",
+              "LOW"
+            ],
+            "facts": [
+              "lights flickered around lunch",
+              "something kicked on",
+              "production continued"
+            ],
+            "missing": [
+              "what kicked on (generator?)",
+              "cause of the power event",
+              "check generator ATS / run log to confirm whether M-13 started"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "V05",
+      "category": "Vague/Ambiguous",
+      "input": "The CNC was out of spec for a while, we fixed it I think. Check the parts.",
+      "key": {
+        "issues": [
+          {
+            "ref": "AMBIGUOUS:M-01,M-02,M-07",
+            "severity_ok": [
+              "UNKNOWN",
+              "MEDIUM"
+            ],
+            "facts": [
+              "out of spec for a while",
+              "possibly fixed",
+              "parts need checking"
+            ],
+            "missing": [
+              "which CNC machine",
+              "how it was fixed",
+              "which parts / how many",
+              "quarantine status of parts run while out of spec"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "V06",
+      "category": "Vague/Ambiguous",
+      "input": "Bit of a smell near the oven area, probably nothing. Also the robot paused a few times.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-10",
+            "severity_ok": [
+              "UNKNOWN",
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "smell near oven",
+              "supervisor thinks probably nothing"
+            ],
+            "missing": [
+              "type of smell (burning?)",
+              "source checked",
+              "were the blower motor and exhaust checked"
+            ]
+          },
+          {
+            "ref": "M-06",
+            "severity_ok": [
+              "UNKNOWN",
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "paused a few times"
+            ],
+            "missing": [
+              "fault codes / cause",
+              "when"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C01",
+      "category": "Contradictory",
+      "input": "Machine 7 line B is running fine, no issues at all. But it threw an error code around 3pm and we had to restart it twice. The oven on C hit 450 which is way above spec but temps are normal now. Everything's good overall.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-07",
+            "severity_ok": [
+              "MEDIUM",
+              "UNKNOWN",
+              "HIGH"
+            ],
+            "facts": [
+              "error code ~3pm",
+              "restarted twice"
+            ],
+            "missing": [
+              "error code value",
+              "cause"
+            ]
+          },
+          {
+            "ref": "M-10",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM",
+              "UNKNOWN"
+            ],
+            "facts": [
+              "hit 450, above spec",
+              "normal now"
+            ],
+            "missing": [
+              "product affected",
+              "cause of over-temperature"
+            ]
+          }
+        ],
+        "contradictions": [
+          "M-07 'running fine, no issues' vs error code and two restarts",
+          "'everything's good overall' vs oven over-temperature event"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C02",
+      "category": "Contradictory",
+      "input": "Hydraulic press on A is shut down because of the leak, waiting on parts. Ran 400 pieces on it this afternoon with no problem.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-03",
+            "severity_ok": [
+              "HIGH",
+              "UNKNOWN",
+              "MEDIUM"
+            ],
+            "facts": [
+              "leak",
+              "shut down",
+              "waiting on parts",
+              "400 pieces this afternoon"
+            ],
+            "missing": [
+              "when it was shut down relative to the run"
+            ]
+          }
+        ],
+        "contradictions": [
+          "press shut down vs ran 400 pieces this afternoon"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C03",
+      "category": "Contradictory",
+      "input": "Forklift 1 is out of service, tagged out. Used forklift 1 to move the finished pallets to shipping at 6.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-15",
+            "severity_ok": [
+              "CRITICAL",
+              "HIGH"
+            ],
+            "facts": [
+              "out of service",
+              "tagged out",
+              "used at 6 to move pallets"
+            ],
+            "missing": [
+              "why it is tagged out",
+              "who authorized operating a tagged-out forklift"
+            ]
+          }
+        ],
+        "contradictions": [
+          "tagged out vs used at 6 (possible safety violation or wrong forklift number)"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C04",
+      "category": "Contradictory",
+      "input": "Coolant pump on C was replaced last week so it's brand new. The pump's original bearings are shot again, same failure as always.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-11",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM",
+              "UNKNOWN"
+            ],
+            "facts": [
+              "replaced last week",
+              "bearings failing",
+              "recurring failure"
+            ],
+            "missing": [
+              "is the pump running",
+              "maintenance notified"
+            ]
+          }
+        ],
+        "contradictions": [
+          "brand-new pump vs 'original bearings' failing again"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C05",
+      "category": "Contradictory",
+      "input": "No safety incidents this shift. Operator on the welding robot cell got a minor burn on his wrist at 8pm, first aid given, he went back to work.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-06",
+            "severity_ok": [
+              "HIGH",
+              "CRITICAL",
+              "MEDIUM"
+            ],
+            "facts": [
+              "minor wrist burn 8pm",
+              "first aid given",
+              "returned to work"
+            ],
+            "missing": [
+              "incident report filed",
+              "cause of burn / guarding"
+            ]
+          }
+        ],
+        "contradictions": [
+          "'no safety incidents' vs an operator burn injury"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "C06",
+      "category": "Contradictory",
+      "input": "Compressor ran normal all shift, pressure steady at 110. Air tools on line A kept losing pressure from about 2 to 4.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-12",
+            "severity_ok": [
+              "MEDIUM",
+              "UNKNOWN",
+              "LOW"
+            ],
+            "facts": [
+              "pressure steady at 110",
+              "line A air tools losing pressure 2-4"
+            ],
+            "missing": [
+              "leak in distribution line checked"
+            ]
+          }
+        ],
+        "contradictions": [
+          "compressor 'normal, steady' vs tools losing pressure (possible distribution leak)"
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": "E01",
+      "category": "Complex Edge",
+      "input": "M7 B grindin agn, dropped feed to 60%, mx pinged no show. HP on A dripping, didnt LOTO cuz quota. FL1 headlight out, near miss aisle 3. coolant low C. nights pls chk",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-07",
+            "severity_ok": [
+              "HIGH",
+              "MEDIUM"
+            ],
+            "facts": [
+              "grinding again",
+              "feed reduced to 60%",
+              "maintenance paged, did not come"
+            ],
+            "missing": [
+              "is it cleared to run at 60%"
+            ]
+          },
+          {
+            "ref": "M-03",
+            "severity_ok": [
+              "CRITICAL"
+            ],
+            "facts": [
+              "dripping/leaking",
+              "not locked out because of quota"
+            ],
+            "missing": [
+              "maintenance notified",
+              "safety non-compliance: lockout/tagout skipped to meet quota"
+            ]
+          },
+          {
+            "ref": "M-15",
+            "severity_ok": [
+              "HIGH",
+              "CRITICAL"
+            ],
+            "facts": [
+              "headlight out",
+              "near miss in aisle 3"
+            ],
+            "missing": [
+              "is it still in use",
+              "near miss reported"
+            ]
+          },
+          {
+            "ref": "M-11",
+            "severity_ok": [
+              "MEDIUM",
+              "LOW"
+            ],
+            "facts": [
+              "coolant low on line C"
+            ],
+            "missing": [
+              "coolant reordered/topped up"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "E02",
+      "category": "Complex Edge",
+      "input": "Same press issue as yesterday (see Tuesday's report) plus the new paint booth on line D is down.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-03",
+            "severity_ok": [
+              "UNKNOWN"
+            ],
+            "facts": [
+              "same issue as yesterday"
+            ],
+            "missing": [
+              "what the issue is (prior report not available)",
+              "current status"
+            ]
+          },
+          {
+            "ref": "UNRECOGNIZED",
+            "severity_ok": [
+              "UNKNOWN",
+              "HIGH",
+              "CRITICAL"
+            ],
+            "facts": [
+              "paint booth on line D down"
+            ],
+            "missing": [
+              "equipment not in registry; confirm ID",
+              "cause and action"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "E03",
+      "category": "Complex Edge",
+      "input": "Mill on B fine. Mill on A had spindle noise starting 1:30, ran it anyway. Also it's Jim's birthday, cake in the break room lol. Parking lot lights are out too.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-01",
+            "severity_ok": [
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "spindle noise from 1:30",
+              "kept running"
+            ],
+            "missing": [
+              "maintenance notified",
+              "noise worsening"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": [
+          "mill on B fine (M-07 has no issue)",
+          "birthday cake",
+          "parking lot lights are facilities, not registry equipment (acceptable as a general note)"
+        ]
+      }
+    },
+    {
+      "id": "E04",
+      "category": "Complex Edge",
+      "input": "Oven C temp 380F, setpoint 350. Bumped to manual, holding 355 since 2215. Interlock bypassed temporarily per Mike so we could finish the batch.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-10",
+            "severity_ok": [
+              "CRITICAL"
+            ],
+            "facts": [
+              "380F vs 350 setpoint",
+              "manual mode",
+              "holding 355 since 22:15",
+              "interlock bypassed per Mike",
+              "to finish batch"
+            ],
+            "missing": [
+              "is the interlock restored",
+              "bypass authorization documented",
+              "batch quality checked"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "E05",
+      "category": "Complex Edge",
+      "input": "Machine 17 on line B is leaking hydraulic fluid. Also robot 2 needs a reteach.",
+      "key": {
+        "issues": [
+          {
+            "ref": "UNRECOGNIZED",
+            "severity_ok": [
+              "UNKNOWN",
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "machine 17 line B",
+              "hydraulic fluid leak"
+            ],
+            "missing": [
+              "no machine 17 in registry; confirm ID",
+              "action taken"
+            ]
+          },
+          {
+            "ref": "UNRECOGNIZED",
+            "severity_ok": [
+              "UNKNOWN",
+              "LOW",
+              "MEDIUM"
+            ],
+            "facts": [
+              "robot 2 needs reteach"
+            ],
+            "missing": [
+              "registry has one robot (M-06); confirm which"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": []
+      }
+    },
+    {
+      "id": "E06",
+      "category": "Complex Edge",
+      "input": "La prensa hidráulica en línea A tiene fuga de aceite desde las 3. The lathe next to it is fine. Mantenimiento ya viene.",
+      "key": {
+        "issues": [
+          {
+            "ref": "M-03",
+            "severity_ok": [
+              "MEDIUM",
+              "HIGH"
+            ],
+            "facts": [
+              "oil leak since 3",
+              "maintenance on the way"
+            ],
+            "missing": [
+              "is the press still running"
+            ]
+          }
+        ],
+        "contradictions": [],
+        "distractors": [
+          "lathe next to it is fine (M-02 has no issue)"
+        ]
+      }
+    }
+  ]
+}

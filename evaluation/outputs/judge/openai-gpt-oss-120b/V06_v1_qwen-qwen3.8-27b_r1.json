@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "intermittent pauses during the shift",
+  "operations have resumed",
+  "monitoring to ensure it does not impact production efficiency or safety",
+  "faint odor likely minor (e.g., residual food or minor overheating)",
+  "source of the smell suggested burnt residues, grease buildup, or potential electrical issues",
+  "if the smell persists or worsens, report to maintenance immediately",
+  "monitor robot performance",
+  "log timestamps and conditions (e.g., specific task, load weight)",
+  "no other significant incidents or safety concerns were reported",
+  "overall workflow remained stable aside from the noted equipment irregularities"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both supervisor items, so completeness is high, but it adds many invented details, lowering accuracy to the minimum. No explicit severity labels are provided, making severity classification indefensible. The structured headings give excellent readability, while only some unknowns are flagged, resulting in a moderate uncertainty score."
+}

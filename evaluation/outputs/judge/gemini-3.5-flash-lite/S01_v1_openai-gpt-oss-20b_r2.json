@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Disassembled the affected section",
+  "Production resumed without interruption",
+  "Keep a close eye on the unit for the next 2 hours for any recurrence",
+  "Schedule a routine inspection of the jam mechanism tomorrow to pre-empt similar issues",
+  "Log the incident in the maintenance log with details of the jam cause and resolution steps",
+  "No impact on overall line throughput",
+  "All safety protocols were followed during the intervention"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and correctly identifies the equipment ID (M-08), but heavily fabricates numerous actions, follow-up recommendations, and operational impacts that were not stated in the supervisor input. The severity and completeness are well-handled, but the extensive fabrication severely lowers the accuracy score."
+}

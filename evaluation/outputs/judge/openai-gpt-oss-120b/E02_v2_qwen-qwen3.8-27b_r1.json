@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigned severity HIGH to M-03 without input evidence",
+  "Assigned severity CRITICAL to Paint Booth without input evidence",
+  "Status marked Ongoing for M-03",
+  "Status marked Ongoing for Paint Booth",
+  "System note about Paint Booth not in registry",
+  "Pending item suggesting investigation for M-03",
+  "Pending item suggesting immediate troubleshooting for Paint Booth",
+  "General note recommending maintenance update of asset registry"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both issues from the supervisor input, so completeness is high. However, it invents severities, statuses, and extra commentary not present in the input, lowering accuracy and making severity classification partially unjustified. The layout is clear and scannable, giving a strong readability score, and it flags the unknown paint booth but omits cause/action uncertainties, resulting in a moderate uncertainty handling rating."
+}

@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "automatic shutdown of the robot",
+  "Depleted or damaged wire spool leading to feed interruption",
+  "Technician removed the faulty wire spool",
+  "Installed a new, verified spool",
+  "Executed a complete recalibration sequence per the robot’s SOP",
+  "Conducted a test weld to confirm proper operation",
+  "no further errors observed during the remainder of the shift",
+  "~35 minutes of line B production loss",
+  "short interruption was absorbed by existing buffer inventory",
+  "No safety incidents reported",
+  "Spool Inventory Check",
+  "Preventive Maintenance: Add a wire-feed inspection to the daily pre-shift checklist",
+  "Log Review: Document the fault code in the maintenance log and monitor for any repeat occurrences over the next 7 days",
+  "Training Reminder: Reinforce SOP for wire spool replacement and robot recalibration",
+  "Continue to monitor Line B for any abnormal welding robot behavior",
+  "Ensure the spare wire spools are readily accessible",
+  "Review the robot’s error logs at the start of the next shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and captures all facts, but it is riddled with fabrications. It invents root causes, specific procedural steps (SOPs, test welds), production impacts (buffer inventory), safety claims, and an extensive list of follow-up actions not present in the input. It presents these inventions as facts, failing the uncertainty and accuracy rubrics."
+}

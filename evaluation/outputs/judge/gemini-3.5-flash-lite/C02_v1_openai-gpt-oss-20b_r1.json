@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "safe power-off action",
+  "hydraulic cylinder seal and associated fittings",
+  "full leak test and restart",
+  "all pieces met quality specifications",
+  "leak located at the hydraulic cylinder seal area",
+  "all safety interlocks and emergency stop functions verified",
+  "leak incident logged in the maintenance system (Ticket #XXXXX)",
+  "table with owners, deadlines, and notes for replacement, testing, and logging",
+  "preventive action of scheduled inspection next month",
+  "inventory check recommendation",
+  "approved by field"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the hydraulic press (M-03), but it invents an extensive amount of detail regarding specific parts, actions, maintenance tickets, and procedures that were not mentioned in the short supervisor input. It fails to flag the contradiction between the press being shut down and running 400 pieces in the afternoon. However, it is well-structured and scannable."
+}

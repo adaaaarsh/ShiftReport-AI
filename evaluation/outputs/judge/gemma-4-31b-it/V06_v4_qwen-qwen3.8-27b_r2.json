@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No critical safety incidents or full machine stoppages reported",
+  "Both reported issues are currently low-impact but require verification to prevent escalation",
+  "Verify if M-06 pauses have affected output quality or quantity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the machines and captures all facts from the input. It explicitly flags missing information and uses reasonable severities. However, it fabricates general notes regarding safety incidents and output quality that were not mentioned by the supervisor."
+}

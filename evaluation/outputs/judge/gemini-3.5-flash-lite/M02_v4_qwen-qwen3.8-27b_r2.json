@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inferred as Day Shift based on 7:00–11:00 timestamps",
+  "Status: Ongoing — Risk of recurrence if tension is not monitored",
+  "Status: Resolved (Self-cleared)",
+  "Status: Pending — Unit unavailable until charged",
+  "Consider preventive maintenance check",
+  "Verify temperature sensor accuracy; review alarm logs to ensure no other hidden faults",
+  "Confirm availability of Forklift #2 (M-16) to cover any gaps caused by Forklift #1 downtime",
+  "No safety incidents reported",
+  "No staffing issues mentioned",
+  "All issues were managed by the supervisor on-site; no external maintenance calls were explicitly mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported issues and details accurately according to the input, but includes several fabricated assumptions, statuses, and general notes not found in the source text. Severity assignments are largely reasonable and uncertainties/missing items are explicitly flagged. Structure and readability are excellent."
+}

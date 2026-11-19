@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time 12:00 – 12:45",
+  "Time 12:30 – 12:35",
+  "Time 12:45 – 13:00",
+  "Notified Facilities",
+  "Isolated the circuit",
+  "logged the event",
+  "informed Maintenance",
+  "Equipment identified as standby air-compressor",
+  "kept QA on standby",
+  "all safety protocols remained in effect",
+  "No incidents or injuries reported",
+  "No deviation from quality standards detected",
+  "No damage reported",
+  "unexpected activation was traced to a standby compressor that cycled on automatically",
+  "Perform a full inspection of the lighting circuits",
+  "Verify that the standby compressor’s auto-start settings are appropriate",
+  "Log the compressor activation in the equipment history file",
+  "Schedule a preventive check on the compressor’s control module",
+  "Continue monitoring utility performance during peak lunch periods",
+  "Keep a standby observer on the floor",
+  "Update the incident log in the Shift Handover System",
+  "Attach any photos or sensor data",
+  "Assign a team member to watch the main distribution board",
+  "Ensure the next shift is briefed",
+  "Conduct a quick visual inspection of all emergency lighting and exit signage",
+  "Date/Time: 2026-11-05 13:30"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific times, actions taken, the identity of the equipment (standby compressor), and extensive follow-up tasks not present in the input. It fails to flag the ambiguity of the 'something' that kicked on, instead confidently inventing a cause. While it captures the basic facts, the level of invention is extreme."
+}

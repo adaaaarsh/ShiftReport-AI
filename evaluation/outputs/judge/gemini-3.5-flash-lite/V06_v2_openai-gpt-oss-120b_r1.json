@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Area inspected briefly; no abnormal readings detected; continued operation.",
+  "Status: Ongoing - Requires further monitoring.",
+  "Robot was reset and resumed work; no error codes logged at the time.",
+  "Status: Ongoing - Needs observation to determine if underlying issue persists.",
+  "Investigate the source of the smell near the Industrial Oven (M-10) and confirm there are no gas leaks or overheating components.",
+  "Monitor the Welding Robot Arm (M-06) for further pauses; if the issue recurs, run a diagnostic check and review the safety interlock sensors.",
+  "Document any additional observations or error codes related to the above equipment.",
+  "Overall production continued without major interruptions.",
+  "No safety incidents reported during the shift.",
+  "Staffing levels were adequate; all operators reported normal workload."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a large amount of detailed actions, outcomes, statuses, and general shift commentary not present in the brief input notes. While it captures the two core equipment mentions accurately by ID, the extensive hallucination of actions taken, investigations, and general notes significantly harms accuracy and uncertainty handling."
+}

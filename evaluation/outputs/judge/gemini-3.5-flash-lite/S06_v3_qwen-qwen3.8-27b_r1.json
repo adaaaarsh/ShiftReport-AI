@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "temporary workflow disruption and potential rework",
+  "no safety hazard or permanent production stop",
+  "No other equipment issues or safety incidents reported",
+  "Recommend monitoring M-09 for the next few hours to ensure calibration stability"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all details regarding the quality inspection scanner and maps them to the right ID, but it invents impact assessments, safety notes, and recommendations that were not in the supervisor input. Severities are defensible though MEDIUM is slightly high for a quick recalibration fix. Completeness and readability are excellent, but it fails to flag the unknown cause of the calibration drift as missing."
+}

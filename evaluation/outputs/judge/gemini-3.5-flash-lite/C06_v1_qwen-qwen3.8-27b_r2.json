@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "02:00 and 04:00",
+  "Recommend inspection of Line A for potential leaks, regulator issues, or valve malfunctions",
+  "Monitor Line A closely during the next shift to see if the pressure loss recurs",
+  "If the issue persists, isolate sections of Line A to identify the source of the leak or fault",
+  "Verify that all air tools on Line A are properly connected and not damaged"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts but fabricates several action steps, timestamps, and details not in the input. It completely misses the underlying contradiction between the steady compressor and dropping tool pressure. Readability is decent, but uncertainty handling is poor because it invents speculative troubleshooting steps instead of acknowledging gaps."
+}

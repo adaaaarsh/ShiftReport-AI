@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "risk of total coolant loss on Line C",
+  "Verify the current operational status of M-11",
+  "Incorrect part number installed",
+  "Misalignment during installation",
+  "Contamination in the coolant system causing rapid wear",
+  "Defective batch of replacement parts",
+  "Contact maintenance to assess if the pump needs immediate replacement or repair",
+  "Monitor coolant pressure and temperature on Line C machines (M-09, M-10) for any signs of cooling loss",
+  "Engineering/Maintenance should review historical maintenance logs",
+  "Ensure spare bearings or a backup pump are available in the warehouse"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and successfully addresses the contradiction present in the input. However, it significantly hallucinates many specific actions, failure scenarios, and maintenance steps that were never mentioned by the supervisor. Severity is well-reasoned given the details, and uncertainty handling is good."
+}

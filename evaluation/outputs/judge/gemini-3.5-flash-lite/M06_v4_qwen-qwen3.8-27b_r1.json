@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid loss may affect machine performance or create slip hazard",
+  "Potential mechanical failure, but unverified",
+  "Inconsistent speed control may impact product quality or safety",
+  "Inspect and repair coolant line leak on M-02 (Line A)",
+  "Schedule inspection for rattling noise on M-14 (HVAC/Roof) — verify safety before next shift start",
+  "Investigate flickering speed sensor on M-05 (Line B) and determine if permanent repair or temporary bypass is needed",
+  "Confirm M-07 (Line B) remains stable after tool swap",
+  "No critical safety incidents or full production stoppages reported.",
+  "Multiple minor-to-moderate issues are currently being managed via workarounds; priority should be given to M-14 (unverified) and M-05 (sensor instability) to prevent escalation."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input details accurately in terms of machine IDs and basic facts, but it includes several fabricated action items, risk assessments, and general statements not found in the source text. All issues are carried forward with appropriate severity assignments and well-handled uncertainty gaps."
+}

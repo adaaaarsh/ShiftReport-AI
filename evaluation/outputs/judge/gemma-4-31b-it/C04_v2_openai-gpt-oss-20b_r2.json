@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction with significant production impact due to coolant circulation disruption",
+  "Inspect and replace the bearings on M-11 Coolant Circulation Pump (Line C)",
+  "Verify coolant flow and pressure after bearing replacement",
+  "Document any additional wear or damage to the pump housing",
+  "No other issues reported during this shift"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the pump being 'brand new' and having 'original bearings'. It fabricates several detailed pending actions and a justification for the high severity that was not in the input. It presents the situation as a clear-cut failure without noting the ambiguity of the input."
+}

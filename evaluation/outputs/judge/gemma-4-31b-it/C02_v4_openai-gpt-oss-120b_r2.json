@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production stopped",
+  "parts request placed",
+  "Machine remains offline until parts arrive",
+  "Follow up on parts order for M-03 and confirm expected arrival time",
+  "Verify that the hydraulic press is ready to be restarted once parts are installed",
+  "Document the exact shutdown time and any safety measures taken during the leak",
+  "No safety incidents reported beyond the equipment leak",
+  "Production of 400 pieces was completed earlier in the afternoon before the shutdown"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and flags the contradiction and missing info perfectly. However, it fabricates numerous actions and status details (e.g., 'parts request placed', 'no safety incidents') not found in the input. Severity is reasonable given the machine is shut down."
+}

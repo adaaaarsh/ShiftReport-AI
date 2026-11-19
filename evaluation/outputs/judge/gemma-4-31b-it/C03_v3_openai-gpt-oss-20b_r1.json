@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "tagged out for maintenance",
+  "Forklift non‑operational, impacts material handling and safety",
+  "Schedule and complete maintenance on M-15 (Forklift #1)",
+  "Verify that alternative material handling equipment is available and operational",
+  "6:00 PM",
+  "No other issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates the reason for the tag-out ('maintenance') and adds several invented actions and safety claims. It completely fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. Readability is high, but uncertainty handling is non-existent."
+}

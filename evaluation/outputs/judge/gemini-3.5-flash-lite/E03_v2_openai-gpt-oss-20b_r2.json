@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM appended to 1:30 time",
+  "Major malfunction with significant production impact",
+  "No maintenance performed during shift",
+  "Inspect and service spindle of M-01 to eliminate noise and prevent potential failure",
+  "No other safety hazards or production stoppages reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue with M-01 and notes the distractor about M-07, but it invents several details including actions, outcomes, and impact assessments not present in the supervisor notes. It also treats the M-07 note as a formal issue/event rather than just a status note. Uncertainty is handled poorly since gaps are silently filled with fabricated operational details."
+}

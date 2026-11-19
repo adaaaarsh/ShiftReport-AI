@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-05",
+  "Time Noticed: 02:10 assigned to lockout time",
+  "Status fields and ongoing/pending descriptions",
+  "Action Taken: Monitored the condition and reported to maintenance for compressor",
+  "Severity: 🟠 HIGH for the compressor unit",
+  "Pending items descriptions and safety clearance requirements",
+  "General notes regarding safety protocols followed promptly, adequate staffing levels, and communication claims"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all items from the input and is very readable, but introduces a large number of fabricated details, statuses, and inflated severities (such as marking the compressor as HIGH). It also completely misses uncertainty handling by treating incomplete and unspecified information with invented specifics and unwarranted assurances."
+}

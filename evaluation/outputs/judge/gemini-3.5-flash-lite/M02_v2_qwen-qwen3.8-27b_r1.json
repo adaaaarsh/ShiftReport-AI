@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift inferred as Day Shift from times 07:00-11:00",
+  "Status: Ongoing (Monitor for recurrence) for M-05",
+  "Action Taken: None required for M-10",
+  "Status: Resolved for M-10",
+  "Description of M-15: rendering the forklift inoperable",
+  "Pending items for next shift recommendations (inspect rollers, check thermostat calibration, etc.)",
+  "Line B experienced intermittent production halts due to conveyor issues; assess impact on throughput.",
+  "Logistics capacity may be reduced if Forklift #1 is not fully charged by start of next shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items and formats them cleanly, resulting in high completeness and readability. However, it severely fails accuracy and uncertainty handling by inventing a shift based on timestamps, fabricating statuses, actions, and detailed recommendations for next shift that were never provided in the input text."
+}

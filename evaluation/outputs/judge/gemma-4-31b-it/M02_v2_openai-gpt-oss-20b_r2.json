@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted on Line B during both incidents",
+  "Monitored oven",
+  "oven operating within normal parameters",
+  "forklift was stationary",
+  "battery status monitored",
+  "forklift charging, ready for next shift",
+  "Verify conveyor belt tension and perform a preventive check on M-05",
+  "Confirm oven temperature stability and review recent alarm logs for M-10",
+  "Ensure forklift #1 battery is fully charged before shift start; consider a battery health check",
+  "Production on Line B experienced brief stoppages; overall output was slightly impacted",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no overtime required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it contains an excessive amount of fabricated details, including specific outcomes, monitoring actions, and general notes about safety and staffing not found in the input. It also fails to flag any missing information or uncertainties, presenting the situation as fully resolved and monitored."
+}

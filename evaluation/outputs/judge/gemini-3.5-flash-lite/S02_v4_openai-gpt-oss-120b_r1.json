@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Returned to production at 11:05 (omitted from the resolved status section time detail)"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details from the supervisor input accurately and structures them clearly. The exact restoration time of 11:05 was slightly buried or omitted under the status block, resulting in a minor accuracy deduction, but overall the report is exceptionally clear, correctly maps M-06, and appropriately handles severity."
+}

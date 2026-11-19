@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator continued running the machine while monitoring the condition",
+  "monitor for escalation; schedule inspection if noise persists",
+  "Inspect the spindle of M-01 CNC Milling Machine (Line A) for wear or imbalance and perform corrective maintenance if needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately identifies the machine and the issue, but it fabricates specific actions taken ('monitoring the condition') and pending maintenance steps not mentioned in the input. It captures all relevant information including distractors. Uncertainty is moderate as it doesn't flag the lack of maintenance notification."
+}

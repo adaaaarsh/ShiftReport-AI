@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify fuel level remains above 70%",
+  "schedule next weekly test",
+  "All systems operating normally",
+  "no safety or production concerns reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all facts from the input and correctly identifies the machine. However, it fabricates several pending items and general notes (fuel threshold, scheduling, and safety claims) not present in the supervisor's notes."
+}

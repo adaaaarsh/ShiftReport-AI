@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designation for ~5",
+  "Broken tool replaced with a spare",
+  "No production impact",
+  "Leak may affect cooling efficiency if not repaired",
+  "No repair action reported",
+  "Noise could indicate a developing fault; not yet inspected",
+  "Issue noted; no inspection performed yet",
+  "Sensor instability may lead to speed inconsistencies and reduced efficiency",
+  "Operators continue operation while monitoring sensor behavior",
+  "Verify that the coolant leak on M-02 has been addressed or schedule repair",
+  "Arrange inspection and any necessary repair for M-14",
+  "Assess the condition of the speed sensor on M-05 and plan corrective action",
+  "Confirm that no further tool issues arise on M-07 and that it remains stable",
+  "No safety incidents reported during this shift",
+  "All operators were able to continue production despite the noted issues, employing workarounds where necessary"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all four issues from the input and correctly identifies the equipment IDs, but it contains a large number of fabricated details, including assumed actions, impacts, and general shift commentary. The severities are reasonably assigned given the context, and uncertainty is well handled with specific clarifications. However, due to the extensive fabrication of details not stated in the input, the accuracy score is severely penalized."
+}

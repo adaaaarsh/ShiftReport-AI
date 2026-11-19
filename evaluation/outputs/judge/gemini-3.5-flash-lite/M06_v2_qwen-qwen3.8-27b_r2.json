@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assumed PM based on typical shift flow, or as stated around 5",
+  "No critical safety hazards or full production stoppages reported during this shift",
+  "Recommend prioritizing the M-02 coolant leak and M-05 sensor issue early in the next shift to maintain optimal production flow"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all four issues with accurate machine mapping and high completeness, but invents several details including assumptions about the time of day and general statements about safety and production stoppages not found in the input. Severities are mostly reasonable though M-14 is assigned LOW rather than UNKNOWN. It handles uncertainty poorly by omitting explicit uncertainty flags for unverified items."
+}

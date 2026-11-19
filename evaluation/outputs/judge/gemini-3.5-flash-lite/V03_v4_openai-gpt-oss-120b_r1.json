@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Perform a detailed inspection of the identified forklift and address any faults found."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous forklift reference and correctly assigns an unknown severity, but it invents a recommendation to perform a detailed inspection. All items from the minimal input are carried forward cleanly with excellent formatting and uncertainty handling."
+}

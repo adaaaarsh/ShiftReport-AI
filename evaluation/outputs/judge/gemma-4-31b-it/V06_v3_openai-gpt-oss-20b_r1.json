@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None (assumed to be monitored)",
+  "Status: Pending",
+  "Severity: No immediate safety concern reported",
+  "Production slowed, potential for extended downtime if unresolved",
+  "Action Taken: None (issue noted for follow-up)",
+  "Status: Ongoing",
+  "Monitor and investigate the odor near M-10; confirm no hazardous emissions",
+  "Follow up on the intermittent pauses of M-06; schedule maintenance if needed",
+  "No safety incidents or staffing changes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it fabricates a significant amount of detail regarding actions, statuses, and justifications for severity. It fails to flag any missing information (like the cause of the pauses) and presents the situation as a managed process. The 'No safety incidents' claim is a direct fabrication."
+}

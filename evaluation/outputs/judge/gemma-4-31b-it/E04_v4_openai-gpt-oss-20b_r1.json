@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 22:15",
+  "Status: Ongoing — Temperature still above setpoint; interlock remains bypassed",
+  "Clarifications Needed: Needs clarification on whether maintenance has been notified",
+  "Pending Items: Confirm that maintenance has been notified and schedule a check of the oven’s temperature control system",
+  "Pending Items: Ensure the oven is shut down safely after batch completion and document the final temperature",
+  "General Notes: No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts and correctly identifies the machine and severity. However, it fabricates several details regarding maintenance notification, status, and specific pending actions not mentioned in the input. Uncertainty handling is good as it flags the need to restore the interlock."
+}

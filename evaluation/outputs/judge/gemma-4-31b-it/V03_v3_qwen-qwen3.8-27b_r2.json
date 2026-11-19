@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety risk in logistics area",
+  "requires specific diagnosis",
+  "steering, lifting, braking",
+  "Perform a full safety inspection on the affected forklift",
+  "tag out the unit immediately",
+  "Staffing and other general floor conditions appear normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the forklift and flags the missing information. However, it fabricates several specific diagnostic steps, safety risks, and a claim about staffing conditions. Severity was assigned as Medium without evidence in the input."
+}

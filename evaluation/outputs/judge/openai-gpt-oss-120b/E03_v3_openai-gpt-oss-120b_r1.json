@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity LOW assigned to M-07",
+  "Status Resolved for M-07",
+  "Time Noticed Not specified for M-07",
+  "Action Taken None required for M-07",
+  "Severity MEDIUM assigned to M-01 (not in input)",
+  "Action Taken note 'no immediate repair performed' for M-01",
+  "Status Ongoing – Needs monitoring and possible maintenance for M-01",
+  "Pending item to inspect spindle noise on M-01 and arrange maintenance",
+  "Pending item to verify parking lot lighting issue addressed by facilities"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all supervisor‑mentioned items, so completeness is high. However it adds many invented details (severity labels, statuses, actions, and pending tasks) that were not in the input, resulting in very low accuracy. The severity for the real issue (M-01) is defensible, but assigning a severity to a non‑issue (M-07) is unjustified, yielding a moderate severity score. The layout is clear and scannable, giving a top readability rating. Uncertainty handling is only moderate because the report fills gaps instead of flagging missing information."
+}

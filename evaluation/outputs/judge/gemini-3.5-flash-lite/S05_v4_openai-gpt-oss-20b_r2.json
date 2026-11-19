@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard",
+  "Full production halt on Line A",
+  "Status: Ongoing",
+  "Monitor air pressure levels to ensure stability",
+  "No other equipment issues reported",
+  "No staffing or safety incidents noted"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and structures information very cleanly, but it inflates the severity to CRITICAL by fabricating a safety hazard and a full production halt. It also invents status information ('Ongoing') and general notes about no safety incidents or other issues not stated in the input. Overall, completeness and readability are high, but accuracy and severity are penalized due to the fabricated details."
+}

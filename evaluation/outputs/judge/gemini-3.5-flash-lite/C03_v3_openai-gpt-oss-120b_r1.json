@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics capability reduced; production flow may be impacted if not replaced.",
+  "06:00 (assumed 6 AM/PM as 6)",
+  "The forklift was still used to move finished pallets to shipping at 06:00 before being tagged out.",
+  "Equipment remains out of service; repair or replacement needed.",
+  "Arrange repair or replacement for M-15 (Forklift #1) to restore full logistics capability.",
+  "Verify that an alternative forklift is available for continued pallet movement.",
+  "No safety incidents reported.",
+  "Logistics team managed to complete pallet transfer despite the forklift outage."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents a sequence of events claiming the forklift was used before being tagged out and fabricates numerous details, outcomes, and management actions not supported by the input. It completely misses the critical contradiction between being tagged out and being operated. While readable and well-structured, the severe accuracy and uncertainty flaws make it misleading."
+}

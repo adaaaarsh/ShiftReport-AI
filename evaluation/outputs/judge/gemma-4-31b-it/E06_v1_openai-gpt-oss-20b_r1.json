@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Aislar la zona y aplicar sellador temporal",
+  "Registrar nivel de aceite y presión antes de la intervención",
+  "La fuga está localizada en la junta de la válvula de control",
+  "No se ha observado sobrecalentamiento ni pérdida de presión",
+  "Verificar que no haya fugas de lubricante",
+  "Mantener registro de horas de operación",
+  "El torno funciona dentro de los parámetros de producción",
+  "Confirmar hora estimada de llegada",
+  "Preparar herramientas y repuestos necesarios (sellador, juntas, etc.)",
+  "se espera llegada dentro de la próxima hora",
+  "Se ha iniciado la acción de aislamiento"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific causes (valve joint), actions (isolating the area, applying sealant), and monitoring steps not present in the input. It also incorrectly treats the distractor (the lathe) as an item requiring action/monitoring. It fails to flag any uncertainty or missing information."
+}

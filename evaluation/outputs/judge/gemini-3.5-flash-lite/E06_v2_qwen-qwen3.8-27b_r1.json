@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 3:00",
+  "Status: Ongoing",
+  "Monitor the arrival of the maintenance team for M-03 (Hydraulic Press).",
+  "Verify that the oil leak on M-03 has been contained and repaired before resuming full operation.",
+  "Check for any residual oil on the floor around M-03 to ensure safety and prevent slip hazards.",
+  "M-02 (CNC Lathe, Line A) was inspected and confirmed to be operating normally.",
+  "No other issues reported for Line A at the time of handover."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all provided details but invents a significant amount of text including specific timestamps, pending checks, slip hazard warnings, and status confirmations that were not in the supervisor input. The lathe distractor is incorrectly turned into an inspection and normal operation status note. Uncertainty regarding whether the press is still running is completely ignored."
+}

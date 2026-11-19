@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Seal ordered with expected delivery date placeholder",
+  "Temporary heat-loss mitigation: increase oven set-point by 5 deg C",
+  "Generator on standby with existing fuel reserve",
+  "Log fuel receipt and verify generator runtime limits",
+  "Completed post-repair inspection - cleared for use",
+  "Schedule routine tire pressure check in next maintenance cycle",
+  "Restores material handling capacity on the floor",
+  "All affected batches have been quarantined and logged under QC deviation reference",
+  "Adjust oven temperature as a temporary measure; expedite seal repair/replacement",
+  "Confirm receipt of new seal and schedule downtime estimated 1 hour for installation",
+  "Perform a heat-loss test post-repair and re-qualify the oven",
+  "Document fuel consumption rates to ensure reserve levels remain above minimum safe threshold",
+  "Review the three rejected batches for root-cause documentation",
+  "Add a monthly inspection of oven door seals to the preventive maintenance schedule",
+  "Include a fuel level check in the generator's daily start-up checklist",
+  "No safety incidents reported during the shift",
+  "Ensure area around the oven is clear of debris while the seal repair is performed",
+  "Verify that the forklift's tire pressure is within spec before heavy loads are moved"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all actual items from the supervisor notes, but it completely overwhelms them with extensive invented procedures, mitigations, actions, and status claims not found in the input. Uncertainty handling is poor because it invents missing details (like generator reserve status and seal order status) instead of highlighting the gaps."
+}

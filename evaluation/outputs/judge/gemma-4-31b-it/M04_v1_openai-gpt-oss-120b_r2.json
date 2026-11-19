@@ -1,0 +1,65 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored and recorded cycle times for compressor",
+  "Notified Maintenance for diagnostic for compressor",
+  "Compressor remains operational but unstable; production impact minimal so far",
+  "Maintenance to diagnose root cause (e.g., pressure switch, motor overload, refrigerant level) for compressor",
+  "Implement corrective action before next scheduled maintenance window for compressor",
+  "Logged requirement for tip change for welding robot",
+  "Informed the upcoming shift for welding robot",
+  "Robot is functional; tip change pending",
+  "Verify tip alignment and perform a test weld after replacement for welding robot",
+  "Production halted for the affected part line from 14:10 until lock-out for Hydraulic Press A",
+  "No backlog created; other presses are covering demand for Hydraulic Press A",
+  "Minor fluctuations; no shutdowns for compressor",
+  "Monitor for any rise in temperature or pressure alarms for compressor",
+  "No immediate impact; tip change scheduled to avoid downtime during the next shift for welding robot",
+  "Confirm completion of interlock repair for Hydraulic Press A",
+  "Perform functional test and sign-off with Safety for Hydraulic Press A",
+  "Update LOTO register and incident log for Hydraulic Press A",
+  "Follow up with Maintenance on diagnostic results for compressor",
+  "If repair is required, schedule downtime during low-production period for compressor",
+  "Replace the worn tip (part # [insert part number]) for welding robot",
+  "Run a short test program to verify weld quality for welding robot",
+  "Record tip change in the robot maintenance log for welding robot",
+  "Review all lock-out/tag-out procedures during the next safety brief",
+  "Ensure all incident reports are entered into the EHS system within 24 hours",
+  "all safety protocols were followed promptly",
+  "All incidents have been logged in the incident management system (Ticket IDs: HS-2026-011, MT-2026-037, RB-2026-009)",
+  "Please keep the safety board updated with the status of the above items and notify me of any further developments"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete in terms of capturing the input, but it is riddled with fabrications. It invents numerous actions, statuses, ticket IDs, and follow-up steps not present in the supervisor's notes. It also fails to flag any missing information or ambiguity, presenting the fabricated details as fact."
+}

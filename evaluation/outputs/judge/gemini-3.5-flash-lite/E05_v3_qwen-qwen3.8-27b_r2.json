@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak poses safety/cleanliness risk and may indicate component failure",
+  "Investigate and repair hydraulic fluid leak. Check for environmental hazards (slip risk) and clean up any spilled fluid",
+  "Perform re-teaching procedure for the welding robot arm. Verify path accuracy before resuming full production",
+  "Production impact depends on whether robot is currently operational or paused for programming"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report conflated two distinct items from the input (Machine 17 on Line B and robot 2) into a single machine, M-06, resulting in severe accuracy errors and misattributed facts. It did, however, capture all source items and expertly highlight the registry discrepancy. Numerous details, safety impacts, and action steps were fabricated."
+}

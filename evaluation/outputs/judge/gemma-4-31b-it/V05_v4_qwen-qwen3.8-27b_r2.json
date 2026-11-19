@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 4
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential quality control failure; parts produced during the downtime window may be defective",
+  "Who verified the fix? Was a test run performed?",
+  "Confirm the root cause of the out-of-spec condition and ensure the fix is permanent",
+  "Document the resolution formally",
+  "Immediate quality control action is required to determine if any defective parts have entered the production flow or been shipped"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly flags the ambiguity of the CNC machine. However, it fabricates several 'Clarifications Needed' and 'Pending Items' (root cause, formal documentation, shipping checks) that were not implied by the input. Severity is assigned as HIGH without explicit evidence, though it is a reasonable inference."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production shipping may be impacted if not addressed",
+  "No repair action taken during the shift",
+  "Forklift remains out of service and requires maintenance",
+  "Arrange maintenance/repair for M-15 (Forklift #1) and restore it to service",
+  "Verify that an alternative forklift (M-16) is available and ready to cover shipping movements",
+  "No safety incidents reported",
+  "Logistics team managed to complete pallet movement despite the forklift outage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It fabricates numerous operational details and a safety claim not present in the input. Severity is assigned without evidence of the impact level."
+}

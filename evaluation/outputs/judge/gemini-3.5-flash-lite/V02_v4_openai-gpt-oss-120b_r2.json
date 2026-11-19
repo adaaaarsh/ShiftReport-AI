@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other equipment, safety incidents, or staffing notes were provided in this shift update."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the vague input and correctly highlights the ambiguity regarding which Line C machine is involved. Severity is appropriately set to Unknown, and the report brilliantly surfaces all missing details and clarifications needed. However, it includes a minor fabricated detail stating no other equipment, safety incidents, or staffing notes were provided, slightly lowering the accuracy score."
+}

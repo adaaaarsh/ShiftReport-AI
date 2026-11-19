@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Manual mode will need to be re‑enabled to automatic once the batch is finished.",
+  "Monitor for any drift above 360 °F; if it occurs, re‑apply the setpoint.",
+  "Document the interlock bypass in the maintenance log and schedule a review.",
+  "Verify that the oven has returned to the setpoint (350 °F) and is operating in automatic mode.",
+  "Log any deviations or issues in the shift log."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all factual details from the supervisor input, giving it high completeness and readability, and it flags the missing items, resulting in strong uncertainty handling. However, it adds several invented recommendations not present in the input, lowering accuracy, and it does not assign a severity label, resulting in a poor severity classification score."
+}

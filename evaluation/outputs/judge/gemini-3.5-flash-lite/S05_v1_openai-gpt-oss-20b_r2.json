@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Evening (9:00 pm - 11:00 pm)",
+  "Notified maintenance & shut down affected equipment",
+  "Prevented further damage",
+  "9:15 pm Reset the compressor breaker Maintenance Technician Re-initiated compressor cycle",
+  "Monitored pressure gauge",
+  "Pressure restored to 110 psi (normal operating range)",
+  "9:22 pm Restarted Line A air tools Shift Supervisor Tools operational again",
+  "Ticket #XXXX",
+  "No injuries or safety incidents reported",
+  "No production loss beyond the brief downtime of Line A tools",
+  "All safety protocols were followed during the incident response"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the supervisor input and is structured cleanly, but it hallucinates an extensive sequence of actions, times, roles, and outcomes not present in the input. It also treats incomplete and ambiguous information as fully resolved and adds a boilerplate section claiming no safety incidents or production losses."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (17:00 – 01:00)",
+  "Date: 2026-11-05",
+  "Maintenance team will perform a detailed inspection and testing of the overload relay first thing tomorrow morning (2026-11-06)",
+  "Verify condition of the overload relay and replace if defective",
+  "Perform a functional test of the compressor unit and associated control circuitry",
+  "Log relay test results in the equipment maintenance record",
+  "Update the preventive-maintenance schedule to include more frequent relay checks",
+  "run a 30-minute air-pressure stability test on Line A before resuming full production",
+  "No loss of product",
+  "No safety incidents reported",
+  "Resetting the breaker was performed following lock-out/tag-out (LOTO) procedures",
+  "Review the overload relay’s load calculations",
+  "Consider installing a pressure-monitoring alarm",
+  "Maintenance (Ext. 212)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates an extensive amount of operational detail, including specific maintenance steps, safety procedures (LOTO), and production impact claims. It fails to flag the missing information regarding scrapped parts and presents the fabricated details as facts. Readability is high, but uncertainty handling is non-existent."
+}

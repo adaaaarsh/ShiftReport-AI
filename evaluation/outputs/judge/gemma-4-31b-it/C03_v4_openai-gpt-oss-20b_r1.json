@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tagged out for maintenance",
+  "No replacement forklift noted",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report misses the critical fact that the tagged-out forklift was actually used at 6, and fails to flag the contradiction between being tagged out and being used. It fabricates the reason for the tag-out ('maintenance') and the claim of no other safety incidents. Readability is high, but accuracy and uncertainty handling suffer due to the omission of the usage event."
+}

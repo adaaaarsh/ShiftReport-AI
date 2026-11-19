@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production may be slowed or halted for tasks that rely on this robot",
+  "Specify who is responsible for performing the reteach and an estimated completion time",
+  "Verify the correct equipment ID for Machine 17 on Line B and address the hydraulic fluid leak (shut-down, containment, maintenance request)",
+  "Perform the required reteach on the Welding Robot Arm (M-06) and confirm it is back in operation",
+  "No safety incidents reported beyond the hydraulic leak (which requires clarification)",
+  "Staffing and other observations were not provided"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures both items from the input, but incorrectly maps 'robot 2' to the specific registry ID M-06 despite the key noting ambiguity. It also invents several action recommendations, impacts, and general commentary not found in the supervisor input. Severities are generally defensible, and the format is clean and easy to read."
+}

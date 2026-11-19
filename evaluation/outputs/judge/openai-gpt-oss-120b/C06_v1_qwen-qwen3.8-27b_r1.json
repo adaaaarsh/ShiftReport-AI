@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "System Pressure: Stable and steady at 110 PSI.",
+  "Line A experienced intermittent pressure loss between 2:00 and 4:00.",
+  "Issue resolved/stabilized after 4:00 (assuming no further action was taken, please verify if maintenance was called).",
+  "Monitor Line A closely for any recurrence of pressure loss.",
+  "Check for potential leaks or regulator issues on Line A if the problem persists.",
+  "No other significant incidents or abnormalities reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the two facts from the supervisor input but adds several invented details such as specific time ranges, resolution status, and suggested actions that were not mentioned. These fabrications lower accuracy and fail to acknowledge missing information, resulting in low severity classification and poor uncertainty handling. Readability is strong due to clear headings, and completeness is high because all input items are present."
+}

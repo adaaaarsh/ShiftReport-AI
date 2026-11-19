@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Confirm that M-16 (Forklift #2) is fully operational to cover the loss of M-15",
+  "Ensure maintenance has been notified and a repair schedule is established",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the machine ID and the key facts from the input, while excellently flagging the contradiction and missing items. However, it includes several fabricated details under pending items and general notes such as assuming maintenance has been notified and bringing up Forklift #2."
+}

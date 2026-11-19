@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None yet; monitoring continued for M-11",
+  "Action Taken: Adjusted speed to 50% to maintain throughput for M-08",
+  "Pending item to inspect and service M-11 Coolant Pump",
+  "Pending item to confirm availability of operator for M-08 and arrange backup",
+  "Pending item to monitor M-08 speed and output",
+  "General notes regarding impact on packaging throughput and cross-training/scheduling adjustments",
+  "No safety hazards reported; all machines operational after corrective actions"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all issues from the supervisor notes completely and has a very clean, readable structure. However, it contains several fabricated details including invented actions, pending items, and general notes that were never mentioned in the input text. Severities are slightly on the high side given the lack of evidence for major failure, and it fails to mark unknown gaps explicitly, instead inventing recommendations and status updates."
+}

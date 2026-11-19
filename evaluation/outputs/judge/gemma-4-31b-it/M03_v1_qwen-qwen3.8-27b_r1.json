@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No replacement operator has been assigned for the remainder of this shift",
+  "Incoming supervisor to confirm if a float operator is available or if production schedule needs to be adjusted for the next shift",
+  "Recommend maintenance inspection to diagnose potential bearing or impeller wear before it becomes a critical failure",
+  "Monitor for recurrence. If the alarm triggers again, stop the machine and call maintenance immediately",
+  "No other major incidents reported",
+  "All other lines operating within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but adds significant fabrications in the form of 'Action Required' recommendations and status claims not present in the notes. It fails to use the provided registry IDs and does not flag any missing information or uncertainties. Severities are not explicitly labeled but the structure implies a hierarchy."
+}

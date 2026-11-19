@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Majority of the shift ran smoothly with all scheduled tasks completed on time",
+  "Minor issues arose early in the shift but were addressed and resolved promptly",
+  "Inconsistent hydraulic response, occasional power loss",
+  "Conducted basic troubleshooting (checked battery, fluid levels, and safety interlocks)",
+  "Schedule maintenance technician for a detailed inspection and repair",
+  "Potential delay in material handling",
+  "Notify the Maintenance Team immediately (Ticket # [XXXX])",
+  "Arrange for a spare forklift to be on standby",
+  "Update the maintenance log",
+  "Temporary network latency in the inventory system",
+  "Restarting the server and confirming connectivity",
+  "Verify that a functional forklift is available for peak activity periods",
+  "All safety protocols were adhered to throughout the shift",
+  "No injuries or near-miss incidents reported",
+  "Staff morale remained high"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 3,
+ "uncertainty": 5,
+ "rationale": "The report captures the single input item about the forklift and flags the ambiguity well, resulting in high completeness, severity, and uncertainty scores. However, it severely fails accuracy by inventing an enormous amount of operational detail, actions, and specific symptoms that were never mentioned in the brief input. The readability is hindered by excessive template placeholders and heavily padded speculative sections."
+}

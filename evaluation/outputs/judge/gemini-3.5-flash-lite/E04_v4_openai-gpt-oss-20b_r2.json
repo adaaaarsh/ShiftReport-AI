@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional staffing or safety incidents reported",
+  "Time Noticed: 22:15 (9:15 PM) (input states holding 355 since 2215)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the oven and its operational parameters while capturing all key facts and severity appropriately. However, it includes a couple of fabricated details, such as claiming 'No additional staffing or safety incidents reported' and misinterpreting the time '2215' as when it was noticed instead of when the holding started. Overall, the readability and structural layout are excellent."
+}

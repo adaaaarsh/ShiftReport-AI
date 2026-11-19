@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "1:30 PM",
+  "no immediate shutdown was required",
+  "Monitor for potential wear or damage",
+  "Electrical inspection needed. Notify maintenance to replace or repair bulbs",
+  "No operational impact",
+  "Continue monitoring for vibration levels and temperature",
+  "Schedule a detailed inspection of the spindle bearings and motor at the next maintenance window. Consider a temporary shutdown if noise escalates",
+  "Verify power supply and switch status",
+  "Replace bulbs or repair wiring as soon as possible to ensure safety and compliance with lighting regulations",
+  "No other equipment or safety incidents were noted during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures all points from the input but extensively fabricates operational directives, inspections, times, and actions not provided by the supervisor. It treats casual notes (parking lot lights, birthday cake) as formal facility conditions and personnel events with associated actions. Uncertainty regarding the machine ID is ignored by guessing Mill A as M-01 without qualification."
+}

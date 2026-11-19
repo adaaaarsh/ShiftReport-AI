@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "approximately 06:00 AM",
+  "3:20 PM",
+  "Monitored flow; no immediate corrective action required",
+  "Continue to listen for changes",
+  "production was briefly interrupted",
+  "Monitor for repeat alarms",
+  "Adjusted run speed to 50% to maintain operation with reduced staff",
+  "Staffing issue persists",
+  "No safety incidents reported",
+  "consider cross-training or backup personnel"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it fabricates several details including specific times (06:00 AM, 3:20 PM) and operational conclusions/actions not in the input. It also fails to flag any missing information or uncertainty, presenting the report as complete."
+}

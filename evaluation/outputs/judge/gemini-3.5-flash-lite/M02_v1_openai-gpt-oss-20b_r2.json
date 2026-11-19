@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Running smoothly, no further stoppages noted",
+  "Operating within normal temperature range",
+  "expected to be fully charged by next shift",
+  "Recommend inspecting the belt and pulleys for wear or misalignment",
+  "indicating a transient sensor glitch",
+  "Verify battery health and consider replacement",
+  "no impact on production output",
+  "No safety incidents were reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all input facts and is well-structured, but it heavily hallucinates operational outcomes, assumptions about wear and tear, and claims like 'no impact on production output' that are entirely absent from the supervisor notes. Severities and equipment references are appropriate, but it fails to surface input uncertainties by fabricating extra context."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety risk and logistics disruption",
+  "Perform a safety check on the identified forklift to determine the nature of the \"weird\" behavior (e.g., steering, lifting, brakes, or electrical)",
+  "Tag Out if Necessary",
+  "ensure the other forklift is available for critical logistics tasks"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous forklift issue and flags the uncertainty. However, it fabricates several specific actions and risks (safety checks, tag-out procedures, specific malfunction examples) not present in the input. Severity was assigned as Medium without direct evidence, though the reasoning provided is logical."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift hours: 1:00pm - 9:00pm",
+  "Description details for work order 4471: Replace front tire on Forklift 2",
+  "Submitted By: [Your Name]",
+  "Current Status for work order: Open - awaiting parts & repair",
+  "Claims of no reported delays or safety incidents",
+  "Forklift 1 operating at 100% capacity; monitor for potential overload or fatigue",
+  "Recommendations for parts procurement, workload management, inspection, and documentation",
+  "Notes regarding clear charging bay, no other issues, and signature/time details"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported facts from the minimal input but hallucinates extensive details, work order descriptions, operational impacts, capacity metrics, and recommendations that were never mentioned by the supervisor. It presents a heavily padded structure filled with completely fabricated information, leading to the lowest possible accuracy score. Severities and uncertainties are poorly handled since the report asserts unmentioned outcomes like no safety incidents and 100% capacity."
+}

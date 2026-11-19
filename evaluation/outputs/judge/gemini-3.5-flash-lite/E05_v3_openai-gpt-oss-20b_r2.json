@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Leak could affect machine operation if not addressed",
+  "Cosmetic/operational adjustment, no immediate production halt",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items and follows a clear, readable structure. However, it fabricates justification reasoning for severities and invents a 'No safety incidents reported' note not present in the input. Furthermore, it assumes M-06 for robot 2 rather than explicitly flagging the ambiguity as noted in the answer key."
+}

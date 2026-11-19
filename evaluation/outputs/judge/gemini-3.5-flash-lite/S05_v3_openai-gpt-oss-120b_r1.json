@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported.",
+  "Production resumed after pressure restoration with no further issues observed."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the compressor unit event and maps it to the correct registry ID, but it invents general notes regarding safety and post-restoration status. It is complete and readable, but fails to surface the unknown question from the key about whether parts were scrapped. The assigned severity of medium is defensible."
+}

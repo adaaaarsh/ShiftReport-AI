@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 08:00 – 16:00",
+  "Logged incident in the maintenance log",
+  "no immediate shutdown performed due to ongoing production",
+  "Schedule a detailed inspection and preventive maintenance tomorrow",
+  "Consider a temporary shutdown if noise level increases",
+  "Noted in the incident log",
+  "no visible damage or safety hazard observed",
+  "Conduct a leak source investigation tomorrow",
+  "Check piping, valves, and seals in the vicinity",
+  "No safety incidents or near‑misses reported",
+  "All PPE usage observed to be compliant",
+  "No hazardous material spills or exposures",
+  "Production remained on schedule",
+  "no downtime recorded",
+  "The noisy machine did not affect output quality or throughput",
+  "Assign maintenance team to perform a full diagnostic (vibration analysis, bearing check, lubrication status)",
+  "Conduct a systematic leak check: visual inspection, pressure testing, and review of recent maintenance records",
+  "Update the equipment maintenance log with findings",
+  "Remind staff to report any abnormal sounds or leaks immediately",
+  "noise from Machine B was intermittent",
+  "could indicate an impending failure",
+  "leak near Area A was small but persistent",
+  "early detection will prevent potential water damage or safety hazards"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific actions, outcomes, safety statuses, and production impacts not present in the input. While it captures the two issues, it presents them with high confidence and invented details rather than flagging the ambiguity of the machine IDs. The uncertainty handling is poor as it fills in gaps with imagined details."
+}

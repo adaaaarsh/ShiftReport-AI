@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operating normally",
+  "no impact on production",
+  "Monitored",
+  "No further action required",
+  "No safety hazard, only loss of one forklift",
+  "Awaiting full charge before next use",
+  "No safety incidents reported",
+  "Production impact was minimal and resolved within the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and correctly matches the equipment IDs with a clean, scannable format. However, it introduces several minor fabricated details, such as claims about production impact, safety, and operational statuses not mentioned in the supervisor notes. It also misses flagging some gaps or unknowns, presenting certain items as fully resolved without full context."
+}

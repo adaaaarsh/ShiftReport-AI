@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents or staffing issues reported during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details regarding the welding robot incident and uses the proper registry ID. However, it includes a fabricated general note claiming no safety incidents or staffing issues were reported, which impacts its accuracy. Completeness, severity, readability, and uncertainty handling are all handled very well."
+}

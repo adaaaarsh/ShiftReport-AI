@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Completed routine inventory checks and restocked all designated areas",
+  "Assisted in the loading and unloading of incoming shipments",
+  "Conducted safety walk-throughs",
+  "Forklift #3 (Model X-200)",
+  "intermittent operational issues during the morning shift",
+  "irregular idling, delayed gear shifts, and a faint warning light on the dashboard",
+  "forklift was temporarily stabilized",
+  "Performed a basic diagnostic check on Forklift #3",
+  "clearing any minor software glitches",
+  "Adjusted the hydraulic system pressure to optimal levels",
+  "Logged the incident in the equipment maintenance log",
+  "notified the maintenance team for a full inspection",
+  "Forklift #1 (X-100) Operational",
+  "Forklift #2 (X-150) Operational",
+  "Pallet Jack #5 Operational",
+  "All safety protocols were followed; no incidents or near-misses were recorded",
+  "forklift incident was reported to the safety officer and logged in the incident register",
+  "PPE compliance: 100% of staff wore required PPE",
+  "Schedule a comprehensive inspection by the maintenance team within the next 24 hours",
+  "Consider a temporary replacement or use of alternative forklifts",
+  "Verify the counts of high-value items",
+  "Brief the incoming shift on the forklift issue and any temporary workarounds"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is almost entirely fabricated, inventing a third forklift not in the registry, specific symptoms, and numerous shift activities not mentioned by the supervisor. It fails to flag the ambiguity of which forklift was 'weird' and instead assigns it to a non-existent machine. While the structure is readable, the content is hallucinated."
+}

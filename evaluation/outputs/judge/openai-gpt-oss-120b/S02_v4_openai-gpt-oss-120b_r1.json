@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity description \"Brief interruption, quickly resolved, minimal production impact\" not in input",
+  "Clarifications Needed: None",
+  "No pending items reported.",
+  "No additional observations or staffing notes."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the M-06 welding robot fault, time, and actions, so completeness is perfect. However, it adds several details not present in the supervisor input (extra severity description, clarification note, and generic statements), lowering accuracy to a moderate level. Severity classification matches the allowed range, and the layout is clear, yielding high scores for severity, readability, and uncertainty handling."
+}

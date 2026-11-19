@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity: LOW",
+  "Status: Resolved",
+  "Pending item: Monitor the operator for any delayed symptoms related to the minor burn.",
+  "Pending item: Review the specific task or area of the M-06 cell where the incident occurred to ensure proper PPE (Personal Protective Equipment) was worn and to identify potential hot spots or procedural gaps.",
+  "General note: Production appears to have continued without interruption following the incident.",
+  "General note: No safety incidents reported other than the minor first-aid case noted above."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents several details not present in the supervisor input, such as a LOW severity rating, a resolved status, monitoring and PPE review actions, and claims about production continuity, leading to a very low accuracy score. All factual items from the input are included, so completeness is high. The severity assignment is indefensible given the allowed severities, resulting in a low severity score. The report is well‑structured and easy to read, earning a high readability score. It fails to flag the contradiction or missing information, so uncertainty handling is poor."
+}

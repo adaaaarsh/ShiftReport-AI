@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate Safety Check: Verify the status of M-15 (Forklift #1). Confirm if it is currently locked out/tagged out. If it was operated at 6:00, ensure it is now properly secured and not in use.",
+  "Logistics Coverage: Confirm that M-16 (Forklift #2) is fully operational to cover the loss of M-15 for moving finished goods to shipping.",
+  "Maintenance Follow-up: If M-15 is down for repair, ensure maintenance has been notified and a repair schedule is established.",
+  "Safety Compliance Alert: There is a potential discrepancy in the report regarding the operation of a tagged-out machine. The next shift supervisor must clarify the timeline of events for M-15 to ensure no safety protocols were bypassed.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all facts and correctly identifies the critical contradiction regarding the tagged-out equipment. However, it fabricates several 'Pending Items' and 'General Notes' (e.g., checking M-16, maintenance follow-up) that were not in the input. These additions, while logical in a real-world scenario, are fabrications per the strict rubric."
+}

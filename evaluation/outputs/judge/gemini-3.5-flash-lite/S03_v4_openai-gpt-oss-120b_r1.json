@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify fuel level on M-13 Backup Generator remains above 75%",
+  "schedule next weekly test as per maintenance plan"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately regarding the backup generator test and fuel level. However, it invents pending action items to verify fuel remains above 75% and schedule the next test. The severity section incorrectly states no equipment issues were reported while placing a routine test into the pending items."
+}

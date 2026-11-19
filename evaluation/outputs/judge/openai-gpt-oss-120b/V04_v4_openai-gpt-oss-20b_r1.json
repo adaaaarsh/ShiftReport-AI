@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing / Pending"
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three factual points from the supervisor input and correctly flags the utility ambiguity, giving an UNKNOWN severity that aligns with the answer key. However, it adds a status of “Ongoing / Pending” which is not mentioned in the input, lowering accuracy, and it only flags one of the three missing items, reducing completeness and uncertainty handling. Severity classification is appropriate, and the layout is clear and readable."
+}

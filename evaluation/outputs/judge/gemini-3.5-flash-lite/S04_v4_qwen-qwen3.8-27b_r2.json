@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down and removed from service",
+  "Monitor repair status of M-16 via Work Order #4471",
+  "Logistics capacity is currently reduced to a single forklift (M-15). Next shift should be aware of potential bottlenecks in material handling.",
+  "No other equipment issues or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine and captures all facts, but severely over-exaggerates the severity to CRITICAL with invented justification text. It also fabricates several general notes about logistics bottlenecks and safety incidents that were not in the supervisor input. Uncertainty is poorly handled by stating no clarifications are needed while completely missing the repair ETA."
+}

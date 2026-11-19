@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other significant deviations reported during this shift",
+  "All other equipment operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the details for Oven C (M-10) and properly handles its severity and uncertainties. However, it invents general statements claiming no other deviations and that all other equipment is operating normally, which were not stated in the input. Overall, it captures all required facts and missing items effectively despite the minor fabrications."
+}

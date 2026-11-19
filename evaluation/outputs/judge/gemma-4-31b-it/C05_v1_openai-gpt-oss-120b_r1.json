@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 20:00 – 04:00 (Night Shift)",
+  "cool water rinse, sterile dressing applied",
+  "Employee evaluated by on-site first-aid responder",
+  "No lost time reported",
+  "Monitor the wound for signs of infection; ensure the employee reports any change in condition to the health & safety officer",
+  "All welding robot cells operated within normal parameters",
+  "No production stoppages or equipment failures reported",
+  "Review of Hot-Work Procedures",
+  "Reinforce the use of protective gloves and wrist guards",
+  "Consider a brief refresher training on burn prevention",
+  "First-Aid Kit Check",
+  "Verify that burn-specific supplies are fully stocked",
+  "Record the minor burn in the incident register for trend analysis",
+  "No pending safety actions",
+  "Continue routine monitoring of the welding robot cell and maintain standard safety vigilance"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific medical treatments, follow-up actions, and operational statuses not present in the input. It fails to flag the contradiction between 'no safety incidents' and the reported burn. While it captures the basic facts of the injury, the excessive hallucination of details makes it highly inaccurate."
+}

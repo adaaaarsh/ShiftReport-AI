@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production on Line A resumed",
+  "replace the overload relay",
+  "Monitor compressor performance closely during the next shift until the repair is completed",
+  "Line A: Operational",
+  "Air Pressure: Stable at 110 psi",
+  "Compressor: Running, but under watch due to pending maintenance",
+  "confirm with Maintenance that the inspection of the overload relay has been completed before the end of the day",
+  "If the compressor trips again, do not reset the breaker more than twice; contact Maintenance immediately"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of operational status, recommendations, and specific instructions not found in the supervisor's notes. It fails to use the registry ID (M-12) and does not flag any missing information. Severities are not explicitly assigned to the issue, though it is placed under 'Critical Incident Report'."
+}

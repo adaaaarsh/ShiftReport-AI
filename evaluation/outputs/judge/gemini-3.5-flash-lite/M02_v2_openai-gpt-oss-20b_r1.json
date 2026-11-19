@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted during stoppages for M-05",
+  "Monitor for repeat slippage / consider additional lubrication or belt replacement",
+  "Alarm cleared automatically, no production loss for M-10",
+  "Verify temperature logs for consistency / schedule preventive maintenance",
+  "Logistics operations affected temporarily for M-15",
+  "Ensure battery fully charged / replace battery if discharge rate remains high",
+  "No safety hazards reported",
+  "Production impact limited to brief stoppages on Line B and temporary logistics delay",
+  "All actions taken were within standard operating procedures"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all real issues and machine IDs accurately, but heavily hallucinates numerous invented outcomes, monitoring instructions, and general statements not found in the input. Severities are assigned with some speculative justifications rather than strictly marking unknowns. Readability is strong and structured, but uncertainty is poorly handled by inventing resolutions and checks for unstated parameters."
+}

@@ -1,0 +1,16 @@
+judge,dimension,n,weighted_kappa,mean_abs_diff,human_mean,judge_mean,exact_%,within_1_%
+gemini-3.5-flash-lite,Accuracy,120,0.182,2.02,4.38,2.41,5.8,20.8
+gemini-3.5-flash-lite,Completeness,120,0.353,0.22,4.92,4.8,85.8,92.5
+gemini-3.5-flash-lite,Severity,120,0.367,0.82,4.08,3.78,34.2,86.7
+gemini-3.5-flash-lite,Readability,120,0.478,0.25,4.67,4.72,75.8,99.2
+gemini-3.5-flash-lite,Uncertainty,120,0.451,1.12,3.88,3.18,30.8,72.5
+gemma-4-31b-it,Accuracy,120,0.202,1.91,4.38,2.56,2.5,20.8
+gemma-4-31b-it,Completeness,120,0.0,0.08,4.92,5.0,93.3,99.2
+gemma-4-31b-it,Severity,120,0.291,0.84,4.08,4.18,35.8,86.7
+gemma-4-31b-it,Readability,120,0.0,0.33,4.67,5.0,70.0,96.7
+gemma-4-31b-it,Uncertainty,120,0.337,1.62,3.88,2.38,28.3,50.8
+openai-gpt-oss-120b,Accuracy,120,0.057,2.68,4.38,1.7,4.2,13.3
+openai-gpt-oss-120b,Completeness,120,0.517,0.13,4.92,4.88,90.0,96.7
+openai-gpt-oss-120b,Severity,120,0.214,1.42,4.08,3.17,25.8,58.3
+openai-gpt-oss-120b,Readability,120,0.124,0.32,4.67,4.96,70.8,96.7
+openai-gpt-oss-120b,Uncertainty,120,0.309,1.48,3.88,2.62,23.3,55.8

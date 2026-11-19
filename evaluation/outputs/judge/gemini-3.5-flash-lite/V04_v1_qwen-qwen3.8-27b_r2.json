@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No impact on safety protocols",
+  "Monitored situation; no immediate intervention required as systems stabilized",
+  "Recommend notifying the Facilities/Maintenance team to inspect the electrical panel",
+  "Keep an eye on utility stability during the next few hours",
+  "No other significant incidents, safety concerns, or personnel issues reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the minimal input but significantly hallucinates actions taken, safety impacts, and follow-up recommendations not stated by the supervisor. It maintains good readability and appropriately handles the ambiguity of the utility equipment."
+}

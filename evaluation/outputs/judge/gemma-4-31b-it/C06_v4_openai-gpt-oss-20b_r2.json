@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM",
+  "Ongoing — pressure loss continues during that window",
+  "Identify and document the specific air tool units on Line A that experienced pressure loss",
+  "Coordinate with maintenance to inspect air tool pressure regulators and supply lines",
+  "Confirm whether production was impacted and if any temporary fixes were applied"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the compressor (M-12). However, it fabricates 'PM' for the time and adds several specific pending actions and status updates not found in the input. It fails to explicitly flag the contradiction between the compressor running normally and the tools losing pressure."
+}

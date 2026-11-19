@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other equipment issues were reported in this shift update",
+  "Identify the exact forklift experiencing issues and provide a detailed description",
+  "Determine if maintenance or inspection is required and schedule it",
+  "Verify that the forklift is safe to operate or arrange for removal from service if needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous forklift issue and handles uncertainty excellently by correctly flagging the ambiguity and using unknown severity. However, it invents pending action items and general notes regarding maintenance scheduling and the status of other equipment which were not present in the brief input."
+}

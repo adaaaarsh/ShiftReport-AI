@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Supervisor noted the smell; no immediate corrective action recorded",
+  "Status: Ongoing",
+  "Action Taken: No specific troubleshooting steps recorded; operation continued",
+  "Status: Ongoing",
+  "Investigate the source of the odor. Check for burnt materials, electrical faults, or ventilation issues. Ensure safety before resuming full production if the smell persists",
+  "Review error logs or maintenance records for the recent pauses. Check for sensor obstructions, material jams, or software glitches to prevent further interruptions"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and correctly maps them to the registry. However, it fabricates several 'Action Taken', 'Status', and 'Pending Items' details that were not in the input. It fails to explicitly flag the missing critical information (like cause or time) as gaps, instead presenting them as 'Not specified' or suggesting specific checks."
+}

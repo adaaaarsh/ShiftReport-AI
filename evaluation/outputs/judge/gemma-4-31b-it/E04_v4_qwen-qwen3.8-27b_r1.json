@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential product quality risk due to temperature excursion",
+  "interlock remains bypassed",
+  "Safety interlock bypass requires strict adherence to safety protocols",
+  "Ensure all relevant personnel are aware of the bypass status before resuming normal operations",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and flags all missing information from the key. However, it includes several fabricated details, such as the 'potential product quality risk' and the 'interlock remains bypassed' status, which were not explicitly stated in the input. The structure and uncertainty handling are excellent."
+}

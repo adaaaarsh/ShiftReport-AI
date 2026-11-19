@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no safety hazard",
+  "Time Noticed: 1:40 PM (input states WO 4471 submitted at 1:40pm, not that the issue was noticed then)",
+  "Status: Ongoing — Awaiting tire replacement/repair",
+  "Verify that Forklift #2 is returned to service before the end of the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies M-16, but introduces a few minor fabricated details regarding the time noticed and assumptions about returning the forklift to service during the shift. Severity is well-reasoned and the layout is extremely clear and scannable. Uncertainty and missing information are appropriately flagged."
+}

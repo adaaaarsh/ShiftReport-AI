@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Refilled to recommended level",
+  "Replace FL1 headlight End of day Maintenance Team",
+  "Verify MX machine status Medium ASAP IT / Maintenance",
+  "Re-check coolant levels in all relevant machines Medium Daily Operator",
+  "Conduct safety briefing on lighting and LOTO procedures High Next shift Safety Officer",
+  "Replace headlight immediately; ensure proper lighting in all aisles"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input, but severely hallucinates multiple actions, maintenance tasks, and outcomes such as claiming coolant was refilled and inventing an entire maintenance schedule table. Because it invents numerous specific details and actions not present in the input, accuracy and uncertainty handling drop to the lowest score."
+}

@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported",
+  "Staffing levels were adequate; no additional observations",
+  "Observation recorded; no further action taken at the time",
+  "Requires investigation to determine cause of pauses",
+  "Verify that both issues do not develop into higher-severity problems"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all points from the minimal input, but invents several non-existent actions, statuses, and general notes (such as staffing levels and safety incidents). The severity for the oven is rated low while acknowledging the supervisor thought 'probably nothing', but considerable padding and unsupported operational details were added. Readability is strong due to structure, but the fabricated details severely penalize the accuracy and uncertainty scores."
+}

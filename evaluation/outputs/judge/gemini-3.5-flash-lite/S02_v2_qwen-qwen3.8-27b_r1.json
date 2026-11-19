@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift (Inferred from 10:30 timestamp)",
+  "Severity assigned as HIGH",
+  "Production on Line B experienced a 35-minute downtime (10:30–11:05) due to the M-06 fault",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and has excellent readability. However, it invents a shift and general notes about downtime/no other issues, and assigns a HIGH severity without input justification."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Out-of-spec condition impacted production capability",
+  "No additional incidents or staffing notes were reported",
+  "Inspect and document the parts used during the repair to ensure correct specifications and traceability"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guesses a specific CNC machine (M-01) from an ambiguous input that could have referred to M-02 or M-07, and it invents impact and general note details not provided in the supervisor notes. It successfully captures all reported facts from the minimal input and is well-structured. However, the severity assigned (HIGH) is not justified by the sparse input, and it silently selects one machine instead of flagging the ambiguity."
+}

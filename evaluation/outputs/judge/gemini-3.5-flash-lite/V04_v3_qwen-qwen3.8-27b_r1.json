@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential power fluctuation or compressor startup event",
+  "risk of future disruption if unresolved",
+  "Action Taken: None specified",
+  "Status: Ongoing / Unverified",
+  "Review power monitoring logs",
+  "Verify if the Compressor Unit started up unexpectedly",
+  "Monitor stability: Keep an eye on electrical stability for the first hour of the shift",
+  "No specific machine failures reported on production lines (A, B, or C)",
+  "Recommend Facilities/Utilities team review the event"
+ ],
+ "accuracy": 2,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report falsely selects M-12 (Compressor Unit) as a definitive specific ID instead of noting the ambiguity between utilities equipment (M-12, M-13, M-14). It also hallucinates several specific action steps, monitoring plans, and recommendations that were not in the sparse input text. However, it captures the core facts of the lunch event and production continuity, maintaining good structure despite the invented details."
+}

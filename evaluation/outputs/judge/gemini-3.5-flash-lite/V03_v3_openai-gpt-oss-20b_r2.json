@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity labeled as MEDIUM with commentary about minor operational concern",
+  "Time Noticed section added",
+  "Status section added indicating issue remains unresolved",
+  "Pending item to verify no safety hazards have arisen",
+  "General note claiming no other issues reported and overall shift operations were largely smooth",
+  "Assumed M-15 (Forklift #1) instead of treating the forklift reference as ambiguous between M-15 and M-16"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates significant details, including assumptions about which forklift was meant (M-15) and invents general shift commentary, severity ratings, and safety check tasks not present in the brief input. It completely fails uncertainty handling by guessing the specific machine ID from an ambiguous note. Readability is decent, but the accuracy and uncertainty scores are heavily penalized due to invention and false certainty."
+}

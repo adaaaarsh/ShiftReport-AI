@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine remains in operation at reduced capacity.",
+  "Leak remains.",
+  "Headlight replacement required.",
+  "No action taken reported for M-15 and M-11.",
+  "Replenishment needed.",
+  "Follow up on maintenance visit for M-07 (Line B) – resolve reduced feed issue.",
+  "Monitor oil leak on M-03 (Line A) and ensure LOTO is applied if leak worsens.",
+  "Replace headlight on M-15 Forklift #1 and verify forklift safety.",
+  "Replenish coolant for Line C machines (M-11).",
+  "Verify that all safety incidents (near‑miss in aisle 3) are logged and corrective actions are documented.",
+  "No other staffing or safety incidents reported.",
+  "Severity explanation for M-07: Production is impacted due to reduced feed.",
+  "Severity explanation for M-03: Leak present but machine not shut down; potential for escalation.",
+  "Severity explanation for M-15: Safety hazard; could cause further near‑miss or accident.",
+  "Severity explanation for M-11: Could affect cooling performance if not addressed."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues from the supervisor input, but it adds many details not present in the input, lowering accuracy to 1. All items are included, so completeness is high (5). The severity for the hydraulic press is downgraded to MEDIUM despite the key allowing only CRITICAL, resulting in a moderate severity score (3). The layout is clear and well‑structured, earning a readability score of 5. While the report flags several unknowns, it also invents information instead of consistently marking uncertainty, leading to a moderate uncertainty score (3)."
+}

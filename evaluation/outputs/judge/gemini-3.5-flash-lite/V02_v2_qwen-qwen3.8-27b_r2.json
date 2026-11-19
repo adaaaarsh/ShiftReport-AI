@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity is estimated as MEDIUM due to the lack of specific production impact details",
+  "Perform diagnostic check to identify root cause of recurring malfunction",
+  "Check if any maintenance was performed on Line C equipment last week",
+  "No safety hazards or production stoppages were explicitly mentioned"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures all input facts and flags missing information and ambiguity well, but it guesses a specific machine ID (M-09) instead of properly leaving it unrecognized, and it fabricates several recommended actions and context. Severity is somewhat speculative since the input had no details. Overall, the readability is good but the accuracy is pulled down by the guessed ID and generated details."
+}

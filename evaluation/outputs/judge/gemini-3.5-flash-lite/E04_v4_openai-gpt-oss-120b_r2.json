@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other equipment issues reported during this shift.",
+  "All actions were performed under supervision (Mike) with awareness of the temporary safety deviation.",
+  "Perform a quick safety check on the oven to ensure no lingering issues from the manual override."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the input and correctly matches machine M-10. However, it includes several fabricated statements in the general notes and pending items section that go beyond the supervisor's notes. The severity and completeness are strong, but the extra details lower the accuracy score."
+}

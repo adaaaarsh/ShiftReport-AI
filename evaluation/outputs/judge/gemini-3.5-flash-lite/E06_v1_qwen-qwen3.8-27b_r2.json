@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the area for safety hazards (slip/trip) and potential environmental concerns until maintenance arrives.",
+  "Verify repair and confirm no further leaks before resuming full production if necessary.",
+  "Ensure spill containment measures are in place around Line A pending maintenance arrival."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the single issue accurately and includes the distractor item properly, but introduces several fabricated recommendations and safety measures not present in the input. It assigns a high severity without clear justification and fails to flag the missing operational status of the press. Overall, it is easy to read but invents too many details."
+}

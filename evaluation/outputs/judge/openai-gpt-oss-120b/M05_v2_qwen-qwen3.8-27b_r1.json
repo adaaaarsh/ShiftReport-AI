@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing for M-10",
+  "Potentially impacting backup power readiness in the M-13 issue description",
+  "Action Taken: None recorded for M-13",
+  "Status: Pending for M-13",
+  "Status: Resolved for M-16",
+  "Recommendation to inspect and repair the torn door seal immediately to prevent further under‑cured parts and waste",
+  "Recommendation to investigate the 3 bad batches caught by QC for disposition (rework or scrap)",
+  "Recommendation to follow up with the fuel supplier to reschedule the missed delivery and ensure the generator is fueled for emergency use",
+  "Recommendation to confirm continued normal operation of the scanner and monitor for any correlation with oven issues",
+  "Statement that Line C is experiencing quality issues due to the oven malfunction; increased QC attention may be required",
+  "Statement that logistics is fully operational with both forklifts in service",
+  "Statement that the utilities team should prioritize securing generator fuel to maintain safety compliance"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies all three equipment issues and assigns appropriate severities, giving it high scores for completeness and severity. However, it introduces many details not present in the supervisor input, such as status labels, speculative impacts, and extensive recommendations, which lowers accuracy to 1. The layout is clear and scannable, earning a top readability score, while the handling of unknown information is only partial, resulting in a moderate uncertainty score."
+}

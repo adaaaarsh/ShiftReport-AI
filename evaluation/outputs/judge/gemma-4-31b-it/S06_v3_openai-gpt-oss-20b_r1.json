@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is highly accurate and complete, capturing all facts from the input. It includes one minor fabrication regarding the absence of other incidents. Uncertainty is handled well, though it didn't explicitly flag the missing cause of the drift."
+}

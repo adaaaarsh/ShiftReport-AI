@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Visually inspect Line B to identify the source of the unusual sounds and confirm the specific machine ID",
+  "Visually inspect Line A to locate the source of the leak and identify the specific machine ID",
+  "Ensure no slip hazards or other safety risks are present from the unidentified leak",
+  "Both issues require immediate visual verification at the start of the next shift to prevent potential escalation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported issues accurately, assigns appropriate unknown severities, and excellently flags ambiguities and missing information. However, it invents recommended follow-up actions and inspections that were never stated in the supervisor's input, leading to a few fabricated details."
+}

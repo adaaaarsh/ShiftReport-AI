@@ -1,0 +1,11 @@
+judge_pair,dimension,n,weighted_kappa,exact_%,within_1_%
+gemini-3.5-flash-lite vs gemma-4-31b-it,Accuracy,750,0.653,69.7,83.9
+gemini-3.5-flash-lite vs gemma-4-31b-it,Completeness,750,0.542,89.7,91.2
+gemini-3.5-flash-lite vs gemma-4-31b-it,Severity,750,0.389,54.3,65.1
+gemini-3.5-flash-lite vs gemma-4-31b-it,Readability,750,0.015,70.8,96.1
+gemini-3.5-flash-lite vs gemma-4-31b-it,Uncertainty,750,0.689,58.4,68.1
+gemini-3.5-flash-lite vs openai-gpt-oss-120b,Accuracy,120,0.261,48.3,62.5
+gemini-3.5-flash-lite vs openai-gpt-oss-120b,Completeness,120,0.306,87.5,87.5
+gemini-3.5-flash-lite vs openai-gpt-oss-120b,Severity,120,0.334,48.3,55.0
+gemini-3.5-flash-lite vs openai-gpt-oss-120b,Readability,120,0.075,72.5,98.3
+gemini-3.5-flash-lite vs openai-gpt-oss-120b,Uncertainty,120,0.666,54.2,61.7

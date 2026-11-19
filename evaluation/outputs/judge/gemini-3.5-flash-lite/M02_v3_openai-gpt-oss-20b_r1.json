@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM designation on times (~7:00 AM, 9:40 AM, 11:00 AM)",
+  "Status details for M-05 (Belt may slip again; monitor for repeat)",
+  "Action details for M-10 (None required; alarm cleared)",
+  "Status details for M-15 (Pending — Awaiting full charge before next shift)",
+  "Pending items for next shift (Re-check conveyor belt tension, verify oven temperature stability, consider a quick diagnostic run, ensure M-15 is fully charged)",
+  "General notes (No safety incidents reported, production output remained within acceptable limits)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items and accurately references the correct machine IDs. However, it introduces several fabricated details such as specific AM time designations, recommended actions, monitoring steps, and general notes not present in the supervisor input. The severities assigned are somewhat defensible but border on inflated given the sparse input."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in time 1:30 PM",
+  "noise may indicate impending spindle wear or misalignment",
+  "potential for escalation",
+  "schedule maintenance if necessary",
+  "no operational impact",
+  "verify that no other equipment issues were overlooked"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and assigns reasonable severity, but it incorrectly turns a distractor (mill on B fine) into an explicitly listed issue and invents several details such as 'PM' for the timestamp and operational impact descriptions. It handles uncertainty and completeness well, but suffers in accuracy due to the fabricated explanations and distractor reinterpretation."
+}

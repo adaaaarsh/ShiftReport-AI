@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance scheduled for pre-shift",
+  "Verify safety interlock repair and conduct safety inspection before releasing lockout tag",
+  "Do not operate until cleared by Safety and Maintenance",
+  "Monitor for continued short-cycling; check pressure settings and valve function",
+  "Ensure all safety protocols are strictly adhered to regarding the M-03 lockout"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but includes numerous fabricated instructions and monitoring steps in the Pending Items and General Notes sections. It fails to flag any missing information (like who must approve the M-03 return), presenting the report as complete."
+}

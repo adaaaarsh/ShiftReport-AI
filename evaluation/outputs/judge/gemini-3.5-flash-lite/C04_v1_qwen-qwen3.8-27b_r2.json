@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Operational",
+  "Assessment: systemic issues like alignment issues, excessive vibration, coolant contamination, or improper installation",
+  "Inspect the failed bearings and the pump housing for signs of wear, misalignment, or contamination",
+  "Review maintenance logs for previous failures",
+  "Consult with maintenance engineering",
+  "Ensure the area around Pump C is secured",
+  "Do not assume the new pump is reliable; treat it as a recurring failure",
+  "Prioritize a root cause analysis (RCA)"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the core issue regarding the coolant pump and flags the contradiction, but heavily fabricates root cause assessments, operational statuses, and extensive recommended actions that were never stated in the supervisor input. While well-structured and scannable, the extensive invention of technical details heavily penalizes its accuracy."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "temporary production hold/rework",
+  "no safety hazard or permanent damage",
+  "No other equipment issues or safety incidents reported during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the equipment and captures all facts from the input, but it hallucinates impact details such as production holds and safety incidents not stated by the supervisor. Severity is slightly overstated given the lack of evidence for permanent damage or hold implications. Readability is excellent with a clean structure, though uncertainty handling is weak because it claims no clarifications are needed instead of noting the missing cause of calibration drift."
+}

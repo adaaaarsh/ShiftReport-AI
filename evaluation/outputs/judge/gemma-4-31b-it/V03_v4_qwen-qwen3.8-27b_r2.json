@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Were any safety hazards observed?",
+  "Safety Check: If the forklift is still in operation, verify it has been inspected and cleared for use. If the issue is safety-related, ensure it is tagged out and removed from service.",
+  "Maintenance Follow-up: If maintenance was called, confirm if they have responded or if a ticket was opened.",
+  "No other equipment issues, safety incidents, or staffing notes were mentioned."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous forklift issue and correctly flags all missing information. However, it fabricates several 'Pending Items' and 'General Notes' (safety checks, maintenance follow-ups, and claims about no other incidents) that were not in the input. These are presented as instructions/checks rather than facts, but still exceed the input's scope."
+}

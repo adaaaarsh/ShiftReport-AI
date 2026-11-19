@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The oven has exhibited intermittent overheating and cycle failures",
+  "Major malfunction causing production delays on Line C",
+  "No corrective action performed during this shift",
+  "Schedule a maintenance inspection of M-10",
+  "Verify that all safety interlocks and temperature sensors are functioning correctly",
+  "Update the maintenance log with the recurrence details",
+  "No other equipment issues were reported during this shift",
+  "Staffing levels were adequate; no overtime or shift changes were noted"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a specific machine ID from an ambiguous input, invents specific failure modes and maintenance tasks, and assigns a high severity without justification. It completely fails to handle uncertainty by presenting guesses as facts, resulting in a low score across accuracy, severity, and uncertainty."
+}

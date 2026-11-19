@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:00 PM (AM/PM specified)",
+  "significant production impact due to potential downtime",
+  "Maintenance crew notified and en route (stated as action taken rather than on the way)",
+  "Status: Ongoing",
+  "Await maintenance arrival and completion of oil leak repair on M-03",
+  "Verify that the hydraulic press is fully operational before resuming production"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures the core issue and correct machine ID accurately, though it adds several minor fabricated operational details and assumptions like PM times and specific actions. Severities are defensible, and the format is highly readable. However, it fails to flag that it is unknown whether the press is still running."
+}

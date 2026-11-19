@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production can resume at standard rate",
+  "Monitor line for the next 2-3 hours for any recurrence",
+  "Verify that jam-prevention sensors are functioning correctly during routine checks",
+  "All safety protocols were observed while clearing the jam",
+  "No impact on overall production schedule; the line was back online within 20 minutes",
+  "No spare parts or additional resources were required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and correctly identifies the packaging unit, but it heavily pads the handover with numerous fabricated details such as monitoring instructions, impact on production, and safety protocol claims not present in the input. The severity is appropriate, and the table format is readable, but the extensive fabrication severely impacts accuracy."
+}

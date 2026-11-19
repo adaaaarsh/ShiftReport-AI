@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "significant impact on line B throughput",
+  "AM times added to 7 and 9:40",
+  "Potential temperature fluctuation could affect product quality if recurring",
+  "Inspect and, if necessary, replace or re-align the conveyor belt on M-05",
+  "check oven temperature sensors",
+  "No safety incidents reported",
+  "overall output was reduced but no critical downtime",
+  "All other equipment operated normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items completely and is highly readable with accurate machine IDs. However, it includes several invented details, such as AM time designations, assumptions about throughput impact, and general summary notes not present in the input. Severities are defensible, and it effectively surfaces recommendations for the next shift."
+}

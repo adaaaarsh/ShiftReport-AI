@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "maintain quality/stability",
+  "verify if feed rate needs adjustment based on night shift observations",
+  "Do not operate until leak is addressed",
+  "Inspect and replace FL1 headlights before end of night shift",
+  "Ensure forklift is not used in low-light conditions until repaired",
+  "follow up with maintenance team regarding their availability for the HP leak on Machine A",
+  "Monitor for leaks or overheating",
+  "If no technician is available, escalate to management",
+  "Ensure all forklifts are inspected for lighting and safety features before use"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to use the registry IDs for the Hydraulic Press (M-03) and Coolant Pump (M-11), referring to them as 'Machine A' and 'Machine C'. It contains numerous fabrications regarding specific actions and monitoring steps not found in the input. It presents the information as complete without flagging the ambiguity of 'HP' or 'coolant low C' relative to the registry."
+}

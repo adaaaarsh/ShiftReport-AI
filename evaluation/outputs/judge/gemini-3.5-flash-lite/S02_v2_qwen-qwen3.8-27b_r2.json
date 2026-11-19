@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Day Shift (Inferred from 10:30 AM timestamp)",
+  "Severity: HIGH",
+  "No other equipment issues or safety incidents were reported during this update.",
+  "35-minute downtime window (10:30–11:05)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine ID, but it invents a shift, calculates a downtime duration, and assigns a HIGH severity without sufficient supporting evidence. It also introduces conversational padding regarding safety incidents not mentioned in the notes."
+}

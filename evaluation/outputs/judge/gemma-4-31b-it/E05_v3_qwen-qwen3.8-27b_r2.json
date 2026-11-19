@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak poses safety/cleanliness risk and may indicate component failure",
+  "Production impact depends on whether robot is currently operational or paused for programming",
+  "Check for environmental hazards (slip risk) and clean up any spilled fluid",
+  "Verify path accuracy before resuming full production"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the issues but incorrectly attributes the hydraulic leak to the robot (M-06) based on a guess, though it does flag the ambiguity. It fabricates several justifications for severity and specific pending actions not found in the input. Readability and uncertainty handling are strong."
+}

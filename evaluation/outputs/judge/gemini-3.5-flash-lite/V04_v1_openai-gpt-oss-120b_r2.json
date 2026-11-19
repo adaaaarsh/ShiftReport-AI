@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assembly Line 2",
+  "Notified Facilities Maintenance (Ticket #2026‑11‑05‑U01)",
+  "Monitored equipment for abnormal behavior",
+  "Resolved – lights stabilized; equipment returned to normal operation",
+  "Adjacent storage area",
+  "Ensured all personnel were aware of the situation",
+  "Verified that emergency lighting was functional",
+  "No impact on safety or production",
+  "Maintenance inspected power distribution panels and confirmed no critical faults",
+  "Conducted quick walk‑throughs to confirm emergency lighting and fire safety systems were operational",
+  "No downtime recorded",
+  "Await final report from Maintenance on root‑cause analysis of the utility fluctuation. Expected completion by 2026‑11‑07",
+  "Verify the 'kicked on' equipment's event log",
+  "Consider scheduling a brief power quality audit during the next planned maintenance window",
+  "Keep an eye on any recurring flicker or abnormal behavior, especially during peak load periods",
+  "Review ticket #2026‑11‑05‑U01 for any updates"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the extremely sparse supervisor input, but it extensively hallucinates a massive amount of fabricated details, actions, tickets, locations, and resolutions that were never stated in the input. Readability and formatting are high, but the accuracy is severely compromised by massive fabrications."
+}

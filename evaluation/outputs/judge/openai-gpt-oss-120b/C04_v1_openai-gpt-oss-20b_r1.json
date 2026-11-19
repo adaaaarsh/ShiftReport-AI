@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "During this shift",
+  "New pump installed on [date of replacement]",
+  "consistent bearing wear suggests a systemic problem rather than an isolated incident",
+  "Inspection: Conducted a full visual and functional check of the new pump",
+  "Documentation: Updated maintenance log with bearing failure details and noted the recurrence",
+  "Safety Check: Confirmed all safety interlocks and emergency shutdown procedures are operational",
+  "Root‑Cause Analysis: Initiate a detailed investigation into the bearing failure (e.g., lubrication, misalignment, load, contamination)",
+  "Supplier Consultation: Contact the pump manufacturer for guidance on bearing selection and potential design modifications",
+  "Preventive Maintenance: Schedule a preventive maintenance check for the pump bearings at the next maintenance window",
+  "Monitoring: Install vibration or temperature sensors on the pump to detect early signs of bearing wear",
+  "Training: Brief operators on proper pump handling and bearing inspection procedures",
+  "Awaiting response from the supplier regarding bearing specifications",
+  "Pending approval for sensor installation and preventive maintenance schedule"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report includes all facts from the supervisor input, giving it full completeness. It adds numerous invented actions, dates, and recommendations, resulting in very low accuracy and poor handling of unknown information, so uncertainty handling is minimal. No severity level is assigned, which aligns with the lack of evidence, and the document is clearly structured, yielding high readability."
+}

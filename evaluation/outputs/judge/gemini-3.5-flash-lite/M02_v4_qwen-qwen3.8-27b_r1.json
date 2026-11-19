@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing - Recurrence risk remains as root cause of slipping is not fully resolved",
+  "Estimated time until full charge?",
+  "No safety incidents reported",
+  "Logistics capacity reduced due to Forklift #1 being on charge"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and facts accurately, matching the proper machine IDs and flagging missing information effectively. However, it introduces several minor fabricated details and assumptions (such as logistics capacity claims and statements about safety incidents not mentioned in the input), lowering the accuracy score. The readability, completeness, and uncertainty handling are exceptionally strong."
+}

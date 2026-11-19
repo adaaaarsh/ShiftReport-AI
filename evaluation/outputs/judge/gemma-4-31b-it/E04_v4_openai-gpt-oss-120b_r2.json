@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 22:15",
+  "Status: Ongoing — Oven remains in manual mode with interlock bypass",
+  "Is the oven scheduled for a full inspection or reset before the next shift?",
+  "Confirm that the oven temperature setpoint is returned to 350 °F and that the unit is back in automatic mode",
+  "Perform a quick safety check on the oven to ensure no lingering issues from the manual override",
+  "No other equipment issues reported during this shift",
+  "All actions were performed under supervision (Mike) with awareness of the temporary safety deviation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details regarding status, pending actions, and general notes not found in the input. Uncertainty handling is good as it flags the need to check the interlock."
+}

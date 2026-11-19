@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "likely a minor emission",
+  "no immediate safety concern or production impact",
+  "Action Taken: None performed during this shift",
+  "Status: Ongoing – to be investigated by the next shift",
+  "no safety hazard",
+  "Action Taken: None performed during this shift",
+  "Status: Ongoing – to be checked and resolved by the next shift",
+  "verify ventilation and filter status",
+  "Inspect M-06 for mechanical or software glitches",
+  "run diagnostic and restart if necessary",
+  "No critical incidents or safety hazards reported",
+  "Production continued without major disruptions"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates a significant amount of detail regarding causes, actions, and status. It presents these inventions as facts rather than flagging the missing information. The severity levels are reasonable given the input."
+}

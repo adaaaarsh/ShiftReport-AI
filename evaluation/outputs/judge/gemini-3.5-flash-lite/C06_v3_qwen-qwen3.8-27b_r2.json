@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PSI",
+  "Routine monitoring",
+  "Resolved / Normal",
+  "2:00 PM – 4:00 PM",
+  "Investigate cause of air pressure loss on Line A tools (check for leaks in piping, regulator issues, or demand spikes)",
+  "Verify if pressure loss has resolved or if it persists during the next shift",
+  "Continue monitoring M-12 Compressor Unit to ensure pressure remains stable at 110 PSI",
+  "Compressor unit (M-12) is functioning correctly; the issue appears to be localized to the distribution or usage side on Line A rather than the source",
+  "No safety incidents or critical machine failures reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report splits the single input issue into two separate items, turning the line A air tools problem into a second invented issue and inventing extensive details, actions, and analysis. It misses the underlying contradiction between the compressor running normally and the tools losing pressure. Although the layout is clean, the severe fabrication and failure to handle uncertainties lead to low accuracy and uncertainty scores."
+}

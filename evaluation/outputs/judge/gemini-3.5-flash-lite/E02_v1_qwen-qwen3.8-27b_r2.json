@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate attention required to assess downtime impact and coordinate with maintenance for repair",
+  "please verify if this impacts current production schedules or if backup capacity is available",
+  "Continue monitoring and follow up with maintenance/technical team as per previous protocols",
+  "No new developments reported this shift",
+  "Prioritize troubleshooting the Line D paint booth to minimize production loss",
+  "Confirm the status of the press issue with the maintenance team to determine if a resolution timeline has been updated",
+  "Monitor production output on affected lines and adjust staffing if necessary",
+  "No new safety incidents reported",
+  "Standard housekeeping procedures maintained",
+  "Ensure communication with maintenance regarding the Line D paint booth is documented"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input and correctly flags the unlisted paint booth as unrecognized equipment, but it heavily hallucinates extensive management actions, recommendations, and standard safety notes that were completely absent from the supervisor's brief notes."
+}

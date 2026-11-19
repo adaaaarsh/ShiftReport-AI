@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Jammed the feed mechanism",
+  "causing a temporary stop in packaging",
+  "Jam cleared manually",
+  "No safety incidents or staffing issues noted during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates specific details about the 'feed mechanism', 'temporary stop', and 'manual' clearing, as well as a general claim about safety/staffing. These additions lower the accuracy score to 3."
+}

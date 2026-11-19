@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: approximately 07:00",
+  "Action Taken: Monitored flow; no immediate corrective action required",
+  "Status: Ongoing (monitoring required)",
+  "Action Taken: Adjusted production schedule",
+  "Status: Resolved for this shift (staffing issue remains)",
+  "Verify and, if necessary, service the coolant pump (M-11) to eliminate the whining noise",
+  "Ensure a full complement of operators for the Packaging Unit (M-08) to return to normal speed",
+  "Keep an eye on the CNC Milling Machine (M-01) for any repeat spindle overload alarms",
+  "Overall production remained on schedule despite the staffing shortfall on Line B",
+  "No safety hazards were observed during the shift",
+  "All machines, aside from the noted coolant pump noise, performed within acceptable parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly readable and complete, but it contains an excessive amount of fabricated details, including specific times, actions, and general status claims not found in the input. It also fails to flag any missing information or uncertainties, presenting the fabricated details as facts."
+}

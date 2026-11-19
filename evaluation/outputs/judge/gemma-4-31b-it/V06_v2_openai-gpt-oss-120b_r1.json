@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Area inspected briefly",
+  "no abnormal readings detected",
+  "continued operation",
+  "Robot was reset and resumed work",
+  "no error codes logged at the time",
+  "confirm there are no gas leaks or overheating components",
+  "run a diagnostic check and review the safety interlock sensors",
+  "Overall production continued without major interruptions",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate",
+  "all operators reported normal workload"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete in terms of identifying the issues, but it is riddled with fabrications. It invents specific actions taken (inspections, resets), outcomes (no abnormal readings, no error codes), and general shift status (staffing, safety) not present in the input. It also fails to flag any uncertainty regarding the cause of the issues."
+}

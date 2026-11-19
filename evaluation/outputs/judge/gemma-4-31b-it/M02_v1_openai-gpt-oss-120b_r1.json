@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "07:00",
+  "Operating normally after adjustment",
+  "Monitor belt tension during next shift; schedule a preventive inspection if slipping recurs",
+  "high (temperature alarm)",
+  "no manual intervention needed",
+  "Operating within normal parameters",
+  "Verify temperature sensor calibration during routine maintenance",
+  "approx. 13:00",
+  "Moved forklift to charging station",
+  "Offline until fully charged",
+  "Check battery health and charging cycle; consider battery replacement if charge time exceeds normal range",
+  "No safety incidents were reported during the shift",
+  "All equipment, after corrective actions, returned to normal operation",
+  "Recommend a brief visual inspection of Conveyor B’s belt tension at the start of the next shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the provided registry IDs (M-05, M-10, M-15), instead using descriptive names. It contains extensive fabrications regarding times, statuses, and follow-up actions not present in the input. Severities are completely omitted, and no uncertainty or missing information is flagged."
+}

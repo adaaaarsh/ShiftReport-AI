@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Order replacement seal immediately (priority).",
+  "Schedule maintenance to replace seal before the next production run.",
+  "Run a short test batch after repair to verify temperature stability.",
+  "Hold all output from Line C until oven repair is completed.",
+  "Quarantine the three bad batches for re‑work or scrap according to SOP.",
+  "Document root‑cause findings (heat loss) in the QC log.",
+  "Contact fuel supplier to confirm new delivery ETA.",
+  "Arrange backup fuel source if delivery is delayed >12 hrs.",
+  "Monitor generator runtime and fuel levels closely.",
+  "Verify tire pressure and log the maintenance ticket.",
+  "Include forklift in the next routine inspection cycle.",
+  "No other equipment on Line C reported issues.",
+  "All safety checks for the repaired forklift have been completed; it is cleared for use."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures every item from the supervisor input, so completeness is high. However, it adds numerous actions and statements not present in the input, resulting in a very low accuracy score. No severity levels are provided, leading to a poor severity classification rating. While the layout is clear and readable, the report fails to flag unknown or missing information, giving it a low uncertainty handling score."
+}

@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (9:00 pm – 11:00 pm)",
+  "Notified maintenance & shut down affected equipment at 9:12 pm",
+  "Prevented further damage",
+  "Reset the compressor breaker at 9:15 pm by Maintenance Technician",
+  "Re-initiated compressor cycle",
+  "Monitored pressure gauge at 9:20 pm",
+  "Restarted Line A air tools at 9:22 pm",
+  "Tools operational again",
+  "Verify that all tools on Line A are functioning correctly",
+  "Document the pressure restoration and any anomalies observed during the reset",
+  "Log the incident in the equipment maintenance log (Ticket #XXXX)",
+  "Check the compressor’s pressure gauge and ensure it remains stable throughout the shift",
+  "Confirm that the overload relay is functioning",
+  "Monitor Line A air tools for any delayed response or pressure drops",
+  "Coordinate with maintenance to review the relay inspection results",
+  "No injuries or safety incidents reported",
+  "No production loss beyond the brief downtime of Line A tools",
+  "All safety protocols were followed during the incident response"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing a detailed timeline of actions, specific personnel roles, and safety/production claims not found in the input. It fails to use the provided registry ID (M-12) and presents the narrative as a complete set of facts without flagging any missing information. While readable and complete regarding the core event, the accuracy is critically low."
+}

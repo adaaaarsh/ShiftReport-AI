@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted during stoppages.",
+  "Belt may slip again; monitor for repeat.",
+  "Potential temperature fluctuation; no immediate production loss.",
+  "Monitor for recurrence.",
+  "Forklift unavailable, impacting material handling.",
+  "Awaiting full charge before next shift.",
+  "Re‑check conveyor belt tension on M-05 to prevent further slips.",
+  "Verify oven temperature stability on M-10; consider a quick diagnostic run.",
+  "Ensure M-15 is fully charged and operational before shift starts.",
+  "No safety incidents reported.",
+  "Production was briefly interrupted by conveyor stoppages; overall output remained within acceptable limits."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies all three equipment issues and uses the proper registry IDs, but it adds numerous invented statements about production impact, safety, and follow‑up actions that were not mentioned by the supervisor. While the core facts are accurate, the fabricated details lower the overall accuracy and the report fails to acknowledge missing information, resulting in poor uncertainty handling. Severity assignments are mostly appropriate except for the forklift, which is overstated as HIGH. The layout is clear and easy to read."
+}

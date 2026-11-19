@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "within normal range",
+  "No action required",
+  "Continue routine monitoring",
+  "Pressure dropped from 2 psi to 4 psi repeatedly during the shift (input stated from about 2 to 4 o'clock)",
+  "Schedule inspection/maintenance before the next shift",
+  "Ran continuously without alarms or abnormal readings",
+  "All parameters stayed within set points",
+  "leading to reduced efficiency",
+  "No immediate safety incident reported",
+  "avoid downtime",
+  "Keep an eye on pressure and temperature readings; log any deviations from the steady 110 psi baseline",
+  "Check for leaks in hoses, fittings, and connections",
+  "Verify regulator settings and functionality",
+  "Inspect filters for clogging or moisture accumulation",
+  "If the issue persists, arrange for a qualified technician to service the line",
+  "Record any further pressure fluctuations and corrective actions taken during the next shift",
+  "No other equipment reported abnormal behavior during this shift",
+  "All safety protocols were followed; no incidents or near-misses recorded",
+  "Please ensure this report is logged in the shift handover system and that the incoming team is briefed on the Line A issue"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely hallucinates extensive details, actions, causes, and recommendations that were never in the input, misinterprets the time range (2 to 4) as pressure drop values (2 psi to 4 psi), and invents a separate equipment row for air tools. It captures the facts given but fabricates almost the entire body of the report. The severity chosen is low/medium and acceptable, but uncertainty handling is completely absent as it fills in all unknowns with made-up procedures."
+}

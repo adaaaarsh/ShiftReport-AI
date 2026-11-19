@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted for ~35 minutes",
+  "No safety incidents or staffing concerns noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maps the machine ID correctly. However, it fabricates a specific duration of downtime (~35 minutes) and claims there were no safety or staffing incidents, which were not mentioned in the input. These minor fabrications result in an accuracy score of 3."
+}

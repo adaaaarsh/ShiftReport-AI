@@ -1,0 +1,121 @@
+file,scenario,version,model,Accuracy,Completeness,Severity,Readability,Uncertainty,Fabricated detail? (Y/N),Comment
+C01_v1_openai-gpt-oss-20b_r1.md,C01,v1,openai-gpt-oss-20b,2,5,4,3,2,Y,Hallucinated exact restart time at 3:15 PM and 10-minute return window for oven.
+C01_v2_openai-gpt-oss-120b_r1.md,C01,v2,openai-gpt-oss-120b,4,5,4,5,4,N,Oven spike recorded accurately as serious; Mill 7 restarts documented properly.
+C01_v3_qwen-qwen3.8-27b_r1.md,C01,v3,qwen-qwen3.8-27b,4,5,4,5,4,N,Good follow-up action to check part quality from oven during the high-temp run.
+C01_v4_openai-gpt-oss-20b_r1.md,C01,v4,openai-gpt-oss-20b,4,5,4,5,4,N,"Labeled oven temp as 450°C (input just said 450; likely F, but flagged correctly)."
+C02_v1_openai-gpt-oss-120b_r1.md,C02,v1,openai-gpt-oss-120b,5,5,4,4,4,N,Clear table layout; separated shutdown status from completed 400-piece run.
+C02_v2_qwen-qwen3.8-27b_r1.md,C02,v2,qwen-qwen3.8-27b,5,5,5,5,4,N,Accurately captured machine shutdown state while recording the 400 good pieces.
+C02_v3_openai-gpt-oss-20b_r1.md,C02,v3,openai-gpt-oss-20b,5,5,4,5,4,N,Accurate summary; recorded 400 good parts and pending maintenance parts.
+C02_v4_openai-gpt-oss-120b_r1.md,C02,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Good flag noting the operational timing ambiguity between the 400 pcs and shutdown.
+C03_v1_qwen-qwen3.8-27b_r1.md,C03,v1,qwen-qwen3.8-27b,4,4,4,4,3,N,Assumed forklift was used prior to being tagged out without flagging contradiction.
+C03_v2_openai-gpt-oss-20b_r1.md,C03,v2,openai-gpt-oss-20b,4,4,3,5,2,N,Assumed used at 6:00 AM; failed to flag the direct safety contradiction in input.
+C03_v3_openai-gpt-oss-120b_r1.md,C03,v3,openai-gpt-oss-120b,4,4,3,5,2,N,Assumed it was used at 6:00 AM before tagout without flagging the safety conflict.
+C03_v4_qwen-qwen3.8-27b_r1.md,C03,v4,qwen-qwen3.8-27b,5,5,4,5,5,N,Excellent catch on contradictory input: tagged out but operated at 6.
+C04_v1_openai-gpt-oss-20b_r1.md,C04,v1,openai-gpt-oss-20b,2,5,4,4,2,Y,Fabricated actions: claimed visual inspection was done and logs updated.
+C04_v2_openai-gpt-oss-120b_r1.md,C04,v2,openai-gpt-oss-120b,5,5,4,5,4,N,Captured recurring failure pattern; noted root cause analysis need in notes.
+C04_v3_qwen-qwen3.8-27b_r1.md,C04,v3,qwen-qwen3.8-27b,5,5,4,5,4,N,Highlighted recurring failure pattern and identified Line C cooling risks well.
+C04_v4_openai-gpt-oss-20b_r1.md,C04,v4,openai-gpt-oss-20b,5,5,4,5,5,N,Marked operational status Unknown and asked right questions on line cooling impact.
+C05_v1_openai-gpt-oss-120b_r1.md,C05,v1,openai-gpt-oss-120b,3,5,4,4,2,Y,Fabricated shift hours (20:00 - 04:00) and specific medical actions (cool water/dressing).
+C05_v2_qwen-qwen3.8-27b_r1.md,C05,v2,qwen-qwen3.8-27b,5,5,4,5,4,N,Handled first-aid injury well; suggested reasonable PPE follow-up for next shift.
+C05_v3_openai-gpt-oss-20b_r1.md,C05,v3,openai-gpt-oss-20b,5,5,4,5,3,N,Note claims 'no safety incidents' right under a first aid burn record. Contradictory.
+C05_v4_openai-gpt-oss-120b_r1.md,C05,v4,openai-gpt-oss-120b,5,5,4,5,3,N,"Accurate facts, but repeats the supervisor's contradiction in General Notes."
+C06_v1_qwen-qwen3.8-27b_r1.md,C06,v1,qwen-qwen3.8-27b,5,5,4,4,4,N,Bracketed template; correctly treated '2 to 4' as hours/time window.
+C06_v2_openai-gpt-oss-20b_r1.md,C06,v2,openai-gpt-oss-20b,2,5,4,5,2,Y,Hallucinated pressure drop to '2 psi to 4 psi' by misreading time range 2 to 4.
+C06_v3_openai-gpt-oss-120b_r1.md,C06,v3,openai-gpt-oss-120b,2,5,3,4,2,Y,Fabricated pressure units: turned '2 to 4' (time window) into '2 psi to 4 psi'.
+C06_v4_qwen-qwen3.8-27b_r1.md,C06,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Correctly interpreted '2 to 4' as time window; flagged air tools as unrecognized asset.
+E01_v1_openai-gpt-oss-20b_r1.md,E01,v1,openai-gpt-oss-20b,2,5,4,4,2,Y,Fabricated detail: claimed coolant was refilled to recommended level during shift.
+E01_v2_openai-gpt-oss-120b_r1.md,E01,v2,openai-gpt-oss-120b,4,5,4,5,4,N,Caught the LOTO issue; slightly underplayed the near-miss severity as Medium.
+E01_v3_qwen-qwen3.8-27b_r1.md,E01,v3,qwen-qwen3.8-27b,5,5,5,5,5,N,Decoded fragmented floor shorthand accurately; prioritized LOTO safety breach.
+E01_v4_openai-gpt-oss-20b_r1.md,E01,v4,openai-gpt-oss-20b,5,5,4,5,5,N,Decoded compressed input well; flagged LOTO skip and aisle 3 near-miss.
+E02_v1_openai-gpt-oss-120b_r1.md,E02,v1,openai-gpt-oss-120b,1,5,3,4,1,Y,"Massive hallucination: invented PLC reset, 15% output loss, ext 212, and part #DC-4521."
+E02_v2_qwen-qwen3.8-27b_r1.md,E02,v2,qwen-qwen3.8-27b,5,5,5,5,5,N,Explicitly surfaced system note that Line D and Paint Booth are not in plant registry.
+E02_v3_openai-gpt-oss-20b_r1.md,E02,v3,openai-gpt-oss-20b,4,5,4,5,3,N,Mapped press to M-03 and captured booth downtime; didn't flag Line D registry gap.
+E02_v4_openai-gpt-oss-120b_r1.md,E02,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Excellent handling: flagged paint booth/Line D as non-registry and press as Unknown.
+E03_v1_qwen-qwen3.8-27b_r1.md,E03,v1,qwen-qwen3.8-27b,5,5,4,4,4,N,All 3 items captured; bracketed template formatting but perfectly usable.
+E03_v2_openai-gpt-oss-20b_r1.md,E03,v2,openai-gpt-oss-20b,5,5,4,5,4,N,Handled all items well including non-production/safety notes.
+E03_v3_openai-gpt-oss-120b_r1.md,E03,v3,openai-gpt-oss-120b,5,5,4,5,4,N,"Captured both machines, parking lights, and Jim's birthday in notes."
+E03_v4_qwen-qwen3.8-27b_r1.md,E03,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Highlighted risk of running mill with spindle noise; flagged parking lights.
+E04_v1_openai-gpt-oss-20b_r1.md,E04,v1,openai-gpt-oss-20b,5,5,4,4,4,N,Captured manual override and bypass authorization; clear reminder to restore.
+E04_v2_openai-gpt-oss-120b_r1.md,E04,v2,openai-gpt-oss-120b,5,5,5,5,4,N,High severity appropriate given bypassed interlock; pending tasks are clear.
+E04_v3_qwen-qwen3.8-27b_r1.md,E04,v3,qwen-qwen3.8-27b,5,5,5,5,5,N,Properly treated safety interlock bypass as a high-risk operational concern.
+E04_v4_openai-gpt-oss-20b_r1.md,E04,v4,openai-gpt-oss-20b,5,5,5,5,5,N,Critical severity justified due to bypassed safety interlock during production.
+E05_v1_openai-gpt-oss-120b_r1.md,E05,v1,openai-gpt-oss-120b,1,5,4,3,1,Y,"Hallucinated ticket #2026-11-05-001, engineer named John Doe, and pad placement."
+E05_v2_qwen-qwen3.8-27b_r1.md,E05,v2,qwen-qwen3.8-27b,3,5,4,5,4,N,Guessed Machine 17 was M-07 based on line location; justified reasoning in note.
+E05_v3_openai-gpt-oss-20b_r1.md,E05,v3,openai-gpt-oss-20b,2,2,1,3,3,N,Refused to record any issues because IDs weren't in registry; completely unhelpful.
+E05_v4_openai-gpt-oss-120b_r1.md,E05,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Explicitly flagged Machine 17 as non-registry equipment; mapped robot 2 cleanly.
+E06_v1_qwen-qwen3.8-27b_r1.md,E06,v1,qwen-qwen3.8-27b,5,5,4,4,4,N,Translated accurately and separated hydraulic press from operating lathe cleanly.
+E06_v2_openai-gpt-oss-20b_r1.md,E06,v2,openai-gpt-oss-20b,5,5,3,5,4,N,Rated oil leak High severity when input said lathe is fine and maintenance coming.
+E06_v3_openai-gpt-oss-120b_r1.md,E06,v3,openai-gpt-oss-120b,5,5,4,5,4,N,Correctly translated Spanish floor input and mapped press to M-03.
+E06_v4_qwen-qwen3.8-27b_r1.md,E06,v4,qwen-qwen3.8-27b,5,5,4,5,5,N,Correctly surfaced ambiguity on 3:00 (AM vs PM) and active state of leak.
+M01_v1_openai-gpt-oss-20b_r1.md,M01,v1,openai-gpt-oss-20b,3,5,4,4,3,Y,"Fabricated insert specification placeholder 'Insert Type X, Size Y' as literal action."
+M01_v2_openai-gpt-oss-120b_r1.md,M01,v2,openai-gpt-oss-120b,5,5,4,5,4,N,Captured 20 rework parts and tooling stockout; all three assets logged properly.
+M01_v3_qwen-qwen3.8-27b_r1.md,M01,v3,qwen-qwen3.8-27b,5,5,5,5,4,N,Solid breakdown across all three assets; actions and rework captured accurately.
+M01_v4_openai-gpt-oss-20b_r1.md,M01,v4,openai-gpt-oss-20b,5,5,4,5,4,N,Detailed and thorough; questions for incoming shift are practical.
+M02_v1_openai-gpt-oss-120b_r1.md,M02,v1,openai-gpt-oss-120b,5,5,4,4,4,N,Well-organized table; captured all 3 events and follow-up tension checks.
+M02_v2_qwen-qwen3.8-27b_r1.md,M02,v2,qwen-qwen3.8-27b,5,5,4,5,4,N,All 3 events captured chronologically; pending items are actionable.
+M02_v3_openai-gpt-oss-20b_r1.md,M02,v3,openai-gpt-oss-20b,5,5,4,5,4,N,"High severity on dead forklift battery is slightly aggressive, but overall solid."
+M02_v4_openai-gpt-oss-120b_r1.md,M02,v4,openai-gpt-oss-120b,5,5,4,5,5,N,Solid questions raised on whether belt tension is holding; good shift handover.
+M03_v1_qwen-qwen3.8-27b_r1.md,M03,v1,qwen-qwen3.8-27b,4,5,4,4,4,N,Standard bracketed template; captures all events and staffing impact accurately.
+M03_v2_openai-gpt-oss-20b_r1.md,M03,v2,openai-gpt-oss-20b,5,5,3,5,4,N,Spindle overload marked High even though cleared and running ok since 3:20.
+M03_v3_openai-gpt-oss-120b_r1.md,M03,v3,openai-gpt-oss-120b,5,5,4,5,4,N,Low severity on whining pump is fair given normal flow; captured half speed.
+M03_v4_qwen-qwen3.8-27b_r1.md,M03,v4,qwen-qwen3.8-27b,5,5,4,5,5,N,Handled staffing shortage and mechanical issues cleanly; good clarification flags.
+M04_v1_openai-gpt-oss-20b_r1.md,M04,v1,openai-gpt-oss-20b,4,5,5,4,4,N,Structured table presentation; all 3 issues and safety notifications captured.
+M04_v2_openai-gpt-oss-120b_r1.md,M04,v2,openai-gpt-oss-120b,5,5,5,5,4,N,Correctly prioritized guard interlock failure as Critical; compressor as High.
+M04_v3_qwen-qwen3.8-27b_r1.md,M04,v3,qwen-qwen3.8-27b,5,5,5,5,4,N,Appropriately flagged guard interlock failure as Critical near-miss.
+M04_v4_openai-gpt-oss-20b_r1.md,M04,v4,openai-gpt-oss-20b,5,5,5,5,5,N,Caught the critical safety interlock issue and marked compressor cycling Unknown.
+M05_v1_openai-gpt-oss-120b_r1.md,M05,v1,openai-gpt-oss-120b,5,5,5,4,4,N,Clean tabular structure; immediate priorities for incoming supervisor are solid.
+M05_v2_qwen-qwen3.8-27b_r1.md,M05,v2,qwen-qwen3.8-27b,5,5,5,5,4,N,Captured all 4 operational updates cleanly; pending priorities are logical.
+M05_v3_openai-gpt-oss-20b_r1.md,M05,v3,openai-gpt-oss-20b,5,5,3,5,4,N,Marked missing generator fuel delivery as Critical; clearly an over-escalation.
+M05_v4_openai-gpt-oss-120b_r1.md,M05,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Thorough report; surfaces good clarifying questions regarding oven run status.
+M06_v1_qwen-qwen3.8-27b_r1.md,M06,v1,qwen-qwen3.8-27b,5,5,4,4,4,N,Bracketed template; identified roof HVAC as unverified and flagged slip risk on leak.
+M06_v2_openai-gpt-oss-20b_r1.md,M06,v2,openai-gpt-oss-20b,5,5,3,5,4,N,Marked lathe coolant leak High and roof HVAC Low; severities somewhat inverted.
+M06_v3_openai-gpt-oss-120b_r1.md,M06,v3,openai-gpt-oss-120b,5,5,4,5,3,N,"Decent capture, but assigned Medium to HVAC without flagging it wasn't inspected."
+M06_v4_qwen-qwen3.8-27b_r1.md,M06,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Good callout of unknown severity on uninspected roof HVAC; clarified workarounds.
+S01_v1_openai-gpt-oss-20b_r1.md,S01,v1,openai-gpt-oss-20b,5,5,4,4,4,N,Clear table format; accurate tracking of resolved jam and zero part damage.
+S01_v2_openai-gpt-oss-120b_r1.md,S01,v2,openai-gpt-oss-120b,5,5,5,5,5,N,Factual and concise. No extra assumptions made.
+S01_v3_qwen-qwen3.8-27b_r1.md,S01,v3,qwen-qwen3.8-27b,5,5,5,5,5,N,Spot-on summary for a simple resolved jam; no unnecessary fluff added.
+S01_v4_openai-gpt-oss-20b_r1.md,S01,v4,openai-gpt-oss-20b,5,5,5,5,5,N,"Concise, accurate, and correctly marked resolved with no pending tasks."
+S02_v1_openai-gpt-oss-120b_r1.md,S02,v1,openai-gpt-oss-120b,3,5,4,4,3,Y,Hallucinated root cause analysis and an unstated 35-minute line downtime calculation.
+S02_v2_qwen-qwen3.8-27b_r1.md,S02,v2,qwen-qwen3.8-27b,5,5,3,5,4,N,Rated High severity for a wire feed fault resolved in 35 mins; Low or Med fits better.
+S02_v3_openai-gpt-oss-20b_r1.md,S02,v3,openai-gpt-oss-20b,5,5,5,5,5,N,Exact match to input details; correctly identified machine as M-06 and resolved.
+S02_v4_openai-gpt-oss-120b_r1.md,S02,v4,openai-gpt-oss-120b,5,5,5,5,5,N,"Accurate timestamps, correct asset mapping, and proper Low severity for resolved fix."
+S03_v1_qwen-qwen3.8-27b_r1.md,S03,v1,qwen-qwen3.8-27b,5,5,5,3,4,N,"Factual and accurate, but standard generic template with empty sign-off blocks."
+S03_v2_openai-gpt-oss-20b_r1.md,S03,v2,openai-gpt-oss-20b,5,5,5,5,5,N,"Accurate, clean, and appropriately rated Low severity for routine test."
+S03_v3_openai-gpt-oss-120b_r1.md,S03,v3,openai-gpt-oss-120b,5,5,5,5,5,N,Routine generator test captured accurately; clean and scannable.
+S03_v4_qwen-qwen3.8-27b_r1.md,S03,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Clean report; routine test and fuel status captured accurately.
+S04_v1_openai-gpt-oss-20b_r1.md,S04,v1,openai-gpt-oss-20b,5,5,4,4,4,N,Formatted as warehouse table; captured work order and single-forklift constraint.
+S04_v2_openai-gpt-oss-120b_r1.md,S04,v2,openai-gpt-oss-120b,5,5,4,5,4,N,Captured WO 4471 and tagged out status accurately; severity is defensible.
+S04_v3_qwen-qwen3.8-27b_r1.md,S04,v3,qwen-qwen3.8-27b,5,5,4,5,4,N,Good action tracking on WO 4471 and material handling impact with 1 truck.
+S04_v4_openai-gpt-oss-20b_r1.md,S04,v4,openai-gpt-oss-20b,5,5,2,5,4,N,Rated flat forklift tire as Critical safety hazard; clearly over-escalated.
+S05_v1_openai-gpt-oss-120b_r1.md,S05,v1,openai-gpt-oss-120b,4,5,4,4,4,Y,Fabricated timezone (EDT) and added ungrounded contingency advice.
+S05_v2_qwen-qwen3.8-27b_r1.md,S05,v2,qwen-qwen3.8-27b,5,5,4,5,4,N,Solid report; clearly notes upcoming morning inspection for overload relay.
+S05_v3_openai-gpt-oss-20b_r1.md,S05,v3,openai-gpt-oss-20b,5,5,3,5,4,N,Rated Critical despite being resolved in 8 mins; High or Medium would fit better.
+S05_v4_openai-gpt-oss-120b_r1.md,S05,v4,openai-gpt-oss-120b,5,5,4,5,5,N,"Crisp, accurate summary; next-shift inspection handover is explicit."
+S06_v1_qwen-qwen3.8-27b_r1.md,S06,v1,qwen-qwen3.8-27b,5,5,4,4,4,N,Bracketed template; clear breakdown of calibration and verification steps.
+S06_v2_openai-gpt-oss-20b_r1.md,S06,v2,openai-gpt-oss-20b,5,5,2,5,4,N,Rated High severity for a scanner recalibration that was resolved immediately.
+S06_v3_openai-gpt-oss-120b_r1.md,S06,v3,openai-gpt-oss-120b,5,5,4,5,5,N,"Straightforward, concise, and matches the input facts directly."
+S06_v4_qwen-qwen3.8-27b_r1.md,S06,v4,qwen-qwen3.8-27b,5,5,4,5,5,N,"Clean report. Accurate mapping to M-09, severity defensible, zero fluff."
+V01_v1_openai-gpt-oss-20b_r1.md,V01,v1,openai-gpt-oss-20b,3,5,4,4,2,Y,Fabricated shift times (08:00 - 16:00) and invented 'water damage' speculation.
+V01_v2_openai-gpt-oss-120b_r1.md,V01,v2,openai-gpt-oss-120b,3,5,4,4,3,Y,Fabricated detail: claimed supervisor stopped the machine for visual inspection.
+V01_v3_qwen-qwen3.8-27b_r1.md,V01,v3,qwen-qwen3.8-27b,3,5,3,4,3,N,Guessed big machine is M-07 without flagging ambiguity; Line A leak handled better.
+V01_v4_openai-gpt-oss-20b_r1.md,V01,v4,openai-gpt-oss-20b,5,5,5,5,5,N,Flagged both items as Unrecognized Equipment instead of making wild guesses.
+V02_v1_openai-gpt-oss-120b_r1.md,V02,v1,openai-gpt-oss-120b,4,4,3,4,3,N,Generic template; suggests High priority without knowing what machine failed.
+V02_v2_qwen-qwen3.8-27b_r1.md,V02,v2,qwen-qwen3.8-27b,4,5,4,5,5,N,Mapped to M-09 with clear explicit disclaimer asking if M-10 or M-11 was intended.
+V02_v3_openai-gpt-oss-20b_r1.md,V02,v3,openai-gpt-oss-20b,3,5,3,5,2,N,Confidently assigned issue to M-09 scanner without flagging oven or pump on Line C.
+V02_v4_openai-gpt-oss-120b_r1.md,V02,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Excellent uncertainty handling; flagged unrecognized equipment rather than guessing.
+V03_v1_qwen-qwen3.8-27b_r1.md,V03,v1,qwen-qwen3.8-27b,4,4,4,4,4,N,"Generic bracketed template, but correctly cautioned against using forklift uninspected."
+V03_v2_openai-gpt-oss-20b_r1.md,V03,v2,openai-gpt-oss-20b,3,4,3,4,3,N,Picked M-15 by default; parenthetical note on M-16 helps but uncertainty handling is weak.
+V03_v3_openai-gpt-oss-120b_r1.md,V03,v3,openai-gpt-oss-120b,3,4,3,4,2,N,Silently mapped 'one forklift' to M-15; should have flagged ambiguity vs M-16.
+V03_v4_qwen-qwen3.8-27b_r1.md,V03,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Excellent uncertainty handling; prompted incoming shift for asset ID and symptoms.
+V04_v1_openai-gpt-oss-20b_r1.md,V04,v1,openai-gpt-oss-20b,2,5,3,4,1,Y,"Huge hallucination: invented surge protection device, panel inspection, 30-min log."
+V04_v2_openai-gpt-oss-120b_r1.md,V04,v2,openai-gpt-oss-120b,4,5,4,5,3,N,Reasonable interpretation of electrical anomaly; could flag unknown asset better.
+V04_v3_qwen-qwen3.8-27b_r1.md,V04,v3,qwen-qwen3.8-27b,3,5,4,5,2,N,Guessed compressor M-12 caused the flicker without supporting evidence.
+V04_v4_openai-gpt-oss-20b_r1.md,V04,v4,openai-gpt-oss-20b,5,5,5,5,5,N,Good use of Unrecognized Equipment flag; didn't guess which utility triggered.
+V05_v1_openai-gpt-oss-120b_r1.md,V05,v1,openai-gpt-oss-120b,2,5,4,4,2,Y,Fabricated actions: claimed axes re-calibrated and spindle speed verified.
+V05_v2_qwen-qwen3.8-27b_r1.md,V05,v2,qwen-qwen3.8-27b,4,5,4,5,4,N,Mapped to M-01 but added a clear callout acknowledging M-02 or M-07 possibility.
+V05_v3_openai-gpt-oss-20b_r1.md,V05,v3,openai-gpt-oss-20b,3,5,3,5,2,N,Guessed M-01 without flagging M-02 or M-07; severity High is too high for a fix.
+V05_v4_openai-gpt-oss-120b_r1.md,V05,v4,openai-gpt-oss-120b,5,5,5,5,5,N,Flagged ambiguous 'CNC' reference and noted verification needed on fix.
+V06_v1_qwen-qwen3.8-27b_r1.md,V06,v1,qwen-qwen3.8-27b,4,5,4,4,4,N,"Bracketed template format, but good actionable guidance to check oven area."
+V06_v2_openai-gpt-oss-20b_r1.md,V06,v2,openai-gpt-oss-20b,5,5,4,5,4,N,Accurately recorded both issues without assuming equipment failure prematurely.
+V06_v3_openai-gpt-oss-120b_r1.md,V06,v3,openai-gpt-oss-120b,4,5,3,5,3,N,Assigned Low to oven smell without verifying source; should be marked Unknown.
+V06_v4_qwen-qwen3.8-27b_r1.md,V06,v4,qwen-qwen3.8-27b,5,5,5,5,5,N,Proper Unknown rating on odor; surfaces good diagnostic questions for next shift.

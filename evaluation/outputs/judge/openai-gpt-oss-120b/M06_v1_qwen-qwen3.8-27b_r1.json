@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool breakage time specified as approximately 17:00.",
+  "Recommendation to schedule repair for next shift or immediate maintenance notification for coolant leak.",
+  "Recommendation to monitor conveyor speed sensor closely and perform diagnostic check by maintenance.",
+  "Speculative causes for HVAC rattling noise (e.g., loose fan blade, bearing wear, debris).",
+  "Prioritize inspection of roof HVAC to ensure climate control stability.",
+  "Safety note to keep area around coolant leak dry to prevent slip hazards.",
+  "Instruction for operators to continue monitoring conveyor for abnormal speeds or stops.",
+  "Handover summary action items recommending inspection and maintenance notifications."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all items from the supervisor input, giving it a perfect completeness score. However, it introduces several invented specifics such as an exact 17:00 time, detailed recommendations, and speculative causes, lowering accuracy to a low level. No severity levels are provided, resulting in a severe deficiency for severity classification. The document is well‑structured and easy to scan, earning a high readability rating. It does flag unknowns (e.g., unverified HVAC) and calls out missing actions, satisfying uncertainty handling."
+}

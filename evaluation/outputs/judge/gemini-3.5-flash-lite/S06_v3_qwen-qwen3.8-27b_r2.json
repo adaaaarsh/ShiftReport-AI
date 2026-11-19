@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temporary production stoppage and rework required",
+  "no safety hazard or permanent damage",
+  "Production resumed normally after recalibration"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures all key facts and maps to the correct equipment ID, but it invents several details about production stoppage, rework, and safety hazards not present in the input. Severities are assigned reasonably given context, though no explicit uncertainty is flagged about the root cause."
+}

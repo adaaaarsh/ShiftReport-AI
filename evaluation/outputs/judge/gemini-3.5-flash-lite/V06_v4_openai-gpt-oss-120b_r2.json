@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate safety hazard reported, but requires verification",
+  "Observation recorded; no further action taken",
+  "Status: Ongoing",
+  "Intermittent pauses may affect production flow",
+  "Investigate the source of the smell near M-10 and confirm that the oven is safe to operate",
+  "Check M-06 for error logs or sensor issues that caused the pauses; run a diagnostic and, if needed, call maintenance",
+  "No safety incidents or staffing issues reported",
+  "Both observations lack specific timestamps; obtaining exact times will aid future tracking"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input items and handles machine references correctly, but it heavily fabricates administrative actions, statuses, impact descriptions, and pending recommendations not mentioned in the brief input. Severities are assigned rather than left unknown, though defensible. Structure and uncertainty highlighting are well formatted."
+}

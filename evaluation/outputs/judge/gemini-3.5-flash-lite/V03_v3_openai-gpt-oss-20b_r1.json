@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "No immediate safety hazard or production impact reported",
+  "Time Noticed: Earlier in the shift (exact time not specified)",
+  "Action Taken: None reported; issue remains unresolved",
+  "Status: Ongoing",
+  "Investigate and resolve the operational irregularities on M-15 (Forklift #1)",
+  "Verify that all other forklifts (M-16) are functioning normally",
+  "No other issues were reported; most earlier problems were resolved before handover"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a large amount of detail (inventing a specific forklift ID, actions, statuses, and notes) and turns the second unmentioned forklift into a distractor issue. Completeness is moderate as the core issue is mentioned, but uncertainty handling fails completely because it picks a specific machine instead of flagging the ambiguity."
+}

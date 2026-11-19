@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-14 — HVAC System",
+  "Approximately 12:00 PM",
+  "Monitored the situation",
+  "no immediate corrective action required as the issue resolved itself",
+  "Resolved — No further abnormal behavior observed",
+  "did not affect production or safety"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-14) from an ambiguous reference to 'utilities' and fabricated several details regarding the time, actions taken, and the final status. It failed to flag the ambiguity of the equipment involved. While the severity is reasonable, the overall accuracy is low due to these inventions."
+}

@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential systemic issue with the component or installation",
+  "Inspect M-11 to assess the extent of the bearing damage",
+  "determine if the pump is currently operational or if Line C coolant circulation is compromised",
+  "Investigate why the 'brand new' pump failed so quickly",
+  "Check for: Incorrect part number installed last week",
+  "Check for: Misalignment during installation",
+  "Check for: Contamination in the coolant system causing premature wear",
+  "Check for: Defective batch of bearings",
+  "Verify if Line C production is affected by the pump status",
+  "assess if backup cooling methods are available or if production must be paused to prevent thermal damage to other Line C equipment (M-09, M-10)",
+  "Contact maintenance to schedule immediate repair or replacement of the bearings/pump unit",
+  "Recommend a formal engineering review to address the root cause",
+  "Verify stock levels for replacement bearings or pump units"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates a massive amount of 'Pending Items' and 'General Notes' (root cause theories, specific inspection steps, and production impact checks) not found in the input. It also fails to flag the blatant contradiction in the input regarding a 'brand new' pump having 'original bearings' that failed 'again'."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Line B welding robot for the next 30–60 minutes to ensure the recalibration holds and no further wire feed issues occur",
+  "Verify that the new wire spool is properly seated and tensioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts accurately but fabricates specific monitoring instructions for the incoming shift. No severity was assigned, which is acceptable given the input. It fails to flag any uncertainty, though none was present in the input."
+}

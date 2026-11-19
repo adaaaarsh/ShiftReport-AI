@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed two manual restarts",
+  "Status: Resolved",
+  "Monitored and allowed the oven to cool",
+  "Status: Ongoing (monitoring required)",
+  "Continue to monitor the Industrial Oven (M-10) for any further temperature excursions and verify that it remains within spec",
+  "Observe CNC Milling Machine (M-07) for repeat error codes; if they recur, schedule a detailed diagnostics check",
+  "Overall production proceeded smoothly with no major downtime",
+  "Staffing levels were adequate; no additional remarks"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core machine issues but heavily fabricates actions taken, statuses, and pending recommendations that were not in the input. Contradictions present in the input are entirely glossed over rather than surfaced. While formatted neatly, the extensive fabrication severely impacts accuracy and uncertainty handling."
+}

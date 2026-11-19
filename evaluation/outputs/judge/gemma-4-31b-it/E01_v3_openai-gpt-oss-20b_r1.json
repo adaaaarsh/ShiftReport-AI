@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil dripping from the base of the press",
+  "Incident logged",
+  "Replace headlight before next shift",
+  "Refill coolant",
+  "Verify that all safety incidents are logged and corrective actions are initiated",
+  "No additional staffing or safety incidents reported beyond the near-miss",
+  "recommend reviewing safety protocols"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but includes several fabrications regarding actions taken (incident logged) and recommendations. Severity for M-03 is too low (Medium) given the explicit skip of LOTO for quota, which is a critical safety violation. It fails to flag any missing information or ambiguities, presenting the report as complete."
+}

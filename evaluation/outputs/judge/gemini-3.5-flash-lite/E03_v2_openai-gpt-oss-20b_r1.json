@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "1:30 PM",
+  "Requires inspection and potential repair before next shift",
+  "Machine operating normally",
+  "Safety/visibility concern",
+  "Needs electrical inspection and repair",
+  "Inspect and repair spindle on M-01 to eliminate noise and prevent potential failure",
+  "Coordinate with maintenance to restore parking lot lighting"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all real input issues accurately and organizes them clearly with good readability and severity choices. However, it invents significant details such as specific actions required, inspection statuses, and the PM suffix on the time. It also incorrectly treats the parking lot lights distractor as an active equipment issue with a designated status and action."
+}

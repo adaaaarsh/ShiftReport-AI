@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Partial issue (leak), no indication of full shutdown or safety hazard yet",
+  "Status: Ongoing — Awaiting maintenance arrival",
+  "Clarifications Needed: Is the leak active or has it stopped?",
+  "Severity: LOW — Operational check confirmed",
+  "Action Taken: Visual/Operational check performed by supervisor",
+  "Status: Resolved / Normal",
+  "Verify arrival of maintenance team for M-03 (Hydraulic Press)",
+  "Confirm repair status of oil leak on M-03",
+  "Monitor M-03 for any further leaks or operational issues after maintenance intervention"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the hydraulic press issue and includes both key facts, but it adds numerous invented actions, statuses, and speculative details not present in the supervisor input, severely harming accuracy. All reported items from the input are present, so completeness is high. Severity assignments align with the answer key, and the structured format makes the report easy to read. While some unknowns are flagged, not all ambiguities are surfaced, leading to a slightly lower uncertainty score."
+}

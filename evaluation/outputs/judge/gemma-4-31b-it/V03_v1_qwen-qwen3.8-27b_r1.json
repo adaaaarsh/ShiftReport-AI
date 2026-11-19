@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operational Status: Normal",
+  "Current operations are proceeding without significant interruption",
+  "Issue identified but not fully resolved during this shift",
+  "Inspect forklift immediately upon arrival",
+  "Do not use for heavy loads or critical tasks until inspected",
+  "Contact Maintenance if the issue persists or worsens",
+  "No new safety incidents reported",
+  "Standard safety protocols in effect",
+  "If the forklift is deemed unsafe, tag it out and arrange for a replacement unit"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures the forklift issue and correctly flags the ambiguity of the machine ID and symptoms. However, it fabricates a significant amount of operational status, safety claims, and specific recommendations not found in the input. Readability and uncertainty handling are high, but accuracy is lowered due to these inventions."
+}

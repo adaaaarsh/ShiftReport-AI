@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor mechanical issue, no safety hazard",
+  "Time Noticed: 1:40 PM (input says work order submitted at 1:40pm, time noticed is unspecified)",
+  "Status: Ongoing — Awaiting tire replacement/repair",
+  "Complete tire replacement for M-16 (Forklift #2) and return it to service",
+  "Verify that Work Order 4471 has been processed and scheduled",
+  "Ensure Forklift #1 continues to operate without overload",
+  "No other equipment issues reported during this shift",
+  "All production activities are being handled using Forklift #1 while Forklift #2 is out of service"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies M-16 and captures all facts from the input, but it invents several details and assumptions such as assuming the time noticed was 1:40pm and adding extensive pending items and general notes not present in the input. Severities are reasonable and readability is high. However, it fails to surface the unknown repair ETA as missing."
+}

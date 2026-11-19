@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Potential mechanical wear or bearing issue",
+  "Action Taken: None specified (monitoring only)",
+  "Status: Ongoing / Resolved",
+  "No safety incidents or critical machine failures reported",
+  "Verify staffing levels for M-08 (Line B) to determine if full-speed operation can resume"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported issues accurately regarding core facts and machine IDs. However, it includes several invented details and assumptions (such as inventing a shift letter, assigning specific statuses/actions not in the input, and claiming no safety incidents). Severities are assigned defensibly or with slight exaggeration, and uncertainty handling is strong with explicit questions raised."
+}

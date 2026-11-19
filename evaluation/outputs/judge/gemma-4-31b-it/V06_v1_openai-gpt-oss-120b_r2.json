@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Likely minor (e.g., residual food residue or temporary vent issue)",
+  "Perform a visual inspection of the oven and surrounding vent/exhaust system",
+  "Verify that the oven is clean and that filters are not clogged",
+  "If the smell persists after cleaning, notify Maintenance for a deeper check",
+  "presumably the kitchen/servicing robot",
+  "Temporary pause may be due to sensor trigger, low battery, or minor software glitch",
+  "Review robot log files to identify pause timestamps and any error codes",
+  "Ensure the robot’s battery is fully charged and charging dock is functional",
+  "Reset/reboot the robot if pauses continue",
+  "Escalate to Technical Support if the issue recurs",
+  "Area was ventilated briefly",
+  "no immediate safety concern identified",
+  "Monitored pauses",
+  "robot resumed operation after each pause without manual intervention",
+  "Check for any food debris or spills that could cause odor",
+  "Confirm that the exhaust fan is operating at full capacity",
+  "Keep an eye on the robot’s performance for any further pauses",
+  "Record any additional pause events with timestamps for trend analysis",
+  "Log any follow-up actions taken in the maintenance system",
+  "Update the equipment status board with the current condition of the oven and robot",
+  "Confirmation from Maintenance that the oven vent/filter is clean",
+  "Review of robot diagnostic logs"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing causes, actions taken, and specific recommendations not found in the input. It also fails to use the provided registry IDs to identify the equipment. While it captures the two issues, it presents them as fully analyzed and managed rather than surfacing the ambiguity of the input."
+}

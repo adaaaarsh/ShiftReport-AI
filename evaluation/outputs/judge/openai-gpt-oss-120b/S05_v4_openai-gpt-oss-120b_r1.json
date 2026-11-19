@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production was temporarily halted on line A until pressure was restored.",
+  "Clarifications Needed: None (all critical details provided).",
+  "Verify that air pressure remains stable after maintenance work.",
+  "No safety incidents reported.",
+  "Production resumed promptly after the compressor reset."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies M-12 and includes all factual details, giving it high completeness and appropriate severity. However, it adds several invented statements such as a production halt, safety‑incident claim, and verification steps, which reduces accuracy and fails to flag the missing information, resulting in poor uncertainty handling. The layout remains clear and easy to scan, so readability is high."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the operator for any delayed symptoms related to the minor burn.",
+  "Review the specific task or area of the M-06 cell where the incident occurred to ensure proper PPE (Personal Protective Equipment) was worn and to identify potential hot spots or procedural gaps.",
+  "Production appears to have continued without interruption following the incident."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the incident on M-06 and its facts, but it includes several fabricated details such as monitoring recommendations, PPE reviews, and assumptions about production continuity. It rates severity as LOW despite an actual injury occurring, and it completely misses the contradiction present in the supervisor input regarding 'no safety incidents' versus an operator burn."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate containment of spill to prevent slip hazards",
+  "Machine should be taken offline or operated with extreme caution until maintenance assesses the leak source",
+  "Awaiting Maintenance Team",
+  "Coordinate with Robotics/Engineering team to schedule re-teaching session",
+  "Verify if this is due to a program error, sensor misalignment, or mechanical drift",
+  "Pending scheduling",
+  "No other major incidents reported during this shift",
+  "Production flow on Line B may be impacted due to Machine 17 issue",
+  "Prioritize contacting Maintenance regarding the hydraulic leak on Machine 17",
+  "Confirm timeline for Robot 2 re-teaching with the engineering team",
+  "Monitor Line B output closely due to potential downtime"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous actions, statuses, and recommendations not present in the input. It fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as known entities. While the structure is clear, the content is largely hallucinated."
+}

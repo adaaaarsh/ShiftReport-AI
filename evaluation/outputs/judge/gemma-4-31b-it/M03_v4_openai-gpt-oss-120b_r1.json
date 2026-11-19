@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:20 PM (input only said 3:20)",
+  "Action Taken: Monitored; no corrective action taken yet (for M-11)",
+  "Status: Ongoing — Noise persists (for M-11)",
+  "Status: Resolved (for M-01)",
+  "Action Taken: Adjusted operation to half speed to maintain output with reduced labor (for M-08)",
+  "Status: Ongoing — Will return to full speed when staffing is restored (for M-08)",
+  "No safety incidents reported",
+  "Overall production continued despite minor equipment noises and staffing shortage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is complete and highly readable, correctly identifying all machines and flagging missing information. However, it contains several fabrications, including adding 'PM' to the time and inventing status/action details not in the input. Severity for M-01 is arguably too low given a spindle overload, though the report justifies it based on the current status."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift was tagged out for safety and maintenance",
+  "Awaiting repair or replacement",
+  "Arrange for maintenance or replacement of Forklift #1 (M-15)",
+  "Verify that alternative material handling equipment is available and operational",
+  "6:00 PM (added AM/PM specifier and explicit time format)",
+  "No other issues or incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely inverts the explicit chronological contradiction in the input (using a tagged-out forklift at 6) by stating the use happened before the tag-out, and it invents multiple causes, statuses, and pending action items. While it captures all stated facts and is formatted clearly, it hallucinates operational details and completely fails to flag the safety/timeline contradiction present in the supervisor notes."
+}

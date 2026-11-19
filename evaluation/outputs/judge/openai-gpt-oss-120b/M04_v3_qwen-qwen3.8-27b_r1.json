@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production on this unit is stopped",
+  "Before 2:10 (Lockout initiated at 2:10)",
+  "Status: Ongoing — Awaiting Safety/Maintenance assessment and repair",
+  "Severity: HIGH — Potential impact on air pressure stability for pneumatic equipment across the plant",
+  "Status: Ongoing (compressor)",
+  "Severity: MEDIUM — Preventive maintenance required to ensure quality and prevent further wear before next shift",
+  "Status: Pending — Tip change required before next shift",
+  "Verify completion of safety inspection and interlock repair before releasing lockout. Do not operate until cleared by Safety.",
+  "Investigate cause of compressor short-cycling to prevent pressure drops.",
+  "Perform welding tip replacement prior to start of next shift.",
+  "Safety Incident: A critical safety near-miss occurred on M-03. Ensure all operators are briefed on the incident and the importance of interlock integrity.",
+  "No other staffing or production issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three issues from the supervisor input, so completeness is high. However, it adds many details not present in the input, lowering accuracy to the lowest level. Severity assignments for the compressor and welding robot are higher than any acceptable severity in the answer key, resulting in a moderate severity score. The layout is clear and well‑structured, giving a top readability rating. While some unknown fields are marked as \"Not specified,\" the report fails to flag several missing items and instead fabricates information, yielding a middling uncertainty score."
+}

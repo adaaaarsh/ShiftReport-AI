@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night shift inferred from 9:12 PM timestamp",
+  "Status: Ongoing (Operational, but pending maintenance inspection)",
+  "Coordinate with Maintenance for the inspection of the M-12 Compressor Unit overload relay scheduled for tomorrow morning",
+  "Monitor air pressure stability on Line A during the start of the next shift to ensure no recurrence of the trip",
+  "Production on Line A was temporarily impacted between 9:12 PM and 9:20 PM due to the loss of air pressure",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct equipment ID. However, it invents a shift letter and adds multiple unrequested recommendations, status interpretations, and operational assumptions. Severity classification is defensible and readability is high, but it fails to surface the unknown status of parts in cycle."
+}

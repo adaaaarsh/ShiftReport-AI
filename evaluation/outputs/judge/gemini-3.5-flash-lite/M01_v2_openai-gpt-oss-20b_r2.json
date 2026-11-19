@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate corrective action taken for M-04",
+  "Monitor cycle time and investigate cause",
+  "Monitor temperature and adjust as needed",
+  "Procure and install the missing lathe insert",
+  "Check HVAC airflow and temperature; adjust settings or schedule maintenance if required",
+  "No safety hazards reported",
+  "rework will delay throughput"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machines accurately, but invents several future actions, monitoring steps, and status assumptions that were not present in the supervisor notes. Severities are defensible and readability is high, but it completely fails to surface uncertainty or missing details, instead filling them in with fabricated actions."
+}

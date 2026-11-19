@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on air supply stability for dependent equipment",
+  "Scheduled for pre-shift maintenance",
+  "Verify Safety and Maintenance have completed inspection of the guard interlock failure",
+  "Do NOT restart until Safety clearance is documented",
+  "Monitor compressor cycling; check pressure settings and valve function if short-cycling persists",
+  "incident must be logged in the safety register",
+  "No other staffing or production stoppages reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it contains numerous fabrications in the form of suggested actions, justifications for severity, and general notes not found in the input. It also fails to flag any missing information or ambiguities, presenting the report as complete."
+}

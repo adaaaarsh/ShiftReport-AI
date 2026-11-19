@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Specific timeline breakdown (15:10, 15:20, 15:30 - 15:45)",
+  "No outstanding rejected parts remain",
+  "Production flow resumed without further interruption",
+  "Monitor the scanner for the next 2-3 hours to confirm stability",
+  "Log the recalibration event in the equipment maintenance record",
+  "Review the master part calibration schedule and consider a brief refresher",
+  "Report any recurrence immediately to maintenance and quality control",
+  "No safety incidents were associated with this event",
+  "All affected parts have been re-inspected and cleared for downstream processing"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all details from the supervisor input accurately in terms of the issue itself, but invents an extensive timeline, specific follow-up actions, operational statuses, and procedural recommendations not present in the input. It fails to flag the missing cause of the calibration drift, presenting the event as completely resolved without uncertainty handling. Despite its clean structure and scannability, the volume of fabricated details heavily penalizes its accuracy."
+}

@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pending item: Monitor M-07 for any recurrence of error codes or instability",
+  "Pending item: Verify quality of products processed in M-10 during the 450°C spike to ensure no defects",
+  "Statement that no staffing or safety incidents were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies both machines and captures all factual details, earning full marks for completeness, severity classification, and readability. However, it introduces several fabricated elements such as pending monitoring actions and a claim of no safety incidents, lowering accuracy to the lowest tier. It also fails to flag missing information or ambiguities from the supervisor input, resulting in poor uncertainty handling."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "verified normal operation",
+  "Monitored temperature",
+  "Monitor M-07 (CNC Milling Machine) for any recurrence of error codes or instability",
+  "Verify M-10 (Industrial Oven) temperature stability and check calibration if the spike was unexpected",
+  "No safety hazards or critical stoppages reported",
+  "Staffing levels appear normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it fabricates several details (shift, specific actions, and pending items) and completely ignores the contradictions in the supervisor's input (e.g., 'running fine' vs 'restarted twice')."
+}

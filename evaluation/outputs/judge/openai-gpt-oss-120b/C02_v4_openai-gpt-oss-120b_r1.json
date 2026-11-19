@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional equipment issues reported.",
+  "No safety incidents or staffing concerns mentioned."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all four factual elements from the supervisor input and flags the missing timing, earning high completeness and uncertainty scores. However, it adds two unfounded statements about no additional issues and no safety incidents, reducing accuracy to moderate. The severity is labeled CRITICAL, which exceeds the acceptable range (HIGH/MEDIUM/UNKNOWN), resulting in a moderate severity score. Overall readability is excellent."
+}

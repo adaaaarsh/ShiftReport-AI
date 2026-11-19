@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-12 — Compressor Unit",
+  "Potential power fluctuation or compressor startup event; risk of future disruption if unresolved",
+  "Check Utilities Log",
+  "Inspect M-12",
+  "Monitor Stability",
+  "No specific machine failures reported on production lines (A, B, or C)",
+  "Recommend Facilities/Utilities team review the event to prevent potential future downtime"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-12) when the input was ambiguous, and fabricated numerous actions, monitoring steps, and recommendations not present in the input. It failed to flag the ambiguity of the utility event, presenting a guess as a fact. Severity was assigned as Medium without supporting evidence in the input."
+}

@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Start of shift (approximately 07:00)",
+  "Monitored flow; no immediate corrective action required.",
+  "Status: Ongoing — Continue to observe for any change.",
+  "Status: Resolved — Machine running without further issues.",
+  "Time Noticed: Not specified (overnight period)",
+  "Status: Ongoing — Will need full staffing to return to normal speed.",
+  "Monitor M-11 for any escalation of the whining noise; investigate if it worsens.",
+  "Verify that M-01 continues to run without further spindle overloads; check spindle load parameters.",
+  "Arrange additional operator coverage for M-08 to restore full-speed operation.",
+  "No safety incidents reported.",
+  "Staffing shortage noted on Line B; consider cross‑training or backup personnel."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report includes all three issues and uses correct machine IDs, but it adds many details not present in the supervisor input, such as specific times, monitoring actions, and safety statements, resulting in a very low accuracy score. Completeness is high because no reported issue is omitted. Severity choices align with the allowed ranges and the layout is clear, giving high readability and severity scores. However, the report fails to flag any of the missing actions identified in the answer key, so uncertainty handling is poor."
+}

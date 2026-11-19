@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Conducted a full visual and functional check of the new pump",
+  "Updated maintenance log with bearing failure details and noted the recurrence",
+  "Confirmed all safety interlocks and emergency shutdown procedures are operational",
+  "Initiate a detailed investigation into the bearing failure (e.g., lubrication, misalignment, load, contamination)",
+  "Contact the pump manufacturer for guidance on bearing selection and potential design modifications",
+  "Schedule a preventive maintenance check for the pump bearings at the next maintenance window",
+  "Install vibration or temperature sensors on the pump to detect early signs of bearing wear",
+  "Brief operators on proper pump handling and bearing inspection procedures",
+  "Awaiting response from the supplier regarding bearing specifications",
+  "Pending approval for sensor installation and preventive maintenance schedule"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts about the coolant pump on line C but invents extensive actions, recommendations, and administrative pending items that are completely absent from the supervisor's brief notes. It completely misses the contradiction noted in the key regarding the brand-new pump versus original bearings failing again, instead presenting the situation as completely standard and actionable. The high volume of completely fabricated operational and maintenance details makes the accuracy score very low."
+}

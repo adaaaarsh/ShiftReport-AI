@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity description \"Minor injury, no production impact\"",
+  "Status: Resolved",
+  "No pending items related to this incident."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures all factual details from the supervisor input and uses the right machine ID, giving it a high completeness score. However, it adds invented elements such as a severity description, a resolved status, and a statement of no pending items, lowering accuracy and uncertainty handling. The assigned LOW severity is not supported by the input or answer key, resulting in a moderate severity score. Overall readability remains excellent."
+}

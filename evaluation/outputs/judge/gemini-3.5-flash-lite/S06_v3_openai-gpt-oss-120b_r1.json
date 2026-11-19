@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impact was limited and quickly corrected",
+  "Status: Resolved",
+  "No pending items reported",
+  "No safety incidents or staffing issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID, but it invents extra commentary such as status updates, production impact claims, and general notes not present in the input. Completeness, severity, and readability are all strong, but uncertainty handling is limited since it does not flag the missing cause of the calibration drift."
+}

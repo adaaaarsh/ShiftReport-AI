@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "Operator kept the machine running while monitoring",
+  "Machine still in operation; no maintenance performed yet",
+  "Verify spindle condition on M-01 and arrange maintenance inspection if needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and handles severity and uncertainty very well. However, it invents several operational details such as monitoring actions and verification steps not present in the notes, and treats a distractor (parking lot lights) as an equipment issue. This leads to an accuracy score of 3 while maintaining high marks in other categories."
+}

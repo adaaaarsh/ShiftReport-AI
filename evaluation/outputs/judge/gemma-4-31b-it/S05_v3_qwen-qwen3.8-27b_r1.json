@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Monitor air pressure stability on Line A to ensure no recurrence of the trip",
+  "Production on Line A was halted for approximately 8 minutes (9:12 PM – 9:20 PM)",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details (shift, monitoring steps, production halt duration, and safety claims) and fails to flag the missing information regarding scrapped parts."
+}

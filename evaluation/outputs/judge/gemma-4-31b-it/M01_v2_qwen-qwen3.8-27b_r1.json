@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Day Shift",
+  "M-02 Status: Ongoing (Awaiting parts)",
+  "M-04 Status: Ongoing",
+  "M-14 Status: Ongoing",
+  "Pending item for M-02: replace tooling and verify finish tolerance on test parts before resuming full production",
+  "Pending item for M-02: escalate to procurement or check for alternative tooling options",
+  "Pending item for M-04: Check for material flow issues, temperature settings, or mechanical wear",
+  "Pending item for M-14: Report east bay heating issue to facilities/maintenance team",
+  "General Note: Production on Line A is impacted by the M-02 downtime/rework and M-04 efficiency loss",
+  "General Note: monitor for any safety or productivity impacts due to heat"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but fabricates numerous details in the 'Pending Items' and 'General Notes' sections, as well as the shift name. It fails to flag any missing information or ambiguities, presenting the situation as fully understood."
+}

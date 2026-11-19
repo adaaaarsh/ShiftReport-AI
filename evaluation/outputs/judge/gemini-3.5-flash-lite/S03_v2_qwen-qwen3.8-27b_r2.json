@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Weekly preventive maintenance completed",
+  "Time Noticed: 06:00",
+  "Status: Resolved",
+  "Monitor fuel levels; current level is at 80%. Refill if it drops below 50% or per standard operating procedure.",
+  "Backup generator is fully operational and ready for emergency use.",
+  "No other equipment issues reported during this shift update."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the backup generator as M-13 with appropriate severity. However, it invents several operational details, actions, and status updates not present in the brief supervisor input. The structure and readability are exceptionally clear."
+}

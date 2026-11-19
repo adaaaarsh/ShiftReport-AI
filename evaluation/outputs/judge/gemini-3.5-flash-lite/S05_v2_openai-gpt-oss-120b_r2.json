@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported.",
+  "Production resumed normally after the compressor reset."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all details and maps M-12 properly, but includes fabricated general notes regarding safety incidents and normal production resumption that were not stated in the input. Severity and readability are excellent, while uncertainty handling misses pointing out the unstated scrap or damaged parts."
+}

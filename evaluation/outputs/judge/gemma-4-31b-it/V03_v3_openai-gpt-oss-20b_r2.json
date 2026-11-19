@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-15 — Forklift #1",
+  "Minor operational concern, no immediate production impact reported",
+  "Status: Ongoing — Issue remains unresolved",
+  "Verify that no safety hazards have arisen from the forklift’s current condition",
+  "No other issues reported; overall shift operations were largely smooth"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific forklift (M-15) instead of flagging the ambiguity. It fabricated several details regarding the impact, status, and safety checks, and claimed no other issues existed despite the supervisor mentioning 'some issues earlier'. Severity was assigned without evidence."
+}

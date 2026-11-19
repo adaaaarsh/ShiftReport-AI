@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production impact minimal",
+  "over-temperature could risk product quality and safety if not addressed",
+  "inspect M-10 for any potential damage or calibration issues after the temperature spike"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all issues from the supervisor notes and is very readable, but it invents several details regarding potential risks, production impact, and recommended inspection actions not supported by the input. Severities are defensible despite being slightly overly confident on the impacts. Uncertainty is handled fairly well through clarifications needed sections."
+}

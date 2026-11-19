@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Insert Type X, Size Y",
+  "Verify tooling replacement procedure and re-calibrate lathe",
+  "Track rework parts and confirm dimensional compliance before re-introduction",
+  "No immediate corrective action taken; monitoring ongoing",
+  "Review machine logs for any abnormal spindle or motor behavior",
+  "Check material feed and temperature settings",
+  "If trend continues, schedule preventive maintenance",
+  "Noted issue; no immediate fix",
+  "Inspect HVAC airflow and temperature setpoints",
+  "Verify filter status and duct integrity",
+  "Coordinate with facilities to adjust cooling output or relocate affected workers if necessary"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete in terms of capturing the input, but it fabricates a massive amount of specific technical follow-up actions and specifications (e.g., 'Insert Type X', 'spindle behavior') not found in the notes. It fails to use the provided registry IDs and provides no severity classifications. It presents the fabricated follow-up steps as factual requirements rather than flagging the missing information."
+}

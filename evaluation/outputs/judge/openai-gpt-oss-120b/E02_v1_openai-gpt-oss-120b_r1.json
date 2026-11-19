@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Press (Line A/B – see Tuesday) equipment description",
+  "intermittent stop/start, abnormal noise, and cycle time increase",
+  "Reduced output by ~15% on the affected line",
+  "Paint Booth – Line D",
+  "System Fault – Power Supply",
+  "Verified main breaker – OK",
+  "Checked emergency stop – engaged; reset and released",
+  "Inspected fuse – blown, replaced with spare",
+  "Booth still non‑functional; fault persists on restart",
+  "temporary re‑routing of painted parts to Line C’s booth",
+  "Drive Coupling Kit – Part #DC‑4521",
+  "30 A, 250 V fuse spec",
+  "Mechanical Maintenance (Ext. 212)",
+  "Electrical Maintenance",
+  "Production schedule update",
+  "Logistics and Customer Service communication",
+  "weekly vibration analysis recommendation",
+  "secondary power‑monitoring relay recommendation",
+  "Equipment Reliability Log documentation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 3,
+ "rationale": "The report captures both issues from the supervisor input, so completeness is high. However, it adds numerous invented details and equipment not mentioned, resulting in very low accuracy and undefined severity classifications. Readability is acceptable due to clear headings, but uncertainty handling is only partial, as some unknowns are flagged while others (e.g., unregistered equipment ID) are not."
+}

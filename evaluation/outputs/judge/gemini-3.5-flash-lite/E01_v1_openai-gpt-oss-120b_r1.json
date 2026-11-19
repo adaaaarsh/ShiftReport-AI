@@ -1,0 +1,72 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Operator restarted the machine and monitored output",
+  "Adjusted feed control panel",
+  "MX system (machine controller) pinged no-show - the device failed to respond to its heartbeat check",
+  "MX was logged as a non-responsive alarm",
+  "MX to be inspected and calibrated during the day shift",
+  "Pump was left running to maintain pressure",
+  "A temporary containment patch was applied",
+  "Schedule LOTO and repair before the next production run",
+  "Light was turned off and the area was marked as a low-visibility zone",
+  "Replace headlight bulb/fixture during the next maintenance window",
+  "Area was cleared, and a verbal safety reminder was given to personnel in the vicinity",
+  "Conduct a brief safety toolbox talk on aisle traffic and reinforce proper pallet-handling procedures",
+  "Added coolant to bring level within operational range",
+  "Verify coolant level at the start of the next shift and check for any leaks in the supply line",
+  "Incident #2026-11-05-NM-03",
+  "No injury occurred",
+  "All personnel were observed wearing required PPE",
+  "Remind staff to maintain clear sightlines when headlight fixtures are out of service",
+  "Perform diagnostic and calibration; replace any faulty modules",
+  "Verify pump pressure after repair",
+  "Replace the failed headlight and test illumination",
+  "Conduct a leak check on the supply line and re-verify coolant level after the first production run",
+  "Brief all floor staff on aisle traffic safety and proper LOTO practices",
+  "Monitor product quality and throughput; consider a gradual increase if no further issues arise",
+  "Add MX controller and hydraulic pump to the upcoming preventive-maintenance schedule",
+  "Perform a quick audit of all line headlamps to ensure no other fixtures are approaching failure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input, making completeness high, and is well-structured for readability. However, it completely hallucinates a massive amount of actions taken, causes, and maintenance steps, and turns the supervisor's 'mx pinged no show' note into a distinct equipment issue (distractor). Accuracy and uncertainty handling are severely impacted due to treating vague or minimal input as fully detailed operational procedures."
+}

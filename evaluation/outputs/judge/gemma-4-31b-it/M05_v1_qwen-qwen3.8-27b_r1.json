@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Repair in progress/awaiting parts",
+  "Monitor closely for further heat loss",
+  "Verify current fuel levels and arrange for an emergency refill if necessary",
+  "Monitor oven temperature closely",
+  "consider pausing production on Line C until the seal is repaired",
+  "Check generator fuel gauge immediately",
+  "contact vendor for emergency delivery",
+  "Review the 3 rejected batches from Line C to determine if any salvage is possible or if they need to be scrapped"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts correctly but fabricates numerous actions and statuses (e.g., 'Repair in progress', 'contact vendor') not found in the input. It fails to flag any missing information or ambiguity, presenting the fabricated actions as necessary steps. Readability is excellent."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Start of shift time approximately 07:00",
+  "Monitored flow; no immediate corrective action required",
+  "Overall production remained on schedule despite the staffing shortfall on Line B",
+  "No safety hazards were observed during the shift",
+  "All machines, aside from the noted coolant pump noise, performed within acceptable parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and maps them to the correct machine IDs with appropriate severity assignments and high readability. However, it invents several specific details not supported by the input, including an estimated start time of 07:00, monitoring steps, and generalized assertions about production schedules and safety hazards."
+}

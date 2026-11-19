@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "2:00 PM",
+  "4:00 PM",
+  "leak in line",
+  "faulty regulator",
+  "tool-specific issue",
+  "maintenance been notified"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the contradiction between the compressor and the tools. It flags the 'air tools' as unrecognized equipment. However, it fabricates specific units (PSI) and assumes the times '2 to 4' refer to PM, and suggests specific root causes (regulator, etc.) not in the input."
+}

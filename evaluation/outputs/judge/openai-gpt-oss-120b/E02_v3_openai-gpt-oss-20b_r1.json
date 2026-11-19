@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity: MEDIUM — Persistent issue, potential for escalation if not resolved.",
+  "Status: Ongoing (Hydraulic Press)",
+  "Severity: CRITICAL — Production halted for Line D; safety and quality concerns.",
+  "Status: Ongoing (Paint Booth)",
+  "No additional staffing or safety incidents reported."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures both issues from the supervisor input, so completeness is high (5). However, it adds invented details such as severity levels, status statements, and safety notes that were not in the input, lowering accuracy to 2 and reducing uncertainty handling to 2. The severity for the press issue is not supported by the input, giving a moderate severity score of 3. The layout is clear and well‑structured, earning readability 5."
+}

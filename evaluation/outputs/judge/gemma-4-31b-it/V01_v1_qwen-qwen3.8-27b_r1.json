@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate inspection recommended to identify source of noise (e.g., bearing wear, loose components, or mechanical stress)",
+  "Conduct a detailed visual inspection of all valves, joints, and piping connections in Zone A to locate the exact point of leakage",
+  "Prioritize a thorough diagnostic check on Unit B to prevent potential mechanical failure",
+  "Perform a systematic leak-tracing procedure in Zone A",
+  "If the leak is significant, consider isolating the affected section for repair",
+  "Monitor both areas closely during the next shift for any worsening conditions",
+  "Ensure appropriate PPE is worn when inspecting for leaks (chemical/thermal hazards depending on fluid type)",
+  "Do not operate Unit B under load if the noise indicates imminent failure; consult with maintenance before restarting if shutdown is required"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures both issues and correctly identifies them as ambiguous. However, it fabricates a significant amount of technical advice, specific inspection steps, and safety warnings not present in the input. Severity is handled reasonably as no specific level was assigned."
+}

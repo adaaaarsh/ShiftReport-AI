@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No corrective action taken during this shift; issue was logged verbally",
+  "Perform a detailed inspection and root-cause analysis of the recurring problem",
+  "Implement corrective maintenance or arrange for specialist support as needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the machine on Line C and captures the recurring nature of the issue. However, it fabricates specific actions taken (logged verbally) and specific pending tasks (root-cause analysis, specialist support) not found in the input. Severity was assigned as Medium without evidence, which is a guess."
+}

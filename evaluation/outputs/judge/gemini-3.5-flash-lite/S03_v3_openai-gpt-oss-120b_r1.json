@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine maintenance, no impact on production",
+  "Time Noticed: 06:00 AM",
+  "Action Taken: Completed scheduled test; fuel level recorded",
+  "Status: Resolved",
+  "All systems operating normally; no safety or production concerns noted."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and uses the correct machine ID and a defensible severity. However, it invents extra statuses, actions, and general statements that were not mentioned in the supervisor's input, leading to an accuracy score of 3."
+}

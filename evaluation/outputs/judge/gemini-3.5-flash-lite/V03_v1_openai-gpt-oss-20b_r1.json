@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Completed routine inventory checks and restocked all designated areas.",
+  "Assisted in the loading and unloading of incoming shipments, ensuring all items were logged accurately in the warehouse management system.",
+  "Conducted safety walk‑throughs, identifying and addressing minor hazards promptly.",
+  "Forklift #3 (Model X-200)",
+  "Experienced intermittent operational issues during the morning shift.",
+  "Symptoms included irregular idling, delayed gear shifts, and a faint warning light on the dashboard.",
+  "After troubleshooting, the forklift was temporarily stabilized, but the underlying problem remains unresolved.",
+  "Performed a basic diagnostic check on Forklift #3, clearing any minor software glitches.",
+  "Adjusted the hydraulic system pressure to optimal levels.",
+  "Logged the incident in the equipment maintenance log and notified the maintenance team for a full inspection.",
+  "Forklift #1 (X-100) Operational No issues reported.",
+  "Forklift #2 (X-150) Operational No issues reported.",
+  "Pallet Jack #5 Operational No issues reported.",
+  "All safety protocols were followed; no incidents or near‑misses were recorded.",
+  "The forklift incident was reported to the safety officer and logged in the incident register.",
+  "PPE compliance: 100% of staff wore required PPE during the shift.",
+  "Schedule a comprehensive inspection by the maintenance team within the next 24 hours.",
+  "Consider a temporary replacement or use of alternative forklifts until the issue is resolved.",
+  "Verify the counts of high‑value items that were moved during the shift to ensure no discrepancies.",
+  "Brief the incoming shift on the forklift issue and any temporary workarounds in place."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report wildly hallucinates a massive amount of detail (inventing inventories, safety walkthroughs, Forklift #3 with model X-200, various specific symptoms, and entirely fabricated equipment statuses) from a two-sentence input. It misses the core requirement to keep the forklift issue ambiguous, instead wrongly inventing a non-existent forklift ID. Consequently, accuracy and uncertainty handling receive the lowest possible scores."
+}

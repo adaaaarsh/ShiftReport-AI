@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "2 PM",
+  "4 PM",
+  "psi",
+  "Production on Line A may be affected by reduced air pressure",
+  "Ongoing — Air pressure issue persists",
+  "no corrective action taken yet",
+  "Investigate and resolve the air pressure drop affecting Line A air tools",
+  "Verify compressor output remains steady and confirm no hidden issues",
+  "No other machine issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts but fabricates several details including specific times (PM), units (psi), and status/pending items not in the input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Severity is reasonable."
+}

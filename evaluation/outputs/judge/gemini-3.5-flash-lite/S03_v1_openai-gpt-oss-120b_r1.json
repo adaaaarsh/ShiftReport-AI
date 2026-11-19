@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Model XYZ-200",
+  "approx. 75 % of rated capacity",
+  "approximately 4,800 L of a 6,000 L tank",
+  "Schedule routine fuel top-up during the next planned maintenance window",
+  "Log #G-2026-011",
+  "Weekly test scheduled for 2026-11-12 at 06:00 hrs",
+  "Continue daily fuel level checks; alert if level drops below 70 %",
+  "No alarms, fault codes, or abnormal noises were detected during the test",
+  "All safety interlocks functioned correctly",
+  "The generator automatically returned to standby after the load test without manual intervention"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "While the report captures all facts and correctly identifies the backup generator (M-13), it suffers from an overwhelming amount of severe fabrications including invented models, capacities, logs, schedules, and operational details that were never stated in the input. Consequently, accuracy is rated 1 due to multiple invented details. Completeness, severity, readability, and uncertainty scores are high regarding how the actual input facts are carried forward and structured, but the severe inflation of unauthorized details drags down overall reliability."
+}

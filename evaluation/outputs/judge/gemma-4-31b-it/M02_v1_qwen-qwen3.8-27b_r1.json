@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Current Status: Operational for Conveyor B",
+  "Note: Monitor for recurrence of slippage",
+  "Current Status: Operational for Oven C",
+  "Note: Monitor temperature stability",
+  "Current Status: Charging for Forklift 1",
+  "Note: Verify charge level before next use",
+  "Production impact was minimal due to timely corrective actions on Conveyor B",
+  "No safety incidents reported",
+  "Monitor Conveyor B closely for any further signs of belt slippage",
+  "Check Forklift 1 battery status before deployment",
+  "Keep an eye on Oven C temperature readings to ensure the self-clearing alarm does not recur"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs, instead using descriptive names. It fabricates numerous operational notes, status updates, and recommendations not found in the input. Severities are entirely missing, and no uncertainty regarding missing information is flagged."
+}

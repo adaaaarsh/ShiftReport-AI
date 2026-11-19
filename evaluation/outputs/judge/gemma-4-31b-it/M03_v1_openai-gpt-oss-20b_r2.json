@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored; no immediate corrective action required",
+  "Operational – noise noted for maintenance follow‑up",
+  "3:20 PM",
+  "Operated at 50 % capacity overnight to maintain throughput",
+  "Functioning at reduced speed; output below target",
+  "Line A: Completed all scheduled jobs with no downtime after the spindle overload was cleared",
+  "Line B: Maintained continuous operation at half speed; total output was 35 % of planned volume",
+  "Line C: No production impact from the coolant pump issue; however, the noise may indicate impending wear",
+  "Flagged for inspection by maintenance team tomorrow",
+  "No safety incidents",
+  "No additional maintenance required; spindle overload resolved",
+  "No safety concerns; operator worked within safe limits at reduced speed",
+  "Shift supervisor and remaining staff handled the workload; no additional hires were needed",
+  "Schedule a detailed check to confirm the source of the whining and prevent potential failure",
+  "Review CNC mill spindle load data to determine if the overload was an isolated event or indicative of a trend",
+  "Consider contingency staffing plans for critical lines (e.g., Line B) to mitigate output loss during unexpected absences",
+  "Record the coolant pump noise in the equipment log and update the preventive maintenance schedule"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific outcomes (35% volume), actions (flagged for tomorrow), and safety claims not present in the input. It fails to use the provided registry IDs and does not assign any severity levels. While readable and complete in terms of capturing the base issues, the level of hallucination is extreme."
+}

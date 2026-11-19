@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted for ~35 minutes (derived, but exact phrasing and duration calculation not stated)",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "No safety incidents or staffing concerns noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-06 and captures all key facts and severities accurately. However, it includes minor fabricated details such as explicitly stating 'Status: Resolved' and adding a general notes section claiming no safety incidents or staffing concerns were noted, which were not in the input."
+}

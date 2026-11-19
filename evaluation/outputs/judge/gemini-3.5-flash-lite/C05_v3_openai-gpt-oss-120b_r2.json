@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No impact on machine operation or production",
+  "Status: Resolved",
+  "No pending equipment issues",
+  "Monitor the welding robot area for any repeat safety concerns",
+  "All machines continued operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the welding robot and details of the burn, but invents several status details and assumptions such as 'no impact on machine operation' and 'Resolved'. It completely misses the contradiction between 'no safety incidents' and 'minor burn', and assigns a LOW severity to an injury without sufficient supporting evidence. Readability is high, but uncertainty handling is poor as it glosses over contradictions and gaps."
+}

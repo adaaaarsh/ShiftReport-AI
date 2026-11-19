@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production impact minimal",
+  "Resolved",
+  "None",
+  "No additional incidents or observations reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the packaging unit jam and correctly identifies M-08 from the registry, but includes minor invented details such as 'production impact minimal', status labels like 'Resolved', and general commentary not in the input. All input facts are fully captured and severities are well-reasoned. The formatting is clean, scannable, and structured."
+}

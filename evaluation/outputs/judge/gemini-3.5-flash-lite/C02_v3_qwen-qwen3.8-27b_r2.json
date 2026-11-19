@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down, production stopped",
+  "Monitor arrival of replacement parts for M-03 (Line A)",
+  "Coordinate with maintenance to repair the leak and restart M-03 once parts arrive",
+  "Verify machine functionality after repair before resuming production",
+  "No other issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies M-03 and captures all the facts from the input, but it fabricates multiple action steps, monitoring tasks, and safety incident claims not stated in the input. The severity is upgraded to CRITICAL with extensive added justification, and the report fails to address the contradiction between the shutdown and running 400 pieces, instead silently reconciling it."
+}

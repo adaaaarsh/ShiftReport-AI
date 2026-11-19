@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon (Inferred from 4:15 PM timestamp)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the machine and captures all facts from the input, but it hallucinates the shift as 'Afternoon' based on the timestamp. The severity is assigned as HIGH despite the input describing a minor jam that was quickly resolved with no part damage, making the severity rating indefensible and too high. Readability and completeness are excellent with clear formatting."
+}

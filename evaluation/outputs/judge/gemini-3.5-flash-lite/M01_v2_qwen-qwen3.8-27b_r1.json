@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift (Inferred from 1 PM timestamp)",
+  "Status: Ongoing (Awaiting parts) for M-02",
+  "Status: Ongoing for M-04 and M-14",
+  "Action Taken: None recorded listed explicitly as an action taken field",
+  "Pending items action items and general notes recommendations such as checking inventory, investigating cycle time, reporting to facilities, and monitoring productivity/safety impacts"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and facts accurately with correct equipment mappings, but invents a shift letter based on the timestamp and generates various extrapolated action items, statuses, and recommendations not in the input. Severities are well-defended, formatting is clean and scannable, and missing information is thoroughly outlined in the pending items."
+}

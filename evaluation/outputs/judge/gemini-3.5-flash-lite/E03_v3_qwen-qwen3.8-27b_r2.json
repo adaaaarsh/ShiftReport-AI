@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Parking lot lights are out assigned to M-14 HVAC System",
+  "Inspect M-01 spindle immediately and consider shutting down",
+  "Report parking lot lighting failure to facilities/maintenance team"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the input and is well-structured, but it incorrectly maps the parking lot lights distractor to a specific registry equipment ID (M-14 HVAC System) and fabricates maintenance recommendations that were not in the supervisor's notes."
+}

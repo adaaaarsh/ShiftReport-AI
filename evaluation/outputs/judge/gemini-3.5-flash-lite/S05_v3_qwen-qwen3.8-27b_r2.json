@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from 9:12 PM timestamp)",
+  "Severity description: safety/operational hazard due to loss of compressed air",
+  "Status description: Ongoing - Immediate function restored, but root cause (overload relay) requires inspection",
+  "Monitor air pressure stability during the first hour of the shift to ensure no recurrence of the trip",
+  "Production on Line A was halted for approximately 8 minutes (9:12 PM - 9:20 PM) due to the compressor failure",
+  "No other equipment issues or safety incidents reported during this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input accurately in terms of event timelines, but it invents several details including the shift letter, safety hazard claims, and specific monitoring instructions not present in the notes. The severity is graded as Critical which is slightly overinflated given the brief 8-minute downtime and quick recovery. Completeness is high as all details are carried over, but the fabricated claims lower accuracy and uncertainty handling."
+}

@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Before 2:10",
+  "Status: Ongoing - Awaiting maintenance/safety inspection",
+  "Severity description: Potential impact on air pressure stability for dependent equipment",
+  "Severity description: no immediate production stoppage mentioned",
+  "Action Taken: Preparation for next shift",
+  "Clarifications Needed: Are replacement tips in stock? Has the part been ordered if not?",
+  "Do NOT restart until Safety and Maintenance have cleared the interlock failure. Verify guard interlock functionality before resuming operations.",
+  "Monitor air pressure and cycling frequency. If short-cycling persists, escalate to maintenance to prevent pressure drops.",
+  "Perform welding tip change prior to starting Line B production.",
+  "No other staffing or general floor issues reported."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and items completely and structures them very clearly, but it heavily fabricates details, actions, and clarifying questions that were not mentioned in the brief input. Severities are well-defended, and uncertainty/missing items are aggressively flagged. Due to the numerous invented statuses, recommendations, and action explanations, accuracy suffers significantly."
+}

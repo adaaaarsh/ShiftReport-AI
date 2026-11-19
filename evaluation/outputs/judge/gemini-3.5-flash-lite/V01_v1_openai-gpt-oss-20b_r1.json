@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift time 08:00 – 16:00",
+  "Likely mechanical vibration or bearing issue",
+  "Logged incident in the maintenance log",
+  "No immediate shutdown performed due to ongoing production",
+  "Schedule a detailed inspection and preventive maintenance tomorrow",
+  "Consider a temporary shutdown if noise level increases",
+  "Facility - Leak",
+  "No visible damage or safety hazard observed",
+  "Conduct a leak source investigation tomorrow",
+  "Check piping, valves, and seals in the vicinity",
+  "No safety incidents or near-misses reported",
+  "All PPE usage observed to be compliant",
+  "No hazardous material spills or exposures",
+  "Production remained on schedule; no downtime recorded",
+  "The noisy machine did not affect output quality or throughput at this time",
+  "Assign maintenance team to perform a full diagnostic (vibration analysis, bearing check, lubrication status)",
+  "Conduct a systematic leak check: visual inspection, pressure testing, and review of recent maintenance records",
+  "Update the equipment maintenance log with findings and any corrective actions taken",
+  "Remind staff to report any abnormal sounds or leaks immediately",
+  "The noise from Machine B was intermittent but noticeable; could indicate an impending failure if not addressed",
+  "The leak near Area A was small but persistent; early detection will prevent potential water damage or safety hazards"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates extensive details, actions, causes, safety compliance claims, and schedules that were never in the supervisor's input. It completely fails to handle ambiguity properly by treating vague references as specific equipment problems and inventing fake severities while omitting uncertainty."
+}

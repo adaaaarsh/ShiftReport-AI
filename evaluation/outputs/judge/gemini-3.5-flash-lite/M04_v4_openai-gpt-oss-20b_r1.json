@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 2:10 PM for M-03 (input only states lockout time was 2:10)",
+  "Status: Ongoing — Awaiting maintenance response for M-03",
+  "Action Taken: Tip change scheduled for next shift for M-06",
+  "Determine root cause and corrective action for M-12"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and assigns appropriate severities, but it invades several details such as scheduling actions and misinterpreting the 2:10 lockout time as the time noticed. It handles uncertainty well by identifying missing information and flagging unknowns correctly. Readability is strong and structured for quick handover review."
+}

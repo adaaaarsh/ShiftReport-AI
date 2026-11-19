@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Issue reported; QC quarantine of bad batches initiated for M-10",
+  "Status: Ongoing — Seal replacement required for M-10",
+  "Action Taken: Notified logistics; awaiting fuel delivery for M-13",
+  "Status: Pending — Fuel must be delivered and generator refueled for M-13",
+  "Replace the torn door seal on M-10 (Industrial Oven, Line C) and verify oven temperature stability",
+  "Ensure fuel delivery for M-13 (Backup Generator) is completed and the generator is refueled",
+  "Monitor production for any additional under‑cured parts from the oven until the seal is fixed",
+  "QC has already isolated 3 defective batches from the oven issue",
+  "All other equipment operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all actual facts and matches the correct equipment IDs, but it fabricates several actions, statuses, and recommended follow-up steps not mentioned in the input (such as quarantine initiation and fuel reordering). Severities are well-defended, and readability is high. However, uncertainty handling is limited since it treats unresolved missing information as active pending tasks and actions."
+}

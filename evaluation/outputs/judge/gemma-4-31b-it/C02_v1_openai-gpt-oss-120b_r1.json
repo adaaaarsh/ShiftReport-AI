@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted; press taken offline for safety",
+  "Once parts arrive, schedule repair and re-commissioning",
+  "No defects reported during the run",
+  "estimated downtime pending parts arrival",
+  "Confirm expected delivery date with supplier",
+  "Follow up daily until parts are received",
+  "assign maintenance team to perform leak repair",
+  "Perform pressure test and functional verification before returning to production",
+  "Log leak incident in the equipment maintenance system",
+  "Update the preventive-maintenance schedule to include additional checks on hydraulic seals",
+  "Monitor any other presses for similar hydraulic issues",
+  "Keep the production schedule flexible to accommodate the downtime of Press A",
+  "consider reallocating the pending workload to Press B"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry ID (M-03) and instead uses 'Press A'. It fabricates a massive amount of procedural detail, recommendations, and actions not found in the input. It also fails to flag the contradiction between the machine being shut down and having run 400 pieces."
+}

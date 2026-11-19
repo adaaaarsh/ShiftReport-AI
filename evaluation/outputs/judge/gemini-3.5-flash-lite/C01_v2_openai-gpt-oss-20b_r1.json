@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°C unit for oven temperature",
+  "machine remained operational after restarts, no production stoppage",
+  "monitored for stability",
+  "Status: Resolved",
+  "potential quality and safety concern",
+  "monitoring continued",
+  "Status: Ongoing (temperature now normal, but monitoring required)",
+  "Verify that the error code on M-07 does not recur; check logs for root cause",
+  "Continue monitoring M-10 temperature; confirm that it remains within spec limits",
+  "Overall production status is good; no other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents numerous details, actions, statuses, and follow-up items not present in the brief input, yielding low accuracy and uncertainty handling. However, it captures the main equipment events and presents them clearly in a structured format."
+}

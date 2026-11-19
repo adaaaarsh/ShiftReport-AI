@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inspect and repair hydraulic fluid leak",
+  "Check for environmental hazards (slip risk) and clean up any spilled fluid",
+  "Perform re-teaching/calibration as requested",
+  "Verify path accuracy before resuming full production",
+  "Hydraulic leaks can create slip hazards and indicate potential seal failure",
+  "Ensure area is cordoned off if necessary until repaired"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies both issues and flags the registry discrepancies. However, it fabricates several specific actions and safety warnings not present in the input. It guesses M-06 for both issues, which is a specific ID guess rather than just flagging ambiguity."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Notified maintenance",
+  "awaiting repair parts",
+  "Unable to use for any operation until cleared",
+  "Forklift 2 (or other available forklift) used to move pallets",
+  "All pallets were accounted for and staged for outbound loading",
+  "Performed routine safety inspection on the operational forklift",
+  "Maintenance ticket # opened",
+  "Expected turnaround (awaiting parts)",
+  "Recommendation: Keep forklift tagged out and schedule a post-repair inspection",
+  "Verify that the shipped pallets are loaded onto the scheduled carrier",
+  "Confirm any additional pallet movements required later in the shift with the shipping coordinator",
+  "monitor fuel/charge levels",
+  "Keep an eye on the tagged-out forklift area",
+  "Review the shipping manifest",
+  "contact the maintenance department at extension 212"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains massive fabrications, inventing maintenance tickets, safety checks, and specific operational procedures not in the input. It completely ignores the critical contradiction that the supervisor claimed to use the tagged-out forklift (M-15) at 6, instead inventing a second forklift to resolve the logic. It fails to flag any uncertainty or the safety violation implied by the input."
+}

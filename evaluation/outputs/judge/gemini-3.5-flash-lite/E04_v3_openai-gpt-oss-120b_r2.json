@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 22:15 (input says holding 355 since 2215, not noticed at 2215)",
+  "Status: requires re-validation before next shift",
+  "No staffing changes or additional safety incidents reported",
+  "Verify temperature returns to automatic control and setpoint",
+  "Monitor oven temperature closely for any further deviation",
+  "Document the reason for interlock bypass and obtain required approvals"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and assigns the correct severity, but invents several pending items, status requirements, and general notes not present in the brief input. It correctly identifies the equipment ID and captures all details, but extrapolates several operational actions and status items as fabrications."
+}

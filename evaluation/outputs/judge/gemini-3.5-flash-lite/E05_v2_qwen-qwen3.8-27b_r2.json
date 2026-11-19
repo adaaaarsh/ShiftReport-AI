@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Check for environmental hazards (slip risk) and clean up any spilled fluid",
+  "Verify path accuracy before resuming full production",
+  "Hydraulic leaks can create slip hazards and indicate potential seal failure",
+  "Ensure area is cordoned off if necessary until repaired"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all items from the input and surfaces ambiguity well, but incorrectly maps two distinct issues onto the exact same machine (M-06), conflating Machine 17 with the welding robot arm and inventing several safety cleanup and verification actions not stated in the input."
+}

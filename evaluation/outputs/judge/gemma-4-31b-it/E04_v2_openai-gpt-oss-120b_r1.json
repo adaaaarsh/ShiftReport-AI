@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Monitor oven temperature closely and ensure it returns to normal setpoint",
+  "Re‑enable the interlock and verify proper operation before starting the next batch",
+  "Document any further temperature excursions and corrective actions",
+  "No other equipment issues reported during this shift",
+  "All personnel were informed of the temporary interlock bypass and instructed to watch for any alarms"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates several pending items and general notes (e.g., personnel notification) not present in the input. It also fails to flag the missing critical information (interlock restoration status) as unknown, presenting the situation as a managed process."
+}

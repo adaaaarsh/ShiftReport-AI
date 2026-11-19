@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assumed time is 06:00 AM/PM (added clarification not in input)",
+  "Stated that the forklift was used before being tagged out (ordering not in input)",
+  "No safety incidents reported",
+  "Logistics team managed to complete pallet transfer despite the forklift outage",
+  "Pending item: Arrange repair or replacement for M-15 to restore full logistics capability",
+  "Pending item: Verify that an alternative forklift is available for continued pallet movement"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly includes the forklift issue but adds several invented details and assigns an unjustified MEDIUM severity, lowering accuracy. All supervisor‑provided facts are present, so completeness is high. Severity is too low compared to the answer key, yielding a moderate score. The layout is clear and scannable, giving high readability. It fails to flag the missing reasons for the tag‑out or the contradiction, resulting in poor uncertainty handling."
+}

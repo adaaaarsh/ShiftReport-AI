@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift 2 will remain out of service until the tire is replaced and the unit is inspected",
+  "Work Order 4471 Assigned to: Maintenance Team",
+  "Capacity: Using a single forklift may reduce throughput by approximately 15–20%",
+  "Safety: No safety incidents reported",
+  "All operators have been briefed on the temporary equipment limitation",
+  "Back-up Plan: If Forklift 1 requires maintenance or encounters issues, the maintenance team will prioritize a quick repair or replacement of Forklift 2",
+  "Recommendation to monitor Forklift 1 for wear or malfunction",
+  "Recommendation to track Work Order 4471 closely",
+  "Recommendation to schedule a brief safety refresher for operators"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but contains an extensive amount of fabricated operational details, impact assessments, and recommendations not present in the supervisor's notes. It fails to flag the missing repair ETA and instead presents a highly structured but largely invented scenario. Severity was not explicitly assigned, which is acceptable given the input."
+}

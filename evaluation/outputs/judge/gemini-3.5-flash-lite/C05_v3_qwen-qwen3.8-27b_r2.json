@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor M-06 (Line B) area to ensure no further incidents occur",
+  "Verify that the operator is comfortable and not experiencing any delayed symptoms from the burn"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all details from the input and correctly matches the welding robot to M-06, but it assigns a low severity despite a burn injury and completely misses the contradiction between the claim of 'no safety incidents' and the burn. Additionally, it fabricates several actions and pending items not supported by the input, and fails to handle the input contradiction or missing items."
+}

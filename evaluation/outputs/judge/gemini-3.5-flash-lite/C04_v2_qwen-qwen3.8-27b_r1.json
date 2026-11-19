@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Indicating a potential systemic issue with the component or installation",
+  "Inspect M-11 (Coolant Circulation Pump) to assess the extent of the bearing damage and determine if the pump is currently operational or if Line C coolant circulation is compromised",
+  "Incorrect part number installed last week",
+  "Misalignment during installation",
+  "Contamination in the coolant system causing premature wear",
+  "Defective batch of bearings",
+  "Verify if Line C production is affected by the pump status",
+  "If the pump is down, assess if backup cooling methods are available or if production must be paused to prevent thermal damage to other Line C equipment (M-09, M-10)",
+  "Contact maintenance to schedule immediate repair or replacement of the bearings/pump unit",
+  "Recommend a formal engineering review to address the root cause rather than continuing with reactive repairs",
+  "Verify stock levels for replacement bearings or pump units to ensure quick resolution"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "While the report captures the core issue, maps to the correct registry ID, and outlines appropriate pending items, it vastly hallucinates an extensive list of speculative root causes, potential impacts, and action items that were never stated in the minimal supervisor input. This results in a low accuracy score due to the volume of fabricated details, despite otherwise strong structuring and issue handling."
+}

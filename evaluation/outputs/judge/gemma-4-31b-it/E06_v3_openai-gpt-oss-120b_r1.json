@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "detected at the base of the press",
+  "3:00 PM",
+  "production impact currently low",
+  "Status: Ongoing — Awaiting maintenance completion",
+  "Verify that maintenance has repaired the oil leak on M-03 (Line A) and confirm no further leakage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all key facts and correctly identifies the machine. However, it fabricates several details (location of leak, specific time of day, production impact, and a pending action) not found in the input. It also fails to flag the missing information regarding whether the press is still running."
+}

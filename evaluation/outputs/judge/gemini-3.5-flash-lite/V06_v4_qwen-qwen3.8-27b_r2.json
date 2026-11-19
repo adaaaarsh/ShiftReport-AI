@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No critical safety incidents or full machine stoppages reported",
+  "Both reported issues are currently low-impact but require verification to prevent escalation",
+  "Intermittent stops indicate potential sensor, software, or mechanical instability; impact on production rate depends on frequency",
+  "Investigate source of smell near M-10 (Industrial Oven) to ensure no safety hazard exists",
+  "Monitor M-06 (Welding Robot Arm) for further pauses; check error logs if available",
+  "Verify if M-06 pauses have affected output quality or quantity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the two equipment references from the input but includes multiple fabricated general notes, recommendations, and impact assessments not present in the supervisor notes. Completeness and uncertainty handling are excellent because all input facts are carried over and unknowns are highlighted. However, the added commentary and severity justifications lower the accuracy and severity scores due to unverified assumptions."
+}

@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Isolated hydraulic supply",
+  "Secured area to prevent spillage",
+  "Notified maintenance team",
+  "Replace hydraulic seal/line",
+  "Inspect for secondary leaks",
+  "Verify pressure after repair",
+  "Paused operation",
+  "Logged error code",
+  "Notified robotics team",
+  "Conduct full reteach session",
+  "Validate programming accuracy",
+  "Update SOP if needed",
+  "Clean-up kit deployed; no environmental release observed",
+  "All personnel wore appropriate PPE during isolation",
+  "Followed company protocol for hydraulic fluid disposal",
+  "Downtime of approximately 30 minutes (estimated)",
+  "Production halted until reteach completed; expected to resume within 1 hour",
+  "Schedule hydraulic seal replacement for Machine 17 at the earliest convenient slot",
+  "Verify that the reteach aligns with the latest process parameters",
+  "Update the equipment log with details of the incident and corrective actions",
+  "Conduct a brief safety walk-through to ensure no residual hazards"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates extensive details, actions taken, safety steps, and production impacts that were completely absent from the sparse input. While it captures all mentioned items and is well-formatted, it severely invents operational data, making it completely misleading for an incoming supervisor."
+}

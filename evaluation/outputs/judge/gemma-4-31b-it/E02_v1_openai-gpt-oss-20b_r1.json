@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The press continues to exhibit intermittent failures, impacting line throughput",
+  "Mechanical team to conduct a detailed diagnostic on the press",
+  "Schedule a maintenance window if parts are required",
+  "Initial checks indicate a possible electrical fault in the control panel",
+  "Electrical/maintenance crew to inspect the control panel and power supply",
+  "If a component replacement is needed, procure parts and schedule repair",
+  "Logged the issue in the maintenance system",
+  "Notified the mechanical team; they are on standby to perform a preliminary check",
+  "Production on affected line has been slowed to prevent further damage",
+  "Power to the booth was isolated for safety",
+  "Preliminary visual inspection revealed a burnt fuse in the control panel",
+  "The booth has been marked as 'Out of Service' and a safety sign has been placed",
+  "Estimated downtime: 2–4 hours (pending diagnostic results)",
+  "Potential backlog of 1,200 units for the day",
+  "Line D is currently non-operational",
+  "Estimated downtime: 3–5 hours (pending repair)",
+  "Production shift may need to reallocate tasks to other lines",
+  "Allocate the first 30 minutes of the shift to the mechanical team for the press and to the electrical team for the paint booth",
+  "If the press repair is confirmed, consider shifting a secondary press to Line D to maintain throughput",
+  "Update the production team on expected downtime and adjust shift schedules accordingly",
+  "Log all findings and actions in the maintenance log and update the incident report for quality compliance",
+  "Tuesday’s Press Issue Report (for reference)",
+  "Preliminary inspection photos of the paint booth control panel",
+  "Maintenance log entries (current shift)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing causes, actions, impacts, and specific technical details (like a burnt fuse) not present in the input. It fails to flag the paint booth as unrecognized equipment and presents all fabricated information as fact. While it captures the two issues, the level of invention is extreme."
+}

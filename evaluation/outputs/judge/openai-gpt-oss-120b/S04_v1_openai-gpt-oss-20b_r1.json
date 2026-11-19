@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No reported delays or safety incidents.",
+  "Forklift 1 is operating at 100 % capacity; monitor for potential overload or fatigue.",
+  "No safety incidents reported.",
+  "Consider temporarily reallocating a manual pallet jack or a second forklift (if available) to balance the load on Forklift 1.",
+  "Conduct a quick inspection of Forklift 1 for any signs of wear due to increased usage.",
+  "Update the equipment log once Forklift 2 is repaired and returned to service.",
+  "All safety protocols were followed; no incidents or near‑misses.",
+  "The charging bay remains clear of obstructions; Forklift 2 is securely parked.",
+  "Open – awaiting parts & repair"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the supervisor input, so completeness is high, but it adds many details not mentioned (e.g., safety incident statements, capacity percentages, recommendations), resulting in very low accuracy. No severity level is provided, leading to a severity score of 1. The layout is clear and scannable, giving a top readability score, while the report fails to flag the missing repair ETA, so uncertainty handling is poor."
+}

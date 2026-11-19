@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no safety hazard reported",
+  "whether a replacement forklift is available or maintenance has been scheduled",
+  "Verify the cause of the outage for M-15 and confirm that maintenance has been notified",
+  "Arrange for a functional forklift (e.g., M-16) to cover the logistics workload if not already done",
+  "Update the equipment status log with the time and reason for tagging out M-15",
+  "No safety incidents reported during the shift",
+  "All finished pallets were successfully moved to shipping before the forklift was tagged out"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It fabricates several pending items and a safety claim. Severity is marked as LOW despite a tagged-out machine being used, which is a safety violation."
+}

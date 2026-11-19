@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Initial operational issues encountered at the start of the shift have been resolved",
+  "Current operations are proceeding without significant interruption",
+  "Do not use for heavy loads or critical tasks until inspected",
+  "Contact Maintenance if the issue persists or worsens",
+  "No new safety incidents reported",
+  "Standard safety protocols in effect",
+  "If the forklift is deemed unsafe, tag it out and arrange for a replacement unit"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures the input's items and correctly leaves the forklift ID ambiguous while assigning an unknown severity, but it invents numerous operational details, recommendations, and a safety status not present in the sparse input. Consequently, accuracy suffers severely due to fabrication, while completeness, severity handling, and uncertainty management are handled well."
+}

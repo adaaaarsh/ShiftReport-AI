@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety hazard, only reduces equipment availability",
+  "Ongoing (awaiting repair)",
+  "Complete repair of Forklift #2 (replace/repair front tire) and return it to service",
+  "Verify completion of Work Order 4471 and update equipment status",
+  "No impact on production reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates several details regarding the status, pending items, and production impact. It fails to flag the missing repair ETA as an uncertainty."
+}

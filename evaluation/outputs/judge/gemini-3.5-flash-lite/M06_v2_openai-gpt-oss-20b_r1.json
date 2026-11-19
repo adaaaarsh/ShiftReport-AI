@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 5:00 PM",
+  "potential for overheating and production impact",
+  "no immediate production impact",
+  "reduced performance, potential safety concern",
+  "no replacement yet",
+  "Inspect and repair the coolant line leak on M-02",
+  "Check and service the HVAC unit (M-14) on the roof",
+  "Replace or repair the flickering speed sensor on M-05",
+  "All other equipment reported normal operation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues accurately regarding the equipment, but invents multiple specific details, action plans, and a general statement about other equipment that were not in the input. Severities are assigned confidently with made-up justifications rather than marking unknown or exercising caution. Readability and structure are excellent."
+}

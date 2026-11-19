@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "partial issue, reduced performance",
+  "potential safety hazard if not addressed",
+  "Perform a detailed diagnostic on M-07 to determine cause of noises",
+  "Verify that all safety protocols are followed during inspections",
+  "No other significant events or staffing changes reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report guessed a specific machine (M-07) for the 'big machine on B' without flagging ambiguity. It also fabricated several details regarding the nature of the issues and the required actions. Severities were assigned as Medium without supporting evidence in the input."
+}

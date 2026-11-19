@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-14 — HVAC System",
+  "Action Taken: None reported",
+  "Status: Pending – Monitor for recurrence",
+  "Monitor HVAC system (M-14) for any further flickering or abnormal behavior",
+  "Verify that all utility systems (M-12, M-13, M-14) are stable and functioning correctly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly assigns the event to M-14 (HVAC) without evidence, which is a guessed specific ID for an ambiguous reference. It fabricates several monitoring actions and statuses not present in the input. It fails to flag the ambiguity of 'something kicked on' or the uncertainty of which utility system was involved."
+}

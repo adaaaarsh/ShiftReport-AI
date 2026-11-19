@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Unusual operation could lead to reduced efficiency or safety risk if not resolved",
+  "Action Taken: Issue noted; no corrective action taken yet",
+  "Determine if the issue is mechanical, hydraulic, or control-system related and perform necessary repairs",
+  "If M-15 is unavailable, verify the condition of M-16 (Forklift #2) as a backup",
+  "No other equipment issues reported",
+  "Production otherwise running normally"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report guesses a specific machine ID (M-15) from an ambiguous reference and invents a significant amount of detail regarding actions, potential causes, and general production status. It captures the general issue of a forklift behaving oddly and flags that details are missing, but presents speculative assumptions and fabrications as operational facts."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "visible since 3:00 PM",
+  "machine still operating",
+  "potential for escalation if not repaired",
+  "awaiting maintenance response",
+  "Has any containment been applied to the leak?",
+  "All other equipment on Line A reported as functioning normally",
+  "No safety incidents or staffing issues reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the issue and the machine. However, it fabricates several details regarding the status of the machine and general shift notes. It correctly flags the missing information about whether the machine is running."
+}

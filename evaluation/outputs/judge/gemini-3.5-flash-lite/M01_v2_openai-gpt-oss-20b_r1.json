@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "tooling replacement pending",
+  "check filters/temperature settings",
+  "Acquire and install the missing tooling insert for M-02 CNC Lathe",
+  "Inspect and service HVAC filters or temperature controls for M-14",
+  "Verify rework parts from M-02 are processed and returned to line",
+  "No additional staffing or safety concerns reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues with correct machine IDs and reasonable severities while maintaining high readability. However, it invents several actions, next steps, and a general notes claim about safety that were not present in the supervisor input. It also fails to explicitly flag the missing information specified in the answer key."
+}

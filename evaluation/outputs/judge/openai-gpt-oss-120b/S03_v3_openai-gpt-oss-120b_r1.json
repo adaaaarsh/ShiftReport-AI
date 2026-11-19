@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Completed scheduled test; fuel level recorded.",
+  "Status: Resolved",
+  "Severity description: Routine maintenance, no impact on production.",
+  "General note: All systems operating normally; no safety or production concerns noted."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report matches the supervisor input on all factual points but adds several invented details, lowering accuracy to 1. All input items are present, so completeness is 5. The severity LOW is appropriate, earning a 5. The layout is clear and scannable, giving readability a 5. No missing or ambiguous information exists, so uncertainty handling receives a 5."
+}

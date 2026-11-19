@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Performed two manual restarts",
+  "Action Taken: Monitored the oven, allowed it to cool",
+  "Staffing levels were adequate for the shift",
+  "Pending item: Continue to monitor the Industrial Oven (M-10)",
+  "Pending item: Verify that the CNC Milling Machine (M-07) remains stable"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported machine events completely, but it fabricates several actions, pending items, and general shift details that were never stated in the input. It assigns confident severities and marks the issues as fully resolved without flagging the contradictions present in the supervisor's notes."
+}

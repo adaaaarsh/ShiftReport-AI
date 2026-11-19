@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "mitigate vibration",
+  "monitoring ongoing",
+  "Minor leakage",
+  "leakage noted for maintenance",
+  "Incident logged",
+  "forklift removed from operation until headlight replacement",
+  "risking overheating of Line C equipment",
+  "refill scheduled for next shift",
+  "Replace headlight on Forklift #1 (M-15) and verify operation",
+  "Inspect and repair hydraulic leak on M-03",
+  "Refill coolant for M-11 and check for any related temperature issues",
+  "Verify that M-07 feed rate has returned to normal and inspect tooling for wear",
+  "No other major incidents reported",
+  "recommend reviewing safety protocols to avoid future compromises",
+  "Ensure all crew members are briefed on the headlight issue to maintain aisle safety"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications, inventing causes (vibration), actions (incident logged, forklift removed), and outcomes not present in the input. It fails to flag the ambiguity of 'mx pinged no show' within the issue section, instead treating it as a pending item. Severity for M-03 is too low given the explicit skip of LOTO for quota."
+}

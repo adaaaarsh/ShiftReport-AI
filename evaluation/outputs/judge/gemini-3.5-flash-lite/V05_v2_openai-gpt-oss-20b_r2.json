@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adjusted and calibrated the machine",
+  "it appears to be functioning again",
+  "Resolved",
+  "Verify the condition of the replaced parts and confirm that the machine remains within specification",
+  "No other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely guesses a specific machine ID from an ambiguous input and invents several details about actions taken and status, resulting in low accuracy and uncertainty scores. It successfully captures the core facts and is presented in a very readable, professional format. However, it fails to surface the unknown elements and fabricates remediation steps not present in the notes."
+}

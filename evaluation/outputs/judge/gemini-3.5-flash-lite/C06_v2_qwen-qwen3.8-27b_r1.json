@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PSI",
+  "14:00 – 16:00 (2:00 PM – 4:00 PM)",
+  "Routine monitoring. No intervention required.",
+  "Resolved",
+  "Investigate the source of pressure loss for air tools on Line A between 14:00 and 16:00.",
+  "Check for leaks in the air piping network specific to Line A, as the central compressor (M-12) maintained stable pressure.",
+  "Verify if the issue has recurred since 16:00.",
+  "Central utility systems (Compressor M-12) are functioning correctly, suggesting the Line A pressure issue is likely localized to the distribution piping or specific tool connections rather than the main supply."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report invents numerous specific details, actions, timestamps, and a second separate issue item that were not in the supervisor input, leading to a low accuracy score. It captures all available facts and is easy to read, but includes substantial fabrication."
+}

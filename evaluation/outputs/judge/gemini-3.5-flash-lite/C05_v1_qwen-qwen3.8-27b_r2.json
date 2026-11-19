@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No further medical attention was required.",
+  "Welding robot cell is operational and safe for continued use.",
+  "Monitor the affected operator for any delayed symptoms of the burn.",
+  "Consider a brief safety refresher on PPE usage (specifically wrist protection) for the welding cell team to prevent recurrence."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and is well-structured, but it includes multiple fabricated details and recommendations not present in the supervisor notes. It also completely ignores the contradiction between 'no safety incidents' and an operator burn injury."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved immediately; no production loss or damage reported",
+  "Status: Resolved",
+  "No other issues, safety incidents, or staffing concerns reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and correctly matches the packaging unit to M-08. However, it invents extra explanatory details about production loss, status labels, and generalized statements about safety incidents not mentioned in the input. Readability and severity assignments are otherwise very clear and well-structured."
+}

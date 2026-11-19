@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon (Inferred from this afternoon)",
+  "Time Noticed: Afternoon (Specific time not specified)",
+  "Machine shut down for safety",
+  "Status: Ongoing",
+  "Monitor arrival of replacement parts for M-03 Hydraulic Press",
+  "Once parts arrive, coordinate with maintenance to repair the hydraulic leak",
+  "Perform leak test and safety check before restarting M-03",
+  "Verify production schedule impact due to M-03 downtime",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates multiple actions, statuses, and pending tasks not present in the brief input, resulting in low accuracy and uncertainty handling. It captures the main reported facts of the issue, maintaining completeness regarding the core event. The severity given as CRITICAL is somewhat defensible given a shutdown, though assigned without strict constraint, and readability is structured and clean."
+}

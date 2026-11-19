@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No further action required"
+ ],
+ "accuracy": 4,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the facts of the incident but fails to list it as an issue, instead placing it in general notes. It ignores the blatant contradiction between 'No safety incidents' and the reported burn. It also fabricates the claim that 'no further action' is required."
+}

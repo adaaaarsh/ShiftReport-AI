@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Intermittent stop/start, abnormal noise, and cycle time increase for the press",
+  "Performed visual inspection, reset PLC, cleared fault codes, and monitored for 30 min",
+  "Reduced output by ~15% on the affected line",
+  "Contact Mechanical Maintenance (Ext. 212)",
+  "Order Drive Coupling Kit – Part #DC-4521",
+  "Paint booth not powering up with System Fault - Power Supply error",
+  "Verified main breaker, checked emergency stop, replaced blown fuse",
+  "Line D halted and downstream processes on hold",
+  "Escalate to Electrical Maintenance for power supply diagnostic",
+  "Verify replacement fuse is 30 A, 250 V",
+  "Temporary re-routing of painted parts to Line C's booth",
+  "Safety and compliance checks including no hazardous material spills and LOTO procedures",
+  "Recommendations for weekly vibration analysis and secondary power-monitoring relay"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all of the sparse supervisor input items, handles the unknown equipment and severity appropriately, and uses a clean scannable template. However, it contains an extreme volume of completely fabricated issues, actions, parts, procedures, and impacts that have zero grounding in the minimal input text."
+}

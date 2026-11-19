@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "no impact on production",
+  "Resolved",
+  "reduced performance, potential impact on downstream operations",
+  "Ongoing",
+  "Inspect and repair air tools on Line A to restore stable pressure",
+  "Verify compressor output remains steady at 110 psi",
+  "no maintenance required",
+  "Air pressure issue may affect machining operations on Line A; prioritize during next shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous details regarding status, impact, and pending actions. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Accuracy is reduced due to the high volume of invented context."
+}

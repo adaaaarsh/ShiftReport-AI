@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing – Oven remains in manual mode with interlock bypassed",
+  "Return the oven to automatic control and restore the interlock",
+  "Verify that the oven stabilizes at the correct setpoint (350 °F)",
+  "Document the reason for the temperature excursion and any corrective actions needed to prevent recurrence",
+  "No additional equipment issues reported during this shift",
+  "Ensure that any manual overrides are logged and reviewed for compliance with safety procedures"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input accurately. However, it fabricates several pending items and status updates not mentioned by the supervisor. It also fails to flag the missing critical information (e.g., whether the interlock was restored) as unknown, instead presenting a set of assumed next steps."
+}

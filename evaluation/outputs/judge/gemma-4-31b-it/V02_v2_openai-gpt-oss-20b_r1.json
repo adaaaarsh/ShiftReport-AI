@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-09 — Quality Inspection Scanner",
+  "scanner malfunctioned",
+  "Partial functionality loss, production impact is reduced but not halted",
+  "None performed during this shift",
+  "Ongoing",
+  "Verify that the issue is resolved before resuming full production",
+  "No other issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-09) from an ambiguous reference to 'the thing on line C' and fabricated numerous details regarding the nature of the malfunction, the severity justification, and the status. It failed to flag the ambiguity of the equipment or the lack of detail in the input. Severity was assigned as Medium without any supporting evidence in the input."
+}

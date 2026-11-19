@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Monitor the arrival of the maintenance team for M-03 (Hydraulic Press)",
+  "Verify that the oil leak on M-03 has been contained and repaired before resuming full operation",
+  "Check for any residual oil on the floor around M-03 to ensure safety and prevent slip hazards",
+  "No other issues reported for Line A at the time of handover"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the machine and the issue, but it fabricates several monitoring steps and a general status claim not found in the input. It fails to flag the missing information regarding whether the press is still running. Readability is high, and severity is defensible."
+}

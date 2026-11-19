@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential delay/quality risk on production",
+  "Assign maintenance/engineering personnel to inspect and diagnose the fault",
+  "Log the incident in the equipment maintenance system",
+  "scheduling a preventive maintenance check",
+  "Verify that maintenance has been notified and a work order is opened",
+  "Monitor Line C for any further irregularities"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily padded with fabricated actions, outcomes, and monitoring steps not present in the input. It fails to flag that the specific machine on Line C is unknown, presenting the general location as sufficient. Severity is assigned as 'High' without evidence from the input."
+}

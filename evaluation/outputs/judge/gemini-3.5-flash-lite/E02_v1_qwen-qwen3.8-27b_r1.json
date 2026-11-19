@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance team notified",
+  "Production on Line D is halted pending repair",
+  "Please coordinate with the maintenance lead to determine ETA for restoration",
+  "No resolution has been achieved during this shift",
+  "Maintenance is aware of the recurring nature of this fault",
+  "Production suspended due to paint booth outage",
+  "Production may be delayed or operating at reduced capacity depending on the severity of the press malfunction",
+  "Confirm maintenance status for both the Line D paint booth and the press issue",
+  "Review Tuesday’s report for context on the press malfunction to ensure continuity in troubleshooting",
+  "Monitor for any updates from the maintenance team regarding repair timelines",
+  "Adjust production schedules as necessary based on equipment availability",
+  "No other major incidents reported during this shift",
+  "Safety protocols remain in effect"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported elements and handles the unknown/unrecognized equipment well, but it heavily hallucinates actions, outcomes, and recommendations that were not in the supervisor input. The fabrication level is very high, dropping accuracy to a 1, while completeness and uncertainty handling are strong. Readability is good due to the structured format, and severity is reasonable."
+}

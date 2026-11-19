@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Parts needed for repair have been ordered and are pending delivery",
+  "Monitor parts delivery schedule",
+  "Once parts arrive, schedule maintenance crew to replace the faulty component and perform a leak test",
+  "Conduct a post-repair inspection before returning the press to service",
+  "Update maintenance log with part numbers and repair timestamps",
+  "no quality defects reported",
+  "Verify that pending orders can be met with current inventory or re-allocate work to other presses if needed",
+  "No safety incidents were reported during the shift",
+  "All operators were briefed on the press shutdown and instructed to follow lock-out/tag-out procedures until repairs are completed",
+  "Keep the area around the press clear and posted with a Out of Service Awaiting Parts sign",
+  "Check Parts Arrival: Confirm receipt of the ordered hydraulic components first thing on shift",
+  "Prepare Maintenance Team: Ensure tools and replacement kits are ready for immediate installation",
+  "Production Planning: If the press remains unavailable, consider shifting workload to Press B or other available equipment to maintain throughput",
+  "Documentation: Record the exact time of repair completion and any test results in the equipment log"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts of the M-03 hydraulic press issue but severely hallucinates extensive maintenance plans, safety briefings, production logs, and actions that were never stated in the short supervisor input. It also treats the production output statement as a separate equipment issue, turning a contradiction into a smooth narrative. Uncertainty regarding the timeline of the 400 pieces versus the shutdown is completely ignored."
+}

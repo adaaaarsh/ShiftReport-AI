@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon",
+  "Status: Ongoing",
+  "Monitor for arrival of replacement parts",
+  "coordinate with maintenance to repair the hydraulic leak",
+  "perform a safety check before restarting production",
+  "No quality issues were reported during this run",
+  "Line A is currently impacted by the M-03 shutdown",
+  "Next shift should assess if alternative routing or scheduling adjustments are needed for Line A work orders"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous operational details and instructions not present in the input. It fails to flag the contradiction between the machine being shut down and the production of 400 pieces. Severity is assigned as Critical without explicit evidence in the input."
+}

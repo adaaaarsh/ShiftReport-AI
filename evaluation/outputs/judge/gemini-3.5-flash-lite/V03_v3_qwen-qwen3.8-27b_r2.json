@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety risk in logistics area",
+  "Immediate Safety Check: Identify which forklift (M-15 or M-16) is malfunctioning",
+  "Diagnostic: Perform a full safety inspection on the affected forklift. If the weird behavior involves brakes, steering, or lifting capacity, tag out the unit immediately and do not use until repaired",
+  "Clarification: Ask the outgoing supervisor or check logs for specific symptoms of the forklift issue",
+  "Action for Next Shift: Verify that all previously reported issues are fully resolved and documented. If any sorted issues were only temporarily mitigated, escalate them",
+  "Staffing and other general floor conditions appear normal based on the brief update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures the single reported issue and flags the ambiguity of the forklift IDs, but it guesses a specific joint ID grouping (M-15/M-16) and invents numerous recommended actions and safety directives not present in the input. Severities are slightly elevated above the unknown baseline given the extreme brevity of the input. Readability is generally good, but the output suffers from substantial padding and hallucinated remediation steps."
+}

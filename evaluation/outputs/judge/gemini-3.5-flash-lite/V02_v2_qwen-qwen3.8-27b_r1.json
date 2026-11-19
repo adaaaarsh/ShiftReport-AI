@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Perform a diagnostic check to identify the root cause of the recurring malfunction",
+  "Check records from last week regarding this specific unit to see if a temporary fix was applied that has failed",
+  "No safety hazards or production stoppages were reported",
+  "the recurring nature of the fault warrants priority attention to prevent future downtime",
+  "suggesting a potential chronic failure or inadequate previous repair"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and effectively flags the ambiguity of the equipment reference while offering a rationale. However, it guesses a specific machine ID and fabricates several pending actions, recommendations, and assumptions not present in the input. Severities and details are extrapolated beyond the sparse input."
+}

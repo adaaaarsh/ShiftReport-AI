@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard, machine fully down, production stopped",
+  "Supervisor noted the leak; no repair performed during shift",
+  "Minor observation, no production impact",
+  "Supervisor logged the need for reteach; no action taken during shift",
+  "Ensure safety protocols are followed when handling hydraulic leaks",
+  "No other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly matches 'Machine 17 on line B' to M-07 without flagging doubt, completely invents impacts and actions (machine fully down, production stopped, no repair performed), and exaggerates severity. It captures the provided items completely but fails entirely on uncertainty handling and accuracy by fabricating numerous details and assuming specific IDs."
+}

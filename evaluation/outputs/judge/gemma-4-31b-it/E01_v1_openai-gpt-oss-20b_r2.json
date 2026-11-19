@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor feed usage and replenish before next shift to avoid production slowdown",
+  "Verify machine status; schedule maintenance if issue persists",
+  "schedule a proper shutdown and leak repair",
+  "check for other electrical issues",
+  "Investigate cause, reinforce safety signage, and conduct refresher training",
+  "check for leaks or excessive consumption",
+  "Ensure feed level is back to 80–90% before production resumes",
+  "Confirm MX is online; if not, log a maintenance ticket",
+  "Perform LOTO, fix leak, and test for leaks",
+  "Install new headlight on FL1 and test illumination",
+  "Conduct a quick walk‑through of aisle 3, update signage, and remind staff of proper procedures",
+  "Refill coolant to recommended level and inspect for any abnormal drain"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the registry IDs (M-07, M-03, M-15, M-11), instead using shorthand or incorrect labels like 'MX Machine'. It fabricates a large number of specific corrective actions and target percentages (80-90%) not found in the input. No severities are assigned, and no uncertainty regarding the ambiguous 'MX' or 'HP' is flagged."
+}

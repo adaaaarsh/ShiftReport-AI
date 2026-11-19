@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 3,
+ "completeness": 1,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the compressor unit M-12 but completely omits the critical mention of line A air tools losing pressure, resulting in poor completeness and zero contradiction surfacing. The accuracy is docked to 3 because a major part of the input is left out. Readability is strong due to clear formatting."
+}

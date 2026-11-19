@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026‑11‑05",
+  "Shift: 08:00 – 16:00",
+  "Supervisor: [Supervisor’s Name]",
+  "Large Production Machine",
+  "Unusual noises (likely mechanical vibration or bearing issue)",
+  "Logged incident in the maintenance log; no immediate shutdown performed",
+  "Schedule a detailed inspection and preventive maintenance tomorrow",
+  "Consider a temporary shutdown if noise level increases",
+  "No safety incidents or near‑misses reported",
+  "All PPE usage observed to be compliant",
+  "Production remained on schedule; no downtime recorded",
+  "Machine B Inspection – Assign maintenance team to perform a full diagnostic (vibration analysis, bearing check, lubrication status)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report invents many specifics (date, shift times, equipment descriptions, safety statements) that were not in the supervisor input, resulting in a very low accuracy score. It does capture both reported issues, so completeness is high. No severity levels are provided for the issues, making the severity classification indefensible. The layout is clear and scannable, earning a top readability score. While the report flags the leak source as unknown, it does not consistently highlight all ambiguities, leading to a moderate uncertainty handling score."
+}

@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM times added (7:00 AM, 9:40 AM, 11:00 AM)",
+  "Status claims (Belt still slipping, battery charging status not confirmed)",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no overtime required"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and formats them very readably, but it invents several details like specific AM times and claims about safety incidents and staffing. The severity for Forklift #1 (HIGH) is arguably too high for a routine dead battery. However, it handles uncertainty well by posing valid clarifying questions."
+}

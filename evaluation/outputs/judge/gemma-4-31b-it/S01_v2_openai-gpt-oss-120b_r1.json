@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "causing a temporary stop in the line",
+  "No safety hazard, production impact was brief and resolved",
+  "No further observations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it includes several fabricated details regarding the line stop, safety hazards, and production impact that were not in the supervisor's notes. These additions result in an accuracy score of 3."
+}

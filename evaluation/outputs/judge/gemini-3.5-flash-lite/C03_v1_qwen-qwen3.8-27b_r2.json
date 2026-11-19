@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify shipping area is clear and ready for next load.",
+  "Ensure all other forklifts are operational and charged/ fueled as needed.",
+  "Review any recent incidents or near-misses related to equipment usage."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and flags the contradiction present in the input regarding using a tagged-out forklift. However, it includes several fabricated action items and safety notes that were not in the supervisor input. The accuracy is docked to 3 because of these invented details while completeness, severity, readability, and uncertainty handling are strong."
+}

@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (7:00 pm – 3:00 am)",
+  "Notified maintenance team of compressor trip",
+  "Shift Lead",
+  "Shift Technician",
+  "Update maintenance log with trip details",
+  "No production loss reported",
+  "No impact observed",
+  "No incidents; all safety protocols followed",
+  "Schedule a routine check of the overload relay and associated wiring",
+  "Consider installing a real-time pressure monitoring alert",
+  "Brief all operators on the procedure for resetting the breaker"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing shift times, personnel roles, safety claims, and several recommendations not found in the input. It fails to use the provided registry ID (M-12) and does not assign a severity or flag the missing information regarding scrapped parts. While readable and complete regarding the basic facts, the level of hallucination is severe."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor obstruction, no production impact after clearance",
+  "All systems operating normally after the jam was cleared",
+  "No staffing or safety concerns noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and maps the machine ID correctly. However, it includes several fabricated details in the severity description and general notes (e.g., 'no production impact', 'no staffing or safety concerns') that were not in the supervisor's notes. These additions result in an accuracy score of 3."
+}

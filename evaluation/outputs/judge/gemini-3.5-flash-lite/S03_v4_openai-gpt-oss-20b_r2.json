@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved — Test completed successfully",
+  "Monitor fuel level; current fuel at 80%",
+  "No safety incidents or production disruptions reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details from the supervisor input accurately and has a clear, highly readable structure. However, it introduces several fabricated details including assumed status, monitoring instructions, and a statement about safety incidents not present in the input. Severity is marked unknown with a rationale despite the input stating 'no issues', leading to a middle score."
+}

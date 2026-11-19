@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine performance appeared abnormal for the Line B equipment",
+  "Severity rationale for Line B (noise indicates potential malfunction affecting production)",
+  "Time Noticed entries",
+  "Action Taken entries (noted issue, no corrective action taken)",
+  "Status entries (Ongoing, Pending)",
+  "Verify that any corrective actions taken do not impact safety or production continuity",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and correctly handles the ambiguous machine references as unidentified, but it invents a large amount of detailed commentary, statuses, and general notes not present in the brief input. Severities are assigned as MEDIUM despite the input providing no clue about severity, and numerous fabricated assertions are included."
+}

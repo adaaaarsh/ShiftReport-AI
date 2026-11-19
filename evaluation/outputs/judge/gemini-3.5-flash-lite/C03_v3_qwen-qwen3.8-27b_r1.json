@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Impacts logistics/shipping operations",
+  "Unit was operational at 6:00",
+  "Confirm if maintenance has been scheduled or if the tag-out is permanent",
+  "Ensure M-16 (Forklift #2) is available and operational to cover logistics duties",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely reverses the contradiction by claiming the forklift was operational at 6:00 instead of highlighting the impossible scenario that a tagged-out forklift was used. It also invents several details regarding M-16 and potential impacts, completely missing the uncertainty and the safety violation implication."
+}

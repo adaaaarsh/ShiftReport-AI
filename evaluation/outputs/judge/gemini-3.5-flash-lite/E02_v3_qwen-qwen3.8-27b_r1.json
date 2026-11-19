@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Yesterday (Tuesday)",
+  "Status: Ongoing",
+  "Time Noticed: Not specified",
+  "Action Taken: Not specified",
+  "Status: Ongoing",
+  "Immediate: Investigate and repair the down Paint Booth on Line D.",
+  "Follow-up: Review Tuesday's report to understand the specific status of the M-03 Hydraulic Press issue",
+  "Verification: Confirm if Line D is a valid production line or if the supervisor meant Line C"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and uncertainty from the input and correctly flags the unlisted paint booth. However, it assigns confident specific severities (High and Critical) and invents numerous status fields, action steps, and follow-up recommendations not present in the supervisor notes. Overall, it is thorough in surfacing gaps but adds considerable fabricated metadata."
+}

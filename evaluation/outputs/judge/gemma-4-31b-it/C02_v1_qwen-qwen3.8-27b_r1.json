@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine secured and isolated",
+  "Verify if parts have arrived or if a new ETA has been provided by maintenance/procurement",
+  "No defects or issues reported during the operational period",
+  "Confirm status of parts order for Hydraulic Press A",
+  "Monitor for any further leaks or fluid loss while the machine is offline",
+  "Plan production schedule adjustments due to the downtime of Press A",
+  "Ensure area around Hydraulic Press A is clear of any spilled hydraulic fluid to prevent slip hazards",
+  "Verify machine is properly locked out/tagged out (LOTO)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured but contains extensive fabrications, inventing numerous actions, safety checks, and monitoring steps not present in the input. It fails to flag the contradiction between the machine being shut down and having run 400 pieces. No severity was assigned to the issue."
+}

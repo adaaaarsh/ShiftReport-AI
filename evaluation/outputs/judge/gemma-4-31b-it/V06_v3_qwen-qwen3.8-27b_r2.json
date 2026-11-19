@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety or process anomaly; requires verification to rule out electrical or material issues",
+  "Requires immediate investigation by next shift",
+  "Unplanned stops disrupt production flow and may indicate mechanical, electrical, or software faults",
+  "Root cause not identified",
+  "Check for overheating components, burnt material, or electrical faults",
+  "Ensure area is safe before resuming full operation",
+  "Check error logs, sensor status, and mechanical joints",
+  "Monitor both areas closely during the first hour of the shift",
+  "No staffing shortages or major safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured but contains extensive fabrications, inventing causes, specific troubleshooting steps, and safety claims not present in the input. It fails to flag missing information (like fault codes or smell type) as unknown, instead presenting its own inventions as facts. Severity for the robot is arguably too high given the input 'paused a few times'."
+}

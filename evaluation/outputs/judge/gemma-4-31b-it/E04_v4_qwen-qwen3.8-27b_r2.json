@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Status: Ongoing — Batch in progress under manual control",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and handles uncertainty well by flagging the interlock bypass and the identity of 'Mike'. However, it fabricates the shift name (Night Shift) and adds a status claim ('Ongoing') and a general safety summary not present in the input."
+}

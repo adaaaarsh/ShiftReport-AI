@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "audible anomaly",
+  "no shutdown or speed reduction reported",
+  "Issue unresolved, risk of further damage",
+  "Inspect M-01 (Line A) spindle immediately",
+  "Verify if noise has worsened or if there is visible damage",
+  "Consider shutting down for maintenance if noise persists",
+  "Report parking lot lighting failure to facilities/maintenance team for repair"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input items but fabricates numerous technical justifications, risks, and specific recommended actions not present in the supervisor's notes. It incorrectly maps parking lot lights to M-14 (HVAC System), which is a machine match error. It presents the information confidently without flagging any uncertainty or missing details."
+}

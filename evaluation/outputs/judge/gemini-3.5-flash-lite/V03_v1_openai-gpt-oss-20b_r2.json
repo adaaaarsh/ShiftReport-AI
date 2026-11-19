@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 3,
+ "fabricated_details": [
+  "Completed routine inventory checks and restocked items in the receiving area.",
+  "Assisted with the loading of two outbound pallets",
+  "Conducted a safety walk-through of the warehouse, noting no new hazards.",
+  "Forklift #12 malfunction during the morning shift",
+  "Erratic steering and a delayed brake response",
+  "Troubleshooting actions: checking hydraulic fluid, inspecting brake lines, resetting control panel",
+  "Reported the forklift issue to Maintenance on 08:15",
+  "Maintenance technician inspected the unit at 09:00 and identified worn brake pad and minor hydraulic leak",
+  "Parts were ordered; forklift currently in maintenance bay",
+  "Forklift #7 Operational",
+  "Pallet Jack #3 Operational",
+  "Conveyor Belt #2 Operational",
+  "Safety Signage replacement task",
+  "Inventory Reconciliation task",
+  "Recommendations for forklift usage and preventive maintenance"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an immense amount of completely unsupported operational detail, inventory tasks, and a detailed maintenance log for an invented forklift ID (#12) when the input merely stated that a forklift was acting weird. It completely ignores that the equipment reference was ambiguous between M-15 and M-16. While it attempts to capture the core vague issue, the sheer volume of fabricated events heavily penalizes accuracy and uncertainty handling."
+}

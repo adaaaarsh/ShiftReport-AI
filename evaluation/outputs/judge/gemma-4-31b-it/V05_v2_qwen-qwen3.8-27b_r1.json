@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-01 (CNC Milling Machine, Line A) is the primary CNC milling asset",
+  "Confirm that the CNC machine is currently holding specification and stable",
+  "prioritize verifying the machine's current status before resuming full production volume"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly captures all facts and flags the ambiguity of the machine ID, though it guesses M-01 as the primary asset. Severity is assigned as HIGH without strong evidence in the input. Some fabricated details are added as operational advice/context not present in the supervisor's notes."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "issue reported to supervisory staff",
+  "Status: Ongoing — Awaiting inspection and corrective action",
+  "Perform a detailed inspection and corrective maintenance on the identified machine",
+  "Document the root cause to prevent recurrence",
+  "No additional staffing, safety, or production incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the ambiguity of the machine on Line C and captures the recurring nature of the problem. However, it fabricates several actions and status updates not present in the input. Severity was assigned as Medium without evidence, and it added several pending items not requested by the supervisor."
+}

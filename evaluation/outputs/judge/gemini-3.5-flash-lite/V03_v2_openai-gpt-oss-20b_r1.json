@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "MEDIUM severity rating",
+  "partial issue, no immediate production impact but requires monitoring",
+  "Action Taken: None reported; issue noted for follow-up",
+  "Status: Ongoing",
+  "Monitor forklift(s) for continued irregularities and document any changes",
+  "Verify that all forklifts are operating within normal parameters before shift start",
+  "No other machine issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a specific machine ID and multiple details (MEDIUM severity, action taken, status, and pending checks) from an ambiguous and sparse input. It also claims no other issues occurred when the input mentioned earlier issues. Although well-structured, it completely fails on accuracy, severity, and uncertainty handling by making definitive guesses instead of marking unknowns."
+}

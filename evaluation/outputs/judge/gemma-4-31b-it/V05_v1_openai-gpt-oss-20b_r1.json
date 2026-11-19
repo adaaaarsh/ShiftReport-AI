@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time 08:15",
+  "CNC deviation ±0.02 mm",
+  "Spindle misalignment",
+  "Time 08:30",
+  "Error code 0xA3",
+  "Time 08:45",
+  "Adjusted spindle alignment",
+  "Recalibrated axis zero points",
+  "Alignment within ±0.01 mm",
+  "Time 09:00",
+  "Test part #12345",
+  "Time 09:15",
+  "Updated CNC log",
+  "Notified quality control",
+  "Time 09:30",
+  "Production batch of 10 units",
+  "Spindle Alignment Tool",
+  "Calibration Jig",
+  "Part #67890",
+  "All parts accounted for and inspected",
+  "No discrepancies found",
+  "Spindle Alignment Tool wear",
+  "CNC Log central database entry",
+  "QC system logging",
+  "Preventive Maintenance schedule",
+  "Operator training on spindle misalignment",
+  "Update maintenance manual"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is almost entirely fabricated, inventing specific times, error codes, part numbers, and technical causes not present in the input. It fails to flag the ambiguity of which CNC machine was involved and presents a guessed resolution as a factual sequence of events. While highly readable, it is dangerously inaccurate."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "dropping from 2 bar to 4 bar",
+  "kPa units for pressure",
+  "no immediate corrective action was taken"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates specific units (bar, kPa) and misinterprets the 2 to 4 time window as a pressure range of 2 to 4 bar. It fails to flag the contradiction between the normal compressor and the dropping pressure on the line, and incorrectly claims no critical issues were reported while listing pressure drops."
+}

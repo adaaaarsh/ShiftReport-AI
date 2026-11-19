@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine ID and captures the core issues accurately without adding fabrications, but it completely misses the detail about running 400 pieces. It also fails to surface the contradiction present in the input regarding the shutdown versus running 400 pieces, resulting in a low uncertainty score."
+}

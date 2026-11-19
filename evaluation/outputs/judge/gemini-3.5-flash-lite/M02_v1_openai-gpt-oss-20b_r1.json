@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Stable, no further slip noted",
+  "Normal operation",
+  "Charging, awaiting full charge",
+  "Recommend monitoring belt tension for the next shift to ensure continued stability",
+  "Verify that the temperature sensor and alarm system are functioning correctly; consider a quick diagnostic check to rule out intermittent faults",
+  "Please confirm that the charger is functioning and that the forklift will be fully charged before the next shift begins",
+  "Schedule a routine inspection of Conveyor Line B's belt tension and alignment to prevent future slip incidents",
+  "Run a quick diagnostic on Oven Line C's temperature control system to ensure the alarm is not a false positive",
+  "Verify that the forklift battery charger is fully operational and that the forklift will be ready for use at the start of the next shift",
+  "Inspect conveyor belt tension | Maintenance Team | End of day",
+  "Diagnostic check on oven temperature system | Operations Tech | 12:00 PM",
+  "Confirm forklift battery charge level | Warehouse Ops | Start of next shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all items from the supervisor notes and assigns reasonable severities. However, it significantly expands the input by fabricating a large number of recommendations, follow-up action tables, and inferred statuses not present in the original notes. Readability and uncertainty handling are excellent, but accuracy takes a hit due to the numerous invented follow-up details."
+}

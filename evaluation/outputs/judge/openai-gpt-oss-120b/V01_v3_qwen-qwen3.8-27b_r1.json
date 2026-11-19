@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Specific machine ID M-07 assigned to the noise issue",
+  "Severity MEDIUM assigned to the noise issue",
+  "Status Ongoing for the noise issue",
+  "Unidentified Machine (Line A) label for leak issue",
+  "Severity HIGH assigned to the leak issue",
+  "Status Pending for the leak issue",
+  "Action Taken: None taken yet for the leak issue",
+  "Pending item: Inspect M-01, M-02, M-03, and M-04 for leak",
+  "Pending item: Inspect M-07 for noise",
+  "Safety Check instruction to contain leak area",
+  "Statement that no staffing or other safety incidents reported",
+  "Time Noticed: During shift (exact time not specified) for both issues"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both supervisor issues, so completeness is high, but it invents specific machine IDs, severity levels, statuses, actions and safety statements not present in the input, leading to very low accuracy. Severity classifications are indefensible because the input provides no basis for MEDIUM or HIGH labels, resulting in a poor severity score. The structure is clear and scannable, giving a high readability rating. Uncertainty handling is mixed: the leak is flagged as unidentified, but the noise issue guesses a specific machine instead of flagging ambiguity, yielding a moderate uncertainty score."
+}

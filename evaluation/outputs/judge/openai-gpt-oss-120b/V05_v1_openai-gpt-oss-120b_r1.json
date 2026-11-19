@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operating out of specification (dimensional tolerance drift)",
+  "Performed troubleshooting and corrective adjustments; re‑calibrated axes and verified spindle speed.",
+  "Machine is now in spec",
+  "Follow‑up to verify parts meet quality standards and monitor for 4‑8 hours",
+  "Part numbers: [list if known]",
+  "Quantity: [number]",
+  "Inspection results: Pending",
+  "Detailed action steps for inspection, segregation, re‑work or scrap",
+  "Recommendation to audit first 10–15 parts",
+  "Recommendation to monitor temperature, vibration, tool wear for two hours",
+  "Recommendation to record inspection results in production tracking system",
+  "Recommendation to notify QA team if out‑of‑spec parts discovered",
+  "No safety incidents reported during the shift",
+  "All other equipment operated normally",
+  "Spare tooling and calibration kits are stocked and ready for use"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all three facts from the supervisor input, so completeness is high. However, it adds many invented actions, measurements, and safety statements, resulting in very low accuracy and poor uncertainty handling. No severity level is provided, leading to a missing severity classification. The layout is clear and structured, giving a decent readability score despite the extraneous content."
+}

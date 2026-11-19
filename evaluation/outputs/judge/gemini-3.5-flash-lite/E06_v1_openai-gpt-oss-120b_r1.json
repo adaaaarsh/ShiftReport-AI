@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Date: 05 Nov 2026",
+  "Prepared by: [Supervisor’s Name]",
+  "Target Completion: By end of current shift",
+  "Responsible Party: Maintenance Department",
+  "Safety notes regarding cordoning off the area and cleaning spilled oil",
+  "Environmental notes on hazardous waste procedures",
+  "Communication notes to keep the control room informed",
+  "Recommendations for next shift regarding repair verification, visual inspection, and updating the equipment log"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue from the supervisor notes, but severely hallucinates multiple sections including safety procedures, environmental steps, recommendations, dates, and placeholders. It also treats the distractor (the lathe) as a formal issue row instead of filtering it out as normal. Uncertainty handling is poor as it invents operational targets and statuses not provided."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Continued to observe the line for any changes or escalation of the fault",
+  "Logged the incident in the maintenance log",
+  "Request a detailed inspection of Line C by the maintenance team",
+  "Consider implementing a scheduled diagnostic check",
+  "Schedule a brief meeting with the maintenance supervisor",
+  "Awaiting maintenance assessment and repair schedule",
+  "Confirmation of any parts or tools required for the fix"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 3,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity on Line C and captures the facts and missing elements properly, scoring high on uncertainty and severity. However, it severely hallucinates numerous actions, maintenance requests, and monitoring steps that were never in the supervisor's input. The abundance of template placeholders and fabricated operational details lowers the accuracy and readability."
+}

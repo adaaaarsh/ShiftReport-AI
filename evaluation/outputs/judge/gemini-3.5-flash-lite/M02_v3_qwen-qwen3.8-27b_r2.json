@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recurring mechanical failure causing production downtime",
+  "Monitor for recurrence",
+  "Monitor for recurrence",
+  "Potential sensor or control instability",
+  "None required (alarm cleared automatically)",
+  "Halting logistics operations for this unit",
+  "No safety hazard, minor operational delay",
+  "Unit moved to charger",
+  "Monitor M-05 (Line B) closely for further belt slipping; if it recurs, escalate to maintenance for deeper inspection",
+  "Check M-10 (Line C) temperature logs to ensure the alarm was a one-time glitch",
+  "Verify M-15 (Forklift #1) is fully charged and operational before start of shift",
+  "No safety incidents reported",
+  "Logistics may be slightly constrained if Forklift #1 is not fully charged by shift start"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues with accurate machine matches and high completeness. However, it invents a large number of extra details, actions, and monitoring suggestions not present in the input. Severities are mostly defensible, and the format is extremely clean and readable."
+}

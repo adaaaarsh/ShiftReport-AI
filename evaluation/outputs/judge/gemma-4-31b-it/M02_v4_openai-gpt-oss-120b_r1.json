@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine now running after adjustment",
+  "conveyor running after adjustment",
+  "Monitored; no manual intervention required",
+  "oven operating normally",
+  "forklift taken off line",
+  "Forklift moved to charging station",
+  "No safety incidents reported during the shift",
+  "All observed issues have been addressed to the extent possible"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly readable and complete, capturing all facts and flagging missing information. However, it contains several fabrications regarding the current status of machines (e.g., 'oven operating normally') and a general claim about safety incidents not found in the input."
+}

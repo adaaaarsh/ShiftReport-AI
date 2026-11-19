@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:00 PM",
+  "significant production impact due to potential downtime",
+  "scheduled to arrive",
+  "Status: Ongoing"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the machine and captures the core facts. However, it fabricates specific details like '3:00 PM' (input only said '3'), the reason for severity, and the status. It fails to flag the missing information regarding whether the press is still running."
+}

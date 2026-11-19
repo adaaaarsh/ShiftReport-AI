@@ -1,0 +1,4 @@
+judge,n,human_flag_%,judge_flag_%,agreement_%,kappa
+gemini-3.5-flash-lite,120,12.5,96.7,15.8,0.01
+gemma-4-31b-it,120,12.5,99.2,13.3,0.002
+openai-gpt-oss-120b,120,12.5,100.0,12.5,0.0

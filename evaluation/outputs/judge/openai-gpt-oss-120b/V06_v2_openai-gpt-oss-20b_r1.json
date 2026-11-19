@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no immediate production impact.",
+  "None reported.",
+  "Ongoing – Monitor for any escalation.",
+  "Ongoing – Investigate cause and resume normal operation.",
+  "Verify and address the odor near the Industrial Oven (M-10).",
+  "Diagnose and resolve the intermittent pauses of the Welding Robot Arm (M-06).",
+  "Monitor both machines for any changes in status.",
+  "No safety hazards reported.",
+  "Production was not halted by these issues."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report includes both issues from the supervisor input, giving it high completeness. It adds many details not present in the input and assigns an unsupported LOW severity to the oven issue, leading to very low accuracy. Severity classification is partially defensible, earning a moderate score. The formatting is clear and easy to read."
+}

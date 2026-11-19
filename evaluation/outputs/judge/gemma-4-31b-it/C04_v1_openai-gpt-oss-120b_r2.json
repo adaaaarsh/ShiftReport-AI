@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Replaced the pump unit with a brand-new assembly",
+  "Conduct a root-cause analysis (RCA)",
+  "Review lubrication schedule, oil type, and contamination levels",
+  "Inspect alignment, shaft run-out, and vibration levels",
+  "Consider upgrading to a higher-rated bearing",
+  "Schedule a temporary standby pump",
+  "documented in maintenance log #XYZ123",
+  "Visual and tactile inspection confirmed bearing wear",
+  "no external damage to housing or impeller observed",
+  "Assign to Maintenance Engineer (e.g., John Doe)",
+  "deadline, e.g., 2026-11-07",
+  "Arrange for a portable vibration monitor",
+  "Verify that the correct lubricant grade is being used",
+  "Ensure an appropriate stock of upgraded bearings",
+  "No immediate downtime reported",
+  "No safety incidents associated with the pump failure",
+  "Monitor pump C temperature and vibration levels every 2 hours",
+  "Log any abnormal noises or performance deviations in the equipment logbook",
+  "switch to the standby pump",
+  "uploaded to the CMMS under Asset ID: CP-C",
+  "meeting with the maintenance team is scheduled for 2026-11-06, 09:00"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing an entire maintenance plan, specific dates, names, and log numbers not present in the input. It completely ignores the blatant contradiction in the input (brand new pump vs original bearings failing). While it captures the facts, the level of invention is extreme."
+}

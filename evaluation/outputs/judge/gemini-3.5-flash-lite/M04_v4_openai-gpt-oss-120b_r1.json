@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM/PM designation (2:10 PM)",
+  "Severity description for M-12 (Could lead to utility instability and affect downstream equipment)",
+  "Status details for M-12 (Issue persists, no resolution reported)",
+  "Severity description for M-06 (Minor maintenance item, no production impact reported)",
+  "Action details for M-06 (Not performed yet; noted for next shift)",
+  "Pending items descriptions and confirmations",
+  "General notes (No staffing or additional safety incidents noted)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and captures exact facts accurately, but introduces several fabricated interpretations and details for the compressor and welding robot. The severity for the compressor is inflated to HIGH without evidence from the input. Readability and uncertainty handling are excellent due to the clear structure and explicit surfacing of unknown or missing items."
+}

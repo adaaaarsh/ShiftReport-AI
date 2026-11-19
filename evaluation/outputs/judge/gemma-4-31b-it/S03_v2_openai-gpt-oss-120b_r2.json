@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Completed scheduled weekly load test; recorded fuel level",
+  "Status: Resolved",
+  "Monitor fuel level; schedule refuel if it drops below 50 %",
+  "Verify next scheduled maintenance date for the backup generator",
+  "All systems operating normally",
+  "No safety or production concerns reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and assigns a reasonable severity. However, it includes several fabricated details in the 'Pending Items' and 'General Notes' sections that were not in the supervisor's notes. Readability and uncertainty handling are high as the report is well-structured and there were no ambiguities to flag."
+}

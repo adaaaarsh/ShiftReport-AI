@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential bearing wear or cavitation that could lead to pump failure",
+  "Monitored continuously; no immediate flow restriction observed",
+  "Schedule a maintenance inspection",
+  "Verify vibration levels and temperature during the next shift",
+  "Temporary halt in production; risk of repeat overload if underlying cause persists (e.g., tool wear, program error)",
+  "Alarm cleared, spindle reset, and machine returned to production",
+  "Review the last program run for excessive load conditions",
+  "Inspect tooling for wear or damage",
+  "Log the event in the CNC maintenance system and monitor for recurrence",
+  "Reduced throughput; possible backlog for the next shift",
+  "Adjusted line speed to accommodate staffing level; operators managed workload accordingly",
+  "Arrange for a temporary replacement or cross-train another staff member for future absences",
+  "Evaluate if the reduced speed caused any product quality deviations",
+  "Plan to increase speed back to normal once staffing is restored",
+  "General Recommendations section content",
+  "Outstanding Items for Incoming Shift section content"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "While the report captures all reported items completely and presents them in a highly readable format with appropriate unknown severities, it massively hallucinates a large volume of causes, monitoring actions, impacts, follow-ups, and recommendations that were never stated in the supervisor input."
+}

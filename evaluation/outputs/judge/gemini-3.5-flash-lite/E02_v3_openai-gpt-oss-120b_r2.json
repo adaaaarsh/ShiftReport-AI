@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue persists from previous shift; potential to affect production if not resolved",
+  "No new action taken during this shift; issue remains under observation",
+  "Booth down halts painting operations for line D, impacting downstream production",
+  "Investigate and resolve the recurring issue with M-03 Hydraulic Press (Line A) as detailed in Tuesday's report",
+  "Diagnose cause of the paint booth outage on Line D and perform necessary repairs to restore operation",
+  "Verify that any safety precautions are in place while the paint booth remains offline",
+  "No additional staffing or safety incidents reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures both issues from the very brief input but extensively fabricates details, actions, statuses, and general notes that were not stated or implied by the supervisor. Severities are confidently assigned despite insufficient evidence in the raw notes. Readability and structure are good, but the high volume of invented information severely lowers accuracy."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics capacity reduced to single unit",
+  "Time Noticed: Before 1:40 PM",
+  "Status: Ongoing — Awaiting repair",
+  "Monitor logistics operations closely; only Forklift #1 (M-15) is available for all material handling tasks",
+  "Follow up on Work Order #4471 for Forklift #2 (M-16) repair status",
+  "Ensure Forklift #1 (M-15) is charged and operational to maintain logistics flow",
+  "Logistics capacity is currently at 50% due to the outage of Forklift #2",
+  "No other safety incidents or machine malfunctions reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately regarding Forklift 2 and Work Order 4471, and correctly identifies M-16. However, it inflates the severity to HIGH without direct evidence and adds several fabricated operational instructions, percentage capacity metrics, and status assessments not mentioned in the brief input. Readability is strong and well-structured, but the extraneous fabrications pull down the accuracy and severity scores."
+}

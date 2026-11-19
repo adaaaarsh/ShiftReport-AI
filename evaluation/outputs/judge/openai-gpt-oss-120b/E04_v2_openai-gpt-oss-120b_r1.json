@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Severity: HIGH – Significant deviation from operating parameters and safety interlock bypass; could affect product quality and safety.",
+  "Monitor oven temperature closely and ensure it returns to normal setpoint.",
+  "Re‑enable the interlock and verify proper operation before starting the next batch.",
+  "Document any further temperature excursions and corrective actions.",
+  "No other equipment issues reported during this shift.",
+  "All personnel were informed of the temporary interlock bypass and instructed to watch for any alarms."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures all facts from the supervisor input and uses the correct machine ID, but it adds several invented details such as status, recommendations, and personnel notifications, lowering accuracy to 3. Completeness is perfect (5) as no input items are omitted. The assigned severity HIGH is not fully justified compared to the expected CRITICAL, yielding a severity score of 3. Readability is high (5) due to clear headings, while uncertainty handling is poor (1) because missing items are not explicitly flagged."
+}

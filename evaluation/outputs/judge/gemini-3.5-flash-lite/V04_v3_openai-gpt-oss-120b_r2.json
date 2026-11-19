@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-14 — HVAC System (Utilities)",
+  "Time Noticed: Approximately 12:00 PM (lunch period)",
+  "Action Taken: Monitored the situation; no immediate corrective action required as the issue resolved itself.",
+  "Status: Resolved — No further abnormal behavior observed.",
+  "No safety hazard"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily assigns the utility issue to M-14 (HVAC System) despite the supervisor input being completely ambiguous. It also heavily fabricates action steps, times, and statuses not present in the input. While completeness is decent and readability is structured, the uncertainty handling is poor because it resolves ambiguity silently and invents non-existent details."
+}

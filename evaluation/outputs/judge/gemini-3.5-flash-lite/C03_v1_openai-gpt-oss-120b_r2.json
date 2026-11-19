@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Notified maintenance; awaiting repair parts",
+  "Forklift 2 (or other available forklift) Operational Utilized to move finished pallets to shipping at 06:00",
+  "No issues observed",
+  "Finished Pallet Transfer: At 06:00, the operational forklift was used to transport all completed pallets...",
+  "Safety Checks: Performed routine safety inspection on the operational forklift before use; no defects found",
+  "Maintenance ticket #: [Insert Ticket #] opened",
+  "Expected turnaround: [Insert estimated time/date] (awaiting parts)",
+  "Recommendation: Keep forklift tagged out and schedule a post-repair inspection",
+  "Verify that the shipped pallets are loaded onto the scheduled carrier...",
+  "Continue using the operational forklift for any pallet movements; monitor fuel/charge levels",
+  "Please contact the maintenance department at extension 212 for updates on Forklift 1"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report fabricates extensive details, actions, and maintenance tickets that were never in the input, specifically splitting the single input mention into a contradictory status for Forklift 1 and Forklift 2. It completely misses the core contradiction (using a tagged-out forklift), converting the distraction into a fictional operational forklift. Thus, accuracy and uncertainty handling are poor, and numerous fabricated details are present."
+}

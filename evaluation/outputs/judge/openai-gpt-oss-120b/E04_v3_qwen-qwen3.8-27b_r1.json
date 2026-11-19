@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift inferred as Night Shift (not in input)",
+  "Status described as Ongoing – batch completion in progress",
+  "Pending item: Verify temperature stability and return to automatic control",
+  "Pending item: Restore safety interlock immediately after batch",
+  "Pending item: Investigate root cause of temperature spike",
+  "Pending item: Confirm with Mike and document authorization",
+  "General note stating safety deviation significance",
+  "General note to monitor product quality for defects",
+  "Severity description adding safety risk rationale"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all factual elements from the supervisor input, but it adds numerous invented details such as a specific shift, status narrative, and multiple pending actions, lowering accuracy. All input items are present, so completeness is high. Severity is marked HIGH instead of the CRITICAL level justified by the input, resulting in a moderate severity score. The layout is clear and well‑structured, giving a high readability rating. While missing items are flagged, the report also fills gaps (e.g., shift inference) without indicating uncertainty, leading to a moderate uncertainty score."
+}

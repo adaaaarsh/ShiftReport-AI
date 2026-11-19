@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "the pump is non‑functional",
+  "Pump down, cooling for Line C machines compromised; production at risk",
+  "issue reported for immediate attention",
+  "Requires urgent repair or replacement",
+  "Arrange immediate maintenance to replace or rebuild the bearings on M-11 (Line C) or install a spare pump",
+  "Verify that Line C cooling is restored before production resumes at full capacity",
+  "Review bearing failure root cause to prevent recurrence"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates numerous details not present in the input, including the pump's operational status (non-functional) and specific pending actions. It fails to flag the blatant contradiction in the input regarding a 'brand new' pump having 'original bearings' that are 'shot again'. Severity is assigned as Critical without evidence that the pump is actually down."
+}

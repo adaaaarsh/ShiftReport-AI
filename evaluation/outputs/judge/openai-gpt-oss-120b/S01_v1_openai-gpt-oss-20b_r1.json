@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Jam cleared manually.",
+  "Ran a full test cycle to verify functionality.",
+  "No downtime beyond the jam clearance time; production was not impacted.",
+  "Monitor Line B for any recurrence of jamming.",
+  "Log the incident in the maintenance database with details of the jam cause (if identified).",
+  "Schedule a preventive check on the packaging unit for the next maintenance window."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "All factual items from the supervisor input are present, giving full completeness and good readability. However, the report adds several invented actions and details, lowering accuracy. Severity is not stated, resulting in a moderate score, and the report does not flag any unknowns, affecting uncertainty handling."
+}

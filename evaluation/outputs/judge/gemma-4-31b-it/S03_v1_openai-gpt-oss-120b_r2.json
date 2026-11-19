@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "schedule next fuel top-up per routine maintenance plan",
+  "Log Entry – Ensure the test results are entered into the maintenance management system (CMMS) with the appropriate reference number",
+  "Fuel Monitoring – Set a reminder to re-check fuel level in 30 days or after the next scheduled load test",
+  "Preventive Maintenance – No immediate maintenance required; continue with the standard monthly inspection schedule",
+  "Continue to observe generator performance during peak load periods and report any deviations promptly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately. However, it fabricates several follow-up actions and recommendations (CMMS entry, 30-day fuel check, monthly inspection schedule) not present in the supervisor's notes. Readability is high, and since no issues were reported, severity is not applicable/correctly handled."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "requires inspection and potential repair before next shift",
+  "Resolved – machine operating normally",
+  "no direct production impact, but safety/visibility concern",
+  "needs electrical inspection and repair",
+  "Inspect and repair spindle on M-01 to eliminate noise and prevent potential failure",
+  "Coordinate with maintenance to restore parking lot lighting"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is well-structured and captures all input, but it fabricates several operational details (PM, specific repair requirements, and status updates) not present in the notes. It also incorrectly lists a non-issue (Mill on B) as an equipment issue. It fails to flag any uncertainty regarding the missing maintenance status."
+}

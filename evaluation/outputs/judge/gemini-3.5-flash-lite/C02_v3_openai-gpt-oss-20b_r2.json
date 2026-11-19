@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down, production stopped",
+  "Time Noticed: Not specified",
+  "Status: Ongoing",
+  "Follow up on delivery of replacement parts for M-03",
+  "Restart and test M-03 once parts arrive",
+  "successfully run on M-03"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the machine ID and facts accurately, but fabricates several details regarding actions, status, and pending items not in the input. Completeness and readability are high, but the report misses the contradiction between the shutdown and the afternoon run, failing to flag that uncertainty. The CRITICAL severity is also arguably high given the sparse input."
+}

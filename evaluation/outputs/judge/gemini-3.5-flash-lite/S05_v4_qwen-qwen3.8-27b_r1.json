@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (inferred from 9:12 PM timestamp)",
+  "Ongoing — Temporary fix applied; permanent repair pending maintenance inspection.",
+  "Has a specific maintenance ticket or work order been logged for the overload relay inspection?",
+  "Monitor air pressure stability on Line A during the next shift to ensure no further tripping occurs.",
+  "Line A air tools were offline for approximately 8 minutes (9:12 PM – 9:20 PM).",
+  "No other equipment issues or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID, but it invents several details such as shift inference, downtime calculation, and a safety incident disclaimer. It is well-structured and handles the severity appropriately, though it includes conversational filler and fabricated pending monitoring instructions."
+}

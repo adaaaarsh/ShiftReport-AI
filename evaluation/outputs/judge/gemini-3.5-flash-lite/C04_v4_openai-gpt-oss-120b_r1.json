@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pump likely inoperable; coolant circulation for Line C is at risk, which can halt production or cause overheating",
+  "Issue remains unresolved",
+  "Verify the operational status of M-11 and shut it down if unsafe",
+  "Arrange immediate maintenance or engineering intervention to address the recurring bearing failure",
+  "Determine root cause of repeated bearing failures and consider alternative pump or bearing specifications",
+  "No other equipment issues or safety incidents reported in this update"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the equipment and contradiction, but heavily fabricates potential impacts, operational statuses, and required actions not stated by the supervisor. The severity is inflated to CRITICAL with entirely made-up justifications regarding production halts and overheating. Uncertainty is handled well through explicitly flagged clarifications, but the severe fabrications and over-escalated severity drag down accuracy and severity scores."
+}

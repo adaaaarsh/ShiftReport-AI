@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production halted",
+  "Major malfunction that could affect plant utilities and downstream equipment",
+  "Issue reported to maintenance (no further action detailed)",
+  "Awaiting maintenance repair and safety verification before restart",
+  "Minor maintenance item, no production impact at present",
+  "Noted for replacement; no immediate action taken",
+  "Complete repair and safety re-validation of M-03 after interlock replacement",
+  "Diagnose and fix short-cycling issue on M-12",
+  "Replace the worn tip on M-06",
+  "Safety and maintenance teams have been alerted for critical issues"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all of the reported items from the input, but severely over-elaborates and hallucinates many actions, causes, and statuses not present in the supervisor notes (e.g., inventing that production was halted, creating detailed statuses and pending tasks out of thin air). The compressor severity is ranked HIGH without justification, and while readability is excellent, accuracy suffers badly due to numerous fabrications."
+}

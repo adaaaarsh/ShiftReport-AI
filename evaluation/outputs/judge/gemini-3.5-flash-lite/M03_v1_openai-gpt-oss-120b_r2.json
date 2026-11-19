@@ -1,0 +1,57 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential bearing wear or cavitation that could lead to pump failure if not addressed",
+  "Monitored pump performance; no immediate flow reduction observed",
+  "Schedule a maintenance inspection during the next planned downtime",
+  "Record vibration levels and temperature for trend analysis",
+  "No production loss after restart; spindle operating normally",
+  "Operator performed alarm reset and verified spindle run",
+  "Review spindle load logs for the past 24 hrs to identify any recurring overload patterns",
+  "Check tool wear and program parameters to prevent future overloads",
+  "Include spindle condition in the next preventive maintenance checklist",
+  "Reduced throughput; may affect order fulfillment timelines",
+  "Adjusted line speed to half capacity and continued production",
+  "Re-evaluate staffing levels for the packaging line to ensure adequate coverage",
+  "Consider cross-training additional personnel to fill short-notice absences",
+  "Update production schedule to reflect the reduced output and communicate any delivery impacts to logistics",
+  "All machines are currently functional",
+  "No critical delays reported",
+  "No safety incidents or quality deviations observed during the shift",
+  "Perform a vibration and temperature check within the next maintenance window",
+  "Log the coolant pump noise and CNC overload event in the equipment maintenance system for trend tracking"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported issues and details accurately matching the machine references, but it extensively hallucinates preventive actions, impact assessments, safety claims, and maintenance recommendations that were completely absent from the supervisor notes. Readability and structure are excellent, but it presents speculative or fabricated information as concrete facts, failing entirely on uncertainty handling."
+}

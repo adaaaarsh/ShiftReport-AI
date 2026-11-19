@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Noise may indicate impending spindle wear but production continued",
+  "Machine ran at normal speed despite noise",
+  "Noise remains; maintenance follow-up pending",
+  "Loss of lighting poses safety hazard for personnel and visitors",
+  "Requires immediate attention from maintenance/Facilities",
+  "schedule maintenance inspection",
+  "coordinate with Facilities/Electrical team",
+  "Verify that all other lighting and safety systems are operational"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input items but fabricates numerous details regarding causes, actions, and follow-up steps (e.g., 'impending spindle wear', 'normal speed'). It treats a distractor (parking lot lights) as a critical equipment issue. It fails to flag any missing information or uncertainty, presenting fabricated status updates as facts."
+}

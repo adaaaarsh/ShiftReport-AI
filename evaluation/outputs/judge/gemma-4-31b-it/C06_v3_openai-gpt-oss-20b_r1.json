@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No impact on production or safety",
+  "Resolved",
+  "2:00 PM to 4:00 PM",
+  "Reduced tool performance, potential production slowdown",
+  "Ongoing",
+  "Monitor and document air tool pressure levels on Line A; investigate root cause",
+  "Verify that compressor pressure remains steady at 110 psi",
+  "no maintenance required",
+  "No safety incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous details regarding status, impact, and specific times (PM). It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Severities are reasonable based on the context provided."
+}

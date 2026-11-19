@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operation returned to normal",
+  "Temperature was brought back within normal range",
+  "Monitor M-07 for any repeat error codes",
+  "Keep an eye on M-10 temperature trends",
+  "Investigate root cause if over-temp recurs",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input and formats them clearly, but it hallucinates several actions, monitoring steps, and a 'no safety incidents' claim that were never stated by the supervisor. It also fails to capture the direct contradiction in the supervisor's notes about M-07 running fine versus having errors. Severities are reasonable given the events, but the lack of uncertainty handling lowers the score."
+}

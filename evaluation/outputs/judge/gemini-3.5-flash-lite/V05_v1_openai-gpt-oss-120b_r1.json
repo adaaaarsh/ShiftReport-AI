@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 4
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "dimensional tolerance drift",
+  "Performed troubleshooting and corrective adjustments; re-calibrated axes and verified spindle speed",
+  "monitor for any recurrence during the next 4-8 hours",
+  "Conduct a detailed dimensional inspection",
+  "Segregate any non-conforming items and document findings in the quality log",
+  "arrange for re-work or scrap per SOP",
+  "Perform a quick audit of the first 10-15 parts",
+  "Keep an eye on temperature, vibration, and tool wear indicators for the next two hours",
+  "Record the inspection results... update the maintenance log",
+  "notify the Quality Assurance team immediately and halt further processing",
+  "No safety incidents reported during the shift",
+  "All other equipment operated normally",
+  "Spare tooling and calibration kits are stocked and ready for use"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures the core issue from the sparse input but extensively fabricates specific troubleshooting actions, procedures, monitoring steps, and operational claims not present in the notes. Severities are reasonable given the lack of detail, and completeness is high since all points are carried forward. However, the sheer volume of invention severely damages accuracy."
+}

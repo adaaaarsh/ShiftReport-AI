@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "2 bar to 4 bar",
+  "110 kPa",
+  "no immediate corrective action was taken"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates units (bar, kPa) and an action ('no immediate corrective action was taken'). It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Severity is marked as 'no critical issues', which is defensible given the input."
+}

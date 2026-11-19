@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "jammed the feed mechanism, causing a temporary stop in packaging",
+  "No safety incidents or staffing issues noted during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-08 and captures all facts from the input, but includes minor invented details regarding the feed mechanism and safety incidents. Severities are well-handled, and readability is high. Uncertainty handling is solid given the straightforward input."
+}

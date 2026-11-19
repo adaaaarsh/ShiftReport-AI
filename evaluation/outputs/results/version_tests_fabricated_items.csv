@@ -1,0 +1,4 @@
+model,n_scenarios,friedman_chi2,friedman_p,v1->v2 Δ,v2->v3 Δ,v3->v4 Δ,v1->v2 p(Holm),v2->v3 p(Holm),v3->v4 p(Holm)
+openai-gpt-oss-120b,30,53.8,1.2e-11,-6.65,-0.35,-1.7,9.9e-06,0.62,0.0013
+openai-gpt-oss-20b,30,42.36,3.4e-09,-5.75,-0.07,-1.85,4.1e-05,0.82,0.0014
+qwen-qwen3.8-27b,30,9.82,0.02,-0.62,0.35,-1.18,0.99,0.99,0.091

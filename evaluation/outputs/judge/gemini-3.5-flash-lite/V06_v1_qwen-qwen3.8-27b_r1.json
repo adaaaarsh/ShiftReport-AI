@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "While operations have resumed",
+  "ensure it does not impact production efficiency or safety",
+  "Initial assessment suggests it is likely minor (e.g., residual food or minor overheating)",
+  "it has not been definitively resolved",
+  "Check for any burnt residues, grease buildup, or potential electrical issues",
+  "If the smell persists or worsens, report to maintenance immediately",
+  "If pauses recur, log the timestamps and conditions (e.g., specific task, load weight) to assist the maintenance team in diagnosing the root cause",
+  "No other significant incidents or safety concerns were reported during this shift",
+  "Overall workflow remained stable aside from the noted equipment irregularities"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all information present in the brief input, maintaining correct equipment references and appropriate severity handling. However, it severely violates accuracy guidelines by inventing a vast amount of detail, including speculative causes for the smell, operational outcomes, and extensive instructions for the incoming shift that were never provided by the supervisor."
+}

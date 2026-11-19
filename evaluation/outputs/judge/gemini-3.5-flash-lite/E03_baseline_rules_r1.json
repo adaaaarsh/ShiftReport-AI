@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the primary issue on M-01 and handles completeness well, but it mistakenly lists the fine Mill on B (M-07) as a formal issue despite it having no problem. All provided facts and severities are accurate to the input without fabrication, though distractors and minor notes were incorrectly structured as actionable issues."
+}

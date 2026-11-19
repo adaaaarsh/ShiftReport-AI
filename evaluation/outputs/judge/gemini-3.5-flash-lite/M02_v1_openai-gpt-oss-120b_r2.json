@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift battery died at approx. 13:00",
+  "Removed forklift from service",
+  "Scheduled preventive maintenance check within the next week for Conveyor B",
+  "Review alarm logs for Oven C",
+  "Verify battery health after charge cycle for Forklift 1",
+  "No safety incidents were reported during the shift",
+  "All other equipment operated within normal parameters",
+  "Ticket IDs: CNV-B-2026-011, OVN-C-2026-012, FL-1-2026-013"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all original issues and machine IDs accurately, but heavily hallucinates numerous follow-up actions, ticket IDs, maintenance schedules, and claims about unmentioned equipment that were not in the input. Severities are reasonable, and readability is structured, but it completely fails to indicate uncertainty by presenting its invented details as factual."
+}

@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Do not attempt to restart or bypass interlocks",
+  "Await clearance from Safety and Maintenance",
+  "Monitor closely",
+  "If issue persists or worsens, notify Maintenance",
+  "Tip wear detected",
+  "ensure this is completed or scheduled immediately to avoid production delays",
+  "No other major incidents reported during this shift",
+  "All other equipment operating within normal parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the provided registry IDs (M-03, M-12, M-06), which is a significant accuracy error. It contains numerous fabrications regarding actions, monitoring steps, and general status claims not found in the input. It presents the information confidently without flagging any missing details or ambiguities."
+}

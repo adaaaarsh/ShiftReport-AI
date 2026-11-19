@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "may affect inspection throughput",
+  "supervisor requested maintenance review",
+  "Verify that the same problem has not spread to other Line C equipment (M-10, M-11)",
+  "No additional incidents or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-09) from an ambiguous reference to 'the thing on line C' without flagging the ambiguity. It fabricated several details regarding the impact on throughput, the specific request for maintenance, and a verification step for other machines. Severity was assigned as Medium without evidence in the input."
+}

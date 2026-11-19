@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift time 07:00–15:00",
+  "Swapped with spare",
+  "Leak not yet repaired; operators monitoring",
+  "Schedule leak repair during next maintenance window; check coolant level",
+  "Inspect HVAC unit before next shift; determine source of rattling",
+  "Replace or recalibrate sensor; verify conveyor speed stability",
+  "All critical equipment is operational",
+  "No safety incidents reported",
+  "All actions taken are logged in the maintenance system",
+  "Date 2026-11-05"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues correctly, but invents an extensive list of unverified actions, follow-ups, timestamps, and maintenance logs. Severities are reasonable, but accuracy is severely compromised by the high volume of fabricated operational details not stated in the input. Readability is strong, but uncertainty handling is limited as it presents several invented follow-up tasks without noting they were absent from the supervisor notes."
+}

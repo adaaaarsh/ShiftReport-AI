@@ -148,3 +148,13 @@ The full prompt evolution (v1 → v4) is documented in the app's "Prompt Enginee
 ## License
 
 Academic project — Class Assignment 5: Generative AI Project Proposal.
+
+---
+
+## Research evaluation
+
+The `evaluation/` folder contains the data and code for the paper *ShiftReport AI: Design and Evaluation of a Generative Language-Model Assistant for Manufacturing Shift Handover*. It includes the 30 benchmark scenarios with answer keys, all prompt versions, 750 generated reports, the automated judges' outputs, the human scores, and the analysis that produces every number in the paper. See `evaluation/README.md`.
+
+## Licence
+
+Code: MIT (`LICENSE`). Evaluation data: CC BY 4.0 (`evaluation/DATA_LICENSE.md`).

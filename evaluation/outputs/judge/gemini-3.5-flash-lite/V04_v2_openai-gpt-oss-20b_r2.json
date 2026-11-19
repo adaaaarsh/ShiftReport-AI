@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 2,
+ "fabricated_details": [
+  "Assigning the utilities event to three specific machines (M-12, M-13, M-14) instead of treating it as ambiguous",
+  "Specific time approx. 12:00 PM",
+  "Medium severity assigned to all three machines",
+  "Status ongoing requiring monitoring and further diagnostics for each",
+  "Action items for the next shift involving specific checks for each of the three units",
+  "Claiming no safety hazards were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report completely hallucinates specific machine IDs (M-12, M-13, M-14) and assigns medium severity to all three based on an ambiguous input about utilities. It fabricates several specific times, ongoing status details, and next-shift verification tasks that were not in the supervisor input. Uncertainty is handled very poorly as it invents certainty around ambiguous references."
+}

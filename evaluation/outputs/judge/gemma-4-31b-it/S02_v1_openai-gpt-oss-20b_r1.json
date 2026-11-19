@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "error code WF-E01",
+  "Wire Feed Jam description",
+  "10:32 time",
+  "Identified wire feed jam; isolated robot action",
+  "Confirmed error code via PLC diagnostics",
+  "10:35 time",
+  "Model X-200 spool",
+  "Used fresh spool from inventory; verified spool integrity",
+  "10:40 time",
+  "Recalibrated wire feed parameters (speed, tension)",
+  "Adjusted settings to factory defaults; ran calibration routine",
+  "10:55 time",
+  "Conducted test welds; verified feed stability",
+  "No further errors observed",
+  "11:05 monitoring for 15 min",
+  "Production resumed without incident",
+  "No recurring errors observed during the 15-minute monitoring period",
+  "Spool inventory: 3 spare spools remaining in the Line B storage bin",
+  "Update maintenance log recommendation",
+  "Inspect wire feed mechanism for wear recommendation",
+  "Schedule a preventive inspection in 2 weeks recommendation",
+  "Re-order additional spools recommendation",
+  "Maintain a 5-spool safety stock recommendation",
+  "Keep an eye on the wire feed error code WF-E01 note",
+  "Perform a deeper inspection of the drive motor and feed rollers note",
+  "Verify that the spare spool inventory is replenished note"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is extremely over-detailed, fabricating almost every specific action, time, part number, and recommendation not present in the input. While it captures all original facts, it presents a massive amount of hallucinated data as fact. It fails to flag any uncertainty and instead invents a highly specific technical narrative."
+}

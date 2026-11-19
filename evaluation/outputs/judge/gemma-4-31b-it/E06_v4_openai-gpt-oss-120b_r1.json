@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "3:00 PM (input only says 3)",
+  "potential for escalation but not yet a safety hazard",
+  "scheduled to arrive",
+  "awaiting maintenance response",
+  "Has any temporary containment been applied?",
+  "Verify the status of M-03 (Hydraulic Press) after maintenance: confirm leak repair, operational status, and whether any shutdown was required",
+  "Ensure any oil containment or cleanup is completed and documented"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all key information and correctly identifies the machine. However, it fabricates several details regarding the nature of the leak, the specific time (PM), and the pending actions. It also incorrectly lists the distractor (M-02) as an issue entry."
+}

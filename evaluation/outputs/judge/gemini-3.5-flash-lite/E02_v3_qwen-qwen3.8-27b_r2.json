@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assumed High due to recurrence and implication of ongoing production impact from previous day",
+  "Time Noticed: Ongoing from previous shift",
+  "Status: Ongoing",
+  "Machine fully down, production stopped for that line",
+  "Assess why it is down and determine if it is a safety hazard or a mechanical failure",
+  "Determine if the downtime on Line D and the issue on M-03 have caused a backlog or require rescheduling of orders"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details and excellently flags the unrecognized Line D paint booth. However, it invents several details and assumptions, such as production being stopped and assuming a High/Critical severity without supervisor backing. It handles uncertainty well but falls short on strict accuracy due to the generated justifications."
+}

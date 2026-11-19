@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "halted operation",
+  "Issue was cleared quickly, no production loss or damage",
+  "Resolved",
+  "No pending items reported.",
+  "No staffing, safety, or additional equipment issues noted."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct equipment ID. However, it includes multiple fabricated details such as 'halted operation', production loss assessments, and general notes on staffing and safety that were not present in the supervisor input. Readability and completeness are excellent, but accuracy suffers due to the extra invented narrative."
+}

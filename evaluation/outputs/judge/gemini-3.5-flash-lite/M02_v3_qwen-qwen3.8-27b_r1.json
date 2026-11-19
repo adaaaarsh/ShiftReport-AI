@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recurring production stoppages indicate mechanical wear or tension issues",
+  "monitor for recurrence; root cause may require further maintenance",
+  "potential sensor or control instability",
+  "halting logistics operations for this unit",
+  "unit unavailable until fully charged",
+  "if it recurs, escalate to maintenance for belt inspection/replacement",
+  "check temperature logs to ensure the alarm was a one-off event",
+  "confirm forklift #1 is fully charged and operational before end of shift",
+  "no safety incidents reported",
+  "logistics capacity reduced by 50% (one forklift down) until M-15 is recharged"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the supervisor input and structures them very clearly for readability. However, it heavily fabricates recommendations, root cause speculations, status descriptions, and a safety statement not mentioned in the source note. Severities are mostly reasonable given the context, and uncertainty is handled decently well by pointing out unstated exact times."
+}

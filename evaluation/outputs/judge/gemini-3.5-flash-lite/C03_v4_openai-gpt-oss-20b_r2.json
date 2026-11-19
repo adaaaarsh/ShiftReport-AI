@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impacted",
+  "Time Noticed: 6:00 PM",
+  "Status: Ongoing — Maintenance not yet confirmed",
+  "Clarifications Needed: Has maintenance been notified? When is the forklift expected to be repaired or replaced?",
+  "Follow up on maintenance for M-15 (Forklift #1) and arrange for a replacement or repair",
+  "Verify that shipping operations can continue without forklift #1 or with an alternative"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue and timeline from the input, but severely hallucinates multiple statuses, action items, impacts, and follow-up steps not mentioned by the supervisor. It completely misses the inherent contradiction in the input where a tagged-out forklift was simultaneously used to move pallets. The format is clean and readable, but the lack of accuracy and failure to handle uncertainty heavily penalize the scores."
+}

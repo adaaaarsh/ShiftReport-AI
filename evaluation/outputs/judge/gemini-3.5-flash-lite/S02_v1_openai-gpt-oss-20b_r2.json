@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Initial diagnosis at 10:35 AM identifying a jammed wire spool",
+  "Corrective action breakdown into spool replacement and recalibration with tension/alignment details at 10:40 AM",
+  "No further issues reported during the remainder of the shift",
+  "Downtime calculation of 35 minutes",
+  "Production loss estimated at 5 units",
+  "No incidents or safety concerns reported",
+  "Follow-up actions table with assigned roles, deadlines, and notes",
+  "Recommendations for preventive maintenance and inventory",
+  "Approval signatures"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the very brief input, but massively hallucinates a vast amount of detail, timelines, production losses, follow-up actions, and recommendations that were never stated. Severities and classifications are assigned rather than marked unknown where details are absent. While structured well and easy to read, the severe level of invention makes it a major accuracy hazard."
+}

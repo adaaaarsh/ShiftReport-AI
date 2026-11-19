@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "No pending equipment issues reported.",
+  "All operations continued normally."
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the welding robot arm and captures all core facts from the input, but it hallucinates that the issue is resolved and that no clarifications are needed despite missing details like cause and incident report status. It also completely misses the contradiction between 'no safety incidents' and 'operator burn injury', assigning an unjustified low severity and failing to flag missing information."
+}

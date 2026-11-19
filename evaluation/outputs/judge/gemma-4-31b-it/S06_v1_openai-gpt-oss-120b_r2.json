@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "15:10 time",
+  "15:20 time",
+  "15:30 time",
+  "15:35 time",
+  "Operator / QC Lead role",
+  "Maintenance Technician role",
+  "QC Lead role",
+  "Calibration drift as root cause",
+  "Recommendation to record in maintenance log",
+  "Recommendation to schedule routine calibration check",
+  "Recommendation to increase visual monitoring",
+  "Recommendation to attach calibration certificate",
+  "Production Impact: Minimal",
+  "Quality Impact: No non-conforming parts were shipped"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and captures all facts, but it is riddled with fabrications. It invents a detailed timeline with specific minutes, assigns roles to personnel not mentioned in the input, and creates an entire set of root causes and follow-up recommendations. It also presents the situation as fully resolved without flagging the unknown cause of the drift."
+}

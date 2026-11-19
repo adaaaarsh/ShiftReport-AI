@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Supervisor stopped the machine, performed a visual inspection, and logged the observation",
+  "No further troubleshooting was possible during the shift",
+  "Detected a coolant/ hydraulic leak",
+  "area was isolated to prevent slip hazards",
+  "No repair performed pending identification of the source",
+  "Verify that the leak area is fully cleaned and that there are no slip hazards before production resumes",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate",
+  "additional technical support may be required for the CNC Milling Machine inspection"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report contains extensive fabrications regarding actions taken (stopping machines, isolating areas) and general shift notes (safety, staffing). It guessed a specific machine (M-07) for an ambiguous reference to 'the big machine on B'. Severities were assigned as Medium without evidence in the input."
+}

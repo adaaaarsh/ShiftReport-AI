@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift (Inferred from 3 PM timestamp)",
+  "Action Taken: Verified normal operation for M-07",
+  "Status: Resolved for M-07",
+  "Temperature units set to °C for M-10",
+  "Status: Resolved for M-10",
+  "Monitor M-07 for any recurrence",
+  "Verify M-10 temperature stability and check calibration",
+  "No safety hazards or critical stoppages reported",
+  "Staffing levels appear normal"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items but contains numerous fabricated details such as inferred shift, status resolutions, and pending actions not present in the input. It also fails to capture the contradictions noted in the key (e.g. running fine vs throwing an error). Severities are defensible, and the format is readable, but accuracy and uncertainty handling suffer due to heavy hallucination."
+}

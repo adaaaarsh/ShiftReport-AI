@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Downtime: Approximately 10–12 minutes",
+  "Output: No loss of production volume; all scheduled units were completed on time",
+  "Immediate: Continue visual inspections of Line B every 30 minutes",
+  "Long-Term: Schedule a preventive maintenance check on the packaging unit’s feed rollers and sensors",
+  "Long-Term: Review jam incident logs to identify any pattern or root cause",
+  "No safety incidents were reported",
+  "quality checks post-jam confirmed compliance with specifications",
+  "No other equipment issues were observed during this shift",
+  "Staffing levels were adequate; all operators were briefed on the jam clearance procedure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a massive amount of detail, including downtime durations, specific maintenance tasks, safety claims, and staffing notes. Because it presents these inventions as facts, accuracy is very low. It also fails to flag any uncertainty, presenting the fabricated plan as a reality."
+}

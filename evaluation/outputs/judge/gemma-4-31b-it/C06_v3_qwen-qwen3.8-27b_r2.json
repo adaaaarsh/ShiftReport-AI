@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "Routine monitoring",
+  "Resolved / Normal",
+  "Potential impact on pneumatic tool performance and production efficiency on Line A",
+  "2:00 PM",
+  "4:00 PM",
+  "Ongoing / Under Observation",
+  "Investigate cause of air pressure loss on Line A tools (check for leaks in piping, regulator issues, or demand spikes)",
+  "Verify if pressure loss has resolved or if it persists during the next shift",
+  "Continue monitoring M-12 Compressor Unit to ensure pressure remains stable at 110 PSI",
+  "the issue appears to be localized to the distribution or usage side on Line A rather than the source",
+  "No safety incidents or critical machine failures reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous details, including specific times (PM), units (PSI), and a detailed list of pending actions and causes not found in the input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure, presenting them as separate issues instead."
+}

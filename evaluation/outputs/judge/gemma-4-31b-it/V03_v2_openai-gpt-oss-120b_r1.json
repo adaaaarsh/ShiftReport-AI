@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Noted the anomaly; no corrective action taken yet",
+  "Status: Ongoing",
+  "Diagnose and resolve the abnormal behavior of Forklift #1 (M-15)",
+  "Verify that the forklift is safe for continued operation before assigning to tasks",
+  "No other major incidents reported during the shift",
+  "Production continued without major interruptions"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific forklift (M-15) instead of flagging the ambiguity. It fabricated numerous details regarding actions taken, status, and general shift notes. It failed to surface the uncertainty of the machine ID and the missing symptoms."
+}

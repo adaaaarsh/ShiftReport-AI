@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No material loss occurred; all 14 parts were recovered and verified as good.",
+  "Production on Line C resumed normal operations following recalibration.",
+  "Monitor Line C scanner for any recurring false rejects during the first hour of the shift.",
+  "Ensure master part is readily available for quick recalibration if needed.",
+  "No other anomalies reported on other lines.",
+  "Safety and housekeeping standards maintained."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine and captures all given facts with appropriate severity. However, it invents a large amount of detail not present in the input, including production impact claims, monitoring instructions, and statements about other lines and safety standards. Because of these extensive fabrications and lack of uncertainty handling regarding the unknown cause, accuracy and uncertainty scores are heavily penalized."
+}

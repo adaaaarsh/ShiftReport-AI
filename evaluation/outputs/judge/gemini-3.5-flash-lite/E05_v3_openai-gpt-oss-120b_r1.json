@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "maintenance has been notified (action not detailed)",
+  "awaiting programming technician",
+  "Investigate and repair the hydraulic fluid leak on the unidentified 'Machine 17' (determine exact equipment ID and contain leak)",
+  "Perform the required reteach on M-06 Welding Robot Arm and verify proper operation",
+  "Confirm that the leak has been fully resolved and that there is no residual fluid on the floor or nearby equipment",
+  "No staffing changes or safety incidents reported beyond the hydraulic leak",
+  "Ensure that all maintenance tickets are updated in the work order system for tracking"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items but significantly fabricates actions taken, status updates, and procedural instructions that were not present in the input. For the second issue, it incorrectly guesses the specific registry ID M-06 instead of highlighting the ambiguity properly. Multiple fabricated details and assumptions lower the accuracy score."
+}

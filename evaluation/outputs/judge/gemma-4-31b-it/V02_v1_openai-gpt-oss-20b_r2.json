@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Stopped Line C",
+  "Logged fault in CMMS",
+  "Notified maintenance team",
+  "Prevented further production loss",
+  "Ticket #XXXX created",
+  "Awaiting response",
+  "Update the standard operating procedure (SOP) for Line C",
+  "Ensure all operators are briefed on the new troubleshooting steps",
+  "Conduct a quick review of the last week’s incident",
+  "Brief operators on early warning signs",
+  "No other significant incidents occurred during this shift",
+  "All other lines operated within normal parameters",
+  "Production targets for the day were met at 95% of planned output"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing entire actions, outcomes, and production stats not present in the input. It fails to flag the ambiguity of which machine on Line C is affected, instead presenting a generic 'machine on Line C'. Severity is guessed as High without evidence."
+}

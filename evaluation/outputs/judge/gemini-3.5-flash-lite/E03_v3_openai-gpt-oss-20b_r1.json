@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "reduced vigilance",
+  "potential for escalation",
+  "PM time suffix",
+  "investigate root cause and schedule maintenance",
+  "coordinate with facilities/maintenance",
+  "no operational impact"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely fabricates an issue for M-07 (Line B milling machine was stated as fine), duplicates the M-01 details onto M-07, and invents multiple operational actions, causes, and statuses. Completeness is good as the actual items are carried forward, but accuracy is heavily penalized for wrong machine mapping and fabricated details. Readability is decent, but uncertainty handling is poor as it treats distractor items as actionable issues."
+}

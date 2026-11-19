@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed two manual restarts; machine stabilized and is operating without further alarms",
+  "Monitor for recurrence of the same error; log the exact error code if it appears again",
+  "Shut down oven, allowed it to cool, and verified temperature sensors",
+  "Verify temperature sensor calibration and review oven set-points to prevent future overshoot",
+  "Overall production lines are stable with no major disruptions",
+  "Both pieces of equipment are back to normal operation after brief interventions",
+  "No safety incidents reported",
+  "Capture the exact error code from Machine 7 for root-cause analysis",
+  "If the error recurs, schedule a maintenance check",
+  "Perform a quick calibration check on the oven's temperature sensor",
+  "Review the oven's control parameters to ensure set-points are correctly configured",
+  "Add a short-interval temperature log for the oven during the next shift to detect any early drift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous actions, outcomes, and recommendations not present in the input. It fails to flag the contradictions in the supervisor's notes and provides no severity levels. While the structure is clear, the content is largely hallucinated."
+}

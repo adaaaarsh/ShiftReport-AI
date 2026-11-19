@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine secured and taken offline to prevent further damage",
+  "Please verify if parts have arrived or if a new ETA has been provided by maintenance/vendor",
+  "Check status of Hydraulic Press A parts order",
+  "If parts are available, coordinate with maintenance for repair and restart",
+  "If parts are not available, confirm downtime duration and adjust production schedule accordingly",
+  "No other abnormalities reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the contradiction between the machine being shut down and having run 400 pieces. It fabricates several operational actions and follow-up steps not present in the input. Severity is not explicitly assigned, and uncertainty regarding the timeline is ignored."
+}

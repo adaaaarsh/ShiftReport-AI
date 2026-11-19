@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Unusual noise reported during operation",
+  "Hydraulic Fluid/Leak",
+  "Fluid leak observed in the vicinity of Line A",
+  "Conduct a visual inspection of all Line A equipment (M-01 through M-04) to identify the source of the leak",
+  "Check for hydraulic fluid, coolant, or oil",
+  "Listen for and diagnose the source of the unusual noise",
+  "Check for loose components, bearing wear, or tooling issues",
+  "Monitor closely during the next shift to ensure no progression to failure",
+  "recommend a systematic check starting from the most likely candidates (Hydraulic Press M-03 or CNC machines M-01/M-02)",
+  "No safety incidents or production stoppages were reported",
+  "leak on Line A should be prioritized to prevent potential slip hazards or equipment damage"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report fabricates a massive amount of detail, including specific machine IDs for the noise issue, the type of fluid leaking, and extensive diagnostic instructions not found in the input. Severities are guessed (Medium/High) without evidence. It fails to flag the ambiguity of the 'big machine on B' and instead guesses M-07."
+}

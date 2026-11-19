@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Visual/Operational check performed by supervisor on M-02",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the hydraulic press issue (M-03) and captures all facts and uncertainty, but it mistakenly turns the distractor (M-02 CNC lathe is fine) into a formal reported issue/check with fabricated supervisor actions. Severity and completeness are strong, but the inclusion of the distractor as an issue lowers accuracy."
+}

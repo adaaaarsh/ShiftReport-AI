@@ -1,0 +1,57 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Replaced broken tool with a spare",
+  "Leak identified; no repair performed during shift",
+  "issue logged",
+  "Monitored; no immediate fix applied",
+  "Inspect and diagnose the HVAC unit noise; perform necessary maintenance",
+  "Repair the coolant line leak on the CNC Lathe (M-02)",
+  "Diagnose and repair the flickering speed sensor on the Conveyor Belt System (M-05)",
+  "Verify that the tool replacement on M-07 remains stable; monitor for any repeat issues",
+  "Overall production continued with minor interruptions",
+  "No safety incidents reported",
+  "Staffing levels were adequate; operators managed workarounds for sensor issue effectively"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and maps them to the correct IDs. However, it contains numerous fabrications in the 'Action Taken', 'Pending Items', and 'General Notes' sections, inventing specific maintenance steps and safety claims. It also fails to flag any missing information or uncertainty, presenting the report as complete."
+}

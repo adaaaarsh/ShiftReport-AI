@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "leak could affect performance but not an immediate safety hazard",
+  "15:00 (3 PM)",
+  "Ongoing",
+  "Verify that the oil leak on the Hydraulic Press (M-03) has been fully repaired and that there is no residual contamination",
+  "Confirm that the press is back to normal operating pressure before resuming production",
+  "Maintenance personnel are on site"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all original facts and assigns a reasonable severity, but it heavily invents details such as specific times, safety implications, and pending verification steps not present in the input. It presents these fabrications with high certainty, completely failing to flag unknowns like whether the press is still running."
+}

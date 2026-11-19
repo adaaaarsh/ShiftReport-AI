@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Times like 08:15, 08:30, 08:45, 09:00, 09:15, 09:30",
+  "Specific deviation of ±0.02 mm",
+  "Spindle misalignment cause and error code 0xA3",
+  "Maintenance Tech and Operator actions",
+  "Test Part #12345 and Part #67890",
+  "Production batch of 10 units",
+  "Spindle Alignment Tool and Calibration Jig usage",
+  "Recommendations for preventive maintenance, training, and documentation"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an extensive timeline, specific actions, parts, error codes, and causes that were not present in the brief input, leading to the lowest possible accuracy and uncertainty scores. While it captures the general facts that a CNC was out of spec and checked, it completely fails to highlight the ambiguity regarding which CNC machine was involved or that the fix was uncertain. Readability and severity handling are structurally sound, but the heavy fabrication severely penalizes the report."
+}

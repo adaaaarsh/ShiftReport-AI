@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety or process anomaly; requires verification to rule out electrical or material issues",
+  "Requires immediate investigation by next shift",
+  "Unplanned stops disrupt production flow and may indicate mechanical, electrical, or software faults",
+  "Root cause not identified",
+  "Check for overheating components, burnt material, or electrical faults",
+  "Ensure area is safe before resuming full operation",
+  "Check error logs, sensor status, and mechanical joints",
+  "Monitor both areas closely during the first hour of the shift",
+  "No staffing shortages or major safety incidents reported",
+  "given the nature of industrial ovens, this should not be dismissed without technical verification"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 2,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report fabricates a large amount of detailed guidance, causes, and action items that were completely absent from the minimalist supervisor input. It also assigns assertive high severities and immediate action statuses despite the supervisor stating the smell was 'probably nothing'. While readability is high and the machine IDs are correctly matched, the extensive fabrication severely penalizes the accuracy score."
+}

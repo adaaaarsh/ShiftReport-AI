@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "early part of the shift",
+  "Corrective maintenance was performed to address the issue",
+  "The machine has been adjusted and is believed to be back within operational parameters",
+  "Please inspect the first few parts produced after the repair to confirm that the machine is holding tolerance and that no defective units were produced during the downtime",
+  "Monitor output closely for the first 30-60 minutes of the next shift to ensure consistency",
+  "If any out-of-spec parts are found, halt production immediately and notify maintenance",
+  "No safety incidents reported",
+  "Work area is clean and organized",
+  "None"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the very brief input and correctly handles the ambiguous CNC machine reference. However, it heavily fabricates numerous maintenance actions, operational instructions, and safety notes that were entirely absent from the supervisor notes. Consequently, accuracy is rated a 1 due to extensive invention of detail, while completeness, severity, and uncertainty are handled well given the constraints."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "parts request submitted",
+  "waiting for delivery",
+  "Follow up on parts order",
+  "install them on M-03",
+  "Verify that the leak has been fully repaired",
+  "indicating no quality issues with the output prior to the leak"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates several specific actions and outcomes (parts request submitted, verification steps, quality conclusions) not found in the input. It fails to flag the contradiction between the machine being shut down and having run 400 pieces. Severity is assigned as Critical without explicit evidence of criticality in the input, though it is defensible given the shutdown."
+}

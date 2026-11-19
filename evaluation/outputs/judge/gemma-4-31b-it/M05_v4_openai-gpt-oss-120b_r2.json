@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue reported; no repair action completed during shift",
+  "Loss of heat is affecting product quality and production output",
+  "Potential risk to backup power availability if fuel runs low",
+  "Continue monitoring product quality on Line C to ensure no further under‑cured batches are produced"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and well-structured, capturing all issues and flagging missing information. However, it includes several fabricated details regarding the impact of the issues and the status of reporting/monitoring that were not in the input. Severities are well-defended based on the context provided."
+}

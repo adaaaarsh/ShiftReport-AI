@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 2:10 assigned to lockout action rather than time of occurrence",
+  "Severity assigned as HIGH for the compressor unit without supporting input evidence",
+  "Severity assigned as MEDIUM for the welding robot tip change",
+  "Do not restart until interlock is verified and cleared by authorized personnel",
+  "Investigate and resolve short-cycling issue to ensure stable utility supply",
+  "Perform welding tip replacement prior to start of production",
+  "Strict lockout/tagout protocols were followed",
+  "No other staffing or general floor issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all three issues and maps them to accurate machine registry IDs. However, it invents severity levels not stated in the input (such as HIGH for the compressor and MEDIUM for the welding tip) and fabricates several operational instructions and narrative conclusions. While structurally readable, it falls short on strict accuracy due to the added assumptions and fabricated details."
+}

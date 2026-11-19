@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity: LOW – no impact on production.",
+  "Action Taken: None required.",
+  "Status: Resolved.",
+  "Severity: MEDIUM – reduced performance, potential impact on downstream operations.",
+  "Action Taken: None performed during this shift.",
+  "Status: Ongoing.",
+  "Pending item: Inspect and repair air tools on Line A to restore stable pressure.",
+  "Pending item: Verify compressor output remains steady at 110 psi.",
+  "General note: Compressor performance was stable; no maintenance required.",
+  "General note: Air pressure issue may affect machining operations on Line A; prioritize during next shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly includes the two items from the supervisor input, so completeness is high. However it adds many details not present in the input (severity comments, actions, status, pending items, and general notes), resulting in very low accuracy. The severity levels assigned are reasonable given the limited information, so severity scoring is strong. Readability is excellent, but the report fails to flag missing information or contradictions, leading to poor uncertainty handling."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "odor sources require verification to rule out safety hazards (e.g., overheating, electrical fault, or material combustion)",
+  "Status: Ongoing / Unverified for M-10",
+  "Severity explanation for M-06: Intermittent stops indicate potential mechanical, software, or safety sensor issues; production flow may be disrupted",
+  "Status: Ongoing for M-06",
+  "Pending item: Investigate the source of the odor near M-10 and verify safety protocols",
+  "Pending item: Review logs or error codes for M-06 and check for sensor obstructions or mechanical jams",
+  "Pending item: Determine if robot pauses caused defective welds or downtime"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures both supervisor‑mentioned issues but adds several speculative statements and invented actions, lowering accuracy to the lowest tier. All reported items are present, so completeness is perfect. Severity choices (UNKNOWN for the oven and MEDIUM for the robot) are within the acceptable ranges, earning a top severity score. The layout is clear and well‑structured, giving a high readability rating. Uncertainty is well‑flagged with clarification questions and pending‑item notes, justifying the highest uncertainty handling score."
+}

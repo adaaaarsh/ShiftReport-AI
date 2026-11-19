@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Second restart required at 3:15 PM",
+  "Temperature stabilized and returned to normal range within 10 minutes",
+  "Production Impact: None",
+  "Safety: No safety incidents reported",
+  "Quality: No quality deviations noted",
+  "Log error code details in the maintenance log",
+  "Schedule a diagnostic check",
+  "Verify oven calibration and temperature sensor accuracy",
+  "Review recent batch recipes",
+  "Follow-Up Actions table with owners and deadlines"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured but contains numerous fabrications, including specific times (3:15 PM), durations (10 minutes), and a detailed follow-up table not present in the input. It fails to flag the contradictions in the supervisor's notes and provides no severity classifications. It presents invented actions and outcomes as facts."
+}

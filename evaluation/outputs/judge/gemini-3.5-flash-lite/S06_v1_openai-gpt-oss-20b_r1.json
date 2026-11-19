@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Root Cause Analysis section inventing suspected cause as scanner drift or mis-alignment",
+  "Corrective Actions table inventing QA Technician responsibility, status Completed, and Calibration parameters logged",
+  "Corrective Actions table inventing Update calibration log and Date/time recorded",
+  "Preventive Measures section inventing bi-weekly calibration schedule, automated alerts for consecutive rejections exceeding 5 parts, and central QC database",
+  "Outstanding Items section inventing 24 hours monitoring and discussion with QA Manager",
+  "Additional Notes section inventing no impact on production volume or quality metrics and Shift QA Lead title",
+  "Approved by section inventing supervisor signature field"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the supervisor input accurately in the summary section and correctly identifies machine M-09. However, it severely hallucinates root cause analysis, preventive measures, corrective action table entries, roles, titles, and future scheduling steps that were completely absent from the input. It also fails to surface the missing cause of calibration drift, treating the situation as fully resolved with imagined details."
+}

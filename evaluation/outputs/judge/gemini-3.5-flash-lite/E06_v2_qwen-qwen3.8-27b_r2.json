@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:00",
+  "Maintenance team has been notified and is en route",
+  "Ongoing",
+  "Monitor the arrival and intervention of the maintenance team for M-03",
+  "Verify if the oil leak on M-03 requires immediate shutdown to prevent safety hazards or further damage, depending on maintenance advice",
+  "Continue monitoring M-02 (CNC Lathe) as it was reported as operational, but keep an eye out for any secondary issues related to the press leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures the single issue accurately with correct ID and captures all facts from the input, but invades several details such as the exact time format, action descriptions, and pending monitoring tasks. Severity is rated High without clear justification given the sparse input. However, readability is high and the report successfully avoids turning the distractor into an issue."
+}

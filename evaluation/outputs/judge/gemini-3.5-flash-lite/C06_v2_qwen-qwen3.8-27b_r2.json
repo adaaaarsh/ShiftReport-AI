@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Routine monitoring",
+  "Resolved",
+  "14:00 – 16:00 (2:00 PM – 4:00 PM)",
+  "Not specified",
+  "Ongoing / Pending Investigation",
+  "Investigate the cause of intermittent air pressure loss on Line A during the 14:00–16:00 window.",
+  "Check for air leaks in the Line A pneumatic distribution system or specific tool connections.",
+  "Verify if the issue has recurred since 16:00.",
+  "The pressure loss on Line A suggests a potential leak or regulator issue downstream of the main compressor, rather than a compressor failure."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report fabricates multiple actions, statuses, time conversions, and speculative causes that were never stated in the supervisor input, making it low on accuracy. It successfully carries forward all reported details, but invents a separate erroneous issue entry for Line A equipment while splitting the compressor and air tools. Readability is high due to clear formatting, but the report introduces many fabricated action items and conclusions."
+}

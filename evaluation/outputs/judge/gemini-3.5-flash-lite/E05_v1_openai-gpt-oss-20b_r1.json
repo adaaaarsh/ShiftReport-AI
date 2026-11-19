@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-05",
+  "Shift: 08:00 - 16:00",
+  "Isolated machine from power supply",
+  "Secured leak area with absorbent pads",
+  "Notified Maintenance Team",
+  "Full hydraulic system inspection scheduled for 2026-11-06 10:00 h",
+  "Replace damaged hose/valve as per maintenance plan",
+  "Verify leak source after repair",
+  "Paused robot operation",
+  "Logged error code 0xA3 in the MES",
+  "Notified Robotics Support",
+  "Reteach cycle to be completed by 2026-11-06 14:00 h",
+  "Validate new program with test run",
+  "Update SOP for Robot 2 training",
+  "Line B production halted for 2 h",
+  "Estimated output loss: 15 units",
+  "Robot 2 production paused for 1 h",
+  "Estimated output loss: 8 units",
+  "Total estimated loss for the shift: 23 units",
+  "All safety protocols followed; no personnel injuries reported",
+  "Leak containment complied with OSHA hydraulic safety guidelines",
+  "Robot shutdown adhered to lock-out/tag-out (LOTO) procedures",
+  "Recommendations for Preventive Maintenance, Training, and Documentation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input, but invents an extensive amount of detailed actions, times, production losses, and safety compliance statements that were not in the supervisor input. It fails to flag the unrecognized registry IDs or missing information properly, presenting the hallucinated details with extreme confidence."
+}

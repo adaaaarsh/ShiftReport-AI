@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "If parts are found to be defective, initiate quarantine and rework procedures.",
+  "No other equipment issues, safety incidents, or staffing concerns were reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguity of the CNC machine and the uncertainty of the fix. However, it fabricates specific procedural instructions (quarantine/rework) and a summary claim about safety/staffing not present in the input. Severity is assigned as HIGH without explicit evidence, though it is a reasonable inference for quality failures."
+}

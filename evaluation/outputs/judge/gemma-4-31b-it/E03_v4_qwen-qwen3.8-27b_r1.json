@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "Inspect M-01 (Line A) for spindle damage before restarting",
+  "Do not operate until cleared by maintenance",
+  "Safety and security concern for employees leaving/arriving",
+  "Parking lot lighting outage may pose a risk to employee safety during arrival/departure"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input details and correctly identifies the machines. However, it fabricates several 'conclusions' and 'urgent' instructions (e.g., 'Do not operate until cleared') that were not in the supervisor's notes. It also turns a distractor (parking lot lights) into a formal issue, though it correctly flags it as unrecognized equipment."
+}

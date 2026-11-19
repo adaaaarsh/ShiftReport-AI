@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Shift: Day Shift (Inferred from lunch reference)",
+  "Time Noticed: Around lunch",
+  "Action Taken: No specific action recorded; production continued without interruption",
+  "Status: Ongoing / Monitoring",
+  "Check M-12 (Compressor Unit) and M-14 (HVAC System): Verify if either unit experienced an unexpected start/stop or fault around lunchtime",
+  "Inspect Electrical Panel: Check for any tripped breakers or voltage irregularities in the utility panel to rule out power supply issues",
+  "Monitor Stability: Keep an eye on lighting and power stability for the first hour of the shift to ensure the issue has not recurred",
+  "No safety hazards were reported",
+  "Recommend a quick check of the utility log or PLC history if available to identify the specific equipment that activated"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report fabricates multiple specific action items, status updates, and investigative steps that were not present in the brief input. It guesses a specific machine (M-12 Compressor Unit) where the input was ambiguous. However, it captures the core facts of flickering lights and continued production, and presents them in a clean template."
+}

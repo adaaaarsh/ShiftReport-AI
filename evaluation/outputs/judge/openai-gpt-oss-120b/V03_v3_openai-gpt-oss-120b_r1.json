@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Specific identification of forklift as M-15 (Forklift #1)",
+  "Severity label MEDIUM and accompanying description",
+  "Action note \"Issue noted; no corrective action taken yet\"",
+  "Status \"Ongoing — Requires further diagnosis and repair\"",
+  "Pending item to perform detailed inspection of M-15",
+  "Pending item to check M-16 as backup",
+  "Statement \"Production otherwise running normally\"",
+  "Statement \"No other equipment issues reported\""
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly notes a forklift behaving oddly, matching the supervisor’s input, but it invents a specific forklift ID (M‑15) and adds numerous details not provided, reducing accuracy. All reported items are present, so completeness is high. The severity is set to MEDIUM despite the input offering no guidance, making the severity classification indefensible. The layout is clear and easy to scan, giving high readability. Uncertainty is only partially addressed, as the report fails to acknowledge the ambiguous forklift reference."
+}

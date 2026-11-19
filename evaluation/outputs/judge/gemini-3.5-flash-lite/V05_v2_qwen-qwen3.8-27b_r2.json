@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "🟠 HIGH severity level",
+  "Status: Ongoing (Verification Required)",
+  "Note on Machine Identification reasoning mentioning M-01 as primary CNC",
+  "Verify Quality of Parts expanded description (scrap or rework, moving further down the line)",
+  "Confirm Calibration action item",
+  "General notes commentary about supervisor's report being brief and lack of timestamps"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the ambiguous input but guesses a specific machine ID (M-01) without flagging doubt correctly in the machine handling slot, and invents a high severity label along with extra operational actions. Uncertainty handling is strong as it explicitly points out the ambiguity of 'The CNC'. Accuracy and severity are penalized for the guessed ID and high severity assignment without evidence."
+}

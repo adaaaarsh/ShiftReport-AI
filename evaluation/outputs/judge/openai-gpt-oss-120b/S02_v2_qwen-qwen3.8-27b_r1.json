@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inferred shift as Day Shift (not stated in input)",
+  "Assigned severity HIGH (not provided in input)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine, times, and actions, so it captures all facts, earning high completeness and readability. However, it invents a shift label and assigns a HIGH severity not justified by the input, lowering accuracy and severity scores. It also fails to flag the uncertainty around the inferred shift and severity, resulting in a low uncertainty rating."
+}

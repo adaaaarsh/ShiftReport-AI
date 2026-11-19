@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "inspected and found to have a recurring bearing failure",
+  "Conducted a full visual and functional check of the new pump",
+  "Updated maintenance log with bearing failure details and noted the recurrence",
+  "Confirmed all safety interlocks and emergency shutdown procedures are operational",
+  "Initiate a detailed investigation into the bearing failure",
+  "Contact the pump manufacturer for guidance",
+  "Schedule a preventive maintenance check",
+  "Install vibration or temperature sensors",
+  "Brief operators on proper pump handling",
+  "Awaiting response from the supplier regarding bearing specifications",
+  "Pending approval for sensor installation and preventive maintenance schedule"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, recommendations, and outstanding items not present in the input. It fails to identify the machine ID (M-11) and ignores the blatant contradiction in the supervisor's notes. Severities are completely missing."
+}

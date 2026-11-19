@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no safety hazard",
+  "production impact limited to using the other forklift",
+  "Awaiting tire repair/replacement",
+  "no additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details regarding safety hazards, production impact, and the absence of other incidents. It also fails to flag the missing repair ETA as a clarification needed."
+}

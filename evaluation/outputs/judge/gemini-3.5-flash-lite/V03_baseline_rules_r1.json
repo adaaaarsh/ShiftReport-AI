@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 0,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 1,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely misses the reported forklift issue, erroneously claiming no equipment issues were identified. While accurate in not fabricating extra details since it states nothing, completeness and uncertainty handling are terrible because it drops the single actual warning given by the supervisor. Readability is good due to clean formatting."
+}

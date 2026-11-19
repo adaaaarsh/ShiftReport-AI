@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "overheating, electrical fault, or material combustion",
+  "production flow may be disrupted",
+  "Immediate Safety Check: Investigate the source of the odor near M-10 (Industrial Oven). Verify if any safety protocols were triggered or if the unit requires inspection before continued use.",
+  "Technical Diagnosis: Review logs or error codes for M-06 (Welding Robot Arm) to determine the cause of intermittent pauses. Check for sensor obstructions or mechanical jams.",
+  "Production Impact Assessment: Determine if the robot pauses caused any defective welds or downtime that needs to be logged."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and correctly identifies the machines. It flags all missing information and handles uncertainty perfectly. However, it fabricates several specific causes and pending actions (e.g., 'electrical fault', 'defective welds') not found in the input."
+}

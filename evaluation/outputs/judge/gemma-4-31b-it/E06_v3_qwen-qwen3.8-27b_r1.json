@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak on heavy machinery poses safety and environmental risks; potential for further damage",
+  "Status: Ongoing — Awaiting maintenance arrival",
+  "Monitor M-03 (Hydraulic Press) for maintenance arrival and repair completion",
+  "Verify oil levels and check for residual leaks after maintenance intervention",
+  "Inspect surrounding area for oil contamination/slip hazards",
+  "No other incidents or staffing issues noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately identifies the machine and the core issue. However, it fabricates several monitoring steps and a general safety claim not present in the input. It fails to flag the ambiguity of the time (AM/PM) as a gap, though it does note it is not specified."
+}

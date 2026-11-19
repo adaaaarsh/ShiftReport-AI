@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved immediately; no ongoing production impact",
+  "Time Noticed: ~5:00 (AM/PM not specified)",
+  "Potential for coolant loss and floor hazards if not addressed",
+  "Uninvestigated mechanical noise could indicate component failure",
+  "Significant production impact due to manual workarounds by operators",
+  "Inspect and repair the speed sensor on M-05 (Line B) to restore automated operation",
+  "Investigate the rattling noise on the M-14 HVAC unit (Roof)",
+  "Repair the coolant line leak on M-02 (Line A)",
+  "no further action required",
+  "Line B is currently operating with manual workarounds due to M-05 sensor issues, which may affect throughput consistency."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items completely and follows a clean, scannable format, earning high marks for completeness and readability. However, it invents numerous details, outcomes, and justifications for severities not present in the brief input, impacting accuracy and uncertainty handling."
+}

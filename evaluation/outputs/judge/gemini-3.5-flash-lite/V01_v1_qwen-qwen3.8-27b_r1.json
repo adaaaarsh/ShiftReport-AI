@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "bearing wear, loose components, or mechanical stress",
+  "Zone A (Piping/Valves)",
+  "Specific source point not yet isolated",
+  "Conduct a detailed visual inspection of all valves, joints, and piping connections in Zone A",
+  "Prioritize a thorough diagnostic check on Unit B to prevent potential mechanical failure",
+  "If the leak is significant, consider isolating the affected section for repair",
+  "Monitor both areas closely during the next shift for any worsening conditions",
+  "Ensure appropriate PPE is worn when inspecting for leaks (chemical/thermal hazards depending on fluid type)",
+  "Do not operate Unit B under load if the noise indicates imminent failure; consult with maintenance before restarting if shutdown is required",
+  "[Insert Time]"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and correctly leaves the ambiguities and severities as unknown, but it massively hallucinates a large volume of causes, recommendations, and safety procedures entirely absent from the sparse supervisor input."
+}

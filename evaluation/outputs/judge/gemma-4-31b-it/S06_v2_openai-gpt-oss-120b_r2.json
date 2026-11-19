@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "did not halt production",
+  "monitor for any repeat false rejects"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is complete and readable, but it fabricates a detail about production not halting and adds a monitoring instruction not in the input. It fails to flag the missing cause of the calibration drift, presenting the resolution as complete."
+}

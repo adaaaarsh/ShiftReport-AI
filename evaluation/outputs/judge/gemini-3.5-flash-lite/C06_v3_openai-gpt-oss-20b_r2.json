@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production on Line A may be affected by reduced air pressure",
+  "2:00 PM - 4:00 PM",
+  "Status: Ongoing - Air pressure issue persists",
+  "Investigate and resolve the air pressure drop affecting Line A air tools",
+  "Verify compressor output remains steady and confirm no hidden issues",
+  "No other machine issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the compressor (M-12) and captures all the facts from the input, but it hallucinates specific times (2:00 PM - 4:00 PM), ongoing status claims, and pending items not found in the original note. It also fails to capture the underlying contradiction between the compressor running normally and the tools losing pressure. Readability and completeness are excellent, but accuracy and uncertainty handling suffer from fabricated details and silent assumption of status."
+}

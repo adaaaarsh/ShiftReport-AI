@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "significant mechanical issue that could halt cooling and affect downstream equipment",
+  "Inspect related cooling system components for potential damage due to bearing failure"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies M-11 and captures all facts and contradictions. However, it includes a couple of invented details regarding potential impacts and inspection recommendations not present in the input. Severities are well-reasoned, uncertainty is handled excellently, and readability is high."
+}

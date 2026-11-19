@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "to maintain stability/quality",
+  "Requires immediate attention/refill",
+  "due to reduced visibility",
+  "Verify FL1 headlight repair status. Review Aisle 3 lighting/traffic protocols if necessary.",
+  "Management must review this decision. Immediate LOTO and repair should be scheduled for the next safe window. Do not operate HP on A until leak is addressed and LOTO is properly executed.",
+  "Follow up with MX supervisor regarding the missed call-out. Determine if backup coverage is needed.",
+  "Confirm status of FL1 headlight repair",
+  "Investigate the missed MX call-out"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items completely and structures them very clearly for readability. However, it severely over-elaborates and invents many specific actions, rationales, and follow-up steps not present in the brief notes (such as advising management to review decisions, scheduling repairs for the next window, and suggesting traffic protocol reviews). Severity assignments are largely defensible, but uncertainty handling is limited since it states several prescriptive action requirements as assumptions rather than surfacing them as pure unknowns."
+}

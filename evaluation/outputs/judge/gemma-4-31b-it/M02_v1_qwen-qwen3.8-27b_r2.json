@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Current Status: Operational. Monitor for recurrence.",
+  "Current Status: Operational. Monitor temperature stability.",
+  "Current Status: Charging. Verify full charge before next use.",
+  "No other significant incidents or production delays reported.",
+  "All other equipment functioning normally.",
+  "Monitor Conveyor B for any further belt slippage.",
+  "Keep an eye on Oven C temperature readings to ensure stability.",
+  "Confirm Forklift 1 is fully charged and ready for use at start of shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry IDs (using 'Conveyor B' instead of 'M-05', etc.). It fabricates numerous status updates and recommendations not found in the input. Severities are entirely missing, and no uncertainty regarding missing information is flagged."
+}

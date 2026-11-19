@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator / QC Lead / Maintenance Technician assignments",
+  "Specific times for actions (~15:10, ~15:20, ~15:30, ~15:35)",
+  "Root cause conclusion of calibration drift",
+  "Follow-up actions including logging requirements, routine checks, and increased monitoring",
+  "Impact assessment claims of minimal production impact and quality standards maintained",
+  "Outstanding items statements"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and identifies the correct equipment ID with a reasonable severity, but it heavily hallucinates specific timestamps, roles, root causes, follow-up recommendations, and impact assessments that were never mentioned in the supervisor notes."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Operator kept the machine running while monitoring the noise",
+  "Machine still in operation",
+  "Follow up on the parking lot lighting repair request"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly readable and captures all input items. However, it fabricates specific details such as 'PM' for the time, the specific action of 'monitoring the noise', and the existence of a 'repair request' for the lights. It correctly identifies the machine and flags missing information."
+}

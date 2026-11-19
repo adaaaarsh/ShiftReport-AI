@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pump likely inoperable, posing a risk of overheating to downstream equipment and potential production stop",
+  "Verify the operational status of M-11 and shut down any equipment that relies on its cooling if necessary",
+  "Contact maintenance to address the recurring bearing failure and arrange for a permanent fix or part upgrade",
+  "Document the root cause of the repeated bearing issue to prevent future recurrence",
+  "No other equipment issues or safety incidents were reported in this shift update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details from the input and flags the contradiction and missing items. However, it assigns a CRITICAL severity without input evidence and invents multiple operational assumptions, recommendations, and a claim about no safety incidents."
+}

@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production impact",
+  "Replaced broken tool with a spare",
+  "Leak identified; no repair performed during shift",
+  "Issue logged",
+  "Not inspected during shift",
+  "Monitored; no immediate fix applied",
+  "Inspect and diagnose the HVAC unit noise; perform necessary maintenance",
+  "Repair the coolant line leak on the CNC Lathe (M-02)",
+  "Diagnose and repair the flickering speed sensor on the Conveyor Belt System (M-05)",
+  "Verify that the tool replacement on M-07 remains stable; monitor for any repeat issues",
+  "Overall production continued with minor interruptions",
+  "No safety incidents reported",
+  "Staffing levels were adequate; operators managed workarounds for sensor issue effectively"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues from the input accurately regarding the core facts, but it massively fabricates actions, outcomes, statuses, and entire general notes that were never stated in the supervisor input. All items are carried forward effectively, and the layout is clean, but the heavy addition of ungrounded details pulls the accuracy score down to the minimum."
+}

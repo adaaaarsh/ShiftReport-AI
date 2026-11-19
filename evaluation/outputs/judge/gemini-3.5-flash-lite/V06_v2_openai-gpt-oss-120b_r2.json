@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "possible minor leak or residue buildup",
+  "No immediate safety hazard, production not affected",
+  "Noted the smell; no further investigation performed during the shift",
+  "Causes brief production interruptions but not a full shutdown",
+  "Monitored the pauses; no reset or manual intervention performed",
+  "Inspect the Industrial Oven (M-10) for any source of the odor (e.g., vent blockage, coolant leak, residue) and clear if necessary",
+  "Perform a diagnostic run on the Welding Robot Arm (M-06) to identify why it is pausing and apply corrective action",
+  "Document any findings and update maintenance logs",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; all operators reported normal workload",
+  "Keep an eye on both the oven area and robot performance throughout the next shift to ensure issues do not escalate"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all of the sparse input items, but completely fabricates a large amount of operational details, actions taken, causes, and general notes that were never stated in the supervisor input. Severities are assigned confidently despite lack of information, and the report fails to surface uncertainty about the ambiguous smell or robot pauses."
+}

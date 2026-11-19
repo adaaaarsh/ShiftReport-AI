@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time given as 14:10 instead of 2:10",
+  "Production impact details for Hydraulic Press A",
+  "Compressor operational status details and monitoring steps",
+  "Welding robot cell number and test weld actions",
+  "Specific follow-up tasks and maintenance workflows",
+  "Ticket IDs HS-2026-011, MT-2026-037, RB-2026-009"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items completely and formats them clearly, but heavily fabricates timestamps, ticket numbers, production impacts, and extensive follow-up actions not present in the input. The time for the lockout was also misreported from 2:10 to 14:10. Uncertainty handling is poor as it presents unsupported statuses and actions as if they were established facts."
+}

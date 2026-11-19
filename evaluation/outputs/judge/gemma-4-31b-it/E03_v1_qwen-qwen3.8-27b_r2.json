@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inspect spindle immediately",
+  "Monitor noise levels closely",
+  "If noise worsens or vibration is detected, shut down for maintenance",
+  "Report to facilities/maintenance for repair",
+  "Ensure staff are aware of potential safety hazards in the parking area after dark",
+  "Please acknowledge and celebrate with the team"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts but adds several fabricated recommendations and actions not present in the supervisor's notes. It fails to assign a severity level to the equipment issue. It correctly identifies the machines and facility issues."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Investigate root cause of recurrent bearing failure on M-11",
+  "Coordinate with maintenance to replace bearings or assess alternative solutions",
+  "No other issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report accurately identifies the machine and captures all facts, but it fabricates specific pending actions (root cause investigation, coordinating maintenance) and a general note about no other issues. It correctly flags missing information and assigns a defensible severity. The contradiction in the input (brand new vs original bearings) was not explicitly flagged."
+}

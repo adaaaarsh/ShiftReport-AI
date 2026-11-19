@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Source or fabricate the required insert",
+  "Verify tool replacement and re-calibrate lathe",
+  "Monitor vibration levels post-repair",
+  "Operator noted no obvious mechanical fault",
+  "machine running within safe limits",
+  "Conduct a detailed cycle time audit",
+  "Check for any changes in material or process parameters",
+  "Consider a preventive maintenance check",
+  "Inspect HVAC airflow and temperature settings",
+  "Verify filter status and refrigerant levels",
+  "Schedule maintenance if temperature deviation persists",
+  "20 parts rework will delay downstream operations by approximately 2-3 hours",
+  "6 s cycle time increase translates to ~18% reduction in daily output",
+  "Elevated temperatures may affect operator comfort and product quality (e.g., plastic warping)",
+  "Operator recorded cycle time change; no immediate mechanical fault identified",
+  "Procurement / Tooling responsibility assigned with ASAP deadline",
+  "Production Engineer responsibility assigned with End of day deadline",
+  "Facilities Maintenance responsibility assigned with 24 hrs deadline",
+  "Process Improvement responsibility assigned with Within 1 week deadline",
+  "The lathe chatter coincided with the start of the shift",
+  "no other equipment exhibited similar symptoms",
+  "no change in material or mold temperature was reported",
+  "HVAC warm air issue is a recurring complaint"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported issues and facts accurately matching equipment IDs, but it contains a massive amount of hallucinated and fabricated details, follow-up actions, timelines, and impact assessments not present in the input. While highly structured and complete, the severe fabrication drops accuracy to 1."
+}

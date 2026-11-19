@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "No production impact",
+  "No safety incidents reported during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and is well-structured, but it includes several fabricated details such as marking the issue as resolved and claiming no safety incidents occurred while simultaneously reporting the burn. It also fails to surface the contradiction between the general note and the reported injury, and assigns a low severity despite an operator burn."
+}

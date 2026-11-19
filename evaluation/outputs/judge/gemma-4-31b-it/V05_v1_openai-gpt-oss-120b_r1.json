@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "dimensional tolerance drift",
+  "Performed troubleshooting and corrective adjustments",
+  "re-calibrated axes",
+  "verified spindle speed",
+  "monitor for any recurrence during the next 4-8 hours",
+  "Conduct a detailed dimensional inspection of all parts produced during the period of deviation",
+  "Segregate any non-conforming items and document findings in the quality log",
+  "If parts are within tolerance, re-classify them as acceptable; otherwise, arrange for re-work or scrap per SOP",
+  "Perform a quick audit of the first 10-15 parts after the handover",
+  "Keep an eye on temperature, vibration, and tool wear indicators for the next two hours",
+  "log any anomalies",
+  "Record the inspection results of the affected batch in the production tracking system",
+  "update the maintenance log with the corrective actions performed",
+  "If any out-of-spec parts are discovered, notify the Quality Assurance team immediately and halt further processing of that batch",
+  "No safety incidents reported during the shift",
+  "All other equipment operated normally",
+  "Spare tooling and calibration kits are stocked and ready for use"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific technical causes, corrective actions, and detailed follow-up procedures not present in the input. It fails to flag the ambiguity of which CNC machine was involved, presenting 'CNC Machine' as a specific entity. While it captures the core facts, the sheer volume of invented detail makes it highly inaccurate."
+}

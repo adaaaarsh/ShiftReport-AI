@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "hydraulic leak, steering issue, battery error, sensor fault",
+  "Ensure the affected forklift is tagged out or restricted from use until the issue is resolved to prevent safety hazards",
+  "Confirm if any other minor issues mentioned as 'sorted' require final verification or documentation",
+  "No other specific machine failures or critical safety incidents were reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the ambiguity of the forklift issue and covers all input details. However, it invents multiple potential diagnoses, safety actions, and commentary not stated by the supervisor. The severity assigned is MEDIUM despite the input providing no grounds for it, though uncertainty is otherwise handled exceptionally well."
+}

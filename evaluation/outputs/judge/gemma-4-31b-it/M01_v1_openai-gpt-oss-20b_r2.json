@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator noted no obvious mechanical fault; machine running within safe limits",
+  "Conduct a detailed cycle time audit (material feed, mold temperature, cooling)",
+  "Check for any changes in material or process parameters",
+  "Consider a preventive maintenance check on the injection unit",
+  "Inspect HVAC airflow and temperature settings",
+  "Verify filter status and refrigerant levels",
+  "Schedule maintenance if temperature deviation persists",
+  "20 parts rework will delay downstream operations by approximately 2–3 hours",
+  "6 s cycle time increase translates to ~18% reduction in daily output",
+  "Elevated temperatures may affect operator comfort and product quality (e.g., plastic warping)",
+  "HVAC issue reported to facilities",
+  "Perform cycle time audit on injection molder",
+  "Inspect HVAC system and adjust settings",
+  "Re-calibrate lathe after tool change",
+  "Update SOPs if cycle time change is permanent",
+  "The lathe chatter coincided with the start of the shift",
+  "no other equipment exhibited similar symptoms",
+  "no change in material or mold temperature was reported",
+  "HVAC warm air issue is a recurring complaint",
+  "may indicate a broader system inefficiency"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete in terms of capturing the input, but it is riddled with fabrications. It invents numerous technical causes, specific follow-up actions, production impact calculations, and historical context not present in the supervisor's notes. Additionally, it fails to use the provided registry IDs, referring to machines only by name."
+}

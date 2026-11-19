@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Order replacement seal immediately",
+  "Schedule maintenance to replace seal before the next production run",
+  "Run a short test batch after repair to verify temperature stability",
+  "Hold all output from Line C until oven repair is completed",
+  "Quarantine the three bad batches for re-work or scrap according to SOP",
+  "Document root-cause findings (heat loss) in the QC log",
+  "Contact fuel supplier to confirm new delivery ETA",
+  "Arrange backup fuel source if delivery is delayed >12 hrs",
+  "Monitor generator runtime and fuel levels closely",
+  "Verify tire pressure and log the maintenance ticket",
+  "Include forklift in the next routine inspection cycle",
+  "All safety checks for the repaired forklift have been completed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts but fabricates numerous specific actions and recommendations not found in the input. It fails to use registry IDs and does not flag any missing information or uncertainties. Readability is high due to the structured table."
+}

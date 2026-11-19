@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production on Line C is intermittent/unstable",
+  "potentially affecting output targets and downstream processes",
+  "sensor drift, motor stall, control-logic error",
+  "Operator performed a manual reset and continued monitoring",
+  "production continued at reduced efficiency",
+  "Line C is operational but not at optimal performance",
+  "No safety hazards have been identified",
+  "Assign a maintenance technician/electrical engineer",
+  "Check the specific component that failed last week (e.g., PLC I/O module, encoder, drive motor)",
+  "verify firmware/parameter settings",
+  "Review the maintenance log from the previous incident",
+  "Compare sensor readings, error codes, and any recent changes to the line's configuration",
+  "replace it and update the preventive-maintenance schedule",
+  "Document the failure mode and corrective steps in the equipment history",
+  "Notify the Production Planning team",
+  "Keep the shift crew informed of any temporary work-arounds or safety precautions",
+  "Diagnostic and corrective action to be completed by the end of the next shift",
+  "Responsibility: Maintenance Lead, Production Supervisor",
+  "run a 30-minute trial to confirm stable operation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific causes, actions taken, and detailed follow-up plans not present in the input. It fails to flag the ambiguity of which machine on Line C is affected, presenting the general 'Line C equipment' as a known entity. While it captures the basic fact of a recurring issue, the sheer volume of invented detail makes it highly inaccurate."
+}

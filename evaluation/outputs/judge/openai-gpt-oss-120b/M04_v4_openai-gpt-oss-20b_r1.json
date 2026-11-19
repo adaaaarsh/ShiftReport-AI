@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard, machine fully down, production stopped",
+  "Status: Ongoing — Awaiting maintenance response",
+  "Severity: UNKNOWN — Insufficient detail on impact or safety risk",
+  "Status: Ongoing",
+  "Severity: MEDIUM — Maintenance requirement, no immediate safety or production impact",
+  "Action Taken: Tip change scheduled for next shift",
+  "Status: Pending"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all three issues from the supervisor input, so completeness is perfect. However, it adds several invented details such as severity descriptions, status fields, and a scheduled tip‑change action, lowering accuracy to the lowest tier. One severity (MEDIUM for the welding robot) is not supported by the answer key, resulting in a moderate severity score. The layout is clear and the report flags unknowns, giving high readability and uncertainty handling."
+}

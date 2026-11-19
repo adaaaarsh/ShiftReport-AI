@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — Conveyor remains stopped; no restart reported",
+  "Status: Resolved — Oven operating normally after alarm cleared",
+  "Status: Pending — Awaiting full charge before next use",
+  "No safety incidents reported",
+  "Production interruptions due to conveyor stoppages should be documented for trend analysis"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and facts accurately and flags missing information well. However, it fabricates several status updates (e.g., conveyor remains stopped) and a general note about safety incidents not mentioned in the input. These fabrications lower the accuracy score to a 3."
+}

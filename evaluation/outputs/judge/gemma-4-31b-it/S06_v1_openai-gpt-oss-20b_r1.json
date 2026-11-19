@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Suspected Cause: Scanner drift or mis-alignment",
+  "Confirmation: Recalibration restored accuracy, indicating the issue was likely due to calibration drift rather than a hardware fault",
+  "Responsible: QA Technician",
+  "Notes: Calibration parameters logged",
+  "Notes: Date/time recorded",
+  "Preventive Measures: Implement a bi-weekly calibration schedule",
+  "Preventive Measures: Enable automated alerts for consecutive rejections exceeding 5 parts",
+  "Preventive Measures: Ensure all calibration activities are logged in the central QC database",
+  "Follow-up: Monitor scanner performance for the next 24 hours",
+  "Review: Discuss calibration interval adjustment with QA Manager",
+  "No impact on production volume or quality metrics for this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates an extensive amount of detail, including root causes, specific personnel (QA Technician), preventive measures, and follow-up actions not mentioned by the supervisor. It presents these inventions as facts rather than possibilities, failing the uncertainty and accuracy rubrics."
+}

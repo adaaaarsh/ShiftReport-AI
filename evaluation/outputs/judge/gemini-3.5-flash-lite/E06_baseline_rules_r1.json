@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 0,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "The lathe next to it is fine."
+ ],
+ "accuracy": 1,
+ "completeness": 1,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report completely misses the actual issue (the hydraulic press leak, M-03) and instead incorrectly reports the distractor (the lathe, M-02) as an issue. Because the primary problem is omitted and false information is reported, the accuracy, completeness, severity, and uncertainty scores are all at the lowest level."
+}

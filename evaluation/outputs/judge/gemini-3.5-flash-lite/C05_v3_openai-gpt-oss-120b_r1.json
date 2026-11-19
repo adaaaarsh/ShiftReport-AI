@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor personal injury, no impact on machine operation or production",
+  "Status: Resolved",
+  "Continue routine monitoring of the welding robot cell for any safety concerns",
+  "Ensure first-aid supplies are stocked and accessible",
+  "No safety incidents beyond the minor burn reported",
+  "Production proceeded without interruptions"
+ ],
+ "accuracy": 1,
+ "completeness": 4,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report includes several fabricated details, outcomes, and pending items not supported by the input, and assigns a low severity while explicitly contradicting its own general notes. It captures the core facts accurately in terms of the event itself, but handles uncertainty poorly by ignoring the contradiction between the claim of 'no safety incidents' and the burn injury. Readability is high due to the clean template structure."
+}

@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance team notified",
+  "Production on Line D is halted pending repair",
+  "coordinate with the maintenance lead to determine ETA",
+  "No resolution has been achieved during this shift",
+  "Maintenance is aware of the recurring nature of this fault",
+  "Production suspended due to paint booth outage",
+  "Production may be delayed or operating at reduced capacity",
+  "No other major incidents reported during this shift",
+  "Safety protocols remain in effect"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues but fabricates a significant amount of operational detail (maintenance notifications, production halts, safety claims) not present in the input. It correctly identifies the press ID as unknown/unspecified. Readability is high, but accuracy is very low due to the extensive fabrications."
+}

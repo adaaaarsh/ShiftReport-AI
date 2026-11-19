@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift #2 (M-16) was utilized to move finished pallets to shipping at 6:00",
+  "Unit was tagged out to prevent further use",
+  "Ensure a maintenance ticket is filed for M-15",
+  "Monitor availability of M-16",
+  "Production flow was maintained by switching to the backup forklift (M-16)",
+  "No other equipment issues or safety incidents were reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely ignores the contradiction in the input (Forklift 1 was tagged out but also used at 6) and instead fabricates a scenario where Forklift 2 was used. It also invents several maintenance and logistics actions not present in the notes. This is a critical accuracy failure as it misrepresents the actual events reported by the supervisor."
+}

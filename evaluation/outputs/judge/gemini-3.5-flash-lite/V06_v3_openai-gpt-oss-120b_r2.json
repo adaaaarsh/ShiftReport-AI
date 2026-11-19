@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate safety or production impact reported",
+  "Observation only; no corrective action taken yet",
+  "Ongoing — Monitor for any change in odor or related issues",
+  "Intermittent pauses can affect cycle time and production flow",
+  "None reported; issue observed",
+  "Ongoing — Requires investigation to determine cause",
+  "Inspect the oven area for any source of the smell and verify that there are no gas leaks or overheating components",
+  "Check the welding robot arm (M-06) for error codes, sensor faults, or power interruptions; perform necessary troubleshooting or schedule maintenance",
+  "Document any further observations related to these issues and update status accordingly",
+  "No safety incidents or staffing concerns reported during this shift",
+  "Production continued without major interruptions, though the robot pauses may have caused minor delays"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "While the report is well-structured and captures both input items with correct machine IDs, it severely hallucinates numerous details, actions, statuses, and impact claims that were never stated in the minimal supervisor input. Furthermore, it invents extensive pending inspection steps and general notes, treating uncertain notes as concrete operational statuses."
+}

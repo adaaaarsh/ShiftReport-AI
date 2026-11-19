@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate shutdown; potential for premature wear or failure",
+  "Check bearings, motor couplings, and lubrication points",
+  "Record any abnormal vibration readings",
+  "schedule maintenance with the OEM service team",
+  "Visible moisture/condensation",
+  "Minor spill risk; no safety hazard reported yet",
+  "Verify pressure readings on nearby lines",
+  "Repair or replace the faulty component as soon as possible to prevent equipment downtime or slip hazards",
+  "Personnel were advised to keep a safe distance and report any escalation",
+  "Area around the suspected leak was cordoned off with “Wet Floor” signage",
+  "No slip incidents occurred",
+  "Log any findings in the equipment maintenance log",
+  "initiate a work order for repair",
+  "Document pressure/temperature readings",
+  "Update the daily equipment status board",
+  "Record any corrective actions taken in the maintenance management system (e.g., CMMS)",
+  "Notify the maintenance supervisor",
+  "Inform the safety officer",
+  "operations continued without interruption"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and correctly identifies the ambiguity of the equipment. However, it fabricates an enormous amount of detail regarding impacts, specific inspection steps, safety actions (signage), and administrative procedures not present in the input. This level of fabrication is misleading and violates the accuracy rubric."
+}

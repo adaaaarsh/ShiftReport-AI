@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Divided a single event into two separate entries with duplicated machine references",
+  "Assigned a separate time (11:05) and severity (LOW) to the resolution step"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and uses the correct equipment ID, but it awkwardly splits a single continuous event into two separate issue entries with conflicting severities and times. This slight restructuring introduces minor confusion while retaining all core facts. Readability and severity scoring suffer somewhat due to this duplicated, disjointed presentation."
+}

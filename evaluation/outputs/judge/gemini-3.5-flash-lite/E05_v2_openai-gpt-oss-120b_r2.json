@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "robot was taken offline pending reteach",
+  "No safety hazards reported during this shift",
+  "All other equipment operated normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and flags the unrecognized machine 17 correctly, but it incorrectly maps robot 2 to M-06 (Welding Robot Arm) while the registry only lists one robot and the input is ambiguous. Furthermore, it invents several actions and status details such as taking the robot offline and claiming no safety hazards were reported."
+}

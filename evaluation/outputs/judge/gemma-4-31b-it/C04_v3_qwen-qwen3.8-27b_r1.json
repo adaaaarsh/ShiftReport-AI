@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "risk of total coolant loss and subsequent overheating of Line C machinery",
+  "Line C production may need to be halted or switched to emergency cooling protocols to prevent thermal damage",
+  "Contact maintenance to inspect M-11",
+  "request a root cause analysis",
+  "Verify if replacement bearings or a new pump unit are available in inventory",
+  "Determine if the issue is with the pump model itself, the installation, or the coolant fluid quality causing premature bearing wear",
+  "wrong part number, installation error, or fluid contamination",
+  "Line C is at high risk of downtime if coolant circulation is not restored or managed immediately"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fails to flag the blatant contradiction in the input (brand new vs original bearings) and fabricates a significant amount of technical analysis, risks, and action items not present in the notes. Severity is reasonable given the equipment's role."
+}

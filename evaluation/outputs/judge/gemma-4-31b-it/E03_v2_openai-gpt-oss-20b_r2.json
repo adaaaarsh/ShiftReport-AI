@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Major malfunction with significant production impact",
+  "no maintenance performed during shift",
+  "Status: Ongoing",
+  "Inspect and service spindle of M-01 to eliminate noise and prevent potential failure",
+  "No other safety hazards or production stoppages reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report accurately identifies the equipment and the core issue but fabricates several details regarding the impact, status, and specific maintenance actions. It incorrectly lists a non-issue (M-07) as an equipment issue. Severity is assigned confidently without evidence of 'significant production impact' in the input."
+}

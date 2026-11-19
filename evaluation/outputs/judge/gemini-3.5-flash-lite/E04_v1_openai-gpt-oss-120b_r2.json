@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-06",
+  "Shift: [Specify Shift – e.g., 20:00–04:00]",
+  "Prepared by: [Your Name] – Shift Supervisor",
+  "To prevent overshoot and maintain product quality, the controller was placed in manual mode and the temperature was stabilized at 355 F",
+  "The interlock was temporarily bypassed per Mike’s authorization to allow the batch to finish without interruption",
+  "Actions Required / Follow-Up items (Re-enable Interlock, Return to Automatic Control, Temperature Verification, Documentation)",
+  "Safety & Quality Impact statements (no immediate safety hazards were identified, mitigates risk of over-cooking while allowing the batch to finish on schedule)",
+  "Recommendations section (Review the interlock bypass procedure, Consider scheduling a preventive maintenance check)"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 2,
+ "rationale": "The report fabricates a significant amount of detailed commentary, actions, safety claims, and follow-up recommendations not present in the brief supervisor note. While it captures the core facts about the oven temperature and interlock, it presents an excessive amount of invented operational detail and hallucinated safety impacts."
+}

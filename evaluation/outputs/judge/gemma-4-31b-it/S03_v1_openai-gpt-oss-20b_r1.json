@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All monitoring parameters within normal ranges",
+  "No immediate refueling required; schedule for next routine check",
+  "Generator performed as expected; no mechanical or electrical irregularities",
+  "Fuel gauge reading consistent with previous checks",
+  "No additional maintenance or corrective actions needed at this time",
+  "Monitor fuel consumption closely; plan refueling before reaching 50% to avoid operational risk",
+  "Continue weekly generator tests; document any deviations promptly"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of additional detail, including monitoring parameters, maintenance status, and specific refueling recommendations not present in the notes. Because of the high volume of invented details, accuracy is low. Uncertainty is low because it presents these fabrications as facts without flagging any gaps."
+}

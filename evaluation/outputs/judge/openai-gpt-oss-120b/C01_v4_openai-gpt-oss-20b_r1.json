@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Temperatures stabilized; no further action noted."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all factual elements from the supervisor input but adds an invented action for the oven, lowering accuracy to a 3. All reported items are present, giving a completeness score of 5. Severity assignments are reasonable based on the input, earning a 5, and the structured format makes it highly readable. While the report flags some missing details, it does not call out the input contradictions, resulting in a moderate uncertainty handling score of 3."
+}

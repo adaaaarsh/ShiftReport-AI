@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Mild odor detected near the oven area",
+  "No immediate safety concern reported",
+  "None (assumed to be monitored)",
+  "Production slowed, potential for extended downtime if unresolved",
+  "None (issue noted for follow‑up)",
+  "Monitor and investigate the odor near M-10; confirm no hazardous emissions",
+  "Follow up on the intermittent pauses of M-06; schedule maintenance if needed",
+  "No safety incidents or staffing changes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures both issues from the brief input, but it severely hallucinates numerous details, causes, impacts, and actions not stated by the supervisor. It presents speculation and invented details as facts rather than marking uncertainty, resulting in a low accuracy and uncertainty score."
+}

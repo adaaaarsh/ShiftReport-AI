@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operational irregularities noted",
+  "partial issue, no immediate production impact but requires monitoring",
+  "Action Taken: None reported; issue noted for follow-up",
+  "Status: Ongoing",
+  "Monitor forklift(s) for continued irregularities and document any changes",
+  "Verify that all forklifts are operating within normal parameters before shift start",
+  "No other machine issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guesses a specific machine ID (M-15) and fabricates numerous details regarding the nature of the issue, the status, and the pending actions. While it acknowledges the ambiguity of the forklift in a footnote, it assigns a 'Medium' severity without evidence. The general notes claim no other issues, which contradicts the supervisor's mention of 'some issues earlier'."
+}

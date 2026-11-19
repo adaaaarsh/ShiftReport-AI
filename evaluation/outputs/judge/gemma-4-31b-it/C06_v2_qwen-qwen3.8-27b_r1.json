@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine monitoring",
+  "No intervention required",
+  "Resolved",
+  "Check for leaks in the air piping network specific to Line A",
+  "Verify if the issue has recurred since 16:00"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the facts and correctly identifies the contradiction between the compressor status and the tool pressure loss. However, it fabricates several actions and monitoring steps (e.g., 'Routine monitoring', 'Resolved', and specific pending checks) not found in the input. Readability and uncertainty handling are excellent."
+}

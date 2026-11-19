@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from 9:12 PM timestamp)",
+  "Status: Ongoing (Pending maintenance inspection)",
+  "Monitor air pressure stability on Line A during the next shift to ensure the issue does not recur before the maintenance inspection",
+  "Production on Line A was temporarily impacted due to the loss of air tools but resumed after the breaker reset",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the compressor unit and captures all facts from the input, but it invents several details such as shift assumptions, monitoring instructions, and general notes not present in the supervisor notes. Severities are defensible, and formatting is clear. However, it fails to flag any missing information or questions regarding scrapped or damaged parts, presenting the situation as completely resolved aside from the pending inspection."
+}

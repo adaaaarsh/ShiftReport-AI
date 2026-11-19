@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No corrective action taken; monitored flow rate.",
+  "Status: Ongoing",
+  "Status: Resolved",
+  "Status: Ongoing (Pending staffing resolution)",
+  "Investigate source of whining noise on Coolant Circulation Pump. Check for bearing wear or impeller issues despite normal flow.",
+  "Confirm staffing status for Packaging Unit. If operator is still absent, continue operating at reduced speed or arrange temporary coverage to restore full production rate.",
+  "Monitor spindle performance for any recurrence of overload alarms, though currently stable.",
+  "Staffing shortage on Line B impacted output volume for the entire shift.",
+  "No critical safety incidents or full production stoppages occurred during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three issues accurately regarding the core facts and correctly maps the equipment IDs. However, it fabricates several status fields, pending investigation recommendations, and general notes not present in the brief input. Formatting is very clean and readable, but it pads the brief notes extensively."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pump failure halts cooling for Line C, risking overheating and production stoppage.",
+  "Verify proper installation and alignment of the new pump to prevent recurrence.",
+  "Monitor Line C cooling performance closely until bearings are replaced.",
+  "No other issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue accurately in terms of registry ID and facts, but severely overstates the severity to CRITICAL by fabricating operational consequences not in the input. It completely misses the contradiction between a brand new pump and failing original bearings, inventing multiple pending actions and monitoring steps. Consequently, accuracy, severity, and uncertainty handling are scored very low due to these extensive fabrications and the failure to surface the contradiction."
+}

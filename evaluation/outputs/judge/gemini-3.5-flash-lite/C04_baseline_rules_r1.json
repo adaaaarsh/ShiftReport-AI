@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts accurately using the correct machine ID, but splits them into two separate entries and assigns low severity while missing the inherent contradiction completely. It fails to handle uncertainty by ignoring the glaring discrepancy between a brand new pump and its original bearings failing."
+}

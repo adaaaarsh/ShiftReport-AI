@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no immediate production impact",
+  "Ongoing – Monitor for any escalation",
+  "during operation",
+  "Partial issue, reduced performance",
+  "Ongoing – Investigate cause and resume normal operation",
+  "Verify and address the odor near the Industrial Oven",
+  "Diagnose and resolve the intermittent pauses of the Welding Robot Arm",
+  "Monitor both machines for any changes in status",
+  "No safety hazards reported",
+  "Production was not halted by these issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items and identifies the correct equipment IDs, but it significantly invents operational context, statuses, actions, and general notes (like 'No safety hazards reported') not present in the brief input. Severities are assigned rather than marked unknown, though the formatting and readability are excellent."
+}

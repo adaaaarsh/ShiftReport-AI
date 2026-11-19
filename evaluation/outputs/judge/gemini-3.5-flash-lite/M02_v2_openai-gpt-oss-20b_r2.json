@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Conveyor running normally after adjustment",
+  "No production loss, but potential temperature drift",
+  "Monitored oven; alarm cleared without intervention",
+  "Oven operating within normal parameters",
+  "Forklift was stationary",
+  "Battery status monitored",
+  "Forklift charging, ready for next shift",
+  "Verify conveyor belt tension and perform a preventive check on M-05",
+  "Confirm oven temperature stability and review recent alarm logs for M-10",
+  "Ensure forklift #1 battery is fully charged before shift start; consider a battery health check",
+  "Production on Line B experienced brief stoppages; overall output was slightly impacted",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no overtime required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and is structured cleanly, but it hallucinates an extensive amount of details, actions, outcomes, and commentary that were not present in the original input. It fails to handle uncertainties by inventing operational statuses and conclusions."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional equipment, safety incidents, or staffing notes were provided in this update.",
+  "Document the corrective actions taken for traceability.",
+  "Update maintenance logs with the exact machine ID and details of the issue/fix.",
+  "Verify the CNC machine’s current specifications and confirm it is operating within normal limits.",
+  "Status: Ongoing — Confirmation of successful repair is needed."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the CNC out‑of‑spec condition and the uncertainty about the specific machine, but it adds several actions and statements not present in the supervisor’s notes, such as documenting logs and asserting no safety incidents. These invented details lower the accuracy to 1, while the core items are fully represented, giving completeness a 5. Severity is appropriately marked UNKNOWN, matching the answer key, and the layout is clear, earning high readability. Uncertainty handling is partial, as not all missing information (e.g., parts checking) is flagged, resulting in a 3."
+}

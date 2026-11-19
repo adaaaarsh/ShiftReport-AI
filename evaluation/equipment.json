@@ -1,0 +1,82 @@
+[
+ {
+  "id": "M-01",
+  "name": "CNC Milling Machine",
+  "line": "Line A"
+ },
+ {
+  "id": "M-02",
+  "name": "CNC Lathe",
+  "line": "Line A"
+ },
+ {
+  "id": "M-03",
+  "name": "Hydraulic Press",
+  "line": "Line A"
+ },
+ {
+  "id": "M-04",
+  "name": "Injection Molder",
+  "line": "Line A"
+ },
+ {
+  "id": "M-05",
+  "name": "Conveyor Belt System",
+  "line": "Line B"
+ },
+ {
+  "id": "M-06",
+  "name": "Welding Robot Arm",
+  "line": "Line B"
+ },
+ {
+  "id": "M-07",
+  "name": "CNC Milling Machine",
+  "line": "Line B"
+ },
+ {
+  "id": "M-08",
+  "name": "Packaging Unit",
+  "line": "Line B"
+ },
+ {
+  "id": "M-09",
+  "name": "Quality Inspection Scanner",
+  "line": "Line C"
+ },
+ {
+  "id": "M-10",
+  "name": "Industrial Oven",
+  "line": "Line C"
+ },
+ {
+  "id": "M-11",
+  "name": "Coolant Circulation Pump",
+  "line": "Line C"
+ },
+ {
+  "id": "M-12",
+  "name": "Compressor Unit",
+  "line": "Utilities"
+ },
+ {
+  "id": "M-13",
+  "name": "Backup Generator",
+  "line": "Utilities"
+ },
+ {
+  "id": "M-14",
+  "name": "HVAC System",
+  "line": "Utilities"
+ },
+ {
+  "id": "M-15",
+  "name": "Forklift #1",
+  "line": "Logistics"
+ },
+ {
+  "id": "M-16",
+  "name": "Forklift #2",
+  "line": "Logistics"
+ }
+]

@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine restarted (M-05)",
+  "Resolved (monitoring required) (M-05)",
+  "Monitored the oven (M-10)",
+  "Resolved (continue observation) (M-10)",
+  "Forklift became inoperable (M-15)",
+  "Battery charging initiated (M-15)",
+  "Ongoing (charging) (M-15)",
+  "Verify conveyor belt tension on M-05",
+  "Check the industrial oven’s temperature sensor and alarm log on M-10",
+  "Confirm that Forklift #1 (M-15) is fully charged and operational before peak material movement",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; all operators responded promptly to equipment issues"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is complete and well-structured, but it contains extensive fabrications. It invents specific actions (restarting, monitoring), statuses, pending items, and general notes about safety and staffing not found in the input. It also fails to flag any missing information or uncertainty."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Equipment fully down, logistics capacity reduced to single unit",
+  "Status: Ongoing — Awaiting repair",
+  "Monitor logistics operations closely",
+  "Ensure Forklift #1 (M-15) is charged and operational to maintain logistics flow",
+  "Logistics capacity is currently at 50% due to the outage of Forklift #2",
+  "No other safety incidents or machine malfunctions reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but includes several fabrications regarding capacity percentages, monitoring instructions, and a safety claim. Severity is marked HIGH without explicit evidence in the input, and it fails to flag the missing repair ETA."
+}

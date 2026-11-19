@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety or quality risk; requires verification to rule out electrical or material issues",
+  "Intermittent stops may indicate sensor faults, software glitches, or mechanical issues; potential production impact",
+  "Monitor M-06 for further unexpected stops during the next shift",
+  "No critical safety incidents or full production stoppages reported",
+  "Both issues appear minor but require verification to prevent escalation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report successfully captures all reported items from the sparse input and structures them clearly for readability with accurate machine mapping. However, it invents significant details such as potential causes, safety risk justifications, and general notes about no safety incidents occurring. Severities are assigned as Medium even though the input stated 'probably nothing', but uncertainty handling is good by flagging missing information."
+}

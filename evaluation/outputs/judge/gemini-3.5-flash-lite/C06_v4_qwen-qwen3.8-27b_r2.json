@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PSI",
+  "2:00 PM – 4:00 PM",
+  "Resolved / Operational",
+  "Ongoing / Unresolved",
+  "Investigate and resolve pressure loss issues on Line A air tools (reported 2:00 PM – 4:00 PM)."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly highlights the contradiction between stable compressor pressure and dropping tool pressure. However, it fabricates specific times (adding 'PM' and structuring as 2:00-4:00) and invents 'PSI' units, resulting in an accuracy score of 3. Uncertainty handling and completeness are strong because it flags missing details and unrecognized equipment effectively."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — Need to confirm if any additional safety checks or equipment inspections were performed.",
+  "Verify that the welding robot arm (M-06) has been inspected for potential safety hazards.",
+  "Confirm that the operator received any additional medical follow‑up or safety training.",
+  "Review and reinforce safety procedures for the welding robot cell to prevent recurrence.",
+  "No other safety incidents or machine failures reported during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the incident and correctly identifies the machine. However, it fabricates several pending items and status updates not found in the input. It fails to flag the contradiction between 'No safety incidents' and the reported burn."
+}

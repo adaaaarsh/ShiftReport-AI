@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 3,
+ "fabricated_details": [
+  "Verify spindle condition during next maintenance check",
+  "Log noise incident in the machine logbook",
+  "Consider scheduling a detailed inspection if noise persists",
+  "Thank Jim for his contributions",
+  "Ensure cake is removed before closing to avoid spoilage",
+  "Report to Facilities Maintenance",
+  "Verify replacement or repair schedule",
+  "cake will be removed before shift end",
+  "parking lot lighting issue... will be addressed by Facilities"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input items but fabricates numerous action items and outcomes not present in the supervisor's notes. It fails to use registry IDs (M-01) and does not flag any uncertainty or missing information. Severities are not explicitly assigned, making the classification indefensible."
+}

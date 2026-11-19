@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Se detectó una fuga de aceite a partir de las 15:00 hrs",
+  "La presión del sistema está dentro de los límites seguros",
+  "la pérdida de fluido requiere atención inmediata para evitar daños mayores",
+  "Área aislada y señalizada",
+  "Se está monitoreando la presión y el nivel de aceite",
+  "Equipo de Mantenimiento (Mecánicos de planta)",
+  "Antes del final del turno (estimado 18:00 hrs)",
+  "No se observaron anomalías; funciona dentro de los parámetros normales",
+  "Se colocaron barreras de protección y señalización de “Área restringida”",
+  "Se ha dispuesto un contenedor absorbente",
+  "El supervisor de mantenimiento ha confirmado su llegada",
+  "Verificar que la zona siga debidamente aislada",
+  "no haya acumulación de aceite en el piso",
+  "Confirmar la llegada del equipo de mantenimiento y el progreso de la reparación",
+  "Realizar una inspección rápida del torno",
+  "Registrar el nivel de aceite restante en la prensa"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific times (15:00, 18:00), safety actions (barriers, absorbent containers), and monitoring steps not present in the input. It also fails to use the registry ID for the equipment and treats the distractor (the lathe) as a reported item. While readable, it presents a highly speculative scenario as fact."
+}

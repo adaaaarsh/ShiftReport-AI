@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Review maintenance logs from last week to compare symptoms and previous resolutions",
+  "contact maintenance to schedule a diagnostic check",
+  "No other equipment issues or safety incidents were reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of the machine on Line C and flags the missing information. However, it fabricates specific next steps (reviewing logs, contacting maintenance) and a claim about no other safety incidents. These additions lower the accuracy score."
+}

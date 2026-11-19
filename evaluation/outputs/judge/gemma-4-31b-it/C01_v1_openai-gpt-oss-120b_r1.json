@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed two sequential restarts; system returned to stable operation",
+  "Monitor for recurrence of the error code; log any further incidents",
+  "Shut down oven, allowed it to cool, and verified temperature sensors",
+  "Verify sensor calibration and investigate cause of over-temperature event; schedule preventive maintenance if needed",
+  "Ran smoothly for the majority of the shift",
+  "Immediate shutdown and cooling restored normal temperature levels",
+  "No product quality issues were observed",
+  "Keep the machine under observation for the next 2-3 shifts",
+  "If the error reappears, capture the full error log and involve maintenance engineering for root-cause analysis",
+  "Check and recalibrate temperature sensors on Oven C",
+  "Review recent oven usage logs to identify any patterns",
+  "Schedule a preventive maintenance check within the next maintenance window",
+  "Record the error code details in the equipment logbook",
+  "Update the oven's temperature deviation entry in the quality control log",
+  "No impact on product quality or safety was observed during the incidents",
+  "All other machines and lines are operating within normal parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous actions (shutdown, cooling, sensor verification), outcomes (no product quality issues), and detailed follow-up instructions not present in the input. It fails to flag the contradictions in the supervisor's notes and does not use the registry IDs (M-07, M-10). While readable and complete regarding the core events, the level of invention is severe."
+}

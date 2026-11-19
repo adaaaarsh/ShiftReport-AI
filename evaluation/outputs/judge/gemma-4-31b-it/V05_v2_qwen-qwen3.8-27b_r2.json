@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-01 is the primary CNC on Line A",
+  "out of spec implies potential quality defects or safety risks",
+  "Confirm Calibration: Verify that the CNC machine (M-01 or M-07) is currently within specification limits and that the fix is stable",
+  "Immediate quality control check is recommended to prevent defective parts from moving further down the line"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the ambiguity of 'The CNC' but guesses M-01 as the primary machine. It captures all facts from the input but fabricates several justifications and recommended actions not present in the supervisor's notes. Severity is assigned as HIGH without explicit evidence in the input."
+}

@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine downtime caused production interruption",
+  "machine restarted",
+  "monitoring required",
+  "Potential temperature control issue, but no immediate production loss",
+  "Monitored the oven",
+  "no manual intervention needed",
+  "continue observation",
+  "forklift became inoperable",
+  "No safety hazard; only a temporary loss of a material-handling asset",
+  "battery charging initiated",
+  "Verify conveyor belt tension on M-05 and watch for any further slipping",
+  "Check the industrial oven’s temperature sensor and alarm log on M-10 to ensure reliability",
+  "Confirm that Forklift #1 (M-15) is fully charged and operational before peak material movement",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; all operators responded promptly to equipment issues"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported issues accurately regarding the core facts, but it massively invents details, causes, status updates, monitoring steps, and a general notes section not supported by the supervisor input. Severities are assigned confidently despite thin context, and the report fails to handle uncertainties by treating unmentioned factors and actions as definitively known."
+}

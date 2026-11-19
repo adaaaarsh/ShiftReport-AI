@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics capability reduced; may affect material flow if no replacement is available",
+  "Equipment remains out of service",
+  "Verify that a functional forklift is assigned to replace M-15 or confirm that the tagged-out status has been resolved",
+  "Review safety compliance for using a tagged-out forklift and ensure proper procedures are followed",
+  "No other equipment issues reported",
+  "Staffing and safety incidents not mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine ID, but invents several status descriptions, assumptions about logistics impact, and pending actions not present in the input. Severity is rated medium without strict justification since operating a tagged-out unit is a major safety concern. It successfully highlights the contradiction and uncertainty regarding the tagged-out forklift usage."
+}

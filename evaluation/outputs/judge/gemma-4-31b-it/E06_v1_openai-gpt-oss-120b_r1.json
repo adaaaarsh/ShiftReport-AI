@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "The leak was first observed at 15:00",
+  "Maintenance team is scheduled to attend",
+  "Target completion: By end of current shift",
+  "Ensure area around the hydraulic press is cordoned off",
+  "spilled oil is cleaned promptly to prevent slip hazards",
+  "Collect and dispose of leaked oil according to the plant’s hazardous waste procedures",
+  "Keep the control room informed of the maintenance progress",
+  "Verify that the maintenance team has completed the repair",
+  "press is re-pressurized and tested",
+  "Perform a visual inspection of nearby equipment for any secondary oil contamination",
+  "Update the equipment log with the leak incident, corrective actions, and any parts replaced"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the registry ID for the hydraulic press and incorrectly reports the lathe as an issue/status item rather than a distractor. It fabricates a massive amount of detail, including specific times (15:00), safety procedures, environmental protocols, and a detailed list of recommendations not found in the input. It also fails to flag the ambiguity of 'since 3' (AM or PM)."
+}

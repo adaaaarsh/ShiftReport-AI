@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor obstruction, no production impact after clearance",
+  "No staffing or safety concerns noted",
+  "All systems operating normally after the jam was cleared"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report successfully captures all facts and matches the correct equipment ID with a defensible severity, but includes a few fabricated general notes and commentary not present in the supervisor input. Structure and readability are excellent, and all necessary details are accurately represented."
+}

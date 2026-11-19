@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted twice, significant impact on line B throughput",
+  "Belt condition should be inspected for wear or misalignment before next shift",
+  "Potential temperature fluctuation could affect product quality if recurring",
+  "Monitor for repeat alarms",
+  "Ensure battery fully charged before next shift",
+  "Inspect and, if necessary, replace or re-align the conveyor belt on M-05 (Line B)",
+  "Verify that the temperature alarm on M-10 (Line C) does not recur; check oven temperature sensors",
+  "Confirm that M-15 (Forklift #1) is fully charged and ready for operation",
+  "No safety incidents reported",
+  "Production on Line B was temporarily halted twice; overall output was reduced but no critical downtime",
+  "All other equipment operated normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machine IDs correctly. However, it contains numerous fabrications in the form of inferred impacts, suggested maintenance actions, and general status claims (e.g., 'no safety incidents') not present in the input. It fails to flag any missing information or uncertainty, presenting the report as complete."
+}

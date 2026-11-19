@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Order replacement seal immediately (priority)",
+  "Schedule maintenance to replace seal before the next production run",
+  "Run a short test batch after repair to verify temperature stability",
+  "Hold all output from Line C until oven repair is completed",
+  "Quarantine the three bad batches for re-work or scrap according to SOP",
+  "Document root-cause findings (heat loss) in the QC log",
+  "Contact fuel supplier to confirm new delivery ETA",
+  "Arrange backup fuel source if delivery is delayed >12 hrs",
+  "Monitor generator runtime and fuel levels closely",
+  "Verify tire pressure and log the maintenance ticket",
+  "Include forklift in the next routine inspection cycle",
+  "No other equipment on Line C reported issues",
+  "All safety checks for the repaired forklift have been completed; it is cleared for use"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items and presents them in a very clean, readable table format. However, it severely violates accuracy by hallucinating a large number of specific actions, monitoring steps, and maintenance procedures that were entirely absent from the supervisor's input notes. It also treats missing information as fully solved or outlines invented operational directives rather than surfacing the unknown gaps."
+}

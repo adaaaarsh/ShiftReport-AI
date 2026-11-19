@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Operational",
+  "Immediate investigation into the root cause of the repeated bearing failure is recommended",
+  "Potential causes may include misalignment, contamination, or incorrect bearing specification",
+  "Maintenance team should be notified for inspection and potential replacement of bearings or further diagnostic testing",
+  "Monitor Coolant Pump C closely for any unusual noise, vibration, or temperature increases",
+  "Coordinate with Maintenance to schedule a root cause analysis for the bearing failure",
+  "Verify if the new pump was installed with the correct bearing type and lubrication as per manufacturer specifications"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and correctly identifies the machine, but it severely hallucinates numerous recommendations, causes, and action items that were never stated. Severities and recommendations are assigned quite confidently despite minimal input. Readability is decent, but the heavy fabrication severely damages accuracy and uncertainty handling."
+}

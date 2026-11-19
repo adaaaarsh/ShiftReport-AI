@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "17:00",
+  "Leak identified; no repair performed during shift.",
+  "Not inspected during shift.",
+  "No repair; operators are monitoring and working around the issue.",
+  "Inspect and service the HVAC unit to eliminate rattling noise.",
+  "Repair the coolant line leak on the CNC Lathe (M-02).",
+  "Diagnose and repair the speed sensor on the Conveyor Belt System (M-05).",
+  "Verify that the tool replacement on M-07 remains stable; monitor for any repeat issues.",
+  "Overall production continued with minor workarounds; no major stoppages reported.",
+  "Staffing levels were adequate; operators demonstrated good situational awareness handling the sensor issue on the conveyor."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input accurately regarding core facts, but it includes numerous fabrications and extrapolations such as specific times, action statuses, and general notes that were not present in the original text. Readability and formatting are high, but uncertainty handling is limited since it confidently fills in gaps about repair statuses and pending tasks."
+}

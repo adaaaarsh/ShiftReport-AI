@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "abnormal noise may indicate wear or impending failure",
+  "Schedule a maintenance inspection at the earliest convenience",
+  "Verify spindle bearings, motor coupling, and alignment",
+  "If noise persists after inspection, consider a temporary shutdown until repaired",
+  "Contact Facilities/Electrical to diagnose and replace faulty fixtures or circuit breaker",
+  "Ensure temporary lighting or signage is provided for safety until repairs are completed",
+  "Encourage staff to celebrate responsibly and keep the area clean",
+  "No safety incidents or injuries reported during this shift",
+  "Assign to Maintenance Team (target completion by end of day)",
+  "Facilities request ticket # [insert ticket number] opened",
+  "monitor progress and confirm restoration before the next shift",
+  "Ensure break-room cleanup after the birthday celebration",
+  "Monitor Mill A closely for any escalation of the spindle noise",
+  "Verify that the parking lot remains safe for staff and visitors; post temporary warning signs if needed",
+  "Continue to maintain a clean and organized break area"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input items but fabricates a massive amount of prescriptive actions, causes, and safety claims not present in the notes. It fails to use registry IDs (M-01) and instead uses descriptive names, and it presents the information as complete without flagging any uncertainty. The 'Parking Lot Lighting' is treated as an equipment issue despite being a distractor."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored performance parameters",
+  "Status: Resolved",
+  "May need refueling before next scheduled test",
+  "No mechanical issues reported during the shift",
+  "All other equipment operating within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly maps M-13, but it introduces several fabricated details such as monitoring performance parameters and claiming all other equipment is operating normally. Severities and uncertainties are well-handled, and readability is strong."
+}

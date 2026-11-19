@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production impact",
+  "Noted for re‑programming",
+  "no immediate action taken",
+  "Fluid leak could affect equipment reliability if not addressed",
+  "Issue recorded",
+  "No safety hazards reported",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues but fabricates several details regarding impact, actions taken, and general notes. It correctly flags the unknown machine 17 but guesses that 'robot 2' is M-06 without flagging the ambiguity. Severities are reasonable."
+}

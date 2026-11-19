@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify voltage stability and ensure all safety interlocks are functioning"
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily selects M-12 for an ambiguous utility issue and assigns a Medium severity without justification. It also fabricates a pending verification step regarding voltage stability and safety interlocks that was never mentioned in the input. However, readability is high and the core facts from the supervisor notes are preserved."
+}

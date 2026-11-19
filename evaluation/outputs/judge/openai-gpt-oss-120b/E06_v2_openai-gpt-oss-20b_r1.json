@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance crew notified and en route",
+  "Verify that the hydraulic press is fully operational before resuming production"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the hydraulic press leak, the lathe status, and the incoming maintenance, so it is complete and its severity rating is defensible. It introduces two details not present in the supervisor input (the notification of maintenance and a verification step), lowering accuracy to a moderate level. All other rubric dimensions are high because the structure is clear, unknowns are flagged, and no contradictions are present."
+}

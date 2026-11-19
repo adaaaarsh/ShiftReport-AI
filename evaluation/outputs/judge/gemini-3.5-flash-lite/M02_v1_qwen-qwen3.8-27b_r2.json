@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operational. Monitor for recurrence.",
+  "Operational. Monitor temperature stability.",
+  "Charging. Verify full charge before next use.",
+  "No other significant incidents or production delays reported.",
+  "All other equipment functioning normally."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items and identifies the correct equipment IDs. However, it introduces several fabricated details and status assertions not present in the input notes, such as claiming equipment is 'Operational', assuming no other incidents occurred, and adding recommended monitoring steps."
+}

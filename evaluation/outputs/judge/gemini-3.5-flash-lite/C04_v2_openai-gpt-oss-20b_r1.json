@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "bearings were reinstalled",
+  "machine is currently non-operational",
+  "Inspect and replace the bearings on M-11 with a more durable or sealed design to prevent recurrent failure",
+  "Verify coolant flow and pressure after bearing replacement to ensure proper operation",
+  "Document the failure and update maintenance logs for M-11",
+  "No other issues reported during this shift",
+  "Ensure that the spare bearing set is available in the workshop for immediate replacement"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies M-11 and captures all input facts, but it massively fabricates actions, statuses, and pending tasks not found in the input (such as machine non-operational status and extensive maintenance instructions). It completely misses the core contradiction between a brand new pump and original bearings failing. Severities are slightly exaggerated given the sparse input, though readable."
+}

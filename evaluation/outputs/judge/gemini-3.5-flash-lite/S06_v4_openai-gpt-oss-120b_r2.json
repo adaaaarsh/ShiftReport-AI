@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production was briefly impacted by false rejects",
+  "Scanner operating normally after recalibration",
+  "No further issues noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies M-09, but introduces minor fabrications about production impact and status. Severities are defensible, readability is excellent, and uncertainty handling is moderate since it marks clarifications needed as none despite the missing cause from the answer key."
+}

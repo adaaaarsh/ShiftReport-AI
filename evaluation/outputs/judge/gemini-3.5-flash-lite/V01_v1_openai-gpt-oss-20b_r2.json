@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "High-pitched/rumbling sounds",
+  "Logged in maintenance log Entry #12345",
+  "No immediate shutdown required",
+  "Inspect mechanical components bearings belts",
+  "Small liquid leak observed",
+  "Noted in incident register ID #67890",
+  "No spill containment required",
+  "Check piping, valves, and seals in Area A",
+  "No safety incidents or injuries reported",
+  "All critical alarms were addressed and resolved",
+  "Responsible Person Maintenance Technician John Doe",
+  "Deadline End of tomorrow's shift",
+  "Responsible Person Facilities Engineer Maria Smith",
+  "No hazardous material exposure or spills were recorded",
+  "All safety signage and PPE usage were compliant",
+  "No incidents requiring emergency response",
+  "The machine noise was intermittent; it did not affect production output",
+  "The leak was minor and did not pose an immediate risk"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures both issues and maintains appropriate uncertainty regarding the exact machine identities and specific details, but it severely fails accuracy by inventing an immense amount of descriptive text, logs, procedures, names, and assurances that were never stated or implied in the minimalist input."
+}

@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Completed routine inventory checks and restocked items in the receiving area",
+  "Assisted with the loading of two outbound pallets",
+  "Conducted a safety walk-through of the warehouse",
+  "Forklift #12",
+  "erratic steering and a delayed brake response",
+  "checking hydraulic fluid, inspecting brake lines, and resetting the control panel",
+  "Reported the forklift issue to Maintenance on 08:15",
+  "Maintenance technician inspected the unit at 09:00",
+  "identified a worn brake pad and a minor hydraulic leak",
+  "Parts were ordered",
+  "forklift is currently in the maintenance bay awaiting repair",
+  "Forklift #7",
+  "Pallet Jack #3",
+  "Conveyor Belt #2",
+  "Expected repair time: 2–3 hours",
+  "Replace the worn safety sign on the loading dock",
+  "Verify the counts for the 12 items that were moved during the shift; discrepancies of 2 units noted",
+  "limit its use to non-critical tasks",
+  "Schedule a routine inspection for all forklifts next week",
+  "Update the equipment log"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is almost entirely fabricated, inventing a specific machine ID (#12) not in the registry, detailed symptoms, maintenance logs, and numerous other tasks and activities not mentioned in the input. While it captures the general idea of a forklift issue, it presents a massive amount of hallucinated data as fact. It fails to flag the ambiguity of which forklift was affected."
+}

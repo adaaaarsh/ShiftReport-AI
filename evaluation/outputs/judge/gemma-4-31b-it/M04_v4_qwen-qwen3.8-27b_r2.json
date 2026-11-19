@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Awaiting maintenance/safety inspection",
+  "Potential impact on air pressure stability for dependent equipment",
+  "no immediate production stoppage mentioned",
+  "Do NOT restart until Safety and Maintenance have cleared the interlock failure",
+  "Verify guard interlock functionality before resuming operations",
+  "Monitor air pressure and cycling frequency",
+  "escalate to maintenance to prevent pressure drops",
+  "No other staffing or general floor issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all issues and facts accurately and assigns reasonable severities. However, it contains several fabricated details in the form of inferred statuses, impacts, and specific instructions for the next shift that were not in the input. Uncertainty handling is strong, flagging missing information for the compressor."
+}

@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Critical utility component failure on Line C; risk of total coolant loss and subsequent overheating of Line C machinery.",
+  "Status: Ongoing / Pending Repair.",
+  "If the pump is down, Line C production may need to be halted or switched to emergency cooling protocols to prevent thermal damage.",
+  "Contact maintenance to inspect M-11.",
+  "Request a root cause analysis.",
+  "Verify if replacement bearings or a new pump unit are available in inventory.",
+  "Determine if the issue is with the pump model itself, the installation, or the coolant fluid quality causing premature bearing wear.",
+  "Systemic issue (e.g., wrong part number, installation error, or fluid contamination).",
+  "Line C is at high risk of downtime if coolant circulation is not restored or managed immediately."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies M‑11 and includes all facts from the supervisor input, but it adds numerous details not present in the input, lowering accuracy to 1. It captures every reported item, so completeness is 5. Assigning HIGH severity without evidence is questionable, giving a severity score of 3. The layout is clear and scannable, earning readability 5. While it flags some missing information, it also fabricates many specifics, resulting in an uncertainty handling score of 3."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temperature unit '°C' for the oven spike",
+  "Monitor M-07 (Line B) for recurrence of error codes",
+  "Verify product quality from the period when M-10 (Line C) was at 450°C to ensure no defects were produced",
+  "Check M-10 (Line C) temperature sensors and control system to prevent future spikes",
+  "Overall shift reported as stable with no safety incidents",
+  "No staffing issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all actual input facts and matches correct machine IDs, but heavily hallucinates pending action items, monitoring steps, and claims that no safety or staffing issues occurred. Severities are assigned with confidence rather than marking unknowns where evidence is thin. Contradictions present in the input text are completely ignored rather than surfaced."
+}

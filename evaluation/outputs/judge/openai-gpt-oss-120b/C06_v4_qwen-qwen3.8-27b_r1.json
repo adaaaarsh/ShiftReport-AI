@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None required (monitoring only)",
+  "Status: Resolved / Normal",
+  "Clarifications Needed: None",
+  "Time Noticed: ~2:00 PM to 4:00 PM",
+  "Action Taken: Not specified",
+  "Status: Ongoing / Unclear",
+  "Clarification needed: Specific air tools affected are not listed in the equipment database. Please specify which tools or stations were impacted.",
+  "Clarification needed: Was the pressure loss resolved by 4:00 PM, or is it still occurring?",
+  "Clarification needed: Was maintenance notified or did the supervisor troubleshoot (e.g., checking hoses, regulators)?",
+  "Pending item: Investigate cause of air pressure loss on Line A air tools (occurred 2:00 PM – 4:00 PM).",
+  "Pending item: Verify current air pressure stability on Line A tools.",
+  "Pending item: Confirm if any specific air tools require repair or replacement.",
+  "General note: M-12 (Compressor) is functioning correctly; the issue appears to be downstream (distribution or tool-specific) rather than source-related.",
+  "General note: No safety incidents reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both the compressor status and the air‑tools pressure loss, so it is complete, but it adds many invented details such as specific times, actions taken, and safety statements that were not in the supervisor input, leading to very low accuracy. Severity levels match the acceptable options, and the structure is clear, giving high readability. While the report flags several uncertainties, it also fills gaps with fabricated information, so uncertainty handling is moderate."
+}

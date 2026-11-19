@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "🟠 HIGH — Recurring failure suggests unresolved root cause; potential quality control risk",
+  "Status: Ongoing — Awaiting investigation",
+  "Immediate Investigation: Inspect M-09 (Quality Inspection Scanner) on Line C to diagnose the recurring fault",
+  "Root Cause Analysis: Compare current symptoms with last week’s incident report to determine if the previous fix failed or if a new issue has emerged",
+  "Maintenance Coordination: If the issue persists, escalate to maintenance for a permanent repair rather than a temporary fix",
+  "Supervisor indicated this is a repeat issue from the previous week, suggesting a lack of permanent resolution"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and explicitly flags the ambiguity of the Line C equipment, which is great for uncertainty handling. However, it assigns a high severity and fabricates multiple recommended investigation actions and statuses that were not in the sparse supervisor input."
+}

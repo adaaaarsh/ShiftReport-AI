@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Statement that no clear source identified for the smell",
+  "Severity label LOW with comment about minor impact",
+  "Observation recorded; no further action taken",
+  "Status Ongoing with monitoring instruction for oven odor",
+  "Severity label MEDIUM with comment about efficiency",
+  "Action Taken: Not specified (no corrective action reported)",
+  "Status Ongoing with investigation required for robot pauses",
+  "Pending items section detailing investigations",
+  "General note: No safety incidents reported",
+  "General note: Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both supervisor‑mentioned issues but adds many invented actions, severity comments, and general notes, lowering accuracy. All reported items are present, so completeness is high. Severity for the oven is not supported by the allowed range, giving a moderate severity score, while readability remains excellent and uncertainty handling is mixed, earning a middle score."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other significant operational changes or incidents reported during this shift",
+  "Monitor Line C closely until maintenance has inspected and resolved the issue",
+  "Ensure maintenance team is briefed on the recurrence of the fault to expedite diagnosis"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue but fails to flag that the specific machine on Line C is unknown. It fabricates several operational notes and recommendations not present in the input. It presents the ambiguous reference as a known 'equipment on Line C' without surfacing the uncertainty."
+}

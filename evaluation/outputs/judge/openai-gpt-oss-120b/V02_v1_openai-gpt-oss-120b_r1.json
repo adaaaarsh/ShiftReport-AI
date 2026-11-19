@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential delay/quality risk on production if not addressed promptly.",
+  "Assign maintenance/engineering personnel to inspect and diagnose the fault on Line C as soon as possible.",
+  "Suggested Priority: High – to prevent further downtime and repeat occurrences.",
+  "Log the incident in the equipment maintenance system, referencing the previous occurrence (last week) for trend analysis.",
+  "Consider scheduling a preventive maintenance check for Line C after the issue is resolved to mitigate future repeats.",
+  "Verify that maintenance has been notified and a work order is opened.",
+  "Monitor Line C for any further irregularities and report status updates promptly."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report adds many details not present in the supervisor input, such as impact statements, recommended actions, and preventive measures, resulting in a low accuracy score. It does capture the core issue, so completeness is high. Assigning a High priority is not justified by the input, leading to a poor severity rating. The layout is clear and easy to scan, giving a high readability score. However, the report fails to flag the ambiguous machine reference, so uncertainty handling is low."
+}

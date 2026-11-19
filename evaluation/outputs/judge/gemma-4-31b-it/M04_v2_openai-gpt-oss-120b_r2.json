@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing (awaiting repair and verification)",
+  "Severity: HIGH – Major malfunction, could affect plant utilities and production",
+  "maintenance has been alerted (for M-12)",
+  "Status: Ongoing (for M-12)",
+  "Severity: MEDIUM – Production impact if not addressed promptly",
+  "Action Taken: Noted for replacement; no immediate action taken (for M-06)",
+  "Status: Pending (for M-06)",
+  "Complete repair and verification of the hydraulic press interlock (M-03)",
+  "Diagnose and fix the short-cycling issue on the compressor unit (M-12)",
+  "Replace the welding robot arm tip (M-06)",
+  "Safety and Maintenance teams are aware of all current issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts but fabricates numerous details regarding status, actions taken for the compressor and robot, and the specific nature of the severity justifications. It fails to flag any missing information (uncertainty) and instead fills gaps with plausible but unstated assumptions."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 6:00 AM (input says 6)",
+  "Action Taken: forklift 2 was used (input says used forklift 1)",
+  "Status: Ongoing - repair required before next shift",
+  "Repair or replace Forklift #1",
+  "Verify forklift 2 is fully operational and ready for use",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but introduces severe accuracy errors by directly contradicting the input regarding which forklift was used (claiming forklift 2 was used instead of forklift 1) and inventing many extra details, actions, and pending items. It completely misses the inherent contradiction in the input (using a tagged-out forklift), presenting the situation as standard operations. The structure and readability are high, but the heavy fabrication and mishandling of the safety contradiction lead to low accuracy and uncertainty scores."
+}

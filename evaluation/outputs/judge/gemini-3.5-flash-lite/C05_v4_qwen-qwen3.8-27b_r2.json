@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved (Medical) / Ongoing (Safety Review)",
+  "Clarifications Needed: Was the machine stopped during the incident? Has a safety review or root cause analysis been initiated? Was the incident logged in the official safety register?",
+  "Verify if the M-06 welding robot cell was inspected for safety hazards following the operator burn incident",
+  "Confirm that the incident has been formally documented in the plant's safety log",
+  "Monitor the operator for any delayed symptoms if required by company policy",
+  "No other safety incidents reported",
+  "No machine malfunctions or production stoppages reported in this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct equipment ID. However, it invents extensive follow-up actions, statuses, and pending tasks not mentioned in the supervisor notes. The severity is well-defended, and uncertainty is handled well despite the added fabrications."
+}

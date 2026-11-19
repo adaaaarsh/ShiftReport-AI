@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported.",
+  "Potential for recurrence.",
+  "Verify that maintenance has inspected and repaired the overload relay on M-12.",
+  "Monitor air pressure stability on Line A after the compressor reset."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all details from the supervisor input and uses the proper registry ID, but includes several fabricated pending actions and general notes not present in the text (such as claiming no safety incidents or prescribing specific monitoring steps). The severity is well-reasoned and formatting is highly readable. However, it fails to flag the missing information regarding scrapped parts and treats pending maintenance as an ongoing status rather than surfacing uncertainty."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift",
+  "safety/operational hazard due to loss of compressed air",
+  "Monitor air pressure stability during the first hour of the shift to ensure no recurrence of the trip",
+  "No other equipment issues or safety incidents reported during this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but includes several fabrications, including the shift name and monitoring instructions. Severity is marked as CRITICAL without explicit evidence of a critical hazard in the input. It fails to flag the missing information regarding scrapped parts."
+}

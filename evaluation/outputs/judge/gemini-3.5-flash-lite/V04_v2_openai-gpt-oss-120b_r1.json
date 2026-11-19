@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Around lunch (approximately 12:00 PM)",
+  "Action Taken: Monitored the situation; no immediate corrective action taken as production was unaffected.",
+  "Status: Ongoing – Issue observed but not resolved; should be investigated to prevent recurrence.",
+  "Verify the integrity of the electrical supply and any related circuit breakers or backup systems (M-12 Compressor Unit, M-13 Backup Generator, M-14 HVAC System).",
+  "Report any findings and implement corrective measures if needed.",
+  "No safety incidents reported."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and properly flags the ambiguous utilities equipment while pointing out the missing details. However, it invents multiple specific details such as action taken, an exact time of 12:00 PM, and a claim that no safety incidents occurred. The severity assigned is MEDIUM despite the input stating production kept going with only flickering lights, which is a bit high given the lack of evidence."
+}

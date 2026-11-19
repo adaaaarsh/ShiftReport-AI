@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 22:15 (input says holding 355 since 2215, not noticed at 22:15)",
+  "Status: Ongoing",
+  "Monitor oven temperature closely and ensure it returns to normal setpoint.",
+  "Document any further temperature excursions and corrective actions.",
+  "No other equipment issues reported during this shift.",
+  "All personnel were informed of the temporary interlock bypass and instructed to watch for any alarms."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report successfully captures all facts from the input and handles the severity appropriately, but it includes several fabricated details and pending actions not found in the original text (such as monitoring instructions, status declarations, and personnel briefings). It scores a 3 in accuracy due to these multiple invented items."
+}

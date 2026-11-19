@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Hydraulic leaks pose safety risks and can lead to total machine failure",
+  "Status: Ongoing",
+  "Has the area been cordoned off? Is the machine shut down or still running?",
+  "Has maintenance been notified?",
+  "Impacts production efficiency/quality; not an immediate safety stop unless active error",
+  "Status: Pending",
+  "What specific task or program needs re-teaching? Is this a scheduled maintenance task or an error recovery?",
+  "Is the robot currently paused, running, or idle?",
+  "Verify Equipment IDs: Confirm the correct asset tags for Machine 17 and Robot 2 to ensure proper maintenance logging",
+  "Address Hydraulic Leak: Once the correct machine ID is confirmed, ensure the hydraulic leak is contained and maintenance is dispatched",
+  "Execute Robot Re-teach: If Robot 2 refers to M-06 (Welding Robot Arm), schedule the re-teach session with the appropriate technician",
+  "Two equipment references in this report do not match the standard Plant Equipment List. Immediate clarification is required to prevent maintenance delays or safety oversights",
+  "No other issues or staffing notes provided"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and handles uncertainty and unrecognized equipment exceptionally well. However, it severely over-elaborates by inventing extensive safety rationales, status markers, and recommended actions not found in the supervisor input, resulting in numerous fabricated details and a lower accuracy score."
+}

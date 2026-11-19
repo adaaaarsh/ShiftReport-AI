@@ -1,0 +1,73 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "feed rate was unintentionally reduced",
+  "Restore feed to normal rate (≈100 %) and verify output quality",
+  "MX (Mixer/Extruder)",
+  "equipment did not start when commanded",
+  "Investigate cause (sensor fault, control logic, or safety interlock)",
+  "potential safety and environmental risk",
+  "Immediate: Apply LOTO, isolate the press, repair the leak, and document the deviation from lock‑out procedure",
+  "Reduced visibility for the operator",
+  "Replace/repair headlight before the next shift",
+  "operator narrowly avoided contact with moving equipment",
+  "No injury, but a safety hazard was identified",
+  "Conduct a brief safety talk, review aisle clearance, and ensure all guards are in place",
+  "Risk of overheating for equipment in Zone C",
+  "Refill coolant to proper level, check for leaks, and log the refill",
+  "Issue a corrective action (CAPA) and schedule a refresher LOTO training for all night‑shift personnel",
+  "Documented in the safety log (Ref #: NM‑2025‑011)",
+  "Review aisle layout and reinforce housekeeping standards",
+  "Confirm product dimensions meet spec",
+  "Diagnose “no‑show” condition; restart or arrange maintenance if needed",
+  "perform a functional test before releasing the press",
+  "Replace the headlight bulb/LED assembly",
+  "Perform a quick visual inspection for any obstacles or unsecured equipment",
+  "record the refill in the coolant log",
+  "Complete incident reports for the LOTO breach and the near‑miss; circulate findings to the team",
+  "Add a check for feed‑rate sensors on the M7 grinder to avoid unintended reductions",
+  "Schedule a root‑cause analysis (RCA) on the MX “no‑show” to determine if it is a recurring fault",
+  "consider implementing a “stop‑the‑line” policy for safety‑critical issues"
+ ],
+ "accuracy": 1,
+ "completeness": 4,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing causes, specific actions, and safety log references not present in the input. It also misinterprets 'mx pinged no show' (maintenance paged, no show) as a machine called 'MX' failing to start. While the structure is excellent, the content is largely hallucinated."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi unit added to 110",
+  "Monitored compressor output (remained stable); no immediate corrective action taken.",
+  "Issue persists; requires investigation to determine source of pressure loss (possible downstream leak or regulator fault).",
+  "Investigate the cause of air-pressure loss for Line A tools (check downstream piping, regulators, and filters).",
+  "Verify that the compressor continues to maintain steady pressure and document any fluctuations.",
+  "If needed, schedule maintenance for air distribution components affecting Line A.",
+  "Compressor operated normally throughout the shift with no alarms.",
+  "No safety incidents or staffing issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issues and is clearly structured for readability, earning a 5 on completeness and readability. However, it severely fails accuracy and uncertainty handling by inventing extensive details (actions taken, monitoring steps, possible causes, and general notes) not present in the brief input, and fails to surface the contradiction between normal compressor pressure and losing tool pressure."
+}

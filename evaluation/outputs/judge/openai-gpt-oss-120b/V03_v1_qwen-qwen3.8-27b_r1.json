@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operational Status: Normal.",
+  "Summary: Initial operational issues encountered at the start of the shift have been resolved.",
+  "Current operations are proceeding without significant interruption.",
+  "Issue: Operator reports ongoing irregular behavior/performance issues.",
+  "Action Taken: Issue identified but not fully resolved during this shift.",
+  "Recommendation: Inspect forklift immediately upon arrival.",
+  "Recommendation: Do not use for heavy loads or critical tasks until inspected.",
+  "Recommendation: Contact Maintenance if the issue persists or worsens.",
+  "Note: Specific symptoms (e.g., steering, lifting, braking) were not detailed; please verify with operator or check maintenance logs.",
+  "No new safety incidents reported.",
+  "Standard safety protocols in effect.",
+  "Monitor Forklift # [Insert ID] closely.",
+  "Confirm resolution of initial start-of-shift issues (details not specified; verify if any residual effects remain).",
+  "Please prioritize inspection of the flagged forklift.",
+  "If the forklift is deemed unsafe, tag it out and arrange for a replacement unit."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report invents many details not present in the supervisor input, such as operational status, safety statements, and specific recommendations, resulting in very low accuracy (1). It captures the forklift issue but omits the unspecified earlier issues, giving moderate completeness (3). No severity label is provided for the issue, so severity classification is only partially defensible (3). The layout is clear and well‑structured, earning a high readability score (5). While the report flags the lack of symptom details, it fails to note the unknown forklift identity or usage status, so uncertainty handling is moderate (3)."
+}

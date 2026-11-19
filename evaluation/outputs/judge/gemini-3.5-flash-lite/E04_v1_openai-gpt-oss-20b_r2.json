@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All safety protocols were reviewed and documented",
+  "No abnormal readings or alarms were recorded during the manual override period",
+  "Interlock bypass was monitored continuously",
+  "No safety incidents occurred",
+  "Schedule a brief training refresher on interlock procedures for all operators",
+  "Review the need for manual overrides in future batches"
+ ],
+ "accuracy": 1,
+ "completeness": 4,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures the core equipment facts and catches the missing items well, but it severely fails accuracy by fabricating numerous actions, outcomes, and safety claims (such as 'no safety incidents occurred' and 'all safety protocols were reviewed') that are entirely absent from the input."
+}

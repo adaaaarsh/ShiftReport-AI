@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other equipment issues reported during this shift."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies the industrial oven on Line C, captures all essential facts accurately, and assigns a defensible critical severity due to the interlock bypass. It exhibits high readability and proper uncertainty handling, though it includes a minor fabricated detail claiming no other equipment issues were reported."
+}

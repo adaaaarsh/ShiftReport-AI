@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from 22:15 timestamp)",
+  "Status: Ongoing - Batch in progress under manual control.",
+  "⚠️ Who is 'Mike'? (Supervisor, Maintenance Lead, or Safety Officer?)",
+  "⚠️ What is the estimated completion time for the current batch?",
+  "⚠️ Has the root cause of the temperature spike (380°F) been identified?",
+  "IMMEDIATE: Monitor M-10 (Line C) closely. Ensure temperature remains stable at 355°F while in manual mode.",
+  "IMMEDIATE: Verify if the interlock can be restored once the batch is complete. Do not leave the interlock bypassed indefinitely.",
+  "Follow-up: Investigate why the oven temperature spiked to 380°F (sensor fault, heater failure, or control loop issue?).",
+  "Documentation: Ensure the interlock bypass event is logged in the safety/maintenance log with the name of the authorizing personnel ('Mike').",
+  "Safety Alert: Operating with a bypassed interlock is a critical safety deviation. The next shift must prioritize restoring normal safety controls as soon as the production batch allows.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies M-10, but invents an extensive list of actions, statuses, investigation steps, and recommendations that were not in the supervisor input. The severity is marked as High while the key anchors it as Critical, and numerous fabricated details substantially mislead an incoming shift about required operational steps."
+}

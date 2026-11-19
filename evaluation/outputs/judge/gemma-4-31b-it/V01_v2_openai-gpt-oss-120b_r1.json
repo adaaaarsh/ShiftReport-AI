@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine performance appeared abnormal",
+  "Supervisor noted the symptom and stopped the machine for a visual inspection",
+  "coolant/oil leak",
+  "Logged the observation",
+  "Verify that the leak has been fully resolved and that there is no residual fluid on the floor that could pose a slip hazard",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate",
+  "additional technical support may be needed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report fabricates numerous details regarding actions taken, the nature of the leak, and general shift status. It guesses a specific machine ID (M-07) for an ambiguous reference to 'the big machine on B' without flagging the uncertainty. Severities are assigned as Medium without supporting evidence in the input."
+}

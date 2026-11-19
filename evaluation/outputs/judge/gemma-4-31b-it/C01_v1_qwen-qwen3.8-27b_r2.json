@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Overall operations are stable",
+  "No critical issues remain unresolved at the end of the shift",
+  "Monitor for recurrence of error codes during the next shift",
+  "Issue resolved",
+  "Monitor temperature consistency to ensure no further spikes occur",
+  "No other outstanding issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to assign any severity levels. It completely ignores the contradictions in the input (e.g., 'no issues' vs 'restarted twice'). It also fabricates several monitoring steps and status summaries not present in the supervisor's notes."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (Inferred from time 22:15)",
+  "potential product quality risk due to temperature excursion",
+  "Batch completion in progress; interlock remains bypassed",
+  "Investigate root cause of the temperature spike (380F) to prevent recurrence.",
+  "Monitor product quality from the current batch for any defects related to the temperature excursion."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the oven and captures all factual details, but includes several fabricated details and inferences not stated in the input (such as shift inference, root cause investigation, and specific quality risk evaluations). Severity is rated HIGH where the answer key allows CRITICAL, and uncertainty is handled well by raising pending items for the missing details."
+}

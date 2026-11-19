@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "dropping from ~2 psi to 4 psi",
+  "No impact on production; equipment functioning as expected",
+  "Monitored pressure; no intervention required",
+  "Resolved / Normal operation",
+  "Issue noted; no corrective action taken during the shift",
+  "Ongoing — Requires investigation/adjustment by maintenance",
+  "Investigate the cause of air‑tool pressure loss on Line A and adjust the compressor output or tool regulators as needed",
+  "Verify that the compressor continues to maintain steady pressure at 110 psi after any adjustments",
+  "Overall plant pressure system performed well; no safety incidents reported",
+  "No staffing changes or other observations noted"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fundamentally misinterprets the input by turning the single compressor issue into two separate items, badly misreads 'from about 2 to 4' as 'dropping from ~2 psi to 4 psi', and hallucinates extensive actions, statuses, and general notes. It misses the underlying contradiction between the normal compressor and dropping tool pressures, failing uncertainty handling. Although structured cleanly, the severe hallucinations and mathematical misinterpretation of the time window drop the accuracy score to the minimum."
+}

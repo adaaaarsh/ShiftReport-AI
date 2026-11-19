@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor M-09 for stability to ensure calibration holds.",
+  "No other equipment issues or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and assigns a reasonable severity, but it invents extra monitoring instructions and a general note about safety incidents not present in the input. It correctly identifies the machine ID and tracks all four facts, though it fails to surface the missing cause of the drift."
+}

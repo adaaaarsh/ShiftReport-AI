@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 0,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 0,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 1,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely misses both reported issues from the input, stating that no equipment issues were identified. While accuracy is technically high because nothing was falsely invented, completeness, severity, and uncertainty handling score the lowest possible because the real issues were entirely omitted."
+}

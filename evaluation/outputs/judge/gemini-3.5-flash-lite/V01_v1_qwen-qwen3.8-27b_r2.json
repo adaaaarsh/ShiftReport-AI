@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend immediate inspection by maintenance to identify source of noise and prevent potential mechanical failure.",
+  "Exact source of the leak has not yet been isolated.",
+  "Maintenance team to conduct a thorough inspection of Area A to locate and repair the leak.",
+  "Prioritize inspection of Unit B’s mechanical components.",
+  "Assign personnel to investigate and isolate the leak in Area A.",
+  "Monitor both issues closely for any escalation (e.g., increased noise, spreading leak).",
+  "No immediate safety hazards reported, but both issues require prompt attention to avoid downtime or further damage."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies both ambiguous issues from the input and keeps their severity unknown, but it heavily hallucinates numerous recommendations, action items, and safety statements not present in the supervisor's brief notes, leading to a low accuracy score."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Out‑of‑spec condition impacted production capability.",
+  "No additional incidents or staffing notes were reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the out‑of‑spec condition, the presumed fix, and the need to check parts, but it incorrectly assigns a specific machine ID without noting the ambiguity and classifies the issue as HIGH severity, which is not supported by the input. Readability is high, and the report flags some uncertainties (status verification, parts inspection) but fails to acknowledge the ambiguous CNC reference. Overall accuracy and severity handling are moderate, while completeness and readability are strong."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Monitoring: Monitor air pressure stability on Line A during the next shift to ensure the issue does not recur before the maintenance inspection.",
+  "Production on Line A was temporarily impacted due to the loss of air tools but resumed after the breaker reset.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details (shift name, monitoring instructions, and general notes) and fails to flag the missing information regarding scrapped parts, presenting the report as complete."
+}

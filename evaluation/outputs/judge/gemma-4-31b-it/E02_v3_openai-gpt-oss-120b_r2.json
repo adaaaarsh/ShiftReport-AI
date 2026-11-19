@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-03 Action Taken: No new action taken during this shift; issue remains under observation",
+  "M-03 Status: Ongoing",
+  "Paint Booth Status: Ongoing",
+  "Pending Item: Verify that any safety precautions are in place while the paint booth remains offline",
+  "General Notes: No additional staffing or safety incidents reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues but fabricates several details regarding actions, status, and safety checks not present in the input. Severities are guessed (Medium/High) rather than marked as Unknown despite a lack of evidence. It correctly identifies the paint booth as unlisted equipment."
+}

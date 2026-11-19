@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pump failure stops coolant circulation, halting production on Line C",
+  "No corrective action taken yet; pump was replaced last week but is now non‑functional",
+  "Ongoing — Requires immediate attention",
+  "Diagnose root cause of repeated bearing failure on M-11 and implement a permanent fix (e.g., upgraded bearings, alignment check, lubrication review)",
+  "Arrange for a spare coolant pump or temporary workaround to restore coolant circulation on Line C",
+  "The recurring bearing issue suggests a systemic problem (possible misalignment, contamination, or incorrect bearing spec). Consider a review of maintenance procedures for coolant pumps"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine and captures all facts from the input while noting the contradiction, but it severely overinflates the severity to CRITICAL and hallucinates a massive amount of unverified context, actions, and pending recommendations not found in the input."
+}

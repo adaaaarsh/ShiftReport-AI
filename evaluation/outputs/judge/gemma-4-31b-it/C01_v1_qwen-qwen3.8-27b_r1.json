@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Resolution: Error cleared; machine is currently running without issues",
+  "Note: Monitor for recurrence of error code",
+  "Action Required: No immediate action required. Monitor for further fluctuations",
+  "Overall production is running smoothly",
+  "No other critical issues reported",
+  "Recommendations for Next Shift: Keep an eye on Machine 7 (Line B) for any recurring error codes",
+  "Recommendations for Next Shift: Continue monitoring Oven C temperatures to ensure stability"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to assign any severity levels. It ignores the contradictions in the input (e.g., 'no issues' vs 'restarted twice') and fabricates several monitoring recommendations and status claims. It presents the information as a clean sequence of events without flagging any missing data or ambiguities."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported.",
+  "Staff morale may be affected by heat in the east bay; monitor for fatigue.",
+  "Production on Line A is impacted by both M-02 (quality/rework) and M-04 (cycle time)."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and uncertainty points accurately but includes fabricated commentary regarding safety incidents, staff morale, and overall production impact. Severities are well-defended, readability is very high, and all input issues are fully surfaced. Accuracy is reduced to a 3 due to the multiple invented details at the end."
+}

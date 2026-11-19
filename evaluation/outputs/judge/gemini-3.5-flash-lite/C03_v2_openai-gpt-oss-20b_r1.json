@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 6:00 AM",
+  "Action Taken: Tagged forklift out of service for maintenance",
+  "Status: Pending",
+  "Repair or replace Forklift #1 (M-15)",
+  "Verify availability of Forklift #2 (M-16) for future material handling",
+  "No additional issues reported during this shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but heavily fabricates actions, times, and pending items, leading to a low accuracy score. It completely misses the contradiction between the forklift being tagged out and being used at 6. The readability and completeness are good, but uncertainty is poorly handled by inventing status and actions instead of flagging contradictions."
+}

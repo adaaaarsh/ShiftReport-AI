@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assumed PM based on typical shift flow",
+  "prevent further fluid loss or potential slip hazards",
+  "prevent potential mechanical failure",
+  "ensure accurate speed monitoring and prevent potential line stoppages",
+  "No critical safety hazards or full production stoppages reported during this shift",
+  "Recommend prioritizing the M-02 coolant leak and M-05 sensor issue early in the next shift to maintain optimal production flow"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machine IDs correctly. However, it contains several fabrications in the form of assumed times, inferred risks (slip hazards, mechanical failure), and general summary claims not present in the input. It fails to flag any missing information or ambiguity, presenting the report as complete."
+}

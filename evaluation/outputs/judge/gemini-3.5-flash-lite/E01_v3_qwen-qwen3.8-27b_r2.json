@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift (Inferred from nights pls chk)",
+  "production impacted",
+  "potential for major failure or slip hazard",
+  "Immediate Safety Review Required",
+  "Vehicle should be taken out of service until repaired",
+  "Could affect machine cooling if not addressed",
+  "Investigate and repair M-15 (Forklift #1) headlight; review near-miss incident in Aisle 3 for safety compliance",
+  "Perform LOTO and repair hydraulic leak on M-03 (Hydraulic Press, Line A). Do not operate until safe.",
+  "Follow up on maintenance visit for M-07 (CNC Milling Machine, Line B) — grinding noise unresolved",
+  "Replenish coolant for Line C machines (M-11)",
+  "This is a serious safety compliance violation. Next shift must prioritize safety over production for this unit.",
+  "Ensure forklift visibility is restored before further use.",
+  "No other staffing or general observations provided."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all four issues with correct machine IDs, but includes numerous invented recommendations, operational statuses, and safety interpretations not present in the brief notes. While the structure is clean and scannable, it heavily hallucinates actions and pending steps, presenting unstated assumptions as fact."
+}

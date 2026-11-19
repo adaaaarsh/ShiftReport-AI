@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-05",
+  "Status: Resolved",
+  "No impact on production",
+  "After assessment",
+  "No pending items reported",
+  "No safety incidents affecting production were recorded this shift aside from the minor burn mentioned above"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input, but heavily hallucinates dates, statuses, production impacts, and dismisses the contradiction by minimizing the burn injury to LOW severity despite the input stating both 'no safety incidents' and an operator burn. It fails to flag the contradiction between the conflicting statements in the input and fabricates numerous contextual details."
+}

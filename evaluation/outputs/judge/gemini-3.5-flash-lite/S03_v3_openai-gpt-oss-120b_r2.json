@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Verify fuel level remains above 70% and schedule next weekly test",
+  "All systems operating normally; no safety or production concerns reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all details from the input and correctly matches the backup generator to M-13. However, it includes several fabricated details such as invented pending items and general notes about plant-wide systems not present in the input. Severities and completeness are handled well, and the format is very readable."
+}

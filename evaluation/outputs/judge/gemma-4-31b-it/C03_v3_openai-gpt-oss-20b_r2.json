@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production and shipping operations impacted",
+  "Forklift was tagged out for safety and maintenance",
+  "Awaiting repair or replacement",
+  "Arrange for maintenance or replacement of Forklift #1 (M-15)",
+  "Verify that alternative material handling equipment is available and operational",
+  "No other issues or incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It also fabricates several operational details and pending items not found in the input. Severity is reasonable given the asset's status."
+}

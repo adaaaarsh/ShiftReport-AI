@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 2:10 PM",
+  "Awaiting maintenance response",
+  "Potential impact on compressed air supply for multiple lines",
+  "No action taken yet",
+  "Cosmetic/maintenance issue, no immediate production impact",
+  "Tip change scheduled for next shift",
+  "Safety and maintenance teams have been notified of all issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all reported issues and details accurately regarding the equipment, but invents several secondary details such as status updates, scheduling claims, and generalized impacts. Severity classification for the compressor is inflated to HIGH based on speculative reasoning not present in the input. Readability and structure are clean and well-organized."
+}

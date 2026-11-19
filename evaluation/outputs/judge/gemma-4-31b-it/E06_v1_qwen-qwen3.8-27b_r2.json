@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Operational with Active Leak",
+  "03:00",
+  "Monitor the area for safety hazards (slip/trip) and potential environmental concerns",
+  "Verify repair and confirm no further leaks before resuming full production if necessary",
+  "Ensure spill containment measures are in place around Line A"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several operational details, recommendations, and safety measures not present in the input. It also reports the lathe (a distractor) as a status item. It fails to flag the ambiguity of the time '3' (AM/PM) or the operational status of the press."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All monitoring parameters within normal ranges",
+  "Fuel gauge reading consistent with previous checks",
+  "Monitor fuel consumption closely",
+  "plan refueling before reaching 50 % to avoid operational risk",
+  "document any deviations promptly"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the backup generator (M-13). However, it invents significant amounts of detailed commentary, recommendations, and monitoring assumptions that were not present in the brief supervisor notes. This makes it fail severely on accuracy due to extensive fabrication, while maintaining good completeness and readability."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:00 PM (input states only \"desde las 3\")",
+  "significant production impact due to potential downtime",
+  "scheduled to arrive",
+  "Status: Ongoing",
+  "No additional items pending"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all core facts and correctly identifies the machine, but it fabricates specific times (3:00 PM) and operational details not present in the brief input. Severity is defensible though slightly high for a generic leak, and it correctly notes that the lathe is operating normally without turning the distractor into an issue."
+}

@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Repair in progress/awaiting parts for the oven",
+  "Monitor closely for further heat loss",
+  "Verify current fuel levels and arrange for an emergency refill",
+  "If heat loss continues, consider pausing production on Line C",
+  "Check generator fuel gauge immediately",
+  "Review the 3 rejected batches from Line C to determine if any salvage is possible or scrap"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report accurately captures the three main items and correctly identifies equipment IDs, but it turns the non-issue distractor (Line C scanner) into an active report entry. It also fabricates several operational recommendations, repair statuses, and action items not present in the brief input. Completeness and readability are strong, but accuracy and uncertainty handling suffer due to the added hallucinations."
+}

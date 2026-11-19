@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "(Adequate for current operations)",
+  "All systems nominal.",
+  "None required at this time. Monitor generator fuel levels if extended outages are anticipated.",
+  "operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all four factual items from the supervisor input, giving it a perfect completeness score. However, it adds several details not present in the input—comments about adequacy, a generic \"All systems nominal\" note, and monitoring suggestions—reducing accuracy to 3. No severity level is provided, resulting in a severity score of 1. The layout is clear and easy to scan, earning a readability of 5, and there are no ambiguous or missing items, so uncertainty handling receives a 5."
+}

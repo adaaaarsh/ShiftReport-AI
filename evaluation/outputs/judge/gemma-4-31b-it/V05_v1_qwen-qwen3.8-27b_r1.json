@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Troubleshooting and corrective actions were performed to bring the machine back within tolerance",
+  "Check for dimensional accuracy and surface finish on recent output",
+  "quarantine them immediately and notify the Quality Control team",
+  "review machine logs and consult with maintenance"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates numerous specific actions and recommendations (troubleshooting, dimensional accuracy, QC notification, machine logs) not present in the input. It fails to flag the ambiguity of which CNC machine was involved, presenting it as a generic 'CNC Machine'. While it captures all facts, the high volume of invented detail severely impacts accuracy."
+}

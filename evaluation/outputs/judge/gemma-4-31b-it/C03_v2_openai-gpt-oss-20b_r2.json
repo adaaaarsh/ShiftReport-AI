@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 6:00 AM",
+  "forklift 2 was used to move finished pallets to shipping",
+  "Status: Ongoing – repair required before next shift",
+  "Repair or replace Forklift #1 (M-15)",
+  "Verify forklift 2 is fully operational and ready for use",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains significant fabrications, specifically claiming Forklift 2 was used when the input says Forklift 1 was used despite being tagged out. It fails to capture the critical contradiction in the input (tagged out vs used) and instead invents a logical sequence of events. Completeness is reduced because the fact that Forklift 1 was used at 6 is misrepresented as Forklift 2 being used."
+}

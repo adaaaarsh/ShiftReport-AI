@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the sparse input without inventing any details, correctly handles the ambiguous forklift reference by listing both possibilities, and properly assigns an unknown severity. It includes all relevant pending items and clearly surfaces the missing information as requested by the rubric. Formatting is extremely clean and easy to read."
+}

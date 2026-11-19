@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (Inferred from 22:15 timestamp)",
+  "Prior to 22:15 (Specific start time not specified, but manual control engaged at 22:15)",
+  "Ongoing (Manual control active; Interlock bypassed)",
+  "Time Noticed: 22:15 (Concurrent with manual switch)",
+  "Status: Ongoing (Bypass active; Safety risk present)",
+  "Immediate Safety Check: Verify the status of the M-10 Industrial Oven interlock...",
+  "Process Completion: Monitor the finalization of the current batch on M-10.",
+  "Root Cause Analysis: Investigate why the M-10 temperature exceeded the setpoint...",
+  "Documentation: Record the specific batch number...",
+  "Authorization: The decision to bypass the interlock was made verbally by 'Mike.'...",
+  "Safety Warning: Operating with a bypassed interlock on an industrial oven is a significant safety hazard...",
+  "Temperature Control: The oven is currently holding at 355°F in manual mode..."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input, but it splits the single issue into two and extensively invents actions, warnings, root cause recommendations, and shift details not provided in the input. Severity is rated HIGH for temperature and CRITICAL for the interlock, which is defensible given the safety implications, though the input was very brief. The format is clean and readable, but the high level of fabricated details significantly impacts accuracy."
+}

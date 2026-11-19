@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Hydraulic leaks pose a safety hazard and potential for significant production downtime",
+  "Impacts production efficiency/quality; not an immediate safety stop unless active error",
+  "No other issues reported",
+  "Staffing levels not specified"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies both issues and flags the unrecognized Machine 17. However, it guesses that 'robot 2' is M-06 without flagging the ambiguity, and it fabricates justifications for the severity levels and general notes. Readability is excellent."
+}

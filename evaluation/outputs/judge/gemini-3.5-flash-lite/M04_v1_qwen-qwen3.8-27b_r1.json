@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time suffix on 2:10",
+  "Handover Note: Do not attempt to restart or bypass interlocks. Await clearance from Safety and Maintenance.",
+  "Air Compressor Action Required: Monitor closely. If issue persists or worsens, notify Maintenance.",
+  "Welding Robot Issue: Tip wear detected.",
+  "Welding Robot Action Required: Please ensure this is completed or scheduled immediately to avoid production delays.",
+  "No other major incidents reported during this shift.",
+  "All other equipment operating within normal parameters."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three items from the input and assigns reasonable severities, but it invents several operational details and instructions that were not stated by the supervisor. It presents general assurances like 'no other major incidents' and operational advice that extend beyond the raw notes. The structure is clean and very readable, though it fails to highlight missing details like the compressor duration."
+}

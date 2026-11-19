@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "isolated power for hydraulic press",
+  "Safety team to inspect interlock mechanism",
+  "Maintenance to verify integrity and schedule repair",
+  "Compressor short-cycling described as intermittent pressure drop",
+  "Compressor diagnosis of pressure regulator and check for leaks",
+  "Maintenance responsible party and End of day deadline for compressor",
+  "Operations responsible party and 5 PM deadline for welding robot",
+  "Hydraulic press maintenance deadline ASAP (post-incident review)",
+  "Incident Report: Completed and filed with Safety Department",
+  "Risk Assessment: Updated for hydraulic press guard interlock failure",
+  "Training: Reminder to all operators to verify guard status before cycling equipment",
+  "Welding Robot: run a test weld",
+  "Hydraulic press: perform functional test, and document results",
+  "Pre-Shift Checklist: Include guard interlock verification for all presses",
+  "Install a temporary pressure log for the compressor until repair is complete",
+  "Ensure all maintenance actions are logged in the daily maintenance log",
+  "Shift Handover Assistant title",
+  "Approved by line"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three items from the input and formats them clearly, resulting in high completeness and readability scores. However, it completely hallucinates extensive details, actions, deadlines, responsibilities, and administrative follow-ups that were never mentioned by the supervisor. It also treats unmentioned incident reports and risk assessments as if they were completed, severely hurting accuracy and uncertainty handling."
+}

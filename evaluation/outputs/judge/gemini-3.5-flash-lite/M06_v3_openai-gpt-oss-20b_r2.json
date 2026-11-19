@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "5:00 PM (AM/PM specified)",
+  "Issue resolved with minimal production impact",
+  "Leak could affect cooling if it worsens",
+  "monitoring ongoing",
+  "Noise may indicate mechanical wear; safety not immediately compromised",
+  "Sensor instability may affect conveyor timing and safety",
+  "Operators compensating manually",
+  "Verify and repair the HVAC unit (M-14) rattling noise",
+  "Inspect and repair the coolant line leak on the lathe (M-02)",
+  "Replace or calibrate the flickering speed sensor on the conveyor (M-05)",
+  "Confirm that the tool replacement on M-07 remains stable and no further issues arise",
+  "No safety incidents reported during this shift.",
+  "Production continued with minor adjustments to accommodate the sensor issue."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input (completeness 5) and is very readable (readability 5). However, it adds numerous fabricated details, such as specific PM times, assumed impacts, actions taken that were never stated, and a general notes section claiming no safety incidents (accuracy 1). It also fills in missing details or assigns medium severity with certainty where information was sparse or unknown (severity 3, uncertainty 1)."
+}

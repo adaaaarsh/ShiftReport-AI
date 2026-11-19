@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The scanner’s calibration drift caused false positives",
+  "No external factors (e.g., sensor contamination, power fluctuation) were observed",
+  "Logged the incident in the quality control system",
+  "Implement a daily calibration check at the start of each shift",
+  "Add a real-time alert for rejection rates exceeding 5% over a 10-part window",
+  "Update SOP to include a “quick calibration” step",
+  "Maintenance Team: Verify sensor alignment and firmware version",
+  "Quality Team: Review calibration logs for the past 30 days",
+  "Brief operators on the new calibration procedure and alert thresholds",
+  "No impact on production volume or downstream processes",
+  "All parts that were initially rejected have been re-tested and cleared for shipment"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates an extensive amount of root cause analysis, corrective actions, preventive measures, and follow-up items not present in the supervisor's notes. It presents these inventions as facts, failing to flag any uncertainty or missing information. Severity was not explicitly assigned to the issue."
+}

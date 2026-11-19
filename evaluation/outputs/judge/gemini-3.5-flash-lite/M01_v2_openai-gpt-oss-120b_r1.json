@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Issue logged; monitoring continues for M-04",
+  "Action Taken: Reported to facilities team for M-14",
+  "Pending item to order and install insert",
+  "Pending item to investigate root cause of cycle time",
+  "Pending item to diagnose and repair HVAC",
+  "No safety hazards reported during this shift",
+  "Status: Ongoing assigned to all issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately regarding the equipment, but invents several action items, statuses, and pending tasks not found in the supervisor input (such as reporting to facilities, monitoring continuation, and safety claims). It fails to highlight uncertainty regarding missing details like part orders or maintenance tickets, treating the inputs as fully resolved in terms of actions taken."
+}

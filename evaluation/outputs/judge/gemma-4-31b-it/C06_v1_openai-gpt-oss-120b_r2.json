@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Pressure remained steady at 110 psi (within normal range)",
+  "Pressure dropped from 2 psi to 4 psi repeatedly",
+  "affecting tool performance",
+  "Investigate the cause of pressure fluctuation (possible leak, regulator issue, or blockage)",
+  "Schedule inspection/maintenance before the next shift",
+  "Ran continuously without alarms or abnormal readings",
+  "All parameters stayed within set points",
+  "leading to reduced efficiency",
+  "No immediate safety incident reported",
+  "Keep an eye on pressure and temperature readings",
+  "log any deviations from the steady 110 psi baseline",
+  "Check for leaks in hoses, fittings, and connections",
+  "Verify regulator settings and functionality",
+  "Inspect filters for clogging or moisture accumulation",
+  "arrange for a qualified technician to service the line",
+  "Record any further pressure fluctuations and corrective actions taken during the next shift",
+  "No other equipment reported abnormal behavior during this shift",
+  "All safety protocols were followed; no incidents or near-misses recorded"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific units (psi), causes, and detailed maintenance steps not found in the input. It also fails to flag the contradiction between the compressor running normally and the tools losing pressure. While it captures the basic facts, the excessive hallucination of details makes it inaccurate."
+}

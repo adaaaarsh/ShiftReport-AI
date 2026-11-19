@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 5:00 PM",
+  "no production impact",
+  "Leak could worsen and affect cooling",
+  "Noise may indicate loose component or impending failure",
+  "causing intermittent speed changes",
+  "Sensor instability impacts conveyor performance and safety",
+  "Verify that the tool replacement on M-07 remains secure and monitor for any re‑breakage",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items completely and is structured very cleanly for quick reading. However, it invents numerous details such as specific PM times, impact on production, and potential causes for the rattling and leaking, bringing accuracy down to 3. Severities are assigned confidently with reasoning not provided in the input, and the report fails to surface the unknown aspects clearly instead of filling them in."
+}

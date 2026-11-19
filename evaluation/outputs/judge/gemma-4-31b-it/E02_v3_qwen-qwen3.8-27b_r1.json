@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Yesterday (Tuesday) for M-03",
+  "Status: Ongoing for M-03",
+  "Status: Ongoing for Paint Booth"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly readable and handles uncertainty regarding the unlisted equipment perfectly. However, it fabricates 'Ongoing' statuses and a specific 'Time Noticed' for M-03. Severities were guessed (HIGH/CRITICAL) rather than marked as UNKNOWN despite the lack of evidence in the input."
+}

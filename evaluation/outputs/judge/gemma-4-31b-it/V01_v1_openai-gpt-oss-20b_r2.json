@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "high-pitched/rumbling sounds",
+  "Logged in maintenance log",
+  "no immediate shutdown required",
+  "Inspect mechanical components (bearings, belts)",
+  "schedule preventive maintenance",
+  "Small liquid leak",
+  "Noted in incident log",
+  "no spill containment required",
+  "Conduct leak source investigation",
+  "check piping, valves, and seals",
+  "Entry #12345",
+  "ID #67890",
+  "No safety incidents or injuries reported",
+  "All critical alarms were addressed and resolved",
+  "Perform a detailed inspection of bearings, belts, and motor couplings",
+  "replace components before next shift",
+  "Maintenance Technician – John Doe",
+  "Facilities Engineer – Maria Smith",
+  "No hazardous material exposure or spills",
+  "All safety signage and PPE usage were compliant",
+  "No incidents requiring emergency response",
+  "machine noise was intermittent",
+  "did not affect production output",
+  "leak was minor",
+  "did not pose an immediate risk"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report is extremely over-fabricated, inventing specific sounds, log IDs, personnel names, and safety claims not present in the input. While it captures the two main issues and maintains a professional structure, the level of hallucination is severe. Uncertainty is handled moderately as it acknowledges the exact points are uncertain, but it fills in the gaps with fabrications."
+}

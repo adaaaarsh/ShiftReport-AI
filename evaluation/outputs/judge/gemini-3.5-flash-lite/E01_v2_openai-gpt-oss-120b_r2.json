@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "monitoring continued",
+  "Press continued running; issue logged",
+  "Incident reported; forklift kept in service pending repair",
+  "Noted; no refill performed during shift",
+  "Verify and restore proper feed rate on M-07; investigate ping condition",
+  "Apply LOTO and repair the leak on M-03 Hydraulic Press; ensure safe operation",
+  "Replace headlight on M-15 Forklift #1 and review near-miss safety procedures for aisle 3",
+  "Refill coolant on M-11 Coolant Circulation Pump and check for any leaks",
+  "Production quota pressures led to bypassing standard LOTO procedures on the hydraulic press; safety compliance reminder needed",
+  "No major outages reported; overall production continued with minor performance impacts"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all items and correctly matches machine IDs, but introduces several fabricated actions, statuses, and pending recommendations not stated in the input. Severity for the hydraulic press issue is also downgraded from critical/safety risk to high, and safety implications are somewhat softened. Readability and structure are excellent."
+}

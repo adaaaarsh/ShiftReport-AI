@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak could affect equipment performance and requires attention but has not halted production",
+  "Robot is offline for a short period; impact on production is minimal",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the issues but fabricates several details regarding the impact of the issues and general shift status. It correctly flags Machine 17 as unidentified but guesses M-06 for 'robot 2' without flagging the ambiguity. Severities are reasonable given the context."
+}

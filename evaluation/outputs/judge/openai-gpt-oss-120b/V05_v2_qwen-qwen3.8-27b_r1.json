@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigned specific machine ID M-01 to the ambiguous CNC",
+  "Added status \"Ongoing (Verification Required)\"",
+  "Added note suggesting possible update to record if the machine was M-02 or M-07",
+  "Described the machine as \"primary CNC milling asset\"",
+  "Added verification step to confirm the CNC is holding specification and stable"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the supervisor input, so completeness is high. However it invents a specific machine ID (M-01) and adds status and verification steps not mentioned, lowering accuracy to moderate. The severity is set to HIGH, which exceeds the UNKNOWN/MEDIUM range suggested by the answer key, resulting in a moderate severity score. Readability is excellent with clear headings, while uncertainty handling is good but omits the quarantine status of parts, giving a slightly lower score."
+}

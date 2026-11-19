@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Refill if it drops below 50% or per standard operating procedure",
+  "Backup generator is fully operational and ready for emergency use",
+  "No other equipment issues reported during this shift update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately. However, it includes several fabricated details regarding refill thresholds and general operational status not mentioned by the supervisor. These additions result in an accuracy score of 3."
+}

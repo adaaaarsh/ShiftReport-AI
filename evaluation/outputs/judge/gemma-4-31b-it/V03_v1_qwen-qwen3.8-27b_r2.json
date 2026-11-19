@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "General Status: Operational",
+  "All identified problems have been resolved and operations have returned to normal",
+  "Action Required: Please inspect the specific unit at the start of your shift. It may require maintenance or replacement with a backup unit if issues persist",
+  "All other forklifts are operational",
+  "Monitor for any recurrence of the issues resolved earlier in the shift",
+  "No other significant incidents or safety concerns reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing outcomes (problems resolved), actions (inspect unit, monitor recurrence), and safety claims not present in the input. It fails to flag the ambiguity of which forklift is affected, presenting the issue generically. While it captures the core fact, the amount of hallucinated detail is severe."
+}

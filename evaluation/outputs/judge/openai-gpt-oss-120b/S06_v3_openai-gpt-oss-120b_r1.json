@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Quality deviation caused unnecessary rework but production impact was limited and quickly corrected.",
+  "Status: Resolved",
+  "No pending items reported.",
+  "No safety incidents or staffing issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine and reproduces all factual details, earning high completeness, severity, and readability scores. However, it adds several invented statements (rework impact, resolved status, pending items, safety notes), lowering accuracy and failing to flag the missing cause of calibration drift, resulting in low uncertainty handling."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify fuel level on M-13 — Backup Generator (Utilities) remains above 75%",
+  "schedule next weekly test as per maintenance plan"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately. However, it fabricates a pending item regarding fuel thresholds (75%) and scheduling the next test, which were not in the supervisor's notes. Severity is not explicitly assigned to the event, but the report correctly notes no issues."
+}

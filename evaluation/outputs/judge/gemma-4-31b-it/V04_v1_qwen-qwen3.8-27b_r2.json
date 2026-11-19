@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production stoppages or delays reported",
+  "No impact on production output or safety protocols",
+  "Monitored situation; no immediate intervention required as systems stabilized",
+  "Recommend notifying the Facilities/Maintenance team to inspect the electrical panel or relevant utility systems",
+  "Keep an eye on utility stability during the next few hours",
+  "No other significant incidents, safety concerns, or personnel issues reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates numerous actions, outcomes, and recommendations not present in the supervisor's notes. It fails to flag the ambiguity of which utility system was involved or that the 'something' that kicked on was unidentified. Severities are not explicitly assigned, but the tone is consistent with the input."
+}

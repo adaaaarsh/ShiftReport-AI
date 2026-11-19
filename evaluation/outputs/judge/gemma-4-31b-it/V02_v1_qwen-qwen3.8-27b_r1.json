@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Active/Unresolved",
+  "Recommend escalating to Maintenance/Engineering for a root cause analysis to prevent recurring downtime",
+  "Prioritize contacting the maintenance team regarding Line C",
+  "Monitor Line C closely for any further degradation or safety hazards until repairs are completed",
+  "Document any additional symptoms or error codes observed to assist the maintenance team",
+  "No other significant incidents reported during this shift"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue but fabricates numerous actions, recommendations, and a status update not present in the input. It assigns a 'Critical' severity without evidence and fails to flag that the specific machine on Line C is unknown. The structure is highly readable, but the content is heavily padded with hallucinations."
+}

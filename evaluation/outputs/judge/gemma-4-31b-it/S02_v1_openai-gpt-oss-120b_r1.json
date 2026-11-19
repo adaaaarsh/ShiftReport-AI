@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "possible spool jam or depleted wire supply",
+  "Empty or improperly seated wire spool",
+  "Removed the faulty spool",
+  "Installed a new, correctly loaded spool",
+  "Executed a complete recalibration sequence per OEM guidelines",
+  "Verified operation through a test run before returning to full production",
+  "no backlog created",
+  "Spool Inventory Check",
+  "Preventive Maintenance: Add a visual inspection of spool seating to the pre-shift checklist",
+  "Training Reminder: Reinforce proper spool loading procedures"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete regarding the basic facts, but it fabricates a significant amount of detail regarding the root cause, specific corrective steps, and follow-up recommendations not found in the input. It presents these inventions as facts, failing to handle uncertainty. Severity was not explicitly assigned, but the content is accurate to the event's nature."
+}

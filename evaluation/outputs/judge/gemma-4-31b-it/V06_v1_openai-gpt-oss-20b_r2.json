@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The shift proceeded with routine operations",
+  "No major incidents or equipment failures were observed",
+  "No immediate action taken; monitored for escalation",
+  "Verify source of odor (e.g., check for grease buildup, ventilation issues)",
+  "Consider a deeper cleaning or inspection if odor persists",
+  "Logged pause events in the maintenance log",
+  "performed a quick visual check of the robot’s sensors and path",
+  "Schedule a detailed diagnostic check with the robotics team",
+  "Ensure firmware is up to date and that no debris is obstructing movement",
+  "Oven: Operating within normal temperature ranges",
+  "No temperature anomalies reported",
+  "Robot: No mechanical damage observed",
+  "No safety incidents or near-misses reported",
+  "All safety protocols were followed",
+  "no PPE breaches noted",
+  "Conduct a thorough inspection of the oven area, focusing on grease traps, ventilation ducts, and any potential chemical spills",
+  "Arrange a preventive maintenance check for the robot, including sensor calibration and software update",
+  "Update the equipment log with the observed pauses and any preliminary findings"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing numerous actions, outcomes, and safety claims not present in the input. It fails to use the provided registry IDs (M-10, M-06) and presents the ambiguous input as a complete set of facts without flagging any uncertainty. While the structure is readable, the content is largely hallucinated."
+}

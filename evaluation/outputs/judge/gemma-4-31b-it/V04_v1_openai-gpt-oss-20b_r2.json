@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time of Occurrence: Approximately 12:15 PM",
+  "A sudden surge (or “kick”) was detected on the electrical supply, causing a brief drop in voltage",
+  "Production operators continued work as the incident was isolated to lighting and a single circuit",
+  "The electrical panel was checked; no breakers tripped",
+  "The lighting system was reset and returned to normal operation within 5 minutes",
+  "Root Cause (Preliminary): Likely a transient voltage spike from the main supply or a momentary fault in the lighting circuit",
+  "Electrical maintenance team to inspect the affected circuit and verify no underlying fault",
+  "Consider installing a surge protector or upgrading the lighting system if recurrent spikes are observed",
+  "Output: 100% of scheduled units produced",
+  "Quality: No defects reported; all QC checks passed",
+  "Downtime: None attributable to the utilities incident",
+  "No safety incidents or near-misses",
+  "All safety protocols were followed; operators remained in their designated zones",
+  "Monitor the lighting and electrical panel for any further irregularities",
+  "Verify that the surge protection measures are functioning correctly",
+  "Report any similar incidents immediately to the maintenance team"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing specific times, root causes, maintenance actions, and safety/quality statuses not present in the input. While it captures the basic facts, it presents them as certain and adds extensive fictional detail. It fails to flag the ambiguity of the 'something' that kicked on."
+}

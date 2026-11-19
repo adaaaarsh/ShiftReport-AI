@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down, impacting logistics/shipping operations",
+  "Unit tagged out (as an Action Taken)",
+  "Verify status of M-15 (Forklift #1) — confirm if maintenance has been scheduled or if the tag-out is permanent",
+  "Ensure M-16 (Forklift #2) is available and operational to cover logistics duties",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It also fabricates several operational details and pending items not found in the input. Severity is reasonable given the 'out of service' status."
+}

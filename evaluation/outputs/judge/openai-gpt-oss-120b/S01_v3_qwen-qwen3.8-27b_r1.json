@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production loss",
+  "None pending items",
+  "No other issues, safety incidents, or staffing concerns reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the machine (M-08) and captures all five factual elements from the supervisor input, giving it a high completeness score. However, it adds several details not present in the input (e.g., \"no production loss,\" a \"None\" pending‑items line, and a general safety note), lowering accuracy to a moderate level. Severity classification matches the answer key, and the layout is clear and easy to scan, yielding top marks for severity, readability, and uncertainty handling."
+}

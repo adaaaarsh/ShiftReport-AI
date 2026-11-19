@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Line B welding robot for the first 30-60 minutes to ensure the recalibration holds and no further wire feed issues occur.",
+  "No other major incidents reported during this shift.",
+  "No safety incidents reported.",
+  "Work area on Line B cleared of old wire spools and debris."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and is well-structured, but it contains multiple fabricated monitoring steps, housekeeping actions, and claims about no other incidents or safety issues that were not in the supervisor's input."
+}

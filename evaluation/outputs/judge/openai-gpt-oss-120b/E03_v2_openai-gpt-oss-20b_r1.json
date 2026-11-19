@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Status: Ongoing – requires inspection and potential repair before next shift (M-01)",
+  "Severity: LOW assigned to M-07 (no issue reported)",
+  "Status: Resolved – machine operating normal for M-07",
+  "Severity: LOW (no direct production impact) assigned to Parking Lot Lights",
+  "Status: Pending – needs electrical inspection and repair for Parking Lot Lights",
+  "Pending item: Inspect and repair spindle on M-01 to eliminate noise and prevent potential failure",
+  "Pending item: Coordinate with maintenance to restore parking lot lighting"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents several details not present in the supervisor input, lowering accuracy. All input items are represented, so completeness is high. Severity for the A‑line mill is appropriate, but assigning low severity to a non‑issue and to parking‑lot lights is not defensible, yielding a moderate severity score. The layout is clear and scannable, giving a top readability rating. However, the report fails to flag missing information such as maintenance notification or worsening noise, resulting in poor uncertainty handling."
+}

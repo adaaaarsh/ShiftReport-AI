@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 3:20 PM",
+  "Action Taken: None yet; monitoring continues for M-11",
+  "Inspect and troubleshoot the whining coolant pump (M-11) to determine root cause and prevent potential failure",
+  "Monitor CNC milling machine (M-01) for any recurrence of spindle overload alarms",
+  "Reassign or schedule additional operator for Packaging Unit (M-08) to restore full speed operation",
+  "No safety hazards reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues with correct machine registry matches and good completeness. However, it invents several actions, pending items, a PM timestamp designation, and a claim about safety hazards not mentioned in the input. Readability is strong, but uncertainty handling suffers because it fills in monitoring steps and recommendations rather than explicitly surfacing missing maintenance info."
+}

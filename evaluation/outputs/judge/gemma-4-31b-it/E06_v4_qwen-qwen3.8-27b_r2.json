@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Active leak requires attention to prevent safety hazards or further damage",
+  "Is the leak minor or significant?",
+  "Verify M-03 is safe to restart after maintenance intervention",
+  "Monitor M-03 for any recurrence of oil leaks post-repair",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report accurately identifies the equipment and captures all facts. However, it includes several fabricated details in the form of inferred safety hazards, monitoring steps, and a general claim that no other issues occurred. It correctly flags the missing machine status."
+}

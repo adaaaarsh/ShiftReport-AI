@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi units and tolerance (± 2 psi)",
+  "No alarms or abnormal noises observed",
+  "Misinterpreted Line A pressure drop time (2 to 4) as a pressure value range (2 psi to 4 psi)",
+  "Routine monitoring; no adjustments required",
+  "Verified regulator settings",
+  "Checked for obvious leaks in hoses and connections",
+  "Reset the line pressure valve",
+  "Potential causes (Clogged filter or moisture separator, etc.)",
+  "Recommended Follow-Up actions (Perform a detailed leak test using soapy water, etc.)",
+  "Monitor Compressor temperature and log any deviation",
+  "Ensure all safety relief valves are functional and area remains clear",
+  "No other equipment reported abnormal behavior",
+  "All safety protocols were followed; no incidents or near-misses recorded"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 3,
+ "rationale": "The report completely hallucinates an extensive amount of operational details, actions, and safety claims that were never in the short supervisor note. Furthermore, it completely misinterprets the time range 'from about 2 to 4' as a pressure value drop of '2 psi to 4 psi'. While it captures the core facts and organizes the data well, the severe number of fabrications and misinterpretation heavily degrade accuracy."
+}

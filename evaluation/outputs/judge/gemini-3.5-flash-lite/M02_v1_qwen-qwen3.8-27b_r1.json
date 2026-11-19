@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operational. Note: Monitor for recurrence of slippage.",
+  "Operational. Note: Monitor temperature stability.",
+  "Charging. Note: Verify charge level before next use.",
+  "Production impact was minimal due to timely corrective actions on Conveyor B.",
+  "No safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items accurately and presents them in a clear, highly readable structure. However, it includes several fabricated notes, current status assumptions, and claims about production impact and safety incidents that were not in the supervisor input. Uncertainty handling is moderate because it adds monitoring recommendations without explicitly highlighting missing critical root-cause details."
+}

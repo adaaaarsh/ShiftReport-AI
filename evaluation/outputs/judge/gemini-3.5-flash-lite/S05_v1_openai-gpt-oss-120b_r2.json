@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (17:00 – 01:00)",
+  "Time (EDT)",
+  "Reset the main breaker (input said breaker)",
+  "21:20 status row for normal operating pressure achieved",
+  "Maintenance assessment: likely cause of the trip / detailed inspection and testing",
+  "Planned actions for morning inspection, documentation, and operational check",
+  "Production impact: Minimal downtime (≈8 minutes). No loss of product",
+  "Safety impact: No safety incidents reported. Resetting the breaker was performed following lock-out/tag-out (LOTO) procedures",
+  "Recommendations for load calculations and pressure-monitoring alarm",
+  "Maintenance contact Ext. 212"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the short supervisor input (completeness is high), but it heavily hallucinates extensive preventive maintenance plans, impact assessments, safety procedures like LOTO, and operational checks that were never stated in the source text. Consequently, accuracy and uncertainty handling are rated 1 due to the massive volume of fabricated details presented as factual. Readability is decent, and severity is moderate."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The majority of the shift ran smoothly with all scheduled tasks completed on time",
+  "Minor issues arose early in the shift but were addressed and resolved promptly, minimizing impact on productivity",
+  "inconsistent hydraulic response, occasional power loss",
+  "Conducted basic troubleshooting (checked battery, fluid levels, and safety interlocks)",
+  "Schedule maintenance technician for a detailed inspection and repair before the next shift",
+  "Other forklifts & machinery Fully operational",
+  "Routine checks performed; no issues reported",
+  "Potential delay in material handling if the forklift is needed for high-priority moves",
+  "Notify the Maintenance Team immediately (Ticket # [XXXX])",
+  "Arrange for a spare forklift to be on standby for the upcoming shift",
+  "Update the maintenance log with observed symptoms and any diagnostic steps taken",
+  "temporary network latency in the inventory system",
+  "restarting the server and confirming connectivity",
+  "Verify that a functional forklift is available for peak activity periods",
+  "Continue standard safety checks on all equipment before use",
+  "Keep an eye on the inventory system for any recurrence of the earlier connectivity issue",
+  "All safety protocols were adhered to throughout the shift",
+  "No injuries or near-miss incidents reported",
+  "Staff morale remained high; the team responded well to the early-shift challenges"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is extremely hallucinated, inventing specific symptoms, troubleshooting steps, maintenance tickets, and network issues not present in the input. While it correctly identifies the forklift issue as ambiguous, the sheer volume of fabricated details makes it highly inaccurate. Readability is high due to the professional structure."
+}

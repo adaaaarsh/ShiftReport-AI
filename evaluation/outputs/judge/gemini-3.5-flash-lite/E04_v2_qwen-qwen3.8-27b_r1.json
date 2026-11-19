@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from 22:15 timestamp)",
+  "Status: Ongoing (Manual control active)",
+  "Status: Ongoing (Safety bypass active)",
+  "Immediate Safety Check section content",
+  "Process Control section content",
+  "Documentation section content",
+  "Batch Completion section content",
+  "GENERAL NOTES section content"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly maps M-10, but it invents a shift assignment and includes extensive unrequested operational padding and general notes. Severities are mixed (High and Critical for the same split issue, where Critical is more defensible). Uncertainty and missing items are handled exceptionally well in the pending actions."
+}

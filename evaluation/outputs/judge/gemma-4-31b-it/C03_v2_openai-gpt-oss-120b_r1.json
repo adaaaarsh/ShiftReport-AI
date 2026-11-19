@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics equipment unavailable, may affect material movement but production continues",
+  "No alternative forklift was deployed during this period",
+  "Forklift remains out of service for the next shift",
+  "Inspect and repair Forklift #1 (M-15) or arrange a replacement forklift to ensure logistics flow",
+  "Verify that all tagged‑out equipment is properly documented and that a backup is available",
+  "No other equipment issues reported during this shift",
+  "Staffing levels were adequate",
+  "no safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being tagged out and being used at 6. It fabricates numerous operational details, pending items, and safety claims not present in the input. Severity is guessed without evidence of the impact on production."
+}

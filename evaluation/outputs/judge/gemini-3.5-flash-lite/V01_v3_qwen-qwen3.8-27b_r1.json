@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential mechanical issue; specific nature of noise and impact on production not detailed",
+  "During shift (exact time not specified)",
+  "Potential safety or environmental hazard if fluid is hazardous or leak is significant",
+  "Ensure the area around the unidentified leak on Line A is safe and contained until the source is identified",
+  "No specific times or actions taken were recorded for either issue",
+  "No staffing or other safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported elements from the short input, but it hallucinates a specific machine ID for the Line B issue rather than keeping it ambiguous, and invents several details, potential hazards, and safety containment recommendations. Severities are assigned arbitrarily rather than kept as Unknown. Structure is clean and readable."
+}

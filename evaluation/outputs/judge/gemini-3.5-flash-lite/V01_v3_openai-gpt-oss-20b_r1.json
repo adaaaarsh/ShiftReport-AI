@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine operating at reduced capacity, production impacted",
+  "Oil or fluid leak observed",
+  "Leak could worsen and affect machine performance",
+  "Needs identification and inspection tomorrow",
+  "Schedule maintenance for M-07 to resolve the noise issue and restore full capacity",
+  "No other incidents or staffing issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a specific machine ID for the ambiguous line B issue and invents multiple details such as production impact, oil/fluid specifics, and specific maintenance actions. Severities are assigned arbitrarily rather than marked as unknown. It captures the general gist of the two input items, but heavily hallucinates surrounding details and completely fails to handle ambiguity properly."
+}

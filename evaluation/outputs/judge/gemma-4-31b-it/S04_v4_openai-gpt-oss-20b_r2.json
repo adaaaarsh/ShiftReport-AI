@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Awaiting maintenance response",
+  "whether the forklift can be cleared for use once repaired",
+  "Need confirmation that forklift 1 is operating within normal parameters and that no additional maintenance is required",
+  "No other equipment issues reported",
+  "Production continued without interruption by utilizing forklift 1"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts for M-16 and correctly flags the missing ETA. However, it treats Forklift 1 as a separate issue (distractor) and includes several fabricated details regarding maintenance responses and production status not found in the input."
+}

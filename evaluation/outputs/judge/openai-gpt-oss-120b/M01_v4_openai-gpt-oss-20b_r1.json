@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported.",
+  "Production impact noted on the lathe and injection molder; monitoring required.",
+  "Action Taken: None reported. (for M-04)",
+  "Action Taken: None reported. (for M-14)",
+  "Status: Ongoing — Machine still running but with quality issues; rework pending.",
+  "Pending item: Acquire and install the missing insert for M-02; confirm machine can resume normal operation.",
+  "Pending item: Investigate and address the increased cycle time on M-04; document any adjustments or maintenance actions.",
+  "Pending item: Follow up on HVAC issue in the east bay; ensure corrective measures are implemented to restore proper cooling."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all three issues from the supervisor input, so completeness is perfect. All severities match the acceptable ranges, giving a high severity score. The structure is clear and well‑formatted, earning top readability. However, the report adds numerous details not present in the input (e.g., safety statement, fabricated actions, pending‑item plans), which violates accuracy and introduces invented information, resulting in the lowest accuracy rating. Uncertainty is well‑handled as the report flags all missing information."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate safety concern reported",
+  "Production impacted due to intermittent stoppages",
+  "Monitor for escalation",
+  "Awaiting investigation",
+  "Investigate and resolve intermittent pauses on M-06 Welding Robot Arm",
+  "Monitor the odor near M-10 Industrial Oven and confirm no escalation",
+  "No safety incidents or staffing issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly maps the two issues to the right machine IDs and captures all the facts from the input. However, it introduces multiple fabricated details and assumptions, such as claiming production was impacted, stating there were no safety incidents, and prescribing monitoring and action statuses that were not in the input. Severities are assigned confidently despite limited evidence, and uncertainty is poorly handled by inventing status and impact."
+}

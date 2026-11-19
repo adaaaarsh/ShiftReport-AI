@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Machine was kept running to complete the current job, but the abnormal noise may indicate wear or impending failure",
+  "Schedule a maintenance inspection at the earliest convenience",
+  "Verify spindle bearings, motor coupling, and alignment",
+  "If noise persists after inspection, consider a temporary shutdown until repaired",
+  "Contact Facilities/Electrical to diagnose and replace faulty fixtures or circuit breaker",
+  "Ensure temporary lighting or signage is provided for safety until repairs are completed",
+  "Encourage staff to celebrate responsibly and keep the area clean",
+  "No safety incidents or injuries reported during this shift",
+  "Assign to Maintenance Team (target completion by end of day)",
+  "Facilities request ticket # [insert ticket number] opened; monitor progress and confirm restoration before the next shift",
+  "Ensure break-room cleanup after the birthday celebration",
+  "Monitor Mill A closely for any escalation of the spindle noise",
+  "Verify that the parking lot remains safe for staff and visitors; post temporary warning signs if needed",
+  "Continue to maintain a clean and organized break area"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all relevant input items including the mill issue, the mill on B, the birthday cake, and the parking lot lights, scoring high on completeness and readability. However, it severely over-elaborates by fabricating numerous action items, maintenance recommendations, and policy notes not mentioned in the brief input. It also treats the parking lot lights as an equipment issue rather than a general note and invents a claim that no safety incidents occurred."
+}

@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift time 12:00 pm – 8:00 pm",
+  "Lunch period 12:30 pm – 1:15 pm",
+  "Main production area and adjacent walkways",
+  "Sudden spike on the main distribution panel",
+  "Notified the Facilities Team; inspection performed, breakers intact",
+  "Monitored the system for 30 minutes post-incident",
+  "Root cause suspected transient fault in surge protection device",
+  "HVAC compressor cycling on",
+  "No change in throughput or product quality",
+  "No safety incidents or alarms triggered",
+  "Operators reported no noticeable disruptions",
+  "Action tables and follow-up recommendations for facilities inspection and monitoring upgrades"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an immense amount of detail, including times, root causes, inspections, and actions that were never mentioned in the brief input. It completely fails uncertainty handling by inventing specific scenarios instead of noting the ambiguity of what kicked on or caused the power event. However, it captures all the sparse facts provided and formats them in a readable structure."
+}

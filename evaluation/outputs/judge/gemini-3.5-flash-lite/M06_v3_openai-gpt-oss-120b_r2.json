@@ -1,0 +1,57 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 5 PM",
+  "no production impact",
+  "Leak could lead to coolant loss and affect machining if not repaired",
+  "no repair performed during shift",
+  "No immediate safety or production impact, but should be checked",
+  "Not inspected during shift",
+  "Sensor instability may affect conveyor speed control and production efficiency",
+  "Operators continued operation while monitoring sensor behavior",
+  "Verify that the tool replacement on M-07 remains stable; monitor for any repeat issues",
+  "No safety incidents reported during this shift",
+  "Production continued with minor work-arounds for the conveyor sensor issue"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported issues and machine IDs accurately but invents a large number of unsupported details, causes, impacts, and actions not present in the input. Severities are generally reasonable but lack proper uncertainty handling for uninspected items like M-14. Readability and formatting are clean, but the heavy fabrication severely penalizes accuracy and uncertainty handling."
+}

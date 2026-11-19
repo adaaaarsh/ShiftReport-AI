@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved / Monitoring",
+  "Verify stability of power supply to ensure no latent issues affect sensitive equipment (e.g., CNC machines)",
+  "likely related to HVAC (M-14) or Compressor (M-12) cycling"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report correctly captures all facts but guesses a specific machine (M-14) for the issue instead of flagging it as ambiguous. It fabricates several monitoring steps and a likely cause not found in the input. Uncertainty handling is poor as it presents a guess as the primary issue ID."
+}

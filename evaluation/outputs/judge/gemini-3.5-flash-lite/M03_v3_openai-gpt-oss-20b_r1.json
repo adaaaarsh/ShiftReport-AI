@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Start of shift (08:00 AM)",
+  "Action Taken: None (monitoring only)",
+  "Status: Ongoing",
+  "Time Noticed: 3:20 PM",
+  "Status: Resolved (but root cause pending investigation)",
+  "Time Noticed: Throughout the night (08:00 PM – 06:00 AM)",
+  "Action Taken: Operated at half speed to maintain output; no additional staff assigned",
+  "Status: Ongoing",
+  "Inspect and diagnose the whining noise on M-11; schedule maintenance if necessary",
+  "Follow up on the spindle overload incident on M-01; verify spindle wear and replace components if required",
+  "Address staffing shortage for M-08; arrange for a replacement operator or adjust shift schedule",
+  "No safety incidents reported.",
+  "Production on Line B was reduced due to operator shortage; consider cross‑training or backup staffing for critical units."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three reported issues and correctly links them to the proper equipment IDs. However, it severely violates accuracy by fabricating a vast amount of specific times, operational statuses, follow-up actions, and general notes that were completely absent from the supervisor's brief input. It presents these fabrications with high confidence instead of flagging uncertainty about what is unknown."
+}

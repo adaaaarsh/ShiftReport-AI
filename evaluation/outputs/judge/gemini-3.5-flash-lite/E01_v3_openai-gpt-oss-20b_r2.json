@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recent vibration/noise",
+  "Oil leak detected at the base of the press",
+  "forklift kept out of operation until headlight repaired",
+  "Replacement headlight or repair needed",
+  "Refill required before next shift",
+  "consider LOTO if leak worsens",
+  "Verify that all safety incidents are documented and corrective actions logged",
+  "No additional staffing or safety incidents reported beyond the near-miss involving forklift #1"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items, resulting in high completeness and good readability, but it invents numerous details such as leak locations, equipment statuses, and corrective actions not found in the input. Severity for the hydraulic press leak is marked as medium despite skipping LOTO due to quotas, which is a major safety concern. Uncertainty handling is poor as it presents guessed actions and outcomes as certain facts."
+}

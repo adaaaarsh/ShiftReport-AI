@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Day Shift (Inferred from times 07:00–11:00)",
+  "Status: Ongoing (Monitor for recurrence) for conveyor",
+  "Pending suggestion: Monitor belt tension closely; inspect rollers and drive mechanism if slipping recurs",
+  "Status: Resolved for oven",
+  "Status: Ongoing (Charging) for forklift",
+  "General note: Line B experienced intermittent production halts due to conveyor issues; assess impact on throughput",
+  "General note: Logistics capacity may be reduced if Forklift #1 is not fully charged by start of next shift",
+  "Action Taken note: None required; alarm cleared automatically for oven",
+  "Pending suggestion for oven: Verify temperature stability; check thermostat calibration or heating elements if alarms recur",
+  "Pending suggestion for forklift: Confirm battery is fully charged and operational before use"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains many invented details not present in the supervisor input, lowering accuracy and uncertainty handling. All three issues from the input are included, so completeness is high. Severity choices match the answer‑key allowances, giving a perfect severity score. The structured headings and clear layout make the report very readable."
+}

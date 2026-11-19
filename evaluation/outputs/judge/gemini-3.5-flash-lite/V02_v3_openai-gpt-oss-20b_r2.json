@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Device malfunctioned again",
+  "Repeated malfunction likely impacting inspection throughput",
+  "Action Taken: None (issue pending)",
+  "Status: Ongoing - Requires maintenance review",
+  "Investigate and resolve the recurring malfunction on M-09",
+  "No other incidents or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely fabricates a specific machine ID (M-09) and a detailed narrative out of an ambiguous input mentioning only 'Line C'. It assigns a HIGH severity without justification and fails to flag the uncertainty of which machine is involved. While the readability and structure are clean, the factual fabrication and total lack of uncertainty handling result in low scores for accuracy, severity, and uncertainty."
+}

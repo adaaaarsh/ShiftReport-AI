@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction resulting in production stoppage",
+  "No other issues or safety incidents reported during this shift update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details from the short input and maps the welding robot to the correct registry ID (M-06). However, it invents the description 'Major malfunction' and adds a general note claiming 'no other issues or safety incidents' which was not stated. The severity given as HIGH is also overly aggressive for a simple wire feed error that was quickly resolved."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "potential for escalation",
+  "Machine ran despite noise (status: Ongoing)",
+  "Verify that all machines are operating within normal parameters",
+  "no impact on operations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all critical details and handles the unknown/missing elements and uncertainty extremely well. However, it invents a few minor details such as 'PM' for the timestamp and impact assessments, and it treats the parking lot lights distractor as an equipment issue. Overall readability and structure are excellent."
+}

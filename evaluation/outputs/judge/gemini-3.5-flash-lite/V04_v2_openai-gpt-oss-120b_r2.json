@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety hazard",
+  "Time Noticed: Approximately 12:00 PM (lunch period)",
+  "Action Taken: Monitored the situation, confirmed no impact on production, and continued operations",
+  "Status: Resolved",
+  "Keep an eye on the utility power supply and lighting circuits for any recurrence",
+  "Verify that the unexpected device that powered on is identified and secured",
+  "No staffing changes or additional observations reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all basic facts from the very brief input but fabricates a large amount of specific actions, statuses, and details such as monitoring steps and resolution status that were never stated by the supervisor. The severity is somewhat reasonable (Low), though the input lacked enough context to be certain. Readability is high due to a clean template layout."
+}

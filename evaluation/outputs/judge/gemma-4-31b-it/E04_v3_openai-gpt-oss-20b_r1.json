@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential overheating risk",
+  "Interlock remains bypassed",
+  "temperature monitoring required",
+  "Restore and verify proper functioning of the oven interlock system for M-10",
+  "Continue monitoring oven temperature to ensure it remains within safe operating limits",
+  "Verify that the manual override was correctly applied and document any deviations",
+  "No additional incidents or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates several monitoring steps, status updates, and pending items not mentioned by the supervisor. It also fails to flag the missing information (e.g., whether the interlock was restored) as unknown, instead presenting fabricated instructions as facts."
+}

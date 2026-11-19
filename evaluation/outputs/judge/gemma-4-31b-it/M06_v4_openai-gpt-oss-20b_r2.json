@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production impact",
+  "Leak could affect cooling and potentially halt production if it worsens",
+  "Noise noted but impact on operations not described",
+  "Sensor malfunction may reduce conveyor reliability and affect downstream processes",
+  "No safety incidents reported",
+  "All machines are currently operational, but several require maintenance follow‑up"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly structured and captures all issues and their associated facts. However, it includes several fabricated justifications for severity and general summary claims (e.g., 'no safety incidents') not present in the input. Uncertainty handling is excellent, explicitly flagging missing information."
+}

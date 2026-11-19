@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommendation: immediate inspection of Mill A spindle by maintenance before next shift",
+  "Action Required: notify facilities/maintenance to address lighting issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately reflects all supervisor‑provided facts about Mill A, Mill B, the birthday cake, and the parking‑lot lights, so completeness is high. It introduces invented recommendations and action steps not mentioned by the supervisor, lowering accuracy to a moderate level. No explicit severity rating is given, resulting in a middling severity score. The layout is clear and scannable, earning top readability, and it does not conceal any unknowns, so uncertainty handling is strong."
+}

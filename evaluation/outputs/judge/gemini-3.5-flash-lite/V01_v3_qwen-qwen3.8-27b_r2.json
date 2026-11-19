@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential mechanical issue; specific nature of noise and impact on production not detailed",
+  "Time Noticed: During shift (exact time not specified)",
+  "Status: Ongoing — Requires inspection",
+  "Leak location and source unconfirmed; risk of escalation or safety hazard if fluid is hot/pressurized",
+  "Status: Pending — Supervisor unsure of specific machine ID",
+  "Visually inspect all Line A equipment (M-01, M-02, M-03, M-04) to locate the leak reported by the previous shift",
+  "Once the leak source is identified, assess the fluid type and volume to determine if immediate repair is needed",
+  "Supervisor reported uncertainty regarding the specific machine on Line A experiencing the leak; visual confirmation is required",
+  "No specific times or actions taken were recorded for either issue"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all reported items from the input, making it complete, but it guesses a specific machine ID for the line B issue instead of leaving it ambiguous. It also assigns MEDIUM severity to both issues when the input lacks sufficient evidence, and includes several fabricated details, explanations, and action items that were not stated in the supervisor's notes."
+}

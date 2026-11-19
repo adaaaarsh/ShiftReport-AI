@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "scheduled replacement program",
+  "within the first operating cycle after installation",
+  "visual inspection confirmed bearing wear and overheating",
+  "pump is currently non-operational, resulting in reduced coolant circulation for Unit C",
+  "no downstream equipment has been affected so far",
+  "stop the pump and isolate it",
+  "replace the bearings with a verified, high-quality set",
+  "conduct a root-cause analysis covering lubrication, alignment, vibration, and temperature",
+  "Shift Lead verify that the pump is safely isolated",
+  "Maintenance Engineer perform the bearing swap",
+  "Reliability Engineer review historical failure data",
+  "Operations monitor coolant flow rates",
+  "Ensure lock-out/tag-out (LOTO) procedures are strictly followed",
+  "Use appropriate personal protective equipment (PPE)",
+  "No other equipment reported issues during this shift",
+  "All other systems are operating within normal parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an extensive amount of operational status, impact, causes, and multi-step action plans that were entirely absent from the minimal input. It fails to flag the contradiction between a brand new pump and original bearings failing, and assigns a high severity without capturing uncertainty. However, it successfully captures the core equipment reference and facts provided."
+}

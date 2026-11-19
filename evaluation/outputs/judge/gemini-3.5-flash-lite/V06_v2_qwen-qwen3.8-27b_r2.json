@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operation continued for M-06",
+  "Status: Ongoing for M-10 and M-06",
+  "Investigate for burnt materials, electrical faults, or ventilation issues",
+  "Ensure safety before resuming full production",
+  "Check for sensor obstructions, material jams, or software glitches"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all points accurately and is well-structured, but it introduces several fabricated action steps and troubleshooting recommendations not present in the input. Severity is assigned as medium despite the supervisor stating it is 'probably nothing'. However, it does a good job highlighting uncertainty and areas needing investigation."
+}

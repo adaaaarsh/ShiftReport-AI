@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 5:00 PM time reference for M-07",
+  "Issue resolved with no production impact",
+  "Leak could affect cooling and potentially halt production if it worsens",
+  "Sensor malfunction may reduce conveyor reliability and affect downstream processes",
+  "Verify and repair the coolant line leak on M-02",
+  "Inspect the rooftop HVAC unit to determine cause of rattling noise",
+  "Replace or repair the flickering speed sensor on M-05",
+  "Confirm that the conveyor is still meeting production throughput and safety standards",
+  "No safety incidents reported",
+  "All machines are currently operational, but several require maintenance follow-up"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues from the supervisor notes completely and formats them clearly for readability with excellent uncertainty handling. However, it contains multiple fabricated assumptions and invented outcomes regarding the severity and impacts of the issues. The severity classifications are also slightly over-inflated compared to the minimal input details."
+}

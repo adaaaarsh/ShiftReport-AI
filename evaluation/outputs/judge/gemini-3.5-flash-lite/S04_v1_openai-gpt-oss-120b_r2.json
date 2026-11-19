@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Forklift 1 status table entry",
+  "Material handling is being performed exclusively with Forklift 1. No anticipated delays as the unit is in good condition and staff are familiar with its operation.",
+  "Charging bay is temporarily occupied by the out-of-service Forklift 2; ensure no other equipment is scheduled to use this bay until repairs are completed.",
+  "Re-assign tasks as needed if Forklift 1 approaches capacity limits (e.g., schedule breaks to avoid fatigue).",
+  "Update equipment log once Forklift 2 is repaired and returned to service.",
+  "Conduct a quick visual inspection of all forklift tires at the start of each shift to catch similar issues early.",
+  "Keep a spare tire or repair kit readily available in the charging bay to reduce downtime."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and correctly identifies Forklift #2 (M-16). However, it invents an entire operational status for Forklift #1, treating it as an issue entry, and hallucinates multiple recommendations, actions, and operational impacts not present in the input. Consequently, accuracy is rated poorly due to extensive fabricated details."
+}

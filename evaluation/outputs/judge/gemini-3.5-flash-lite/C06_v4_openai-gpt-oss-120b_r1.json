@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Monitored; no intervention required.",
+  "Resolved / No action needed.",
+  "Reduced tool performance may affect production quality or speed.",
+  "Investigate the cause of pressure loss in the air tools on Line A and restore full functionality.",
+  "Confirm whether any maintenance or adjustments were made to the air-tool system during this shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all details from the input and correctly identifies the compressor unit, but it separates the air tools into a separate unrecognized equipment entry rather than linking the pressure drop to the compressor as a potential distribution leak. It also includes several fabricated actions, statuses, and impact descriptions that were not stated in the supervisor input."
+}

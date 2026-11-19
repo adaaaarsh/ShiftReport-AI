@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Isolated the machine from the line to prevent further loss",
+  "Placed spill containment pads and notified Maintenance",
+  "Repair/replace the leaking hydraulic seal or hose",
+  "Perform a pressure test before returning to service",
+  "Stopped robot motion and placed it in safe mode",
+  "Logged the error code and backed up current program",
+  "Technician to re-teach the robot's trajectory and verify correct operation",
+  "Update program version in the control system",
+  "No safety incidents were reported during the shift",
+  "All other equipment on Line B operated within normal parameters",
+  "Spare hydraulic fluid and containment kits are stocked; no additional resources needed at this time",
+  "Verify completion of the hydraulic repair on Machine 17 before re-commissioning",
+  "Confirm successful reteach and functional testing of Robot 2",
+  "Monitor both pieces of equipment closely for the first two production cycles after they return to service",
+  "Maintenance (Ext. 212)",
+  "Robotics Support (Ext. 237)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, follow-ups, and safety claims not present in the input. It fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as known entities. While the structure is clear, the content is largely hallucinated."
+}

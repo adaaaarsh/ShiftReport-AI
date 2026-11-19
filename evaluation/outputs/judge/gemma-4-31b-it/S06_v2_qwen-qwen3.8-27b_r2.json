@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon",
+  "Monitor M-09 (Quality Inspection Scanner) for the first hour of the shift to ensure calibration holds and no further false rejects occur",
+  "No other equipment issues reported during this shift",
+  "Production flow on Line C was temporarily impacted during the troubleshooting period but has returned to normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details including the shift name, a monitoring task, and a general note about production flow. It also fails to flag the missing cause of the calibration drift."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "6:00 AM",
+  "Major malfunction, significant production impact",
+  "Tagged forklift out of service for maintenance",
+  "Repair or replace Forklift #1 (M-15)",
+  "Verify availability of Forklift #2 (M-16) for future material handling",
+  "No additional issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains numerous fabrications, including a specific time (6:00 AM), a cause for the tag-out (maintenance), and a pending action to check Forklift #2. It completely ignores the blatant contradiction in the input (forklift tagged out but used at 6), presenting the information as a linear sequence of events. Severity is assigned with fabricated justification."
+}

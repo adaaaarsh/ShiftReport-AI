@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed routine reset and inspected for obvious wear for the press",
+  "Logged error code in maintenance system (Ticket # [####]) for the press",
+  "Notified Maintenance lead at 08:45 for the press",
+  "Maintenance to complete detailed diagnosis and repair today for the press",
+  "If parts are required, expedite ordering for the press",
+  "Update production schedule to re-allocate work to alternate press if possible",
+  "Completely non-operational (no airflow/heat, error code PB-D-03) for the paint booth",
+  "All units on Line D cannot receive final coating; line halted",
+  "Shut down booth safely and isolated power",
+  "Completed initial safety check – no visible damage to fans or heaters",
+  "Opened a maintenance ticket (Ticket # [####]) and informed the Paint-Shop Supervisor at 09:10",
+  "Maintenance to inspect blower motor and temperature controller",
+  "If a part replacement is needed, arrange for spare or order ASAP",
+  "Consider temporary rerouting of paint jobs to Line C (capacity permitting)",
+  "Overall Output: Approx. -12 % vs. planned target",
+  "Shifted 20 % of Line D workload to Line C",
+  "re-sequenced orders to prioritize high-priority jobs",
+  "Verify completion of diagnostic work for press",
+  "Confirm availability of any required spare parts for press",
+  "Perform a test run before resuming full production for press",
+  "Complete inspection of blower motor, temperature sensor, and control board for paint booth",
+  "Replace faulty components or authorize external service if needed for paint booth",
+  "Conduct a functional test and document results for paint booth",
+  "Update the production schedule in the ERP system",
+  "Communicate any order delays to the Planning & Logistics team",
+  "Ensure all lock-out/tag-out (LOTO) procedures remain in place",
+  "Perform a brief safety walk-through of the affected areas",
+  "Verify inventory for press-specific components and paint-booth motor",
+  "All error codes and maintenance tickets have been entered into the CMMS"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific error codes, times, actions taken, and production impact percentages not found in the input. It fails to flag the ambiguity of the 'press' (not mapping it to M-03) or the fact that the paint booth is not in the registry. While readable and complete in terms of capturing the two issues, the level of hallucination is extreme."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction affecting production",
+  "Safety hazard and production halt",
+  "Investigate and resolve the hydraulic press issue",
+  "Diagnose and restore the paint booth on Line D",
+  "Verify that all safety interlocks on the paint booth are functioning",
+  "No additional observations or staffing notes provided"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates several descriptions, severities, and pending action items not supported by the minimal supervisor input. It assigns high and critical severities without evidence and creates a fully manufactured set of pending items. It also fails to properly handle the unrecognized line D paint booth by treating it as a standard specific entity without noting its absence from the registry."
+}

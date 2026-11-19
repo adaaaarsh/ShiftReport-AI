@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Stopped line safely",
+  "Removed jammed material",
+  "Inspected for damage",
+  "Monitor line for the next 2-3 hours for any recurrence",
+  "Verify that jam-prevention sensors are functioning correctly during routine checks",
+  "All safety protocols were observed while clearing the jam",
+  "No impact on overall production schedule",
+  "the line was back online within 20 minutes",
+  "No spare parts or additional resources were required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous actions, follow-up steps, and outcomes not present in the supervisor's brief notes. While it captures all original facts, it presents this expanded narrative as fact without flagging any uncertainty. The severity is not explicitly assigned, which is acceptable given the input."
+}

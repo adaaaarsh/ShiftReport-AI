@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Clarifications Needed: None",
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all facts from the supervisor input, but it adds two statements not present in the input, lowering accuracy to a 3. All reported items are included, so completeness is perfect. Severity is correctly assigned as LOW and justified, and the document is well‑structured and clear, earning high readability and uncertainty scores."
+}

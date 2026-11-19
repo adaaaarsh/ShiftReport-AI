@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator reduced feed",
+  "monitoring ongoing",
+  "Issue noted",
+  "LOTO deferred (to be addressed immediately)",
+  "forklift taken out of service for inspection",
+  "Noted for refill during night shift",
+  "Perform LOTO on Hydraulic Press (M-03) and repair the fluid leak",
+  "Replace headlight on Forklift #1 (M-15) and verify safe operation",
+  "Refill coolant in the Coolant Circulation Pump (M-11) and monitor level",
+  "Review feed rate settings on CNC Milling Machine (M-07) and restore to normal operation",
+  "this must be corrected immediately to avoid accidents",
+  "nearmiss in aisle 3 highlights the need for better lighting and forklift maintenance"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues from the supervisor notes and is well-formatted for readability. However, it invents numerous actions taken, operational statuses, and specific maintenance steps not stated in the input. Additionally, it assigns specific severities and assumes statuses like taking the forklift out of service or planning nighttime refills without acknowledging missing information."
+}

@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Conveyor remains stopped; no restart reported",
+  "AM added to times (~7:00 AM and 9:40 AM)",
+  "Oven operating normally after alarm cleared",
+  "Pending - Awaiting full charge before next use",
+  "Ensure Forklift #1 is fully charged and ready for use; confirm no backlog in material handling",
+  "No safety incidents reported",
+  "Production interruptions due to conveyor stoppages should be documented for trend analysis"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts comprehensively and structures them very clearly, but it invents several important details such as status claims ('conveyor remains stopped', 'oven operating normally') and a 'no safety incidents reported' note that were not in the input. Severities are generally defensible. Uncertainty handling is strong as it flags multiple clarifications needed."
+}

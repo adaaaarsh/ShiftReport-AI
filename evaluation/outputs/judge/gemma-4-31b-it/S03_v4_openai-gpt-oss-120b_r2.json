@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no impact on production",
+  "Test completed successfully; fuel level recorded",
+  "Status: Resolved",
+  "Weekly generator test completed as scheduled; fuel reserves are adequate"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it includes several fabricated details such as 'no impact on production' and 'completed as scheduled' which were not in the supervisor's notes. These are minor inferences but technically fabrications per the strict instructions."
+}

@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Electrical instability reported during mid-shift",
+  "unexpected equipment activation was observed",
+  "Status: Ongoing / Under Observation",
+  "Action Taken: No specific corrective action recorded",
+  "Check electrical logs or consult with maintenance to identify the cause",
+  "Confirm that no utility equipment (particularly HVAC M-14 or Compressor M-12) is operating in an abnormal state or has tripped/restarted unexpectedly",
+  "Keep an eye on the electrical stability of the plant, especially around peak load times",
+  "all lines continued operating normally",
+  "If this refers to a specific machine (e.g., a compressor or generator), please update the report with the specific Machine ID for better tracking"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the minimal input but arbitrarily assigns a specific machine ID (M-14 HVAC) and fabricates numerous details, actions, and status notes not present in the supervisor input. The severity is marked medium with some uncertainty handling, but the unwarranted fabrication of specific machinery and operational statuses lowers accuracy."
+}

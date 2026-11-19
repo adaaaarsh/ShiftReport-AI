@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (17:00 – 01:00)",
+  "All affected tools were tested and returned to service",
+  "No personnel injury or safety hazard was reported",
+  "Standard lock-out/tag-out procedures were followed during the reset",
+  "functional test of the overload relay and associated wiring",
+  "Target Completion: Start of the next shift (morning shift, 06:00-14:00) on 2026-11-06",
+  "consider having a standby portable compressor available as a contingency",
+  "Monitor Pressure: Keep an eye on Line A pressure for the next 2-3 hours; report any deviation >5 psi from set point",
+  "Verify that the compressor alarm panel is cleared after the reset",
+  "Ensure the maintenance crew has access to the relay and any required spare parts",
+  "Log any further occurrences in the equipment logbook and update the incident ticket (Ticket # [Insert Ticket #])",
+  "All other systems (Lines B & C, electrical distribution, HVAC) remained stable throughout the shift",
+  "No other abnormal events were observed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly readable and complete regarding the input facts, but it is riddled with fabrications. It invents shift times, safety procedures, specific monitoring instructions, and status updates for other lines not mentioned in the input. It also fails to flag the missing information regarding scrapped parts."
+}

@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 2:10 PM for M-03 (input states locked out at 2:10)",
+  "Status: Awaiting maintenance response for M-03",
+  "Severity rationale for M-12",
+  "Action Taken / Status for M-12",
+  "Severity rationale for M-06",
+  "Action Taken: None yet; tip change scheduled for next shift for M-06",
+  "Pending items section content",
+  "No injuries reported despite guard interlock failure (phrased as a separate general note)",
+  "All other equipment operating within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues and maps the machine IDs correctly, but it includes several fabricated details, assumptions, and statuses not present in the input. The severity for M-12 is elevated to HIGH with an invented rationale, and M-06 is also assigned an explicit severity and status interpretation. Readability and structure are excellent, but the model fills in gaps rather than marking them unknown."
+}

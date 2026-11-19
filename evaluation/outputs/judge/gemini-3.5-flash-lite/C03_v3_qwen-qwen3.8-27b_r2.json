@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Unit was operational at 6:00 (input says 'Used forklift 1 to move the finished pallets to shipping at 6')",
+  "Ensure M-16 (Forklift #2) is available and operational to cover the logistics gap left by M-15",
+  "Monitor shipping schedule to ensure pallet movement is not delayed due to the loss of one forklift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all details from the input and is well-structured, but it fabricates several recommendations regarding Forklift #2 and monitoring shipping schedules that were not mentioned by the supervisor. Crucially, it completely fails to highlight the severe contradiction in the input where a tagged-out forklift was supposedly used at 6 o'clock."
+}

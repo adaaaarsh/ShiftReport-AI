@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate inspection and repair needed",
+  "Safety check required before resuming operation",
+  "Please assess severity and schedule maintenance if not resolved during this shift",
+  "Programming/teaching session needed to restore correct operation",
+  "Please coordinate with robotics technician for scheduling",
+  "No other major incidents reported",
+  "Prioritize hydraulic repair on Machine 17 to prevent further damage or safety hazards",
+  "Schedule Robot 2 re-teaching at the earliest convenient downtime to minimize production impact"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to flag that Machine 17 and Robot 2 are not in the registry. It fabricates numerous actions and recommendations not present in the input. Severities are assigned as 'Critical' without evidence from the input."
+}

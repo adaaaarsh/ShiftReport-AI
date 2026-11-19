@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 8:00 pm – 4:00 am",
+  "contact with hot surface",
+  "cooling, dressing, pain relief",
+  "no further complications reported",
+  "first-degree burn",
+  "No medical evacuation required",
+  "operator was advised to monitor for signs of infection or delayed healing",
+  "Reviewed welding cell safety signage",
+  "reminded of proper wrist protection",
+  "Re-checked the temperature settings on the welding torch",
+  "Schedule a refresher safety training session",
+  "Incident logged in the Safety Incident Register (Ref: SI-2026-11-01-WRC)",
+  "Consider installing additional wrist guards or heat-resistant gloves",
+  "Conduct a quick walk-through of the cell to verify all safety guards",
+  "Monitor the operator's recovery"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing causes, medical details, corrective actions, and documentation references not present in the input. It fails to flag the contradiction between 'no safety incidents' and the reported burn. While it captures the basic facts, the sheer volume of invented information makes it highly inaccurate."
+}

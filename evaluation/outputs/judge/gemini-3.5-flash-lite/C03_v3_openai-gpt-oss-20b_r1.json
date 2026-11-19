@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "for maintenance",
+  "Time Noticed: Not specified",
+  "Status: Ongoing",
+  "Schedule and complete maintenance on M-15 (Forklift #1).",
+  "Verify that alternative material handling equipment is available and operational.",
+  "6:00 PM (invented AM/PM and minutes)",
+  "before it was tagged out",
+  "No other issues or safety incidents reported."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates multiple maintenance reasons, actions, and timelines (such as assuming the forklift was used before it was tagged out, resolving the contradiction silently), and completely misses the contradiction as an uncertainty. While readability is high and the correct machine ID is used, the factual inventions severely harm accuracy."
+}

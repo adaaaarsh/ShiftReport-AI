@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Compressor began operation at Start of Shift",
+  "No anomalies detected at Start of Shift",
+  "Pressure dropped causing tool performance issues",
+  "Checked for obvious leaks or blockages",
+  "Verified valve positions and connections",
+  "No immediate corrective action could be performed during the shift",
+  "Conduct a thorough leak check on all fittings and valves in Line A",
+  "Use a pressure decay test to pinpoint any minor leaks",
+  "Inspect and, if necessary, replace any clogged filters or malfunctioning valves",
+  "Verify calibration of pressure gauges on Line A",
+  "Record tool performance metrics (e.g., torque, cycle time)",
+  "Log any changes made, including parts replaced and test results"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing numerous actions taken and detailed recommendations not found in the input. It also fails to map the compressor to its registry ID (M-12) and ignores the contradiction between the compressor's steady pressure and the tools' pressure loss."
+}

@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Morning (05:00 – 13:00)",
+  "Model XYZ-200",
+  "approx. 75% of rated capacity",
+  "approximately 4,800L of a 6,000L tank",
+  "Schedule routine fuel top-up during the next planned maintenance window",
+  "Log #G-2026-011",
+  "Next Test: Weekly test scheduled for 2026-11-12 at 06:00 hrs",
+  "Continue daily fuel level checks; alert if level drops below 70%",
+  "No alarms, fault codes, or abnormal noises were detected",
+  "All safety interlocks functioned correctly",
+  "The generator automatically returned to standby after the load test without manual intervention"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and captures all facts, but it is riddled with fabrications, inventing specific model numbers, tank capacities, log IDs, and detailed operational outcomes not present in the input. Because it presents these inventions as facts, accuracy and uncertainty scores are low."
+}

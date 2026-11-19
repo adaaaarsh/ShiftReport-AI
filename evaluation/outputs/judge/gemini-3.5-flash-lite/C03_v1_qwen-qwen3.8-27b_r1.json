@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "It is now tagged out and unavailable for use",
+  "Please ensure this unit is not scheduled for the next shift until maintenance has cleared it",
+  "prior to it being tagged out",
+  "Do not use Forklift 1",
+  "Verify availability of alternative forklifts for any remaining material handling needs",
+  "Contact maintenance regarding the status of Forklift 1 if repair timelines are needed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts of the input but invents significant narrative context, falsely reversing the timeline to claim the forklift was used before being tagged out to resolve the contradiction. It completely misses the underlying safety contradiction and missing information about authorization. Readability is decent, but the accuracy and uncertainty handling are poor due to the heavy fabrication."
+}

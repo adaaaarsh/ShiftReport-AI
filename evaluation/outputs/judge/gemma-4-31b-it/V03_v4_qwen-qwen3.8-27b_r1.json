@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance Status? Has maintenance been notified?",
+  "Safety Check: Verify if the affected forklift is safe to operate or if it requires immediate tag-out/repair.",
+  "Follow-up: Contact maintenance if not already done regarding the forklift issue."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous forklift issue and correctly flags the missing information. However, it fabricates several follow-up actions and maintenance queries not present in the input. Readability and uncertainty handling are excellent."
+}

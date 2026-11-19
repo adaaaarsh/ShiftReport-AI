@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Confirmed operational status for M-02",
+  "Time Noticed: 3:00",
+  "Action Taken: Maintenance team notified and is en route",
+  "Status: Ongoing — Awaiting maintenance arrival",
+  "Is the leak minor or significant?",
+  "Receive maintenance team for M-03 and confirm repair completion",
+  "Verify M-03 is safe to restart after maintenance intervention",
+  "Monitor M-03 for any recurrence of oil leaks post-repair",
+  "No other issues reported for this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-03, but treats the distractor (the lathe) as an issue entry rather than a note, and invents numerous details such as specific follow-up actions, statuses, and time formats not present in the brief input. While readability is high and uncertainty is handled well regarding the missing operational status, the inclusion of fabricated actions and turning a distractor into a reported issue severely impacts accuracy."
+}

@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potentially impacting backup power readiness",
+  "Inspect and repair the torn door seal immediately to prevent further under-cured parts and waste",
+  "Investigate the 3 bad batches caught by QC for disposition (rework or scrap)",
+  "Follow up with the fuel supplier to reschedule the missed delivery and ensure the generator is fueled for emergency use",
+  "Confirm continued normal operation (reported as fine, but monitor for any correlation with oven issues if any)",
+  "Line C is experiencing quality issues due to the oven malfunction; increased QC attention may be required",
+  "Logistics is fully operational with both forklifts in service",
+  "Utilities team should prioritize securing generator fuel to maintain safety compliance"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it contains numerous fabrications in the 'Pending Items' and 'General Notes' sections, inventing specific actions and justifications not found in the input. It flags one missing item for M-10 but fails to explicitly flag missing info for M-13."
+}

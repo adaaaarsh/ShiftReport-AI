@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Status: Ongoing",
+  "Clarifications Needed: Has a specific maintenance ticket or work order been logged for the overload relay inspection?",
+  "Monitoring: Monitor air pressure stability on Line A during the next shift to ensure no further tripping occurs.",
+  "No other equipment issues or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details including the shift name, a specific clarification request, a monitoring step, and a safety claim. Uncertainty handling is mediocre as it invents a clarification rather than flagging the missing info from the answer key."
+}

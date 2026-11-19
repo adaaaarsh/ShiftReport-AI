@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate Safety Check: Verify the status of M-15 (Forklift #1). Ensure it is physically secured and cannot be operated.",
+  "Logistics Coverage: Assess if M-16 (Forklift #2) can handle the full workload or if additional logistics support is needed for shipping pallets.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly handles the machinery ID and the contradiction. However, it invents several recommended actions and general notes not present in the input. Overall, it is highly readable and handles uncertainty well, but loses accuracy points due to fabricated follow-up instructions."
+}

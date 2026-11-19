@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "3:00 PM (AM/PM specification not in input)",
+  "potential for escalation if not repaired",
+  "Status: Ongoing - awaiting maintenance response",
+  "Has any containment been applied to the leak?",
+  "No issues reported; machine operating normally for M-02",
+  "All other equipment on Line A reported as functioning normally",
+  "No safety incidents or staffing issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report incorrectly turns the distractor (the lathe is fine) into a formal issue entry, and introduces several fabricated details such as specific AM/PM times, assumptions about containment, and generalized statements about safety. However, it captures the core hydraulic press issue well and correctly uses the uncertainty section to flag missing operational status."
+}

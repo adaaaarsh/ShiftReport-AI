@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "pump is non-functional, causing coolant circulation loss and halting dependent processes",
+  "the original (failed) bearings were re-installed and have now failed again",
+  "Replace the faulty bearings on M-11 with new, verified bearings or consider a bearing upgrade to prevent recurrence",
+  "Perform a root-cause analysis on why the original bearings are failing repeatedly (e.g., lubrication, alignment, contamination)",
+  "No other equipment issues were reported in this update"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report invents a severe operational impact, an absurd action story where failed bearings were re-installed, and multiple extensive recommendations not in the input. Severity is wildly exaggerated to CRITICAL with fabricated impacts. It fails entirely to capture the central contradiction that a brand new pump has failed original bearings."
+}

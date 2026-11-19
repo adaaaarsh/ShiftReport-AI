@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "dropping from approximately 2 psi to 4 psi",
+  "Time Noticed: Not specified (monitored continuously)",
+  "Action Taken: Routine monitoring; no intervention required",
+  "Status: Resolved / No action needed",
+  "Reduced tool performance, may affect productivity if not corrected",
+  "Action Taken: Issue observed; no corrective action taken during the shift",
+  "Status: Ongoing / Pending investigation",
+  "Investigate the cause of the pressure drop in the air tools on Line A (check pneumatic lines, filters, and the compressor output)",
+  "Verify that the compressor continues to maintain steady pressure and that no downstream restrictions have developed",
+  "Overall plant pressure system appears stable, with the main compressor performing within normal parameters",
+  "Monitor air tool performance closely; consider scheduling preventive maintenance on pneumatic distribution if the issue persists"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report invents a nonsensical numerical interpretation for the time window (turning 'from about 2 to 4' into a pressure drop of '2 psi to 4 psi'), splits the single compressor/tool issue into two separate items, and fabricates numerous actions, outcomes, and recommendations not present in the input. It completely misses the contradiction between the normal compressor and the dropping tool pressure, resulting in poor accuracy and uncertainty handling."
+}

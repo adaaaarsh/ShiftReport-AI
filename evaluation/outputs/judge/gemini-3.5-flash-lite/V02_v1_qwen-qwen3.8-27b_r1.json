@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate investigation and maintenance review required",
+  "Recommend escalating to Maintenance/Engineering for a root cause analysis to prevent recurring downtime",
+  "Prioritize contacting the maintenance team regarding Line C",
+  "Monitor Line C closely for any further degradation or safety hazards until repairs are completed",
+  "Document any additional symptoms or error codes observed to assist the maintenance team",
+  "No other significant incidents reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures the single ambiguous Line C issue and assigns an appropriate Unknown severity, but it heavily fabricates numerous maintenance recommendations, actions, and operational statements that were never provided in the minimal supervisor input. Readability and uncertainty handling are strong, but the extensive fabrication severely penalizes accuracy."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production stoppage",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the equipment and captures all factual details from the input, but it hallucinates several statuses, conclusions, and a lack of additional notes not present in the supervisor notes. It does not flag the missing cause of calibration drift, completely ignoring that unknown factor. Severities and readability are otherwise very clean and clear."
+}

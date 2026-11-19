@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:20 PM",
+  "No safety incidents or additional staffing changes reported",
+  "Inspect and troubleshoot the whining noise on M-11 to determine root cause",
+  "Monitor M-01 for any recurrence of spindle overload alarms; verify spindle health",
+  "Arrange for a replacement operator for M-08 to restore full production speed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is complete and well-structured, but it fabricates several details, including adding 'PM' to the time and inventing a list of pending items and a safety claim. Severity for M-08 is arguably too high (HIGH) given it was a planned reduction to half speed. It fails to flag any missing information or uncertainty, presenting the report as complete."
+}

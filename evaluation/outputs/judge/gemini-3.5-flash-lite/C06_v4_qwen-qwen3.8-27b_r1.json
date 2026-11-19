@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "No safety incidents reported",
+  "Action Taken: None required (monitoring only)",
+  "Status: Resolved / Normal",
+  "Investigate cause of air pressure loss on Line A air tools (occurred 2:00 PM – 4:00 PM)",
+  "Verify current air pressure stability on Line A tools",
+  "Confirm if any specific air tools require repair or replacement"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report correctly captures the compressor status and the air tools pressure drop, but it splits them into two separate entities and invents action items, pending items, and a 'no safety incidents' statement. It handles the unrecognized air tools well by flagging them as unrecognized, but creates several fabricated details that were not in the supervisor's input."
+}

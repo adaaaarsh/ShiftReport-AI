@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine operating at reduced capacity, production impacted",
+  "Oil leak detected near the base of an unspecified machine on Line A",
+  "Monitor M-07 for continued noise and potential escalation",
+  "Verify that all machines on Line B are operating within normal parameters",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report fabricates a specific machine ID (M-07) and severe operational consequences that were not in the input. It also invents general notes and pending items such as safety incidents and verifying all Line B machines. However, it captures all reported issues and presents them in a very clean, readable format."
+}

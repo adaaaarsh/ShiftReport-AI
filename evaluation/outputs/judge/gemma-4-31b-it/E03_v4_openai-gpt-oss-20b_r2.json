@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Noise may indicate impending spindle wear or misalignment",
+  "Noise persists; potential for escalation",
+  "Verify that no other equipment issues were overlooked"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and flags missing information well. However, it fabricates specific technical causes for the noise and assumes the time was PM. It also incorrectly lists the functioning Mill on B as an issue."
+}

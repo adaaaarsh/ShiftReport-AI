@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "1:30 PM (input says 1:30, PM is not specified)",
+  "Noise may indicate developing mechanical problem; could affect production if it worsens",
+  "Needs monitoring and possible maintenance",
+  "Inspect and diagnose the spindle noise on M-01",
+  "arrange maintenance if required",
+  "Verify that the parking lot lighting issue is addressed by facilities"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is well-structured and captures all input items. However, it fabricates several details regarding the nature of the noise and the required next steps. It also treats a distractor (M-07 being fine) as a formal issue entry and fails to flag any uncertainty regarding the 1:30 time (AM/PM)."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "leak may affect performance and requires attention but production not stopped",
+  "03:00",
+  "Ongoing",
+  "Ensure maintenance completes repair of the oil leak on M-03 and verifies that the press is fully operational",
+  "No other equipment issues reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the hydraulic press issue and maps the correct machine ID, but invutes several details such as specifying 03:00 instead of 3, assuming production impact, and adding standard pending actions not in the text. Completeness and severity handling are solid, but it fails to flag the unknown operational status of the press as requested in the answer key."
+}

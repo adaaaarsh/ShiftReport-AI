@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Troubleshooting and corrective actions were performed to bring the machine back within tolerance",
+  "Recommendation: Do not assume the fix was perfect on the first try. Check for dimensional accuracy and surface finish on recent output. If any parts are found to be defective, quarantine them immediately and notify the Quality Control team",
+  "The root cause of the out-of-spec issue was not fully documented in these notes. If the issue recurs, please review machine logs and consult with maintenance"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and assigns a safe unknown severity, but it invents extensive maintenance details, corrective actions, and quarantine recommendations that were not in the sparse input. It also guesses a generic CNC machine reference instead of flagging the ambiguity among the multiple CNC options in the registry. The structure is clear and readable."
+}

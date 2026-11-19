@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-03 severity justification (reduces press efficiency but not a complete shutdown)",
+  "M-03 Action Taken (Issue logged; monitoring continued during shift)",
+  "M-03 Status (Ongoing)",
+  "Paint Booth severity justification (line D production halted due to lack of paint application)",
+  "Paint Booth Action Taken (Notified maintenance; awaiting parts/service)",
+  "Paint Booth Status (Pending)",
+  "Pending Item: Diagnose and repair the recurring issue on the Hydraulic Press (M-03)",
+  "Pending Item: Complete repair of the Paint Booth on line D and verify operational status",
+  "Pending Item: Update maintenance log with detailed findings for both issues",
+  "General Note: No safety hazards reported during this shift",
+  "General Note: Staffing levels were adequate; all operators were present for the duration of the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing actions, statuses, and general notes not present in the input. It fails to flag missing critical information (like the nature of the press issue) and presents guessed severities as facts. While it captures all reported items, the level of invention is severe."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential safety risk and logistics disruption if the specific unit is not identified",
+  "Time Noticed: Earlier in shift (exact time not specified)",
+  "Perform a safety check on the identified forklift to determine the nature of the 'weird' behavior (e.g., steering, lifting, brakes, or electrical)",
+  "Tag Out if Necessary: If the forklift is unsafe to operate, tag it out and ensure the other forklift is available for critical logistics tasks"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report accurately preserves the vague input and correctly flags the ambiguity between M-15 and M-16, but it invents several recommended actions and potential safety risks not present in the supervisor notes. Severities are assigned without clear supporting evidence in the input. Readability and uncertainty handling are strong due to clear formatting and transparent handling of missing details."
+}

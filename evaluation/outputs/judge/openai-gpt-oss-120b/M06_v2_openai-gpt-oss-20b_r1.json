@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Exact time 5:00 PM for M-07 issue",
+  "Statement that all other equipment reported normal operation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report includes all four issues from the supervisor input, so completeness is high. However it adds invented specifics such as an exact 5:00 PM timestamp and a blanket statement that all other equipment is normal, lowering accuracy to a moderate level. Severity assignments for M-02 and M-07 are higher than the answer‑key’s acceptable ranges, resulting in a middling severity score. The layout is clear and well‑structured, giving a top readability rating, while uncertainty handling is only partial, flagging some gaps but omitting several missing actions, yielding a moderate score."
+}

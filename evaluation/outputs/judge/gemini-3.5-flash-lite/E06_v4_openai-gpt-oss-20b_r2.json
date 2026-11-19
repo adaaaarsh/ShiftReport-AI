@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil leak detected near the base of the unit",
+  "3:00 PM",
+  "potential for escalation if not addressed",
+  "Monitor the oil leak on M-03 to ensure it does not worsen",
+  "Confirm that maintenance has inspected and repaired the leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the hydraulic press issue and correctly avoids flagging the lathe distractor, while successfully mapping the line A press to M-03. However, it fabricates several details such as the specific time PM designation, leak location, and monitoring instructions not present in the input. Uncertainty handling is poor because it explicitly claims no additional details are required, missing the ambiguity of whether the press is still running."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "near the base of the unit",
+  "3:00 PM",
+  "potential for escalation if not addressed",
+  "Maintenance scheduled to arrive",
+  "Ongoing — Maintenance pending",
+  "Confirm arrival of maintenance for M-03 and assess leak condition",
+  "Monitor the hydraulic press for any changes in leak severity",
+  "The adjacent lathe (M-02) is operating normally."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all core facts and correctly maps M-03 and its severity, but it invulates several details not present in the brief supervisor input such as specific PM times, exact locations of the leak, and extended action items. It successfully handles the distractor (lathe) by placing it in general notes and correctly flags the missing operational status of the press."
+}

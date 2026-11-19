@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "commercial oven",
+  "residue burn-off or a small food spill",
+  "Area inspected; ventilation fans checked and confirmed operational",
+  "No visible leak or fire hazard identified",
+  "Monitor the oven during the next two shifts",
+  "floor-service robot (Model XR-200)",
+  "navigating the kitchen floor",
+  "Possible temporary obstacle detection or minor sensor glitch",
+  "Robot was manually reset each time",
+  "resumed normal operation without error codes",
+  "Review robot's log files at the end of the day",
+  "Verified that all fire suppression systems and alarms are functional",
+  "Checked and cleared ventilation ducts around the oven",
+  "Documented the incidents in the equipment log (Entry #4527)",
+  "Perform a brief visual inspection of the oven interior",
+  "Keep the area well-ventilated",
+  "Continue routine checks of kitchen temperature and humidity controls",
+  "Ensure all staff are aware of the temporary odor",
+  "Maintenance Ticket: #MT-2026-1105-Oven",
+  "Robotics Ticket: #RB-2026-1105-Pause"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report fabricates an extensive amount of details, actions, causes, and maintenance tickets that were entirely absent from the minimal two-sentence supervisor input. While it captures all core items from the input and is structured cleanly for readability, the massive volume of completely invented information severely undermines its accuracy. The uncertainty handling is mediocre since it presents many guessed details and invented troubleshooting actions as actual events."
+}

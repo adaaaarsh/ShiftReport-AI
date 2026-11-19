@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon (Inferred from 1:40 PM timestamp)",
+  "Time Noticed: Before 1:40 PM (Work order submitted at 1:40 PM)",
+  "Status: Ongoing (Awaiting repair)",
+  "Monitor status of Work Order #4471 for M-16 (Forklift #2).",
+  "Verify repair completion and perform safety check before returning M-16 to service.",
+  "Logistics capacity is currently reduced to a single forklift (M-15). Next shift should be aware of potential bottlenecks in material handling.",
+  "Ensure M-16 remains tagged out and inaccessible until maintenance confirms the tire replacement and safety inspection."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input facts and is very readable, but it severely overinflates the severity of a flat tire to HIGH and hallucinates numerous operational procedures, status labels, and monitoring steps not present in the supervisor input. It also guesses the shift letter despite the input explicitly leaving it unspecified. Consequently, its accuracy, severity, and uncertainty handling are poor."
+}

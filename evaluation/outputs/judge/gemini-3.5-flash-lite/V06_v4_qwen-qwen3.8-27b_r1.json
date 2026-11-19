@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify if any safety protocols were triggered or if the unit requires inspection before continued use",
+  "Check for sensor obstructions or mechanical jams",
+  "Determine if the robot pauses caused any defective welds or downtime that needs to be logged",
+  "Both reported issues lack specific timestamps and detailed observations",
+  "No other equipment issues or staffing concerns were mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details from the sparse supervisor input and identifies the right equipment. However, it introduces several fabricated suggestions, checks, and impact assessments not present in the original notes. Severities are reasonable, especially keeping the oven odor as UNKNOWN despite the supervisor's dismissive comment. The structure and uncertainty handling are excellent, clearly pointing out all missing context."
+}

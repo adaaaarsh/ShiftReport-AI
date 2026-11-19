@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "monitored performance parameters",
+  "Status: Resolved",
+  "may need refueling before next scheduled test",
+  "No mechanical issues reported during the shift",
+  "All other equipment operating within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it includes several fabricated details such as monitoring parameters, the 'Resolved' status, and general claims about other equipment. These additions lower the accuracy score to a 3."
+}

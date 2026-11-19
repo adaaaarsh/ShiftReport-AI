@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "faint smell detected around the oven zone",
+  "likely minor (residual food residue or temporary vent issue)",
+  "perform a visual inspection of the oven and surrounding vent/exhaust system",
+  "verify that the oven is clean and that filters are not clogged",
+  "if the smell persists after cleaning, notify Maintenance for a deeper check",
+  "the automated robot (presumably the kitchen/servicing robot)",
+  "temporary pause may be due to sensor trigger, low battery, or minor software glitch",
+  "review robot log files to identify pause timestamps and any error codes",
+  "ensure the robot's battery is fully charged and charging dock is functional",
+  "reset/reboot the robot if pauses continue",
+  "escalate to Technical Support if the issue recurs",
+  "area was ventilated briefly",
+  "no immediate safety concern identified",
+  "monitored pauses",
+  "robot resumed operation after each pause without manual intervention",
+  "check for any food debris or spills that could cause odor",
+  "confirm that the exhaust fan is operating at full capacity",
+  "keep an eye on the robot's performance for any further pauses",
+  "record any additional pause events with timestamps for trend analysis",
+  "log any follow-up actions taken in the maintenance system",
+  "update the equipment status board with the current condition of the oven and robot",
+  "confirmation from Maintenance that the oven vent/filter is clean (target completion by end of day)",
+  "review of robot diagnostic logs (target completion by next scheduled maintenance window)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures both items from the input, but it is heavily laden with extensive fabrications, inventing numerous actions, causes, and recommendations not mentioned by the supervisor. It presents vague, speculative input as definitive operational procedures and action items without properly flagging uncertainty."
+}

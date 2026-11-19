@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "02:00 and 04:00",
+  "Recommend inspection of Line A for potential leaks, regulator issues, or valve malfunctions",
+  "Monitor Line A closely during the next shift to see if the pressure loss recurs",
+  "If the issue persists, isolate sections of Line A to identify the source of the leak or fault",
+  "Verify that all air tools on Line A are properly connected and not damaged"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous details, including specific times (02:00-04:00) and a detailed list of recommended actions not found in the input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. No machine ID from the registry was used."
+}

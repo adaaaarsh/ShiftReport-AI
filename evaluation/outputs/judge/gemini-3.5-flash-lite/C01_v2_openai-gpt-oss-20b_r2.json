@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine remained operational after restarts, no production stoppage",
+  "monitored for stability",
+  "potential safety and product quality risk",
+  "no further action taken during shift",
+  "Ongoing (monitoring required)",
+  "Verify that the Industrial Oven (M-10) remains within spec and investigate cause of temperature spike",
+  "Confirm that the CNC Milling Machine (M-07) is operating without residual error codes",
+  "Overall production was not interrupted; all machines were functional by shift end",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all real events from the input but invents numerous details such as production statuses, specific actions taken, monitoring plans, and safety claims. It completely misses the inherent contradictions in the input regarding the machine status, smoothing them over as if everything were fully consistent. Readability is high due to clear formatting, but accuracy and uncertainty handling are heavily penalized for fabricated details and unflagged contradictions."
+}

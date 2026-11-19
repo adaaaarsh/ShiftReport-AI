@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from 9:12 PM timestamp)",
+  "Status: Ongoing — Root cause identified as overload relay",
+  "Coordinate with maintenance for the inspection of the M-12 overload relay (scheduled for tomorrow morning)",
+  "Monitor air pressure stability on Line A to ensure no recurrence of the trip",
+  "Production on Line A was halted for approximately 8 minutes (9:12 PM – 9:20 PM)",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts from the input and uses the correct machine ID, but it invents several details such as inferring the shift, claiming status is ongoing, adding pending action items, and stating no safety incidents occurred. Severities are defensible, structure is clean and readable, but it fails to flag missing information about scrapped parts or explicitly highlight uncertainties."
+}

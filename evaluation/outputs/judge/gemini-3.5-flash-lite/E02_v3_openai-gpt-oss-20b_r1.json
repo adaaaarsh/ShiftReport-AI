@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Persistent issue, potential for escalation if not resolved",
+  "Production halted for Line D; safety and quality concerns",
+  "Investigate and resolve the hydraulic press issue (M-03) as per Tuesday's report",
+  "Diagnose and restore the paint booth on Line D to operational status",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input, but heavily fabricates causes, actions, impacts, and general notes not present in the supervisor notes. Severities are confidently assigned without evidence, and the unrecognized paint booth is listed as a specific machine without flagging the registry discrepancy."
+}

@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Performed two sequential restarts; system returned to stable operation",
+  "Shut down oven, allowed it to cool, and verified temperature sensors",
+  "Fahrenheit units for 450",
+  "No product quality issues were observed",
+  "Keep the machine under observation for the next 2-3 shifts",
+  "Check and recalibrate temperature sensors on Oven C",
+  "Review recent oven usage logs to identify any patterns",
+  "Schedule a preventive maintenance check within the next maintenance window",
+  "Record the error code details (code number, description) in the equipment logbook",
+  "Update the oven's temperature deviation entry in the quality control log",
+  "No impact on product quality or safety was observed during the incidents",
+  "All other machines and lines are operating within normal parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures both issues from the supervisor notes but heavily fabricates actions taken, recovery steps, root-cause investigations, and follow-up schedules that were never mentioned in the input. Contradictions are ignored and unstated outcomes (such as no product quality or safety impact) are invented. Because of the extensive fabrication and failure to flag missing error codes or causes, accuracy and uncertainty scores are at the minimum."
+}

@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "approx. 12:00 PM",
+  "Status: Ongoing – requires monitoring and further diagnostics",
+  "Status: Ongoing – monitor generator output and load",
+  "Status: Ongoing – check HVAC power supply and control panel",
+  "Investigate the cause of the power fluctuation",
+  "Verify and test the Compressor Unit, Backup Generator, and HVAC System for stability and correct operation",
+  "Confirm that lighting and power supply remain stable during peak shift times",
+  "No safety hazards were reported",
+  "power irregularity should be addressed to prevent potential equipment damage or safety risks"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report takes an ambiguous reference to 'utilities' and splits it into three separate issues for M-12, M-13, and M-14 without flagging the ambiguity. It fabricates numerous details regarding status, specific times, and pending actions. It presents these guesses as facts, failing the uncertainty handling rubric."
+}

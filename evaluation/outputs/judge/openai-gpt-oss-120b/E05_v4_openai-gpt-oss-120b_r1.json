@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing / Pending for Machine 17",
+  "Clarifications suggesting machine shutdown or isolation",
+  "Mapping robot 2 to M-06 Welding Robot Arm",
+  "Severity commentary for robot (No safety hazard; production impact ...)",
+  "Presumed action taken note for robot",
+  "Clarifications about robot running state and tooling",
+  "Pending item to isolate leak and arrange maintenance",
+  "Pending item to confirm robot back to full operational mode",
+  "General note claiming no safety incidents reported",
+  "Statement about staffing levels not mentioned"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both supervisor items, so completeness is high, but it invents many details and incorrectly assigns robot 2 to M-06, harming accuracy. Severity labels are reasonable given the limited input, and the layout is clear, yielding strong readability. Uncertainty handling is mixed: it flags the unknown Machine 17 but fails to note the ambiguity around robot 2, resulting in a moderate score."
+}

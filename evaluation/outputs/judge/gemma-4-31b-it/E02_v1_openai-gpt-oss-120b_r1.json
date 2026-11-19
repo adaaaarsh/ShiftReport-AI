@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "intermittent stop/start, abnormal noise, and cycle time increase",
+  "Performed visual inspection",
+  "Reset PLC and cleared fault codes",
+  "Monitored for 30 min – fault re-occurred",
+  "Reduced output by ~15 % on the affected line",
+  "Booth not powering up; control panel shows “System Fault – Power Supply”",
+  "Verified main breaker – OK",
+  "Checked emergency stop – engaged; reset and released",
+  "Inspected fuse – blown, replaced with spare",
+  "Booth still non-functional; fault persists on restart",
+  "Line D halted; downstream processes (assembly, finishing) on hold",
+  "Contact Mechanical Maintenance (Ext. 212)",
+  "schedule a detailed inspection of the drive motor and hydraulic system",
+  "order Drive Coupling Kit – Part #DC-4521",
+  "Escalate to Electrical Maintenance",
+  "full power-supply diagnostic (possible transformer or PLC fault)",
+  "Verify that the replacement fuse matches the original rating (check spec sheet – 30 A, 250 V)",
+  "arrange for temporary re-routing of painted parts to Line C’s booth",
+  "Update the production schedule",
+  "Communicate the expected delay to the Logistics and Customer Service teams",
+  "All emergency stops on the press and paint booth were inspected and are functional",
+  "No hazardous material spills were observed during the downtime",
+  "Ensure lock-out/tag-out (LOTO) procedures are followed",
+  "Implement a weekly vibration analysis on the press drive assembly",
+  "Add a secondary power-monitoring relay",
+  "Document any recurring fault patterns in the Equipment Reliability Log"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is an extreme case of fabrication, inventing detailed symptoms, actions taken, part numbers, and maintenance instructions not present in the input. It fails to flag the paint booth as unrecognized equipment and fails to flag the missing details of the press issue. While readable and complete in terms of capturing the two mentioned items, the accuracy is critically low."
+}

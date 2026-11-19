@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Status: Ongoing — Batch completion in progress; interlock remains bypassed",
+  "Verify M-10 temperature stability and ensure it returns to automatic control mode once the current batch is complete",
+  "Restore the safety interlock on M-10 immediately after the batch is finished",
+  "Investigate root cause of the temperature spike (380°F) to prevent recurrence",
+  "Confirm with Mike regarding the authorization for the interlock bypass and document the exception",
+  "Safety interlock was bypassed for production continuity. This is a significant safety deviation that must be closed out before the next batch starts",
+  "Monitor product quality from the current batch for any defects related to the temperature excursion"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates a significant amount of 'Pending Items' and 'General Notes' that were not in the supervisor's notes, and it infers the shift as 'Night Shift'. It fails to flag any missing information or uncertainty, presenting the inferred status as fact."
+}

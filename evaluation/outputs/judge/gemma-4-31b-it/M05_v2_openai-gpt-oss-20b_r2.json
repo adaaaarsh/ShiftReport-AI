@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "leaving the backup generator offline",
+  "Potential safety and production risk if power is lost",
+  "Replace or repair the torn oven door seal on M-10 and verify oven temperature integrity",
+  "Confirm fuel delivery for M-13 and ensure the backup generator is operational",
+  "Inspect oven performance post‑repair to ensure no further under‑cured parts",
+  "Verify that the scanner on M-09 remains functional (no action needed, but confirm during routine checks)",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates several actions and statuses (e.g., generator being 'offline' and specific pending repair steps) not found in the input. Severity for the generator is arguably too high (HIGH) given the input only mentions a missed delivery. It fails to flag any missing information or uncertainty, presenting the situation as fully understood."
+}

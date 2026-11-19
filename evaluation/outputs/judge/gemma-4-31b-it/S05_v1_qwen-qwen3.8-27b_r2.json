@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Line A operations resumed",
+  "Monitor the compressor unit closely during the first hour of the shift to ensure no recurrence of tripping",
+  "Confirm with Maintenance that the inspection has been completed and the unit is cleared for full operation",
+  "Line A: Operational (Air tools functional)",
+  "Air Pressure: Stable at 110 PSI",
+  "Other Systems: No other abnormalities reported",
+  "Please verify that Maintenance has completed their inspection of the overload relay before the end of the shift",
+  "If the compressor trips again, do not reset the breaker more than once; contact Maintenance immediately"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but includes significant fabrications in the form of operational status updates and specific instructions for the next shift. It fails to assign a severity level or flag the missing information regarding scrapped parts. The machine ID (M-12) was not explicitly used, though the name was correct."
+}

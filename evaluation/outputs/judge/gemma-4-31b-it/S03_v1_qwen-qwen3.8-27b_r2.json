@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adequate for current operations; no immediate refueling required",
+  "Monitor generator status as normal",
+  "All systems nominal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately. However, it includes several fabricated interpretations and instructions (e.g., 'Adequate for current operations', 'Monitor generator status', 'All systems nominal') not present in the supervisor's notes. Readability and completeness are excellent."
+}

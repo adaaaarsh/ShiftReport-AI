@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 2,
+ "fabricated_details": [
+  "Assess for potential bearing or alignment failure to prevent catastrophic breakdown",
+  "Report parking lot lighting outage to maintenance/electrician for repair",
+  "Next shift should prioritize safety inspection before resuming heavy production loads"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the supervisor input accurately. However, it treats informal distractors (mill on B, parking lot lights) as structured issues or pending items, and adds several fabricated operational recommendations and maintenance assessments not present in the original text."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Robot is back in production and operating normally",
+  "Monitor Line B welding robot for the next 30–60 minutes to ensure the recalibration holds and no further wire feed issues occur",
+  "Verify that the new wire spool is properly seated and tensioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID for the welding robot. However, it invents handover monitoring instructions and assumptions about normal operation not present in the input. Severities and readability are strong, but the handling of uncertainty is moderate as it adds monitoring steps without input guidance."
+}

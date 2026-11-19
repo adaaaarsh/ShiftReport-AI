@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Action Taken for M-11: No corrective action taken; monitored flow rate",
+  "Status for M-11: Ongoing",
+  "Status for M-01: Resolved",
+  "Time Noticed for M-08: Start of shift",
+  "Action Taken for M-08: Unit operated at half speed to accommodate single-operator workflow",
+  "Status for M-08: Ongoing (Staffing dependent)",
+  "Pending Item for M-11: Inspect for mechanical wear or bearing issues",
+  "Pending Item for M-08: Confirm if additional staff are available; monitor for fatigue-related errors",
+  "Pending Item for M-01: Monitor spindle performance for the first hour",
+  "Production Impact: Line A and C are operating at normal rates"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is complete and highly readable, but it contains numerous fabrications in the 'Action Taken', 'Status', and 'Pending Items' sections that were not in the input. Severity for M-01 is too low (LOW instead of MEDIUM/HIGH). It fails to flag any missing information or uncertainty, presenting inferred details as facts."
+}

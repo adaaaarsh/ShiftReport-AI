@@ -1,0 +1,68 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool was swapped with a spare unit",
+  "no further abnormalities observed",
+  "Verify tool wear schedule during next maintenance cycle",
+  "line isolated and temporary containment applied",
+  "coolant loss is occurring",
+  "Schedule repair/replacement of the coolant line and perform a pressure test",
+  "No inspection performed during shift due to time constraints",
+  "Unit continues to run; noise persists",
+  "Conduct a detailed inspection (tighten mounts, check fan blades, inspect bearings)",
+  "Operators have been instructed to monitor and work around the sensor",
+  "occasional speed fluctuations noted",
+  "Replace or recalibrate the speed sensor; verify wiring integrity",
+  "monitor for any repeat failures",
+  "avoid coolant depletion and potential overheating",
+  "indicate loose components or bearing wear",
+  "prevent possible failure",
+  "intermittent signal can affect product quality and conveyor synchronization",
+  "Arrange sensor replacement/recalibration before the next production run",
+  "Confirm that the spare tool on M-07 is logged and inventory updated",
+  "Arrange maintenance order for the Lathe coolant line repair",
+  "Dispatch HVAC service personnel to inspect and resolve the roof unit noise",
+  "Order a replacement speed sensor for the B conveyor and schedule downtime for installation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications. It invents specific actions taken (isolating lines, instructing operators), specific causes (bearing wear, product quality), and specific follow-up steps not found in the input. Additionally, it fails to use the registry IDs for three out of four machines, and it presents all information as certain despite the input being vague."
+}

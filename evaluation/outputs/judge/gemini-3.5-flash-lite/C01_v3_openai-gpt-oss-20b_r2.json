@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Error cleared after second restart",
+  "Machine operating normally (for M-07)",
+  "Temperature spiked to 450 C (added unit)",
+  "Monitored and verified that temperatures have returned to normal operating range",
+  "Oven now within spec",
+  "No additional incidents or staffing concerns reported"
+ ],
+ "accuracy": 2,
+ "completeness": 4,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the core equipment events and captures most facts, but it includes several fabricated details such as actions taken, outcomes, and assumed units. It completely misses the internal contradiction present in the input that M-07 was both running fine and throwing error codes. Readability is strong with clear formatting, but uncertainty handling is poor as it presents ambiguous and contradictory notes as fully resolved."
+}

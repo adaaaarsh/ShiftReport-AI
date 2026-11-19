@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend immediate inspection of Mill A spindle by maintenance before next shift to prevent potential failure.",
+  "Please notify facilities/maintenance to address lighting issues for safety and security purposes.",
+  "Please acknowledge and celebrate with the team."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all details and correctly identifies the equipment, but it invents several specific recommendations, action requests, and next steps that were not in the supervisor input. Severities and completeness are handled well with a clear structure. However, it fills in gaps by suggesting maintenance inspections and facility notices without explicit input instructions."
+}

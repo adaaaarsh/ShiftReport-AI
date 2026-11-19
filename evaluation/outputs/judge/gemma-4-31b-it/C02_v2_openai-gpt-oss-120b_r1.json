@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Press was stopped immediately",
+  "maintenance has been notified",
+  "parts are being ordered",
+  "Receive and install the replacement parts",
+  "verify leak repair",
+  "Resume production on the hydraulic press after successful repair and testing",
+  "No safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains numerous fabrications regarding actions taken (maintenance notified, parts ordered) and pending tasks. It fails to flag the contradiction between the machine being shut down and the production of 400 pieces. Severity is defensible as the machine is shut down."
+}

@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "safety interlock bypassed",
+  "Awaiting maintenance verification and corrective action",
+  "Could lead to utility instability and affect downstream equipment",
+  "Issue persists, no resolution reported",
+  "no production impact reported",
+  "Tip change scheduled for upcoming shift",
+  "No staffing or additional safety incidents noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is complete and highly readable, correctly identifying all machines and flagging missing information. However, it contains several fabricated details, such as the cause of the interlock failure ('bypassed') and the potential impact of the compressor issue. Severity for the compressor is slightly high but defensible."
+}

@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift times 12:00 pm – 8:00 pm",
+  "Date placeholder [Insert Date]",
+  "Reporting Supervisor placeholder [Your Name]",
+  "Receiving Supervisor placeholder [Next Shift Supervisor]",
+  "Incident time during lunch period (≈ 12:30 pm – 1:15 pm)",
+  "Utility monitoring system flagged irregularities",
+  "Electrical load spike (“kick‑on”) detected on main distribution panel",
+  "Reference to a high‑current device cycling on",
+  "Confirmation that all critical equipment remained powered and operational",
+  "Notification to Facilities Team and their quick inspection of the distribution panel",
+  "Verification that all breakers were intact and no tripping occurred",
+  "Monitoring the system for 30 minutes post‑incident with no further anomalies recorded",
+  "Root‑cause speculation of a transient fault in the surge protection device",
+  "Suggestion that an HVAC compressor may have cycled on",
+  "Recommendation to schedule a detailed inspection of the surge protection device and wiring",
+  "Recommendation to review load schedules to avoid simultaneous high‑draw equipment",
+  "Recommendation to install additional real‑time voltage/current monitoring on the main panel",
+  "Statement that production line remained fully operational throughout the incident",
+  "Claim of no change in throughput or product quality",
+  "Statement of no safety incidents or alarms triggered",
+  "Operators reported no noticeable disruptions and that flicker did not affect machine controls or visibility",
+  "Action table entries (reported utilities incident, monitored utilities, confirmed production continuity, documented incident)",
+  "Pending items list (facilities inspection, load management review, monitoring upgrade, safety briefing)",
+  "Prepared by and Approved by signature placeholders"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three facts from the supervisor input but adds a large number of invented details, causing very low accuracy. It is complete with respect to the input, so completeness is high. No severity level is provided, leading to a poor severity score. The formatting is clear and scannable, giving a high readability rating. The report fails to flag the ambiguous equipment or unknown causes, resulting in a low uncertainty handling score."
+}

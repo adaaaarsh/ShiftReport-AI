@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Start of shift (08:00 AM)",
+  "Action Taken: None (monitoring only)",
+  "Status: Ongoing",
+  "3:20 PM",
+  "Status: Resolved (but root cause pending investigation)",
+  "Throughout the night (08:00 PM – 06:00 AM)",
+  "Action Taken: Operated at half speed to maintain output; no additional staff assigned",
+  "Status: Ongoing",
+  "Inspect and diagnose the whining noise on M-11; schedule maintenance if necessary",
+  "Follow up on the spindle overload incident on M-01; verify spindle wear and replace components if required",
+  "Address staffing shortage for M-08; arrange for a replacement operator or adjust shift schedule",
+  "No safety incidents reported",
+  "consider cross-training or backup staffing for critical units"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications, inventing specific times (08:00 AM, 08:00 PM - 06:00 AM), statuses, and detailed pending actions not found in the input. It also claims 'no safety incidents reported' which was not in the input. Severity for M-08 is arguably too high (HIGH) for a staffing issue that was managed by running at half speed."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor visual disturbance, no reported impact on safety or production.",
+  "Time Noticed: Around lunch (approx. 12:00 PM)",
+  "Status: Ongoing — Issue observed, but no follow‑up action recorded.",
+  "If the issue was related to the HVAC system, compressor, or generator, ensure a maintenance check is performed.",
+  "Confirm that lighting and related utilities are stable for the remainder of the production day.",
+  "No safety incidents or production stoppages reported.",
+  "Production continued normally despite the minor utility disturbance."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details and uncertainty from the sparse input, successfully handling the ambiguous utility reference. However, it includes several fabricated details, assumptions, and expanded action/pending items not stated in the original text, which limits its accuracy score. It scores well on completeness, severity, readability, and uncertainty handling due to its structure and proper flags."
+}

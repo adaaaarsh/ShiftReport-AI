@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-13 — Backup Generator (Utilities)",
+  "backup generator kicked on",
+  "Power fluctuation caused a brief interruption",
+  "≈12:00 PM",
+  "generator automatically engaged",
+  "Generator remains active",
+  "Verify that the backup generator has cycled back to standby",
+  "Inspect the power distribution panel",
+  "Confirm that all utility equipment (M-12, M-13, M-14) is operating normally",
+  "No safety incidents or staffing changes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guesses that the 'something' that kicked on was the M-13 Backup Generator and fabricates numerous details regarding the cause, status, and required follow-up actions. It fails to flag the ambiguity of the equipment involved, presenting a guess as a fact. While it captures all the supervisor's points, the level of fabrication is severe."
+}

@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "machine performance appeared abnormal",
+  "Noise indicates a potential malfunction that could affect production if not addressed",
+  "no corrective action taken during the shift",
+  "Requires inspection and possible maintenance by the next shift",
+  "Leak could lead to equipment damage or safety concerns if it worsens",
+  "no repair performed during the shift",
+  "Needs identification and repair on the next shift",
+  "Verify that any corrective actions taken do not impact safety or production continuity",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all issues but fabricates a significant amount of detail regarding the nature of the malfunctions, the actions taken, and general shift status (safety/staffing). Severities are guessed as MEDIUM without evidence in the input. Uncertainty is handled well by flagging the machines as unidentified."
+}

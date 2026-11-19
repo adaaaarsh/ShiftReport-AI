@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Need to confirm if any additional safety checks or equipment inspections were performed",
+  "Was the welding robot arm shut down or inspected after the incident?",
+  "Were any safety protocols reviewed or updated?",
+  "Verify that the welding robot arm (M-06) has been inspected for potential safety hazards",
+  "Confirm that the operator received any additional medical follow-up or safety training",
+  "Review and reinforce safety procedures for the welding robot cell to prevent recurrence"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts accurately and maintains a clean structure, but it fabricates several required pending actions and follow-ups not present in the input. It successfully uses an UNKNOWN severity for the safety incident given the limited context. However, it fails to explicitly surface the contradiction between 'no safety incidents' and a burn injury."
+}

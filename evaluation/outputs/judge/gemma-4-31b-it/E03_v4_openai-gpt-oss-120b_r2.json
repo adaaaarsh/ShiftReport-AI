@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Operator kept the machine running while monitoring",
+  "Machine still in operation; no maintenance performed yet",
+  "Verify spindle condition on M-01 and arrange maintenance inspection if needed",
+  "Confirm that the parking lot lighting issue has been reported to facilities and a repair ticket is in progress"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input items and correctly identifies the machines. However, it fabricates several operational details (PM, monitoring, maintenance status) and turns a distractor (M-07) into a formal issue entry. Uncertainty handling is excellent, explicitly flagging the unknown equipment and missing maintenance info."
+}

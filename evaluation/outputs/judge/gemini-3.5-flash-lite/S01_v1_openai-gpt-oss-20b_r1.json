@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Jam cleared manually",
+  "Ran a full test cycle to verify functionality",
+  "Monitor Line B for any recurrence of jamming",
+  "Log the incident in the maintenance database with details of the jam cause (if identified)",
+  "Schedule a preventive check on the packaging unit for the next maintenance window",
+  "No downtime beyond the jam clearance time",
+  "production was not impacted",
+  "Please let me know if any additional actions are required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and correctly identifies the packaging unit as M-08. However, it severely over-elaborates by inventing extensive follow-up actions, maintenance logging requirements, preventive checks, and production impact statements that were not in the input. Readability is generally good, but the severe fabrication reduces accuracy to a 1."
+}

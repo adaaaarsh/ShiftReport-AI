@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "reduced vigilance",
+  "Ongoing (status)",
+  "Monitor spindle noise on M-07 (Line B) and M-01 (Line A)",
+  "investigate root cause",
+  "schedule maintenance if necessary",
+  "Verify and restore parking lot lighting",
+  "coordinate with facilities/maintenance"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly attributes the spindle noise to M-07 (Mill on B), which the supervisor explicitly stated was 'fine'. It also fabricates several actions and monitoring steps not present in the input. While the structure is clear, the factual error regarding which machine is failing is a critical accuracy failure."
+}

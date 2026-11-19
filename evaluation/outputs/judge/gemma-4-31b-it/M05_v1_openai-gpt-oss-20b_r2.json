@@ -1,0 +1,62 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Isolated oven from production",
+  "Notified Maintenance for seal replacement",
+  "Replace seal within 24h",
+  "Verify temperature profile post-replacement",
+  "Quarantined affected batches",
+  "Initiated re-run of affected products",
+  "Review batch logs for heat profile deviations",
+  "Implement additional temperature checks",
+  "Estimated downtime: 2 hrs",
+  "potential yield loss: ~5%",
+  "Adjusted production schedule to accommodate downtime",
+  "Monitor output once oven is back online",
+  "Contacted fuel supplier",
+  "confirmed delivery delay",
+  "Checked fuel storage levels",
+  "sufficient for 48 hrs",
+  "Schedule delivery for tomorrow",
+  "Verify fuel level monitoring system",
+  "Conducted functional test - passed",
+  "Updated maintenance log",
+  "Monitor for any tire wear issues",
+  "Schedule next preventive inspection",
+  "set up alert for future delays",
+  "Review maintenance schedule for all ovens and forklifts"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing numerous actions, outcomes, and specific metrics (downtime, yield loss, fuel levels) not present in the input. It also treats a distractor (the scanner) as a reportable item. While readable and complete in terms of capturing the base issues, it fails entirely on accuracy and uncertainty handling."
+}

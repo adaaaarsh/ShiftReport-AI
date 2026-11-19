@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Initial high temperature (380F) likely triggered the need for manual intervention to prevent damage or safety issues",
+  "If temperature drifts significantly from 355F, investigate cause before making further adjustments"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly identifies Oven C and captures all facts and appropriate severity. However, it introduces some invented details regarding potential causes and safety implications for the temperature spike. It handles the unknown interlock status reasonably well by directing the incoming shift to restore it."
+}

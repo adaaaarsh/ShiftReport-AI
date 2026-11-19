@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "110 psi (added psi unit)",
+  "no impact on production",
+  "Status: Resolved",
+  "Air tools on Line A kept losing pressure from about 2 psi to 4 psi (misinterpreted 2 to 4 o'clock time range as pressure drop from 2 to 4 psi)",
+  "reduced performance, potential impact on downstream operations",
+  "Action Taken: None performed during this shift",
+  "Status: Ongoing",
+  "Inspect and repair air tools on Line A to restore stable pressure",
+  "Verify compressor output remains steady at 110 psi",
+  "Compressor performance was stable; no maintenance required",
+  "Air pressure issue may affect machining operations on Line A; prioritize during next shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely misunderstands the time range 'from about 2 to 4' as a pressure drop from 2 psi to 4 psi, which severely distorts the facts. It splits the compressor and the air tools into two separate issues, inventing multiple statuses, actions, and impacts that were not in the input. While it captures the general text and is readable, the fabrication of details and the severe misinterpretation of the time-to-pressure metric heavily degrades accuracy and uncertainty handling."
+}

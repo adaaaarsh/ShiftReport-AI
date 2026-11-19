@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool breakage occurred approximately 17:00",
+  "Schedule repair for next shift or immediate maintenance team notification",
+  "Monitor closely for any safety interlocks or speed inconsistencies",
+  "Recommend diagnostic check by maintenance",
+  "Action Required: Incoming shift to inspect the unit to determine if the noise indicates a mechanical failure (e.g., loose fan blade, bearing wear) or debris",
+  "Ensure area around the coolant leak is kept dry to prevent slip hazards",
+  "Prioritize inspection of the roof unit to ensure climate control remains stable for the production floor",
+  "Notify maintenance of the coolant leak on Line A Lathe and the flickering speed sensor on B Conveyor"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and assigns appropriate severities, but it includes multiple fabricated recommendations, assumptions about maintenance notifications, and invented details such as the specific time '17:00'. Readability is quite good with a structured format, and uncertainty is handled well by marking the HVAC unit as unverified."
+}

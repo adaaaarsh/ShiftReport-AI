@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 2,
+ "fabricated_details": [
+  "M-07 Issue: None reported",
+  "M-07 Action Taken: Routine operation confirmed",
+  "M-07 Status: Resolved",
+  "M-14 — HVAC System (Utilities) / General Facility",
+  "M-01 Pending: Inspect spindle for wear or damage due to reported noise",
+  "M-01 Pending: Monitor closely for further degradation or safety hazards",
+  "Facilities Pending: Report parking lot lighting outage to maintenance/facilities team for repair",
+  "Production Status: Line A and Line B milling operations are currently active"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the core issue with M-01. However, it turns distractors (M-07 and parking lights) into formal equipment issues and fabricates several pending actions and status updates not found in the input. It fails to flag any uncertainty regarding the missing maintenance status for M-01."
+}

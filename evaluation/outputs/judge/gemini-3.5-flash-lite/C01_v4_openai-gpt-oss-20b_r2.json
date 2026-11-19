@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Error code indicates a malfunction that required restarts, but production continued after resets",
+  "Was maintenance notified?",
+  "Was the error code logged for future reference?",
+  "Over-temperature could risk product quality and machine integrity; resolved but monitoring required",
+  "Was the oven shut down or inspected?",
+  "Any maintenance scheduled to prevent recurrence?",
+  "Verify that M-07's error code was logged and maintenance was notified",
+  "Inspect M-10 to ensure temperature control is stable; consider a preventive check",
+  "Monitor both machines for any recurrence of issues",
+  "Overall production was not halted; both machines are currently operating within acceptable parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 4,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machines and includes the core facts, but it massively fabricates follow-up actions, monitoring steps, and status claims not found in the minimal input. It completely fails to capture the contradictions noted in the input. While readability is high and the template formatting is clean, the severe amount of hallucinated text severely impacts accuracy and uncertainty handling."
+}

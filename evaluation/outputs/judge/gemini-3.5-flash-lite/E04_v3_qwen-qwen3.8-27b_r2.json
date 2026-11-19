@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night/Evening (inferred from 22:15 timestamp)",
+  "Time Noticed: Prior to 22:15 (deviation occurred before manual control was engaged)",
+  "Status: Ongoing — Batch in progress; machine currently in manual mode with interlock bypassed",
+  "Ensure the batch completes safely",
+  "Restore automatic control mode and re-engage safety interlocks immediately upon completion of the current batch",
+  "Investigate root cause of the temperature spike (380°F vs 350°F setpoint) before returning the oven to automatic mode",
+  "Verify with Mike or Maintenance regarding the authorization for the interlock bypass and ensure proper documentation is filed",
+  "Ensure strict adherence to safety protocols when restoring normal operations",
+  "No other equipment issues reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report captures all facts from the input and uses the correct machine ID, but it significantly hallucinates procedural next steps, statuses, and recommendations not present in the input. Severities are reasonable although labeled HIGH rather than CRITICAL. It flags some missing details like restoration of the interlock, but overall accuracy suffers from extensive hallucinated narrative details."
+}

@@ -1,0 +1,49 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved — conveyor running after adjustment.",
+  "Severity note: No sustained impact on production; alarm self‑cleared.",
+  "Action Taken: Monitored; no manual intervention required.",
+  "Status: Resolved — oven operating normally.",
+  "Forklift taken off line and placed on charger.",
+  "Severity note: No safety hazard; only a temporary loss of a logistics asset.",
+  "Status: Ongoing — Battery charging; forklift will be available once charged.",
+  "Pending item: Verify that the conveyor belt tension on M-05 remains stable; perform a brief inspection if any slip recurs.",
+  "Pending item: Determine the root cause of the temperature alarm on M-10 and log any sensor or control issues.",
+  "Pending item: Check charging progress of M-15; confirm battery health and schedule maintenance if needed.",
+  "General note: No safety incidents reported during the shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report includes all three issues from the supervisor input, so completeness, severity classification, readability, and uncertainty handling are high (5). However, it adds many details not present in the input—status statements, inferred actions, and extra pending items—resulting in numerous fabricated details and a low accuracy score (1)."
+}

@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift 2 used to move pallets",
+  "Pallets successfully staged with no delays",
+  "Submit maintenance request Work Order #____",
+  "Schedule inspection by end of day",
+  "Verify remaining forklifts are charged/fueled",
+  "Arrange for temporary rental or re-assign forklift",
+  "Confirm pallets loaded onto outbound carrier",
+  "Update shipping log and notify logistics coordinator",
+  "Tagging performed according to SOP #12-04",
+  "No safety incidents reported",
+  "Aisles and loading zones kept clear",
+  "Prioritize timely movement of finished goods",
+  "Report deviations from shipping plan"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely ignores the contradiction in the input (Forklift 1 was tagged out but then used at 6) and instead fabricates that Forklift 2 was used. It also invents a massive amount of operational detail, SOP numbers, and follow-up actions not present in the input. Because it resolves a safety contradiction with a fabrication, it is highly inaccurate and fails uncertainty handling."
+}

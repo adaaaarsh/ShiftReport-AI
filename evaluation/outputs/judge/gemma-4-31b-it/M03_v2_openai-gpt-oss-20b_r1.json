@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:20 PM (PM not specified)",
+  "Action Taken: None yet; monitoring continues (for M-11)",
+  "Action Taken: Operated at reduced speed to maintain throughput (for M-08)",
+  "Inspect and troubleshoot the whining coolant pump (M-11) to determine root cause and prevent potential failure",
+  "Monitor CNC milling machine (M-01) for any recurrence of spindle overload alarms",
+  "Reassign or schedule additional operator for Packaging Unit (M-08) to restore full speed operation",
+  "No safety hazards reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it fabricates numerous 'Action Taken' and 'Pending Items' not found in the input, and adds 'PM' to the time. It fails to flag any missing information or uncertainty, presenting the report as complete."
+}

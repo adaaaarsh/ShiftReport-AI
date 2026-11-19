@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operating at 50% capacity",
+  "Recommend maintenance inspection to diagnose potential bearing or impeller wear before it becomes a critical failure",
+  "Monitor for recurrence. If the alarm triggers again, stop the machine and call maintenance immediately.",
+  "No other major incidents reported.",
+  "All other lines operating within normal parameters."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three issues and their key facts, but it adds several invented details (e.g., 50% capacity, maintenance recommendations, blanket statements about other lines) reducing accuracy. All reported items are present, so completeness is high. No severity levels are provided, resulting in a low severity score. The layout is clear and scannable, giving a high readability rating, while the report fails to flag missing or uncertain information, leading to a low uncertainty handling score."
+}

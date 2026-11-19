@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved — Test completed successfully",
+  "Clarifications Needed: None"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all details from the input and uses the correct equipment ID. However, it fabricates a status and resolution classification which was not stated in the input. Severities are slightly off by labeling it unknown despite no issues being reported. Readability and uncertainty handling are high due to clear formatting and proper handling of available data."
+}

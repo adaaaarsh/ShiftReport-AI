@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift 2 will remain out of service until the tire is replaced and the unit is inspected",
+  "Work Order 4471 Assigned to Maintenance Team",
+  "Estimated Completion placeholder",
+  "Using a single forklift may reduce throughput by approximately 15-20%",
+  "No safety incidents reported",
+  "All operators have been briefed on the temporary equipment limitation",
+  "If Forklift 1 requires maintenance or encounters issues, the maintenance team will prioritize a quick repair or replacement of Forklift 2",
+  "Monitor Forklift 1 for any signs of wear or malfunction",
+  "Schedule a brief safety refresher for operators on handling single-forklift operations, emphasizing load limits and maneuvering in constrained spaces",
+  "Various template fields like [Insert Date], [Your Name], [Supervisor's Name], signatures table"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly maps Forklift 2 to M-16. However, it severely hallucinates numerous operational impacts, safety incidents claims, assigned maintenance teams, throughput percentages, and extensive recommendations that were not in the supervisor input. Because of the massive volume of fabricated details, accuracy is heavily penalized."
+}

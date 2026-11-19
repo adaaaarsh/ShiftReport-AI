@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "oil leak at the base of the press",
+  "status marked as Ongoing – Awaiting maintenance completion",
+  "pending item to verify repair of oil leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and the oil leak, and includes the maintenance action, matching the supervisor input, giving high completeness (5). However, it adds details not present in the input such as the leak location at the base, a status of “Ongoing”, and a pending verification step, which are fabrications and lower accuracy to 3. Severity is appropriately set to MEDIUM, consistent with the answer key, earning a 5. The report is well‑structured and easy to scan, so readability is 5. It does not flag the missing question about whether the press is still running, thus uncertainty handling is only partial, scoring 3."
+}

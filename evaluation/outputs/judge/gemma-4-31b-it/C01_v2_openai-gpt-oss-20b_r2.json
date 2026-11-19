@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production stoppage",
+  "monitored for stability",
+  "potential safety and product quality risk",
+  "no further action taken during shift",
+  "Ongoing (monitoring required)",
+  "Verify that the Industrial Oven (M-10) remains within spec and investigate cause of temperature spike",
+  "Confirm that the CNC Milling Machine (M-07) is operating without residual error codes",
+  "Overall production was not interrupted; all machines were functional by shift end",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates numerous details regarding actions taken, status, and general notes. It completely ignores the contradictions in the supervisor's input (e.g., 'running fine' vs 'restarted twice')."
+}

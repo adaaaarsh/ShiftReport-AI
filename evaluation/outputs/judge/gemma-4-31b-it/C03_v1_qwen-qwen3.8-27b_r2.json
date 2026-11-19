@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "verify with maintenance regarding the repair timeline and expected return to service",
+  "Do not attempt to operate this unit until the tag is removed and safety checks are completed",
+  "Verify shipping area is clear and ready for next load",
+  "Ensure all other forklifts are operational and charged/ fueled as needed",
+  "Review any recent incidents or near-misses related to equipment usage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the contradiction between the forklift being tagged out and used. However, it fabricates several action items and safety notes not present in the input. Severity was not explicitly assigned, which is acceptable given the input."
+}

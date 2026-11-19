@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift #3",
+  "07:30 – 08:15",
+  "Multiple minor operational hiccups (unspecified)",
+  "Troubleshooted and resolved on‑site; coordinated with relevant team members.",
+  "09:45 – 10:00",
+  "began operating erratically (e.g., jerky movements, warning lights)",
+  "Performed immediate safety stop, inspected controls, and reported to Maintenance",
+  "Maintenance scheduled for further diagnostics",
+  "Other forklifts & machinery Normal",
+  "All safety protocols were followed during the early‑shift incidents",
+  "No injuries or near‑misses reported",
+  "The problematic forklift has been locked out to prevent accidental use",
+  "Conduct a brief equipment check‑out at the start of the next shift",
+  "Review the incident log for the early‑shift issues to confirm that all root causes were addressed"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 3,
+ "rationale": "The report fabricates extensive details, actions, times, and a completely invented equipment ID (Forklift #3) despite the supervisor only mentioning a generic 'forklift' and 'issues earlier'. It captures the core forklift issue and leaves severity as unknown, but invents a table of times, root causes, and safety logs. Readability is okay via tables, but the heavy fabrication severely damages accuracy."
+}

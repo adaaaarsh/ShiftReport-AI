@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 4
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production quality/consistency was compromised; potential scrap/rework risk",
+  "Perform a test run or calibration check on the identified machine to confirm it is back within specification",
+  "Investigate why the machine went out of spec (tool change, calibration drift, operator error, etc.)",
+  "Immediate quality control action is required to prevent defective parts from moving downstream"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and explicitly flags all ambiguities and missing information. However, it fabricates several 'actions' and 'causes' in the pending items and severity justification that were not in the input. Severity is assigned as HIGH without explicit evidence in the input, though it is a reasonable inference."
+}

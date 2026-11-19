@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the core issue with Forklift 2, but incorrectly splits the operational workaround (Forklift 1) into a separate independent equipment issue rather than treating it as a detail of the first issue. It misses several facts such as the tagging out, work order number, and timestamp. However, it avoids major fabrications and maintains a clean structure."
+}

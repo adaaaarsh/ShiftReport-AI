@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Afternoon",
+  "parts order placed",
+  "Machine remains offline pending parts",
+  "Confirm the current operational status of M-03",
+  "ensure it is locked out/tagged out if necessary",
+  "Check status of the pending parts for M-03",
+  "coordinate with maintenance for repair",
+  "verify if Line A production targets can be met with remaining equipment or if overtime/shift extension is required"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies the contradiction and missing information. However, it fabricates numerous actions and pending items (LOTO, maintenance coordination, production targets) not found in the input. Severity is defensible as the machine is shut down."
+}

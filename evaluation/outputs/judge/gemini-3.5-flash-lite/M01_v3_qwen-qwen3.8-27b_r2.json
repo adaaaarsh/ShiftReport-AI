@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Check with procurement/warehouse for the specific tooling insert. If available, install and verify finish quality. Continue rework of the 20 quarantined parts.",
+  "Investigate cause of increased cycle time (check for material issues, mold temperature, or mechanical wear).",
+  "Report HVAC issue in east bay to facilities/maintenance for temperature regulation.",
+  "No safety incidents reported.",
+  "Staffing levels appear normal, though operator comfort is affected in the east bay."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts accurately and maintains a clean structure, but it fabricates several recommended actions and general notes (such as checking with procurement and claiming no safety incidents) that were not present in the input. Severities are well-defended, but the report quietly fills in missing actions rather than explicitly questioning them."
+}

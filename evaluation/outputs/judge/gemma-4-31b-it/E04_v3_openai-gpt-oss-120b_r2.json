@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oven remains in manual mode with interlock bypass",
+  "requires re-validation before next shift",
+  "Restore the oven interlock to normal operation",
+  "Verify temperature returns to automatic control and setpoint (350F)",
+  "Monitor oven temperature closely for any further deviation",
+  "Document the reason for interlock bypass and obtain required approvals",
+  "No staffing changes or additional safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates numerous pending items and a general note about safety incidents not mentioned in the input. It also fails to flag the missing information (like whether the interlock was restored) as unknown, instead presenting fabricated instructions as facts."
+}

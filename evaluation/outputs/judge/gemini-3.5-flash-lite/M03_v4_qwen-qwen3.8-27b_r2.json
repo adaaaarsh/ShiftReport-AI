@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (inferred from all night)",
+  "Action Taken: None specified (monitoring only) for M-11",
+  "Status: Ongoing and Status: Resolved labels",
+  "Potential mechanical wear, but no immediate production impact",
+  "Is the noise increasing in pitch or volume?",
+  "Was the root cause of the overload identified (e.g., tool breakage, feed rate error)?",
+  "Significant reduction in output/throughput",
+  "Is a replacement operator scheduled for the next shift?",
+  "Monitor M-11 (Line C) for worsening noise or flow issues; consider scheduling preventive maintenance",
+  "Verify M-01 (Line A) spindle health to ensure overload alarm does not recur",
+  "Confirm staffing plan for M-08 (Line B) to restore full production speed",
+  "No safety incidents or critical machine failures reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues accurately with correct machine references and high readability, but it invents several monitoring steps, statuses, and explanations not present in the input. Severity for M-08 is arguably assigned too high given the simple note on reduced speed. Uncertainty handling and completeness are strong as all key facts and missing items are well represented."
+}

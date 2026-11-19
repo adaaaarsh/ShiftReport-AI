@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine maintenance, no production impact",
+  "Test concluded successfully",
+  "Status: Resolved",
+  "Monitor fuel level; current fuel at 80% – ensure refueling schedule is maintained",
+  "No other issues or incidents reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the short input and correctly identifies the backup generator (M-13) with an appropriate low severity. However, it invents several details and status outcomes not present in the input, such as classifying it as routine maintenance, claiming the test concluded successfully, adding a status of resolved, inventing monitoring instructions for the next shift, and declaring no other issues occurred. These fabrications lower the accuracy score."
+}

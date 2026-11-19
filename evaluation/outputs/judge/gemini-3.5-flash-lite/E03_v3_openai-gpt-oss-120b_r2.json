@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "Operator kept the machine running while monitoring the condition",
+  "Requires further inspection",
+  "Inspect M-01 (Line A) spindle for source of noise and perform corrective maintenance",
+  "Verify that the parking lot lighting is restored (facility issue)",
+  "No safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates several actions, outcomes, and pending maintenance tasks not present in the brief input. It incorrectly turns a distractor (Mill on B) into an issue and invents claims like no safety incidents. While it captures the primary issue accurately, the numerous fabrications significantly lower the accuracy and uncertainty scores."
+}

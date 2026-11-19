@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction with significant production impact",
+  "Status: Ongoing",
+  "Investigate the cause of the temperature overshoot and document findings",
+  "No additional observations or staffing notes"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the core facts and uses the correct equipment ID, but it invents several details such as status, impact descriptions, and investigation steps not in the input. Completeness is strong as all reported facts are carried over. Severity is marked High while the key anchors Critical, and uncertainty handling is moderate since it includes pending items but misses some explicit questions from the key."
+}

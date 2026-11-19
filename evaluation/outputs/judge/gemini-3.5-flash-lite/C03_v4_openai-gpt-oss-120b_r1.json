@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no safety incidents reported during the shift",
+  "Forklift #1 was used to move finished pallets to shipping at 6:00 before being tagged out",
+  "Logistics impact only",
+  "Forklift remains out of service",
+  "Verify the cause of the outage for M-15 and confirm that maintenance has been notified",
+  "Arrange for a functional forklift (e.g., M-16) to cover the logistics workload if not already done",
+  "Update the equipment status log with the time and reason for tagging out M-15",
+  "All finished pallets were successfully moved to shipping before the forklift was tagged out"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report completely inverts the chronology and implication of the supervisor input by claiming the forklift was used before being tagged out, smoothing over a clear contradiction and safety violation. It also introduces significant fabrications, including claims of no safety incidents, various pending action items not requested, and conclusions about logistics impact. Although all input facts are captured and formatting is clear, the severe accuracy and severity classification failures bring the scores down significantly."
+}

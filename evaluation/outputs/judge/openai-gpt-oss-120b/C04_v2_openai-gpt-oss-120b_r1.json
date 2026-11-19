@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "reduced reliability of coolant system, potential impact on production if not resolved soon.",
+  "Ongoing – further corrective action required.",
+  "Inspect and replace the faulty bearings on the Coolant Circulation Pump (M-11) with new, high‑quality bearings.",
+  "Verify pump performance after bearing replacement and monitor for any further issues.",
+  "possible underlying issue such as misalignment, lubrication problems, or sub‑standard bearing stock.",
+  "Consider reviewing installation procedures and bearing specifications."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all factual points from the supervisor input, so completeness is high. However, it adds numerous invented actions, outcomes, and speculations, resulting in very low accuracy and poor uncertainty handling. The chosen severity (MEDIUM) aligns with the acceptable options, and the formatting is clear and readable."
+}

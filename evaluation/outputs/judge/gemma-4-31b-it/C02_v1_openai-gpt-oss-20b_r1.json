@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Leak identified and press was safely powered off",
+  "specifically the hydraulic cylinder seal and associated fittings",
+  "Once parts arrive, perform a full leak test and restart the press",
+  "all pieces met quality specifications",
+  "Leak located at the hydraulic cylinder seal area",
+  "All safety interlocks and emergency stop functions verified before shutdown",
+  "Leak incident logged in the maintenance system (Ticket #XXXXX)",
+  "Track shipment status",
+  "Ensure pressure test passes",
+  "Include part numbers and installation date",
+  "Consider a scheduled inspection of the hydraulic cylinder seal next month",
+  "Verify spare parts inventory for other critical components"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific parts (cylinder seal), actions (safety checks, logging tickets), and future plans not found in the input. It completely ignores the contradiction between the machine being shut down and having run 400 pieces. While the structure is professional, the content is largely hallucinated."
+}

@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — Awaiting stock for replacement insert.",
+  "Pending item: Check inventory for the required tooling insert. If available, replace and verify finish tolerance. If not, expedite order or consult maintenance for temporary workaround.",
+  "Pending item: Investigate cause of increased cycle time (32s -> 38s). Check for hydraulic pressure issues, mold temperature, or mechanical wear.",
+  "Pending item: Report HVAC issue in East Bay to facilities/maintenance for temperature regulation.",
+  "General note: No safety incidents reported.",
+  "General note: Operator morale may be affected by heat in East Bay; monitor for fatigue."
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies all three issues and uses the proper machine IDs, but it adds several actions, status updates, and notes that were not present in the supervisor input, lowering accuracy. All issues are included, yet some missing‑information items from the answer key are not flagged, resulting in only partial completeness. Severity levels match the acceptable ranges, so severity scoring is perfect. The document is well‑structured and easy to scan, earning a high readability score. Uncertainty handling is moderate: some missing items are noted, but others are left unaddressed."
+}

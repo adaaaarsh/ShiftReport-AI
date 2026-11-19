@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid loss may affect machine performance or create slip hazard",
+  "Potential mechanical failure, but unverified",
+  "Inconsistent speed control may impact product quality or safety",
+  "No critical safety incidents or full production stoppages reported.",
+  "Multiple minor-to-moderate issues are currently being managed via workarounds; priority should be given to M-14 (unverified) and M-05 (sensor instability) to prevent escalation.",
+  "Inspect and repair coolant line leak on M-02 (Line A)",
+  "Schedule inspection for rattling noise on M-14 (HVAC/Roof) — verify safety before next shift start",
+  "Investigate flickering speed sensor on M-05 (Line B) and determine if permanent repair or temporary bypass is needed",
+  "Confirm M-07 (Line B) remains stable after tool swap"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues from the supervisor input, but it adds several invented details (e.g., inferred safety impacts and pending actions) that were not mentioned, lowering accuracy to 1. All reported items are present, so completeness is perfect. Severity levels all fall within the allowed ranges, earning a full score. The layout is clear and well‑structured, giving a readability of 5. While the report flags some missing information, it omits others (e.g., slip‑hazard management), resulting in a moderate uncertainty handling score."
+}

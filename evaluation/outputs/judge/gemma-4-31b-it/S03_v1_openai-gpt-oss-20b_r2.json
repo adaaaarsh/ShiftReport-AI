@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "generator performed within specifications",
+  "Monitor fuel consumption over the next 24 hours",
+  "schedule refueling if level drops below 70%",
+  "Verify generator load parameters and record any deviations in the next scheduled test",
+  "All logs updated in the maintenance system",
+  "No additional maintenance required at this time"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of additional information, including specific action items and maintenance logs not mentioned by the supervisor. This level of fabrication makes the accuracy score a 1. Readability is high, and completeness is perfect."
+}

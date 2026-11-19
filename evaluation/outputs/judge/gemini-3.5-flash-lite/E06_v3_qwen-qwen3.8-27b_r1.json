@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak on heavy machinery poses safety and environmental risks; potential for further damage",
+  "Time Noticed: 3:00 (AM/PM not specified)",
+  "Status: Ongoing — Awaiting maintenance arrival",
+  "Monitor M-03 (Hydraulic Press) for maintenance arrival and repair completion",
+  "Verify oil levels and check for residual leaks after maintenance intervention",
+  "Inspect surrounding area for oil contamination/slip hazards",
+  "No other incidents or staffing issues noted"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and incorporates the lathe distractor appropriately. However, it invents extensive action items, monitoring steps, and safety rationales not stated in the brief input. It accurately captures the known facts and presents them with high readability."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction, significant production impact",
+  "Machine fully down, production stopped",
+  "Investigate and resolve the Hydraulic Press (M-03) issue; follow up on Tuesday’s report for root cause and corrective actions",
+  "Diagnose and restore the new paint booth on Line D; determine if it requires parts, calibration, or a safety inspection",
+  "No additional staffing or safety incidents reported",
+  "Ensure that any new equipment (e.g., paint booth) is added to the plant equipment list and properly documented for future handovers"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all points from the input but heavily fabricates actions, recommendations, severity justifications, and safety notes that were never provided. Severities are confidently assigned despite a lack of supporting evidence in the brief notes. Readability is strong, but the inclusion of numerous invented details severely impacts accuracy."
+}

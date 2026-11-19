@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "dropping from about 2 bar to 4 bar",
+  "Inspect and replace any worn or damaged hoses and fittings on the air tool circuit for Line A",
+  "Verify air pressure regulator settings and ensure they remain stable",
+  "Monitor air tool pressure continuously for the first hour of the shift and report any further drops",
+  "No safety incidents or other equipment issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents numerous specific details, units, and corrective actions not present in the supervisor notes (e.g., bar pressure units and multiple monitoring tasks). While it captures the main issues and is easy to read, it severely fabricates information and fails to flag the contradiction between the compressor running normally and line A tools losing pressure."
+}

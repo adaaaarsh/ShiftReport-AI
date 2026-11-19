@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "To prevent overshoot and maintain product quality",
+  "All deviations were performed under direct supervision and with documented authorization",
+  "No safety incidents reported during the manual operation period",
+  "Investigate why the oven exceeded the setpoint (sensor drift, controller tuning, or load change)",
+  "schedule any required calibration or maintenance",
+  "Monitor Oven C closely for the first 30 minutes after returning to automatic mode",
+  "Conduct a quick visual inspection of the interlock mechanism before re-engaging it",
+  "Review the batch's quality metrics to confirm that the temporary temperature shift did not affect product specifications",
+  "extension 212"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry ID (M-10) and fabricates numerous justifications, safety claims, and specific follow-up actions not in the input. It presents the situation as fully managed and documented without flagging the missing information (e.g., whether the interlock was actually restored)."
+}

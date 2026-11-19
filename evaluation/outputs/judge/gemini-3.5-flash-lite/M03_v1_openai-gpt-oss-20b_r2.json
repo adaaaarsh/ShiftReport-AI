@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designation (3:20 PM instead of 3:20)",
+  "Total output was 35% of planned volume",
+  "No safety incidents",
+  "Shift supervisor and remaining staff handled the workload; no additional hires were needed",
+  "Schedule a detailed check to confirm the source of the whining and prevent potential failure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues from the supervisor notes accurately in terms of equipment, but invents a significant amount of operational details, outcomes, and safety claims not present in the input. Readability and completeness are excellent with a well-structured format covering all input points. However, the numerous fabrications severely penalize the accuracy score."
+}

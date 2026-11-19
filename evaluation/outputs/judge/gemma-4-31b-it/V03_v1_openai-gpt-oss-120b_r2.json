@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "07:30 – 08:15",
+  "Troubleshooted and resolved on-site; coordinated with relevant team members",
+  "09:45 – 10:00",
+  "Forklift #3",
+  "jerky movements, warning lights",
+  "Performed immediate safety stop, inspected controls, and reported to Maintenance",
+  "Maintenance scheduled for further diagnostics",
+  "Awaiting maintenance inspection; keep out of service until cleared",
+  "All safety protocols were followed during the early-shift incidents",
+  "No injuries or near-misses reported",
+  "The problematic forklift has been locked out to prevent accidental use",
+  "Complete maintenance diagnosis and repair; update log once cleared",
+  "Verify that the early-shift issues have not left any residual impacts on production schedules",
+  "Conduct a brief equipment check-out at the start of the next shift to ensure no new anomalies have arisen",
+  "Keep the faulty forklift out of operation until a maintenance sign-off is received",
+  "Monitor the workflow for any delays that may stem from the reduced forklift availability and adjust task assignments accordingly",
+  "Review the incident log for the early-shift issues to confirm that all root causes were addressed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report is heavily fabricated, inventing specific times, a non-existent 'Forklift #3' (the registry only has #1 and #2), and numerous actions and safety claims not present in the input. While it captures the core issue, it presents a massive amount of hallucinated detail as fact. Uncertainty handling is poor as it guesses a machine ID and symptoms."
+}

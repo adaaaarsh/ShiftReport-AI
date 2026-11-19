@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing / Under Observation",
+  "Investigate Utility Power Fluctuation: Check electrical logs or consult with maintenance to identify the cause of the light flickering and unexpected equipment activation during the lunch period.",
+  "Verify Equipment Status: Confirm that no utility equipment (particularly HVAC M-14 or Compressor M-12) is operating in an abnormal state or has tripped/restarted unexpectedly.",
+  "Monitor for Recurrence: Keep an eye on the electrical stability of the plant, especially around peak load times."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report correctly captures all facts but guesses a specific machine ID (M-14) for an ambiguous utility event, which is a minor accuracy error. It fabricates several pending items/actions not found in the input. Severity is assigned as Medium without strong evidence, though the uncertainty handling is good as it flags the ambiguity in the notes."
+}

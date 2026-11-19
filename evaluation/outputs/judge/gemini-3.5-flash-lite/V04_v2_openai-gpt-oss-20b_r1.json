@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no production impact",
+  "Monitor for recurrence",
+  "Monitor HVAC system (M-14) for any further flickering or abnormal behavior",
+  "Verify that all utility systems (M-12, M-13, M-14) are stable and functioning correctly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all details from the input and is very readable, but it guesses a specific utility machine (M-14 HVAC) rather than keeping it ambiguous. It also fabricates several follow-up monitoring actions and impact assessments that were not stated by the supervisor."
+}

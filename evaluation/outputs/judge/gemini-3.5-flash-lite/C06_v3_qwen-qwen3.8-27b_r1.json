@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 3,
+ "fabricated_details": [
+  "PSI unit for pressure",
+  "Routine monitoring action for M-12",
+  "Resolved / Normal status for M-12",
+  "2:00 PM - 4:00 PM time format",
+  "Not specified action for Line A",
+  "Ongoing / Under Observation status for Line A",
+  "Investigate cause pending item details",
+  "Monitor air pressure stability pending item details",
+  "General notes about compressor functioning correctly",
+  "No safety incidents reported claim"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and structures them well, but it splits the single input issue into multiple items (incorrectly turning Line A into four separate machines M-01 through M-04) and heavily hallucinates actions, statuses, and pending recommendations. Severities are reasonable given the text, and contradictions are correctly surfaced in the general notes, but the extensive fabricated details drop the accuracy score significantly."
+}

@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "commercial oven",
+  "residue burn-off or a small food spill",
+  "Area inspected",
+  "ventilation fans checked and confirmed operational",
+  "No visible leak or fire hazard identified",
+  "Monitor the oven during the next two shifts",
+  "schedule a maintenance inspection of the oven’s heating elements and exhaust system",
+  "floor-service robot (Model XR-200)",
+  "navigating the kitchen floor",
+  "approximately 3-4 times",
+  "Possible temporary obstacle detection or minor sensor glitch",
+  "Robot was manually reset each time",
+  "resumed normal operation without error codes",
+  "Review robot’s log files at the end of the day",
+  "arrange a diagnostic check with the robotics technician",
+  "Verified that all fire suppression systems and alarms are functional",
+  "Checked and cleared ventilation ducts around the oven",
+  "Performed a manual reset of the robot",
+  "confirmed it is back on its scheduled cleaning route",
+  "Documented the incidents in the equipment log (Entry #4527)",
+  "Perform a brief visual inspection of the oven interior and surrounding floor",
+  "Keep the area well-ventilated",
+  "Observe the robot for any further pauses or error messages",
+  "log the timestamps and notify the robotics support team",
+  "Continue routine checks of kitchen temperature and humidity controls",
+  "Ensure all staff are aware of the temporary odor",
+  "Maintenance Ticket: #MT-2026-1105-Oven",
+  "Robotics Ticket: #RB-2026-1105-Pause",
+  "Kitchen Operations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is almost entirely fabricated, inventing specific causes, actions, ticket numbers, and a 'kitchen' setting not present in the input. It fails to use the provided equipment registry IDs and presents these inventions as facts. While it captures the two basic issues, the level of hallucination is extreme."
+}

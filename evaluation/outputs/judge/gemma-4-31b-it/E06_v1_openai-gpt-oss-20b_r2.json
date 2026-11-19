@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "No se ha observado aumento de temperatura ni pérdida de presión significativa",
+  "el nivel de aceite está disminuyendo",
+  "Registrar el nivel de aceite y la cantidad de fuga",
+  "Asegurar que la zona esté señalizada y bloqueada",
+  "Se recomienda revisar el sistema de sellado de la prensa",
+  "Se han tomado medidas de precaución para garantizar la seguridad del área",
+  "se documentará el progreso una vez completada la intervención"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains extensive fabrications regarding the state of the machine (temperature, pressure, oil levels) and the actions taken/required (signage, sealing system review). It also incorrectly reports the distractor (the lathe) as an equipment entry. It fails to flag the missing information about whether the press is still running."
+}

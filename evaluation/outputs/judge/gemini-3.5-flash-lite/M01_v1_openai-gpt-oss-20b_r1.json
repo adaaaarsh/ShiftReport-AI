@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Insert Type X, Size Y",
+  "Verify tooling replacement procedure and re-calibrate lathe",
+  "Track rework parts and confirm dimensional compliance before re-introduction",
+  "Review machine logs for any abnormal spindle or motor behavior",
+  "Check material feed and temperature settings",
+  "If trend continues, schedule preventive maintenance",
+  "Inspect HVAC airflow and temperature setpoints",
+  "Verify filter status and duct integrity",
+  "Coordinate with facilities to adjust cooling output or relocate affected workers if necessary"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and facts accurately with correct machine IDs and defensible severities, while presenting them in a highly readable format. However, it severely fails accuracy by inventing extensive specific follow-up actions, procedures, and insert specifications (Insert Type X, Size Y) not present in the input. It also fails to explicitly surface uncertainties regarding the missing info items."
+}

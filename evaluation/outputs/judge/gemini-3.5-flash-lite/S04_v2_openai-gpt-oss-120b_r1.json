@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety hazard, only reduces equipment availability",
+  "Status: Ongoing (awaiting repair)",
+  "No impact on production reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine and captures all facts from the input, but it invents details regarding safety, production impact, and issue status that were not stated. Severity is well-reasoned and readability is very high, though it misses explicitly flagging the unknown repair ETA. Overall, the hallucinated details drop the accuracy score to 3."
+}

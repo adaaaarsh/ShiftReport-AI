@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None recorded; issue flagged for review",
+  "Status: Ongoing",
+  "Perform diagnostic check to identify root cause of recurring malfunction",
+  "Check if any maintenance was performed on Line C equipment last week that may have failed to resolve the issue",
+  "No safety hazards or production stoppages were explicitly mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the ambiguity of 'the thing on line C' and flags the missing information, but it guesses a specific machine (M-09) as the primary issue. It fabricates several operational details (status, specific pending actions, and safety claims) not found in the input. Severity is guessed as MEDIUM without evidence."
+}

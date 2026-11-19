@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "17:00",
+  "prevent further fluid loss or potential slip hazards",
+  "Schedule repair for next shift or immediate maintenance team notification",
+  "Monitor closely for any safety interlocks or speed inconsistencies",
+  "Recommend diagnostic check by maintenance",
+  "Ensure area around the coolant leak is kept dry to prevent slip hazards",
+  "Please continue to monitor for any abnormal conveyor speeds or stops",
+  "ensure climate control remains stable for the production floor",
+  "Notify maintenance of the coolant leak on Line A Lathe and the flickering speed sensor on B Conveyor"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report is complete and highly readable, but it fabricates numerous recommendations, causes, and specific times (17:00) not found in the input. It fails to provide any severity classifications as required by the template/rubric. It correctly identifies the machines but fails to use the registry IDs for most of them."
+}

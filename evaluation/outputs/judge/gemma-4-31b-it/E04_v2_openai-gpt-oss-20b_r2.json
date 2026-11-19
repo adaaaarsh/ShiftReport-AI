@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Major malfunction with significant production impact",
+  "Status: Ongoing",
+  "Verify that the oven temperature returns to the setpoint of 350 °F",
+  "Investigate the cause of the temperature overshoot and document findings",
+  "No additional observations or staffing notes"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates several details in the 'Pending Items' and 'General Notes' sections, and it fails to flag any of the missing critical information (like whether the interlock was restored) as unknown, instead presenting a set of assumed next steps."
+}

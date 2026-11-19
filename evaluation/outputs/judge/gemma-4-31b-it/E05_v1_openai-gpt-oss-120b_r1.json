@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential loss of coolant efficiency, risk of slip hazards and equipment damage",
+  "Isolated the machine from the line",
+  "Shut down the hydraulic pump",
+  "Placed absorbent pads and containment barriers around the leak",
+  "Notified Maintenance (Ticket #2026-11-05-001)",
+  "Maintenance to replace/repair the faulty seal or hose",
+  "Perform pressure test before returning to service",
+  "Verify no residual fluid on the floor and re-clean the area",
+  "Cell C (Pick-Place)",
+  "May cause mis-placement of parts, leading to scrap or downstream delays",
+  "Paused robot operation",
+  "Logged the error code in the controller",
+  "Informed the Robotics Engineer (John Doe) of the need for a reteach",
+  "Complete reteach of the affected teach points",
+  "Run a verification cycle with test parts",
+  "Update the program version number and documentation",
+  "Resume production only after successful verification",
+  "All other machines and robots on the floor are operating within normal parameters",
+  "Safety signage and lock-out/tag-out procedures have been applied to the affected equipment",
+  "No injuries or near-miss incidents reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, causes, impacts, and personnel (John Doe) not present in the input. It fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as known entities. While it captures all input items, the level of hallucination is extreme."
+}

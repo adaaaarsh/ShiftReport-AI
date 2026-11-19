@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designator (2:10 PM instead of 2:10)",
+  "Safety interlock bypassed",
+  "Potential for injury",
+  "Awaiting maintenance repair and verification of interlock restoration",
+  "Reduces utility reliability; may affect downstream equipment if not resolved",
+  "Issue still present, no corrective action recorded",
+  "Tool tip worn",
+  "No production impact currently; preventive maintenance needed",
+  "Tip change scheduled for next shift",
+  "No staffing changes or additional observations noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly maps them to the equipment registry, but it introduces several fabricated details and commentary not present in the notes (such as assessing potential for injury, calling the tip worn, and stating tip change is scheduled). Severities are well-defended, readability is high, and uncertainty handling is exceptional. Due to multiple invented details, accuracy is docked to 3."
+}

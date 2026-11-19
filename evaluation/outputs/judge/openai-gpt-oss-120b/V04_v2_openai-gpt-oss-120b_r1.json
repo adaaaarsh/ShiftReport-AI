@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "around lunch (approximately 12:00 PM)",
+  "Severity: MEDIUM – Partial issue affecting the work environment but did not halt production.",
+  "Action Taken: Monitored the situation; no immediate corrective action taken as production was unaffected.",
+  "Status: Ongoing – Issue observed but not resolved; should be investigated to prevent recurrence.",
+  "Investigate the cause of the lighting flicker and the unexpected device activation in the utilities area.",
+  "Verify the integrity of the electrical supply and any related circuit breakers or backup systems (M-12 Compressor Unit, M-13 Backup Generator, M-14 HVAC System).",
+  "No safety incidents reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures the three facts from the supervisor input, so completeness is high. However it adds several invented specifics such as an exact lunch time, a MEDIUM severity label, actions taken, and references to specific utility equipment, which are not in the input, lowering accuracy and making the severity classification indefensible. The layout is clear and easy to scan, giving a high readability score. While the report notes that the cause is unknown and suggests investigation, it does not explicitly flag all missing information, resulting in a moderate uncertainty handling score."
+}

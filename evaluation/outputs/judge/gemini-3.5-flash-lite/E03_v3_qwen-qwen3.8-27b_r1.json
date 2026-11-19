@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "Requires immediate inspection to prevent catastrophic failure",
+  "Facility maintenance needs to be notified",
+  "Verify if noise has worsened or if vibration levels are abnormal",
+  "Consider shutting down for maintenance if noise persists",
+  "Confirm if any other utility systems are affected by the lighting issue",
+  "Operating a machine with audible spindle noise without reducing speed or stopping is a risk factor"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all details from the input but heavily fabricates recommendations, risk assessments, and action items that were never stated. M-14 was incorrectly treated as a formal equipment issue despite being outside the registry scope. However, it correctly captures the M-01 spindle noise and maintains clear formatting."
+}

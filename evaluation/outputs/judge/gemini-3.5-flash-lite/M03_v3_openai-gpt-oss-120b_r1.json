@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Start of shift approximated as 07:00",
+  "No safety incidents reported",
+  "Staffing shortage noted on Line B; consider cross-training or backup personnel",
+  "Monitor M-11 for any escalation of the whining noise; investigate if it worsens",
+  "Verify that M-01 continues to run without further spindle overloads; check spindle load parameters",
+  "Arrange additional operator coverage for M-08 to restore full-speed operation",
+  "Noise only, no impact on coolant delivery",
+  "Adjusted operating speed to 50% to maintain output with limited staff"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three issues accurately regarding machine IDs and core facts. However, it invents numerous monitoring steps, actions, and general notes (like 'no safety incidents') that were not in the input. Severities are defensible and readability is high, but it invents details rather than flagging uncertainty for missing data."
+}

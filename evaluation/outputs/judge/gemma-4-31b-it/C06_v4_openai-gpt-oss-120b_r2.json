@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "Monitored; no intervention required",
+  "Resolved / No action needed",
+  "No safety incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but fails to recognize the contradiction between the compressor's steady pressure and the tools' pressure loss. It fabricates several details (psi, monitoring actions, safety claim). It treats the air tools as a separate unrecognized equipment rather than linking them to the compressor system as suggested by the answer key."
+}

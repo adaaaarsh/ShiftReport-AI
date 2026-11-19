@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-07 CNC Milling Machine (Line B)",
+  "Severity: MEDIUM for noise issue",
+  "Action Taken: Supervisor noted the symptom and stopped the machine for a visual inspection; no further action taken during the shift.",
+  "coolant/oil leak specified",
+  "Severity: MEDIUM for leak issue",
+  "Action Taken: Logged the observation; no repair performed during the shift.",
+  "Inspect M-07 CNC Milling Machine (Line B) to diagnose the source of the noise and perform necessary maintenance or repairs.",
+  "Verify that the leak has been fully resolved and that there is no residual fluid on the floor that could pose a slip hazard.",
+  "No safety incidents reported during the shift.",
+  "Staffing levels were adequate; however, additional technical support may be needed for the pending investigations on Line A and Line B."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both reported issues but adds numerous invented specifics such as a concrete machine ID, fluid type, actions taken, and severity levels not present in the supervisor input, leading to poor accuracy. It includes all items from the input, so completeness is high. Severity assignments are unjustified, deviating from the required UNKNOWN classification. Readability is strong with clear headings, while uncertainty handling is mixed, flagging some unknowns but also filling gaps."
+}

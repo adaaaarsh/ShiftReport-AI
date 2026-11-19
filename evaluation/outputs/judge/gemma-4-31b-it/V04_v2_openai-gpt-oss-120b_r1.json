@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "approximately 12:00 PM",
+  "Monitored the situation",
+  "no immediate corrective action taken",
+  "Ongoing - Issue observed but not resolved",
+  "should be investigated to prevent recurrence",
+  "Verify the integrity of the electrical supply and any related circuit breakers or backup systems",
+  "Report any findings and implement corrective measures if needed",
+  "No safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but fabricates numerous details regarding actions taken, status, and specific monitoring steps. Severity is assigned as Medium without strong evidence in the input. It correctly identifies the ambiguity of the utilities equipment but fails to explicitly flag the missing information as 'unknown' in the issue section."
+}

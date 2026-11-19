@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Describing the issue as a malfunction",
+  "Brief interruption during recalibration with claim of no permanent loss of material and all affected parts recovered",
+  "Action item to monitor scanner performance for the first hour of the shift",
+  "Statement that no further action is required unless the issue recurs",
+  "Note that no other abnormalities were reported on other lines"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all factual points from the supervisor input, so completeness is high. However, it introduces several invented details (malfunction description, production impact claims, extra action items, and a blanket note) and omits the machine ID, resulting in very low accuracy and poor uncertainty handling. No severity level is provided, leading to a low severity score. The structured headings and bullet points make the document easy to read."
+}

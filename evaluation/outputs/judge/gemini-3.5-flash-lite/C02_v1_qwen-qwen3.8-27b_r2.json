@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine secured and taken offline to prevent further damage",
+  "Please verify if parts have arrived or if a new ETA has been provided by maintenance/vendor",
+  "No issues reported during operation prior to shutdown",
+  "Check status of Hydraulic Press A parts order",
+  "If parts are available, coordinate with maintenance for repair and restart",
+  "If parts are not available, confirm downtime duration and adjust production schedule accordingly",
+  "No other abnormalities reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a large amount of action items, causes, and notes not supported by the supervisor input. It fails to flag the chronological contradiction between the press being shut down and running 400 pieces. Readability is high, but accuracy and uncertainty handling are poor due to the extensive hallucinations."
+}

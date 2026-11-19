@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored the condition and reported to maintenance.",
+  "Repair and re‑test the guard interlock on the hydraulic press (M-03) and obtain safety clearance.",
+  "Diagnose and fix the short‑cycling issue on the compressor unit (M-12).",
+  "Safety protocols were followed promptly for the hydraulic press incident.",
+  "Staffing levels were adequate; all reported issues have been communicated to the appropriate teams.",
+  "Status: Ongoing (awaiting repair and verification) for M-03",
+  "Status: Ongoing (needs further diagnosis and repair) for M-12",
+  "Status: Pending (to be completed by next shift) for M-06",
+  "Severity description for M-12 (HIGH – Major malfunction, could affect production if not addressed)"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all three issues and the core facts, so completeness and readability are high. However, it adds many actions, statuses, and severity descriptions not present in the supervisor input, lowering accuracy and uncertainty handling. One severity (HIGH for the compressor) is not defensible from the input, resulting in a moderate severity score. Overall the report is well‑structured but invents several details, affecting accuracy and uncertainty."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing – Monitor for any escalation",
+  "Status: Ongoing – Investigate cause and resume normal operation",
+  "Verify and address the odor near the Industrial Oven (M-10)",
+  "Diagnose and resolve the intermittent pauses of the Welding Robot Arm (M-06)",
+  "Monitor both machines for any changes in status",
+  "No safety hazards reported",
+  "Production was not halted by these issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and maps them to the correct IDs. However, it fabricates several status updates, pending actions, and general notes (e.g., 'No safety hazards reported') not found in the input. It fails to flag any missing information or uncertainty, presenting the situation as a structured plan."
+}

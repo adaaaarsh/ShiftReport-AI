@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "(±5 psi)",
+  "No fluctuations or alarms were recorded",
+  "Power Consumption: Consistent with baseline levels; no abnormal spikes noted",
+  "dropping from 2 psi to 4 psi (misinterpreted time range as pressure values)",
+  "Occurred [insert frequency, e.g., 3-5 times per hour] during the shift",
+  "Possible leaks in the line or fittings",
+  "Valve or regulator malfunction",
+  "Clogged filters or dampers",
+  "Sudden load changes on the tools",
+  "Continuously logged pressure readings and noted times of pressure loss",
+  "Verified all valves were fully open",
+  "Confirmed filters were clean and not visibly clogged",
+  "Checked for obvious leaks at joints and fittings",
+  "No corrective actions were performed as the issue was intermittent and did not halt production",
+  "Inspect all fittings, valves, and regulators on Line A for leaks or damage",
+  "Verify the integrity of the pressure regulator and replace if necessary",
+  "Replace or clean filters to ensure optimal airflow",
+  "Install a secondary pressure log on Line A to capture real-time data for trend analysis",
+  "Review the load profile of the air tools to ensure they are operating within rated parameters",
+  "Record any changes made and the results of the inspection for future reference",
+  "Compressor operated flawlessly",
+  "potential component replacement are recommended to prevent recurrence"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issues from the input but fabricates a massive amount of detail, including completely misunderstanding the time range '2 to 4' as pressure values 'dropping from 2 psi to 4 psi'. It invents numerous actions taken, potential causes, and recommendations that were never stated in the supervisor input. Furthermore, it treats the contradictory elements as if everything is fully understood and actionable without flagging uncertainty or the contradiction."
+}

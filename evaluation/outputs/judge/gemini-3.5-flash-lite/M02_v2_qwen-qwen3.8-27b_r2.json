@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift (Inferred from times 07:00–11:00)",
+  "Status: Ongoing (Monitor for recurrence; initial stop at 07:00 may not have been fully addressed if only the second instance was tightened)",
+  "Status: Resolved (Monitor for recurrence)",
+  "Status: Ongoing (Charging; verify full charge before next use)",
+  "Inspect belt tension and alignment.",
+  "Check if the 11:00 alarm indicates a sensor drift or actual heating element issue.",
+  "Confirm battery is fully charged and operational before use.",
+  "Line B experienced repeated downtime due to conveyor issues, which may have impacted throughput.",
+  "No safety incidents reported.",
+  "All other equipment appears to be operating normally."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items completely and follows a clear, professional structure. However, it suffers from massive fabrication, inventing shift inferences, detailed status outcomes, extended technical recommendations, and general claims like 'no safety incidents reported' that were never stated in the supervisor input. Severities are mostly reasonable, though assigned with unnecessary elaboration, and uncertainty/missing gaps are thoroughly highlighted in the pending sections."
+}

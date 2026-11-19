@@ -1,0 +1,66 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool was swapped with a spare unit",
+  "no further abnormalities observed",
+  "Verify tool integrity during next preventive maintenance check",
+  "Leak identified; line isolated and temporary containment applied",
+  "coolant flow reduced but within acceptable limits",
+  "Schedule repair/replacement of the coolant line before the next production run",
+  "No inspection performed during shift due to time constraints",
+  "Unit continues to provide required climate control; noise persists",
+  "Conduct a detailed inspection (fan blades, mounting brackets, vibration isolators) during the next maintenance window",
+  "causing inconsistent speed readings",
+  "Operators have been instructed to monitor and manually adjust speed as needed",
+  "minor speed variations observed",
+  "Replace or recalibrate the speed sensor; verify wiring connections",
+  "All critical equipment remained operational throughout the shift",
+  "Immediate corrective actions were taken for the broken tool on M-07 and the coolant leak on Lathe Line A",
+  "Two items (HVAC noise and conveyor speed sensor) require scheduled maintenance to prevent potential downtime",
+  "Prioritize a physical inspection of the roof HVAC unit to locate the source of the rattling and perform corrective repairs",
+  "Arrange for sensor replacement or recalibration; confirm that the wiring is secure",
+  "Plan a shutdown window to replace the leaking coolant line and perform a pressure test before resuming full load",
+  "Verify that spare tools for M-07 are stocked and log the tool failure for trend analysis"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific actions, outcomes, and maintenance recommendations not found in the input. It fails to use the provided registry IDs for three out of four machines and provides no severity classifications. While the structure is highly readable, it presents imagined details as facts, making it dangerous for an incoming shift."
+}

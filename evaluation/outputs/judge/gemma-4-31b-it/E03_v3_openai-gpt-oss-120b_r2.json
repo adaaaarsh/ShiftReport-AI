@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "1:30 PM (input only says 1:30)",
+  "Operator kept the machine running while monitoring the condition",
+  "Issue not resolved; requires further inspection",
+  "Inspect M-01 (Line A) spindle for source of noise and perform corrective maintenance",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the equipment and captures the core issue. However, it fabricates several details regarding actions taken, status, and safety incidents. It also incorrectly lists a non-issue (M-07) as an equipment issue."
+}

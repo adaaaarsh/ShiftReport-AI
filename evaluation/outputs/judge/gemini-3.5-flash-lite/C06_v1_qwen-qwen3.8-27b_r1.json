@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved/stabilized after 4:00",
+  "assuming no further action was taken, please verify if maintenance was called",
+  "Monitor Line A closely for any recurrence of pressure loss",
+  "Check for potential leaks or regulator issues on Line A if the problem persists",
+  "No other significant incidents or abnormalities reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the compressor status and pressure, but heavily fabricates recommendations, assumed outcomes, and actions not present in the input. Completeness is strong as all points are carried forward. However, uncertainty and contradiction handling are poor because the underlying contradiction between the normal compressor and dropping tool pressure is missed and resolved with fabrications."
+}

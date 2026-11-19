@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue was resolved quickly with minimal production impact.",
+  "No additional incidents or staffing notes reported.",
+  "None identified"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all facts from the supervisor input and identifies the correct machine ID, giving it a high completeness score. However, it adds several statements not present in the input, such as claims about minimal production impact and no other incidents, lowering accuracy to moderate. Severity classification aligns with the allowed range, and the report is well‑structured and clearly flags no uncertainties, resulting in high readability, severity, and uncertainty scores."
+}

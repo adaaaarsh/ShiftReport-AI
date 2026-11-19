@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night/Evening",
+  "Time Noticed: Prior to 22:15",
+  "Status: Ongoing — Batch in progress; machine currently in manual mode with interlock bypassed",
+  "Pending Item: Restore automatic control mode and re-engage safety interlocks immediately upon completion of the current batch",
+  "Pending Item: Investigate root cause of the temperature spike",
+  "Pending Item: Verify with Mike or Maintenance regarding the authorization for the interlock bypass and ensure proper documentation is filed",
+  "General Note: Ensure strict adherence to safety protocols when restoring normal operations",
+  "General Note: No other equipment issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates numerous pending items, status updates, and a shift designation. It fails to flag any missing information (uncertainty) and instead invents specific instructions for the next shift. Accuracy is reduced due to these inventions."
+}

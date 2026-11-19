@@ -1,0 +1,6 @@
+category,reports,overall_score,fabrication_%,fabricated_items_per_report,issue_recall_%,machine_id_acc_%,ambiguous_flagged_%,ambiguous_guessed_%,missing_flag_recall_%,contradiction_recall_%,severity_ok_%,distractors_as_issues,unsupported_reassurance_%,ids_not_in_registry
+Complex Edge,36,4.29,97.2,5.69,100.0,100.0,83.3,16.7,82.5,,87.9,10,47.2,0
+Contradictory,36,4.03,100.0,4.81,100.0,100.0,,,73.6,50.0,66.7,3,46.7,0
+Multi-Issue,36,4.31,100.0,5.67,100.0,100.0,,,79.6,,86.0,2,83.3,0
+Simple/Clean,36,4.28,91.7,2.83,100.0,100.0,,,27.8,,75.0,1,80.6,0
+Vague/Ambiguous,36,4.58,94.4,2.42,100.0,100.0,97.2,2.8,93.8,,89.6,0,75.0,0

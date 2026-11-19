@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is accurate and complete regarding the equipment issue. However, it fabricates a claim that no other incidents occurred and fails to flag the missing cause of the calibration drift as an uncertainty, presenting the situation as fully resolved with no clarifications needed."
+}

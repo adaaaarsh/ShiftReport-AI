@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Maintenance is aware; repair pending",
+  "Line C is currently compromised",
+  "Incoming shift needs to monitor generator fuel levels closely and contact the supplier immediately to reschedule delivery",
+  "Hold all Line C output for inspection until the oven seal is repaired and temperature stability is confirmed",
+  "Keep Line C under close supervision",
+  "Do not release product without QC verification until the oven seal is fixed",
+  "Confirm with maintenance when the Line C oven seal repair is scheduled"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous actions, statuses, and recommendations (e.g., maintenance awareness, specific instructions to the incoming shift) not present in the input. It fails to use registry IDs and does not flag any missing information or uncertainties. Readability is high, but accuracy is low due to the volume of invented operational details."
+}

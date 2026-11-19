@@ -1,0 +1,4 @@
+model,mean_abs_diff_run1_run2,identical_%
+openai-gpt-oss-120b,0.412,28.3
+openai-gpt-oss-20b,0.417,26.7
+qwen-qwen3.8-27b,0.393,29.2

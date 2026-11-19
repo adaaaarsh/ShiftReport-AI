@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-05",
+  "PM time designation for 5",
+  "Action Taken: None yet; leak noted for repair. (for M-02)",
+  "Status: Resolved (for M-07)",
+  "Status: Ongoing (for M-02)",
+  "Status: Pending (for M-14)",
+  "Status: Ongoing (for M-05)",
+  "Action Taken: Operators compensating; no immediate fix. (for M-05)",
+  "Inspect and repair coolant line leak on M-02",
+  "Diagnose and resolve rattling noise on M-14",
+  "Replace or repair flickering speed sensor on M-05",
+  "All machines are currently operational; no major production stoppages.",
+  "No staffing or safety incidents reported during this shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all four issues from the input (completeness 5) and is well-structured (readability 5). However, it invents numerous specific statuses, actions, maintenance items, a concrete date, and sweeping assertions about plant status and safety incidents (accuracy 1). Severity assignments are mostly plausible though somewhat arbitrary without explicit evidence, and uncertainty handling is poor because it invents definitive statuses for unverified items."
+}

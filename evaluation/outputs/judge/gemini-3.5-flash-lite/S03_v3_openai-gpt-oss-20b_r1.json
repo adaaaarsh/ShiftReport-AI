@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine maintenance, no operational impact",
+  "Test completed successfully",
+  "Status: Resolved",
+  "Monitor fuel level",
+  "No other issues or incidents reported."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details and assigns the correct ID and severity to the backup generator test. However, it invents several procedural details and statuses not mentioned in the input, such as 'Routine maintenance', 'Test completed successfully', 'Status: Resolved', and 'Monitor fuel level'. Readability and completeness are excellent, but accuracy suffers due to these fabrications."
+}

@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend maintenance inspection to identify source of noise (e.g., bearing wear, cavitation)",
+  "Monitor closely during the next shift",
+  "Production output for this shift will be reduced by approximately 50% on this line",
+  "Other Lines: Fully staffed",
+  "Prioritize securing additional staffing for Line B to return to full speed",
+  "Schedule maintenance check for the coolant pump on Line C",
+  "Monitor Line A CNC mill for any recurrence of spindle overload alarms, though it has been stable since 03:20"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report successfully captures all three issues and maps them to the correct equipment IDs, with clear formatting that makes it very readable. However, it includes several invented details and recommendations (such as maintenance checks for bearing wear, production output reduction estimates, and claims that other lines were fully staffed) that were not present in the supervisor's brief notes. It also fails to surface ambiguities or unknowns in certain areas, choosing instead to invent context."
+}

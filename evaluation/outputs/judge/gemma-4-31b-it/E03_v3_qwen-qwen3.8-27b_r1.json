@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "no shutdown or speed reduction reported",
+  "Requires immediate inspection to prevent catastrophic failure",
+  "Safety and security concern for after-hours access",
+  "no direct production impact",
+  "Facility maintenance needs to be notified",
+  "Verify if noise has worsened or if vibration levels are abnormal",
+  "Consider shutting down for maintenance if noise persists",
+  "Confirm if any other utility systems are affected by the lighting issue",
+  "Operating a machine with audible spindle noise without reducing speed or stopping is a risk factor"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the equipment and captures all facts, but it is heavily padded with fabricated technical justifications, risks, and suggested actions not present in the input. It treats the parking lot lights as a registry issue (M-14) which is a distractor. It presents the information as complete without flagging any uncertainty regarding the missing maintenance status."
+}

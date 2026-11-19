@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Area secured and personnel cleared from the vicinity",
+  "Safety Call-Out # 4521",
+  "Operator J. Doe, Safety Officer M. Lee, Maintenance Technician R. Khan",
+  "Root cause preliminary: Interlock sensor malfunction",
+  "Four specific next steps and target completion by end of day for the hydraulic press",
+  "Main Plant Compressor Unit C-01 short-cycling over past 2 hours, running at reduced duty",
+  "Potential causes including low oil level, pressure switch mis-adjustment, inlet filter blockage",
+  "Work Order # 78934, Maintenance S. Patel, target completion 09:00 AM",
+  "Welding robot model ABB IRB 6700, cell 5, tool crib part # WT-TIP-A12, robotics technician L. Morris",
+  "Specific maintenance tasks, names, owners, timestamps, toolbox talks, and recommendations for incoming shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input and is structured very clearly, but it contains a massive amount of completely fabricated details, specific names, work order numbers, causes, and timelines that were not present in the supervisor notes. It assigns specific severities and actionable plans without flagging uncertainties or missing information. Consequently, accuracy and uncertainty scores are at the lowest anchor."
+}

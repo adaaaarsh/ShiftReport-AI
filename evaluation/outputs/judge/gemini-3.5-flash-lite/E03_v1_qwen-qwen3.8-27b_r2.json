@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Inspect spindle immediately",
+  "Monitor noise levels closely",
+  "If noise worsens or vibration is detected, shut down for maintenance",
+  "Ensure staff are aware of potential safety hazards in the parking area after dark",
+  "Report to facilities/maintenance for repair",
+  "Please acknowledge and celebrate with the team"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all details from the supervisor input accurately in terms of machine identification and facts. However, it invents numerous recommendations, actions, and safety warnings not stated in the input. Severities and readability are well-structured, but it treats the distractor about parking lot lights as a formal issue requiring maintenance action."
+}

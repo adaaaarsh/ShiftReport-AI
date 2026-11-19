@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "oven is currently non-operational",
+  "generator is offline",
+  "generator remains non-functional",
+  "Forklift #1 issue reported (should be Forklift #2)",
+  "tire replaced action (input only stated tire fix, though minor)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all items and correctly identifies M-10 and M-13, but mistakes Forklift #2 (M-16) for Forklift #1 (M-15). It also invents operational statuses for the oven and generator that were not in the supervisor input. Severities are slightly exaggerated given the sparse input details."
+}

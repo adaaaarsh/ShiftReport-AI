@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production targets were met",
+  "No impact on production output or safety",
+  "Monitored situation; no immediate intervention required as systems stabilized",
+  "Monitor electrical panels and lighting systems for any recurring flickering or unusual noises",
+  "If fluctuations persist, notify Maintenance/Electrician for inspection of breakers or load balancing",
+  "Verify that no equipment tripped or reset during the incident"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fabricates a significant amount of detail regarding production targets, safety, actions taken, and recommendations. It fails to flag the ambiguity of the utility issue or the missing information regarding what 'kicked on'. Severities are not explicitly assigned to the issue, but the tone is low-risk."
+}

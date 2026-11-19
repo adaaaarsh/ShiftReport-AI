@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Operational (Newly Installed)",
+  "Action Required: Immediate investigation into the root cause of the repeated bearing failure is recommended",
+  "Potential causes may include misalignment, contamination, or incorrect bearing specification",
+  "Maintenance team should be notified for inspection and potential replacement of bearings or further diagnostic testing",
+  "Monitor Coolant Pump C closely for any unusual noise, vibration, or temperature increases",
+  "Coordinate with Maintenance to schedule a root cause analysis for the bearing failure",
+  "Verify if the new pump was installed with the correct bearing type and lubrication as per manufacturer specifications"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to flag the blatant contradiction in the input (brand new pump vs original bearings failing). It fabricates a large amount of technical advice, causes, and required actions not present in the notes. It also fails to assign a severity level to the issue."
+}

@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 0,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No equipment issues identified"
+ ],
+ "accuracy": 3,
+ "completeness": 1,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely misses the reported forklift issue, leading to a completeness score of 1. It fabricates a claim that no issues were identified, which contradicts the input. Uncertainty handling is poor as it ignores the ambiguous reference entirely."
+}

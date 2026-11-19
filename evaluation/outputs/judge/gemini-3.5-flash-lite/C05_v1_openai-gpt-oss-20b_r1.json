@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift Time: 6 pm – 2 am",
+  "Location: Production Line 3",
+  "Personnel ID: WRC-07",
+  "Cause: handling a hot workpiece",
+  "Action details: cooling, dressing, brief rest period, no further medical treatment required",
+  "Equipment status: All PPE in place and functional",
+  "Production Metrics: 1,240 units produced, 0 minutes downtime, 99.8% defect-free rate",
+  "Recommendations for heat-safety procedures, gloves, sleeves, refresher training",
+  "Follow-up actions: Incident logged in Safety Incident Register SI-2026-045, training scheduled"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core event accurately regarding the welding robot cell burn, but completely hallucinates an extensive set of production metrics, causes, actions, and follow-up steps not present in the input. Contradictions between 'no safety incidents' and the burn are glossed over rather than flagged. Readability is high due to the structured format, but accuracy and uncertainty handling fail significantly due to rampant fabrications."
+}

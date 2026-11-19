@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Added 'Morning Shift' label not in input.",
+  "Stated 'Grinding operation ongoing' not in input.",
+  "Included placeholder reason for feed rate change.",
+  "Claimed coolant was refilled.",
+  "Attributed near‑miss cause to reduced lighting.",
+  "Recommended immediate headlight replacement.",
+  "Suggested LOTO to be completed next shift.",
+  "Listed verification tasks for MX machine, coolant levels, safety briefing.",
+  "Described quota impact with extra detail.",
+  "Provided placeholder names and dates."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report invents many details not present in the supervisor input, lowering accuracy to the minimum. All items from the input are included, so completeness is maximal. No explicit severity classifications are provided, resulting in a very low severity score. The layout is structured but cluttered with placeholders, yielding moderate readability. Uncertainty handling is poor as the report fills gaps instead of flagging unknowns."
+}

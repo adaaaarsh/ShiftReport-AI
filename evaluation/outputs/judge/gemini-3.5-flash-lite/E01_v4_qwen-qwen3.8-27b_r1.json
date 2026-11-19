@@ -1,0 +1,64 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (inferred from 'nights pls chk')",
+  "production impacted",
+  "Estimated arrival time for maintenance",
+  "Oil dripping/leaking detected",
+  "Machine is likely still operational without proper safety isolation",
+  "Who is currently monitoring the leak?",
+  "Headlight malfunction (out)",
+  "Forklift likely still in service with impaired lighting",
+  "Has Forklift #1 been removed from service?",
+  "Was the near-miss incident reported to safety management?",
+  "Potential risk of overheating or pump cavitation if not addressed",
+  "What is the current level estimate?",
+  "Do not operate until leak is assessed and repaired",
+  "Inspect M-15 (Forklift #1) headlight; verify if it is safe to operate or if it should be taken out of service",
+  "Review near-miss incident in Aisle 3 involving M-15; ensure proper incident reporting is completed",
+  "Replenish coolant for Line C (M-11)",
+  "This is a significant safety protocol violation that requires immediate management attention and corrective action",
+  "Maintenance response time appears to be an issue (M-07 'no show')"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and correctly matches machine IDs with appropriate severities. However, it contains several fabricated interpretations, assumptions, and expanded action recommendations that were not in the sparse input notes. It handles uncertainty and missing items very well, but loses accuracy points due to the extensive generated fluff."
+}

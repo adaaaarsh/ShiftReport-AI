@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Unusual operation could lead to reduced efficiency or safety risk if not resolved",
+  "Time Noticed: Not specified (reported as earlier in the shift)",
+  "Action Taken: Issue noted; no corrective action taken yet",
+  "Status: Ongoing — Requires further diagnosis and repair",
+  "Perform a detailed inspection of M-15 (Forklift #1) to identify the cause of the abnormal behavior",
+  "If the issue is not resolved on M-15, check M-16 (Forklift #2) as a backup and verify both units are safe for operation",
+  "No other equipment issues reported",
+  "Production otherwise running normally"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a large amount of operational detail, actions, statuses, and assumptions that were never mentioned by the supervisor. It also guesses a specific machine ID (M-15) for an ambiguous reference while failing to handle uncertainty properly. While readable and complete regarding the main sentence, the heavy fabrication and improper handling of ambiguity heavily penalize accuracy and uncertainty handling."
+}

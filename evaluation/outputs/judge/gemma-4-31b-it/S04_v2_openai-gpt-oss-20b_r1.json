@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard and production impact due to loss of forklift",
+  "Monitor usage of Forklift #1 (M-15) to ensure it remains operational",
+  "Verify that the work order 4471 is progressing and schedule maintenance accordingly",
+  "No other equipment issues were reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input but includes several fabricated details in the pending items and general notes sections. Severity is marked as HIGH without explicit evidence in the input, though it is a reasonable inference. Readability is excellent."
+}

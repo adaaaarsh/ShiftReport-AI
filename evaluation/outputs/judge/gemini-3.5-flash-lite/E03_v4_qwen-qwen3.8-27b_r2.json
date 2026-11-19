@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "Safety/Security concern for employees leaving/entering after dark",
+  "Inspect M-01 (Line A) for spindle damage. Do not operate until cleared by maintenance if noise persists.",
+  "Parking lot lighting outage poses a potential safety risk for off-site personnel."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the key issue with M-01 and handles the ambiguous parking lot note by treating it as unrecognized equipment, but it invents extra safety risk assessments and operating instructions not stated in the input. All input facts and distractors are carried forward properly. Severities are slightly overly confident regarding potential mechanical failure and safety risks. Readability is strong with a clear structure, though it contains some padding."
+}

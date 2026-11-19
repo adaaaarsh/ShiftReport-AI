@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Feed manually reduced to 60%; continued operation despite abnormal ping.",
+  "Status: Ongoing",
+  "Action Taken: Leak noted; press kept running; LOTO omitted.",
+  "Status: Ongoing",
+  "Action Taken: Incident noted; forklift continued in use.",
+  "Status: Ongoing",
+  "Action Taken: Not specified",
+  "Status: Pending",
+  "General notes: No staffing changes reported.",
+  "General notes: Safety concerns highlighted: lack of LOTO on hydraulic press and near‑miss with forklift lighting. Prompt attention required to mitigate risk."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all four issues, assigns appropriate severities, and effectively flags uncertainties and missing details. However, it invents several detailed action taken, status, and general note entries that were not present in the brief input, resulting in an accuracy score of 3 due to these invented details. The structure and clarity are otherwise exceptional."
+}

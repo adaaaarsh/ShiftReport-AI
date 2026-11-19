@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inspect and replace the overload relay on M-12 (Compressor Unit)",
+  "Verify that line A air tools are functioning correctly after pressure restoration",
+  "No other issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the compressor unit and captures all facts from the input with appropriate severity, but it fabricates pending actions and status details (such as replacing the relay and verifying air tools) that were not stated by the supervisor. It also misses flagging the missing information regarding whether parts were scrapped, resulting in docked scores for accuracy and uncertainty handling."
+}

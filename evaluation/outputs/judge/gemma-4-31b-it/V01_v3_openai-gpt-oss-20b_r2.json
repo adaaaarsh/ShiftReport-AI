@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-07 — CNC Milling Machine (Line B)",
+  "Machine operating at reduced capacity, production impacted",
+  "Oil leak",
+  "near the base of an unspecified machine",
+  "Leak is present but impact not fully assessed",
+  "Monitor M-07 for continued noise and potential escalation",
+  "Verify that all machines on Line B are operating within normal parameters",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guesses a specific machine (M-07) for the 'big machine on B' and fabricates several details regarding the nature of the leak (oil, near the base) and the impact of the noise (reduced capacity). Severities are confidently assigned (HIGH, MEDIUM) despite no evidence in the input. It does correctly flag the ambiguity of the Line A machine."
+}

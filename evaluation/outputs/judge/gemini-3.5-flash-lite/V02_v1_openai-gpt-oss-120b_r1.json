@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential delay/quality risk on production if not addressed promptly",
+  "Suggested Priority: High",
+  "Log the incident in the equipment maintenance system",
+  "Consider scheduling a preventive maintenance check",
+  "Verify that maintenance has been notified and a work order is opened",
+  "Monitor Line C for any further irregularities"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures the sparse input well and handles the ambiguity on Line C properly by flagging it. However, it severely hallucinates impacts, priorities, maintenance procedures, and recommendations that were never stated in the brief supervisor notes. Readability and uncertainty handling are strong, but accuracy is heavily penalized for multiple fabricated details."
+}

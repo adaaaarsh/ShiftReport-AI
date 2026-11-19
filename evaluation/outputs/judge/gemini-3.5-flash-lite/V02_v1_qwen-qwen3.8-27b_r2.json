@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate technical inspection and maintenance review are required",
+  "Please prioritize this for the maintenance team",
+  "No other significant operational changes or incidents reported during this shift",
+  "Monitor Line C closely until maintenance has inspected and resolved the issue",
+  "Ensure maintenance team is briefed on the recurrence of the fault to expedite diagnosis"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report fabricates multiple recommendations, actions, and operational notes that were not present in the sparse supervisor input, severely impacting accuracy. It captures the general gist of the Line C issue but fails to properly handle the ambiguity of which specific machine is affected by guessing a general Line C status. Readability is decent, but the level of hallucinated detail makes it misleading for an incoming shift."
+}

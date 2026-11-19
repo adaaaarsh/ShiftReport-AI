@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Divided the single event into two separate log entries with conflicting severities",
+  "Time Noticed: Not specified added redundantly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures all details from the input accurately regarding M-15, but splits the entry into two contradictory statements (one stating it is tagged out/out of service and another stating it was used at 6), failing to flag the obvious safety contradiction. The severity assignment is also contradictory across the two entries, and uncertainty handling is poor as the contradiction is completely ignored."
+}

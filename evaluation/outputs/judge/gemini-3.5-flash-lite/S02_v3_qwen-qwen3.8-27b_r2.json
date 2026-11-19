@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down for ~35 minutes, production stopped",
+  "No other equipment issues or safety incidents reported during this shift",
+  "Production on Line B resumed normal operations after the M-06 repair"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and uses the correct equipment ID, but it exaggerates the severity to HIGH and invades the text with fabricated details regarding production status and safety incidents. Structure and readability are excellent, though uncertainty handling is straightforward given the unambiguous input."
+}

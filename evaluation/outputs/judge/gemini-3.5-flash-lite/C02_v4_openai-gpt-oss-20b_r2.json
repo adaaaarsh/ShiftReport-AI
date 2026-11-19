@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine fully down, production stopped",
+  "exact time not specified",
+  "Machine remains offline",
+  "When are the replacement parts expected? Has maintenance been notified and scheduled to replace the parts?",
+  "Follow up on the arrival of replacement parts for M-03 (Hydraulic Press, Line A).",
+  "Verify that maintenance has been scheduled to replace the parts and restart the machine.",
+  "Confirm the current status of the oil leak after parts installation."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and has excellent readability. However, it assigns a CRITICAL severity and invents multiple details and follow-up actions not supported by the supervisor notes, leading to an accuracy and severity score of 3."
+}

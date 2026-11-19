@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No recordable safety incidents during this shift",
+  "Immediate first‑aid administered (cool water rinse, sterile dressing applied)",
+  "No lost time reported",
+  "Monitor the wound for signs of infection; ensure the employee reports any change in condition to the health & safety officer",
+  "All welding robot cells operated within normal parameters",
+  "No production stoppages or equipment failures reported",
+  "Review of Hot‑Work Procedures: Reinforce the use of protective gloves and wrist guards when handling hot materials",
+  "Consider a brief refresher training on burn prevention for all operators on the welding line",
+  "First‑Aid Kit Check: Verify that burn‑specific supplies (e.g., burn dressings, cooling gel packs) are fully stocked and within expiry dates",
+  "Incident Log: Record the minor burn in the incident register for trend analysis, even though it was a non‑recordable event",
+  "No pending safety actions",
+  "Continue routine monitoring of the welding robot cell and maintain standard safety vigilance",
+  "Shift time 20:00 – 04:00 (Night Shift)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the burn incident but adds many details not present in the supervisor input, such as specific first‑aid steps, equipment status, and procedural recommendations, resulting in very low accuracy. All items from the input are included, so completeness is high. No severity level is assigned, leading to a poor severity score. The layout is clear and easy to read, giving a high readability score. The report fails to flag the contradiction or missing information, so uncertainty handling is low."
+}

@@ -1,0 +1,63 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool broke at ~17:00",
+  "Spare unit for tool swap",
+  "Machine operating normally; no further abnormalities observed",
+  "Verify tool integrity during next preventive maintenance check",
+  "Line isolated and temporary containment applied",
+  "Coolant flow reduced but within acceptable limits",
+  "Schedule repair/replacement of the coolant line before the next production run",
+  "No inspection performed during shift due to time constraints",
+  "Unit continues to provide required climate control; noise persists",
+  "Conduct a detailed inspection (fan blades, mounting brackets, vibration isolators) during the next maintenance window",
+  "Operators have been instructed to monitor and manually adjust speed as needed",
+  "Minor speed variations observed",
+  "Replace or recalibrate the speed sensor; verify wiring connections",
+  "All critical equipment remained operational throughout the shift",
+  "Two items require scheduled maintenance to prevent potential downtime",
+  "Plan a shutdown window to replace the leaking coolant line and perform a pressure test before resuming full load",
+  "Verify that spare tools for M-07 are stocked and log the tool failure for trend analysis"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues from the input and uses correct registry IDs. However, it severely hallucinates numerous specific actions, technical details, statuses, and follow-up plans that were never mentioned by the supervisor. Readability and completeness are high, but accuracy is heavily penalized due to extensive fabrication."
+}

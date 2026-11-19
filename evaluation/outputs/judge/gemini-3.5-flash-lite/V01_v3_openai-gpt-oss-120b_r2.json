@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Overall operation felt off",
+  "Noise may indicate developing mechanical issue, could affect throughput if not addressed",
+  "Leak could lead to oil loss and potential safety/environmental concerns if it worsens",
+  "Should be inspected and repaired during the next shift",
+  "Verify that any corrective actions taken do not impact production schedules",
+  "No safety incidents or staffing issues reported during this shift",
+  "Both issues were noted but no immediate corrective actions were taken; they remain open for the incoming team"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report completely invades the ambiguous inputs by guessing specific machine IDs (M-05 and M-03) rather than acknowledging the uncertainty, and it fabricates extensive causes, severities, and commentary. While it captures the general facts, the massive amount of hallucinated information and inappropriate certainty drops accuracy, severity, and uncertainty handling to minimum scores."
+}

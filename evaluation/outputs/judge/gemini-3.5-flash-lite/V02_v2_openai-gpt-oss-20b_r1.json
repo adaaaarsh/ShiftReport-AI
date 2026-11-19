@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-09 Quality Inspection Scanner (Line C)",
+  "Partial functionality loss, production impact is reduced but not halted",
+  "Inspect and troubleshoot M-09 Quality Inspection Scanner (Line C)",
+  "Verify that the issue is resolved before resuming full production",
+  "No other issues reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely guesses a specific machine ID from an ambiguous input and invents extensive details regarding the nature of the issue, impact, and required actions. Severity is assigned arbitrarily despite the input offering no specifics. While formatted cleanly, it fails heavily in accuracy and uncertainty handling by presenting guesswork as concrete fact."
+}

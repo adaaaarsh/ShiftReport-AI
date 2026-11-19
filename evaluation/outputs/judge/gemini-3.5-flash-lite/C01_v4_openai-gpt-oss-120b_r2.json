@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production was briefly interrupted",
+  "Over‑temperature could affect product quality and pose a safety risk",
+  "Temperature allowed to drop back to normal",
+  "Oven now operating within normal temperature range",
+  "Ensure it does not recur",
+  "Inspect M-10 Industrial Oven for sensor/calibration issues after the over‑temperature event; confirm no damage to the oven or products",
+  "Overall shift ran smoothly with no major safety incidents",
+  "Both machines are currently operating without further issues"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details and captures missing items well, but includes several fabricated actions, outcomes, and safety claims not supported by the supervisor input. Severities are defensible, and readability and uncertainty handling are excellent. Due to the high volume of invented details and commentary, accuracy is docked."
+}

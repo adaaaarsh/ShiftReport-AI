@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 8:00pm - 4:00am",
+  "Contact with hot surface",
+  "First aid administered (cooling, dressing, pain relief)",
+  "Operator returned to work after brief rest; no further complications reported",
+  "First-degree burn classification",
+  "No medical evacuation required",
+  "Operator advised to monitor for signs of infection or delayed healing",
+  "Reviewed welding cell safety signage",
+  "Re-checked temperature settings on the welding torch",
+  "Scheduled refresher safety training",
+  "Incident logged in Safety Incident Register (Ref: SI-2026-11-01-WRC)",
+  "Consider installing additional wrist guards or heat-resistant gloves",
+  "Conduct quick walk-through of the cell"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but invents an immense amount of detail, actions, outcomes, and corrective steps that were never stated by the supervisor. It also completely misses the contradiction between stating 'no safety incidents' and reporting a burn injury. The heavy fabrication severely reduces the accuracy and uncertainty handling scores."
+}

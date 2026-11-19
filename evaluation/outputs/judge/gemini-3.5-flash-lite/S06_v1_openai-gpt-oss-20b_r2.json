@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Root Cause Analysis section claiming calibration drift caused false positives and no external factors were observed",
+  "Logged the incident in the quality control system",
+  "Preventive Measures: daily calibration check, real-time alert for rejection rates, and SOP updates",
+  "Follow-Up Items: Maintenance Team verification, Quality Team log review, and Operator training",
+  "No impact on production volume or downstream processes",
+  "All parts cleared for shipment",
+  "Approved by: Production Manager signature block"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all original facts accurately in the summary but heavily hallucinates an extensive root cause analysis, preventive measures, follow-up items, and shipment status that were never provided in the supervisor's input. Consequently, accuracy and uncertainty handling suffer significantly. Readability and completeness of the actual reported facts are high, but the severe level of invention yields a low overall accuracy score."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate Safety Check: Verify the status of M-15 (Forklift #1). Ensure it is physically secured and cannot be operated.",
+  "Clarify Incident: Determine the timeline of M-15 usage vs. tagging. If it was operated while tagged, a safety incident report may be required.",
+  "Logistics Coverage: Assess if M-16 (Forklift #2) can handle the full workload or if additional logistics support is needed for shipping pallets."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the machine and captures all facts, including the contradiction. However, it fabricates several 'Pending Items' (safety checks, incident reports, and logistics coverage assessments) that were not in the input. Uncertainty handling is excellent as it explicitly flags the contradiction."
+}

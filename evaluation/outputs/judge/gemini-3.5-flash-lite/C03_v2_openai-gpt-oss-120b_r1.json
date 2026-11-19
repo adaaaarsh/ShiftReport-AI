@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logistics equipment unavailable, may affect material movement but production continues",
+  "Time Noticed: Not specified (used at 06:00 for moving finished pallets)",
+  "the same forklift was still used to move finished pallets to shipping at 06:00",
+  "No alternative forklift was deployed during this period",
+  "Ongoing - Forklift remains out of service for the next shift",
+  "Inspect and repair Forklift #1 (M-15) or arrange a replacement forklift to ensure logistics flow",
+  "Verify that all tagged-out equipment is properly documented and that a backup is available",
+  "No other equipment issues reported during this shift",
+  "Staffing levels were adequate; no safety incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all points from the input but completely fails on uncertainty handling by ignoring the glaring safety contradiction of using a tagged-out forklift. It also contains extensive fabrications regarding status, impact, and actions not mentioned in the input."
+}

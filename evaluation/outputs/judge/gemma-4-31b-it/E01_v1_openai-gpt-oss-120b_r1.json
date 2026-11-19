@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator restarted the machine and monitored output",
+  "Adjusted feed control panel",
+  "MX system (machine controller) pinged no-show - the device failed to respond to its heartbeat check",
+  "MX was logged as a non-responsive alarm",
+  "pump was left running to maintain pressure",
+  "temporary containment patch was applied",
+  "Light was turned off and the area was marked as a low-visibility zone",
+  "worker almost struck a moving pallet",
+  "Area was cleared, and a verbal safety reminder was given to personnel in the vicinity",
+  "Added coolant to bring level within operational range",
+  "Incident #2026-11-05-NM-03",
+  "All personnel were observed wearing required PPE"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing specific actions, causes, and incident details not present in the input. It fails to use the provided registry IDs, instead using shorthand like 'M7 B' or 'HP on A'. No severities were assigned to the issues, and it presents guessed interpretations as facts."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity label \"LOW — Minor injury, no production impact\" not in input",
+  "Status \"Resolved\" not mentioned in input",
+  "Clarifications Needed: None not mentioned in input",
+  "No pending equipment issues reported not mentioned in input",
+  "General note \"No safety incidents beyond the minor burn mentioned\" adds unsupported claim",
+  "General note \"All operations continued normally\" not in input"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents several details (severity label, status, clarifications, generic notes) that are not present in the supervisor input, lowering accuracy to 1. All factual items from the input are included, so completeness is 5. Severity is guessed as LOW without justification, giving a moderate 3. The layout is clear and scannable, earning readability 5. The report fails to flag the contradiction between \"no safety incidents\" and the burn, resulting in an uncertainty score of 1."
+}

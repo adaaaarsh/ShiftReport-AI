@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None yet; monitoring continues.",
+  "Status: Ongoing.",
+  "Severity comment for M-01: major malfunction, but resolved.",
+  "Severity comment for M-08: production impact, not a machine fault.",
+  "Pending action: Inspect and troubleshoot the coolant pump (M-11).",
+  "Pending action: Monitor CNC milling machine (M-01) for recurrence.",
+  "Pending action: Reassign or schedule additional operator for Packaging Unit (M-08).",
+  "General note: No safety hazards reported during this shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report uses the correct machine IDs and captures all factual details from the supervisor input, but it adds several invented actions, status notes, and safety statements that were never mentioned, lowering accuracy. All three issues are present and no reported facts are omitted, so completeness is high. The chosen severity levels all fall within the acceptable ranges defined in the answer key, making the severity classification fully defensible. The layout is clear, well‑structured, and easy to scan, earning a top readability score. However, the report fails to flag missing follow‑up items or unknown information, instead inventing actions, resulting in poor uncertainty handling."
+}

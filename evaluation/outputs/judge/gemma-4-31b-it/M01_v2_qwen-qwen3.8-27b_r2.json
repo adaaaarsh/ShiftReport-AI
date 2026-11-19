@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Day Shift",
+  "Action Taken: 20 non-conforming parts quarantined for rework",
+  "Action Taken: Maintenance inspected and diagnosed tooling failure",
+  "Status: Ongoing (Awaiting parts)",
+  "Status: Ongoing",
+  "Pending Items: Procure or locate the missing tool insert",
+  "Pending Items: replace tooling and verify finish tolerance before resuming full production",
+  "Pending Items: Investigate cause of increased cycle time (32s -> 38s)",
+  "Pending Items: Check for hydraulic pressure, mold temperature, or mechanical wear",
+  "Pending Items: Report East Bay heating issue to Facilities/Maintenance for inspection of airflow or thermostat settings",
+  "General Notes: Ensure these are tracked and not mixed with good stock",
+  "General Notes: Monitor employee comfort in the East Bay due to HVAC issues; may impact productivity or safety if heat stress becomes a concern"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but fabricates a significant amount of detail in the 'Action Taken', 'Status', 'Pending Items', and 'General Notes' sections. It fails to flag any missing information or ambiguities, presenting the inferred 'Day Shift' and the fabricated next steps as facts."
+}

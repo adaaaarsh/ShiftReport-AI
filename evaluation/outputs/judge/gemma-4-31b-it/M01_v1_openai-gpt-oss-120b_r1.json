@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine stopped pending tooling replacement",
+  "Production loss & quality deviation",
+  "No immediate corrective action taken; monitoring ongoing",
+  "Reduced throughput (~15% loss)",
+  "Issue reported to facilities",
+  "Comfort & potential impact on process stability",
+  "Facilities to inspect and repair/adjust HVAC",
+  "Consider temporary portable cooling if repair > 1 h",
+  "expected delay of ~Y hours",
+  "reduces output by roughly Z parts per hour",
+  "Review recent batch records for material changes or temperature fluctuations",
+  "Perform a quick inspection of the mold and drive mechanisms for wear",
+  "Adjust cycle parameters if safe",
+  "Follow up with Facilities on the status of the repair",
+  "arrange portable fans or spot coolers",
+  "Track the 20 rework parts through the rework queue",
+  "document any additional scrap",
+  "Review tooling inventory levels for critical inserts",
+  "Implement a real-time monitoring alert for cycle-time deviations > 5%",
+  "Conduct a quarterly HVAC performance audit",
+  "Maintenance inspection report (Lathe – Line A) – File #MNT-20231105-01",
+  "Production log – Injection Molder – File #PROD-20231105-A",
+  "Facility work order for HVAC – WO-HVAC-20231105-E"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the provided registry IDs (M-02, M-04, M-14), which is a significant accuracy error. It contains an extreme amount of fabrication, inventing specific actions, outcomes, file references, and recommendations not found in the input. While it captures all facts, it presents them alongside numerous hallucinations and fails to flag any ambiguity."
+}

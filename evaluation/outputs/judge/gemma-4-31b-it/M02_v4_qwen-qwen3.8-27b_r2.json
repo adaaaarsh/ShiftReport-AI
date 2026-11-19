@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inferred as Day Shift based on 7:00–11:00 timestamps",
+  "Risk of recurrence if tension is not monitored",
+  "indicates potential sensor or control instability",
+  "Loss of logistics capability for remainder of shift",
+  "No safety incidents reported",
+  "No staffing issues mentioned",
+  "All issues were managed by the supervisor on-site; no external maintenance calls were explicitly mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and readable, correctly identifying all machines and flagging missing information. However, it contains several fabrications, including an inferred shift and claims about safety/staffing not present in the input. Accuracy is reduced due to these invented details."
+}

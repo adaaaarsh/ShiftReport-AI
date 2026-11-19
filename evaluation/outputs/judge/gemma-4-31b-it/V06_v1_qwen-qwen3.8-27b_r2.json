@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "General Operations: Normal",
+  "No critical failures were reported",
+  "pauses were noted for monitoring",
+  "faint odor",
+  "Preliminary assessment suggests this is likely non-critical (e.g., residual food, minor heating element variance)",
+  "Area monitored",
+  "no immediate evacuation or shutdown required",
+  "Next shift to perform a visual inspection of the oven area and check for any burnt residues or ventilation issues",
+  "If the odor persists or intensifies, escalate to maintenance",
+  "Check robot logs for error codes or sensor obstructions",
+  "Ensure safety interlocks are functioning correctly",
+  "Monitor closely for recurrence"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing assessments, actions taken, and specific recommendations not found in the input. It fails to use the provided registry IDs for the equipment. It presents the ambiguous input as a series of concrete events and actions without flagging any uncertainty."
+}

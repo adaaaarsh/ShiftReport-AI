@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production targets were met",
+  "No impact on safety",
+  "Monitored situation; no immediate intervention required as systems stabilized",
+  "Monitor electrical panels and lighting systems for any recurring flickering or unusual noises",
+  "If fluctuations persist, notify Maintenance/Electrician for inspection of breakers or load balancing",
+  "Verify that no equipment tripped or reset during the incident"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report invents a significant amount of detail including actions taken, safety impacts, and production targets that were not in the sparse input. It fails to flag missing details or investigate what kicked on. Structurally it is scannable and readable, but the heavy fabrications heavily penalize accuracy and uncertainty."
+}

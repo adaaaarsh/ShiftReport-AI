@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "pump is non-functional",
+  "cooling for Line C machines compromised; production at risk",
+  "None yet; issue reported for immediate attention",
+  "Requires urgent repair or replacement",
+  "Arrange immediate maintenance to replace or rebuild the bearings on M-11 (Line C) or install a spare pump",
+  "Verify that Line C cooling is restored before production resumes at full capacity",
+  "Review bearing failure root cause to prevent recurrence",
+  "indicating a recurring reliability issue with the bearing specification or installation process"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the coolant pump on Line C (M-11) and captures all facts and contradictions from the input. However, it severely overstates the severity to CRITICAL and fabricates a massive amount of operational impact, actions taken, and pending recommendations not found in the input. While highly readable and structured, the level of fabrication severely hurts accuracy and makes the assigned severity indefensible."
+}

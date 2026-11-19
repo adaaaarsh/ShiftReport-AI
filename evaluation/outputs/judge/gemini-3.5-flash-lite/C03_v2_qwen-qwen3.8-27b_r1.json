@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 6:00 (Inferred from usage time; specific failure time not specified)",
+  "Action Taken: Tagged out for safety/maintenance.",
+  "Status: Ongoing",
+  "Verify M-15 (Forklift #1) Maintenance Status: Confirm with maintenance whether the tag-out is for repair or replacement.",
+  "Logistics Contingency: Ensure sufficient forklift availability (M-16) or alternative transport methods to handle finished goods movement to shipping, as M-15 is currently unavailable.",
+  "Operational Conflict: The supervisor noted using Forklift #1 to move finished pallets to shipping at 6:00, but also stated it is 'out of service, tagged out.' This suggests the machine may have failed during or immediately after this task, or the tag-out occurred after the 6:00 operation. Clarification is needed on whether the machine is currently physically available or if the 6:00 task was completed before the failure/tag-out.",
+  "Safety: Ensure the tag-out procedure was followed correctly and that the area around M-15 is secured if it is still on the floor."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and surfaces the core contradiction from the input, but it severely fails accuracy by inventing an extensive amount of operational narrative, speculative timelines, and recommendations not present in the supervisor notes. Severities and uncertainty handling are well done, but the excessive fabrication significantly impacts the accuracy score."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak detected",
+  "Immediate Identification: Visually inspect Line B to identify the source of the unusual sounds and confirm the specific machine ID",
+  "Immediate Identification: Visually inspect Line A to locate the source of the leak and identify the specific machine ID",
+  "Assessment: Once machines are identified, assess severity and determine if maintenance is required",
+  "Safety Check: Ensure no slip hazards or other safety risks are present from the unidentified leak",
+  "Both issues require immediate visual verification at the start of the next shift to prevent potential escalation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous nature of the input and flags all missing information. However, it fabricates several 'Pending Items' and 'General Notes' (actions and assessments) that were not in the supervisor's notes. The severity and uncertainty handling are excellent."
+}

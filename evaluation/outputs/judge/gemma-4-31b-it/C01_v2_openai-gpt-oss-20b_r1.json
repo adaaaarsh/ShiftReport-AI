@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production stoppage",
+  "monitored for stability",
+  "potential quality and safety concern",
+  "Temperature brought back to normal range",
+  "monitoring continued",
+  "monitoring required",
+  "Verify that the error code on M-07 does not recur",
+  "check logs for root cause",
+  "Continue monitoring M-10 temperature",
+  "confirm that it remains within spec limits"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and assigns reasonable severities. However, it fabricates numerous actions and monitoring steps not present in the input and fails to flag the contradictions between 'running fine' and the actual errors."
+}

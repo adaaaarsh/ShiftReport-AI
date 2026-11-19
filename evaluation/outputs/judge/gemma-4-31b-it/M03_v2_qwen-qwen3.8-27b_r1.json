@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Action Taken for M-11: No corrective action taken; monitored flow rate",
+  "Status for M-11: Ongoing",
+  "Status for M-01: Resolved",
+  "Time Noticed for M-08: Start of shift",
+  "Action Taken for M-08: Unit operated at half speed for the duration of the shift",
+  "Status for M-08: Ongoing (Pending staffing resolution)",
+  "Pending Items for M-11: Investigate source of whining noise on Coolant Circulation Pump. Check for bearing wear or impeller issues despite normal flow",
+  "Pending Items for M-08: Confirm staffing status for Packaging Unit. If operator is still absent, continue operating at reduced speed or arrange temporary coverage to restore full production rate",
+  "Pending Items for M-01: Monitor spindle performance for any recurrence of overload alarms, though currently stable",
+  "General Notes: Staffing shortage on Line B impacted output volume for the entire shift",
+  "General Notes: No critical safety incidents or full production stoppages occurred during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machine IDs correctly. However, it contains numerous fabrications in the 'Action Taken', 'Status', 'Pending Items', and 'General Notes' sections, as well as an inferred shift. Severity for M-01 is marked LOW, which is lower than the answer key's suggested range (MEDIUM/HIGH), and it fails to flag any missing information or uncertainty."
+}

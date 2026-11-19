@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Potential mechanical wear, but no immediate production impact",
+  "Is the noise increasing in pitch or volume?",
+  "Significant reduction in output/throughput",
+  "Is a replacement operator scheduled for the next shift?",
+  "consider scheduling preventive maintenance",
+  "No safety incidents or critical machine failures reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is complete and highly readable, but contains several fabrications (inferred shift, assumed causes/impacts, and a safety claim). Severity for M-01 is arguably too low given a spindle overload, and M-08 is arguably too high for a staffing issue, though both are defensible. It does a good job of flagging missing information."
+}

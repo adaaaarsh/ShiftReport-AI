@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Running smoothly, no further stoppages noted",
+  "Monitored; alarm resolved automatically",
+  "Operating within normal temperature range",
+  "charging status monitored",
+  "expected to be fully charged by next shift",
+  "belt slipping suggests a potential wear issue",
+  "Recommend inspecting the belt and pulleys for wear or misalignment",
+  "Consider scheduling a preventive maintenance check",
+  "indicating a transient sensor glitch",
+  "Log the event and monitor for any recurrence",
+  "calibrate the temperature sensor",
+  "Battery failure indicates possible aging or low charge capacity",
+  "Verify battery health and consider replacement",
+  "Ensure the charger is functioning correctly",
+  "forklift is not being used until fully charged",
+  "no impact on production output",
+  "No safety incidents were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications, inventing causes (sensor glitch, wear issue), outcomes (no impact on production), and safety claims not in the input. It fails to assign severities and presents all inferred recommendations as facts, ignoring all uncertainty."
+}

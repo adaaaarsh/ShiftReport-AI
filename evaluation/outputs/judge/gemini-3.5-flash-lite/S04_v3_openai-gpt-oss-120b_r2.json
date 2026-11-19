@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 1:40 PM (input states work order was submitted at 1:40pm, not that the issue was noticed at that time)",
+  "No other equipment issues reported during this shift",
+  "All material handling is being covered by Forklift #1 without reported delays"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the issue and matches the machine ID, but it invents a few extra details such as the time noticed and general notes not present in the input. Completeness, severity, and readability are exceptionally high and well-formatted. However, uncertainty handling scores lower because it does not explicitly flag missing repair ETAs or vendors."
+}

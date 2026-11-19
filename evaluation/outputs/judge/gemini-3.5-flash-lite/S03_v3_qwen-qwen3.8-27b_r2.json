@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "verified performance",
+  "Test completed successfully",
+  "80% capacity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately identifies the backup generator (M-13) and captures all facts from the input. However, it invades minor details by adding phrases like 'verified performance', 'Test completed successfully', and 'capacity', which constitute minor fabrications. The severity assignment of LOW is completely defensible, readability is high with a clean scannable structure, and uncertainty handling is solid given the straightforward input."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved - No further action required at this time",
+  "Clarifications Needed: None"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report successfully captures the welding robot incident and facts, but invents a resolution status and asserts that no further clarifications are needed despite missing details like incident reports or causes. It also fails to highlight the contradiction between 'no safety incidents' and the reported burn injury. Readability and formatting are high, but the accuracy and uncertainty handlings suffer from fabricated status claims."
+}

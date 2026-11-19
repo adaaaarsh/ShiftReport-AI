@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Normal general operations claim",
+  "No critical failures reported claim",
+  "Residual food or minor heating element variance examples",
+  "Area monitored action taken",
+  "No immediate evacuation or shutdown required claim",
+  "Visual inspection recommendation details",
+  "Ventilation issues recommendation",
+  "Escalate to maintenance recommendation",
+  "Check robot logs for error codes or sensor obstructions",
+  "Ensure safety interlocks are functioning correctly",
+  "Monitor closely for recurrence",
+  "Review robot system logs for pause events action item"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures both items from the input and uses correct IDs, but it massively hallucinates extensive details, actions, assessments, and recommendations that were never stated by the supervisor. The severity assignments are somewhat defensible though largely assumed given minimal input. Readability is high due to a clean layout, but accuracy is severely compromised by the extensive fabrication."
+}

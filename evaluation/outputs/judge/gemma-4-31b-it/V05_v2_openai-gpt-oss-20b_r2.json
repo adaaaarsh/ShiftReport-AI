@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adjusted and calibrated the machine",
+  "Status: Resolved",
+  "replaced parts",
+  "No other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guesses a specific machine (M-01) despite the input being ambiguous and fabricates specific actions ('Adjusted and calibrated') and a status ('Resolved') not found in the input. It also mentions 'replaced parts' when the input only said to 'Check the parts'. Uncertainty is completely ignored."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Electrical instability observed",
+  "mid-shift",
+  "No production stoppage occurred",
+  "Potential power fluctuation or compressor startup event",
+  "risk of future disruption if unresolved",
+  "Action Taken: None specified",
+  "Status: Ongoing / Unverified",
+  "Check Utilities Log",
+  "Inspect M-12",
+  "Monitor Stability",
+  "first hour of the shift",
+  "Facilities/Utilities team review",
+  "Production was not impacted",
+  "No specific machine failures reported on production lines (A, B, or C)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three facts from the supervisor input but adds many details not present, resulting in very low accuracy. It assigns a specific machine ID (M-12) without noting the ambiguity, so uncertainty handling is only partial. Severity is set to MEDIUM despite no supporting evidence, making the severity classification only moderately defensible. Readability is high due to clear headings and structure."
+}

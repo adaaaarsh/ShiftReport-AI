@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Approximately 12:00 PM",
+  "Action Taken: Monitored",
+  "Status: Ongoing — Issue appears to have subsided, but no confirmation of resolution",
+  "No safety incidents or production stoppages reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly flags the ambiguity of the utility equipment. However, it fabricates a specific time (12:00 PM), an action (monitored), a status (ongoing/subsided), and a safety claim not present in the input."
+}

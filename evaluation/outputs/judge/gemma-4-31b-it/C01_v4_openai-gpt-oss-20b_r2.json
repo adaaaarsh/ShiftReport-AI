@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production continued after resets",
+  "Was maintenance notified?",
+  "Was the error code logged for future reference?",
+  "Was the oven shut down or inspected?",
+  "Any maintenance scheduled to prevent recurrence?",
+  "Verify that M-07’s error code was logged and maintenance was notified",
+  "Inspect M-10 to ensure temperature control is stable; consider a preventive check",
+  "Monitor both machines for any recurrence of issues",
+  "Overall production was not halted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and assigns reasonable severities. However, it fabricates several 'Clarifications Needed' and 'Pending Items' (maintenance notifications, logging, inspections) not mentioned in the input. It also fails to flag the contradictions between 'running fine' and the actual errors."
+}

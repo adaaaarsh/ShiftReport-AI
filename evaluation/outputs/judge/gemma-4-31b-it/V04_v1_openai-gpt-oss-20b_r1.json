@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 12:00 pm – 8:00 pm",
+  "Incident time: ≈ 12:30 pm – 1:15 pm",
+  "utility monitoring system flagged irregularities",
+  "Brief flickering observed in the main production area and adjacent walkways",
+  "A sudden spike (“kick‑on”) detected on the main distribution panel",
+  "likely due to a high‑current device cycling on",
+  "Confirmed that all critical equipment remained powered and operational",
+  "Notified the Facilities Team",
+  "Facilities Team performed a quick inspection of the distribution panel",
+  "verified that all breakers were intact and no tripping occurred",
+  "Monitored the system for 30 minutes post‑incident",
+  "no further anomalies were recorded",
+  "Suspected a transient fault in the main panel’s surge protection device",
+  "possibly triggered by a high‑current appliance (e.g., HVAC compressor)",
+  "Schedule a detailed inspection of the surge protection device and associated wiring",
+  "Review load schedules",
+  "Install additional monitoring on the main panel",
+  "No change in throughput or product quality",
+  "No safety incidents or alarms triggered",
+  "Operators reported no noticeable disruptions",
+  "the brief flicker did not affect machine controls or operator visibility",
+  "Reported utilities incident to Facilities",
+  "Monitored utilities for 30 min post‑incident",
+  "Confirmed production continuity",
+  "Documented incident and actions",
+  "Confirm surge protection device status and wiring integrity",
+  "Adjust scheduling of high‑current equipment",
+  "Evaluate feasibility of installing real-time voltage/current monitoring",
+  "Remind operators to report any unusual lighting or power behavior"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is almost entirely fabricated, inventing specific times, causes, actions, and follow-up steps not present in the input. While it captures the basic facts, it presents them as part of a detailed investigation that never happened. It fails to flag the ambiguity of what 'something' was that kicked on."
+}

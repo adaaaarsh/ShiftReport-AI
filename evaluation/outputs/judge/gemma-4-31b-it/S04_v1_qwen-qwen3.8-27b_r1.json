@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Reduced forklift capacity may impact workflow efficiency",
+  "Staff should prioritize critical moves and coordinate usage of Forklift 1 to avoid bottlenecks",
+  "Monitor status of Work Order #4471",
+  "Check for any updates from maintenance regarding Forklift 2 repair timeline",
+  "Ensure Forklift 2 remains tagged out and inaccessible until cleared by maintenance",
+  "Remind staff to be cautious in the charging bay area due to the parked, out-of-service vehicle"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry ID (M-16) and includes significant fabrications in the 'Operational Impact', 'Action Items', and 'Safety Notes' sections. No severity was assigned to the issue. It presents the situation as complete without flagging the missing repair ETA."
+}

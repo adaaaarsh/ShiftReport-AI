@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "indicating a potential systemic issue with the component or installation",
+  "Time Noticed: Not specified (during current shift)",
+  "Status: Ongoing",
+  "Investigate and replace the failed bearings on M-11",
+  "Review why the bearings failed so quickly after the recent pump replacement. Check for misalignment, contamination, or incorrect part specification",
+  "Determine if Line C production is currently halted or running at reduced capacity due to the pump failure",
+  "suggesting a chronic issue with this specific equipment or supply chain quality. Recommend engineering review of the pump model or bearing specifications",
+  "making this a very early failure (less than 7 days)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 4,
+ "rationale": "The report accurately captures the core facts and successfully identifies the contradiction between the brand-new pump and the original bearings failing. However, it significantly expands the input with numerous fabricated operational recommendations, action items, and root cause assumptions that were not stated by the supervisor. Completeness is strong as the single issue is fully covered, but the extra fabricated commentary lowers the overall accuracy score."
+}

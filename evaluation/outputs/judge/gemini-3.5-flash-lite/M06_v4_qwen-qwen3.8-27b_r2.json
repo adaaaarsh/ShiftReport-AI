@@ -1,0 +1,59 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Confirm if the breakage was due to wear, collision, or material defect to prevent recurrence",
+  "AM/PM not specified",
+  "Has maintenance been notified? Is the leak affecting coolant levels or creating a floor hazard?",
+  "Has the noise changed in frequency or intensity? Is there any impact on temperature control in the plant?",
+  "Operators manually compensating for sensor errors",
+  "Has maintenance been called to inspect the sensor? Is there a risk of product misalignment or safety stop triggers?",
+  "Inspect and repair coolant line leak; check for floor hazards",
+  "Investigate source of rattling noise on roof HVAC unit",
+  "Maintenance to inspect and repair flickering speed sensor; verify conveyor speed accuracy",
+  "Monitor for any further tool breakage or unusual wear patterns",
+  "No critical safety incidents or full production stoppages reported",
+  "Staffing levels not specified",
+  "Ensure next shift supervisor is aware of the manual workarounds in place for M-05"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all four issues with accurate machine matches and defensible severities. However, it significantly pads the report with numerous invented clarifications, recommended actions, and pending items that were never stated in the supervisor input. Readability and uncertainty handling are excellent, but accuracy suffers due to the extensive fabricated details."
+}

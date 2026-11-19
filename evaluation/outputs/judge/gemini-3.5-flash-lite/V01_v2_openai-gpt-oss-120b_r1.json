@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine performance appeared abnormal",
+  "Stopped the machine for a visual inspection",
+  "Status: Ongoing",
+  "Coolant/oil leak",
+  "Severity MEDIUM - Potential mechanical issue that could affect production if not addressed",
+  "Severity MEDIUM - Leak could lead to safety or equipment damage if left unattended",
+  "Verify that the leak has been fully resolved and that there is no residual fluid on the floor that could pose a slip hazard",
+  "No safety incidents reported during the shift",
+  "Staffing levels were adequate; however, additional technical support may be needed for the pending investigations on Line A and Line B"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates multiple actions, causes, statuses, and general notes that were never stated in the supervisor input, including inventing a specific machine ID for the ambiguous Line B reference and assigning arbitrary MEDIUM severities instead of unknown. It captures all items from the input, but fails significantly on accuracy, severity, and uncertainty handling by hallucinating details and failing to properly handle ambiguous references."
+}

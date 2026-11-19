@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 02:10 (input states lockout happened at 2:10, not when it was noticed)",
+  "Status fields and ongoing/pending labels",
+  "Severity HIGH for the compressor unit (input has no severity info)",
+  "Action Taken: maintenance has been alerted for the compressor (input did not state maintenance was notified for it)",
+  "Severity MEDIUM for the welding robot",
+  "Action Taken: no immediate action taken for the welding robot",
+  "Pending items section text and general notes reiterating safety/maintenance awareness"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three issues and correctly maps the equipment IDs, but invents several status details, actions, and severity levels (such as assigning high/medium severities and maintenance alerts not supported by the brief text). It has good completeness by carrying all items forward and presents a very clean, readable format, but it fails to flag uncertainties and fabricates several details."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "No se ha observado aumento de temperatura ni pérdida de presión significativa, pero el nivel de aceite está disminuyendo.",
+  "2. Registrar el nivel de aceite y la cantidad de fuga (si es posible).",
+  "3. Asegurar que la zona esté señalizada y bloqueada para evitar accidentes.",
+  "Se recomienda revisar el sistema de sellado de la prensa una vez reparada para prevenir recurrencias.",
+  "Se coordinará la reparación tan pronto como llegue.",
+  "Se han tomado medidas de precaución para garantizar la seguridad del área y se documentará el progreso una vez completada la intervención."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates numerous details not present in the input, including non-existent pressure/temperature conditions, extra actions, and safety precautions. The distractor (the lathe) was wrongly included as an issue row in the table, and uncertainty was completely ignored by filling in missing context."
+}

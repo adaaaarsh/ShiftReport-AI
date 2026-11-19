@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Line A is likely offline or operating with caution pending repair",
+  "Verify that the oil leak has been contained and that the area is safe before resuming operations on Line A",
+  "Continue standard monitoring of the adjacent lathe",
+  "No other significant incidents reported during this shift",
+  "Safety protocols followed regarding the oil leak (e.g., spill containment, if applicable)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but includes several fabrications regarding the state of the line and safety protocols. It reports the distractor (lathe) as an equipment status item. It fails to flag the ambiguity of the time '3' or the missing status of the press."
+}

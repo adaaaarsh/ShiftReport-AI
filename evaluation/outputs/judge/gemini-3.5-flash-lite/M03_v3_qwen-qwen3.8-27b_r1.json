@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Night Shift (Inferred from all night)",
+  "3:20 PM",
+  "Potential mechanical wear or bearing issue; no immediate production impact but requires monitoring",
+  "Inspect coolant pump for source of whining noise (check bearings, impeller, or mounting) to prevent potential failure",
+  "Confirm staffing levels for the day shift to restore full production speed on the packaging unit",
+  "Monitor spindle performance for any recurrence of overload alarms, though currently stable",
+  "No safety incidents reported."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all three reported issues accurately regarding the core facts, but it includes several fabricated details, assumptions, and extra maintenance recommendations not present in the input. Severity assignment for M-08 is arguably too high given the input, and the report fails to treat missing items as unknowns while inventing future pending actions."
+}

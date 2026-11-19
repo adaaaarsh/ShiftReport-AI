@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "A faint, non-acutely pungent smell",
+  "Possible minor grease build-up or residual heat-related fumes",
+  "Noted the location and time of detection; no immediate safety concern",
+  "Schedule a thorough cleaning of the oven and surrounding area",
+  "Verify ventilation system is functioning correctly",
+  "Robot paused 3-4 times during the shift, resuming without operator intervention",
+  "Potential sensor glitch, power fluctuation, or minor software hiccup",
+  "Logged each pause with timestamp; no manual override required",
+  "Review robot logs for error codes; run diagnostic test",
+  "Ensure firmware is up to date",
+  "Ventilation Check: Confirmed that the ventilation fans were running at normal capacity",
+  "Robot Monitoring: Observed robot behavior; no safety incidents occurred",
+  "Documentation: Logged all observations in the shift log and communicated to maintenance team",
+  "Oven Cleaning recommendations",
+  "Ventilation Inspection recommendations",
+  "Robot Diagnostics recommendations",
+  "Environmental Monitoring recommendations",
+  "Staff Briefing recommendations"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report completely fabricates numerous causes, immediate actions, completed actions, and recommendations that were never mentioned in the brief input. While it captures the two core items (oven smell and robot pausing), its severe fabrications and failure to handle uncertainty properly result in very low accuracy and uncertainty scores."
+}

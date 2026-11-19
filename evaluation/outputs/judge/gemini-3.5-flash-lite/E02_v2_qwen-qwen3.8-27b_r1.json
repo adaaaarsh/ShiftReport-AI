@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Refer to Tuesday's report for previous diagnostic data",
+  "Maintenance and Engineering should be notified to update the asset registry",
+  "Immediate troubleshooting required as the unit is fully down"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and correctly flags the unrecognized equipment on line D. However, it assigns specific severities (HIGH and CRITICAL) where the input provided no evidence for severity, and it fabricates recommended actions and instructions not present in the supervisor notes. Readability and uncertainty handling are excellent, but accuracy and severity are penalized due to the unsupported severity assignments and fabricated details."
+}

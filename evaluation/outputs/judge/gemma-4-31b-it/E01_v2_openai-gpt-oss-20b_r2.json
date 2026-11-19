@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-07: Grinding operation resumed after previous downtime",
+  "M-03: maintenance (MX) was pinged but no response",
+  "M-15: Incident reported",
+  "M-15: forklift temporarily removed from service",
+  "M-15: Status: Pending repair",
+  "No other staffing or equipment issues reported"
+ ],
+ "accuracy": 2,
+ "completeness": 4,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report contains several fabrications, including attributing the maintenance ping to M-03 instead of M-07, and inventing actions for M-15 (reported, removed from service). It fails to flag any missing information or ambiguities, presenting the data as complete. Completeness is high as all machines were identified, but accuracy is low due to the hallucinations."
+}

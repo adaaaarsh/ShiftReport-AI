@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Root Cause (preliminary): Empty or improperly seated wire spool.",
+  "Executed a complete recalibration sequence per OEM guidelines.",
+  "Verified operation through a test run before returning to full production.",
+  "Production Loss: Approximately 35 minutes of downtime on Line B.",
+  "Output Impact: Minimal; no backlog created as the line resumed within 35 minutes.",
+  "Spool Inventory Check: Conduct a quick audit of wire spool inventory on Line B to ensure sufficient stock for the next shift.",
+  "Preventive Maintenance: Add a visual inspection of spool seating to the pre-shift checklist.",
+  "Training Reminder: Reinforce proper spool loading procedures with all robot operators to reduce recurrence."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the very brief supervisor note, but it heavily hallucinates root causes, preliminary investigations, production loss impacts, and extensive follow-up recommendations not present in the input. While formatting is clear, the invention of numerous operational details severely impacts accuracy."
+}

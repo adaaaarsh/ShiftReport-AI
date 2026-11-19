@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "Potential power surge or compressor start-up issue",
+  "Ongoing / Monitoring",
+  "Inspect Electrical Panel",
+  "Check for any tripped breakers or voltage irregularities in the utility panel",
+  "Monitor Stability",
+  "Keep an eye on lighting and power stability for the first hour of the shift",
+  "No safety hazards were reported",
+  "Recommend a quick check of the utility log or PLC history"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report guesses a specific machine (M-12) despite the input being ambiguous and fabricates numerous actions, causes, and monitoring steps not present in the supervisor's notes. While it captures all facts, it presents a high level of speculation as fact. Severity is assigned without evidence."
+}

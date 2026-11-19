@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored the alarm; no manual intervention required",
+  "No safety concern",
+  "Verify that the conveyor belt tension remains stable; watch for any further slipping",
+  "Confirm that Forklift #1 completes charging and test battery performance; schedule maintenance if repeat failures occur",
+  "No critical safety incidents reported during this shift",
+  "Production impact was minimal and resolved promptly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all reported items accurately regarding machine IDs and facts, but invents several details including monitoring steps, safety claims, and post-shift actions not stated by the supervisor. Severities assigned are reasonable though leaning slightly confident given the brief notes, and readability is excellent. Uncertainty handling is lower because the report states statuses like 'Resolved' and 'Ongoing' with definitive actions where the input left gaps."
+}

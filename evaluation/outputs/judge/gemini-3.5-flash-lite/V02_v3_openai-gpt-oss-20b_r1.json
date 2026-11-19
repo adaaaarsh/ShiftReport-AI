@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "may affect inspection throughput",
+  "Schedule maintenance inspection for M-09 (Quality Inspection Scanner) to diagnose recurring issue",
+  "Verify that the same problem has not spread to other Line C equipment (M-10, M-11)",
+  "No additional incidents or staffing notes reported."
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a specific machine ID (M-09) and several actions and impacts not in the ambiguous input, failing uncertainty handling entirely. It captures the general recurrence from the input but introduces significant ungrounded details. Formatting and readability are otherwise clean."
+}

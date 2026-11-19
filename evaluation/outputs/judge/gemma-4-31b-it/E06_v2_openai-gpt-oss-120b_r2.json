@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "leak may affect performance and requires attention but production not stopped",
+  "Status: Ongoing",
+  "Ensure maintenance completes repair of the oil leak on M-03 and verifies that the press is fully operational",
+  "No other equipment issues reported during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the machine and the core issue. However, it fabricates several details regarding the impact of the leak, the status, and a general claim that no other issues occurred. It fails to flag the missing information regarding whether the press is still running."
+}

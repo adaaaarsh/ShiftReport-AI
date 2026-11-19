@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Selected M-09 as the primary candidate despite ambiguity",
+  "Reasoning that \"acting up\" implies sensor/software glitch in inspection equipment",
+  "Assigned MEDIUM severity without source",
+  "Stated Action Taken: None recorded",
+  "Added Status: Ongoing / Pending Investigation",
+  "Note asking to verify if issue refers to M-10 or M-11",
+  "Pending item: Perform diagnostic check on M-09",
+  "Pending item: Review maintenance logs from last week",
+  "Pending item: Clarify equipment reference with incoming supervisor",
+  "General note suggesting chronic failure",
+  "Claim that no safety hazards or production stoppages were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report invents many specifics—machine choice, severity, actions, and safety statements—that are not present in the supervisor input, resulting in very low accuracy and indefensible severity classification. It does capture the sole issue from the input, so completeness is high. The structured headings and clear layout give excellent readability, and the report correctly flags the ambiguous machine reference and missing details, earning top marks for uncertainty handling."
+}

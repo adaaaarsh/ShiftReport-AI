@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Forklift 2 was used to move finished pallets (the input says used forklift 1)",
+  "Requires maintenance/repair",
+  "Submit a maintenance request (Work Order #____)",
+  "Schedule inspection by the maintenance team by the end of the day",
+  "Keep the forklift tagged out until clearance is received",
+  "Verify that the remaining forklifts are fully charged/fueled",
+  "Arrange for a temporary rental or re-assign a forklift",
+  "Confirm that the pallets moved at 06:00 have been loaded onto the outbound carrier",
+  "Update the shipping log and notify the logistics coordinator",
+  "Tagging of Forklift 1 was performed according to SOP #12-04",
+  "No safety incidents reported during the shift",
+  "Aisles and loading zones were kept clear",
+  "Monitor the status of Forklift 1",
+  "Report any deviations from the shipping plan immediately"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely hallucinates actions and details, claiming Forklift 2 was used when the input explicitly states Forklift 1 was used despite being tagged out, creating severe factual inaccuracies. It misses the inherent safety contradiction present in the input entirely. While the formatting is readable, the heavy amount of hallucinated procedures and incorrect facts severely degrades the overall quality."
+}

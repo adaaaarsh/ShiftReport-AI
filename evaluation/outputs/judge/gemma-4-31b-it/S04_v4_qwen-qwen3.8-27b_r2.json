@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — Awaiting repair",
+  "Monitor repair status of M-16 (Forklift #2) via Work Order #4471",
+  "Logistics capacity is currently reduced to a single forklift (M-15). Next shift should be aware of potential bottlenecks in material handling.",
+  "No other equipment issues or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but includes several fabrications (status, monitoring steps, and general notes about capacity and safety). Severity is marked as CRITICAL without evidence in the input, and it fails to flag the missing repair ETA as a clarification needed."
+}

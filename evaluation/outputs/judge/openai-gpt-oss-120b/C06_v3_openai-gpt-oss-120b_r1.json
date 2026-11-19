@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored pressure; no intervention required.",
+  "Action Taken: Issue noted; no corrective action taken during the shift.",
+  "Status: Ongoing — Requires investigation/adjustment by maintenance.",
+  "Investigate the cause of air‑tool pressure loss on Line A and adjust the compressor output or tool regulators as needed.",
+  "Verify that the compressor continues to maintain steady pressure at 110 psi after any adjustments.",
+  "Overall plant pressure system performed well; no safety incidents reported.",
+  "No staffing changes or other observations noted."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report matches the supervisor’s facts and uses the correct machine ID, but it adds numerous actions, recommendations and safety statements that were never mentioned, lowering accuracy. All input items are present, so completeness is high. Severity levels align with the answer‑key options, giving a perfect severity score. The layout is clear and well‑structured, earning top readability. However, the report fails to flag missing information or ambiguities, resulting in poor uncertainty handling."
+}

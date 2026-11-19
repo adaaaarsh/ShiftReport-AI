@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential bearing wear or cavitation that could lead to pump failure",
+  "Monitored pump performance; no immediate flow reduction observed",
+  "Schedule a maintenance inspection (bearing, impeller, and suction line)",
+  "Record vibration levels and temperature for trend analysis",
+  "No production loss after restart",
+  "Operator performed alarm reset and verified spindle run",
+  "Review spindle load logs for the past 24 hrs",
+  "Check tool wear and program parameters",
+  "Include spindle condition in the next preventive maintenance checklist",
+  "Reduced throughput; may affect order fulfillment timelines",
+  "Adjusted line speed to half capacity and continued production",
+  "Re-evaluate staffing levels",
+  "Consider cross-training additional personnel",
+  "Update production schedule to reflect the reduced output and communicate any delivery impacts to logistics",
+  "All machines are currently functional",
+  "No critical delays reported",
+  "No safety incidents or quality deviations observed during the shift",
+  "Perform a vibration and temperature check",
+  "Replace any worn components as needed",
+  "Verify spindle load data and inspect tooling for excessive wear",
+  "Confirm staffing levels for the upcoming shift",
+  "Adjust line speed back to normal once full crew is present",
+  "Log the coolant pump noise and CNC overload event in the equipment maintenance system"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications. It invents causes (bearing wear), specific actions (monitoring performance), and extensive follow-up recommendations not found in the input. It also fails to use the provided registry IDs and presents the information as complete without flagging any missing details."
+}

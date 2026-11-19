@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Template placeholders like [Specify Shift – e.g., Day/Evening/Night] and [Your Name]",
+  "All safety protocols remained in effect",
+  "Time table with specific times (12:00 – 12:45, 12:30 – 12:35, 12:45 – 13:00)",
+  "Notified Facilities; monitored for escalation",
+  "Resolved – lights returned to normal",
+  "Isolated the circuit, logged the event, and informed Maintenance",
+  "Equipment identified as standby air-compressor; no impact on production",
+  "Continued normal operations; kept QA on standby",
+  "Production maintained target output",
+  "No incidents or injuries reported",
+  "No deviation from quality standards detected",
+  "No damage reported; the unexpected activation was traced to a standby compressor that cycled on automatically",
+  "Follow-up actions involving Facilities, Maintenance, Operations, and Documentation",
+  "Recommendations for next shift involving proactive monitoring, communication, and safety check",
+  "Signature line and Date/Time 2026-11-05 13:30",
+  "Closing text asking to confirm receipt"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates an immense amount of detail, inventing specific times, actions, causes (identifying the compressor), and follow-up procedures from a very sparse input. It presents these fabrications as fact, completely failing to handle the ambiguity of the utilities event. While it carries the core points forward and has decent formatting, the massive invention of details tanks its accuracy and uncertainty scores."
+}

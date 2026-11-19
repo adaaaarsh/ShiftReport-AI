@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Prior to 2:10",
+  "Potential impact on air supply stability for dependent equipment",
+  "Preventive maintenance required before next shift to ensure quality",
+  "Verify Safety and Maintenance have completed inspection of the guard interlock failure",
+  "Do NOT restart until Safety clearance is documented",
+  "Monitor compressor cycling; check pressure settings and valve function if short-cycling persists",
+  "Perform welding tip replacement prior to start of production",
+  "A near-miss occurred on M-03 due to interlock failure",
+  "the incident must be logged in the safety register",
+  "No other staffing or production stoppages reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues accurately with correct machine IDs and includes all facts, but it invents several operational instructions, statuses, and explanations that were not in the source text. Severities are generally reasonable though assigned without direct prompt backing for medium. It is very readable and well-structured, but it fills in unknowns with fabricated procedural recommendations."
+}

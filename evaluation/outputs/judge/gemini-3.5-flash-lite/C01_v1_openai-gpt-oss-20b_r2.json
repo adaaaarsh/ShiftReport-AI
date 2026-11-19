@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine 7 stabilized after the second reboot",
+  "No further errors observed",
+  "Review error logs to identify root cause",
+  "Schedule preventive maintenance check for next shift",
+  "Notify maintenance team if error recurs",
+  "Oven temperature spiked to 450 °F",
+  "Immediate shutdown and recalibration",
+  "Inspect temperature sensor and control panel",
+  "Verify calibration logs",
+  "Consider adding a temperature alarm threshold",
+  "Production Impact: Minimal; both incidents were resolved without affecting output",
+  "No safety incidents reported",
+  "Conduct a brief review meeting",
+  "Update the SOP"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all real events from the input, but heavily fabricates extensive corrective actions, follow-up plans, root-cause analyses, and safety declarations that were never stated by the supervisor. It fails to flag the explicit contradictions present in the input regarding whether Machine 7 and the overall shift were trouble-free."
+}

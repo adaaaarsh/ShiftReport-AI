@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Jam cleared manually",
+  "No repairs required",
+  "Monitor packaging unit for any recurring issues during the next few hours"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but adds several fabricated details regarding how the jam was cleared, the lack of repairs, and a monitoring instruction. It fails to flag any uncertainty or missing information, though the input was straightforward. Severity was not explicitly assigned, which is acceptable given the input."
+}

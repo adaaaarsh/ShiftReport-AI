@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM time designation",
+  "potential mechanical issue that could affect production if it worsens",
+  "Operator kept the machine running while monitoring the noise",
+  "Machine still in operation; no maintenance action reported",
+  "Who is responsible for lighting maintenance and has a work order been created"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all relevant facts and distractor information from the supervisor input, but hallucinates specific PM time designations and operational details not in the text. It correctly classifies severities and handles uncertainty well, presenting structured sections and clear placeholders."
+}

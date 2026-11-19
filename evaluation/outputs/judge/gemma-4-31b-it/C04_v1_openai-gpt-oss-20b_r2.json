@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Bearings show excessive radial play and surface wear",
+  "No external contamination or lubrication issues detected",
+  "Flow rate and pressure readings are within acceptable limits",
+  "No abnormal vibrations or noise reported",
+  "Source and install new bearings",
+  "Verify proper seating and alignment",
+  "Conduct a detailed investigation to determine why the bearings are failing repeatedly",
+  "Log the new bearing installation",
+  "Update the pump’s maintenance history",
+  "Re-evaluate the lubrication schedule and oil quality",
+  "Implement a routine alignment check",
+  "Engage with the bearing supplier",
+  "Install vibration monitoring sensors",
+  "Perform a quick functional test",
+  "Await RCA report",
+  "Ensure all lockout/tagout procedures are followed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily hallucinated, inventing numerous technical observations, actions, and recommendations not present in the input. It fails to flag the blatant contradiction regarding a 'brand new' pump having 'original bearings' that failed 'again'. No severity was assigned to the issue."
+}

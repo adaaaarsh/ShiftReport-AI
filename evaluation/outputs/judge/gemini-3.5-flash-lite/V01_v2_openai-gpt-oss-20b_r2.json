@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Reduced performance for M-07",
+  "Medium severity assigned to both issues without backing",
+  "Detailed diagnostic on M-07 to determine cause of noises",
+  "Verify that all safety protocols are followed during inspections",
+  "No other significant events or staffing changes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a specific machine ID for the ambiguous line B reference (M-07) and invents medium severities, causes, and pending actions not present in the input. While it captures the core facts and is readable, it completely fails uncertainty handling by guessing specific equipment and assigning unwarranted medium severities to vague inputs."
+}

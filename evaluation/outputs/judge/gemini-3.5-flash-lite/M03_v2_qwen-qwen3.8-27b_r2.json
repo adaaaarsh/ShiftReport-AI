@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift (Inferred from \"all night\")",
+  "No corrective action taken; monitored flow rate",
+  "Status: Ongoing",
+  "Status: Resolved",
+  "Status: Ongoing (Staffing dependent)",
+  "Inspect for mechanical wear or bearing issues causing the whining noise, even though flow is currently acceptable",
+  "Confirm if additional staff are available to restore full production speed. If not, continue monitoring for fatigue-related errors due to extended half-speed operation",
+  "Monitor spindle performance for the first hour to ensure the overload alarm does not recur",
+  "Line A and C are operating at normal rates"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues accurately and organizes them clearly. However, it invents numerous follow-up actions, statuses, and operational claims not found in the supervisor input. The severity choices are mostly reasonable, and the shift inference, while a minor fabrication, does not break overall readability."
+}

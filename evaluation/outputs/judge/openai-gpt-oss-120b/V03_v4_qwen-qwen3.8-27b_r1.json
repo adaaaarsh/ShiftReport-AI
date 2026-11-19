@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Classification label 'UNRECOGNIZED EQUIPMENT — Forklift (Logistics)' not in supervisor input.",
+  "Status marked as 'Ongoing' not mentioned in input.",
+  "Example symptom list 'hydraulic leak, steering issue, battery failure, unusual noise, error codes?' invented.",
+  "Safety status options 'in use, parked, or tagged out' invented.",
+  "Maintenance status question 'Has maintenance been notified?' invented.",
+  "Safety check instruction to verify forklift safety and possible tag-out/repair invented.",
+  "Follow-up instruction to contact maintenance invented."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the ambiguous forklift issue and marks its severity as UNKNOWN, matching the answer key, but it adds numerous invented details (example symptoms, status labels, and action instructions) that were not present in the supervisor input, lowering accuracy. All items from the input are represented, so completeness is high. Severity classification aligns with the key, and the structured headings make the report easy to read. The report explicitly flags unknowns and ambiguous references, satisfying uncertainty handling."
+}

@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Unusual noise reported during operation",
+  "Hydraulic Fluid Leak",
+  "Fluid leak observed in the vicinity of Line A equipment",
+  "Inspect for mechanical wear, loose components, or bearing issues",
+  "Check hydraulic lines, coolant systems, and seals",
+  "Ensure the area around the unidentified leak on Line A is cleaned up to prevent slip hazards",
+  "No safety incidents or production stoppages were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report fabricates numerous details, including the specific machine for the noise (M-07) and the type of leak (hydraulic). Severities are guessed without evidence, and it invents specific maintenance steps and safety claims not present in the input."
+}

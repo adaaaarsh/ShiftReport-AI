@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Evening shift (7:00 pm - 3:00 am)",
+  "Notified maintenance team of compressor trip at 9:12 pm action",
+  "Shift Lead responsible for notification",
+  "Shift Technician responsible for breaker reset and pressure verification",
+  "Maintenance log update documentation item due at end of day",
+  "Brief downtime (~8 minutes)",
+  "No production loss reported",
+  "Other Lines: No impact observed",
+  "Safety: No incidents; all safety protocols followed",
+  "Preventive Maintenance recommendation",
+  "Monitoring recommendation",
+  "Training recommendation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the compressor as M-12, but invents a vast amount of detail including shift timings, specific roles, safety incidents, impacts, and multiple recommendations not mentioned by the supervisor. It presents these fabrications as fact while completely ignoring the missing information regarding scrap or part damage. The structure is readable but heavily padded with ungrounded procedural tables."
+}

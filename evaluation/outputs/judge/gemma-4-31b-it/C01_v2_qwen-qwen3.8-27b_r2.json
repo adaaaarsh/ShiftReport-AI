@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken for M-10: Monitored until temperature returned to normal range",
+  "Pending Item for M-07: Monitor closely for any recurrence",
+  "Pending Item for M-10: Verify temperature stability",
+  "General Note: Overall production status is stable",
+  "General Note: No other machines reported issues during this shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but fails to flag the contradictions in the input (e.g., 'running fine' vs 'restarted twice'). It fabricates several monitoring actions and general status claims not present in the supervisor's notes. Uncertainty handling is poor as it presents the data as consistent and complete without flagging missing causes or the internal contradictions."
+}

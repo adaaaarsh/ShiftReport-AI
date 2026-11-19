@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Loss of logistics capacity; potential impact on material handling and shipping workflows",
+  "Unit tagged out for safety/maintenance",
+  "Ensure M-16 (Forklift #2) is available and operational to cover the logistics gap left by M-15",
+  "Monitor shipping schedule to ensure pallet movement is not delayed due to the loss of one forklift",
+  "indicates the unit was functional until shortly before being tagged out",
+  "next shift should be aware of the reduced forklift capacity for the remainder of the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the unit being 'tagged out' and 'used at 6'. It also fabricates several operational justifications and pending items not found in the input. Severity is reasonable given the equipment is out of service."
+}

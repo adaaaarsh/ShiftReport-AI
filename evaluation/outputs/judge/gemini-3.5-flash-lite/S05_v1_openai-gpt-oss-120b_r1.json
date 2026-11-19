@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Evening (17:00 – 01:00)",
+  "Compressor Unit (Line A) - compressor is actually Utilities M-12",
+  "Pressure normal; equipment operating",
+  "All affected tools were tested and returned to service",
+  "Safety: No personnel injury or safety hazard was reported",
+  "Standard lock-out/tag-out procedures were followed during the reset",
+  "Target Completion: Start of the next shift (morning shift, 06:00-14:00) on 2026-11-06",
+  "Potential Impact: If the relay is faulty, anticipate a possible repeat trip; consider having a standby portable compressor available as a contingency",
+  "Monitor Pressure: Keep an eye on Line A pressure for the next 2-3 hours; report any deviation >5 psi from set point",
+  "Check Alarms: Verify that the compressor alarm panel is cleared after the reset",
+  "Prepare for Maintenance: Ensure the maintenance crew has access to the relay and any required spare parts before their inspection",
+  "Documentation: Log any further occurrences in the equipment logbook and update the incident ticket (Ticket # [Insert Ticket #])",
+  "All other systems (Lines B & C, electrical distribution, HVAC) remained stable throughout the shift",
+  "No other abnormal events were observed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all factual points from the input accurately regarding the incident, but it invents an extensive amount of operational, safety, testing, and procedural details that were never stated by the supervisor. It also miscategorizes the compressor as belonging to Line A instead of Utilities. Uncertainty handling is poor because it presents all invented recommendations, safety claims, and status updates as absolute facts."
+}

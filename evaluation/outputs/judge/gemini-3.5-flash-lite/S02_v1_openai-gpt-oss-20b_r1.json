@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Specific error code WF-E01 - Wire Feed Jam",
+  "Detailed timeline at 10:32, 10:35, 10:40, 10:55, and monitoring steps",
+  "Model X-200 wire spool",
+  "Adjusted settings to factory defaults and ran calibration routine",
+  "3 spare spools remaining in the Line B storage bin",
+  "Schedule a preventive inspection in 2 weeks",
+  "Re-order additional spools to maintain a 5-spool safety stock",
+  "Deeper inspection of the drive motor and feed rollers"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 3,
+ "rationale": "While the report captures all facts from the input and correctly identifies the machine, it completely invents a vast amount of detail including timeline steps, error codes, specific equipment models, spare parts inventory counts, and future maintenance recommendations. Because of the massive volume of fabricated details, accuracy is heavily penalized. The report is readable and formats the core incident well, but the severe fabrication significantly reduces trustworthiness."
+}

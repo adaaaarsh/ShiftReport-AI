@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity description adds loss of logistics capacity and potential safety hazard, not in input.",
+  "Suggested immediate safety check to verify status and secure forklift.",
+  "Instruction to ensure forklift cannot be operated.",
+  "Potential safety incident report suggestion.",
+  "Assessment of Forklift #2 (M-16) handling workload.",
+  "Statement that no other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-15 and captures all three supervisor facts, but adds several invented actions and descriptions, lowering accuracy to 3. All input items are present, giving completeness 5. The severity HIGH aligns with the answer key, so severity score 5. The structured headings and bullet points make it highly readable (5). The report flags the contradictory information and unknown timing, handling uncertainty well (5)."
+}

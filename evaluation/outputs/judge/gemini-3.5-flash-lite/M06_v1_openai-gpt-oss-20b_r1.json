@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift time 07:00 – 15:00 Shift",
+  "Replaced with spare",
+  "Monitor for repeat failure",
+  "Schedule leak repair before next shift; check coolant level and pressure",
+  "Technician to inspect and resolve noise issue",
+  "No immediate shutdown",
+  "Replace or recalibrate sensor; verify conveyor speed stability",
+  "All critical equipment is currently operational",
+  "No safety incidents were reported during this period"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report includes numerous fabricated actions, recommendations, and claims not present in the supervisor notes, severely hurting accuracy. It captures most of the reported items forward, though it invents a specific shift time and many follow-up tasks. Readability is strong with a clear table format, but uncertainty handling is poor as it invents operational statuses and fails to highlight what was unknown."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Mapping \"Machine 17\" to M-07 (CNC Milling Machine)",
+  "Reasoning note about \"only other Line B machine with significant hydraulic systems besides the press on Line A\"",
+  "Assigned severity HIGH to the hydraulic leak issue",
+  "Status \"Ongoing\" for the leak issue",
+  "Mapping \"Robot 2\" to M-06 (Welding Robot Arm)",
+  "Assigned severity MEDIUM to the robot reteach issue",
+  "Status \"Pending\" for the robot issue",
+  "Pending action \"Investigate and repair hydraulic fluid leak. Ensure area is cleaned to prevent slip hazards.\"",
+  "Pending action \"Perform re‑teaching procedure to restore correct path/operation.\"",
+  "General note \"No safety incidents or production stoppages explicitly mentioned, but hydraulic leaks pose a slip/fall risk and should be addressed promptly.\"",
+  "General note about equipment numbering discrepancy"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 2,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report invents machine IDs, severity levels, statuses and remedial actions not present in the supervisor input, resulting in very low accuracy. It does capture both reported issues, so completeness is high. Severity classifications are guessed without evidence, lowering that score. The layout is clear and scannable, giving a high readability rating. While some unknowns are flagged, many gaps are filled silently, yielding a moderate uncertainty handling score."
+}

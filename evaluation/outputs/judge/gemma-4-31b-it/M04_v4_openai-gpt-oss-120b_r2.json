@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "safety interlock bypassed",
+  "Awaiting maintenance repair and verification of interlock restoration",
+  "Reduces utility reliability; may affect downstream equipment if not resolved",
+  "Issue still present, no corrective action recorded",
+  "Any impact on line pressure observed?",
+  "Tool tip worn",
+  "tip change scheduled for next shift",
+  "No staffing changes or additional observations noted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and well-structured, capturing all issues and flagging missing information. However, it contains several fabricated details, such as the cause of the interlock failure ('bypassed'), the status of the compressor, and the reason for the robot tip change ('worn')."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production stoppage",
+  "Requires monitoring for safety compliance",
+  "Resolved (Injury treated) / Ongoing (Safety review recommended)",
+  "Review incident report regarding the operator's burn to determine if additional PPE or safety interlocks are required for M-06",
+  "Monitor the operator for any delayed symptoms of the burn",
+  "No other safety incidents or machine malfunctions reported this shift",
+  "Production continued uninterrupted following the minor injury"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the welding robot cell as M-06 and captures all facts from the input. However, it invents numerous details such as production impact, safety reviews, and monitoring steps that were not in the supervisor input. The contradiction between 'no safety incidents' and a burn injury is completely ignored by the report, leading to a low uncertainty handling score."
+}

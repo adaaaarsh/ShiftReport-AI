@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Halted/Impacted current status for the lathe",
+  "Production cannot resume full quality output until replaced",
+  "Procurement/Inventory to source the specific insert immediately",
+  "Monitor for further degradation. Consider scheduling maintenance check if cycle time continues to drift or if output targets are at risk",
+  "Facilities/Maintenance to inspect and repair HVAC unit in East Bay",
+  "Confirm ETA for the missing lathe insert. If not available, assess if alternative tooling or manual inspection can mitigate risk, or if Line A Lathe must remain down",
+  "Follow up with Facilities on the East Bay HVAC repair",
+  "Monitor Injection Molder cycle time. If it exceeds 40 seconds or shows signs of mechanical failure, escalate to maintenance",
+  "Ensure all 20 reworked parts are inspected and cleared before returning to inventory",
+  "Keep an eye on the lathe situation – this is the biggest bottleneck right now",
+  "The heat in the East Bay may affect worker productivity and morale; prioritize the HVAC fix",
+  "Calculate potential output loss if needed for planning"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts and details from the input accurately regarding the three issues, but it invents extensive action plans, directives, statuses, and recommendations that were not in the supervisor input. It presents incomplete information such as the lathe operating status and repair actions as if they were fully established procedures. However, the structure is clean and scannable, and the severities assigned are logical."
+}

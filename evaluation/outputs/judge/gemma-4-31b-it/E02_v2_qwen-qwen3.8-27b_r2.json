@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Previous Shift (Yesterday) for M-03",
+  "Status: Ongoing for M-03",
+  "Status: Ongoing for Paint Booth",
+  "Production stopped for this specific process (Paint Booth severity justification)",
+  "Confirm if production on Line D is fully halted or if there are workarounds"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and correctly flags the unrecognized equipment. However, it fabricates several status and time details not present in the input and assigns specific severities (HIGH/CRITICAL) without evidence, though it does acknowledge the assumptions."
+}

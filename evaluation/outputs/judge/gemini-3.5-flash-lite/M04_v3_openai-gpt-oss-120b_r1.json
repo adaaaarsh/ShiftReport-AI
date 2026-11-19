@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designation for 2:10",
+  "production halted and machine fully stopped status details for M-03",
+  "status awaiting maintenance to repair interlock and re-commission",
+  "High severity assignment for M-12 compressor short-cycling with major malfunction impact claims",
+  "Action taken issue reported to maintenance for M-12",
+  "Status maintenance investigation pending for M-12",
+  "Description end-effector tip worn for M-06",
+  "Severity rationale minor maintenance item no production impact at present for M-06",
+  "Action taken not noted for replacement no immediate action taken for M-06",
+  "Status tip change scheduled for next shift for M-06",
+  "Pending items section content",
+  "General notes section claims regarding safety communication"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three items from the supervisor input and structures them cleanly, resulting in high completeness and readability. However, it severely over-elaborates and invents a large number of status details, actions, timestamps (PM), and severity justifications that were never mentioned in the input, leading to a low accuracy score. The severity classification for M-12 is elevated to HIGH without justification from the input text, and uncertainty handling is poor because it invents statuses and pending steps rather than highlighting unknowns."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil leak detected near the base of the unit",
+  "3:00 PM (input only says 3)",
+  "Leak has been ongoing for several hours; potential for escalation if not addressed",
+  "scheduled to arrive shortly",
+  "Status: Ongoing — Awaiting maintenance arrival",
+  "Monitor the hydraulic press (M-03) for any worsening of the oil leak once maintenance arrives",
+  "Confirm that the maintenance team completes a full inspection and resolves the leak",
+  "no immediate safety hazards reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all key information and correctly identifies the machine. However, it fabricates numerous details regarding the location of the leak, the specific time (PM), the status, and the pending actions. It also fails to flag the missing information regarding whether the machine is still running."
+}

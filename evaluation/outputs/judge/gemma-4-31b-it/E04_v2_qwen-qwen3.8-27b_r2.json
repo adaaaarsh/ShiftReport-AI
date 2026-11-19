@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night Shift",
+  "Time Noticed: Prior to 22:15",
+  "Time Noticed: 22:15",
+  "Status: Ongoing",
+  "Safety risk present",
+  "Root Cause Analysis: Investigate why the M-10 temperature exceeded the setpoint by 30°F and why the interlock failed or was bypassed",
+  "Documentation: Record the specific batch number processed during the interlock bypass for quality traceability",
+  "Safety Warning: Operating with a bypassed interlock on an industrial oven is a significant safety hazard"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several details, including the shift name and specific 'Pending Items' and 'General Notes' that were not in the input. It flags the need to restore the interlock, addressing one of the missing items from the key."
+}

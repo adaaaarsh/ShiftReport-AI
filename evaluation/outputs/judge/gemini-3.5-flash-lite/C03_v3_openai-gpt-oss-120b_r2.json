@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "assumed 6 AM/PM as 6",
+  "The forklift was still used to move finished pallets to shipping before being tagged out",
+  "No repair action taken during the shift",
+  "Status: Ongoing - Forklift remains out of service and requires maintenance",
+  "Arrange maintenance/repair for M-15 and restore it to service",
+  "Verify that an alternative forklift (M-16) is available and ready to cover shipping movements",
+  "No safety incidents reported",
+  "Logistics team managed to complete pallet movement despite the forklift outage"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a significant amount of narrative, timeline details, and action items not present in the brief input. It completely misses the contradiction between tagging out a machine and operating it at 6, smoothing it over by inventing a sequence of events. While it captures the core issue, the extensive fabrications and failure to flag uncertainty severely penalize its accuracy and uncertainty handling."
+}

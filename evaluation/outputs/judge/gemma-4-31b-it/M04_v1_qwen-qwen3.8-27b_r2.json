@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "This constitutes a serious safety violation and near-miss",
+  "Do not attempt to restart until Safety and Maintenance have completed their investigation and cleared the equipment",
+  "Maintenance to inspect pressure settings, valves, or motor",
+  "Monitor closely if not addressed immediately",
+  "Electrode tip wear",
+  "Please ensure this is completed prior to handover to avoid production delays",
+  "All other lines operating normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts from the input. However, it contains numerous fabrications regarding causes, required actions, and general status. It fails to flag any missing information or the lack of specific machine IDs from the registry."
+}

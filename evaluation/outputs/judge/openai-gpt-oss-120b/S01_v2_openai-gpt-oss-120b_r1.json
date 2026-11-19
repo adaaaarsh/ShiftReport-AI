@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "causing a temporary stop in the line",
+  "No safety hazard, production impact was brief and resolved."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the M-08 packaging unit issue, captures all five factual elements, and assigns the appropriate LOW severity, earning high scores for completeness, severity, readability, and uncertainty. However, it adds invented commentary about a temporary line stop and safety impact, which constitutes a fabrication and lowers the accuracy to a moderate level."
+}

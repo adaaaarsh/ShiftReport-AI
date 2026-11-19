@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Isolated the machine from the line",
+  "Shut down the hydraulic pump",
+  "Placed absorbent pads and containment barriers around the leak",
+  "Ticket #2026‑11‑05‑001",
+  "Potential loss of coolant efficiency, risk of slip hazards and equipment damage",
+  "Cell C (Pick‑Place)",
+  "Paused robot operation",
+  "Logged the error code in the controller",
+  "Informed the Robotics Engineer (John Doe)",
+  "All other machines and robots on the floor are operating within normal parameters",
+  "Safety signage and lock‑out/tag‑out procedures have been applied to the affected equipment",
+  "No injuries or near‑miss incidents reported during this shift",
+  "Action Items for Incoming Shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents many operational details, actions, ticket numbers and personnel that were never mentioned, leading to a very low accuracy score. All items from the supervisor input are present, so completeness is high. No severity levels are provided, which makes the severity dimension deficient. The layout and table format are clear and scannable, giving a high readability rating. Crucially, the report fails to flag the unknown Machine 17 ID or the ambiguous Robot 2 reference, resulting in poor uncertainty handling."
+}

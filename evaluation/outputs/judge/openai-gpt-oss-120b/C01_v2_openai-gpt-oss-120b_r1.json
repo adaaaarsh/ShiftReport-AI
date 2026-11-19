@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 15:00",
+  "Action Taken: Performed two manual restarts; machine returned to normal operation.",
+  "Status: Resolved",
+  "Action Taken: Monitored and allowed the oven to cool; temperature returned to normal operating range.",
+  "Status: Ongoing (monitoring required)",
+  "Overall production proceeded smoothly with no major downtime.",
+  "Staffing levels were adequate; no additional remarks."
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all factual issues from the supervisor input, so completeness is high. However, it adds several invented details such as exact times, specific actions, and staffing comments, lowering accuracy. Severity levels match the acceptable range, and the layout is clear, giving strong readability. It fails to flag missing information or contradictions, resulting in low uncertainty handling."
+}

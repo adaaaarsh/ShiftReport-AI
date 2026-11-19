@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production halted for this equipment",
+  "parts have been requested",
+  "Verify receipt and installation of replacement parts for M-03",
+  "Confirm that the hydraulic press is cleared to resume operation after the leak repair",
+  "No additional equipment issues reported",
+  "No safety incidents or staffing concerns mentioned"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly flags the contradiction and missing timing information. However, it fabricates several operational details (e.g., parts requested, production halted) and adds boilerplate safety/equipment claims not in the input. Severity is defensible as the machine is shut down."
+}

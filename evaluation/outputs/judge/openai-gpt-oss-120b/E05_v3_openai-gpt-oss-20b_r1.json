@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": false,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No valid equipment references were found in the supervisor’s input that match the plant equipment list.",
+  "Verify if any equipment outside the current plant list requires attention and report accordingly.",
+  "Confirm that all machine references are correctly identified in future updates.",
+  "Please double‑check the machine identifiers and provide the correct references for accurate reporting."
+ ],
+ "accuracy": 2,
+ "completeness": 1,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report omits both issues from the supervisor input, leading to very low completeness and provides no severity assessments, resulting in a low severity score. It also adds several statements not present in the input, reducing accuracy. The layout is clear and it explicitly flags the unknown equipment references, giving high readability and uncertainty handling."
+}

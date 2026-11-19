@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Line B welding robot for the first 30–60 minutes to ensure the recalibration holds and no further wire feed issues occur",
+  "No other major incidents reported during this shift",
+  "No safety incidents reported",
+  "Work area on Line B cleared of old wire spools and debris"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input but includes significant fabrications regarding monitoring steps, safety reports, and housekeeping. Because it invents multiple actions and statuses not present in the input, accuracy is low. Severity was not assigned, which is a gap in the report's structure."
+}

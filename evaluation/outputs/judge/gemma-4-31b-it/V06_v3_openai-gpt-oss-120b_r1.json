@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no clear source identified",
+  "Observation recorded; no further action taken at the time",
+  "Monitor for any change in odor or related issues",
+  "Pauses can reduce production efficiency and may indicate a developing fault",
+  "Requires investigation to determine cause of pauses",
+  "Investigate the source of the smell near the Industrial Oven (M-10) and take corrective action if needed",
+  "Diagnose why the Welding Robot Arm (M-06) is pausing and perform necessary maintenance or adjustments",
+  "Verify that both issues do not develop into higher-severity problems",
+  "No safety incidents reported",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fabricates numerous details regarding actions taken, status, and general notes (safety/staffing) not present in the input. It fails to flag any missing information or uncertainty, presenting the situation as a structured plan. Severities are reasonable given the input."
+}

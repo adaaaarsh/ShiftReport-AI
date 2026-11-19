@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine stopped pending tooling replacement",
+  "Production loss & quality deviation",
+  "Maintenance inspected; identified tooling problem",
+  "Reduced throughput (~15% loss)",
+  "No immediate corrective action taken; monitoring ongoing",
+  "Comfort & potential impact on process stability",
+  "Issue reported to facilities; no repair yet",
+  "Production loss & quality deviation commentary",
+  "20 parts (~X pcs) removed from flow for rework; expected delay of ~Y hours",
+  "Cycle time increase reduces output by roughly Z parts per hour",
+  "Facilities to inspect and repair/adjust HVAC",
+  "File #MNT-20231105-01",
+  "File #PROD-20231105-A",
+  "WO-HVAC-20231105-E",
+  "Date/Time: 2026-11-05 17:30"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input accurately regarding the machines mentioned, but severely hallucinates extensive plans, actions, estimated delay hours, file numbers, and specific status details like machine stopped versus running that were never in the input. While completeness and readability are high, the massive volume of fabricated operational details drastically lowers the accuracy and uncertainty scores."
+}

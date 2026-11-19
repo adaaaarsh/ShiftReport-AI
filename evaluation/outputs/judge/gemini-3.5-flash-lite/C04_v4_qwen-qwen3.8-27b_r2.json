@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify operational status of M-11",
+  "Contact maintenance to inspect M-11",
+  "Initiate a warranty claim with the supplier",
+  "Investigate why the original bearings failed again",
+  "No other equipment issues reported in this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-11 and captures all facts, uncertainty, and contradictions from the input. However, it invents numerous actionable recommendations, maintenance checks, and warranty steps that were not in the supervisor notes."
+}

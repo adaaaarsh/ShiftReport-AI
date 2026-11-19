@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°C added to the temperature 450",
+  "Monitor for recurrence of error codes during the next shift",
+  "Issue resolved; temperature has stabilized to normal levels",
+  "Monitor temperature consistency to ensure no further spikes occur",
+  "Keep an eye on Machine 7 (Line B) for any recurring error codes",
+  "Verify that Oven (Line C) maintains stable temperatures within spec",
+  "No other outstanding issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches the correct equipment IDs, but it invents several monitoring actions, follow-up steps, and resolution claims not present in the input. It also assigns concrete severities/handling without acknowledging the input's contradictions (e.g., 'running fine' versus error codes)."
+}

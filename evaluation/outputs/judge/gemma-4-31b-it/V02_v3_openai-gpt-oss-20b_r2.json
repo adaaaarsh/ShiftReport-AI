@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-09",
+  "Quality Inspection Scanner",
+  "Device malfunctioned",
+  "impacting inspection throughput",
+  "Requires maintenance review",
+  "No other incidents or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-09) from an ambiguous reference to 'the thing on line C' without flagging the uncertainty. It fabricated several details regarding the nature of the malfunction and its impact. Severity was assigned as HIGH without evidence in the input."
+}

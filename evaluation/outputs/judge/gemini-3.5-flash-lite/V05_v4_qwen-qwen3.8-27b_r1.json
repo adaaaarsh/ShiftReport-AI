@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production quality/consistency was compromised; potential scrap/rework risk",
+  "Has the machine been re-calibrated or tested with a known-good part?",
+  "Root Cause: Investigate why the machine went out of spec (tool change, calibration drift, operator error, etc.)",
+  "Immediate quality control action is required to prevent defective parts from moving downstream."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report effectively captures all available facts and excellently flags the machine ambiguity and missing details. However, it assigns a HIGH severity without strong textual support, leading to a moderate severity score. Additionally, it invents several operational details and root cause suggestions not present in the brief input."
+}

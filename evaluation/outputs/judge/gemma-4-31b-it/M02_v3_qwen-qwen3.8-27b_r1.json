@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "mechanical wear or tension issues",
+  "root cause (wear/slippage) may require further maintenance",
+  "potential sensor or control instability",
+  "halting logistics operations for this unit",
+  "Reduced logistics capacity while unit is charging",
+  "No safety incidents reported",
+  "Logistics capacity reduced by 50% (one forklift down)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but includes numerous fabrications regarding root causes, operational impacts, and safety status. It fails to flag any missing information or uncertainties, presenting the report as complete. Readability is excellent."
+}

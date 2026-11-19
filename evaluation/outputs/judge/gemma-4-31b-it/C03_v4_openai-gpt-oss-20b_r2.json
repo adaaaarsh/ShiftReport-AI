@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Critical for material handling; production impacted",
+  "6:00 PM",
+  "Maintenance not yet confirmed",
+  "Has maintenance been notified?",
+  "When is the forklift expected to be repaired or replaced?",
+  "Follow up on maintenance for M-15 (Forklift #1) and arrange for a replacement or repair",
+  "Verify that shipping operations can continue without forklift #1 or with an alternative"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction (tagged out vs used at 6). It fabricates several operational details and follow-up actions not present in the input. Accuracy is reduced due to the invented time (PM) and status details."
+}

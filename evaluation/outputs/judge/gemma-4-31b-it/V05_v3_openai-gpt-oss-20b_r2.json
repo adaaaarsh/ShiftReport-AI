@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-01",
+  "Production was impacted until the issue was resolved",
+  "no safety hazards reported",
+  "Machine was brought back into spec",
+  "specific corrective actions performed",
+  "Verify the parts that were replaced or adjusted",
+  "Confirm that the CNC is operating within tolerance limits",
+  "log the final calibration data",
+  "No other machine issues or safety incidents were reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-01) from an ambiguous reference and fabricated numerous details regarding actions taken, pending tasks, and safety status. It failed to flag the ambiguity of the machine ID or the missing information. Severity was assigned without sufficient evidence."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "[Insert Date] placeholder",
+  "[Insert Shift Time] placeholder",
+  "Specific time \"3:15 PM\" for second restart",
+  "\"Temperature stabilized and returned to normal range within 10 minutes\" statement",
+  "Recommendation to log error code details in maintenance log",
+  "Recommendation to schedule a diagnostic check for root cause",
+  "Recommendation to verify oven calibration and sensor accuracy",
+  "Recommendation to review recent batch recipes",
+  "Production Impact: None – all equipment returned to normal operation promptly",
+  "Safety: No safety incidents reported",
+  "Quality: No quality deviations noted",
+  "Follow‑Up Actions table with owners and deadlines",
+  "Prepared by: [Your Signature] placeholder"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all factual items from the supervisor input, so completeness is high. However, it adds many invented times, actions, recommendations, and safety/quality statements, resulting in a very low accuracy score. No severity levels are provided, leading to a poor severity classification rating. The layout is clear and well‑structured, giving it a top readability score, but it fails to flag unknown or missing information, so uncertainty handling is low."
+}

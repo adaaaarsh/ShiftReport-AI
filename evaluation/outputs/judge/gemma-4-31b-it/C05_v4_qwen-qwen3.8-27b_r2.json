@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved (Medical) / Ongoing (Safety Review)",
+  "Verify if the M-06 welding robot cell was inspected for safety hazards following the operator burn incident",
+  "Monitor the operator for any delayed symptoms if required by company policy",
+  "No machine malfunctions or production stoppages reported in this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fabricates several status updates and pending items not found in the input. It fails to flag the contradiction between 'No safety incidents' and the reported burn."
+}

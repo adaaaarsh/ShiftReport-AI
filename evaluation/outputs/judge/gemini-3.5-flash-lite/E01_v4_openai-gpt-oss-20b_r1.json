@@ -1,0 +1,65 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production is impacted due to reduced feed",
+  "Machine remains in operation at reduced capacity",
+  "Will maintenance be dispatched?",
+  "Oil leak detected on the hydraulic press",
+  "Leak present but machine not shut down; potential for escalation",
+  "Leak remains",
+  "Has maintenance been notified?",
+  "Is the leak worsening?",
+  "Has a replacement part been ordered?",
+  "Could affect cooling performance if not addressed",
+  "Replenishment needed",
+  "Current coolant level estimate?",
+  "Has a refill been scheduled?",
+  "Follow up on maintenance visit for M-07 (Line B) – resolve reduced feed issue",
+  "Monitor oil leak on M-03 (Line A) and ensure LOTO is applied if leak worsens",
+  "Replace headlight on M-15 Forklift #1 and verify forklift safety",
+  "Replenish coolant for Line C machines (M-11)",
+  "Verify that all safety incidents (near‑miss in aisle 3) are logged and corrective actions are documented",
+  "No other staffing or safety incidents reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies all four issues from the input and matches the machine IDs accurately. However, it introduces numerous fabricated assumptions, explanations, and action items not present in the notes. Severities are reasonable overall, and it excels in readability and uncertainty handling by explicitly capturing missing elements and posing good clarifying questions."
+}

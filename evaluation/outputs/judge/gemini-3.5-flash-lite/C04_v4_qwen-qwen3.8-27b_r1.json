@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend reviewing maintenance logs for M-11 over the past 6–12 months",
+  "CMMS (Computerized Maintenance Management System)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies M-11 and captures all facts and uncertainty, but includes a few minor fabricated recommendations (reviewing past 6-12 months logs and CMMS mentions). It is well-structured, flags the core contradiction, and handles unknown severity properly."
+}

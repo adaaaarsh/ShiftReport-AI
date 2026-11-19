@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Day Shift",
+  "stopping production on the unit",
+  "Maintenance technician",
+  "35-minute downtime window",
+  "No other equipment issues or safety incidents were reported during this update"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately but includes several fabrications (shift name, specific technician role, and a summary statement about safety/other issues). The severity 'HIGH' is likely too high for a resolved 35-minute wire feed error, and the shift was inferred rather than stated."
+}

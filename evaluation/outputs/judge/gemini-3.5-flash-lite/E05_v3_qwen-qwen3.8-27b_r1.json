@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Fluid leak poses safety/cleanliness hazard and indicates potential component failure",
+  "Operational adjustment required; may impact cycle time or precision until resolved",
+  "Inspect M-06 (Welding Robot Arm) for hydraulic leak. Contain fluid spill and identify source (hose, seal, or cylinder).",
+  "Perform reteaching procedure for M-06 as requested. Verify path accuracy and safety zones after reprogramming.",
+  "No other issues reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report incorrectly forces both distinct issues (the hydraulic leak from 'Machine 17' and 'robot 2 needing a reteach') onto the exact same machine ID (M-06), inventing a premise that they refer to the same asset and adding numerous fabricated inspection steps and operational impacts. While it captures all reported facts and does a great job highlighting the uncertainty around 'Machine 17', the accuracy suffers heavily due to the incorrect machine mapping and invented details."
+}

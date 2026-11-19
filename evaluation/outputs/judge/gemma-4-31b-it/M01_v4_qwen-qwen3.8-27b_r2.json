@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No safety incidents reported",
+  "Staff morale may be affected by heat in East Bay; monitor for fatigue",
+  "Inventory check recommended for M-02 tooling inserts to prevent future downtime",
+  "may affect product quality if temperature-sensitive",
+  "Verify if warm air is affecting any temperature-sensitive processes in that zone"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and handles uncertainty exceptionally well, flagging all missing information. However, it contains several fabricated details in the General Notes and severity justifications (e.g., safety incidents, staff morale, and temperature-sensitive product quality) that were not in the input."
+}

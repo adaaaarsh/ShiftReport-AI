@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Ensure replacement staff or temporary coverage is arranged for the next shift to restore full production speed",
+  "Production output for this shift will be reduced by approximately 50% on this line",
+  "Recommend maintenance inspection to identify source of noise (e.g., bearing wear, cavitation)",
+  "Monitor closely during the next shift",
+  "Other Lines: Fully staffed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but includes several fabricated recommendations and assumptions (e.g., specific causes for the pump noise and staffing status of other lines). It fails to flag any missing information or ambiguities, presenting the situation as fully understood."
+}

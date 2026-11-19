@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Inspect for mechanical wear, loose components, or bearing issues causing the reported unusual noises.",
+  "Check hydraulic lines, coolant systems, and seals.",
+  "Ensure the area around the unidentified leak on Line A is cleaned up to prevent slip hazards before resuming full production.",
+  "No safety incidents or production stoppages were reported",
+  "prevent potential failure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report invents specific possible causes, checks, and safety measures not present in the input, and asserts a high/medium severity without justification. It arbitrarily picks M-07 for the Line B machine instead of keeping it ambiguous. However, it captures all reported issues and is easy to read."
+}

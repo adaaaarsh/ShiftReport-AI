@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "Inspect M-01 (Line A) for spindle damage before restarting. Do not operate until cleared by maintenance.",
+  "Safety and security concern for employees leaving/arriving",
+  "Safety concern: Parking lot lighting outage may pose a risk to employee safety during arrival/departure"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the main issue with M-01 and handles the mill on Line B correctly, but treats the parking lot lights (a distractor) as an equipment issue and invents safety consequences and operational instructions. All key facts and missing items from the input are addressed, and uncertainty/gaps are well highlighted. However, the fabricated safety claims and operational restrictions lower accuracy and severity defensibility."
+}

@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "Routine monitoring; no intervention required",
+  "Resolved / No action needed",
+  "Reduced tool performance, may affect productivity if not corrected",
+  "Issue observed; no corrective action taken during the shift",
+  "Ongoing / Pending investigation",
+  "Investigate the cause of the pressure drop in the air tools on Line A (check pneumatic lines, filters, and the compressor output)",
+  "Verify that the compressor continues to maintain steady pressure and that no downstream restrictions have developed",
+  "Overall plant pressure system appears stable, with the main compressor performing within normal parameters",
+  "Monitor air tool performance closely; consider scheduling preventive maintenance on pneumatic distribution if the issue persists"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to recognize the contradiction between the compressor being 'normal' and the tools losing pressure. It fabricates numerous actions, statuses, and recommendations not present in the input. It also misinterprets '2 to 4' as psi values rather than times."
+}

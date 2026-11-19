@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Ongoing malfunction affecting efficiency but not a complete shutdown",
+  "Issue logged; monitoring continued during shift",
+  "Production impact on painting operations",
+  "Noted the outage; no specific corrective action taken during this shift",
+  "Investigate and resolve the recurring issue with the Hydraulic Press",
+  "Diagnose and repair the Paint Booth on Line D to restore painting operations",
+  "No safety hazards reported during this shift",
+  "Staffing levels were adequate; no additional observations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input, but heavily fabricates actions, statuses, and operational impacts that were not stated by the supervisor. Severities are confidently assigned despite insufficient evidence, and multiple unstated actions and general notes are invented."
+}

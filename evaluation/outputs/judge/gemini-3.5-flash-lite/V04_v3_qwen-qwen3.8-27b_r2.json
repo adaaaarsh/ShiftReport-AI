@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Electrical instability observed",
+  "Resolved / Monitoring status",
+  "Monitor utility systems (M-12, M-13, M-14) for any recurring flickering or unexpected activations",
+  "Verify stability of power supply to ensure no latent issues affect sensitive equipment (e.g., CNC machines)",
+  "likely related to HVAC (M-14) or Compressor (M-12) cycling",
+  "Recommend checking utility logs if available to identify which unit activated"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the sparse input but invents several details, actions, and guesses a specific machine ID for an ambiguous note. It handles readability and completeness very well, structuring the information cleanly. However, it fails to keep the utility reference ambiguous by prematurely assigning it to M-14 and introducing fabricated recommendations and monitoring steps not present in the original notes."
+}

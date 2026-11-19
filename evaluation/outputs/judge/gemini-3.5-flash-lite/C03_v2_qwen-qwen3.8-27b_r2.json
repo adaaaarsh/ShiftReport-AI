@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift #2 (M-16) was utilized to move finished pallets",
+  "Time Noticed: 6:00",
+  "Unit was tagged out to prevent further use (reversing the timeline since supervisor used it)",
+  "Maintenance Request: Ensure a maintenance ticket is filed",
+  "Logistics Planning: Monitor availability of M-16",
+  "Production flow was maintained by switching to the backup forklift",
+  "No other equipment issues or safety incidents were reported during this shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely reverses the supervisor's input regarding the forklift contradiction, inventing that M-16 was used instead of M-15 and generating multiple unauthorized actions, maintenance steps, and safety claims. It completely misses the core contradiction where a tagged-out unit was operated. While formatted cleanly, its severe fabrications and failure to flag contradictions result in a low accuracy score."
+}

@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Production quality compromised and potential safety risk from heat loss.",
+  "Action Taken: None reported; issue noted for immediate repair.",
+  "Status: Ongoing (M-10)",
+  "Power backup unavailable, potential impact on utilities and emergency systems.",
+  "Action Taken: None reported; fuel delivery issue flagged.",
+  "Status: Ongoing (M-13)",
+  "No production impact.",
+  "Status: Resolved (M-16)",
+  "Severity: LOW — No action required (M-09)",
+  "Status: Resolved (M-09)",
+  "Repair or replace the torn door seal on M-10 and restore oven temperature control.",
+  "Confirm arrival of fuel for M-13 and verify generator readiness.",
+  "Monitor oven performance and QC results for any further under‑cured parts.",
+  "No additional staffing or safety incidents reported."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report includes all items from the supervisor input, giving it a high completeness score. However, it adds several invented details and treats the scanner as an issue, resulting in a low accuracy rating and poor uncertainty handling. The severity for the generator is unjustified, lowering the severity score. The layout is clear and well‑structured, earning a high readability score."
+}

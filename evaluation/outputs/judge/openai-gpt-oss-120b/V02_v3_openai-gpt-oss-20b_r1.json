@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Identified the machine as M-09 (specific ID)",
+  "Named the machine \"Quality Inspection Scanner\"",
+  "Assigned MEDIUM severity",
+  "Speculated that the issue may affect inspection throughput",
+  "Stated no action taken and that maintenance review was requested",
+  "Marked status as Ongoing",
+  "Suggested scheduling maintenance for M-09",
+  "Suggested verifying the problem on M-10 and M-11",
+  "Claimed no additional incidents or staffing notes"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents a specific machine ID (M-09) and many details not present in the supervisor input, leading to poor accuracy and failure to flag ambiguity, thus low scores for accuracy and uncertainty. All items from the input are included, so completeness is high. The assigned MEDIUM severity is not justified by the input, resulting in a low severity score. The formatting is clear, giving a high readability score."
+}

@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No immediate shutdown; potential for premature wear or failure",
+  "Check bearings, motor couplings, and lubrication points",
+  "Record any abnormal vibration readings",
+  "If fault persists, schedule maintenance with the OEM service team",
+  "Visible moisture/condensation; source uncertain",
+  "Minor spill risk; no safety hazard reported yet",
+  "Verify pressure readings on nearby lines",
+  "Repair or replace the faulty component as soon as possible to prevent equipment downtime or slip hazards",
+  "Personnel were advised to keep a safe distance and report any escalation",
+  "Area around the suspected leak was cordoned off with Wet Floor signage",
+  "No slip incidents occurred",
+  "Ensure the area remains dry until the leak is resolved",
+  "Log any findings in the equipment maintenance log",
+  "If a fault is confirmed, initiate a work order for repair",
+  "Document pressure/temperature readings",
+  "Arrange for repair or part replacement as needed",
+  "Update the daily equipment status board with findings from tomorrows inspections",
+  "Record any corrective actions taken in the maintenance management system (e.g., CMMS)",
+  "Notify the maintenance supervisor of both issues before the end of the next shift if the problems persist or worsen",
+  "Inform the safety officer if any new hazards are discovered during the investigation",
+  "Overall, operations continued without interruption"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and correctly preserves the uncertainty regarding the specific machine identities and unknown severities. However, it severely violates accuracy by fabricating an extensive amount of details, actions, safety precautions, and consequences that were never mentioned in the supervisor input."
+}

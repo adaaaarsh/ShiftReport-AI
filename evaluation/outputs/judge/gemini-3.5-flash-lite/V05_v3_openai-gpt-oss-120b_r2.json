@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Supervisor performed adjustments/fixes and believes the machine is now back within spec"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous CNC issue and flags the uncertainty regarding which specific CNC machine was affected. However, it slightly fabricates details by explicitly stating the supervisor performed the adjustments and fixes, whereas the input only stated 'we fixed it I think'. Overall, it effectively preserves completeness and handles uncertainty well."
+}

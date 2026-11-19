@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "at the base of the unit",
+  "PM",
+  "Leak could worsen and affect production if not repaired, but the machine is still operable",
+  "has been notified and is scheduled to arrive",
+  "Ongoing — Awaiting maintenance response",
+  "Verify that maintenance has repaired the oil leak on M-03 (Hydraulic Press, Line A) and confirm the unit is back to normal operation.",
+  "No other issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and includes all facts and the distractor, but invents several specific details such as 'PM', specific action statuses, and impact explanations. Severity is reasonable and readability is high, but uncertainty handling is mixed as it assumes the machine's operability state and does not flag the missing operational status."
+}

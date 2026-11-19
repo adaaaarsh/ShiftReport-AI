@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Hydraulic system details",
+  "Production halted and press taken offline for safety",
+  "No defects reported during the run",
+  "Estimated downtime pending parts arrival",
+  "Confirm expected delivery date with supplier",
+  "Follow up daily until parts are received",
+  "Assign maintenance team to perform leak repair",
+  "Perform pressure test and functional verification",
+  "Log leak incident in the equipment maintenance system",
+  "Update the preventive-maintenance schedule",
+  "Monitor any other presses for similar hydraulic issues",
+  "Keep the production schedule flexible",
+  "Reallocate the pending workload to Press B"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a massive amount of operational details, procedures, and next steps that were never mentioned in the supervisor input, splitting a single issue into multiple rows and treating the run as a separate distractor issue. It completely ignores the contradiction present in the input regarding the timing of the shutdown versus the run. While well-structured and readable, it fails heavily on accuracy and uncertainty handling due to extensive hallucinations."
+}

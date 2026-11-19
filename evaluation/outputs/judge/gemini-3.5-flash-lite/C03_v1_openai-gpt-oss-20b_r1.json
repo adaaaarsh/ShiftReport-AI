@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Not used for any operations during this shift",
+  "Maintenance team notified; expected to be back in service by [date/time] after inspection",
+  "while it was still operational before being tagged out",
+  "All pallets were loaded onto the shipping dock without incident",
+  "Shipping Dock Clearance - Ensure all pallets are secured and the dock is ready for the next shift",
+  "No incidents or safety violations reported during this shift",
+  "All equipment used was inspected and in compliance with safety standards"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report completely reverses the supervisor's contradiction by inventing that the forklift was used before it was tagged out, completely missing the safety violation contradiction. It also fabricates numerous administrative actions, outcomes, and safety claims that were never stated in the short input notes."
+}

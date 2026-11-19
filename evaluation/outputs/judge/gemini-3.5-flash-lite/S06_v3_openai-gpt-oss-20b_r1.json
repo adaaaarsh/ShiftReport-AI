@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impact due to false rejections",
+  "No additional incidents or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine and captures all stated facts and actions. However, it invents details about production impact and adds general notes not supported by the input, leading to an accuracy score of 3. Uncertainty handling is moderate because the missing calibration cause is ignored rather than flagged."
+}

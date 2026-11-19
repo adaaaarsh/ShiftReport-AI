@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential mechanical failure description for M-01 severity",
+  "Status marked as Ongoing for M-01",
+  "Severity LOW assigned to M-07 despite no issue",
+  "Classification of parking lights as UNRECOGNIZED EQUIPMENT",
+  "Urgent inspection instruction for M-01 spindle damage",
+  "Verification request for maintenance contact on M-01",
+  "Confirmation request for parking lot lighting repair",
+  "Clarification questions about machine shutdown, noise nature, and damage inspection"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all items from the supervisor input, so completeness is high. It correctly identifies M-01 and assigns an allowed severity, but it adds several invented causes, actions, and pending tasks, lowering accuracy to a moderate level. Severity choices are defensible, the layout is clear, and the report flags unknowns and asks for clarification, earning top marks for severity classification, readability, and uncertainty handling."
+}

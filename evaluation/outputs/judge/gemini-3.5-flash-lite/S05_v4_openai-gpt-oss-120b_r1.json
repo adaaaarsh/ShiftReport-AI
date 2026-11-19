@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Verify that air pressure remains stable after maintenance work.",
+  "No safety incidents reported.",
+  "Production resumed promptly after the compressor reset."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID, but it invents a few extra action items and status notes not present in the notes. Severities are reasonable and readability is high, but uncertainty handling is weak because it falsely claims no clarifications are needed despite missing data regarding scrapped or damaged parts."
+}

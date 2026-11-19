@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "dimensional drift, surface finish variance",
+  "Performed a full diagnostic check: inspected spindle runout, verified tool offsets, and recalibrated the axis encoders",
+  "Machine returned to nominal settings",
+  "Confirmed that alarms cleared and the control panel shows 'In Spec'",
+  "Ran a 5-piece test batch and recorded measurements",
+  "Results within acceptable limits",
+  "All safety interlocks were functional throughout",
+  "No abnormal noises or vibrations were detected after the reset",
+  "Tool wear was inspected; no immediate replacement required",
+  "Retrieve the batch log for the affected time window",
+  "Use calibrated CMM or go/no-go gauges to measure critical dimensions",
+  "Compare results against the engineering drawing tolerances",
+  "Segregate any non-conforming parts and label them for re-work or scrap per SOP",
+  "Record findings in the Quality Control (QC) traceability sheet and update the CNC's production report",
+  "Log the incident in the equipment maintenance system (e.g., SAP PM, MPulse)",
+  "Schedule a preventive maintenance check for the CNC within the next 48 hours (focus on encoder calibration and spindle alignment)",
+  "Review the machine's alarm history",
+  "Brief the next shift on the inspection results",
+  "No other equipment reported issues during this shift",
+  "Production output met the target for the day",
+  "All operators were reminded to report any abnormal machine behavior immediately"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing specific technical causes, detailed repair actions, and extensive follow-up procedures not present in the input. It fails to flag the ambiguity of which CNC machine was involved. While it captures the basic facts, the sheer volume of invented detail makes it highly inaccurate."
+}

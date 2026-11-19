@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "La presión del sistema está dentro de los límites seguros",
+  "Área aislada y señalizada",
+  "Se está monitoreando la presión y el nivel de aceite",
+  "Equipo de Mantenimiento (Mecánicos de planta)",
+  "Antes del final del turno (estimado 18:00 hrs)",
+  "Se colocaron barreras de protección y señalización de “Área restringida”",
+  "Se ha dispuesto un contenedor absorbente para recoger cualquier derrame adicional",
+  "El supervisor de mantenimiento ha confirmado su llegada",
+  "Verificar que la zona siga debidamente aislada",
+  "Registrar el nivel de aceite restante"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue with the hydraulic press, but invents numerous actions, environmental containment steps, target completion times, and safety measures that were not in the short input. It also treats the distractor (the lathe) as a formal table entry. Consequently, accuracy and uncertainty handling scores are heavily penalized due to extensive fabrication."
+}

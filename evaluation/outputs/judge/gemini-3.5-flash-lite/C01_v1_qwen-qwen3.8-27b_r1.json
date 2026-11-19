@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor for recurrence of error code",
+  "No immediate action required. Monitor for further fluctuations",
+  "Keep an eye on Machine 7 (Line B) for any recurring error codes",
+  "Continue monitoring Oven C temperatures to ensure stability"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies both machines and captures all factual details from the input without missing anything. However, it completely glosses over the explicit contradictions in the supervisor's notes ('running fine' vs error codes, and 'everything's good' vs over-temperature) by smoothing them over, and it fabricates several monitoring instructions and recommendations not stated in the input."
+}

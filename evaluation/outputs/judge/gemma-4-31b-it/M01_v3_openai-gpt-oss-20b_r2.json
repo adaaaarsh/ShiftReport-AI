@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logged time change",
+  "no corrective action taken yet",
+  "Monitor cycle time trend",
+  "Noted complaint",
+  "no mechanical intervention performed",
+  "Verify HVAC settings and airflow",
+  "Replace missing tooling insert for M-02 and resume normal operation",
+  "Monitor M-04 cycle time; investigate potential causes if trend continues",
+  "Check HVAC airflow and temperature settings for M-14; adjust to maintain proper cooling in east bay",
+  "Verify that reworked parts from M-02 are re-inspected and returned to line",
+  "No safety incidents reported",
+  "Staffing levels adequate; no additional personnel required"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but contains numerous fabrications in the 'Action Taken', 'Status', and 'Pending Items' sections, as well as the 'General Notes'. It fails to flag any missing information or uncertainties, presenting the status of the machines as known facts."
+}

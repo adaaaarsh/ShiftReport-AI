@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "observed during inspection",
+  "Immediate bearing replacement and root-cause investigation",
+  "following the scheduled replacement program",
+  "Within the first operating cycle after installation",
+  "Visual inspection confirmed bearing wear and overheating",
+  "pump is currently non-operational",
+  "resulting in reduced coolant circulation for Unit C",
+  "No downstream equipment has been affected so far",
+  "Stop the pump and isolate it from the system",
+  "Replace the bearings with a verified, high-quality set",
+  "Conduct a root-cause analysis covering lubrication quality, alignment, vibration levels, and operating temperature",
+  "Document findings and update the maintenance log",
+  "Verify that the pump is safely isolated",
+  "Perform the bearing swap, re-align the pump, and run a post-maintenance vibration and temperature test",
+  "Review historical failure data and recommend design or procedural changes",
+  "Monitor coolant flow rates and temperature",
+  "Ensure lock-out/tag-out (LOTO) procedures",
+  "Use appropriate personal protective equipment (PPE)",
+  "Verify that the area around the pump is clear of debris and that spill containment measures are in place",
+  "No other equipment reported issues during this shift",
+  "All other systems are operating within normal parameters"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing an entire maintenance plan, inspection results, and operational statuses not present in the input. It completely ignores the contradiction between a 'brand new' pump and 'original bearings' failing. While it captures the basic facts, the sheer volume of invented detail makes it highly inaccurate."
+}

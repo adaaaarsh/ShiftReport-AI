@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "Monitored; no intervention required.",
+  "Resolved / No action needed",
+  "02:00 – 04:00",
+  "All other systems, including the compressor, operated within normal parameters.",
+  "No safety incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input facts and correctly surfaces the uncertainty of the air tools and the contradiction regarding the compressor. However, it introduces several fabricated actions, time formatting (e.g., specific am/pm ranges and units), and general statements not found in the input. Overall, the readability and uncertainty handling are excellent, but accuracy takes a hit due to the invented details."
+}

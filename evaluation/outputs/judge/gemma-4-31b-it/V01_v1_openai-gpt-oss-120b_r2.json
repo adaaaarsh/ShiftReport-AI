@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The machine emitted irregular mechanical sounds throughout the shift, suggesting possible bearing wear, mis-alignment, or lubrication deficiency",
+  "Machine was shut down safely and inspected visually; no obvious damage found",
+  "Schedule a detailed mechanical inspection first thing tomorrow",
+  "Verify lubrication levels and check for loose bolts or worn bearings",
+  "Run a test cycle after maintenance before returning to production",
+  "Area was isolated, and non-essential equipment was turned off to prevent safety hazards",
+  "No immediate spill or safety incident reported",
+  "Conduct a thorough inspection of all piping, valves, and connections in Area A tomorrow",
+  "Use leak detection spray or ultrasonic detector to locate source",
+  "Repair/replace the faulty component and retest for integrity",
+  "No injuries or near-miss incidents reported during the shift",
+  "ensure the area is cordoned off and signage is posted until the source is fixed",
+  "continued operation without investigation could lead to equipment failure or safety hazards",
+  "Perform a full mechanical inspection (bearing, shaft alignment, lubrication)",
+  "Document any wear or damage and replace parts as needed",
+  "Run a controlled test run and monitor for abnormal sounds before resuming normal production",
+  "Identify the exact source using appropriate detection tools",
+  "Repair or replace the defective component (pipe, gasket, valve, etc.)",
+  "Verify that the repair eliminates the leak and re-pressurize the system",
+  "Record all findings, parts replaced, and test results in the equipment maintenance log",
+  "Update the incident register with a brief note on the leak and noise issue",
+  "All non-essential equipment in the affected zones has been powered down to prevent further risk",
+  "Ensure that personal protective equipment (PPE) is worn when investigating the leak and when performing maintenance on the large machine",
+  "If any new symptoms arise (e.g., increased vibration, temperature rise, or fluid loss), report immediately to the maintenance supervisor"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly structured and captures all input points, but it fabricates an enormous amount of detail regarding causes, actions taken, and specific follow-up steps not present in the supervisor's notes. While it correctly identifies the ambiguity of the machines, the sheer volume of invented operational details makes it inaccurate."
+}

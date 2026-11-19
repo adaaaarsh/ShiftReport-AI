@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate inspection and repair needed",
+  "Safety check required before resuming operation",
+  "Please assess severity and schedule maintenance if not resolved during this shift",
+  "Programming/teaching session needed to restore correct operation",
+  "Please coordinate with robotics technician for scheduling",
+  "No other major incidents reported",
+  "Prioritize hydraulic repair on Machine 17 to prevent further damage or safety hazards",
+  "Schedule Robot 2 re-teaching at the earliest convenient downtime to minimize production impact"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all reported items and flags the unrecognized and ambiguous equipment correctly, handling uncertainty well. However, it contains a significant amount of fabricated actions, safety claims, and maintenance recommendations not present in the brief input. The severity assigned to the hydraulic leak is slightly high given the lack of detail, but overall the readability is good."
+}

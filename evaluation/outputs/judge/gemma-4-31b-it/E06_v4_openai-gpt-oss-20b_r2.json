@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil leak detected near the base of the unit",
+  "3:00 PM (input only says 3)",
+  "Leak is persistent; potential for escalation if not addressed",
+  "Monitor the oil leak on M-03 to ensure it does not worsen",
+  "Confirm that maintenance has inspected and repaired the leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all key information and correctly identifies the equipment. However, it fabricates specific details about the leak location, the exact time (PM), and adds several monitoring/follow-up steps not in the input. It fails to flag the missing information regarding whether the press is still running."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Supervisor performed an on-site adjustment",
+  "Performance was below spec but production continued; required adjustment",
+  "No safety hazards were reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and handles the ambiguous CNC machine reference well by flagging it. However, it invents details about the supervisor performing an on-site adjustment and assumes production continued, which were not stated in the short input. Severities are reasonable, and readability is very high."
+}

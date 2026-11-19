@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "impacted production flow",
+  "Status: Resolved",
+  "All other machines on Line B reported normal operation."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details from the input and uses the correct machine ID, but it invents impact on production flow and status, and incorrectly classifies a minor, instantly resolved jam as HIGH severity. The readability and completeness are otherwise excellent."
+}

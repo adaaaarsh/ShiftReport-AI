@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Logged incident in the daily safety log.",
+  "Safety to conduct a root‑cause investigation.",
+  "Maintenance to inspect and repair the interlock mechanism.",
+  "Verify lock‑out/tag‑out procedure compliance.",
+  "Monitored cycle times; no immediate shutdown required.",
+  "Logged event in equipment log.",
+  "Maintenance to inspect pressure relief valve, inlet filter, and motor bearings.",
+  "Schedule a preventive maintenance check.",
+  "Notified the welding team to perform tip change.",
+  "Confirm tip replacement is completed before shift end.",
+  "Update robot maintenance record.",
+  "All personnel were briefed on the incident and reminded of the importance of guard interlocks.",
+  "No other incidents or equipment issues were reported during this shift."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all three issues from the supervisor input, so completeness is high. However, it adds many actions and notes not mentioned, resulting in poor accuracy and low uncertainty handling. No severity levels are provided, leading to a severe deficiency in severity classification. The layout is clear and well‑structured, giving a high readability score."
+}

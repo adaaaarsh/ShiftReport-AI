@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi units added to pressure values",
+  "pressure dropping from 2 to 4 psi (misinterpreting 2 to 4 oclock)",
+  "table with invented events and notes",
+  "Checked for obvious leaks or blockages",
+  "Verified valve positions and connections",
+  "No immediate corrective action could be performed during the shift",
+  "Conduct a thorough leak check on all fittings and valves in Line A",
+  "Use a pressure decay test to pinpoint any minor leaks",
+  "Inspect and, if necessary, replace any clogged filters or malfunctioning valves",
+  "Verify calibration of pressure gauges on Line A",
+  "Record tool performance metrics",
+  "Log any changes made",
+  "Shift Handover Assistant title",
+  "Approved by space"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fundamentally misinterprets the time range 2 to 4 as a pressure drop from 2 to 4 psi, which completely distorts the technical reality. It also invents extensive actions, tables, and recommendations that were never stated by the supervisor. While well-structured and scannable, the massive amount of fabrications and misread facts ruins its accuracy."
+}

@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "Machine ran at normal speed",
+  "Maintenance follow-up pending",
+  "Loss of lighting poses safety hazard for personnel and visitors",
+  "Requires immediate attention from maintenance/Facilities",
+  "Schedule maintenance inspection",
+  "Coordinate with Facilities/Electrical team",
+  "Verify that all other lighting and safety systems are operational",
+  "No operational impact"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all real items from the input and formats them well, but it heavily invents details like action steps, maintenance statuses, and specific safety hazards. Severities are reasonable given the context. Readability is strong and structured cleanly."
+}

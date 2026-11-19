@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Routine check, no production impact",
+  "Resolved",
+  "None",
+  "No other equipment issues or safety incidents reported during this update."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts correctly and uses the right machine ID, but it introduces several fabricated status and outcome details not present in the input. Completeness, severity, readability, and uncertainty handling are exceptionally strong. However, accuracy suffers due to the invented outcome and status details."
+}

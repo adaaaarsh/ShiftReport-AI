@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift 1 battery death time (approx. 13:00)",
+  "No safety incidents were reported during the shift",
+  "Monitor belt tension during next shift / schedule a preventive inspection",
+  "Verify temperature sensor calibration during routine maintenance",
+  "Check battery health and charging cycle; consider battery replacement if charge time exceeds normal range",
+  "All equipment, after corrective actions, returned to normal operation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported issues and details accurately in terms of machine IDs, but invents numerous follow-up actions, monitoring tasks, a specific time for the forklift battery failure, and a claim that no safety incidents occurred. It also presents completely unverified operational statuses and follow-ups without highlighting the missing information. Structure and scannability are generally good."
+}

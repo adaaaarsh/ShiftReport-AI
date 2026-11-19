@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production stoppage",
+  "Monitor the operator’s wrist condition to ensure the burn does not worsen or affect their ability to operate safely",
+  "Review the specific task being performed at 8:00 PM to identify if any PPE (Personal Protective Equipment) or safety guard adjustments are needed to prevent recurrence",
+  "All other equipment and production lines reported as normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the welding robot cell and captures the facts from the input, but it fabricates several monitoring and operational details not present in the notes. It explicitly contradicts the input by stating 'No safety incidents reported other than the minor operator injury' despite the supervisor input starting with 'No safety incidents this shift' followed by an injury. The severity is marked LOW which is questionable given an operator burn injury, and it fails to surface the contradiction between 'no safety incidents' and the burn."
+}

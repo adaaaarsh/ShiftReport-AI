@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Parts ordered/awaiting arrival",
+  "Monitor arrival of parts. Once parts arrive, coordinate with maintenance to repair the leak and restart the machine.",
+  "No other equipment issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report accurately links M-03 and captures all key facts and contradictions, earning high marks for completeness and uncertainty handling. However, it fabricates details such as parts being ordered and specific maintenance actions. The severity of CRITICAL is somewhat overstated given the input only notes waiting on parts for a leak, and the shift is incorrectly inferred rather than left unspecified."
+}

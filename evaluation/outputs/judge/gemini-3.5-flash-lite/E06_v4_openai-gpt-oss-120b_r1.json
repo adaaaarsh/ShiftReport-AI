@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "3:00 PM",
+  "potential for escalation but not yet a safety hazard",
+  "scheduled to arrive",
+  "Ongoing — awaiting maintenance response",
+  "Has any temporary containment been applied",
+  "Ensure any oil containment or cleanup is completed and documented",
+  "confirm leak repair, operational status, and whether any shutdown was required"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report fabricated several specific details and actions not present in the input, and incorrectly turned a distractor statement about the lathe into a reported issue. Completeness and uncertainty handling are strong as the single actual issue and its missing parts are properly captured. Overall, the hallucination of times, outcomes, and statuses heavily impacts accuracy."
+}

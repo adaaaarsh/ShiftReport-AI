@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted due to loss of compressed air",
+  "No other incidents reported",
+  "Verify that air pressure remains stable and that Line A air tools are fully operational"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately, but slightly inflates the severity to CRITICAL with an invented justification about halted production. It also invents general notes and verification steps not present in the input. Overall, it is highly readable and mostly accurate, but introduces minor fabrications."
+}

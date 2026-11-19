@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine is currently running fine with no active issues (rephrased, but acceptable context)",
+  "Action Taken: Machine restarted twice (input states we had to restart it twice)",
+  "Status: Resolved",
+  "Temperatures have since returned to normal range (input says temps are normal now)",
+  "Status: Resolved",
+  "Monitor M-07 (Line B) for any recurrence of error codes or instability",
+  "Verify quality of products processed in M-10 (Line C) during the 450°C spike to ensure no defects",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures both issues accurately with correct registry IDs, but invents several recommended monitoring steps, actions, and status resolutions not present in the brief input. It successfully lists all reported items and organizes them into a readable format. However, it fails to highlight the contradictions present in the input regarding whether everything is running fine."
+}

@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operating out of specification during the early part of the shift",
+  "Corrective maintenance was performed",
+  "machine has been adjusted",
+  "inspect the first few parts produced after the repair",
+  "confirm that the machine is holding tolerance",
+  "no defective units were produced during the downtime",
+  "Monitor output closely for the first 30–60 minutes of the next shift",
+  "If any out-of-spec parts are found, halt production immediately and notify maintenance",
+  "No safety incidents reported",
+  "Work area is clean and organized"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing specific timelines, maintenance actions, and safety/housekeeping statuses not present in the input. It fails to flag the ambiguity of which CNC machine was affected. While it captures the core facts, the amount of hallucinated detail is severe."
+}

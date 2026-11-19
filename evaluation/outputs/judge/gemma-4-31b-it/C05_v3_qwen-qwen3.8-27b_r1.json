@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "requires monitoring for safety compliance",
+  "Status: Resolved (Injury treated) / Ongoing (Safety review recommended)",
+  "Review incident report regarding the operator's burn to determine if additional PPE or safety interlocks are required for M-06",
+  "Monitor the operator for any delayed symptoms of the burn",
+  "Production continued uninterrupted following the minor injury"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several actions and pending items (PPE review, monitoring symptoms, production status) not in the input. It fails to flag the contradiction between 'No safety incidents' and the reported burn. Severity is reasonable."
+}

@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "possible spool jam or depleted wire supply",
+  "Root Cause (preliminary): Empty or improperly seated wire spool",
+  "Executed a complete recalibration sequence per OEM guidelines",
+  "Verified operation through a test run before returning to full production",
+  "Production Loss: Approximately 35 minutes of downtime on Line B",
+  "Output Impact: Minimal; no backlog created as the line resumed within 35 minutes",
+  "Spool Inventory Check recommendation",
+  "Preventive Maintenance recommendation",
+  "Training Reminder recommendation",
+  "All systems are operating normally claim"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all factual elements from the supervisor input, so completeness is perfect. However, it adds numerous invented causes, outcomes, and recommendations, resulting in a very low accuracy score. No severity level is provided, leading to a poor severity classification rating, while the structured layout keeps readability high. The report fails to flag unknown or ambiguous information, giving it a low uncertainty handling score."
+}

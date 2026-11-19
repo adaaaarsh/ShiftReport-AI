@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "maintenance has been notified",
+  "oven will be shut down after batch completion",
+  "schedule a check of the oven’s temperature control system",
+  "document the final temperature",
+  "verify temperature returns to setpoint"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and uses the correct machine ID, but it adds several details not present in the supervisor input (maintenance notification, shutdown steps, etc.), resulting in low accuracy. All input items are represented, so completeness is high. Severity is correctly marked CRITICAL, matching the answer key. The layout is clear and well‑structured, giving high readability. While the report flags the interlock restoration, it omits other missing items, so uncertainty handling is moderate."
+}

@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift time 20:00 - 04:00 (Night Shift)",
+  "First aid details such as cool water rinse and sterile dressing applied",
+  "Employee evaluated by on-site first-aid responder",
+  "No lost time reported",
+  "Monitor the wound for signs of infection",
+  "All welding robot cells operated within normal parameters",
+  "No production stoppages or equipment failures reported",
+  "Review of Hot-Work Procedures recommendations",
+  "First-Aid Kit Check recommendations",
+  "Record the minor burn in the incident register for trend analysis"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates extensive details, actions, and recommendations that were not in the supervisor input. While it captures all stated facts and correctly identifies M-06 for the welding robot cell, it completely invents operational parameters, medical treatment details, and follow-up tasks."
+}

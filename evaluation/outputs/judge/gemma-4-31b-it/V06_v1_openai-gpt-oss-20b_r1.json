@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Possible minor grease build-up or residual heat-related fumes",
+  "Noted the location and time of detection",
+  "no immediate safety concern",
+  "Schedule a thorough cleaning of the oven and surrounding area",
+  "Verify ventilation system is functioning correctly",
+  "Robot paused 3-4 times",
+  "resuming without operator intervention",
+  "Potential sensor glitch, power fluctuation, or minor software hiccup",
+  "Logged each pause with timestamp",
+  "no manual override required",
+  "Review robot logs for error codes",
+  "run diagnostic test",
+  "Ensure firmware is up to date",
+  "Confirmed that the ventilation fans were running at normal capacity",
+  "Observed robot behavior",
+  "no safety incidents occurred",
+  "Logged all observations in the shift log",
+  "communicated to maintenance team",
+  "Perform a deep cleaning of the oven area",
+  "inspect for any grease or residue buildup",
+  "Verify that the exhaust system is free of obstructions and operating at optimal airflow",
+  "Run a full diagnostic on the production robot",
+  "check for any error codes or recurring patterns",
+  "Install a temporary odor sensor near the oven",
+  "Remind operators to report any unusual smells or equipment behavior immediately"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is riddled with fabrications, inventing causes, actions taken, and specific recommendations not found in the input. It fails to use the provided registry IDs and presents these inventions as facts rather than unknowns. While it captures the basic issues, the level of hallucination is extreme."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved/stabilized after 4:00",
+  "Monitor Line A closely for any recurrence of pressure loss",
+  "Check for potential leaks or regulator issues on Line A if the problem persists",
+  "No other significant incidents or abnormalities reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to link the compressor to its registry ID (M-12) and treats the pressure loss as a separate Line A issue rather than a potential contradiction with the compressor's 'normal' status. It fabricates several outcomes and recommendations not present in the input. It also fails to flag the contradiction between the steady compressor pressure and the tool pressure loss."
+}

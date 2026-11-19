@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity assigned as HIGH for M-12",
+  "Severity assigned as MEDIUM for M-06",
+  "Claims regarding potential impact on air supply stability, status awaiting inspection, and specific follow-up actions like verifying inventory",
+  "General notes stating no other staffing or safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues and facts accurately regarding the input, but invents severities and status claims that go beyond the supervisor's notes (leading to lower accuracy and severity scores). It has exceptional readability and effectively handles uncertainty by surfacing missing information, though it introduces several fabricated details."
+}

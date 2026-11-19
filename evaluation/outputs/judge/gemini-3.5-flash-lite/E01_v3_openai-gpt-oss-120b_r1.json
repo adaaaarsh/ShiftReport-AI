@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Follow up with maintenance on M-07 (Line B) to resolve grinding/noise issue",
+  "Apply LOTO and arrange repair for oil leak on M-03 (Line A)",
+  "Replace headlight on Forklift #1 (M-15) and review aisle safety procedures after near-miss",
+  "Refill coolant for Line C and verify pump operation",
+  "No staffing changes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all four issues correctly and organizes them cleanly, but it invents several actions, future tasks, and a statement about staffing in the pending items and general notes that were not present in the input. While severities are generally reasonable, M-03 is marked High rather than Critical despite safety implications, and M-15 is marked Low despite a near-miss. It also completely misses surfacing the unknown status questions from the answer key."
+}

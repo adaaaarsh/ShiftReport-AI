@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "causing a temporary stop in the line",
+  "No safety hazard, production impact was brief and resolved",
+  "Status: Resolved",
+  "No pending items reported",
+  "Packaging unit is operating normally after the jam clearance. No further observations"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID (M-08). However, it adds several invented details and interpretations, such as describing line impact, explicitly labeling the status as resolved, and adding general notes/pending items that expand on the supervisor's brief note. Severity is well-defended, and readability is high."
+}

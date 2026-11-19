@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential bearing wear or cavitation that could lead to pump failure",
+  "Monitored continuously",
+  "Schedule a maintenance inspection (bearing, impeller, and motor)",
+  "Verify vibration levels and temperature during the next shift",
+  "risk of repeat overload if underlying cause persists (e.g., tool wear, program error)",
+  "Alarm cleared, spindle reset, and machine returned to production",
+  "Review the last program run for excessive load conditions",
+  "Inspect tooling for wear or damage",
+  "Log the event in the CNC maintenance system and monitor for recurrence",
+  "possible backlog for the next shift",
+  "Adjusted line speed to accommodate staffing level; operators managed workload accordingly",
+  "Arrange for a temporary replacement or cross-train another staff member",
+  "Evaluate if the reduced speed caused any product quality deviations",
+  "Plan to increase speed back to normal once staffing is restored",
+  "Prioritize the coolant pump inspection during the next scheduled maintenance window",
+  "Conduct a quick audit of the CNC program",
+  "Develop a short-notice staffing plan",
+  "Verify that the coolant pump continues to operate without abnormal noise or vibration",
+  "Monitor the CNC mill for any further overload alarms",
+  "Assess the current queue on Line B and adjust speed as needed"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and complete, but it is riddled with fabrications. It invents causes, specific maintenance actions, and monitoring steps not present in the input. It also fails to use the registry IDs (M-01, M-08, M-11) and does not flag any missing information or ambiguity."
+}

@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "risk of total coolant loss and subsequent overheating of Line C machinery",
+  "Time Noticed: Not specified (reported during current shift)",
+  "Status: Ongoing / Pending Repair",
+  "Line C production may need to be halted or switched to emergency cooling protocols to prevent thermal damage",
+  "request a root cause analysis",
+  "Verify if replacement bearings or a new pump unit are available in inventory",
+  "Determine if the issue is with the pump model itself, the installation, or the coolant fluid quality causing premature bearing wear",
+  "suggests a systemic issue (e.g., wrong part number, installation error, or fluid contamination) rather than random wear"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input, correctly maps M-11, and properly highlights the contradiction and missing information. However, it significantly extrapolates and fabricates numerous details, causes, and action items that were not stated in the supervisor's very brief note. Overall, the structure is clean and professional, but it stretches the boundaries of the input text significantly."
+}

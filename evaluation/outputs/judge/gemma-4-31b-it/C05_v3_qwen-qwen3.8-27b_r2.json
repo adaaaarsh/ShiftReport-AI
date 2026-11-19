@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no production stoppage reported",
+  "Monitor M-06 (Line B) area to ensure no further incidents occur",
+  "Verify that the operator is comfortable and not experiencing any delayed symptoms from the burn",
+  "No major safety incidents or machine failures reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the contradiction between 'No safety incidents' and the reported burn. It fabricates several monitoring steps and a claim about production stoppage. Severity is assigned as LOW without explicit evidence in the input, though it is a reasonable guess."
+}

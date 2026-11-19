@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No change in error codes or mechanical behavior",
+  "Logged the issue in the maintenance system",
+  "Notified the engineering team for a deeper diagnostic review",
+  "Await engineering assessment",
+  "Monitor for any escalation in error frequency",
+  "no power/air supply detected",
+  "Checked power feed – confirmed loss of power to the booth",
+  "Verified air supply – pressure drop observed",
+  "Safety interlock engaged; booth remains sealed",
+  "Contact electrical and HVAC teams to restore power and airflow",
+  "Verify booth safety interlocks before restarting",
+  "Re-checked all related pressure gauges and safety interlocks on the press",
+  "Conducted a preliminary inspection of the paint booth’s electrical panel and air supply lines",
+  "Updated the incident log with timestamps and observed symptoms",
+  "Communicated the status to the production line managers to adjust workflow accordingly",
+  "consider a temporary manual override or shift to an alternate press if available",
+  "Prepare a detailed fault report for the engineering team",
+  "Prioritize restoration of power and airflow",
+  "run a safety interlock test before allowing production to resume",
+  "Schedule a preventive maintenance check on the booth’s electrical and HVAC components",
+  "Keep the production line managers informed of any changes in status",
+  "Document any additional observations that may aid troubleshooting"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, causes, and technical details not present in the supervisor's brief notes. It fails to flag the paint booth as unrecognized equipment and does not acknowledge the missing information regarding the press issue. While the structure is readable, the content is almost entirely hallucinated."
+}

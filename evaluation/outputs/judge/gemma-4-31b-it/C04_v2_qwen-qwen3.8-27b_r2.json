@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "indicating a potential systemic issue with the component or installation",
+  "Investigate and replace the failed bearings on M-11",
+  "Review why the bearings failed so quickly after the recent pump replacement",
+  "Check for misalignment, contamination, or incorrect part specification",
+  "Determine if Line C production is currently halted or running at reduced capacity due to the pump failure",
+  "Recommend engineering review of the pump model or bearing specifications"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction in the input (brand new pump vs original bearings). It also fabricates numerous 'Pending Items' and 'General Notes' (root cause analysis, production impact, engineering review) that were not in the supervisor's notes. Severity is reasonable given the failure."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 1,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "parts order placed and awaiting delivery",
+  "Press was taken offline immediately",
+  "No safety incidents reported",
+  "Verify that the press is fully functional after repair before resuming production"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly maps M-03. However, it fabricates several details regarding actions taken (e.g., parts order placed, offline immediately) and explicitly adds a 'no safety incidents reported' claim that was not in the input. Severity is set to CRITICAL which is slightly elevated given the sparse input detail, and the contradiction is properly highlighted."
+}

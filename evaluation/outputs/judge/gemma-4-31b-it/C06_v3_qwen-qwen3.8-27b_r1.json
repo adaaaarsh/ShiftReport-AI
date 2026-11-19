@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "Routine monitoring",
+  "Resolved / Normal",
+  "2:00 PM",
+  "4:00 PM",
+  "Potential impact on pneumatic tool performance and production efficiency",
+  "Ongoing / Under Observation",
+  "Investigate cause of air pressure loss on Line A (check for leaks in piping, regulator issues, or demand spikes)",
+  "Monitor air pressure stability on Line A tools for the first hour of the shift",
+  "issue is likely isolated to Line A distribution or specific tooling",
+  "No safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous details, including specific times (PM), units (PSI), and a list of suggested investigative actions. It fails to flag the contradiction between the compressor running normally and the tools losing pressure, presenting them as separate issues instead."
+}

@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Persistent issue, potential for escalation but not yet critical",
+  "Machine fully down, production stopped for that line",
+  "Follow up on the hydraulic press issue (M-03) and determine root cause or repair status",
+  "Investigate and restore the paint booth on Line D; assess safety and production impact",
+  "Verify any additional equipment or line D resources that may be affected",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues from the input and handles the unrecognized paint booth appropriately without a fake ID. However, it invents multiple severity justifications, pending items, and general notes that are not in the supervisor input. Severities are assigned confidently despite missing evidence."
+}

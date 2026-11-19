@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recurring problem, reduces press efficiency but not a complete shutdown",
+  "monitoring continued during shift",
+  "line D production halted due to lack of paint application",
+  "Notified maintenance; awaiting parts/service",
+  "Diagnose and repair the recurring issue on the Hydraulic Press (M-03)",
+  "Complete repair of the Paint Booth on line D and verify operational status",
+  "Update maintenance log with detailed findings for both issues",
+  "No safety hazards reported during this shift",
+  "Staffing levels were adequate; all operators were present for the duration of the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all input details but fabricates extensive actions, causes, statuses, and general notes that were never provided by the supervisor. Severities are assigned confidently despite missing information, and the unknown paint booth is treated with made-up downtime impacts. Consequently, accuracy and uncertainty handling scores are heavily penalized."
+}

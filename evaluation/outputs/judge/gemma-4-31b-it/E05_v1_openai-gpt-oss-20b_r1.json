@@ -1,0 +1,55 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: 08:00 – 16:00",
+  "Isolated machine from power supply",
+  "Secured leak area with absorbent pads",
+  "Notified Maintenance Team",
+  "Full hydraulic system inspection scheduled for 2026-11-06 10:00 h",
+  "Replace damaged hose/valve as per maintenance plan",
+  "Verify leak source after repair",
+  "Paused robot operation",
+  "Logged error code 0xA3 in the MES",
+  "Notified Robotics Support",
+  "Reteach cycle to be completed by 2026-11-06 14:00 h",
+  "Validate new program with test run",
+  "Update SOP for Robot 2 training",
+  "Line B: Production halted for 2 h (08:00 – 10:00)",
+  "Estimated output loss: 15 units",
+  "Robot 2: Production paused for 1 h (10:00 – 11:00)",
+  "Estimated output loss: 8 units",
+  "Total estimated loss for the shift: 23 units",
+  "All safety protocols followed; no personnel injuries reported",
+  "Leak containment complied with OSHA hydraulic safety guidelines",
+  "Robot shutdown adhered to lock-out/tag-out (LOTO) procedures",
+  "Review hydraulic system wear schedule",
+  "adding pressure sensors to detect early leaks",
+  "Conduct refresher training for operators on robot reteaching procedures",
+  "Update maintenance logs and SOPs with new findings"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is heavily fabricated, inventing numerous actions, times, output losses, and safety claims not present in the input. It fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as known entities. While the structure is highly readable, the content is almost entirely hallucinated."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Issue resolved immediately; no production loss",
+  "Time Noticed: 4:15 PM",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "No other issues reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details and correctly maps the packaging unit to M-08. However, it introduces several minor conversational fabrications such as formatting the time as 'Time Noticed', declaring status as 'Resolved', and noting 'No other issues reported'. The format is highly readable, severities are correct, and all facts from the input are preserved."
+}

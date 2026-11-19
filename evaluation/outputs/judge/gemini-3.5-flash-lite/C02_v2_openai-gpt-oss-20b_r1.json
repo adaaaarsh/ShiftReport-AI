@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard",
+  "machine fully down, production stopped",
+  "Verify leak source and perform necessary repairs to restore operation"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and is well-structured, but it fabricates several details regarding safety hazards and repair actions. It also drastically overstates the severity to CRITICAL with unsupported commentary and completely misses the contradiction between the machine being shut down and running 400 pieces in the afternoon."
+}

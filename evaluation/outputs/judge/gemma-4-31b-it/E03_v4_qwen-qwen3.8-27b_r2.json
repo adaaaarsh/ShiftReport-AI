@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Potential mechanical failure",
+  "Inspect M-01 (Line A) for spindle damage",
+  "Do not operate until cleared by maintenance if noise persists",
+  "Safety/Security concern for employees leaving/entering after dark",
+  "Parking lot lighting outage poses a potential safety risk for off-site personnel"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures all issues and flags missing information. However, it fabricates several 'conclusions' and 'actions' (e.g., potential mechanical failure, safety risks, and specific instructions to not operate M-01) that were not in the input. M-07 was reported as an issue (though 'None reported'), which counts as a distractor turned into an issue."
+}

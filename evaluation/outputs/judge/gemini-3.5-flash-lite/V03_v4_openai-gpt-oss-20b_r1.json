@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — issue remains unresolved",
+  "Confirm whether maintenance has been called and, if not, arrange for service",
+  "Verify forklift safety status before allowing continued use",
+  "No other machine issues or incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures the single ambiguous forklift issue accurately and handles uncertainty exceptionally well by flagging the missing details and options. However, it invents several pending items, a status, and a general note about no other incidents that were not in the sparse supervisor input."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Quality control failure; potential for scrap/rework",
+  "Initiate quarantine and rework procedures",
+  "No other equipment issues, safety incidents, or staffing concerns were reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and uncertainty from the input and is extremely readable, but it assigns a HIGH severity without direct support and invents procedures like initiating quarantine and rework. It correctly flags the ambiguity of the CNC machine reference."
+}

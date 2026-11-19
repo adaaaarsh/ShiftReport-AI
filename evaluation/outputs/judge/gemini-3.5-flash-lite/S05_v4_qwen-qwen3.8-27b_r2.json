@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Night (inferred from 9:12 PM timestamp)",
+  "Status: Ongoing — Operational for now, but pending inspection of the faulty relay",
+  "Coordinate with maintenance for the scheduled inspection of the M-12 overload relay tomorrow morning",
+  "Monitor air pressure stability on M-12 to ensure no further tripping occurs before the inspection",
+  "No other equipment issues or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the core issue and machine ID, but invents a shift letter, a status, and several pending action items not provided by the supervisor. It also fails to surface the missing information regarding potential scrapped or damaged parts, scoring poorly on uncertainty handling while presenting strong readability and completeness."
+}

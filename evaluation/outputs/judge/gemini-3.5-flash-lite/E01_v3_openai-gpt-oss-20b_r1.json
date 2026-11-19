@@ -1,0 +1,61 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production capacity reduced, potential for further wear",
+  "Time Noticed: Not specified (ongoing during shift)",
+  "Oil dripping from the base of the press",
+  "Leak present but machine still operational; risk of escalation",
+  "Requires LOTO and repair",
+  "Incident logged; no immediate repair performed",
+  "Pending - Replace headlight before next shift",
+  "Could affect cooling if not addressed",
+  "Pending - Refill coolant",
+  "Follow up on maintenance visit for M-07 (Line B) – feed rate issue unresolved",
+  "Verify lighting in aisle 3",
+  "Replenish coolant for Line C machines (M-11)",
+  "Verify that all safety incidents are logged and corrective actions are initiated",
+  "No additional staffing or safety incidents reported beyond the near-miss",
+  "Recommend reviewing safety protocols"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all four issues correctly matched to equipment IDs and includes all key facts, but invents considerable details, causes, and recommended actions not present in the input. Severity choices are mostly reasonable, though M-03's medium rating downplays a critical lockout/tagout bypass safety violation. Uncertainty handling is poor as it presents inferred outcomes and missing steps definitively rather than flagging them as unknown."
+}

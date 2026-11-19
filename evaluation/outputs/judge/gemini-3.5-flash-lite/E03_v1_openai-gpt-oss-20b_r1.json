@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 3,
+ "fabricated_details": [
+  "PM on the 1:30 time for Mill on A",
+  "Action items for Mill on A (Verify spindle condition, Log noise incident, Consider scheduling a detailed inspection)",
+  "Action items for Jim's birthday (Thank Jim, Ensure cake is removed)",
+  "Action items for Parking Lot Lights (Report to Facilities Maintenance, Verify replacement or repair schedule)",
+  "Summary details (cake will be removed, lighting issue will be addressed by Facilities)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input details well and has clean formatting, but fabricates multiple action items, timelines, and remediation steps not provided in the input. It also treats social notes and facility items as formal equipment issues. Consequently, accuracy and uncertainty handling are low."
+}

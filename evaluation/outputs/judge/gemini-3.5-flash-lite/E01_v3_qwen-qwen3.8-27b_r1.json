@@ -1,0 +1,56 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Shift: Not specified (Inferred: End of Day/Evening based on 'nights pls chk')",
+  "Production impact details and specific capacity analysis",
+  "Environmental risk regarding oil leak",
+  "Vehicle should be taken out of service until repaired",
+  "Risk of overheating or process failure if not replenished",
+  "URGENT SAFETY: Perform LOTO on M-03 immediately and address oil leak. Do not operate until secured",
+  "Escalate M-07 issue to Maintenance Supervisor",
+  "Replenish coolant for Line C",
+  "Safety Compliance Concern and safety briefing instructions",
+  "Next shift should verify if a ticket was created or if a direct escalation is needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items accurately regarding machine IDs and facts, but introduces numerous fabricated recommendations, action steps, and inferences not present in the brief input notes. Severities are slightly misaligned with the ambiguous notes by asserting strong conclusions like environmental risk and specific operational holds, and it misses explicitly flagging several unknown conditions as recommended by uncertainty handling."
+}

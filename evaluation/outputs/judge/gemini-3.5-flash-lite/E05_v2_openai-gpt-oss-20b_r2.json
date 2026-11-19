@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Date: 2026-11-06",
+  "Time Noticed: Not specified",
+  "Action Taken: Not yet addressed",
+  "Status: Ongoing",
+  "Status: Pending",
+  "Inspect and repair hydraulic leak on M-07",
+  "Reteach M-06 welding robot arm",
+  "No other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates specific registry matches (M-07 and M-06) for unrecognized and ambiguous machine inputs instead of flagging the uncertainty. It also invents numerous statuses, action steps, and handover recommendations not present in the input. While readability is high and the issues are captured, the severe lack of uncertainty handling and multiple fabrications result in a low accuracy score."
+}

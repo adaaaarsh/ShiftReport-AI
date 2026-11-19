@@ -1,0 +1,57 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tool breakage occurred at approximately 17:00",
+  "Tool was replaced immediately",
+  "No further issues reported",
+  "Active. Requires maintenance attention to prevent fluid loss or safety hazards",
+  "Operators are manually monitoring speed to compensate for sensor inconsistency",
+  "Recommend immediate check by facilities/maintenance to rule out mechanical failure",
+  "Schedule repair for the coolant line leak on the Line A lathe",
+  "Investigate and repair the faulty speed sensor on the B conveyor to restore automated monitoring",
+  "Continue to monitor M-07 for any recurring tool issues, though currently stable",
+  "Please prioritize the HVAC inspection as it has not been assessed",
+  "The B conveyor sensor issue is being managed by operators but should be resolved to ensure consistent production quality and safety"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all reported items and structures them well for readability, but it heavily pads the text by inventing a substantial amount of operational details, recommended actions, and specific statuses not present in the input. While machine ID M-02 was accurately mapped to the Line A lathe, the extensive narrative fabrications significantly impact accuracy."
+}

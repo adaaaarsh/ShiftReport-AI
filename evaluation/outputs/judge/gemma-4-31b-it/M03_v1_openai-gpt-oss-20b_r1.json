@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "operator monitored",
+  "Schedule a maintenance check for the pump’s bearings and verify sound levels in the next shift",
+  "Log the event in the CNC maintenance log",
+  "review spindle temperature and vibration data for the next 24 h",
+  "no quality issues reported",
+  "Confirm staffing for the next shift",
+  "evaluate impact on cycle time and product quality",
+  "Inspect pump bearings and replace if necessary",
+  "Verify that the CNC spindle’s vibration levels are within tolerance",
+  "Arrange for a temporary operator or shift adjustment to cover Maria’s absence"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates numerous follow-up actions and monitoring steps not present in the input. It fails to provide any severity classifications and does not flag any missing information or ambiguities. The structure is highly readable, but the content is heavily padded with inventions."
+}

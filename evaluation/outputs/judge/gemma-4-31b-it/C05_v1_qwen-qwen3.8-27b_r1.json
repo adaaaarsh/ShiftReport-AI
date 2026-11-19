@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No further follow-up required at this time",
+  "Welding Robot Cell: Operational",
+  "No equipment downtime reported",
+  "General Production: No other anomalies or interruptions noted during the shift",
+  "Monitor the welding robot cell operator for any signs of discomfort or worsening of the minor burn",
+  "Continue standard safety protocols",
+  "No specific hazards or pending issues identified"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the contradiction between 'No safety incidents' and the reported burn. It fabricates several operational statuses and monitoring instructions not present in the input. It also fails to assign a severity or flag missing information regarding the cause of the burn."
+}

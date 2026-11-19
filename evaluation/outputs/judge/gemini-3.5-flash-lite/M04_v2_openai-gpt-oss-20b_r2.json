@@ -1,0 +1,48 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 2:10 PM (input says locked out at 2:10)",
+  "Status: Ongoing - Awaiting repair and safety inspection for M-03",
+  "Action Taken: Logged the issue; maintenance to investigate for M-12",
+  "Status: Pending - Requires maintenance review for M-12",
+  "Action Taken: Scheduled tip change for next shift for M-06",
+  "Status: Pending - Replacement to be completed for M-06",
+  "Complete repair of M-03 hydraulic press and verify guard interlock functionality",
+  "Inspect and resolve short-cycling on M-12 compressor",
+  "Replace welding tip on M-06 robot arm",
+  "All safety protocols followed; machine remains locked out until cleared"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items completely and maintains correct equipment IDs, but invents several specific actions, statuses, and follow-up tasks not present in the brief input. The time 2:10 is also incorrectly assigned as the time noticed instead of the lockout time. Severities are generally reasonable, but some details are needlessly embellished."
+}

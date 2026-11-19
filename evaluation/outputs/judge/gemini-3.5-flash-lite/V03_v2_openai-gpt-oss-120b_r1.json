@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity rationale stating equipment not fully down and performance is inconsistent",
+  "Action taken stating noted the anomaly and no corrective action taken yet",
+  "Status ongoing",
+  "Pending item to diagnose and resolve abnormal behavior",
+  "Pending item to verify forklift is safe for continued operation before assigning to tasks",
+  "General notes stating no other major incidents reported during the shift and production continued without major interruptions"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report hallucinates a specific forklift ID (M-15) for an ambiguous reference and invents numerous details, actions, and statuses not present in the minimal input. Severities are assigned arbitrarily rather than marked unknown, and ambiguous input is treated as complete. However, readability is high due to clear formatting."
+}

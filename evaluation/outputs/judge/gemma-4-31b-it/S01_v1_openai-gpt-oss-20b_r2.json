@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Disassembled the affected section and removed the obstruction",
+  "Checked all components for wear or damage",
+  "Production resumed without interruption",
+  "No defective parts reported",
+  "Keep a close eye on the unit for the next 2 hours for any recurrence",
+  "Schedule a routine inspection of the jam mechanism tomorrow",
+  "Log the incident in the maintenance log with details of the jam cause and resolution steps",
+  "No impact on overall line throughput",
+  "All safety protocols were followed during the intervention"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly structured and captures all facts, but it fabricates a significant amount of detail regarding the actions taken (disassembly), the outcomes (throughput), and the follow-up recommendations. It also fails to assign a severity or flag any uncertainty, presenting the fabricated details as facts."
+}

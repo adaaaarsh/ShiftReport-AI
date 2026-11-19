@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Safety hazard",
+  "production stopped",
+  "no further action performed",
+  "Pending parts delivery",
+  "Verify leak source and perform necessary repairs to restore operation"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several details regarding safety hazards and specific repair steps not mentioned in the input. It fails to flag the contradiction between the machine being shut down and the 400 pieces run. Severity is assigned as CRITICAL without explicit evidence of a safety hazard in the input."
+}

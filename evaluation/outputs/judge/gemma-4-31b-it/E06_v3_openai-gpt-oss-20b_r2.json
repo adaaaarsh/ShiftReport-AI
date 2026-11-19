@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Oil leak detected near the base of the unit",
+  "potential for escalation",
+  "Maintenance team has been notified and is scheduled to arrive",
+  "Status: Ongoing — Maintenance pending",
+  "Follow up on maintenance arrival for M-03 (Line A) and confirm leak repair",
+  "Verify that the lathe (M-02) remains operational and no related issues arise",
+  "No other machine issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all key facts and correctly identifies the machine. However, it fabricates several specific details (location of leak, 'potential for escalation', 'scheduled to arrive') and presents the information as complete without flagging the ambiguity of the time (3 could be AM or PM) or the status of the machine. The distractors were handled correctly by not being listed as issues."
+}
