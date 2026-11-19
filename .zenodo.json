@@ -1,0 +1,10 @@
+{
+  "title": "ShiftReport AI: evaluation data and code",
+  "description": "Data and code for the paper \"ShiftReport AI: Design and Evaluation of a Generative Language-Model Assistant for Manufacturing Shift Handover\". Includes the ShiftReport AI application, 30 synthetic supervisor notes with answer keys, prompt versions v1 to v4, 750 generated handover reports, automated judge outputs, human rubric scores, and the analysis and figure code that produce every number in the paper.",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Anilal, Adarsh Lal", "affiliation": "The University of Texas at Arlington", "orcid": "0009-0002-9467-3849"}
+  ],
+  "keywords": ["shift handover", "large language models", "manufacturing", "human factors", "prompt engineering"],
+  "license": "MIT"
+}
