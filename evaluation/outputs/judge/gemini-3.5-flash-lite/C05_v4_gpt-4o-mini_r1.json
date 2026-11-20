@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no further action required",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "No pending items reported",
+  "Staffing levels and operations appear normal"
+ ],
+ "accuracy": 2,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates several operational status conclusions not present in the input, such as claiming no further action was required and that operations are normal. It misclassifies a burn injury as Low severity and completely fails to flag the contradiction between claiming 'no safety incidents' and reporting an operator burn."
+}

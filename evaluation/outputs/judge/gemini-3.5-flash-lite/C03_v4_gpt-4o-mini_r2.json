@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "impacting logistics",
+  "Time Noticed: Not specified",
+  "Action Taken: Forklift tagged out of service",
+  "Status: Ongoing",
+  "Has maintenance been notified for repairs?",
+  "Follow up on the status of Forklift #1 repairs",
+  "6 PM"
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core machine issue but introduces several fabricated details like '6 PM', maintenance follow-ups, and assumes the status is ongoing while missing the explicit contradiction regarding using a tagged-out forklift. The format is clean and readable, but accuracy and uncertainty handling suffer from ungrounded assumptions and missed contradictions."
+}

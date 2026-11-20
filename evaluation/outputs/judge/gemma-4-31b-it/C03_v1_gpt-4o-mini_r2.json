@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "managed the operations and equipment, ensuring all tasks were completed efficiently",
+  "ensure that the maintenance team addresses the issues with Forklift 1 before it is returned to service",
+  "Ensure that the shipping team is aware of the current status of Forklift 1 and that they plan accordingly for the next shift",
+  "Follow up on the maintenance status of Forklift 1 to minimize downtime",
+  "Monitor the shipping area for any backlog due to the unavailability of Forklift 1",
+  "ensure that all safety protocols are followed when handling equipment that is out of service"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being tagged out and being used at 6:00. It contains numerous fabricated recommendations and summary statements not found in the input. No severity was assigned to the equipment issue."
+}

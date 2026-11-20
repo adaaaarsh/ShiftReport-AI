@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate attention is required to assess the cause of the downtime and implement necessary repairs",
+  "Investigate the status of the paint booth on Line D and coordinate with maintenance for repairs",
+  "Ensure all team members are aware of the ongoing issues and monitor for any further complications",
+  "Document any changes or updates in the system for future reference"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to use the registry to identify the press (M-03) or flag the paint booth as unrecognized. It fabricates several action items and monitoring steps not present in the input. It presents the ambiguous/incomplete input as complete without flagging missing information."
+}

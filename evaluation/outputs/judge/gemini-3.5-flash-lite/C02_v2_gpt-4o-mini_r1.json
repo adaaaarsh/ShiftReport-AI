@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other issues reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and captures all facts, but assigns a CRITICAL severity without clear justification and misses the contradiction between the leak shutdown and running 400 pieces. It also fabricates a general note claiming no other issues occurred. Readability is strong and structured, but uncertainty handling is weak as it completely glides over the chronological contradiction in the input."
+}

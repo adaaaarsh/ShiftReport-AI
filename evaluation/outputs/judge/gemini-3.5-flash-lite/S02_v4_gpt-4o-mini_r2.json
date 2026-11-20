@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the performance of M-06 (Welding Robot Arm) for any further issues",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all details and correctly maps M-06, but it inflates the severity to HIGH and hallucinates pending monitoring instructions and a safety claim not in the input. Readability and uncertainty handling are strong, featuring a clear layout and explicit clarification check."
+}

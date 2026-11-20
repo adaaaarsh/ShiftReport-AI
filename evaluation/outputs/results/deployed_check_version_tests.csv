@@ -1,0 +1,2 @@
+model,n_scenarios,friedman_chi2,friedman_p,v1->v2 Δ,v2->v3 Δ,v3->v4 Δ,v1->v2 p(Holm),v2->v3 p(Holm),v3->v4 p(Holm)
+gpt-4o-mini,30,24.95,1.6e-05,-0.05,-0.08,0.62,0.9,0.3,0.00028

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "without further issues",
+  "Overall, the shift was conducted safely with no major incidents",
+  "The team remained vigilant, and the prompt response to the minor injury ensured minimal disruption to operations",
+  "Continue to monitor safety practices and ensure all team members are aware of proper procedures to prevent similar incidents in the future",
+  "Consider reviewing safety equipment and training related to the welding robot cell to enhance safety measures",
+  "Ensure the operator is monitored for any delayed symptoms from the burn",
+  "Review the incident during the next safety meeting to reinforce safety protocols"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the single issue accurately regarding the welding robot cell, but it hallucinates numerous recommendations, summaries, and actions (such as monitoring for delayed symptoms or reviewing safety equipment) that were not in the supervisor input. The contradiction between 'no safety incidents' and the burn injury is not flagged and instead glossed over. Completeness is good, but accuracy and uncertainty handling suffer heavily from fabricated content."
+}

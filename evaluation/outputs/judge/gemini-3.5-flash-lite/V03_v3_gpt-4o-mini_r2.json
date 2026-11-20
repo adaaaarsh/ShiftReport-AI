@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Designation of M-15 (Forklift #1) instead of reflecting the ambiguity between M-15 and M-16",
+  "Action Taken: Issues addressed but not fully resolved",
+  "Further investigation required for M-15 — monitor for recurring issues",
+  "Most previous issues have been resolved; no major incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 2,
+ "rationale": "The report arbitrarily guesses a specific forklift (M-15) and invents several details and statuses not present in the sparse supervisor input, lowering accuracy and uncertainty handling. However, the overall readability is quite good and the core remaining issue is captured."
+}

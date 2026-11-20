@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM suffixes for times",
+  "Production impacted due to stoppages",
+  "Status Resolved for M-05",
+  "No further action needed for M-10",
+  "Status Resolved for M-10",
+  "Status Ongoing - Awaiting battery recharge for M-15",
+  "Monitor the performance of the Conveyor Belt System for any further issues",
+  "Check the status of Forklift #1 after charging to ensure operational readiness",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures all equipment and key facts from the input, but includes several fabricated assumptions regarding statuses, impacts, and recommendations for the next shift. Severities are reasonable, and readability is very high, but it silently fills in missing uncertainty gaps rather than highlighting them."
+}

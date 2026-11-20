@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production halted"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is complete and highly readable. However, it fabricates the detail that 'production halted', which is not explicitly stated in the input. The severity 'CRITICAL' is slightly over-assigned given the issue was resolved within 8 minutes, though it is a high-impact event."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "No pending items reported."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and uses the correct machine ID, but it assigns a LOW severity to a burn injury and completely misses the contradiction between 'no safety incidents' and the actual burn incident. It also fabricates a 'Resolved' status and includes a section stating 'No pending items reported' alongside the conflicting statement 'No safety incidents occurred during this shift'."
+}

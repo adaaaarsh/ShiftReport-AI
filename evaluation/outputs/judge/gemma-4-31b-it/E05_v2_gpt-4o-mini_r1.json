@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Pending",
+  "Status: Ongoing",
+  "No additional observations or staffing notes provided"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly mapped 'Machine 17' to M-05 and 'Robot 2' to M-06 without flagging the ambiguity or the fact that Machine 17 does not exist in the registry. It also fabricated statuses ('Pending', 'Ongoing') and a general note. Uncertainty handling is poor as it presents guesses as facts."
+}

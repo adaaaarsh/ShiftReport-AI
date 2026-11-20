@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°F unit attached to the temperature 450",
+  "Action Taken: Monitored and confirmed temperatures are now normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and carries them forward well, but invents a temperature unit (°F) and action details not present in the input. It fails to flag the contradictions present in the supervisor notes, rating average across accuracy, severity, and uncertainty."
+}

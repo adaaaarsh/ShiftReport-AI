@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential risk of overheating and affecting product quality",
+  "Monitor the temperature of M-10 (Industrial Oven) and ensure interlock is reset",
+  "Verify product quality after batch completion",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies machine M-10 and captures all factual details from the input, but it includes several fabricated details such as monitoring steps and the statement that there were no safety incidents. Severity is well-reasoned and readability is high. Uncertainty handling is moderate because it flags one missing item but misses others."
+}

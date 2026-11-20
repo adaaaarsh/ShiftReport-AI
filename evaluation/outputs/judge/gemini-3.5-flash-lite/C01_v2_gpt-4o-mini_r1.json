@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°F unit added to temperature 450",
+  "Status resolved for M-07 and M-10",
+  "Action Taken: Monitored and confirmed temperatures are now normal for M-10"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all reported issues and details accurately regarding the equipment, but it invents units (Fahrenheit) and definitive statuses like 'resolved' that were not provided. It handles completeness very well but fails to flag contradictions or uncertainties in the text, such as the conflicting claims of 'running fine' and 'error codes'."
+}

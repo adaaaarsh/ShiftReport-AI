@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on quality assurance process",
+  "Schedule maintenance for M-09 (Quality Inspection Scanner) on Line C",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily guesses a specific machine (M-09) from three ambiguous possibilities on Line C and assigns a high severity without justification, failing completely on uncertainty handling. It also fabricates specific maintenance scheduling tasks and impact descriptions that were not in the sparse input. Although structured well for readability, the severe hallucinations and forced guessing result in low accuracy."
+}

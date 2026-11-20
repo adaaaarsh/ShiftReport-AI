@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 2:10 PM",
+  "Status: Resolved — Machine locked out, awaiting maintenance response",
+  "Status: Ongoing",
+  "Status: Pending",
+  "Ensure all safety protocols are reviewed following the incident"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all issues accurately with correct machine IDs and severities, but includes several invented details such as PM for the timestamp and various status fields. Completeness and uncertainty handling are strong, carrying all facts forward and appropriately using placeholders. Readability is excellent with a clear, professional structure."
+}

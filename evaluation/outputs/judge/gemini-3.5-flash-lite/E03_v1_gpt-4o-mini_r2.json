@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM",
+  "Recommend monitoring closely and scheduling maintenance if the issue persists",
+  "Operations running smoothly with no reported issues",
+  "Please report this to maintenance for prompt attention",
+  "Enjoy the birthday celebration in the break room",
+  "Follow up on the parking lot lights issue with maintenance"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported facts from the input and formats them clearly, but it invents several actions, recommendations, and status updates not present in the supervisor notes (such as advising maintenance follow-up for the parking lot lights and marking Mill B explicitly). It correctly maps Mill A to M-01 and flags the issue, though it adds 'PM' to the time. Overall, it is usable and well-structured, but padded with fabricated procedural steps."
+}

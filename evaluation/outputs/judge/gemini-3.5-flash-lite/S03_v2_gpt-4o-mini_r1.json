@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor fuel levels for the backup generator."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the backup generator details from the input and uses the right ID, but it invents an action item to monitor fuel levels and marks the status as resolved. It is well-structured and easy to read, handling the low severity accurately."
+}

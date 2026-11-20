@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend monitoring closely and scheduling maintenance if the issue persists",
+  "Please report this to maintenance for prompt attention",
+  "Monitor Mill A for any further spindle noise and consider scheduling maintenance",
+  "Follow up on the parking lot lights issue with maintenance"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all input items but fabricates several recommendations and action items (scheduling maintenance, reporting lights) not present in the notes. It fails to assign a registry ID to Mill A, instead using the name, and provides no severity classification. It presents the information as complete without flagging any uncertainty."
+}

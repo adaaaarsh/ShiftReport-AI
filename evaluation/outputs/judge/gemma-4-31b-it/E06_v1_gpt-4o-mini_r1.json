@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Please ensure to monitor the hydraulic press area for any further developments until maintenance arrives",
+  "Ensure that all safety protocols are followed in the vicinity of the hydraulic press due to the oil leak"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates specific monitoring and safety instructions not present in the input. It fails to assign a severity or mark it as unknown, and it reports the distractor (the lathe) as a key update. It also assumes '3' means '3 PM'."
+}

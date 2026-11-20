@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Clarifications Needed: Has the compressor unit been cleared for normal operation until maintenance inspection?",
+  "No other issues or incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maintains high readability and uncertainty handling. However, it overstates the severity to CRITICAL for an event that was quickly resolved, and includes fabricated status claims and statements about other shift incidents not present in the notes."
+}

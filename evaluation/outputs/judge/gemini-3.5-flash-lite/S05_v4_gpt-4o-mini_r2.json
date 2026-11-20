@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Has the compressor unit been cleared for operation until maintenance inspection?",
+  "No additional issues or incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and uses the correct machine ID, but it introduces several fabricated details including an invented status and unstated claims. The severity is marked as CRITICAL, which is slightly inflated compared to the input's description of a temporary trip and quick recovery. Readability and uncertainty handling are strong, clearly laying out the event and flagging follow-up needs."
+}

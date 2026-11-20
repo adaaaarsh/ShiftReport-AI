@@ -1,0 +1,50 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine operating at reduced capacity, production impacted",
+  "Leak is persistent, potential escalation risk",
+  "Safety concern due to visibility issues",
+  "Could affect machine cooling if not addressed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all reported items accurately with correct machine IDs, but invents several explanatory impacts and rationales not found in the input. Severity is mostly reasonable though M-03 is arguably too low given skipped LOTO. Readability is strong and structured well, and uncertainty is handled decently through explicit follow-up flags."
+}

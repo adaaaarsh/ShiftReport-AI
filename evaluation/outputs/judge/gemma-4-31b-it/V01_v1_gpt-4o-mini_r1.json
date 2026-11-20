@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend monitoring the machine closely and conducting a thorough inspection to identify the source of the noise",
+  "Suggest that the incoming shift investigate the leak further to determine its origin and necessary repairs",
+  "Please prioritize the inspection of the big machine and the leak during the next shift to ensure operational efficiency and safety"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues but fabricates several 'Action Required' and 'Additional Notes' recommendations not present in the input. It correctly avoids assigning specific machine IDs to ambiguous references, but fails to explicitly flag the missing critical information (which machine) as a gap, simply repeating the ambiguous phrasing."
+}

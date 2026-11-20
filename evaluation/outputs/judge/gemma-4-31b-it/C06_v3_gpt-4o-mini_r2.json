@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-05 — Conveyor Belt System (Line A)",
+  "Impacting tool performance and production efficiency",
+  "2:00 PM",
+  "4:00 PM",
+  "Resolved",
+  "Ongoing — Needs further investigation"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly attributes the air tool pressure loss to M-05 (Conveyor Belt System) instead of the compressor system (M-12), and fabricates specific times (PM) and impacts. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Severities are guessed without evidence."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Order tooling insert for M-02 (CNC Lathe) to resolve chattering issue",
+  "Monitor performance of M-04 (Injection Molder) for further cycle time increases",
+  "Address HVAC issue in the east bay to improve working conditions"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly readable and captures all facts. However, it fabricates several 'Pending Items' (ordering the insert, monitoring M-04, addressing HVAC) that were not requested or stated in the input. It also fails to flag any missing information or ambiguities, presenting the status as complete."
+}

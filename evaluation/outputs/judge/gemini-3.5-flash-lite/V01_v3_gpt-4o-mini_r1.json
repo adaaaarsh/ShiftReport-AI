@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on production",
+  "Leak could escalate if not addressed",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report provides a well-structured summary capturing all reported items, but it confidently guesses specific machine IDs for ambiguous inputs and assigns specific severity ratings with fabricated justifications instead of marking them unknown."
+}

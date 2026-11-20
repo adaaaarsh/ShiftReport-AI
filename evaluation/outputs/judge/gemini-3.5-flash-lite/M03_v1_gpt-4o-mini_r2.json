@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM added to 3:20",
+  "Recommendations for monitoring and scheduling temporary replacements not stated in input"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures all details from the input while correctly linking all machines. It includes minor fabrications in the form of recommendations and an added 'AM' suffix to the timestamp. It leaves severities as unknown since none were provided, which is appropriate, though it adds unprompted recommendations."
+}

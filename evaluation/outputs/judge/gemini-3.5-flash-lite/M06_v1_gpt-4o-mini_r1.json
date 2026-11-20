@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM appended to 5",
+  "Recommend monitoring the situation and scheduling repairs as necessary for lathe",
+  "It is advisable to inspect the unit to determine the cause of the noise for HVAC",
+  "Further investigation is needed to resolve the flickering sensor for B conveyor",
+  "Additional notes regarding preventing operational disruptions, prioritizing HVAC noise, and maintaining workflow efficiency"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues from the input accurately and uses the correct equipment IDs. However, it invents several actions, recommendations, and PM times not present in the input. Severities are reasonable, and readability is very high, but it adds prescriptive advice rather than cleanly reflecting the uncertainty of unchecked items."
+}

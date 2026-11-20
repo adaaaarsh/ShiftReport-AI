@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Grinding operation resumed",
+  "Requesting night shift to replenish as necessary",
+  "Monitor M7 B grinding operations closely",
+  "Address the HP dripping issue on A line at the earliest opportunity",
+  "Investigate and replace the headlight on FL1 to prevent further near misses",
+  "Ensure coolant levels in section C are checked and replenished",
+  "Please prioritize safety and ensure all near misses are documented and addressed",
+  "Maintain communication with maintenance regarding the pinged issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to use the registry IDs (M-03, M-15, M-11), instead using shorthand from the notes. It provides no severity classifications and fabricates numerous action items and safety reminders not present in the input. It also fails to flag any missing information or ambiguities."
+}

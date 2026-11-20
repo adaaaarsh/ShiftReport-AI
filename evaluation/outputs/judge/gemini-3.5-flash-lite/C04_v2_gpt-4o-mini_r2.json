@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Investigate recurring bearing failures on the coolant circulation pump."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine and captures all facts from the input, but it adds fabricated operational status and a pending investigation action not stated by the supervisor. Severities and readability are solid, but it fails to surface the inherent contradiction between a brand new pump and original bearings failing."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitored situation; production continued without interruption.",
+  "Status: Resolved",
+  "Monitor the Compressor Unit for any further irregularities."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the events from the input, but guesses a specific utility machine ID (M-12) rather than marking it ambiguous. It also invents actions taken, status, and pending items that were not in the supervisor input. Severities and uncertainties are handled poorly by assigning a medium severity and declaring the issue resolved with fabricated monitoring steps."
+}

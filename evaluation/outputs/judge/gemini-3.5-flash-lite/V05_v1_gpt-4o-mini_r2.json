@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the CNC machine closely for any further discrepancies.",
+  "Please ensure to document any findings related to the parts and report back if any further issues arise."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input, but fails to flag the ambiguity of the CNC machine reference (having several CNC machines in the registry) and hallucinates action items instructing the incoming shift to monitor the machine closely and document findings. Severity is appropriately left unknown, and the structure is clean and readable. However, the uncertainty handling is poor because it presents an ambiguous machine reference as a specific singular item."
+}

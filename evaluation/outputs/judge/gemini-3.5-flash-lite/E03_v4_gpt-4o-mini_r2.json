@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "~1:30 PM",
+  "🟢 LOW — No production impact",
+  "🟡 MEDIUM — Potential risk if noise escalates",
+  "Consider scheduling maintenance"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the main issue with M-01 and properly flags uncertainty and missing items. However, it invents a time of day (~1:30 PM instead of just 1:30) and treats the parking lot lights distractor as an equipment issue. Overall, it is well-structured and handles the ambiguous inputs appropriately."
+}

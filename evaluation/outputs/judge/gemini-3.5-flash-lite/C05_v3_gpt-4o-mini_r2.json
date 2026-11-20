@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "no further action required",
+  "No pending items reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the welding robot cell as M-06 and captures the basic facts, but rates the severity as LOW and claims the issue is resolved with no further action required. It completely misses the contradiction between the opening statement of 'no safety incidents' and the subsequent burn injury, while fabricating closure status and a general notes statement contradicting the incident."
+}

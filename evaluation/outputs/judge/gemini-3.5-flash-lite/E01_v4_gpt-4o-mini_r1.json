@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impacted",
+  "Leak is persistent, potential escalation risk",
+  "Safety concern due to visibility issues",
+  "Could affect machine cooling if not addressed",
+  "Follow up on maintenance visit for M-07 (Line B) — grinding noise unresolved",
+  "Monitor dripping issue on M-03 (Line A) — check for worsening",
+  "Repair headlight on M-15 (Forklift #1) — safety concern in aisle 3",
+  "Replenish coolant for Line C machines"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies all four machines and captures their core facts, but it hallucinates several explanations and consequences (e.g., impact on production, safety concern rationales). The severity assigned to M-03 (Hydraulic Press leaking without LOTO due to quota) is classified as MEDIUM rather than the critical severity it warrants. Readability is excellent with a clean structure, and uncertainty is handled decently through the clarification prompts."
+}

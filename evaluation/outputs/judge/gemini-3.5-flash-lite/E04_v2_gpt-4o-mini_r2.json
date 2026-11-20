@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Address the interlock bypass on the Industrial Oven and restore to normal operation.",
+  "Monitor the temperature closely to ensure it remains within acceptable limits.",
+  "Ensure to review the interlock system functionality before the next batch is processed."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts accurately and maps M-10 correctly, though it introduces a few minor fabricated status and pending action details. Severity is set to High rather than Critical, which is defensible. It flags some pending follow-up items but does not fully surface all missing uncertainties such as batch quality checks."
+}

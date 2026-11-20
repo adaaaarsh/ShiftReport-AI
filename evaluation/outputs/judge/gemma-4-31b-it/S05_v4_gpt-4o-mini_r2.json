@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production halted",
+  "Status: Resolved",
+  "Has the compressor unit been cleared for operation until maintenance inspection?",
+  "No additional issues or incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several details, including the claim that production halted and a general note about no other incidents. Severity is marked as CRITICAL, which is a guess as the input doesn't explicitly state the impact on overall production. It fails to flag the missing information regarding scrapped parts, instead inventing a different clarification question."
+}

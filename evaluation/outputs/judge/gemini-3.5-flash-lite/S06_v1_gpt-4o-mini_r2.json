@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the scanner on Line C for any further irregularities.",
+  "Ensure that all operators are aware of the recalibration procedure for future reference.",
+  "No other significant issues were reported during the shift.",
+  "All other equipment and processes are functioning within normal parameters."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report accurately captures the single issue involving M-09 and gives it a reasonable severity. However, it invents multiple action items, monitoring steps, and claims about other equipment not mentioned in the supervisor notes. It also fails to surface the missing cause of calibration drift, keeping uncertainty handling low."
+}

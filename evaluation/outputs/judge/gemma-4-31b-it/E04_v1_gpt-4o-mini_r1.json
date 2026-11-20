@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Oven C closely to ensure it maintains the desired temperature",
+  "Confirm with Mike or relevant personnel regarding any further actions needed for Oven C"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to assign a severity or flag the ambiguity of 'Oven C' (though it's clearly M-10). It fabricates monitoring and confirmation steps not present in the input. It fails to surface the missing critical information (authorization/quality) as uncertainty, instead presenting the situation as a managed process."
+}

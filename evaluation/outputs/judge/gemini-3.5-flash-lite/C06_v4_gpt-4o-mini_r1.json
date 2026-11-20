@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Time Noticed: Throughout the shift",
+  "Action Taken: None required",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "Time Noticed: 2:00 PM to 4:00 PM",
+  "Status: Pending",
+  "Compressor performance was stable throughout the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report captures all input facts and structures them clearly with good readability. However, it splits the single issue into two separate items by treating the air tools as unrecognized equipment while tying the compressor issue to low severity. Several minor details such as times and status fields are invented."
+}

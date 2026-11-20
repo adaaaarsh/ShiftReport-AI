@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The shift has been productive with all machines operating effectively after addressing the initial issues.",
+  "Monitor Machine 7 closely for any further error codes.",
+  "Ensure that the oven temperature remains within specified limits throughout the next shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to assign any severity levels. It completely ignores the contradictions in the input and fabricates a summary and recommendations. It also fails to flag missing information like the error code value or the cause of the oven spike."
+}

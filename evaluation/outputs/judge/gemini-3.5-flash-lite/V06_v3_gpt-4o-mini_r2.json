@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no immediate production impact",
+  "Pending — No further action taken",
+  "Potential impact on production efficiency",
+  "Ongoing — Monitoring required",
+  "Investigate the source of the smell near M-10",
+  "Monitor and troubleshoot the intermittent pauses of M-06",
+  "No critical issues reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all points from the input and correctly identifies the machine IDs. However, it fabricates statuses, impact assessments, and pending action items that were not stated by the supervisor. Severities and statuses are somewhat assumed despite the sparse input, and uncertainty handling is moderate."
+}

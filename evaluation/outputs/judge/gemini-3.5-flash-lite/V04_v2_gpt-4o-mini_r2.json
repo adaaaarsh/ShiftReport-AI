@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Around lunch",
+  "Action Taken: Monitored situation; production continued without interruption",
+  "Status: Resolved",
+  "Monitor HVAC system for any further irregularities",
+  "Overall production was not impacted despite the utility issues"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report arbitrarily guesses M-14 (HVAC) as the specific equipment involved in the utility flicker and fabricates several operational details such as action taken, status, and follow-up monitoring. It fails to handle the ambiguity in the input or surface the unknowns. However, the readability is high and the formatting is clean."
+}

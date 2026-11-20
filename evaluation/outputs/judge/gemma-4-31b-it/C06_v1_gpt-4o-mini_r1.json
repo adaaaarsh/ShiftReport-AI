@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "2 PM to 4 PM",
+  "Recommendation: Further investigation is needed to identify the cause of the pressure loss and to ensure consistent operation of air tools",
+  "Please monitor the air tools on Line A closely during the next shift and report any further issues",
+  "Ensure that maintenance is notified regarding the pressure fluctuations for necessary checks",
+  "Please ensure to follow up on the noted issues and maintain communication with the maintenance team for any required actions"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to map the compressor to its registry ID (M-12) and treats the air tools as a separate entity rather than a related issue. It fabricates several recommendations and monitoring steps not present in the input. It also fails to flag the contradiction between the compressor running normally and the tools losing pressure."
+}

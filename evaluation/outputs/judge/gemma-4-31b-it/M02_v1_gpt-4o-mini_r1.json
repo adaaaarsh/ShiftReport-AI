@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "high temperature",
+  "Monitor Conveyor B closely for any further issues with the belt slippage",
+  "Keep an eye on Oven C to ensure it maintains the correct temperature and does not trigger another alarm",
+  "Check the status of Forklift 1 after the shift to ensure it is fully charged and operational before use"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs (M-05, M-10, M-15). It fabricates the specific type of alarm ('high temperature') and adds several recommendations not found in the input. Severities are completely missing, and no uncertainty regarding missing information is flagged."
+}

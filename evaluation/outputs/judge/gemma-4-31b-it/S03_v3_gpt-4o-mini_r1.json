@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No other issues or incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maps the machine ID correctly. However, it includes a fabrication by claiming no other issues occurred, which was not stated in the input. All other elements are well-structured and defensible."
+}

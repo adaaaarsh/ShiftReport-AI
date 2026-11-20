@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please monitor the welding robot on Line B for any further issues, as it has just been recalibrated.",
+  "Ensure that all maintenance logs are updated accordingly."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID for the welding robot. However, it includes invented advice for the incoming shift and a maintenance log instruction that were not stated in the supervisor input. The severity is reasonable, and the structure is clean and readable."
+}

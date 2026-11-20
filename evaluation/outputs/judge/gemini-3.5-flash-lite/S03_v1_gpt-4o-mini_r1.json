@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure to monitor the fuel levels regularly and schedule refueling if necessary.",
+  "Continue to maintain the generator as per the maintenance schedule."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all factual details accurately and assigns a reasonable low severity, but it includes two fabricated recommendations regarding monitoring and maintenance that were not in the input. Completeness and uncertainty handling are strong, though readability includes template placeholders."
+}

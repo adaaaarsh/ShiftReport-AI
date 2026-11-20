@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guessed a specific machine (M-07) for the 'big machine on B' instead of flagging it as ambiguous, which is an accuracy error. It also fabricated a claim about safety incidents. However, it correctly identified the leak as unrecognized and handled severities appropriately."
+}

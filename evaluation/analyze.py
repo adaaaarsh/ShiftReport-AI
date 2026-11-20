@@ -20,6 +20,8 @@ JD = {d: d.lower() for d in DIMS}
 VERSIONS = ["v1", "v2", "v3", "v4"]
 PRIMARY = slug(next(j["id"] for j in CONFIG["judges"] if j.get("primary")))
 FAMILY = {slug(g["id"]): g["family"] for g in CONFIG["generators"]} | {"rules": "rules"}
+# ShiftReport AI's own default model is a separate check: kept out of every main result, reported on its own (section 10).
+CHECK = {slug(g["id"]) for g in CONFIG["generators"] if g.get("role") == "deployed_check"}
 rng = np.random.default_rng(2026)
 
 
@@ -50,12 +52,15 @@ def unsupported_reassurance(report, note):
     return bool(REASSURE.search(report)) and not INPUT_MENTIONS.search(note)
 
 
-def load_judge(judge):
+def load_judge(judge, check=False):
+    """check=False: main study (three open-weight models + baseline); check=True: only the deployed-model check."""
     scen = {s["id"]: s for s in json.loads((ROOT / "scenarios.json").read_text())["scenarios"]}
     registry = {e["id"] for e in json.loads((ROOT / "equipment.json").read_text())}
     rows = []
     for p in sorted((OUT / "judge" / judge).glob("*.json")):
         sid, ver, model, run = p.stem.split("_")
+        if (model in CHECK) != check:
+            continue
         j = json.loads(p.read_text()); key = scen[sid]["key"]; kmap = {i["ref"]: i for i in key["issues"]}
         report = (OUT / "reports" / f"{p.stem}.md").read_text()
         ids = set(re.findall(r"\bM-\d{2}\b", report))
@@ -290,6 +295,23 @@ def main():
                "## 9. Human vs LLM judges\n", hj.to_markdown(index=False), "\n",
                "## 9b. Fabrication flag: human vs each judge (any fabricated detail)\n", fj.to_markdown(index=False) if len(fj) else "No judge results yet.", "\n",
                "## 9c. Judge-listed unsupported details in reports the human did / did not flag\n", hc.to_markdown(index=False) if len(hc) else "No judge results yet.", "\n"]
+
+    if not args.human_only and CHECK:
+        md += ["## 10. Deployed-model check: ShiftReport AI's default model (not part of the main results)\n"]
+        for name in sorted(p.name for p in (OUT / "judge").glob("*") if p.is_dir()):
+            cj = load_judge(name, check=True)
+            if cj.empty:
+                continue
+            tag = name.replace(".", "-")
+            ob = objective(cj, ["version"]); ob.to_csv(res / f"deployed_check_objective_{tag}.csv")
+            md += [f"### Judge {name}: {len(cj)} reports\n", ob.to_markdown(), "\n"]
+            if name == PRIMARY:
+                cr = boot_rates(cj); cr.to_csv(res / "deployed_check_rates_ci.csv")
+                cv = version_tests(cj); cv.to_csv(res / "deployed_check_version_tests.csv", index=False)
+                cf = version_tests(cj, value="fabricated_n"); cf.to_csv(res / "deployed_check_version_tests_fabricated.csv", index=False)
+                md += ["Rates with 95% bootstrap CIs (scenarios resampled)\n", cr.to_markdown(), "\n",
+                       "Overall score by version (Friedman; adjacent Wilcoxon, Holm)\n", cv.to_markdown(index=False), "\n",
+                       "Judge-listed unsupported details by version (Friedman; Holm)\n", cf.to_markdown(index=False), "\n"]
 
     (res / "summary.md").write_text("\n".join(md))
     print((res / "summary.md").read_text())

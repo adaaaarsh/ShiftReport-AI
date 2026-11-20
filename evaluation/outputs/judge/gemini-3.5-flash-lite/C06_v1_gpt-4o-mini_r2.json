@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PSI",
+  "2:00 PM to 4:00 PM",
+  "Investigate the cause of pressure loss in air tools on Line A to ensure consistent performance",
+  "Monitor compressor performance to confirm continued stability",
+  "No other equipment issues reported during the shift",
+  "Ensure all team members are aware of the air tool pressure issue for troubleshooting"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but heavily fabricates specific times (2:00 PM to 4:00 PM), units (PSI), and numerous recommendations and notes not present in the supervisor input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Readability is strong, but accuracy and uncertainty handling are poor due to the extensive invented details."
+}

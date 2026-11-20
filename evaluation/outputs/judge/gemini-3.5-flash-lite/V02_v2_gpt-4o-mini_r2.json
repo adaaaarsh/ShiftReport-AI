@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigned the ambiguous line C reference specifically to M-10 Industrial Oven",
+  "Assigned a HIGH severity level",
+  "No additional observations or staffing notes provided"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely guesses a specific machine ID (M-10) for an ambiguous input that could refer to any Line C machine, and assigns a high severity without evidence. While it captures the facts and is well-formatted, its handling of uncertainty and accuracy is severely compromised by inventing specific details."
+}

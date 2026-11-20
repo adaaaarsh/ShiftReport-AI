@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Thorough inspection",
+  "Monitor the compressor unit closely for any further issues",
+  "Ensure that maintenance completes their inspection and report back on the status of the overload relay",
+  "Confirm that all air tools on Line A are functioning properly before the start of the next operational period",
+  "Please ensure that all team members are aware of the incident and the measures taken to prevent recurrence",
+  "Document any further developments regarding the compressor unit in the maintenance log"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and correctly identifies the compressor unit (M-12), but it invents several action items and follow-up directives not present in the original notes. Severities and facts are well handled, though it pads the report with unsolicited procedural advice and monitoring steps, resulting in fabricated details."
+}

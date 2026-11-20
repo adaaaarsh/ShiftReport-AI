@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Ongoing oil leak issue",
+  "Leak is persistent, potential escalation risk",
+  "Production halted due to equipment failure"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates specific details about the nature of the press issue (oil leak) and the impact of the paint booth failure (production halted), which were not in the input. It assigns specific severities (Medium, Critical) without evidence from the input. It fails to flag that the paint booth is not in the registry or that the press issue details are missing from the current input."
+}

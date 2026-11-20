@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Throughout the shift",
+  "Action Taken: None required",
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "Severity: HIGH — Significant impact on tool performance",
+  "Time Noticed: Between 2:00 PM and 4:00 PM",
+  "Status: Ongoing",
+  "Clarifications Needed: ⚠️ What actions were taken to address the pressure loss? Has maintenance been notified?"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all events but splits the compressor and air tools into two separate issues, failing to flag the contradiction between the compressor's steady pressure and the tools' pressure loss. It fabricates several status and action details (e.g., 'Resolved', 'Ongoing', 'Significant impact') not present in the input. Severity for the air tools is guessed as HIGH without evidence."
+}

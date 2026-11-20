@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The welding robot on Line B is fully operational and producing as expected",
+  "Monitor the performance of the welding robot throughout the shift to ensure no further issues arise",
+  "Keep an eye on wire feed levels and stock to prevent future disruptions",
+  "Ensure that all maintenance logs are updated accordingly",
+  "Report any anomalies or further issues immediately"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the welding robot on Line B and captures all factual details from the input accurately. However, it invents several operational recommendations and current status assertions not mentioned in the supervisor notes, leading to a score of 3 for accuracy. Completeness, severity, readability, and uncertainty handling are all addressed well with appropriate severities and structure."
+}

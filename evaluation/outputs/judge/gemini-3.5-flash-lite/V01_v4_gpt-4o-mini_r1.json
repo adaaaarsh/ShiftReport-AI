@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures both input issues and flags them as ambiguous equipment with unknown severity. It includes one minor fabrication by claiming 'No staffing or safety incidents reported,' which was not stated in the input. Overall, completeness, severity, readability, and uncertainty handling are exceptionally well-executed."
+}

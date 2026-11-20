@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Status: Pending",
+  "Further inspection required for both issues to ensure production continuity"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed specific machine IDs (M-06 and M-03) for ambiguous references ('big machine on B' and 'leak near A') without flagging the uncertainty. It also fabricated statuses and a general note about production continuity. Severities were assigned as Medium without supporting evidence in the input."
+}

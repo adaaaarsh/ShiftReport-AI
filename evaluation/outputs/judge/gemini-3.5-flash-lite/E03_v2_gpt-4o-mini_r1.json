@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "Status Ongoing for M-01",
+  "Severity LOW for M-05",
+  "Status Resolved for M-05",
+  "Status Pending for Parking Lot Lights",
+  "Severity LOW for Parking Lot Lights",
+  "Action None required for M-05",
+  "Time Noticed Not specified for M-05 and Parking Lot Lights"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report accurately captures the main issue with M-01 and handles the non-registry items, but it incorrectly elevates a distractor (M-05) into an active issue entry and invents timestamps like PM as well as statuses. Completeness is strong as all points are carried forward. The report is well-structured and easy to read."
+}

@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impacted",
+  "Leak is persistent, potential escalation risk",
+  "Safety concern, potential risk for accidents",
+  "Could affect machine cooling if not addressed",
+  "Check for worsening",
+  "Repair headlight on M-15",
+  "Replenish coolant for Line C machines"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported issues and machine IDs accurately, but invents several explanations, impacts, and follow-up actions not present in the input. Severities are assigned arbitrarily rather than reflecting the high-risk nature of skipping LOTO on a leaking press. Readability and structure are excellent, but uncertainty handling is poor as it fills in gaps and glosses over contradictions like the skipped LOTO without flagging the safety non-compliance."
+}

@@ -1,0 +1,31 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM to time 2 to 4",
+  "Action Taken: None required for compressor",
+  "Status: Resolved for compressor",
+  "Clarifications Needed: None",
+  "Severity: HIGH for air tools",
+  "Status: Ongoing for air tools",
+  "Clarifications Needed questions for air tools",
+  "Investigate and resolve pressure loss in air tools on Line A pending item",
+  "General notes about compressor performance being stable"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the compressor unit and captures the basic facts, but splits the single integrated note into two separate issues by treating the air tools as an unrecognized separate equipment item. It fabricates numerous statuses, action steps, and time formats not present in the input. While the report is easy to read and captures all stated information, it invents significant operational details and mismanages the underlying contradiction."
+}

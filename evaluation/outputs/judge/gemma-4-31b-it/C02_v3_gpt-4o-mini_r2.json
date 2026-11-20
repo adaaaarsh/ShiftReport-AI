@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "oil leak",
+  "production stopped",
+  "parts ordered",
+  "No other issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates specific details like 'oil' leak and 'parts ordered'. It fails to flag the contradiction between the machine being shut down and the run of 400 pieces, presenting it as a linear sequence. Severity is defensible given the machine is shut down."
+}

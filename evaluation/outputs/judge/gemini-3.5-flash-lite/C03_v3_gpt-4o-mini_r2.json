@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 6:00 PM",
+  "Resolved — Currently out of service",
+  "determine repair timeline",
+  "affecting logistics"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and uses the correct equipment ID. However, it completely misses the major contradiction where a tagged-out forklift was supposedly used to move pallets at 6. It also invents several details like PM, repair timelines, and impact descriptions."
+}

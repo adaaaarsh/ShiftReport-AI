@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "No pending items reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the welding robot incident accurately by ID and facts, but misses the contradiction between 'no safety incidents' and the burn injury, presenting both simultaneously as true statements. Severities and details are mostly clear and structured well for readability, but the unflagged contradiction and slight fabrications in status lower the score."
+}

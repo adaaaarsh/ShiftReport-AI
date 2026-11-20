@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "3:00 PM",
+  "Leak is ongoing, potential escalation risk",
+  "Status: Ongoing",
+  "Has the leak been assessed for severity?",
+  "Is there a risk of further leakage?",
+  "Monitor the oil leak on M-03 (Line A) — check for worsening after maintenance visit",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine and the core issue but fabricates several details, including the specific time (PM), risk assessments, and a general safety claim. It also incorrectly lists the functioning lathe as an issue. Readability is high, but accuracy is low due to the volume of invented details."
+}

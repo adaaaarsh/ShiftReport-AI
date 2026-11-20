@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Immediate attention is required to replace the seal to prevent further quality issues",
+  "Please follow up with the supplier to ensure timely delivery to avoid operational disruptions",
+  "It is ready for use",
+  "Prioritize the repair of the Line C oven door seal to mitigate further quality control issues",
+  "Confirm the status of the generator fuel delivery and arrange for alternative solutions if necessary",
+  "Monitor the performance of Forklift 2 during the next shift",
+  "Please ensure that all team members are aware of the issues with Line C and the importance of quality checks moving forward"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all reported facts from the supervisor input and is structured very clearly for quick readability. However, it hallucinates several action items and recommendations not present in the notes, such as specific follow-up steps and instructions. Additionally, it turns the distractor note about the working scanner into an explicit equipment entry rather than leaving it out or noting it as functional context."
+}

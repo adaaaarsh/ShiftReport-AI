@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigning specific IDs M-06 and M-03 to ambiguous supervisor inputs",
+  "No action taken yet; monitoring required",
+  "No action taken yet; requires further investigation",
+  "Overall, there were no critical issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates specific equipment IDs (M-06 and M-03) and assigns medium severities and action details to completely ambiguous input, failing uncertainty handling entirely. It captures all items from the input and is well-formatted, but invents multiple details that were not stated."
+}

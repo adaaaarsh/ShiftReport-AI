@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitoring the machine's performance",
+  "order the necessary insert",
+  "Investigate and resolve the HVAC issue in the east bay"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but fabricates several actions and pending items (monitoring, ordering inserts, investigating HVAC) not mentioned in the input. It fails to flag any missing information or ambiguities, presenting the status as complete. Readability and severity classification are excellent."
+}

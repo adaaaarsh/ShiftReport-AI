@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status labels such as Ongoing and Resolved not stated in input",
+  "General notes claiming overall production was impacted by the conveyor issues and forklift battery failure",
+  "Pending items instructing to monitor systems and ensure full charge before use",
+  "Severity assigned as HIGH for Forklift #1 which has no textual support"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all reported facts accurately regarding the three machines and assigns correct registry IDs. However, it introduces several fabricated details including general production impact notes, pending action items, and status indicators not present in the input. Severities are generally defensible except for the high severity on the forklift without support. Uncertainty handling is weak as it fills in gaps rather than explicitly marking unknowns."
+}

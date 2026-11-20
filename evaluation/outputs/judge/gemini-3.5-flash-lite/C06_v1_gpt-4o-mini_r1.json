@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "psi",
+  "PM",
+  "Recommendation: Further investigation is needed to identify the cause of the pressure loss and to ensure consistent operation of air tools.",
+  "Please monitor the air tools on Line A closely during the next shift and report any further issues.",
+  "Ensure that maintenance is notified regarding the pressure fluctuations for necessary checks.",
+  "Please ensure to follow up on the noted issues and maintain communication with the maintenance team for any required actions."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and uses the correct equipment registry ID for the compressor. However, it invents recommendations, monitoring instructions, and adds 'psi' to the pressure measurement. It properly assigns an unknown severity since none was given, but fails to flag the contradiction between normal compressor pressure and losing pressure on the line."
+}

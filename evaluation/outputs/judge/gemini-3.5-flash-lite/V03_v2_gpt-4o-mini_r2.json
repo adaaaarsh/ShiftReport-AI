@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift #1 (M-15) specifically, whereas the input only stated 'one of the forklifts'",
+  "Action Taken: Issues were investigated but not fully resolved",
+  "Status: Ongoing",
+  "Time Noticed: Not specified",
+  "Further investigation and resolution of issues with Forklift #1",
+  "Most issues from earlier in the shift have been sorted"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report invents specific details, actions, and status updates not present in the input, and arbitrarily guesses M-15 for the ambiguous forklift reference. It captures the available facts and is readable, but fails heavily on uncertainty handling and accuracy due to hallucinations."
+}

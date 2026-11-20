@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor M7 B grinding operations closely, especially after the feed rate adjustment",
+  "Address the HP dripping issue on A line at the earliest opportunity",
+  "Investigate and replace the headlight on FL1 to prevent further near misses",
+  "Ensure coolant levels in section C are checked and replenished",
+  "Please prioritize safety and ensure all near misses are documented and addressed",
+  "Maintain communication with maintenance regarding the pinged issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all required operational issues accurately and maps machines correctly. However, it completely invents an action items section and additional notes that prescribe monitoring steps and instructions not stated in the input. Uncertainty is poorly handled because the report presents instructions and advice rather than surfacing missing information or checking clearance."
+}

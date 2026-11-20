@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Most issues from earlier in the shift have been resolved"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all points from the input and correctly handles uncertainties by marking the severity as unknown. However, it guesses a specific forklift ID (M-15) when the supervisor only mentioned 'one of the forklifts', and it fabricates the detail that 'most issues from earlier in the shift have been resolved' (the input said they were mostly sorted, but the report expands this into a definitive resolution statement)."
+}

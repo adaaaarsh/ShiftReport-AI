@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "oil leak",
+  "production halted",
+  "Machine remains shut down",
+  "Follow up on parts order for M-03 (Line A) — expedite repair process",
+  "No other issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several details (oil leak, production halted, etc.) and fails to flag the contradiction between the machine being shut down and having run 400 pieces. Severity is assigned as Critical without explicit evidence of total production halt in the input. Uncertainty handling is poor as it ignores the internal contradiction."
+}

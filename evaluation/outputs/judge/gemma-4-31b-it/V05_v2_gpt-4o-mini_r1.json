@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adjusted settings to bring the machine back into spec",
+  "Overall performance appears stable"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-01) despite the input being ambiguous and fabricated a specific action ('Adjusted settings') and a general status ('performance appears stable'). It failed to flag any of the missing critical information or the ambiguity of the machine reference."
+}

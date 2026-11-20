@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Have any alternative tooling options been considered?",
+  "Potential impact on production efficiency",
+  "Comfort issue for staff, potential productivity impact",
+  "may affect morale and productivity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is highly complete and readable, capturing all issues and their details. However, it includes several fabricated interpretations/questions regarding productivity and morale that were not in the input. Uncertainty handling is strong, as it explicitly flags missing information for the next shift."
+}

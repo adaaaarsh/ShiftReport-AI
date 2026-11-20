@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Units for temperature (450°F)",
+  "Action Taken: Monitored for M-10",
+  "Pending items for next shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all reported issues and details accurately except for introducing invented temperature units and unstated actions. It fails to surface contradictions present in the input text, instead smoothing them over. Readability and completeness are high due to clean formatting and full inclusion of the supervisor's stated events."
+}

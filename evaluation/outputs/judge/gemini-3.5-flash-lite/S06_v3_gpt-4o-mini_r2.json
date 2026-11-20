@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temporary malfunction affecting quality assurance",
+  "Status: Resolved",
+  "Monitor the Quality Inspection Scanner (M-09) for any further irregularities",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all key facts and maps to the right equipment ID, but it invents status information, a monitoring recommendation, and a safety incident statement not in the input. Severities and completeness are strong, but uncertainty handling is mixed because it marks the issue as fully 'Resolved' without acknowledging the unknown root cause."
+}

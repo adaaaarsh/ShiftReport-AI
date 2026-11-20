@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Monitoring the machine's performance for M-04"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues accurately with correct machine IDs and defensible severities. It is well-structured and highly readable. However, it invents a monitoring action for the injection molder, and it fails to explicitly surface or question the missing uncertainties like the lathe's operating status or ETA for the insert."
+}

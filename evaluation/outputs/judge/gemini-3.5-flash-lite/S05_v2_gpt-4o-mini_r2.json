@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional observations or staffing notes"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately, correctly identifies the machine ID, and maintains a highly readable structure. It includes one minor fabricated detail under general notes about staffing notes which were not in the input. Uncertainty handling is moderate because it does not flag the missing information regarding scrapped parts."
+}

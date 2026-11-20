@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Impacts logistics",
+  "Action Taken: Forklift tagged out of service",
+  "Status: Ongoing",
+  "Clarifications Needed: Has maintenance been notified for repair?",
+  "Follow up on the status of Forklift #1 (M-15) - repair needed",
+  "Ensure alternative logistics arrangements are in place for moving pallets",
+  "6 PM (input states 6 without AM/PM)",
+  "current status is out of service"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report completely misses the contradiction between the forklift being tagged out and being operated at 6, and instead invents several actions, statuses, and clarifications not present in the input. While formatting is relatively clean, the handling of critical contradictions and missing details is very poor."
+}

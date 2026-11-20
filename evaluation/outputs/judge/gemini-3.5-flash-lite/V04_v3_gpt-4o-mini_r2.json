@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "HVAC system activated unexpectedly",
+  "No production impact, but indicates a potential electrical issue",
+  "Ongoing - Monitor for further occurrences",
+  "Monitor HVAC system for stability and check electrical connections",
+  "No significant production issues reported during the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates that the HVAC system (M-14) is specifically the equipment that kicked on, along with various invented monitoring actions and assumptions about electrical issues. It fails to handle the ambiguity in the input by guessing a specific machine ID and treating an unknown event as a confirmed ongoing issue. However, the report is well-structured and easy to read."
+}

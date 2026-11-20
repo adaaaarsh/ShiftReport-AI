@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Not specified",
+  "Action Taken: Observed, deemed probably nothing significant",
+  "Status: Ongoing",
+  "Action Taken: Monitored the situation",
+  "Investigate the smell near the industrial oven area further",
+  "Monitor the welding robot arm for any recurring issues",
+  "No major incidents reported during the shift, but attention is needed on the noted issues."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures both issues accurately and formats them cleanly, yielding high completeness and readability. However, it invents actions taken, status markers, and follow-up tasks that were not in the sparse supervisor input, leading to multiple fabricated details. Severities are assigned rather than marked unknown despite the lack of evidence."
+}

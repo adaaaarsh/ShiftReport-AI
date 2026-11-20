@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Operator returned to work without further issues",
+  "Recommended monitoring of the area to ensure safety protocols are being followed",
+  "Continue to enforce safety measures and ensure all operators are aware of proper handling procedures around the welding robot cell",
+  "Encourage staff to report any safety concerns immediately",
+  "Please ensure to follow up on the minor injury and maintain a safe working environment"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures the core incident details correctly, mapping the welding robot cell to M-06. However, it includes several fabricated recommendations and action items not present in the input, and fails to handle the internal contradiction regarding safety incidents. The severity is reasonable given the facts, and the structure is readable."
+}

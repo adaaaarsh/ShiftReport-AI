@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor HVAC system for any further irregularities",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report incorrectly assigns the event to M-14 (HVAC) without evidence, which is a guessed ID. It also fabricates a 'Resolved' status, a monitoring task, and a safety claim. However, it captures all facts and correctly marks severity as unknown."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "external system or equipment activated unexpectedly",
+  "no reported disruptions to workflow or safety concerns",
+  "monitor the utility systems closely in the upcoming shifts",
+  "reporting the incident to the maintenance team for further investigation",
+  "All other operations proceeded smoothly",
+  "No other significant issues were reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report invents numerous specific details, recommendations, and claims that were never stated in the minimal supervisor input. It fails to flag missing uncertainties like checking the generator run log. However, it captures the core facts of the flicker and production continuity, maintaining good general readability despite the heavy fabrication."
+}

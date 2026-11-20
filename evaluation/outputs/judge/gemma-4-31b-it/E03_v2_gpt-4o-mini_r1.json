@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Status: Ongoing",
+  "Status: Resolved",
+  "Status: Pending",
+  "Investigate and address spindle noise on CNC Milling Machine (Line A)",
+  "Repair or replace parking lot lights"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the issue with M-01 and captures the facts. However, it fabricates several details (PM, statuses, and specific pending actions) and incorrectly lists M-05 as an issue when the input said the mill on B (M-07) was fine. It fails to flag any uncertainty regarding the time or the specific machine on Line B."
+}

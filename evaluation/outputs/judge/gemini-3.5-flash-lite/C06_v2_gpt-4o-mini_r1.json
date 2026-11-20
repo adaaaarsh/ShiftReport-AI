@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Divided the input into two separate issues including a split into Air Tools (Line A) which is not a registry machine",
+  "Action Taken: None required, operating normally for the compressor",
+  "Status: Resolved for the compressor",
+  "Action Taken: Monitoring required to assess if further action is needed",
+  "Status: Ongoing",
+  "Investigate potential causes for pressure loss in air tools",
+  "Overall, the compressor is functioning well"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates multiple actions, statuses, and splits a single compressor-related observation into two separate issues, incorrectly treating air tools as a machine registry item. It misses surfacing the contradiction between a normal compressor and losing pressure on the line. Readability is decent, but overall accuracy and uncertainty handling are poor due to invented details and unflagged ambiguities."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential for machine cooling issues, impacting production",
+  "Status: Ongoing — Needs attention",
+  "Investigate recurring bearing failures on M-11 (Line C) and consider alternative solutions",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction in the input (brand new pump vs original bearings failing). It also fabricates several details regarding the impact of the failure and the suggested action. Readability is high, but uncertainty handling is poor."
+}

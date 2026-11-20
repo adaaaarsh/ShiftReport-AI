@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Production affected due to quality issues",
+  "Status: Ongoing",
+  "Equipment functioning normally",
+  "Status: Resolved",
+  "Status: Pending",
+  "Address the torn door seal on M-10 (Line C) to prevent further quality issues",
+  "Follow up on the fuel delivery for M-13 (Backup Generator) — assess fuel levels and power supply options",
+  "QC reported 3 bad batches due to under-cured parts from M-10 (Line C)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all real issues and correctly maps them to equipment IDs, but it incorrectly treats the distractor statement about the scanner (M-09) as an active issue entry. It also includes boilerplate status and recommendation text that goes beyond the raw supervisor input. Overall, the severities and uncertainty handling are well-done and the formatting is extremely readable."
+}

@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no further action required",
+  "Please monitor Conveyor B for any further issues with slippage",
+  "Keep an eye on Oven C to ensure it operates within the required temperature range",
+  "Ensure Forklift 1 is fully charged before use in the next shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the registry IDs (M-05, M-10, M-15), instead using descriptive names. It provides no severity classifications. It fabricates several monitoring instructions and a status claim ('no further action required') not found in the input. It does not flag any missing information or uncertainties."
+}

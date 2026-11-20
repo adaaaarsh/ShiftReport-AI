@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "A technician was dispatched to address the issue",
+  "Please monitor the welding robot on Line B for any further issues, as it has just been recalibrated",
+  "Ensure that all maintenance logs are updated accordingly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but adds several fabricated details (technician dispatch, monitoring request, and log update request). No severity was assigned to the issue. It presents the information as complete without flagging any uncertainty."
+}

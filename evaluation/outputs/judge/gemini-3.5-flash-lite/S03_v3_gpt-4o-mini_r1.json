@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Tested successfully",
+  "Status: Resolved",
+  "Monitor fuel levels for Backup Generator (M-13)",
+  "No other issues or incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maps M-13 correctly. However, it fabricates several details such as 'tested successfully', 'Status: Resolved', a directive to monitor fuel levels, and a general note about no other incidents. The completeness, severity, readability, and uncertainty handling are otherwise strong."
+}

@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 2:10 PM",
+  "Awaiting maintenance response status for M-03",
+  "Could lead to operational inefficiencies severity justification for M-12",
+  "Routine maintenance required severity justification for M-06",
+  "Has the tip been ordered or is it available on-site? clarification",
+  "No injuries reported despite the critical issue with the hydraulic press general note"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all input details and maintains excellent readability and uncertainty handling, but includes several fabricated details like time of day AM/PM, invented statuses, and a general note claiming no injuries (which was stated in the input as nobody was hurt, but phrased differently alongside other assumptions). Severity for the compressor was rated High which exceeds reasonable defaults given the brief note. Therefore, accuracy and severity scores take a deduction while completeness, readability, and uncertainty remain strong."
+}

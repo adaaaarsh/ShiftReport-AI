@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommended monitoring of the area to ensure safety protocols are being followed",
+  "Continue to enforce safety measures and ensure all operators are aware of proper handling procedures around the welding robot cell",
+  "Encourage staff to report any safety concerns immediately",
+  "Please ensure to follow up on the minor injury and maintain a safe working environment"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the contradiction between 'no safety incidents' and the reported burn. It fabricates several recommendations and monitoring steps not present in the input. It also fails to assign a severity or flag missing information regarding the cause of the injury."
+}

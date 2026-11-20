@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recommended to monitor the situation closely and investigate further if the smell persists",
+  "It is advisable for the incoming team to check the robot's operational logs and ensure that all systems are functioning correctly",
+  "Any irregularities should be reported for further analysis",
+  "Conduct a thorough inspection of the oven area to identify the source of the smell",
+  "Review the robot's performance data and address any potential issues that may have caused the pauses",
+  "Please ensure to document any findings related to the above observations in the maintenance log for future reference"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures both issues from the supervisor input and handles severities well, but it severely hallucinates numerous recommendations, monitoring steps, and maintenance log instructions that were never mentioned in the input. Readability is generally good, but uncertainty handling is mediocre since it wraps the observations in standard operational advice rather than highlighting the lack of clear facts."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing — Awaiting maintenance response",
+  "Status: Ongoing",
+  "Status: Pending"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is complete and highly readable. However, it fabricates 'Status' updates for all three machines that were not in the input. The severity for the compressor (M-12) is marked as HIGH, which is a bit of a stretch given the input only mentions short-cycling without further context."
+}

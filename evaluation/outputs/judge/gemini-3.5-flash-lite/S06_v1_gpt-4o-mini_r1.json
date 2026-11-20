@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the quality inspection scanner on Line C for any further irregularities",
+  "Ensure that the recalibration process is documented for future reference",
+  "No other significant issues were reported during the shift",
+  "All other equipment and processes are functioning within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the machine ID and captures all facts from the input, but it fabricates several action items and status statements not found in the source notes. Severity assignment is defensible, and the structure is clean and readable. However, it fails to surface the unknown cause of the calibration drift, ignoring the gap."
+}

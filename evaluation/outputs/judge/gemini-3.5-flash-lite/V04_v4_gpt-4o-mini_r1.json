@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor HVAC system for any further irregularities",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input and is well-formatted, but it guesses a specific utility machine (M-14 HVAC) instead of keeping it ambiguous or listing the full set of utility equipment. It also fabricates status updates and pending action items not present in the supervisor input."
+}

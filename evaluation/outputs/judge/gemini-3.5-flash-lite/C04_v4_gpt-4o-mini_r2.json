@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on cooling efficiency"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies M-11 and captures most input facts, but it completely misses the explicit contradiction about a brand-new pump having original bearings failing. It also introduces one fabricated impact detail. Severity HIGH is defensible given the input, and readability is very strong."
+}

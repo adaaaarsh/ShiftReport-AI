@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impacted due to rework required",
+  "Reduced efficiency, potential production impact",
+  "Comfort issue for staff, potential impact on productivity",
+  "Requires further investigation",
+  "necessary for rework",
+  "ensure comfortable working conditions",
+  "may require urgent attention"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and facts accurately but includes several fabricated justifications for the severity levels and pending items. It fails to flag any missing information or ambiguities, presenting the status as complete."
+}

@@ -1,0 +1,54 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production impacted",
+  "Leak is persistent, potential escalation risk",
+  "Safety concern due to visibility issues",
+  "Could affect machine cooling if not addressed",
+  "Follow up on maintenance visit for M-07 (Line B) — grinding noise unresolved",
+  "Monitor dripping issue on M-03 (Line A) — check for worsening",
+  "Repair headlight on M-15 (Forklift #1) to prevent safety incidents",
+  "Replenish coolant for Line C machines"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items and accurately maps the machine IDs. However, it severely understates the critical safety violation of skipping LOTO on a leaking hydraulic press by assigning it a medium severity, and it invents numerous descriptive justifications and future action items not present in the input. Furthermore, it silently glosses over missing details and uncertainty instead of flagging them."
+}

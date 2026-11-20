@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "production affected",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly complete and readable, correctly identifying all machines and capturing all facts. However, it includes two fabricated details: the claim that production was affected and the statement that no safety incidents occurred. Uncertainty is handled well by flagging missing information."
+}

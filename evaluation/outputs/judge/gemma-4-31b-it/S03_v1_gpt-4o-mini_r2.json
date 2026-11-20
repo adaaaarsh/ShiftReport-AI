@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "please monitor and schedule a refill if levels drop significantly",
+  "Please ensure to follow up on any ongoing tasks and maintain communication regarding any developments during your shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately. However, it includes fabricated instructions regarding monitoring fuel levels and general follow-up tasks not present in the supervisor's notes. No machine ID was explicitly used, but the equipment was correctly identified."
+}

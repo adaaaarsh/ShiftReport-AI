@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please refer to Tuesday's report for detailed information regarding the problem and any troubleshooting steps that have been taken",
+  "Immediate attention is required to diagnose and resolve the issue to minimize downtime",
+  "Review the previous report on the press issue and continue monitoring for any changes or developments",
+  "Prioritize the assessment and repair of the paint booth on Line D. Ensure that all necessary resources are available for a swift resolution",
+  "Please maintain communication with the maintenance team regarding both issues to ensure timely updates and resolutions"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all items from the supervisor input and handles unknown severities and unrecognized equipment well. However, it significantly invents numerous action items, recommendations, and procedural steps that were never stated in the input. Overall, completeness and uncertainty handling are strong, but accuracy suffers due to extensive fabrications."
+}

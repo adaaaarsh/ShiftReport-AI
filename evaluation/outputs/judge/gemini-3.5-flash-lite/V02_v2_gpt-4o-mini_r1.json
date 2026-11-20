@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigned the ambiguous line C reference specifically to M-10 Industrial Oven",
+  "Assigned HIGH severity"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely fabricates a specific machine ID and high severity for an ambiguous input that only stated something on line C acted up. While it is readable and captures the vague facts, it fails on uncertainty handling by treating an ambiguous reference as a concrete machine and assigning a high severity level without any supporting evidence."
+}

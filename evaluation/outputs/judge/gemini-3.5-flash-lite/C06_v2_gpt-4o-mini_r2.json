@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Action Taken: None required, operation normal.",
+  "Status: Resolved",
+  "Action Taken: Monitoring ongoing, no immediate action taken.",
+  "Status: Ongoing",
+  "Investigate and resolve the pressure loss issue with air tools on line A.",
+  "Overall operations were stable, with the compressor functioning normally."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but splits the compressor and air tools into two distinct issues, wrongly turning a distractor detail into a separate issue entry (M-12 Air Tools). It invents multiple actions, statuses, and follow-up steps not present in the input. While readability is high and the template formatting is clean, it completely misses the contradiction between the normal compressor and dropping line pressure, handling the uncertainty poorly."
+}

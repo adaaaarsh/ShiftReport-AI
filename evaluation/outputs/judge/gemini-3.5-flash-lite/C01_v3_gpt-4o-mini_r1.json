@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°F unit added to temperature 450",
+  "Action Taken: Monitored for M-10",
+  "Status: Resolved for both items",
+  "Continue monitoring M-07 for any further error codes",
+  "Ensure M-10 remains within safe temperature limits",
+  "Overall operations are running smoothly with no major issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and has a clean, readable layout. However, it completely misses the internal contradictions in the input, treats both issues as fully 'Resolved', and invents several details like actions taken and monitoring steps not mentioned by the supervisor. Severities are defensible, but the lack of uncertainty handling and presence of fabrications lower the accuracy and uncertainty scores."
+}

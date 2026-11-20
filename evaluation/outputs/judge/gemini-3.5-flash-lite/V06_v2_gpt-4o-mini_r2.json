@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: No action taken, deemed probably nothing",
+  "Status: Ongoing",
+  "Action Taken: Observed the pauses, no immediate action taken",
+  "Monitor the smell near the industrial oven",
+  "Investigate the pauses in the welding robot arm's operation",
+  "No major issues reported, but attention is needed on the noted items."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures both issues and matches the correct equipment IDs, but it invents various actions, statuses, and follow-up pending items that were not present in the brief supervisor input. The severities assigned are somewhat defensible though lacking rigorous uncertainty handling, since the report fills in gaps rather than explicitly marking unknowns like action taken or status."
+}

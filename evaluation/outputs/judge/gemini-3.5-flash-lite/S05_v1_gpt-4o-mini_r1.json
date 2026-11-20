@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "malfunction",
+  "Monitor the compressor unit closely for any further irregularities.",
+  "Ensure that all air tools on Line A are functioning properly before resuming full operations.",
+  "Follow up with maintenance regarding the inspection findings and any necessary repairs.",
+  "Please ensure to document any further incidents or operational changes during your shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct equipment ID. However, it invents several operational recommendations and actions that were not stated by the supervisor. The severity classification is reasonable, and readability is good, though it includes conversational placeholders and unneeded template padding."
+}

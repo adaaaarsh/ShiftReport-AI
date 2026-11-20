@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no immediate production impact",
+  "Ongoing",
+  "Could affect production efficiency",
+  "Has maintenance been notified about the pauses?",
+  "Monitor the performance of M-06 (Welding Robot Arm) for further pauses",
+  "No critical incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items from the input and correctly matches the machine IDs, but introduces several fabricated details and impact assumptions not stated by the supervisor. Severities are assigned rather than marked unknown, but the format remains readable and well-structured."
+}

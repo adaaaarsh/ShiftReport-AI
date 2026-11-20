@@ -1,0 +1,52 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend monitoring the situation and scheduling repairs as necessary",
+  "It is advisable to inspect the unit to determine the cause of the noise",
+  "Further investigation is needed to resolve the flickering sensor",
+  "ensure that the coolant leak is addressed promptly to prevent any operational disruptions",
+  "HVAC unit's noise should be prioritized as it may indicate a larger issue",
+  "Continuous monitoring of the B conveyor's speed sensor is essential to maintain workflow efficiency"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to use the registry IDs for three of the four machines, referring to them only by name/description. It fabricates several 'Action Required' and 'Additional Notes' recommendations not present in the input. Severities are completely missing, and no uncertainty regarding missing information is flagged."
+}

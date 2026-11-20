@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adjustments made to fix the issue"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report guessed a specific machine (M-01) instead of flagging the ambiguity of 'The CNC'. It also fabricated that 'adjustments' were made, whereas the input only said 'we fixed it'. Severity and readability are high."
+}

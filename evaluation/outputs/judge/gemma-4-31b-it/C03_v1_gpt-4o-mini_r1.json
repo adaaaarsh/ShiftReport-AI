@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure that all personnel are aware of its status and do not attempt to operate it until it has been repaired and cleared for use",
+  "Ensure that the incoming shift is aware of the current status of the pallets and any pending shipments",
+  "Please monitor the situation regarding Forklift 1 and follow up on repair timelines",
+  "Ensure all safety protocols are adhered to during the transition of equipment"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being tagged out and being used at 6:00. It includes several fabricated instructions and monitoring steps not found in the input. No severity was assigned to the issue."
+}

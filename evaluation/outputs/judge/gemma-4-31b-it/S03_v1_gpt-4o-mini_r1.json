@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure to monitor the fuel levels regularly and schedule refueling if necessary.",
+  "Continue to maintain the generator as per the maintenance schedule."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but adds fabricated instructions regarding monitoring fuel and maintenance schedules. It fails to use the registry ID (M-13) and does not assign a severity, though the input implies a routine/low-severity status. Uncertainty is low because it presents the information as complete without flagging the lack of a specific machine ID from the registry."
+}

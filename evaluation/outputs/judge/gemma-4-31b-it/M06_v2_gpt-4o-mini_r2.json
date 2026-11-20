@@ -1,0 +1,47 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Overall performance was stable, but attention is needed on the listed issues to ensure smooth operations."
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly readable and complete, capturing all issues. However, it fails to flag any missing information or uncertainties (e.g., the nature of the workaround for M-05), and it includes a fabricated general note about stable performance."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Clarifications Needed: None",
+  "Monitor fuel levels for Backup Generator — currently at 80%",
+  "No other issues or incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID, but it introduces several fabricated details such as pending monitoring items, status designations, and a general notes section not present in the input. Severities are well-handled, and readability is very clear and structured. Uncertainty is well managed, though the extra fabricated commentary prevents a top score on accuracy."
+}

@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommendation: Monitor for any changes in performance and consider scheduling maintenance if the noise persists.",
+  "Recommendation: Keep an eye on the mill for any further alarms and ensure operators are aware of the incident.",
+  "Recommendation: Assess staffing needs for the upcoming shifts to ensure full operational capacity.",
+  "Ensure that the coolant pump issue is addressed in the next maintenance schedule.",
+  "Follow up on the CNC mill's performance to prevent future overload incidents.",
+  "Consider temporary staffing solutions for the packaging line to maintain efficiency."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs, instead using descriptive names. It fabricates numerous recommendations and follow-up actions not present in the input. Severities are completely missing, and it presents ambiguous equipment references as certain without flagging them."
+}

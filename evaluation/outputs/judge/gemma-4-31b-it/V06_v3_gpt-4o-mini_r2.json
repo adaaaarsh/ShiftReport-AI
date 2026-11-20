@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no immediate production impact",
+  "Potential impact on production efficiency",
+  "Monitoring required",
+  "Investigate the source of the smell near M-10 (Industrial Oven)",
+  "Monitor and troubleshoot the intermittent pauses of M-06 (Welding Robot Arm)",
+  "No critical issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and maps them to the correct IDs. However, it fabricates several details regarding the impact, status, and required actions (e.g., 'Monitoring required', 'Investigate the source'). It fails to flag any missing information or uncertainty, presenting the report as complete."
+}

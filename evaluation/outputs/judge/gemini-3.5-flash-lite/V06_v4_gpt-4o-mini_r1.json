@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Likely a minor observation, no immediate production impact",
+  "May affect production efficiency if not resolved",
+  "No critical incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures both items from the input and maps them to the right machine IDs. However, it fabricates extra commentary about production impacts and claims no critical incidents occurred, which was never stated. Severities are assigned rather than marked unknown given the vague inputs."
+}

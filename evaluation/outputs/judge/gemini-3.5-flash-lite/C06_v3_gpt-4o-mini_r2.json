@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "M-05 is on Line B in the registry, but the report placed it on Line A",
+  "Time Noticed: Between 2:00 PM and 4:00 PM (AM/PM invented)",
+  "Status: Resolved for M-12",
+  "Severity: Impacting tool performance and production efficiency",
+  "Action Taken: None needed",
+  "Action Taken: Not specified for M-05",
+  "Status: Ongoing — Needs further investigation for M-05",
+  "Compressor functioning well; no other significant issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a second issue for a conveyor belt and assigns it to a wrong line, invents multiple status and action details not in the input, and completely misses the contradiction between the compressor running normally and the line losing pressure."
+}

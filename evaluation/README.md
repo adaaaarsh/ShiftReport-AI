@@ -15,6 +15,8 @@ ShiftReport AI's prompt (`prompts/v4.txt`, identical to the system prompt in `..
 
 Each version was run on 30 synthetic supervisor notes with three open-weight models on Groq (GPT-OSS 20B, GPT-OSS 120B and Qwen3.8 27B), twice each, at temperature 0.3: 720 reports. A rule-based extractor (`baseline.py`) produced 30 more. Reports were scored by Gemini 3.5 Flash Lite (primary judge, all 750), Gemma 4 31B (all 750) and GPT-OSS 120B (the 120 human-rated reports), and by one blinded human rater (120 reports).
 
+As a separate check, all four versions were also run on ShiftReport AI's default model, GPT-4o mini (OpenAI, `gpt-4o-mini-2024-07-18`), twice each on 19 November 2026: 240 more reports, scored by Gemini and Gemma only. `analyze.py` keeps them out of every main result and reports them on their own (`outputs/results/deployed_check_*.csv` and section 10 of `summary.md`).
+
 ## Contents
 
 | Path | What it is |
@@ -29,7 +31,7 @@ Each version was run on 30 synthetic supervisor notes with three open-weight mod
 | `make_scoring_sheet.py` | Builds the blinded human scoring sheet |
 | `analyze.py`, `figures.py` | All statistics and figures in the paper |
 | `providers.py`, `check_providers.py`, `run_until_done.sh` | API pacing and retry helpers |
-| `outputs/reports/` | All 750 generated reports (`<scenario>_<version>_<model>_r<run>.md`) |
+| `outputs/reports/` | All 990 generated reports (750 in the main study plus 240 from GPT-4o mini) (`<scenario>_<version>_<model>_r<run>.md`) |
 | `outputs/generation_log.jsonl` | One line per report: returned model, finish reason, token counts, time |
 | `outputs/judge/<judge>/` | One JSON judgement per report and judge |
 | `outputs/scoring/human_scores.csv` | The human rater's 120 scores, linked to report files, with comments |
@@ -50,7 +52,7 @@ python figures.py                    # writes outputs/figures/
 
 Run from these files, both scripts reproduce the released results and figures exactly.
 
-Re-running generation or judging needs your own free API keys (Groq and Google AI Studio), set as `GROQ_API_KEY` and `GEMINI_API_KEY` in your shell. Never commit keys. Finished files are skipped, so delete the relevant outputs first if you want fresh runs. Hosted models change over time, so new runs will not match the released reports exactly.
+Re-running generation or judging needs your own API keys, set in your shell: `GROQ_API_KEY` and `GEMINI_API_KEY` (free tiers) for the main study, and `OPENAI_API_KEY` (paid, well under US$1) for the GPT-4o mini check. Never commit keys. Finished files are skipped, so delete the relevant outputs first if you want fresh runs. Hosted models change over time, so new runs will not match the released reports exactly.
 
 ## Notes
 

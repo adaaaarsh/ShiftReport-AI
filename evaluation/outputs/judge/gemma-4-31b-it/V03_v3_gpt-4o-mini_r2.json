@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-15 (Forklift #1)",
+  "Severity: MEDIUM",
+  "Action Taken: Issues addressed but not fully resolved",
+  "Status: Ongoing",
+  "Further investigation required for M-15 (Forklift #1) — monitor for recurring issues",
+  "no major incidents reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific forklift (M-15) instead of flagging the ambiguity. It fabricated several details regarding actions taken, status, and the absence of major incidents. Severity was assigned without evidence."
+}

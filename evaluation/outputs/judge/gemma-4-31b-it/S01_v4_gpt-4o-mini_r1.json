@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts accurately and maps the machine ID correctly. However, it includes a fabrication regarding staffing and safety incidents not mentioned in the input. This results in an accuracy score of 3 per the rubric."
+}

@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "investigate the root cause of the recurring bearing failures",
+  "reviewing the installation process and operational parameters of the pump",
+  "Monitor the performance of the new pump closely",
+  "Document any further issues with the pump",
+  "Ensure that all maintenance logs are updated",
+  "next shift is informed of the ongoing issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to identify the machine ID (M-11) and completely ignores the blatant contradiction in the input (brand new vs original bearings). It fabricates numerous recommendations and action items not present in the supervisor's notes. Severities are missing entirely."
+}

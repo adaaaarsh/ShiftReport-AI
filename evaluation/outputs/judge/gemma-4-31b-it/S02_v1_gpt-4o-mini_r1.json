@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the performance of the welding robot throughout the shift to ensure no further issues arise",
+  "Keep an eye on wire feed levels and stock to prevent future disruptions",
+  "Ensure that all maintenance logs are updated accordingly",
+  "Report any anomalies or further issues immediately"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to provide a machine ID from the registry. It fabricates several recommendations and notes not present in the input. Severity is not assigned, and uncertainty regarding the specific machine ID (M-06) is not flagged."
+}

@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional observations or staffing notes"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly accurate and complete, capturing all facts from the input. However, it fails to flag the missing information regarding scrapped parts (uncertainty) and includes a fabricated claim about 'no additional observations'. Accuracy is slightly reduced due to the fabrication."
+}

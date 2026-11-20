@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing for M-03",
+  "Action Taken: Refer to Tuesday's report for details",
+  "Assigned M-04 (Injection Molder, Line A) to the paint booth on Line D",
+  "Review and address the ongoing issue with the hydraulic press",
+  "Investigate and resolve the downtime of the paint booth on Line D",
+  "No additional observations or staffing notes provided"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly maps the unlisted Line D paint booth to M-04 (Injection Molder on Line A), invents actions and statuses, and completely misses uncertainty handling by presenting the missing information as definitive statuses rather than unknown. However, it successfully captures all reported items from the input and follows a clean template format."
+}

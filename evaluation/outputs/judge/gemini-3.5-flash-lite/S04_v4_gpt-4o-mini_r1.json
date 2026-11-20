@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-16",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 1:40 PM (input states work order submitted at 1:40pm, time noticed is not stated)",
+  "No other issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies Forklift 2 (M-16) and captures all the facts from the input, but exaggerates the severity to HIGH and mistakenly assigns the 1:40pm timestamp as the 'Time Noticed' rather than the work order submission time. It has good readability and correctly flags the missing repair timeline."
+}

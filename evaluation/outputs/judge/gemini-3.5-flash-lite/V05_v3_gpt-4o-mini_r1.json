@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential quality impact on produced parts",
+  "Adjustments made to bring machine back into spec",
+  "Resolved",
+  "No additional issues or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input, but it guesses a specific CNC machine (M-01) from an ambiguous reference and invents details regarding the resolution and impact. It assigns a medium severity and fails to flag the ambiguity of which CNC machine or parts were involved, presenting an uncertain situation as definitive."
+}

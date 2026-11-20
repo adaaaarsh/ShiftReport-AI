@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine is fully down, production halted",
+  "oil leak",
+  "Has maintenance been contacted for parts?",
+  "Estimated time for parts arrival?",
+  "Follow up on parts order for M-03 (Line A) - expedite repair process",
+  "No other issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the machine ID and captures all facts from the input, but it fabricates several details such as 'oil' leak, production halt status, and proactive pending follow-ups not stated in the input. Severity is assigned as CRITICAL which is slightly inflated given the limited input details, and it fails to explicitly point out the chronological contradiction between being shut down and running 400 pieces."
+}

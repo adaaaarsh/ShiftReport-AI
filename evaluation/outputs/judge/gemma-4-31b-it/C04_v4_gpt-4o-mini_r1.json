@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on machine cooling and operation",
+  "Status: Ongoing",
+  "assess maintenance response",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts and correctly identifies the machine. However, it fails to flag the blatant contradiction in the input (brand new pump vs original bearings failing). It also includes several fabricated details regarding the impact and status."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "3:00 PM (am/pm assumption)",
+  "Maintenance has been called (action interpreted)",
+  "Potential escalation risk",
+  "M-02 reported as a formal issue/event status",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures the core issue accurately and has strong readability. However, it invents several details such as adding AM/PM to the time, framing the lathe as a formal issue entry when it was a distractor, and adding generic statements about safety incidents. It also misses flagging that the running status of the press is unknown."
+}

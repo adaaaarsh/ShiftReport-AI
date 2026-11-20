@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 15:00",
+  "Status: Ongoing"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and notes its facts accurately, though it converts the vague time '3' into '15:00' and adds a status, which counts as fabricated details. Severities are well-chosen, and the layout is extremely clear and readable. However, it fails to flag that it is unknown whether the press is still running, meaning uncertainty is only partially handled."
+}

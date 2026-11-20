@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: 2:10 (the input says it was locked out at 2:10, not necessarily that it was noticed then)",
+  "Status: Ongoing",
+  "Status: Pending",
+  "Action Taken: None specified",
+  "Address the guard interlock failure on the hydraulic press",
+  "Investigate and resolve the short-cycling issue with the compressor",
+  "Change the tip on the welding robot arm"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported items and assigns defensible severities, while maintaining a clear and structured format. However, it invents several standard status and action fields that were not in the input, and misattributes the 2:10 timestamp as the 'Time Noticed' instead of the lockout time. It also fails to explicitly flag missing information for the compressor or hydraulic press."
+}

@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the welding robot for any further issues related to wire feed",
+  "No additional issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and correctly identifies machine M-06, but it fabricates a pending monitoring instruction and a general note claiming no other issues. The severity is graded as HIGH, which is somewhat inflated given a minor wire feed fault that was quickly resolved within 35 minutes. Readability and structure are excellent."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend monitoring the situation closely and scheduling maintenance if the noise persists",
+  "operations continued without interruption",
+  "Please ensure that this is reported to maintenance for prompt attention",
+  "ensure repairs are initiated"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the core issues and handles the machine ID correctly, but it invents several action items and recommendations not present in the input. Completeness is strong as all points are carried over, but the added procedural details lower accuracy and uncertainty handling. Readability is generally clean and structured."
+}

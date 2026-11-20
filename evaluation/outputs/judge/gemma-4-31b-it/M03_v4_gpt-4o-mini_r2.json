@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3:20 PM",
+  "night shift",
+  "consider cross-training for future coverage"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 4,
+ "rationale": "The report is complete and highly readable, but it fabricates specific time markers ('PM', 'night shift') and a suggestion for cross-training. Severity for M-08 is arguably too high (HIGH) for a staffing issue that was managed at half speed, though defensible. It does a good job of flagging missing information."
+}

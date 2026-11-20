@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Further attention may be required to ensure it operates safely and efficiently",
+  "Monitor the performance of the problematic forklift and consider scheduling maintenance if issues persist",
+  "Ensure all team members are aware of the forklift's status to prevent any safety concerns",
+  "Please follow up on the forklift issue and assess if additional troubleshooting or repairs are necessary",
+  "Maintain communication with the team regarding any further operational challenges that may arise"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue but fabricates numerous action items and monitoring steps not present in the input. It fails to flag the ambiguity of which forklift is affected, presenting the situation as a general status update rather than highlighting the missing information."
+}

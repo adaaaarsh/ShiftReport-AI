@@ -24,7 +24,7 @@ VERSIONS = ["v1", "v2", "v3", "v4"]
 def human_sample():
     """(scenario, version, model) triples in the human-rated sample: balanced model rotation, run 1."""
     scenarios = json.loads((ROOT / "scenarios.json").read_text())["scenarios"]
-    models = [slug(g["id"]) for g in CONFIG["generators"]]
+    models = [slug(g["id"]) for g in CONFIG["generators"] if g.get("role") != "deployed_check"]
     return [(s["id"], v, models[(si + vi) % len(models)]) for si, s in enumerate(scenarios) for vi, v in enumerate(VERSIONS)]
 
 

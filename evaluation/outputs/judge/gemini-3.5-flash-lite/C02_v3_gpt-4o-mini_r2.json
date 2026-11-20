@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Machine is fully down, production stopped",
+  "oil leak",
+  "parts ordered",
+  "No other issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and captures all facts, but it invents details such as the specific type of leak ('oil'), an explicit order of actions ('ran 400 pieces before shutdown'), and status assertions ('parts ordered', 'production stopped') that were not provided. It also fails to surface the contradiction between shutting down due to a leak and successfully running 400 pieces, assigning a high severity without capturing the nuance."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor the Quality Inspection Scanner for any further irregularities",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct equipment ID, but fabricates several details including status, pending monitoring actions, and a statement about safety incidents. Severities are defensible, and readability is high. However, uncertainty handling is mediocre because it explicitly claims no clarifications are needed, ignoring the unknown cause of the drift."
+}

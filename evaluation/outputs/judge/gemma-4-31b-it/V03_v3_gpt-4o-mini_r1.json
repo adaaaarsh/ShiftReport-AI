@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-15",
+  "Forklift #1",
+  "Potential operational impact",
+  "Ongoing",
+  "Investigate and resolve issues with M-15 (Forklift #1)"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific forklift (M-15) when the input was ambiguous, which is a significant accuracy error. It also fabricated a severity justification and a pending action. It failed to flag the ambiguity of the forklift reference."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Oven C closely for any fluctuations in temperature.",
+  "Ensure to revert the interlock to its normal state once the batch is completed.",
+  "Document any further adjustments or issues that arise during your shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and severity correctly, but includes several invented recommendations and monitoring instructions that were not present in the supervisor input. It handles uncertainty well by prompting the incoming shift about the interlock state."
+}

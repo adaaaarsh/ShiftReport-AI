@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the performance of the new coolant pump closely for any signs of bearing failure",
+  "Consider investigating the root cause of the recurring bearing failures to prevent future occurrences",
+  "Ensure that all maintenance logs are updated to reflect the replacement of the coolant pump and the recurring issue with the bearings",
+  "Recommend scheduling a follow-up inspection to assess the pump's performance and address any potential underlying issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry ID (M-11) and completely ignores the blatant contradiction in the input (brand new vs original bearings). It also fabricates several action items and notes not present in the supervisor's notes. Severity was not assigned."
+}

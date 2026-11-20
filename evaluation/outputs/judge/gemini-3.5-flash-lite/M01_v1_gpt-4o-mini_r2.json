@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Order the required tooling insert to resolve the chattering issue",
+  "Monitor the reworked parts closely for quality assurance",
+  "Investigate the cause of the increased cycle time and implement necessary adjustments",
+  "Contact maintenance to address the HVAC issue in the east bay to ensure a comfortable working environment for the team",
+  "Ensure that all team members are aware of the current issues and are monitoring their respective areas closely",
+  "Document any further developments regarding the lathe and injection molder for follow-up in the next shift report",
+  "Ensure to follow up on the mentioned issues and maintain communication with the maintenance team for timely resolutions"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all actual items from the input and organizes them well, but it heavily pads the document with fabricated recommendations and next-step action items not provided in the supervisor notes. It completely misses surfacing known uncertainties about the state of the lathe or the missing stock details."
+}

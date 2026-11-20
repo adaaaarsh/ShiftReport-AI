@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temporary malfunction affecting quality assurance",
+  "Resolved",
+  "Monitor the performance of the Quality Inspection Scanner to ensure no further issues arise",
+  "No additional staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the supervisor input and correctly identifies machine M-09, but it adds several fabricated status labels, monitoring actions, and safety incident claims not present in the input. Severities and readability are strong, but uncertainty handling is limited since it treats the resolved issue as closed without flagging the unknown root cause."
+}

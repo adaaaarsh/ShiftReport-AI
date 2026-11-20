@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Assigned machine 17 on Line B to M-05 Conveyor Belt System",
+  "Assigned robot 2 to M-06 Welding Robot Arm",
+  "Potential impact on production if not addressed",
+  "Leak could lead to operational hazards and production impact",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely invents registry assignments for unrecognized items (mapping machine 17 to M-05 and robot 2 to M-06) instead of flagging uncertainty or asking for clarification. It captures all reported items, and the readability is structured well, but the fabricated machine IDs and invented consequences severely harm accuracy and uncertainty handling."
+}

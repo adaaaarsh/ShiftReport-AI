@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM in 1:30 PM",
+  "Monitor spindle noise on M-01 (Line A) for any changes"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures the core issue on M-01 and handles the general notes well, but incorrectly turns a non-issue distractor (Mill on B) into an issue and fabricates the AM/PM designation and a monitoring action. It is otherwise well-structured, easy to read, and assigns reasonable severity."
+}

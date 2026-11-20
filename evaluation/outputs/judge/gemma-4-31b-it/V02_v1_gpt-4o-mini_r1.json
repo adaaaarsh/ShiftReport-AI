@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recommended that a technician or maintenance personnel be assigned to investigate and resolve the issue to prevent further disruptions in production",
+  "Please ensure that the maintenance team is notified about the recurring issue on Line C",
+  "Monitor the performance of Line C closely until the issue is resolved",
+  "No other significant incidents were reported during the shift",
+  "All other lines are operating normally"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue but fabricates numerous actions, recommendations, and status claims not present in the input. It fails to flag the ambiguity of which machine on Line C is affected, presenting the general 'Line C Malfunction' as a known entity. The severity is effectively unknown as no label was provided, which is acceptable."
+}

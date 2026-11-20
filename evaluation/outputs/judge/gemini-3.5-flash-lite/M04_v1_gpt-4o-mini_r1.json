@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Converted 2:10 to 14:10",
+  "Added instruction to follow up with safety protocols and maintenance updates",
+  "Added instruction to monitor compressor performance and report further issues",
+  "Added instruction to ensure maintenance is completed prior to next shift to avoid production delays",
+  "Added instruction to brief team members on the situation",
+  "Added instruction to document compressor irregularities",
+  "Added instruction to schedule tip change at the earliest opportunity"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three issues and correctly identifies their machines and severities, but converts the time format and invents several recommended actions and follow-up steps not present in the supervisor notes. It is complete and readable, but includes multiple fabricated instructions and does not actively flag missing information such as maintenance notification for the compressor."
+}

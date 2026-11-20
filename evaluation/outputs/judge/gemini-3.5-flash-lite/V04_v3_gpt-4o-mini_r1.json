@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No production impact, but requires monitoring",
+  "Time Noticed: Around lunch",
+  "Action Taken: Production continued without interruption",
+  "Status: Ongoing — Monitoring required",
+  "Monitor electrical stability and investigate the cause of flickering lights",
+  "No significant production disruptions reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates multiple details and actions not present in the input, including specific monitoring steps and statuses, while arbitrarily guessing a specific equipment ID (M-12) for an ambiguous input. It captures the basic facts from the input, leading to a moderate completeness score, but fails to handle uncertainty by presenting vague notes as confirmed ongoing issues with assigned medium severity."
+}

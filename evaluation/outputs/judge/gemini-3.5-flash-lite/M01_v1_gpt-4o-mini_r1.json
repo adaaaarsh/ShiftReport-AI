@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitoring required to assess the impact on production",
+  "Recommendation: Immediate attention required to address temperature control for employee comfort",
+  "Follow up on the lathe tooling issue and check for availability of the required insert to minimize downtime",
+  "Monitor the injection molder's cycle time closely and investigate potential causes for the increase",
+  "Report the HVAC issue to maintenance for prompt resolution to ensure a comfortable working environment",
+  "Ensure all team members are aware of the current equipment statuses and any ongoing issues",
+  "Maintain communication with maintenance regarding the lathe tooling and HVAC concerns"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input accurately and is extremely readable. However, it invents several action recommendations, monitoring steps, and operational instructions that were not stated in the supervisor input. Additionally, it fails to surface the unknown elements (such as whether the lathe is still running or if maintenance has been called for the HVAC)."
+}

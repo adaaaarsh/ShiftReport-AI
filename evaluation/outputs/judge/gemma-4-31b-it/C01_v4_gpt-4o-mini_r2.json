@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "450°F",
+  "Status: Resolved",
+  "Monitor M-07 for any recurring error codes",
+  "Investigate the cause of the temperature spike in M-10",
+  "Overall operations are running smoothly with no significant issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues and facts accurately but fabricates several details such as the unit '°F' and specific pending actions. It fails to flag the contradictions present in the supervisor's input (e.g., 'no issues' vs 'restarted twice')."
+}

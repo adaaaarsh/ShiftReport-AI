@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the compressor unit closely for any further issues",
+  "Confirm that all air tools on Line A are functioning properly before the start of the next operational period",
+  "Ensure that all team members are aware of the incident and the measures taken to prevent recurrence",
+  "Document any further developments regarding the compressor unit in the maintenance log"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the registry ID (M-12) and provides no severity classification. It fabricates several action items and notes not present in the input. It also fails to flag the missing information regarding scrapped parts."
+}

@@ -1,0 +1,58 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The M7 B grinder is currently operational",
+  "due to performance concerns",
+  "High-pressure line on A",
+  "due to production quota pressures",
+  "A near-miss incident occurred in aisle 3 as a result",
+  "Immediate attention required to prevent accidents",
+  "Monitor the M7 B grinder closely and follow up with maintenance regarding the pinged request",
+  "Assess the dripping high-pressure line on A and determine if LOTO can be safely performed without impacting production",
+  "Replace the headlight on FL1 to ensure safety in aisle 3",
+  "Check coolant levels in section C and replenish as needed",
+  "Safety is a priority; please address the near-miss incident and ensure all safety protocols are followed",
+  "Communication with maintenance is crucial for resolving ongoing equipment issues"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items and assigns reasonable severities, but it invents extensive details, causes, and recommended actions not present in the input. It presents incomplete information as actionable steps without flagging ambiguities."
+}

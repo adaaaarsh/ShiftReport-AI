@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Ensure to monitor the status of the parts for the hydraulic press and follow up as necessary to minimize downtime.",
+  "Please report any further issues or updates regarding the hydraulic press during your shift.",
+  "Please let me know if you need any further information or assistance."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and captures all facts from the input, but it includes several fabricated action items and closing statements. It fails to highlight the contradiction between the press being shut down and running 400 pieces. Overall, it is well-structured and easy to read, but invents several unsupported instructions for the incoming shift."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted due to loss of air pressure",
+  "Status: Ongoing",
+  "No additional issues or incidents reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all facts and matches the compressor unit to M-12. However, it inflates the severity to CRITICAL and fabricates that production was halted and that the status is ongoing. It also includes a fabricated claim that no other issues occurred during the shift."
+}

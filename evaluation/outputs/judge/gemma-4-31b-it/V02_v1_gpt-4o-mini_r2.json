@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "recommended that a technician or maintenance team be assigned to investigate and resolve the issue as soon as possible to prevent further disruptions",
+  "Schedule a maintenance check for Line C",
+  "Monitor Line C closely until the issue is resolved",
+  "ensure to document any further occurrences or changes in performance on Line C for future reference"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core issue but fabricates several action items and recommendations not present in the input. It fails to flag that the specific machine on Line C is unknown, presenting the general 'Line C Malfunction' as a clear issue. Severity is not explicitly assigned, which is acceptable given the input."
+}

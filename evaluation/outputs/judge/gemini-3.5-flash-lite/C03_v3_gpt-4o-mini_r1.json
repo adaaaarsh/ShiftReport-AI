@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "6:00 PM",
+  "before being tagged out",
+  "Resolved — Currently out of service"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a timeline by stating the forklift was used at 6:00 PM before being tagged out (reversing the input order) and claims the status is 'Resolved' while also listing it as a pending issue. It completely misses the inherent contradiction in the input where a tagged-out forklift was used, failing to flag the safety violation. Readability is good, but accuracy and uncertainty handling are severely impacted."
+}

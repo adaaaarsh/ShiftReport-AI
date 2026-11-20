@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor fuel levels for Backup Generator (currently at 80%)",
+  "No other issues or incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID for the backup generator. However, it introduces several fabricated details such as stating the status is 'Resolved', adding a pending item to monitor fuel levels, and claiming no other issues were reported. The structure and severity classification are clear and appropriate."
+}

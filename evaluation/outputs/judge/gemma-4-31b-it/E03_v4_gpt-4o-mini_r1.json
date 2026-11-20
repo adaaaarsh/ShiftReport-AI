@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "No production impact (severity justification)",
+  "Noise may indicate potential future issues (severity justification)",
+  "Who is responsible for maintenance of parking lot lights? (clarification request)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report is highly readable and captures all input details. It correctly identifies the machines and flags the missing maintenance notification. However, it fabricates 'PM' for the time and adds several justifications/questions not present in the input."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None required, operating normally",
+  "Status: Resolved",
+  "Action Taken: Monitoring required to assess if further action is needed",
+  "Status: Ongoing",
+  "Monitor air pressure levels on line A air tools",
+  "Investigate potential causes for pressure loss in air tools",
+  "Overall, the compressor is functioning well, but attention is needed on air tools in line A"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several actions, statuses, and pending items not found in the input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Accuracy is reduced due to these invented operational details."
+}

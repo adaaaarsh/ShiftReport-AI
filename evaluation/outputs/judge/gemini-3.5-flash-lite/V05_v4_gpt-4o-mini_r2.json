@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Adjustments made to fix the issue",
+  "No additional observations or staffing notes provided"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and uncertainty regarding the ambiguous CNC reference, but guesses a specific machine ID (M-01) and invents the action that adjustments were made when the supervisor only noted 'we fixed it I think'. Severity is appropriately marked as UNKNOWN, and readability is high."
+}

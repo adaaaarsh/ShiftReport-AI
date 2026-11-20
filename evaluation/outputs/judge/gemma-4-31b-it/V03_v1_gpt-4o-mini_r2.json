@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Further monitoring and potential maintenance may be required",
+  "Recommend that the next shift personnel keep an eye on the performance of the affected forklift and document any irregularities",
+  "Consider scheduling a maintenance check for the forklift to ensure safety and efficiency",
+  "All other equipment and operations are functioning normally",
+  "Team performance was satisfactory, with no significant incidents reported",
+  "Monitor the forklift closely and report any further issues",
+  "Ensure all team members are aware of the current status of operations"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report is highly fabricated, inventing numerous recommendations, status updates, and safety claims not present in the input. It fails to flag the ambiguity of which forklift is affected. While it captures the basic facts, the volume of invented detail is severe."
+}

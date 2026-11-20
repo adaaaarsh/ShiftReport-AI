@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Investigate the root cause of the recurring bearing failures to prevent future occurrences",
+  "Consider reviewing the installation process and operational parameters of the pump",
+  "Monitor the performance of the new pump closely for any signs of failure",
+  "Document any further issues with the pump for future reference and troubleshooting",
+  "Ensure that all maintenance logs are updated accordingly and that the next shift is informed"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly maps to the coolant pump on Line C, but it heavily fabricates recommendations, monitoring steps, and maintenance log instructions. It completely fails to surface the contradiction between a brand new pump and original bearings failing again, presenting the information as standard operational status."
+}

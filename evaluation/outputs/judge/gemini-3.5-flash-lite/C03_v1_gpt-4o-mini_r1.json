@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure that all personnel are aware of its status and do not attempt to operate it until it has been repaired and cleared for use.",
+  "Utilized Forklift 1 to move finished pallets to the shipping area at 6:00 PM. Ensure that the incoming shift is aware of the current status of the pallets and any pending shipments.",
+  "Please monitor the situation regarding Forklift 1 and follow up on repair timelines.",
+  "Ensure all safety protocols are adhered to during the transition of equipment.",
+  "Please let me know if there are any questions or if further information is needed."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 3,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts and correctly identifies M-15, but it completely fails to notice the glaring contradiction that a tagged-out forklift was reportedly used at 6. Instead, it hallucinates extensive procedural advice, monitoring steps, and operational instructions not present in the input. While complete regarding the stated facts, its accuracy and uncertainty handling are severely compromised by glossing over the contradiction."
+}

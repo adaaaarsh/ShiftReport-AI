@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-10 — Industrial Oven",
+  "Severity: HIGH",
+  "Status: Pending"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-10) from an ambiguous reference to 'the thing on line C' without flagging the ambiguity. It also fabricated a 'HIGH' severity and a 'Pending' status not found in the input. While it captured the facts, the lack of uncertainty handling and the specific machine guess make it misleading."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Temporary malfunction affecting quality control",
+  "Resolved — All re-ran parts passed inspection",
+  "Monitor the performance of the Quality Inspection Scanner to ensure continued accuracy",
+  "No additional issues or staffing concerns reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the quality inspection scanner (M-09) and captures all facts from the supervisor input accurately. However, it invents extra commentary, status evaluations, monitoring tasks, and a general notes section not stated in the input (fabrications). Severity is defensible, structure is very clean, but it completely ignores the missing cause of calibration drift by claiming no clarifications are needed, leading to poor uncertainty handling."
+}

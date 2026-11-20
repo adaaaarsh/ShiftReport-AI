@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor the quality inspection scanner for any further irregularities.",
+  "No additional issues reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID, but it invents a resolution status, a monitoring recommendation, and a statement about additional issues that were not in the supervisor's notes. It presents a complete overview with great readability, though it fails to flag the missing cause of calibration drift as unknown."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing for M-05",
+  "Action Taken: None required as the alarm cleared itself for M-10",
+  "Status: Resolved for M-10",
+  "Status: Ongoing for M-15",
+  "Pending items and general notes advising monitoring, check status, and claiming staffing levels were adequate"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all issues accurately from the input and is very readable, but it fabricates several status updates, action details, and general shift notes that were not provided by the supervisor. Forklift #1 severity is also rated as HIGH without justification given the input details. It fails to adequately flag missing unknowns regarding root causes or product impact."
+}

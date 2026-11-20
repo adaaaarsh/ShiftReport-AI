@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Status: Pending",
+  "Further inspection required for both issues to ensure production continuity."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report provides a clean, highly readable layout and captures all mentioned issues, but it commits accuracy and uncertainty errors by arbitrarily picking specific machine IDs (M-06 and M-03) from ambiguous references and assigning them MEDIUM severities instead of marking them as unknown or ambiguous. It also adds fabricated statuses and general notes about production continuity that were not in the supervisor input."
+}

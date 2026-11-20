@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential quality impact on produced parts",
+  "Issue was addressed; machine settings adjusted",
+  "Resolved",
+  "No additional issues or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all basic facts from the input but guesses a specific CNC machine ID (M-01) where the input was ambiguous, and fabricates several details such as machine settings being adjusted. Severity is assigned a MEDIUM rating rather than Unknown despite lack of evidence. Readability is strong with clear formatting, but uncertainty handling is poor as it presents guessed information and assumptions as definitive facts."
+}

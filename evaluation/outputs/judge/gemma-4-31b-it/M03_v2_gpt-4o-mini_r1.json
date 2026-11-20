@@ -1,0 +1,42 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitoring ongoing; no immediate action taken as flow is fine",
+  "Adjusted production speed to accommodate reduced staffing",
+  "Monitor the coolant circulation pump for any changes in performance",
+  "Address staffing for the packaging unit to return to full production speed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and matches machine IDs correctly. However, it fabricates several actions and pending items (monitoring, adjusting speed) not mentioned in the input. Severity for the packaging unit is arguably too high (HIGH) given it was a planned adjustment to half speed, and it fails to flag any missing information or uncertainties."
+}

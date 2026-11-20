@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-15,M-16",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Most earlier issues have been resolved",
+  "Status: Ongoing",
+  "Clarify the issues with M-15 (Forklift #1) and determine if maintenance is needed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures the core vague statement about the forklift, but guesses a specific machine ID (M-15) instead of flagging the ambiguity between M-15 and M-16. It also invents some descriptive text and status details not explicitly in the input. Overall, completeness and readability are high, but accuracy and uncertainty handling suffer from the forced specific ID assignment and added details."
+}

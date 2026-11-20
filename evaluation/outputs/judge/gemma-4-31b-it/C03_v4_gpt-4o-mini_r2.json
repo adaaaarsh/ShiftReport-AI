@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "impacting logistics",
+  "Has maintenance been notified for repairs?",
+  "Follow up on the status of Forklift #1 repairs",
+  "6 PM"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts but fails to flag the blatant contradiction between the forklift being 'tagged out' and 'used at 6'. It also fabricates several details regarding maintenance and the specific time (PM). Severity is reasonable given the 'out of service' status."
+}

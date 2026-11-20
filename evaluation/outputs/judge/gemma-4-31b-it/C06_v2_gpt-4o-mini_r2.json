@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: None required, operation normal",
+  "Status: Resolved",
+  "Action Taken: Monitoring ongoing, no immediate action taken",
+  "Status: Ongoing",
+  "Investigate and resolve the pressure loss issue with air tools on Line A",
+  "Overall operations were stable, with the compressor functioning normally"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts but fabricates several status and action details not present in the input. It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Readability is high, but uncertainty handling is poor."
+}

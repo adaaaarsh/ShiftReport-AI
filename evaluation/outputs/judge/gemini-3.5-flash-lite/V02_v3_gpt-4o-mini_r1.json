@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential impact on quality control and production",
+  "Schedule maintenance for M-09 (Line C) to address recurring issues",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely fails on uncertainty and accuracy by guessing a specific machine (M-09) when the input merely stated 'The thing on line C', and by inventing high severity and maintenance schedules from nowhere. It captures the general facts but fabricates numerous impacts and follow-up actions not present in the brief input. Readability is strong, but the hallucinated certainty makes it misleading."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure to follow up on the repairs and safety checks before resuming operations",
+  "Recommend monitoring the compressor closely and scheduling maintenance as necessary to prevent further issues",
+  "Ensure that the tip change is completed prior to the start of the next shift to maintain operational efficiency",
+  "Please ensure all safety protocols are followed regarding the hydraulic press incident",
+  "Follow up with maintenance on the compressor and welding robot to ensure all equipment is functioning properly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs (M-03, M-12, M-06) and provides no severity classifications. It includes several fabricated recommendations and follow-up instructions not present in the input. It also fails to flag any missing information or uncertainties."
+}

@@ -1,0 +1,38 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°F unit added to temperature 450",
+  "Error may indicate potential future issues",
+  "Critical temperature exceeded, potential safety concern",
+  "Temperature returned to normal action (input just states temps are normal now)",
+  "Has the error code been logged for further analysis?",
+  "What measures were taken to prevent future temperature spikes?",
+  "Monitor M-07 for any recurring error codes",
+  "Review temperature control measures for M-10 to ensure compliance with specifications"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report captures all facts from the input accurately regarding the machines, but it invents multiple follow-up recommendations, questions, and specific units (°F). It fails to highlight the contradictions present in the supervisor's input, treating the issues as neatly resolved without capturing the underlying ambiguity. However, the structure and readability are exceptionally high and easy to scan."
+}

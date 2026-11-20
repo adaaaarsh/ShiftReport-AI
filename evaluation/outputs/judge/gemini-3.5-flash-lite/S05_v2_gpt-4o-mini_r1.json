@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the compressor unit using the proper registry ID, accurately captures all facts without introducing any fabrications, and maintains high readability. Severities are defensible, and template items are correctly excluded from fabrication counts. All aspects of the supervisor's input are fully represented."
+}

@@ -1,0 +1,39 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate attention needed to address the leak",
+  "Recommend scheduling maintenance as soon as possible to prevent further issues",
+  "Please ensure that the reteach process is completed during the next shift to maintain operational efficiency",
+  "Please monitor the situation with Machine 17 closely and document any changes in performance or additional issues that may arise",
+  "Ensure that the team is aware of the reteach requirement for Robot 2 to minimize downtime",
+  "Insert Date",
+  "Insert Supervisor Name",
+  "Insert Shift Time",
+  "Insert Contact Information"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all reported items from the input and keeps severities reasonable, but it includes multiple invented action recommendations and follow-up steps not present in the supervisor notes. It also fails to flag the unrecognized machine ID and ambiguity regarding robot 2, treating them as valid specific entities without noting the gaps."
+}

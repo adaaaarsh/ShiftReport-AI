@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "°F unit added to oven temperature",
+  "Insert Date placeholder template fields",
+  "Insert Supervisor's Name placeholder template fields",
+  "Insert Outgoing Shift Time placeholder template fields",
+  "Insert Incoming Shift Time placeholder template fields",
+  "Insert Contact Information placeholder template fields"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported facts from the supervisor input and maps the equipment correctly. It assigns unknown severities properly without guessing. However, it completely misses the internal contradictions present in the input, and invents a temperature unit (°F) not stated by the supervisor."
+}

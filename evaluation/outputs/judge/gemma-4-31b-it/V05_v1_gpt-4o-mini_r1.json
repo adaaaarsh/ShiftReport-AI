@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The issue has been addressed and resolved",
+  "Monitor the CNC machine closely for any further irregularities"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the ambiguity of which CNC machine was involved. It fabricates a definitive resolution ('addressed and resolved') when the supervisor said 'I think'. It also adds a monitoring action not present in the input."
+}

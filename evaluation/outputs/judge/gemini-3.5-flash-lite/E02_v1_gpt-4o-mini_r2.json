@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Immediate attention is required to assess the cause of the downtime and implement necessary repairs.",
+  "Review the details of the press issue from Tuesday's report and continue troubleshooting as necessary.",
+  "Investigate the status of the paint booth on Line D and coordinate with maintenance for repairs.",
+  "Ensure all team members are aware of the ongoing issues and monitor for any further complications.",
+  "Document any changes or updates in the system for future reference."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input and correctly treats severities and missing information. However, it includes several fabricated action items, troubleshooting steps, and recommendations that were not provided by the supervisor. It effectively handles the missing details and unrecognized paint booth reference."
+}

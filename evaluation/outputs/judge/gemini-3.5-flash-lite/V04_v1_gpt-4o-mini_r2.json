@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All team members remained focused",
+  "no reported delays or disruptions in workflow",
+  "Monitor utility systems closely for any further irregularities",
+  "Ensure that all team members are aware of the situation and remain vigilant",
+  "Consider reporting the utility issues to the maintenance team",
+  "No other significant incidents or issues were reported during this shift",
+  "All tasks were completed as scheduled"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies utility fluctuations around lunch and continuous production, but it invents extensive conversational filler, team actions, and recommendations not present in the supervisor input. It fails to flag the specific missing components regarding what kicked on. Overall accuracy is heavily penalized due to multiple fabricated narrative details."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "All team members remained focused",
+  "there were no reported delays or disruptions in workflow",
+  "Monitor utility systems closely for any further irregularities",
+  "Ensure that all team members are aware of the situation and remain vigilant for any potential impacts on production",
+  "Consider reporting the utility issues to the maintenance team for further investigation",
+  "No other significant incidents or issues were reported during this shift",
+  "All tasks were completed as scheduled"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but adds a significant amount of fabricated detail regarding team focus, workflow, and specific recommendations. It fails to flag the ambiguity of the 'something' that kicked on or the specific utility system involved. Severity is not explicitly assigned, which is acceptable given the input."
+}

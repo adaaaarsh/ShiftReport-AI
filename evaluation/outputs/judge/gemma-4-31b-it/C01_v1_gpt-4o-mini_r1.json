@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please monitor Machine 7 for any further error codes and ensure the oven temperatures remain within the specified range",
+  "Keep an eye on Machine 7 for any recurring issues",
+  "Regularly check the oven temperatures to ensure they stay within the acceptable limits"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to assign any severity levels. It ignores the contradictions in the input and does not flag missing information. It also fabricates several monitoring recommendations not present in the supervisor's notes."
+}

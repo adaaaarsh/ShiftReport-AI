@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Time Noticed: Throughout the shift",
+  "Action Taken: None required",
+  "Status: Resolved",
+  "Severity: HIGH — Significant impact on tool performance",
+  "Time Noticed: From 2:00 PM to 4:00 PM",
+  "Status: Ongoing — Issue needs further investigation",
+  "no other issues reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates several details (status, specific times like PM, and impact descriptions). It fails to flag the contradiction between the compressor running normally and the tools losing pressure. Severities are guessed without evidence in the input."
+}

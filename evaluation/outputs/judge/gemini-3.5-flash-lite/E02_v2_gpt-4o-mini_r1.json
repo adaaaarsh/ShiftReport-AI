@@ -1,0 +1,32 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Ongoing",
+  "Status: Pending"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report matches the hydraulic press correctly but misattributes the line D paint booth to M-04 (Injection Molder on Line A), which is an accuracy error. It captures all input details completely. However, it fails to flag the unrecognized paint booth equipment, instead forcing it onto an existing registry ID, and fabricates statuses for both items."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "potential electrical issue",
+  "requires monitoring",
+  "Ongoing — Monitoring required",
+  "Monitor electrical stability and investigate the cause of flickering lights",
+  "No significant production disruptions reported"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report guessed a specific machine (M-12) for an ambiguous utility event and fabricated several monitoring actions and status updates not in the input. It failed to flag the ambiguity of the equipment involved. Severity was assigned as Medium without clear evidence from the input."
+}

@@ -1,0 +1,29 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "Time Noticed: Throughout the shift for M-12",
+  "Action Taken: None required for M-12",
+  "Status: Resolved for M-12",
+  "Severity: 🟠 HIGH — Significant impact on tool performance for Air Tools — Line A",
+  "Time Noticed: From 2:00 PM to 4:00 PM for Air Tools — Line A",
+  "Status: Ongoing — Issue needs further investigation for Air Tools — Line A",
+  "GENERAL NOTES: no other issues reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 1,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report fabricates a significant amount of details including actions, statuses, and specific times not present in the input. It splits the compressor and line A air tools into two separate issues, incorrectly treating the air tools as a standalone machine issue. The severity assigned to the air tools is highly exaggerated compared to the input, and the contradiction between the normal compressor and dropping tool pressure is missed."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "M-14 — HVAC System",
+  "Status: Ongoing",
+  "Monitor HVAC system for any further irregularities",
+  "Investigate cause of flickering lights"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 2,
+ "rationale": "The report incorrectly assigns the utility issue to the HVAC system (M-14) without evidence, which is a guessed specific ID. It fabricates several actions and statuses (Ongoing, Monitor, Investigate) not present in the input. While it captures the facts and assigns a reasonable severity, it fails to flag the ambiguity of the equipment involved."
+}

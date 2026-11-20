@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM added to the times 7 and 9:40",
+  "Production impacted due to stoppage",
+  "Ongoing — Monitoring required for further issues",
+  "No immediate action required",
+  "Equipment down, logistics impacted",
+  "Awaiting battery recharge",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported issues and maps the equipment IDs correctly, but it fabricates several details such as added 'AM' specifiers, assumed impacts on production, and a 'no safety incidents' claim not in the input. Severities are defensible though slightly opinionated, and missing gaps are not thoroughly flagged."
+}

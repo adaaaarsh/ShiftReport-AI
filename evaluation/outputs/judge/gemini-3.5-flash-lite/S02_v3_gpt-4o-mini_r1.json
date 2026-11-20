@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Severity labeled HIGH instead of LOW or MEDIUM",
+  "PENDING ITEMS: Monitor the welding robot for any further issues related to wire feed",
+  "GENERAL NOTES: No additional issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts from the input accurately regarding M-06. However, it overstates the severity to HIGH without justification and adds unprompted pending monitoring tasks and general notes. Readability and completeness are otherwise high, and uncertainty handling is sufficient as there were no major ambiguities in the input."
+}

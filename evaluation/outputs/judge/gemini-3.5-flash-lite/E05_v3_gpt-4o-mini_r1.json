@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "HIGH",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "May affect production efficiency if not addressed",
+  "Potential safety hazard and production impact",
+  "No additional observations or staffing notes reported"
+ ],
+ "accuracy": 1,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report completely misattributes both issues to incorrect machine IDs (M-05 and M-06) instead of noting they are unrecognized or ambiguous, and invents several consequences and commentary not in the input. While it captures the core issues and is well-structured, the severe accuracy and uncertainty failures heavily penalize the score."
+}

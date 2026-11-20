@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the CNC machine closely for any further irregularities"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the vague CNC issue and preserves the instruction to check parts, properly noting the ambiguity of which CNC machine it is. It invents one action item regarding monitoring the machine closely. Severities and completeness are handled appropriately based on the minimal input."
+}

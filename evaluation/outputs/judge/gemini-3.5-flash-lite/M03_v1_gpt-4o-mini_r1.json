@@ -1,0 +1,46 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "AM in 3:20 AM",
+  "Monitor for any changes in performance and consider scheduling maintenance if the noise persists",
+  "Keep an eye on the mill for any further alarms and ensure operators are aware of the incident",
+  "Assess staffing needs for the upcoming shifts to ensure full operational capacity",
+  "Ensure that the coolant pump issue is addressed in the next maintenance schedule",
+  "Follow up on the CNC mill's performance to prevent future overload incidents",
+  "Consider temporary staffing solutions for the packaging line to maintain efficiency",
+  "Please let me know if there are any questions or further details needed"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues and their core facts, but it includes multiple fabricated recommendations, next steps, and sign-offs not present in the input. Severity levels are omitted or left unknown, and the template contains placeholder text and invented details like AM. Readability is generally good with clear structure despite the padding."
+}

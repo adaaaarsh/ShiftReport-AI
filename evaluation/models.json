@@ -1,18 +1,98 @@
 {
   "_about": "Free-tier OpenAI-compatible endpoints. Limits are the Groq free-plan values listed at console.groq.com/docs/rate-limits on 2026-11-05; check your own Limits page and lower them if yours differ. Gemini free-tier limits are shown only in your AI Studio account: fill them in before judging.",
   "providers": {
-    "groq":   {"base_url": "https://api.groq.com/openai/v1", "key_env": "GROQ_API_KEY"},
-    "gemini": {"base_url": "https://generativelanguage.googleapis.com/v1beta/openai/", "key_env": "GEMINI_API_KEY"}
+    "groq": {
+      "base_url": "https://api.groq.com/openai/v1",
+      "key_env": "GROQ_API_KEY"
+    },
+    "gemini": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "key_env": "GEMINI_API_KEY"
+    },
+    "openai": {
+      "base_url": "https://api.openai.com/v1",
+      "key_env": "OPENAI_API_KEY"
+    }
   },
   "generators": [
-    {"id": "groq:openai/gpt-oss-20b",  "family": "gpt-oss", "size_b": 20,  "rpm": 30, "tpm": 8000, "max_tokens": 4000, "extra": {"reasoning_effort": "low"}},
-    {"id": "groq:openai/gpt-oss-120b", "family": "gpt-oss", "size_b": 120, "rpm": 30, "tpm": 8000, "max_tokens": 4000, "extra": {"reasoning_effort": "low"}},
-    {"id": "groq:qwen/qwen3.8-27b",    "family": "qwen",    "size_b": 27,  "rpm": 30, "tpm": 8000, "max_tokens": 4000, "extra": {"reasoning_format": "hidden"}}
+    {
+      "id": "groq:openai/gpt-oss-20b",
+      "family": "gpt-oss",
+      "size_b": 20,
+      "rpm": 30,
+      "tpm": 8000,
+      "max_tokens": 4000,
+      "extra": {
+        "reasoning_effort": "low"
+      }
+    },
+    {
+      "id": "groq:openai/gpt-oss-120b",
+      "family": "gpt-oss",
+      "size_b": 120,
+      "rpm": 30,
+      "tpm": 8000,
+      "max_tokens": 4000,
+      "extra": {
+        "reasoning_effort": "low"
+      }
+    },
+    {
+      "id": "groq:qwen/qwen3.8-27b",
+      "family": "qwen",
+      "size_b": 27,
+      "rpm": 30,
+      "tpm": 8000,
+      "max_tokens": 4000,
+      "extra": {
+        "reasoning_format": "hidden"
+      }
+    },
+    {
+      "id": "openai:gpt-4o-mini",
+      "family": "gpt-4o",
+      "size_b": null,
+      "rpm": 60,
+      "tpm": 150000,
+      "max_tokens": 4000,
+      "extra": {},
+      "role": "deployed_check"
+    }
   ],
   "_judges_note": "Free-tier limits from the AI Studio Rate limits page, 2026-11-05: gemini-3.5-flash-lite 15 RPM / 250K TPM / 500 RPD; gemma-4-31b-it 30 RPM / 16K TPM / 14.4K RPD. Regular Flash models allow only 20 RPD, too few for 750 reports.",
   "judges": [
-    {"id": "gemini:gemini-3.5-flash-lite", "family": "gemini", "rpm": 14, "tpm": 250000, "max_tokens": 8000, "extra": {}, "primary": true, "scope": "all"},
-    {"id": "gemini:gemma-4-31b-it", "family": "gemma", "rpm": 28, "tpm": 16000, "max_tokens": 6000, "extra": {}, "primary": false, "scope": "all"},
-    {"id": "groq:openai/gpt-oss-120b", "family": "gpt-oss", "rpm": 30, "tpm": 8000, "max_tokens": 6000, "extra": {"reasoning_effort": "medium"}, "primary": false, "scope": "sample"}
-  ]
+    {
+      "id": "gemini:gemini-3.5-flash-lite",
+      "family": "gemini",
+      "rpm": 14,
+      "tpm": 250000,
+      "max_tokens": 8000,
+      "extra": {},
+      "primary": true,
+      "scope": "all"
+    },
+    {
+      "id": "gemini:gemma-4-31b-it",
+      "family": "gemma",
+      "rpm": 28,
+      "tpm": 16000,
+      "max_tokens": 6000,
+      "extra": {},
+      "primary": false,
+      "scope": "all"
+    },
+    {
+      "id": "groq:openai/gpt-oss-120b",
+      "family": "gpt-oss",
+      "rpm": 30,
+      "tpm": 8000,
+      "max_tokens": 6000,
+      "extra": {
+        "reasoning_effort": "medium"
+      },
+      "primary": false,
+      "scope": "sample"
+    }
+  ],
+  "_deployed_check_note": "openai:gpt-4o-mini is ShiftReport AI's default model in app.py. It is a separate check (role deployed_check): analyze.py keeps it out of the main three-model results and reports it on its own. Paid API, about $0.15 for 240 reports."
 }

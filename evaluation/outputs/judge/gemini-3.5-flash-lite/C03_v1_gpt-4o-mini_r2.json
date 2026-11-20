@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM",
+  "Please ensure that the maintenance team addresses the issues with Forklift 1 before it is returned to service.",
+  "Ensure that the shipping team is aware of the current status of Forklift 1 and that they plan accordingly for the next shift.",
+  "Follow up on the maintenance status of Forklift 1 to minimize downtime.",
+  "Monitor the shipping area for any backlog due to the unavailability of Forklift 1.",
+  "Please ensure that all safety protocols are followed when handling equipment that is out of service."
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but hallucinates several operational recommendations, advice, and an AM/PM time specification. It fails to notice or flag the major contradiction in the input where a tagged-out forklift was supposedly used. The structure is readable, but the fabrications and missed contradictions heavily penalize accuracy and uncertainty handling."
+}

@@ -1,0 +1,43 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "2:10 PM",
+  "Status: Ongoing — Awaiting maintenance response",
+  "Could lead to further issues if not addressed",
+  "Routine maintenance needed, no immediate impact",
+  "Ensure safety protocols are reviewed with the team"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all reported issues and details accurately in terms of core facts, but invents a specific time suffix (PM), status descriptions, and additional recommendations. It correctly maps all equipment IDs and severities, maintaining a very clean and professional structure. However, it fails to flag missing information gaps such as whether an incident report was filed or who must approve the return to service."
+}

@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "HVAC system activated unexpectedly",
+  "indicates a potential electrical issue",
+  "Status: Ongoing — Monitor for further occurrences",
+  "Monitor HVAC system for stability and check electrical connections",
+  "No significant production issues reported during the shift"
+ ],
+ "accuracy": 1,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly identifies the ambiguous 'something' as the HVAC system (M-14) without flagging the ambiguity. It fabricates several details regarding the cause, status, and pending actions. It also presents the ambiguous input as a certainty, failing the uncertainty rubric."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the quality inspection scanner on Line C for any further irregularities",
+  "Ensure that the recalibration process is documented for future reference",
+  "No other significant issues were reported during the shift",
+  "All other equipment and processes are functioning within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts accurately but includes several fabricated action items and summary statements not present in the input. It fails to flag the missing cause of the calibration drift, presenting the situation as fully resolved."
+}

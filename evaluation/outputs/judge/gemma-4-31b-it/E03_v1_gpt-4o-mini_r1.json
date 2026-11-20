@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "wrong_id",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend monitoring the situation closely and scheduling maintenance if the noise persists",
+  "Please ensure that this is reported to maintenance for prompt attention",
+  "Monitor Mill A for any further spindle noise and consider scheduling maintenance",
+  "Follow up on the status of the parking lot lights and ensure repairs are initiated"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report fails to use the registry IDs (referring to 'Mill A' instead of M-01) and provides no severity classification. It fabricates several recommendations and action items not present in the input. It also fails to flag any uncertainty regarding the lack of a specific machine ID."
+}

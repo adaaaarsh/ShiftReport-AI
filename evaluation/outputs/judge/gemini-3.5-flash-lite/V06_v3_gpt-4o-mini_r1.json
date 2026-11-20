@@ -1,0 +1,37 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Minor observation, no immediate production impact",
+  "Ongoing - Monitoring required",
+  "Possible performance issue, could affect production",
+  "Ongoing - Further investigation needed",
+  "Monitor the smell near M-10 (Industrial Oven) for any changes",
+  "Investigate the intermittent pauses of M-06 (Welding Robot Arm)",
+  "No critical issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report accurately identifies the correct machine IDs from the vague input. However, it fabricates various statuses, action items, and claims about no critical issues, and assigns specific severities to vague observations. It covers all the basic facts provided by the supervisor but adds considerable unverified commentary and tasks."
+}

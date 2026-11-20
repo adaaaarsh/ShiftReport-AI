@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Schedule a maintenance check for Line C.",
+  "Monitor Line C closely until the issue is resolved.",
+  "Please ensure to document any further occurrences or changes in performance on Line C for future reference."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly captures the facts about the recurring issue on Line C and assigns an appropriate unknown severity, but it invents multiple action items and recommendations not found in the input. It completely fails to surface the uncertainty regarding which specific machine on Line C is acting up, turning an ambiguous reference into a blanket Line C issue. Structure and readability are excellent, but the fabrication of maintenance tasks and lack of uncertainty handling lower the accuracy and uncertainty scores."
+}

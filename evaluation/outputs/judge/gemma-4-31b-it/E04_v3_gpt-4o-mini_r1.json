@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Potential risk of product quality issues due to temperature deviation",
+  "Monitor temperature stability of M-10 (Line C) after batch completion",
+  "Address interlock bypass on M-10 (Line C) — restore to normal operation",
+  "No additional issues reported during the shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input and correctly identifies the machine. However, it fabricates several details in the 'Pending Items' and 'General Notes' sections, and fails to flag any of the missing critical information (like whether the bypass was documented). It presents the situation as fully understood without surfacing uncertainties."
+}

@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-09",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the scanner on Line C for any further irregularities",
+  "Ensure that all operators are aware of the recalibration procedure for future reference",
+  "No other significant issues were reported during the shift",
+  "All other equipment and processes are functioning within normal parameters"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to provide a machine ID from the registry and assigns no severity. It fabricates several action items and general status claims not present in the input. It also fails to flag the missing cause of the calibration drift."
+}

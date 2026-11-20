@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "15:00",
+  "Status: Ongoing",
+  "Follow up on the status of the hydraulic press repair"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the machine and issue, but fabricates a specific time (15:00) and a pending action not in the input. It fails to flag the missing information regarding whether the press is still running. Readability is excellent."
+}

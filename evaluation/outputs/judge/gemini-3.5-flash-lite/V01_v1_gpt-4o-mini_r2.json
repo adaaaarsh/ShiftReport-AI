@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend that the incoming shift conducts a thorough inspection of the machine to identify the source of the noise and assess any potential impact on operations.",
+  "It is advisable for the incoming shift to investigate the area to locate the leak and determine the necessary repairs.",
+  "Please prioritize the inspection of both issues to ensure safety and operational efficiency.",
+  "Document any findings and actions taken for future reference."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures both issues accurately and handles uncertainty well without making false assumptions, but it invents several recommended actions and general advice not present in the input. All stated facts and missing details are appropriately handled. Readability and completeness are very strong."
+}

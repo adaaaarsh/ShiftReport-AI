@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM",
+  "Monitor for further developments",
+  "No direct impact on production, but may affect safety"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures the M-01 issue and handles the general notes well, but incorrectly turns a distractor (M-05 line B mill being fine) into a formal issue and fabricates the AM/PM designation ('PM') as well as minor commentary. The format is clean, scannable, and assigns defensible severities."
+}

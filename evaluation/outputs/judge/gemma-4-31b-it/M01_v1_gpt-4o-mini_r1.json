@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-04",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitoring required to assess the impact on production",
+  "Immediate attention required to address temperature control for employee comfort",
+  "Follow up on the lathe tooling issue and check for availability of the required insert to minimize downtime",
+  "Monitor the injection molder's cycle time closely and investigate potential causes for the increase",
+  "Report the HVAC issue to maintenance for prompt resolution to ensure a comfortable working environment",
+  "Ensure all team members are aware of the current equipment statuses and any ongoing issues",
+  "Maintain communication with maintenance regarding the lathe tooling and HVAC concerns"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs (M-02, M-04, M-14). It fabricates numerous recommendations and action items not present in the input. Severities are completely missing, and it presents the information as complete without flagging any missing details or ambiguities."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "prior to shutdown",
+  "Ensure to monitor the status of the parts order for the hydraulic press and follow up as necessary to minimize downtime.",
+  "Please keep the team informed about the repair timeline to adjust production schedules accordingly."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input accurately and uses the correct machine ID for the hydraulic press on Line A. However, it invents context such as running fine 'prior to shutdown' and adds recommendations and follow-up actions not present in the notes. It also fails to surface the chronological contradiction between being shut down and running 400 pieces this afternoon, earning a low uncertainty score."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no further action required",
+  "Status: Resolved",
+  "Staffing levels and operations appear normal"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to flag the contradiction between 'no safety incidents' and the burn injury. It fabricates several details regarding status and staffing. Severity is assigned as LOW without evidence that no further action is required."
+}

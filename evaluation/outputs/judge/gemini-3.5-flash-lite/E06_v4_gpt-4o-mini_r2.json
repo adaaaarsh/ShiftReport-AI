@@ -1,0 +1,30 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 1
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in time 3:00 PM",
+  "potential escalation risk",
+  "Leak has been present since 3:00 PM",
+  "Maintenance has been called",
+  "Ongoing",
+  "Has the leak been assessed for severity?",
+  "Is there a risk of further issues?",
+  "Follow up on maintenance visit for M-03 (Line A) — oil leak assessment"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the hydraulic press (M-03) and notes the lathe (M-02) as operating normally without turning the distractor into an issue. However, it fabricates several details such as adding 'PM' to the time 3, specifying maintenance 'has been called', and inventing several assessment steps and pending follow-ups. Completeness, severity, readability, and uncertainty handling are all well-managed, but accuracy suffers due to the multiple invented details."
+}

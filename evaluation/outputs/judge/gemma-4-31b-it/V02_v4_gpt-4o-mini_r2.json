@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-09,M-10,M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 2,
+   "missing_flagged": 3
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [],
+ "accuracy": 5,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report accurately captures the ambiguous nature of the input, correctly flags the missing information, and assigns a severity of UNKNOWN due to insufficient detail. No details were fabricated, and the structure is highly readable."
+}

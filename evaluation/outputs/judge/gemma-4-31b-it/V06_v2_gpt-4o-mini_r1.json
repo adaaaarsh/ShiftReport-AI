@@ -1,0 +1,36 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Observed, deemed probably nothing significant",
+  "Action Taken: Monitored the situation",
+  "Status: Ongoing",
+  "Investigate the smell near the industrial oven area further",
+  "Monitor the welding robot arm for any recurring issues",
+  "No major incidents reported during the shift, but attention is needed on the noted issues"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues and correctly identifies the machines. However, it fabricates several actions, statuses, and pending items not found in the input. It also fails to flag any missing information or uncertainty regarding the causes of the issues."
+}

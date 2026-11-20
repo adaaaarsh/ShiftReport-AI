@@ -1,0 +1,51 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-07",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-02",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-14",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-05",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Designated M-07 as an employee rather than a machine",
+  "Added 'PM' to the time 5",
+  "Added recommendations for the next shift to monitor and address/inspect",
+  "Added general instruction to follow safety protocols",
+  "Added request to document further incidents"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 4,
+ "readability": 4,
+ "uncertainty": 3,
+ "rationale": "The report captures all four issues correctly, but it introduces several fabricated details such as labeling machine M-07 as an employee and adding unstated recommendations and safety protocols. Severities are reasonable and readability is high, but it invents context not provided in the original notes."
+}

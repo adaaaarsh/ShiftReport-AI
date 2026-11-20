@@ -1,0 +1,5 @@
+version,reports,overall_score,fabrication_%,fabricated_items_per_report,issue_recall_%,machine_id_acc_%,ambiguous_flagged_%,ambiguous_guessed_%,missing_flag_recall_%,contradiction_recall_%,severity_ok_%,distractors_as_issues,unsupported_reassurance_%,ids_not_in_registry
+v1,60,3.76,100.0,4.73,100.0,88.2,82.4,17.6,10.6,0.0,92.2,4,9.3,0
+v2,60,3.71,93.3,2.8,100.0,100.0,0.0,77.8,2.9,0.0,63.7,5,22.2,0
+v3,60,3.63,96.7,3.95,100.0,100.0,11.1,77.8,7.6,0.0,63.7,7,40.7,0
+v4,60,4.24,93.3,3.42,100.0,100.0,61.1,38.9,51.8,0.0,79.4,7,63.0,0

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor Oven C closely to ensure it maintains the desired temperature.",
+  "Be aware that the interlock is bypassed; ensure it is re-engaged after the batch is completed.",
+  "Confirm with Mike or relevant personnel regarding any further actions needed for Oven C."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly identifies the industrial oven on Line C (M-10) and captures all facts from the input accurately. However, it includes several invented monitoring steps and action recommendations for the incoming shift that were not in the source text, leading to an accuracy deduction. Severities and completeness are handled very well, and uncertainty is properly addressed."
+}

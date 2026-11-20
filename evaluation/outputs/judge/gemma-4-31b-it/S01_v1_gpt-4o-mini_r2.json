@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please monitor the packaging unit on Line B for any unusual behavior during the next shift.",
+  "Ensure that all team members are aware of the incident and the resolution for future reference."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but adds fabricated instructions for the incoming shift. It fails to provide a machine ID from the registry and does not assign a severity, though the rubric allows for 'Unknown' or 'None' if not guessed. Uncertainty is low because it presents the information as complete without flagging the lack of a registry ID."
+}

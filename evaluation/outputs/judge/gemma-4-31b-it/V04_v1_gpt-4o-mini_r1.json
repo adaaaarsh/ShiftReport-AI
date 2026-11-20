@@ -1,0 +1,27 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "no reported disruptions to workflow or safety concerns",
+  "monitor the utility systems closely in the upcoming shifts",
+  "reporting the incident to the maintenance team",
+  "All other operations proceeded smoothly during the shift",
+  "No other significant issues were reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts from the input but fails to identify the ambiguity of the equipment involved or flag missing information. It fabricates several operational claims and recommendations not present in the supervisor's notes. Readability is high, but uncertainty handling is non-existent."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Production halted until issue resolved",
+  "AM added to times",
+  "No staffing or safety incidents reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report correctly captures all details and maps the welding robot to M-06, but it inflates the severity to HIGH without justification from the input. Additionally, it invents extra descriptive details regarding the halt of production and explicitly notes no safety incidents which were not mentioned."
+}

@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "3 PM",
+  "Please ensure to monitor the hydraulic press area for any further developments until maintenance arrives.",
+  "Ensure that all safety protocols are followed in the vicinity of the hydraulic press due to the oil leak."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 1,
+ "rationale": "The report accurately identifies the hydraulic press (M-03) and captures all the facts from the input, but it fabricates the time '3 PM' and adds unrequested monitoring and safety instructions. It handles the severity reasonably well as Medium, but fails to highlight the missing information about whether the press is still running. Overall structure is clean and readable, but the inclusion of invented details drops its accuracy score."
+}

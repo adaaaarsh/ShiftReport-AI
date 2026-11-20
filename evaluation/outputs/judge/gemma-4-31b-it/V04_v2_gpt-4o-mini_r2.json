@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-12,M-13,M-14",
+   "reported": true,
+   "machine_handling": "guessed_specific_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Action Taken: Monitored situation",
+  "Status: Resolved",
+  "Pending Items: Monitor HVAC system for any further irregularities"
+ ],
+ "accuracy": 2,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report incorrectly assigns the utility issue to the HVAC system (M-14) without flagging the ambiguity. It fabricates actions taken, the resolution status, and a pending monitoring task. Severity is assigned as Medium without supporting evidence in the input."
+}

@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-10",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 5,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "No additional issues or staffing notes reported"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly identifies M-10 and captures all facts from the input, but rates the severity as HIGH rather than CRITICAL or noting uncertainty, and hallucinates a general note stating no additional issues were reported when none were mentioned. It has excellent readability and correctly identifies pending items like restoring the interlock. Uncertainty handling is moderate because it does not explicitly flag the missing batch quality check or authorization documentation."
+}

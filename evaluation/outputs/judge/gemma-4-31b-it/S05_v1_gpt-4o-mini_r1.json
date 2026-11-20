@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 6,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitor the compressor unit closely for any further irregularities",
+  "Ensure that all air tools on Line A are functioning properly before resuming full operations",
+  "Follow up with maintenance regarding the inspection findings and any necessary repairs",
+  "Please ensure to document any further incidents or operational changes during your shift"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to provide a machine ID from the registry and completely omits severity classification. It fabricates several recommendations and notes not present in the input. It also fails to flag the missing information regarding scrapped parts."
+}

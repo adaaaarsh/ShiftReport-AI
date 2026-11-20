@@ -1,0 +1,35 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-05,M-06,M-07,M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-03,M-04",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "UNKNOWN",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "unusual sounds during the shift",
+  "Recommend monitoring the machine closely and conducting a thorough inspection to identify the source of the noise",
+  "though the exact source has not been identified",
+  "Suggest that the incoming shift investigate the leak further to determine its origin and necessary repairs",
+  "to ensure operational efficiency and safety"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 4,
+ "uncertainty": 5,
+ "rationale": "The report captures all information from the input accurately and uses Unknown severity appropriately for ambiguous equipment. However, it includes several invented details and recommendations such as recommending thorough inspections and mentioning operational efficiency and safety. Overall, the structure is clean and appropriately flags the ambiguities."
+}

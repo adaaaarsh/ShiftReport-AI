@@ -1,0 +1,34 @@
+{
+ "issues": [
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "UNRECOGNIZED",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommend scheduling maintenance as soon as possible to prevent further issues",
+  "Please ensure that the reteach process is completed during the next shift to maintain operational efficiency",
+  "Please monitor the situation with Machine 17 closely and document any changes in performance or additional issues that may arise",
+  "Ensure that the team is aware of the reteach requirement for Robot 2 to minimize downtime"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all issues but fails to flag that Machine 17 and Robot 2 are not in the registry, presenting them as valid IDs. It fabricates several recommendations and monitoring steps not found in the input. Severities are missing entirely."
+}

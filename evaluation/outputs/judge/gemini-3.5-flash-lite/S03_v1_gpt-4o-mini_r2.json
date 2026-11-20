@@ -1,0 +1,23 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "please monitor and schedule a refill if levels drop significantly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report correctly captures all details from the supervisor input and uses the right machine ID for the backup generator, but it invents an instruction to monitor and schedule a refill. Severities and completeness are handled well. Readability is strong, though there are template placeholder fields."
+}

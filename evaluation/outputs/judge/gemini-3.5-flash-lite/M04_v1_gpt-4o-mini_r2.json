@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM time designator",
+  "immediately",
+  "Recommend monitoring the compressor closely and scheduling maintenance as necessary to prevent further issues",
+  "Ensure that the tip change is completed prior to the start of the next shift to maintain operational efficiency",
+  "Please ensure all safety protocols are followed regarding the hydraulic press incident",
+  "Follow up with maintenance on the compressor and welding robot to ensure all equipment is functioning properly"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues accurately and maps the equipment IDs correctly. However, it includes several invented recommendations, actions, and the 'PM' suffix on the time which count as fabrications. Severities and completeness are handled very well, though uncertainty handling is only moderate because it adds advisory text instead of highlighting gaps."
+}

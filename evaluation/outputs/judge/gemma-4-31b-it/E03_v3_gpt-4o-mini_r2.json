@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM (time of day)",
+  "Status: Ongoing — Monitor for further developments",
+  "Status: Resolved (for M-05)",
+  "Status: Pending — Needs attention (for Parking Lot Lights)"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report correctly identifies the issue with M-01 and captures the facts. However, it incorrectly turns a distractor (Mill on B) into a reported issue (M-05 Conveyor Belt System), which is a machine mismatch. It also fabricates status updates and a specific time of day (PM) not found in the input."
+}

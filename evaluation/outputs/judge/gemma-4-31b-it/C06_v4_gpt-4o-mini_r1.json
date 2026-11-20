@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Status: Pending",
+  "Has maintenance been notified?"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all facts but fails to flag the contradiction between the compressor's steady pressure and the tools losing pressure. It fabricates statuses ('Resolved', 'Pending') and a specific question about maintenance. It treats the air tools as separate unrecognized equipment rather than a potential issue related to the compressor system."
+}

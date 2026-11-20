@@ -1,0 +1,45 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "PM in 3:20 PM time",
+  "Noise may indicate potential future issues",
+  "Machine operational after restart, but alarm indicates potential issue",
+  "Reduced production capacity due to staffing issue",
+  "Monitor the whining noise from M-11 (Line C) for any changes",
+  "Check on the CNC Milling Machine (M-01) for any recurring issues after the spindle overload alarm",
+  "Address staffing for M-08 (Line B) to return to full production speed"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all three reported issues and maps the correct machine IDs. However, it introduces multiple fabricated monitoring steps, recommendations, and adds 'PM' to the 3:20 time. Severities and monitoring tasks are plausible but unsupported by the direct input."
+}

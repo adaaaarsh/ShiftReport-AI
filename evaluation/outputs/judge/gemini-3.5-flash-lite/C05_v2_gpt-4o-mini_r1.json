@@ -1,0 +1,24 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "No pending items reported."
+ ],
+ "accuracy": 3,
+ "completeness": 3,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the welding robot incident and matches the correct registry ID, but it assigns a Low severity to a burn injury and completely misses the inherent contradiction present in the supervisor input by restating that no safety incidents occurred. It also invents status information such as marking the issue as resolved."
+}

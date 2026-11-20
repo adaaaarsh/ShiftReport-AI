@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-03",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 5,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-12",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-06",
+   "reported": true,
+   "machine_handling": "not_reported",
+   "severity_given": "NONE",
+   "facts_captured": 1,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Please ensure to follow up with safety protocols and maintenance updates",
+  "Monitor performance and report any further issues to maintenance for inspection",
+  "Ensure that this maintenance is completed prior to the start of the next shift to avoid delays in production",
+  "Please ensure that all safety protocols are followed regarding the hydraulic press incident and that all team members are briefed on the situation",
+  "Monitor the compressor closely and document any irregularities",
+  "Schedule the tip change for the welding robot at the earliest opportunity"
+ ],
+ "accuracy": 4,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs (M-03, M-12, M-06) and provides no severity classifications. It contains numerous fabricated 'Action Required' and 'Additional Notes' instructions not found in the input. Uncertainty handling is non-existent as it presents the information as complete without flagging missing details."
+}

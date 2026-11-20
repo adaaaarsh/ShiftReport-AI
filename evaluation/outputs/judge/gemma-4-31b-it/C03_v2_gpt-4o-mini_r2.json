@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-15",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "CRITICAL",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Forklift 1 was used to move the finished pallets to shipping at 6 before being tagged out",
+  "Address the status of Forklift 1 and arrange for repairs",
+  "Ensure that all operators are aware of the status of Forklift 1 and do not attempt to use it until it is back in service"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fabricates a sequence of events (that it was used *before* being tagged out) to resolve a contradiction it should have flagged. It also adds fabricated pending items and general notes. It fails to surface the blatant contradiction between being 'tagged out' and 'used at 6'."
+}

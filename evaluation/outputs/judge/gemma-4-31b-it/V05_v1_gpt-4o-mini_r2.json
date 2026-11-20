@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "AMBIGUOUS:M-01,M-02,M-07",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "The issue has been addressed and rectified",
+  "Monitor the CNC machine closely for any further discrepancies",
+  "document any findings related to the parts and report back if any further issues arise"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures the core facts but fails to flag the ambiguity of which CNC machine was involved. It fabricates a definitive 'rectified' status when the input said 'I think' and adds several generic monitoring instructions. No severity was assigned, and no missing information was flagged."
+}

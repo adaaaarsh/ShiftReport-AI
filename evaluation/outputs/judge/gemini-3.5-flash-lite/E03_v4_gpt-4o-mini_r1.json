@@ -1,0 +1,26 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 2
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 1,
+ "fabricated_details": [
+  "PM time designation",
+  "May indicate potential future issues",
+  "Who is responsible for maintenance of parking lot lights?",
+  "Consider maintenance check"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all real and distractor items accurately from the supervisor notes, providing clear severity and uncertainty handling. However, it introduces several minor fabricated details such as adding PM to the timestamp and inventing follow-up questions and reasoning not present in the input. Readability and completeness are excellent with a well-structured format."
+}

@@ -1,0 +1,41 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "MEDIUM",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "HIGH",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Monitoring ongoing; no immediate action taken as flow is fine",
+  "Adjusted production speed to accommodate reduced staffing",
+  "Staffing shortage in the packaging unit due to Maria's absence impacted production efficiency"
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 3,
+ "readability": 5,
+ "uncertainty": 3,
+ "rationale": "The report captures all issues accurately with correct machine IDs, but includes a few invented action details such as claiming monitoring is ongoing and production speed was adjusted. The severity assigned to the packaging unit is high despite minimal supporting evidence, though the format is exceptionally clean and readable."
+}

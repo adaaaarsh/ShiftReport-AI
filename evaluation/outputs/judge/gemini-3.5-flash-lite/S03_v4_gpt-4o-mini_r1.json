@@ -1,0 +1,25 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-13",
+   "reported": true,
+   "machine_handling": "correct_id",
+   "severity_given": "LOW",
+   "facts_captured": 4,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Status: Resolved",
+  "Monitor fuel levels",
+  "No other issues or incidents reported during the shift."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 5,
+ "readability": 5,
+ "uncertainty": 5,
+ "rationale": "The report captures all facts and assigns the correct severity, but invents a few details such as listing the status as 'Resolved', adding a pending recommendation to monitor fuel levels, and stating no other issues occurred. Overall, it remains clear, structured, and mostly faithful to the concise input."
+}

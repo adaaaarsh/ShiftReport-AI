@@ -1,0 +1,44 @@
+{
+ "issues": [
+  {
+   "key_ref": "M-11",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 2,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-01",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  },
+  {
+   "key_ref": "M-08",
+   "reported": true,
+   "machine_handling": "flagged_ambiguous_or_unrecognized",
+   "severity_given": "NONE",
+   "facts_captured": 3,
+   "missing_flagged": 0
+  }
+ ],
+ "contradictions_flagged": 0,
+ "distractors_reported_as_issues": 0,
+ "fabricated_details": [
+  "Recommendation: Monitor for any changes in performance or noise level.",
+  "Recommendation: Continue to monitor for any further alarms.",
+  "Recommendation: Consider scheduling a temporary replacement or adjusting workload to accommodate the reduced capacity.",
+  "Ensure that the coolant pump is monitored closely for any changes in its operational sound or performance.",
+  "Keep an eye on the CNC mill for any recurrence of the spindle overload alarm.",
+  "Address staffing shortages promptly to maintain efficiency in the packaging line."
+ ],
+ "accuracy": 3,
+ "completeness": 5,
+ "severity": 1,
+ "readability": 5,
+ "uncertainty": 1,
+ "rationale": "The report captures all facts but fails to use the provided registry IDs, instead using descriptive names. It fabricates several recommendations and general notes not found in the input. Severities are completely missing, and it does not flag any missing information or ambiguities."
+}
